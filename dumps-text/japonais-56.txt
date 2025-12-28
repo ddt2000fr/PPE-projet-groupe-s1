@@ -1,0 +1,1608 @@
+
+
+        
+
+            Skip to main content
+        
+
+
+        
+
+        
+
+            
+
+                
+Advertisement
+
+                
+
+
+
+    
+
+        
+
+            googletag.cmd.push(function () {
+                googletag.display('div-gpt-ad-LB1');
+            });
+        
+
+    
+
+
+
+            
+
+        
+
+        
+        
+
+        
+&lt;iframe src=&#34;https://www.googletagmanager.com/ns.html?id=GTM-NN9H6SH&#34;
+        height=&#34;0&#34; width=&#34;0&#34; style=&#34;display:none;visibility:hidden&#34;&gt;&lt;/iframe&gt;
+
+        
+
+
+ 
+
+	
+
+        
+
+            
+
+                
+
+                    
+
+                        
+                        
+
+    
+
+        
+
+        
+
+    
+
+
+
+                    
+
+                    
+
+                        
+
+                            
+
+                                
+購読する
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+    
+
+        
+
+            
+
+                
+コンテンツ
+
+                
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+今月号
+
+                        
+
+                        
+
+                            
+バックナンバー
+
+                        
+
+                        
+
+                            
+アーカイブ検索
+
+                        
+
+                        
+
+                            
+コレクション
+
+                        
+
+                        
+
+                            
+Nature Video活用事例
+
+                        
+
+                        
+
+                            
+1年を振り返って
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+ジャーナルについて
+
+            
+
+        
+
+    
+
+
+                    
+
+                    
+
+                        
+ nature.com
+
+                                
+                        
+                            
+ サイト登録
+
+                            
+ ログイン
+
+                        
+        
+                        
+
+                            
+日本語 
+
+                            
+
+                                
+English
+
+                                
+中文（简体）
+
+                            
+
+                        
+
+                    
+
+                    
+
+                
+
+            
+
+
+	
+
+
+	
+
+	        
+
+            
+
+                
+
+                    
+
+                        
+Nature Japan
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+
+    
+Nature ダイジェスト
+
+    
+
+        
+
+    
+
+
+
+
+
+    
+Vol. 10 No. 1
+
+    
+
+        
+
+    
+
+
+
+
+
+    
+Japanese Author
+
+    
+
+        
+
+    
+
+
+
+
+細胞生物学の最後の謎、中心体に迫る
+
+                
+
+            
+
+        
+
+	
+    
+
+        
+
+
+
+
+
+        
+
+
+    
+
+        
+
+            
+Japanese Author
+
+        
+
+        
+細胞生物学の最後の謎、中心体に迫る
+
+        
+動物細胞の細胞小器官である中心体。細胞分裂時に染色体を引っ張る「手」を形作る役割は知られていたが、それ以外はあまり注目されてこなかった。だが最近、繊毛との関係がクローズアップされたり、細胞分裂や分化の「司令塔」としての働きが示唆され、脚光を浴びている。34歳の若き細胞生物学者、北川大樹氏は、中心体の分子構造を明らかにし、中心体研究に大きな突破口を開いた一人である。
+
+
+        
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+
+        
+        
+
+            
+
+                
+–– 「中心体生物学」の研究室を立ち上げたそうですが?
+
+
+
+北川：
+ 中心体は、「細胞生物学の最後の謎」とも呼ばれる細胞小器官です。細胞の内部構造に関してはさまざまに研究が行われてきましたが、中心体については、これまで分子レベルの研究がほとんど進んでいませんでした。しかし、今、中心体が細胞の中で重要な役割を果たしていることが少しずつ示唆されてきています。
+
+
+
+私は中心体の謎に取り組もうと、2006年にスイス連邦工科大学ローザンヌ校で研究を始め、2011年に帰国してからは国立遺伝学研究所で研究室を立ち上げました。日本で「中心体生物学」を名 乗っているのは私たちだけだと思います。近年、世界的に研究が活発化している分野です。
+
+
+
+–– 生物教科書で、2本の円筒状の構造として描かれるのが中心体ですね？
+
+
+
+北川：
+ はい。中心体は、ほとんどの動物細胞に含まれており、光学顕微鏡では小さな点に見えます。電子顕微鏡で見ると、円筒状の構造が2本、互いに90度の角度を保って存在しているのがわかります。各円筒状構造は「中心小体」と呼ばれ（「中心子」ともいう）、断面が特徴的なリング構造、すなわち9回対称構造（図1）をしています。
+
+
+
+
+
+図1：
+左は中心体の模式図。その右３つは中心小体を輪切りにした断面図で、電顕図（左）、X線構造解析の図（中央）、模式図（右）。
+
+
+Credit: 北川大樹
+
+
+
+
+
+
+
+しかし半世紀ほど前にこの構造が電顕写真に写されて以降、分子レベルでの解析は進んでいなかったのです。
+
+
+
+–– その解明に現在取り組んでいる…。
+
+
+
+北川：
+ そうです。未解明な部分が多く、魅力的な研究テーマなのです。実際、細胞の分裂や発生分化において、中心体が司令塔の役目を果たしているのではないかというような新たな認識も、いろいろな研究者のデータから得られつつあります。
+
+
+
+–– すでに一般的に知られている中心体の機能もありますね?
+
+
+
+北川：
+ 主に2つ。1つは、細胞分裂のときに染色体を分ける「手」を形作ることです。この手の働きなしには、分裂はうまく進みません。さらに、この手は染色体を両極に引っ張るため、細胞の方向性（極性）を決めるうえでも重要です。
+
+
+
+–– もう1つの機能とは?
+
+
+
+北川：
+ 精子の鞭毛や細胞の繊毛（シリア）といった構造体を形成する機能です。中心小体が細胞膜にドッキングして「基底小体」と呼ばれる構造になり、そこから鞭毛や繊毛が生えてくるのが観察されています。
+
+
+
+鞭毛は精子の運動に必須ですし、繊毛は細胞外の情報をキャッチしたり、水流を起こして細胞の方向性を形成したりと、重要な機能を果たしているものです。
+
+
+
+中心体が複製される仕組みを探る
+
+
+
+–– 北川さんは、どのような観点から研究をされているのですか?
+
+
+
+北川：
+ 細胞に含まれる中心体は１個だけですが、細胞分裂が行われると、新たに生じる細胞に１個ずつ入っていなくてはなりません。つまり、正常に細胞分裂が行われる際には、一度中心体の数が倍加されて2個になるということです。
+
+
+
+中心体の数は、厳密に保たれることが重要です。多すぎても少なくてもだめです。私は、この「中心体の複製」に注目して、研究しています。
+
+
+
+–– 中心体が2個になる仕組みは?
+
+
+
+北川：
+ まず、中心体の2つの中心小体が分かれて、「母中心小体」になります。そして、それぞれに対して、「娘中心小体」が形成されるのです。中心小体は主にタンパク質で構成されているのですが、どのような分子なのか、複製を開始させる因子は何かなどの解明を行ってきました。
+
+
+
+–– もう少し具体的に教えてください。
+
+
+
+北川：
+ スイスで私は、P. ゴンツイ教授の研究室で研究を始めました。ゴンツイ教授が見つけたSAS6という遺伝子をはじめ、5つの遺伝子が中心体の形成に役割を果たしているのではないかという予測が、すでにつけられていたのです。
+
+
+
+私たちは、SAS6タンパク質分子が自発的に結びつき、中心小体9回対称構造の骨組み構造（カートホイール構造）を形成することを突き止め、
+Cell
+誌に発表しました
+1
+。偶然にも、同時期にほぼ同内容の研究が英国のM. ヴァン・ブリューゲル博士らのグループからも発表されましたが、この2つの研究は、中心体の研究史に残る重要な発見だと、おかげさまで評価されています。
+
+
+
+私自身、中心小体の複雑な9回対称構造が、SAS6というタンパク質だけで構成されることは驚きでした。
+
+
+
+–– どのような方法で研究を?
+
+
+
+北川：
+ SAS6タンパク質にいろいろな条件を与えて、形成される構造体と中心小体を比較することから始めたのですが、電顕だけではらちがあかない。完全な証明をするためには、X線結晶構造解析の解像度でなければだめだと気がつきました。そこで、ポール・シェラー研究所のシュタインメッツ教授の研究室と共同研究することにしました。こういうときに、当人どうしがおもしろいと思えば比較的自由に共同研究できる点が、海外のいいところです。また、普段はのんびりしているようでも、核になるデータが生まれると、研究が急スピードで展開するんですよね。
+
+
+
+私たちは、まずSAS6タンパク質の構造を電顕を使って明らかにしました。次に、それらがダイマー（2量体）を形成することを発見しました。そして、このSAS6ダイマーが2つ結びつくと、互いに40度の角度で結合することがわかったのです。
+
+
+
+–– 360度の9等分は40度ですから、中心小体の骨組みの角度と一致するという発見ですね？
+
+
+
+北川：
+ はい。その後、Ｘ線結晶構造をもとにしたシミュレーションで、SAS6ダイマーが9個集まって中心小体の骨組み構造と同じリングを作ることも証明しました。
+
+
+
+–– すばらしい発見でした。
+
+
+
+北川：
+ ええ。でも、いちばんうれしかったのは、実はその前段階にありました。用いる生物種や溶液の濃度などをいろいろと変えて、SAS6ダイマーがリングを形成しないか電顕で確認していたときのことです。電顕のぼやけた画像にリングが見えたときは、本当に、うれしかった。
+
+
+
+自分だけが誰も知らないことを知っている、ということが研究成功の醍醐味ですから、その発見を誰にも告げず、その日1日、自分だけで楽しんでいました。
+
+
+
+これからさらに本領発揮
+
+
+
+–– これからの研究の方向性は？
+
+
+
+北川：
+ ゴンツイ研では独立した研究者のように扱ってもらえましたが、日本に帰ってきてからが、自分の本当の実力だと思っています。中心体についておもしろいと思うことは、何でも研究するつもりです。
+
+
+
+SAS6タンパク質は細胞中に豊富に存在するのですが、それが骨組み構造を形成するきっかけとなる条件を探していきます。また、病気との関連なども調べています。中心体が多すぎると、分裂時に染色体があちこちから引っ張られて、うまく分裂できません。がんの原因の一因となりうることもわかってきました。
+
+
+
+あと、中心体の複製ばかりでなく、中心体が消える現象についても調べています。
+
+
+
+–– 中心体が消える？
+
+
+
+北川：
+ 先ほど細胞に中心体は1個と言いましたが、例外があります。卵子です。卵子では、初めは存在した中心体が消えてなくなってしまうことが知られています。精子のみが中心体を持ち込んで、受精卵の中心体は1個に保たれるのです。
+
+
+
+そして、受精卵が細胞分裂を始めると、その細胞周期に同調して、中心体は2個に倍加していくのです。卵子に中心体がないのは、卵子が誤って分裂を始めてしまわないようにするためではないかという仮説も出ています。
+
+
+
+この現象も、興味のあるところです。
+
+
+
+–– 研究で大切にしていることは？
+
+
+
+北川：
+ 大きな成果を挙げる研究者、偉大な研究者って、素朴な疑問を大切にしているなあと感じます。私は妻に研究のことをよく話すのですが、いわば素人の素朴な質問や偏らない考えに、時々ハッとさせられることがあります。研究に集中して視野が狭くなっていたことに気付かされるのです。そういう点から、他分野の研究者の方々や、若い学生さんの話を聞くことを大切にしています。
+
+
+
+–– ありがとうございました。
+
+
+
+聞き手は藤川良子（サイエンスライター）。
+
+
+
+
+
+
+
+Author Profile
+
+
+
+
+
+
+
+
+
+
+
+北川 大樹（きたがわ・だいじゅ）
+
+
+
+国立遺伝学研究所 新分野創造センター特任准教授。2005年、東京大学大学院薬学系研究科博士課程修了、2006年スイス連邦工科大学ローザンヌ校 博士研究員。2011年より現職。
+
+
+
+
+
+
+
+
+
+
+
+                                
+                
+
+                    
+
+                        
+Nature ダイジェスト
+ Vol. 10 No. 1                    
+
+                    
+
+                        DOI: 10.1038/ndigest.2013.130118                    
+
+                
+
+                
+
+                                    
+
+                                    
+
+                        
+参考文献
+
+                        
+
+                                                            
+	Kitagawa, D., Vakonakis, I., Olieric, N., Hilbert, M., Keller, D., Olieric, V., Bortfeld, M., Erat, M.C., Flückiger, I., Gönczy, P. &amp; Steinmetz, M.O. 
+Cell
+ 
+144
+, 364-375 (2011).
+
+                                                    
+
+                    
+
+                            
+
+            
+
+                                
+
+                    
+
+                        関連記事
+                    
+
+                                        
+
+                        
+
+                            
+
+                            有毒な黄色の色素を生成する深海の蠕虫                        
+
+                        
+
+                            2025年12月号                        
+
+                    
+
+                                        
+
+                        
+
+                            
+
+                            免疫系の制御機構を解明した科学者らにノーベル生理学・医学賞                        
+
+                        
+
+                            2025年12月号                        
+
+                    
+
+                                        
+
+                        
+
+                            
+
+                            リサーチハイライト                        
+
+                        
+
+                            2025年12月号                        
+
+                    
+
+                                        
+
+                        
+
+                            
+
+                            ノーベル化学賞は「スーパースポンジ」材料の開発に                        
+
+                        
+
+                            2025年12月号                        
+
+                    
+
+                                        
+
+                        
+
+                            
+
+                            Amy MacLeod                        
+
+                        
+
+                            2025年12月号                        
+
+                    
+
+                                    
+
+                
+                
+
+                    
+
+                        キーワード
+                    
+
+                    
+
+                                                
+
+                            
+日本の研究
+
+                        
+
+                                                
+
+                            
+生物学
+
+                        
+
+                                                
+
+                            
+遺伝
+
+                        
+
+                                            
+
+                
+
+                
+
+                    
+
+                        
+Advertisement
+
+                        
+
+
+
+    
+
+        googletag.cmd.push(function () {
+            googletag.display('div-gpt-ad-MPU1');
+        });
+    
+
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+    <a href="#{{ figId }}" role="button" class="highres" data-toggle="modal">拡大する<i class="fa fa-external-link right-icon"></i></a>
+    <div class="modal fade" id="{{ figId }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">{{{ caption }}}</h4>
+            </div>
+            <div class="modal-body">
+            <img src="{{ url }}" alt="">
+            <p class="cpyrt">{{ copyright }}</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+
+    
+
+
+    
+    
+    
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+Nature ダイジェスト
+ISSN 2424-0702 (online) 
+ ISSN 2189-7778 (print)
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+brand sitemap
+
+                            
+
+                                
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                    
+
+                                        
+
+                                            
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+
+                            
+
+                                
+
+                                    
+Springer Nature について
+
+                                    
+
+                                        
+
+                                            
+CEOからのメッセージ
+
+                                        
+
+                                        
+
+                                            
+会社案内
+
+                                        
+
+                                        
+
+                                            
+プレスリリース
+
+                                        
+
+                                        
+
+                                            
+アクセスマップ
+
+                                        
+
+                                        
+
+                                            
+採用情報
+
+                                        
+
+                                        
+
+                                            
+各種お問い合わせ
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+ディスカバリー
+
+                                    
+
+                                        
+
+                                            
+出版誌リスト
+
+                                        
+
+                                        
+
+                                            
+Nature Research Intelligence
+
+                                        
+
+                                        
+
+                                            
+Nature Index
+
+                                        
+
+                                        
+
+                                            
+ディスカバリーサービス
+
+                                        
+
+                                        
+
+                                            
+著者インタビュー
+
+                                        
+
+                                        
+
+                                            
+Partner Contents
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+情報
+
+                                    
+
+                                        
+
+                                            
+インフォメーション
+
+                                        
+
+                                        
+
+                                            
+オープンアクセス
+
+                                        
+
+                                        
+
+                                            
+個人 / 学生購読について
+
+                                        
+
+                                        
+
+                                            
+個人 / 学生購読価格表
+
+                                        
+
+                                        
+
+                                            
+各号の購入
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+著者・研究者向けサービス
+
+                                    
+
+                                        
+
+                                            
+著者リプリント
+
+                                        
+
+                                        
+
+                                            
+Nature 投稿について
+
+                                        
+
+                                        
+
+                                            
+Springer Nature Author Services
+
+                                        
+
+                                        
+
+                                            
+Nature Masterclasses-Expert Trainer-Led Workshops
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+図書館・機関向けサービス
+
+                                    
+
+                                        
+
+                                            
+図書館の皆様へ
+
+                                        
+
+                                        
+
+                                            
+管理者用ポータル
+
+                                        
+
+                                        
+
+                                            
+オープンアクセス推進の歩み
+
+                                        
+
+                                        
+
+                                            
+ライセンス情報
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+パートナーシップと広告
+
+                                    
+
+                                        
+
+                                            
+パートナーシップ
+
+                                        
+
+                                        
+
+                                            
+ブランデッド・コンテンツ
+
+                                        
+
+                                        
+
+                                            
+Spotlight / Focal Point
+
+                                        
+
+                                        
+
+                                            
+Nature Café
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+キャリア開発
+
+                                    
+
+                                        
+
+                                            
+Nature Careers
+
+                                        
+
+                                        
+
+                                            
+Nature Conferences
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+地域別ウェブサイト
+
+                                    
+
+                                        
+
+                                            
+Nature Africa
+
+                                        
+
+                                        
+
+                                            
+Nature China
+
+                                        
+
+                                        
+
+                                            
+Nature India
+
+                                        
+
+                                        
+
+                                            
+Nature Italy
+
+                                        
+
+                                        
+
+                                            
+Nature Japan
+
+                                        
+
+                                        
+
+                                            
+Nature Middle East
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    
+
+                                        
+プライバシー規約
+
+                                    
+
+                                    
+
+                                        
+ISMS 基本方針
+
+                                    
+
+                                    
+
+                                        
+プライバシーの選択/Cookieの管理
+
+                                    
+
+                                    
+
+                                        
+特定商取引に基づく表示
+
+                                    
+
+                                    
+
+                                        
+ヘルプ
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                        
+
+                            © 2025 Springer Nature Limited
+                        
+
+                    
+
+                
+
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+
+	
+
+		function startTour() {
+			var tour = introJs()
+			tour.setOption('tooltipPosition', 'auto');
+			tour.setOption('positionPrecedence', ['left', 'right', 'top', 'bottom']);
+			tour.start();
+		}
+	
+
+
+    
+
+        $('#backTop').backTop({
+
+            // the scroll position in px from the top
+            'position' : 400,
+
+            // scroll animation speed
+            'speed' : 500,
+
+            // red, white, black or green
+            'color' : 'theme-color',
+        });
+        });
+    
+
+	
+    
+
+    
+
+    
+
+    
+
+
+    
+
+        // Scroll to top button
+            var scroll = $(document).scrollTop();
+            if (scroll > 3) {
+                $('body,html').animate({scrollTop: scroll+1});
+                $('body,html').animate({scrollTop: scroll-1});
+            }
+
+        });
+    
+
+
+    
+
+        // Activate tooltips
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    
+
+
+    
+
+		$(function () {
+			$('[data-toggle="popover"]').popover({
+				trigger: 'hover',
+				html: 'true',
+			}
+
+			);
+		});
+	
+
+
+	
+
+	  function toggleChevron(e) {
+		   $(e.target)
+			  .prev('.c-backnumber-volume-title')
+			  .find("span.indicator")
+			  .toggleClass('glyphicon-chevron-down glyphicon-chevron-up');
+	  }
+	  $('#accordion').on('hidden.bs.collapse', toggleChevron);
+	  $('#accordion').on('shown.bs.collapse', toggleChevron);
+    
+
+
+
+    
+
+        // Nature Digest filters
+            });
+        });
+    
+
+
+    
+
+    
+
+            $('.matchHeight').matchHeight();
+        });
+    
+
+
+    
+
+    
+            
+
+
+        
+
+            $('.autoplay').slick({
+
+                responsive: [
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ],
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+            });
+        
+
+        
+
+    //<!--
+     $(function () {
+    $('head').append('<style>#maintenance-message { display: none; }</style>');
+});    //-->
+
+
+
+
+    //<!--
+            var volume = 10;
+            var issue = 1;
+            var articleId = 44434;
+            var source = $('#figure-modal-template').html();
+            var modalTemplate = Handlebars.compile(source);
+                var figNumber = $(this).find('img').attr('data-figure-number');
+                var hasModal = $(this).find('.modal').length > 0;
+                var imageUrl = '/ja-jp/ndigest/figure/v'  volume  '/n'  issue  '/'  articleId  '/'  figNumber;
+                if (!figNumber || hasModal) {
+                    return;
+                }
+                $(this).find('img').attr('src', imageUrl);
+                if ($(this).hasClass('profile')) {
+                    return;
+                }
+                var caption = $(this).find('figcaption').html();
+                var copyright = $(this).find('figcaption p.cpyrt').html();
+                if (caption) {
+                    caption = caption.replace(/<p class="cpyrt">.*/gi, '').trim();
+                }
+                var modalHtml = modalTemplate({
+                    figId: 'fig'  figNumber,
+                    caption: caption,
+                    copyright: copyright,
+                    url: imageUrl
+                });
+                if (caption) {
+                    modalHtml = ' | '  modalHtml;
+                }
+                if (copyright) {
+                    $(this).find('figcaption p.cpyrt').before(modalHtml);
+                } else {
+                    if($(this).find('figcaption').length) {
+                        $(this).find('figcaption').append(modalHtml);
+                    } else {
+                        $(this).append('<figcaption>'  modalHtml  '</figcaption>');
+                    }
+                }
+            });
+        });
+        //-->
+
+
+
+
+    //<!--
+    ga('webPub.send', 'event', 'Nature Digest', 'view', 'free article', '44434');
+    //-->
+
+
+
+
+
+
+
+
+    //<!--
+    console.log('Unknown Journal - MTS link');
+        e.preventDefault();
+        var link = $(this).attr('href');
+        var j = $(this).attr('data-journal');
+        var relOrNotRel = $(this).attr('rel');
+        
+        ga('webPub.send', 'event', {
+            eventCategory: 'link',
+            eventAction: 'click',
+            eventLabel: j  ' - MTS link',
+            transport: 'beacon',
+                if (relOrNotRel !== 'external') {
+                }
+                
+            }
+        });
+        return false;
+    });
+});
+    //-->
+
+
+    
+
+
+200
+

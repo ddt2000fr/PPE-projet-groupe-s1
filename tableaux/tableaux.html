@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <title>coeur accueil</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta charset="utf-8" />	
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <nav class="navbar has-background-light">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand">
+                <div class="navbar-item">
+                    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu"
+                        aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                    <h1 class="subtitle" ><a href="./">coeur</a></h1>
+                </div>
+            </div>
+
+            <div class="navbar-end navbar-menu" id="navMenu">
+                <a class="navbar-item" href="../">
+                    Présentation
+                </a>
+                <a class="navbar-item" href="../tableaux/tableaux.html">
+                    Tableaux
+                </a>
+                <a class="navbar-item" href="../concordances/concordancier.html">
+                    Concordancier
+                </a>
+                 <a class="navbar-item" href="../programmes/modedemplois.html">
+                    Mode d'emploi
+                </a>
+                <a class="navbar-item" href="">
+                    Analyse textuelle
+                </a>
+                <a class="navbar-item" href="https://github.com/ddt2000fr/PPE-projet-groupe-s1">
+                    <img src="../assets/github.svg" width="20" />
+                </a>
+            </div>
+
+        </div>
+    </nav>
+    <section class="hero heart-hero">
+<!-- Cœurs flottants -->
+  <span class="heart-float" style="top:10%; left:5%; font-size:1rem;">♡</span>
+  <span class="heart-float" style="top:30%; left:25%; font-size:1.2rem;">♡</span>
+  <span class="heart-float" style="top:50%; left:60%; font-size:0.9rem;">♡</span>
+  <span class="heart-float" style="top:70%; left:40%; font-size:1.1rem;">♡</span>
+  <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <p class="title">♡</p>
+                <p class="subtitle">Projet de PPE 2025</p>
+            </div>
+        </div>
+    </section>
+
+   <section class="section has-background-white-ter ">
+        <div class="container is-max-desktop">
+            <div class="content">
+                <p class="title has-text-pink">Nos tableaux</p>
+                <p class="subtitle">Vous pouvez consulter les URLs ici ! </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" >
+        <div class="container is-max-desktop" >
+            <div class="columns" >
+                <div class="column" >
+                    <div class="card" >
+                        <div class="card-content content" >
+                            <h2 class="title is-4">心</h2>
+                            <p>Tableau des URLs pour le <b>japonais</b> </p>
+                            <p><a class="button" href="./japonais.html" >Accéder</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" >
+                    <div class="card" >
+                        <div class="card-content content" >
+                            <h2 class="title is-4">coração</h2>
+                            <p>Tableau des URLs pour le <b>portuguais</b></p>
+                            <p><a class="button" href="./portuguais.html" >Accéder</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column" >
+                    <div class="card" >
+                        <div class="card-content content" >
+                            <h2 class="title is-4">сердце</h2>
+                            <p>Tableau des URLs pour le <b>russe</b></p>
+                            <p><a class="button" href="./russe.html" >Accéder</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <div class="footer heart-hero" >
+        <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
+        <span class="heart-float" style="top:10%; left:5%; font-size:1rem;">♡</span>
+        <span class="heart-float" style="top:30%; left:25%; font-size:1.2rem;">♡</span>
+        <span class="heart-float" style="top:50%; left:60%; font-size:0.9rem;">♡</span>
+        <span class="heart-float" style="top:70%; left:40%; font-size:1.1rem;">♡</span>
+        <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
+        <div class="container is-max-desktop" >
+            <div class="content" >
+                <p>
+                    <b>Programmation et projet encadré 1</b>
+                    <br>Margot LACOUR, mettre vos noms </br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+            el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+            });
+        });
+
+    });
+</script>
+
+</html>

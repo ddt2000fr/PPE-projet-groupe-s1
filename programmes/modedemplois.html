@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html data-theme="light">
+
+<head>
+    <title> 心 </title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <nav class="navbar has-background-light">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand">
+                <div class="navbar-item">
+                    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu"
+                        aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                    <h1 class="subtitle"><a href="../">coeur</a></h1>
+                </div>
+            </div>
+
+            <div class="navbar-end navbar-menu" id="navMenu">
+                <a class="navbar-item" href="../">
+                    Présentation
+                </a>
+                <a class="navbar-item" href="../tableaux/tableaux.html">
+                    Tableaux
+                </a>
+                <a class="navbar-item" href="../concordances/concordancier.html">
+                    Concordancier
+                </a>
+                <a class="navbar-item" href="../programmes/modedemplois.html">
+                    Mode d'emploi
+                </a>
+                <a class="navbar-item" href="">
+                    Analyse textuelle
+                </a>
+                <a class="navbar-item" href="https://github.com/ddt2000fr/PPE-projet-groupe-s1">
+                    <img src="../assets/github.svg" width="20" />
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero heart-hero">
+        <!-- Cœurs flottants -->
+        <span class="heart-float" style="top:10%; left:5%; font-size:1rem;">♡</span>
+        <span class="heart-float" style="top:30%; left:25%; font-size:1.2rem;">♡</span>
+        <span class="heart-float" style="top:50%; left:60%; font-size:0.9rem;">♡</span>
+        <span class="heart-float" style="top:70%; left:40%; font-size:1.1rem;">♡</span>
+        <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
+        <div class="container is-max-desktop">
+            <div class="hero-body">
+                <p class="title">心</p>
+                <p class="subtitle">Mode d'emploi des scripts</p>
+            </div>
+        </div>
+    </section>
+
+<section class="documentation">
+
+  <h2 style="margin-bottom: 1rem; border-bottom: 2px solid #444; padding-bottom: 0.3rem;">
+    UTILISATION DU SCRIPT JAPONAIS
+  </h2>
+
+  <p style="margin-bottom: 1rem;">
+    Le script peut être exécuté à l’aide de la commande suivante&nbsp;:
+  </p>
+
+  <pre style="background-color: #f5f5f5; padding: 0.8rem; border-left: 4px solid #999; margin-bottom: 1.5rem;">
+<code>bash script_jp.sh /chemin/vers/les/urls.txt japonais</code>
+  </pre>
+
+  <p style="margin-bottom: 1rem;">
+    Le traitement du japonais est complexe&nbsp;: c’est une langue qui utilise deux
+    syllabaires et des sinogrammes, n’emploie pas d’espaces entre les mots et ne repose
+    pas sur l’alphabet latin.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Dans ce contexte, les méthodes traditionnelles de comptage fondées sur la séparation
+    par espaces, telles que la commande <code>wc -w</code>, sont inadaptées. Afin de garantir
+    un traitement correct des caractères japonais, l’encodage UTF-8 est explicitement
+    forcé dès le début de l’exécution du script. Le repérage des occurrences repose alors
+    sur une approche par motifs de caractères, à l’aide d’expressions régulières, plutôt
+    que sur une segmentation lexicale complète.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Pour extraire et compter les occurrences du mot cible, la commande <code>grep -o</code>
+    est utilisée afin d’isoler chaque correspondance. Le nombre total d’occurrences est
+    ensuite obtenu en comptant le nombre de lignes produites à l’aide de <code>wc -l</code>.
+    Cette méthode permet de contourner l’absence de séparation lexicale explicite en
+    japonais, tout en évitant le recours à des outils de segmentation morphologique plus
+    complexes.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Avant toute exécution, le script vérifie la présence des outils nécessaires à son
+    fonctionnement. Le programme <code>curl</code> est utilisé pour télécharger les contenus
+    distants et récupérer les codes de réponse HTTP. L’outil <code>pup</code> permet
+    l’extraction du texte à partir des pages HTML à l’aide de sélecteurs CSS, tandis que
+    <code>pdftotext</code> est employé pour convertir les documents PDF en texte brut.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Les contextes sont ensuite extraits autour de chaque occurrence du mot cible à l’aide
+    d’une expression régulière capturant un nombre défini de caractères avant et après le
+    mot. Ces extraits servent à construire le concordancier et permettent d’observer les
+    occurrences dans leur environnement immédiat.
+  </p>
+
+  <p style="margin-bottom: 2rem;">
+    Les fichiers générés ont des rôles complémentaires&nbsp;: les textes bruts contiennent
+    le contenu original, les pages HTML facilitent la lecture des lignes pertinentes, et
+    le concordancier rassemble l’ensemble des contextes. Le tableau HTML final synthétise
+    toutes les informations par document.
+  </p>
+
+  <h3 style="margin-top: 2rem; color: #333;">
+    Note
+  </h3>
+
+  <p style="background-color: #fff8dc; padding: 1rem; border-left: 4px solid #e0c060;">
+    Il convient de noter que les fichiers texte générés ne comportent pas de déclaration
+    explicite d’encodage. Contrairement aux pages HTML, ils ne contiennent pas de balise
+    <code>&lt;meta charset="UTF-8"&gt;</code>, ce qui peut entraîner des problèmes
+    d’affichage lors de leur ouverture directe dans un navigateur. Afin de respecter
+    les exigences de la consigne, ces fichiers ont été conservés au format texte brut.
+  </p>
+
+</section>
+
+
+        <div class="footer heart-hero" >
+        <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
+        <span class="heart-float" style="top:10%; left:5%; font-size:1rem;">♡</span>
+        <span class="heart-float" style="top:30%; left:25%; font-size:1.2rem;">♡</span>
+        <span class="heart-float" style="top:50%; left:60%; font-size:0.9rem;">♡</span>
+        <span class="heart-float" style="top:70%; left:40%; font-size:1.1rem;">♡</span>
+        <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
+        <div class="container is-max-desktop" >
+            <div class="content" >
+                <p>
+                    <b>Programmation et projet encadré 1</b>
+                    <br>Margot LACOUR, mettre vos noms </br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach(el => {
+            el.addEventListener('click', () => {
+
+                // Get the target from the "data-target" attribute
+                const target = el.dataset.target;
+                const $target = document.getElementById(target);
+
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                el.classList.toggle('is-active');
+                $target.classList.toggle('is-active');
+
+            });
+        });
+
+    });
+</script>
+
+</html>

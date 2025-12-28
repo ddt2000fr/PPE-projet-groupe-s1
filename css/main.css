@@ -1,0 +1,59 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+.profil-picture {
+    border-radius: 24px;
+}
+
+body {
+  font-family: "Nunito", "Arial", sans-serif;
+}
+
+.heart-hero {
+  background: linear-gradient(135deg, #ff6f91, #ffb3c6);
+}
+
+.heart-footer {
+  background-color: #ffe4ec;
+}
+
+.has-text-pink {
+  color: #ff6f91;
+}
+
+.navbar a {
+  color: #ff6f91;
+}
+
+.navbar a:hover {
+  color: #ff3b6f;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+.content a {
+  color: #ff6f91;
+}
+
+.heart-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.heart-float {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.6);
+  animation: float 6s infinite ease-in-out;
+  z-index: 1;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+
+
+

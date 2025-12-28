@@ -1,0 +1,2223 @@
+
+
+
+
+
+
+Close
+
+
+
+
+
+
+
+
+
+Study Buddhism Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+  
+Arrow up
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+基礎
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+  
+Arrow up
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+普遍的な価値
+
+
+What Is ...
+
+
+How to ...
+
+
+瞑想
+
+
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+  
+Arrow up
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+チベット仏教
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+  
+Arrow up
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+仏教について
+
+
+悟りへの道
+
+
+心の訓練
+
+
+タントラ
+
+
+原典
+
+
+精神的な師
+
+
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+  
+Arrow up
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+高度な教え
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+  
+Arrow up
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+ラムリム
+
+
+心の科学
+
+
+アビダルマと様々な学派
+
+
+金剛乗
+
+
+祈りと儀式
+
+
+歴史と文化
+
+
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+  
+Arrow up
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Us
+
+
+
+
+
+
+
+
+
+最新コンテンツ
+
+
+
+
+
+
+
+
+
+
+
+
+Arrow down
+
+
+
+
+
+
+
+
+
+
+
+
+Arrow up
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+ご寄付
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.globe-1{fill:none;stroke:#1d1d1b;stroke-miterlimit:10;}
+
+
+
+
+
+
+
+
+
+
+
+
+العربية
+
+
+
+
+বাংলা
+
+
+
+
+བོད་ཡིག་
+
+
+
+
+Deutsch
+
+
+
+
+English
+
+
+
+
+Español
+
+
+
+
+فارسی
+
+
+
+
+Français
+
+
+
+
+ગુજરાતી
+
+
+
+
+עִבְרִית‎
+
+
+
+
+हिन्दी
+
+
+
+
+Indonesia
+
+
+
+
+Italiano
+
+
+
+
+日本語
+
+
+
+
+ខ្មែរ
+
+
+
+
+ಕನ್ನಡ
+
+
+
+
+한국어
+
+
+
+
+ລາວ
+
+
+
+
+Монгол
+
+
+
+
+मराठी
+
+
+
+
+မြန်မာဘာသာ
+
+
+
+
+नेपाली
+
+
+
+
+ਪੰਜਾਬੀ
+
+
+
+
+پنجابی
+
+
+
+
+Polski
+
+
+
+
+Português
+
+
+
+
+Русский
+
+
+
+
+සිංහල
+
+
+
+
+தமிழ்
+
+
+
+
+తెలుగు
+
+
+
+
+ไทย
+
+
+
+
+Türkçe
+
+
+
+
+Українська
+
+
+
+
+اُردو
+
+
+
+
+Tiếng Việt
+
+
+
+
+简体中文
+
+
+
+
+繁體中文
+
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video-nav-1{fill:none;stroke:#1d1d1b;stroke-miterlimit:10;}
+
+
+ビデオ
+
+
+
+
+
+
+
+
+
+
+
+
+
+.account-1{fill:none;stroke:#1d1d1b;stroke-miterlimit:10;}
+
+
+アカウント
+
+
+
+
+
+
+
+
+
+
+  .badge {
+    display: inline-block;
+    padding: 0 0.5rem;
+    border-radius: 999px;
+    background-color: #F9D542;
+    font-weight: 700;
+  }
+  
+  .main-navigation__link &gt; svg {
+    height: 20px;
+    vertical-align: middle;
+    display: inline;
+  }
+  
+  .main-navigation__link.highlight &gt; svg {
+    vertical-align: bottom;
+    height: initial;
+  }
+  
+  .header-languages {
+    display: inline-block;
+  }
+
+
+
+
+
+
+
+
+
+
+Enter search term
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+Search icon
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .donation-panel.small .donation-panel__body {
+    padding: 1rem;
+  }
+  .donation-panel.small .donation-panel__headline {
+    font-size: 1.6rem !important;
+    margin-bottom: 0;
+  }
+  .donation-panel.small .donation-panel__headline a {
+    text-decoration: none;
+  }
+  .donation-panel.small .donation-action-panel__lead-in, .donation-panel.small .donation-action-panel__actions {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+›
+
+
+
+基礎
+
+
+
+
+
+›
+
+
+
+What Is ...
+
+
+
+
+
+
+
+
+
+
+
+  .breadcrumb-list {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    color: #5e5e5e;
+  }
+  .breadcrumb-list a {
+    text-decoration: none;
+  }
+
+
+
+
+  #grey {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background: #000;
+    opacity: 0.8;
+    z-index: 99;
+  }
+  
+  #restrictedPagePopup {
+    width: 25em;
+  }
+  
+  .popup {
+    position: fixed;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 90%;
+    padding: 20px;
+    z-index: 10000;
+    box-shadow: 0 3px 19px #000;
+    top: 0;
+  }
+  
+  .popup-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+Arrow left
+
+  
+
+
+
+
+
+
+前へ
+
+
+
+
+What Is ...
+
+
+
+記事
+13
+/
+21
+
+
+
+
+
+次へ
+
+
+
+  
+Arrow right
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+心とは何か
+
+
+
+
+
+
+アレクサンダー・ベルゼン博士, マット・リンデン
+
+
+
+
+
+
+
+
+
+00:08
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+Facebook
+
+  
+
+
+
+
+
+
+
+Share on facebook
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+Bookmark
+
+
+
+
+
+
+
+
+
+
+
+
+
+  span.clock {
+    vertical-align: middle;
+  }
+  span.clock svg {
+    fill: #5e5e5e;
+    height: 14px;
+  }
+
+
+
+
+
+
+
+
+
+他の言語
+
+
+
+
+
+
+العربية
+
+
+
+
+
+
+বাংলা
+
+
+
+
+
+
+བོད་ཡིག་
+
+
+
+
+
+
+Deutsch
+
+
+
+
+
+
+English
+
+
+
+
+
+
+Español
+
+
+
+
+
+
+فارسی
+
+
+
+
+
+
+Français
+
+
+
+
+
+
+ગુજરાતી
+
+
+
+
+
+
+עִבְרִית‎
+
+
+
+
+
+
+हिन्दी
+
+
+
+
+
+
+Indonesia
+
+
+
+
+
+
+Italiano
+
+
+
+
+
+
+ខ្មែរ
+
+
+
+
+
+
+ಕನ್ನಡ
+
+
+
+
+
+
+한국어
+
+
+
+
+
+
+ລາວ
+
+
+
+
+
+
+Монгол
+
+
+
+
+
+
+मराठी
+
+
+
+
+
+
+မြန်မာဘာသာ
+
+
+
+
+
+
+नेपाली
+
+
+
+
+
+
+ਪੰਜਾਬੀ
+
+
+
+
+
+
+پنجابی
+
+
+
+
+
+
+Polski
+
+
+
+
+
+
+Português
+
+
+
+
+
+
+Русский
+
+
+
+
+
+
+සිංහල
+
+
+
+
+
+
+தமிழ்
+
+
+
+
+
+
+తెలుగు
+
+
+
+
+
+
+ไทย
+
+
+
+
+
+
+Türkçe
+
+
+
+
+
+
+Українська
+
+
+
+
+
+
+اُردو
+
+
+
+
+
+
+Tiếng Việt
+
+
+
+
+
+
+简体中文
+
+
+
+
+
+
+繁體中文
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+心とは、それぞれの瞬間に絶えず移り変わる「何か」の個人的・主観的な経験のことです。
+
+
+「心」という概念はとらえどころがなく、概念化のされ方も言語によって様々に異なります。サンスクリット語の仏教用語では「chitta」ですが、この言葉は幅広い意味を持ちます―感覚による認識、言語化された思考、抽象的な思考、感情、幸せや不幸の感覚、注意深さ、集中力、知性、ほかにも多くのものが「chitta」に含まれます。仏教でいう「心」は、あらゆる種類の精神活動を指します。
+
+
+このとき焦点が当てられるのは身体的な側面―脳、神経経路、ホルモンなど―でも、それに関連する化学的・電気的活動でもありません。しかし、仏教はこれらを否定するものではありません。なぜなら、身体的・化学的な側面は確かに存在していますし、その全ては一体となって関連しているからです。また、「心」は、脳の中にあって、脳の働きを生み出す非物質的な「もの」でもありません。さらに、仏教は集合的無意識や宇宙意識を主張していません。
+
+
+
+
+ビデオ : マチウ・リカール — 心についての科学的見解
+字幕を表示するには、ビデオ画面の右下にある「字幕」アイコンをクリックして下 さい。字幕の言語を変えるには、「設定」アイコンをクリックし、「字幕」をクリ ックして表示言語を選んで下さい
+
+
+精神活動とは何か
+
+
+心や精神活動が個人的・主観的な経験だとしたら、たとえば「怒る」とはどういうことなのでしょう？「怒る」とは、怒りが生まれることとそれを感じることです。この二つは同時に起こります。そして、この二つが組み合わさり、何かを経験するという継続的な流れの中の一つのできごとを表します。では、これは誰の経験なのでしょう？私が怒っているのなら、これは私の経験です。あなたの経験ではありません。しかし、「心」という機械の「怒り」ボタンを押す「私」が別にいるわけではありません。「私」は、経験するというできごとの一部なのです。
+
+
+ 
+これは、何か―たとえばリンゴ―を見るときに似ています。これを科学的な視点で説明してみましょう：光が角膜を通って眼球に入り、網膜上の光受容細胞に到達します。すると、脳に視覚的情報を伝達する電気刺激が生みだされ、脳で処理されます。この主観的経験は「リンゴの精神的ホログラムの発生」であり、これが、「見る」ということの意味です。しかし、「心」は、このリンゴのホログラムが生じている脳の中のどこか、脳の中の空間のことではありません。
+
+
+心のホログラムは音や匂い、味、身体感覚として生じることもありますし、想像や夢の中に出現することさえあります。このホログラム生成のイメージで、脳の他の様々な部分から分泌されるホルモンによる様々なレベルの幸せや不幸、あるいは感情の発現を説明することもできます。このホログラムは、どのような瞬間でも、光景や思考、入り混じった感情、幸せや不幸の感覚など、数多くの要素から成り立っています。
+
+
+（参照：
+幸せとは何か
+ ）
+
+
+神経科学と仏教
+
+
+ダライ・ラマとチリ人神経科学者のフランシスコ・バレーラが1987年に心と生命研究所を創立して以来、科学者と仏教の師で構成された国際的なチームは、心と脳の接点を探求し続けています。経験を積んだ瞑想の実践者と初心者の脳の活動を測定した結果、持続的な瞑想が脳の神経可塑性に影響を与えることが分かりました。集中力やポジティブな感情を生み出しやすくする神経経路を新たに構築するのです。
+
+
+これまで、西洋の科学の発見と仏教の発見は互いを補完し合い、高め合ってきました。そして、仏教の実践者と科学者の共同事業こそ、ダライ・ラマが求めているもの―つまり、「21世紀の仏教」の代表となるものです。
+
+
+仏教における「心」は、つまり、生を経験するという精神の活動のことです。この活動は刻々と変化し、常に他の様々な心所を伴っています。仏教が説くのは、私たちは人生が投げつけるものの犠牲者ではなく、人生で何を経験するか、どのように経験するかを決めるのに不可欠な役割を担う存在だということです。心を鍛えると、自分の経験を飛躍的に改善することができます。さらに、絶え間ない努力を積み重ねれば、このポジティブな変化をもたらすには努力さえ必要なくなります。
+
+
+（心に関するさらに詳しい説明は、アレクサンダー・ベルゼン博士による
+ &#34;The Mind According to Buddhism&#34;
+ を参照）
+
+
+
+
+科学
+
+
+
+
+
+  .tags {
+    font-family: &#34;Lucida Grande&#34;, &#34;Lucida Sans Unicode&#34;, &#34;Lucida Sans&#34;, Verdana, sans-serif;
+    font-size: 1.4rem;
+    padding: 2.5rem 0;
+    text-align: center;
+  }
+  .tags a {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    border-radius: 2px;
+    padding: 0.5rem;
+    border: 1px solid #969696;
+    border: 1px solid #E1E5E5;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+Arrow left
+
+  
+
+
+
+
+
+
+前へ
+
+
+
+
+What Is ...
+
+
+
+記事
+13
+/
+21
+
+
+
+
+
+次へ
+
+
+
+  
+Arrow right
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+関連記事
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Document
+
+
+
+
+
+
+
+
+
+
+
+
+
+Primary Minds and the 51 Mental Factors
+
+
+アレクサンダー・ベルゼン博士
+
+
+Mental activity is made up of six types of consciousness that are aware of an object as being a sight, a sound, and so on, and 51 types of mental factors that qualify or help with the cognition of that object.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ご支援のお願い
+
+
+
+
+このウェブサイトを、今後も維持しさらに拡充するには、皆様のご支援だけが頼りです。教材が役立つとお考えになられた方は、一回限りの寄付または月々の寄付をご検討いただきますようお願い致します。
+
+
+
+
+
+
+
+
+寄付する
+
+
+
+
+
+
+
+
+
+
+
+
+Top
+
+
+
+
+
+
+Study Buddhismはアレクサンダー・ベルゼン博士によって設立されたベルゼン・アーカイブによるプロジェクトです。
+
+
+
+
+
+
+フィードバックをお寄せ下さい
+
+
+
+
+
+
+FAQ
+
+
+
+
+
+
+サイトマップ
+
+
+
+
+
+
+Privacy Policy
+
+
+
+
+
+
+Newsletter
+
+
+
+
+
+
+最新コンテンツ
+
+
+
+
+
+
+Progress Reports
+
+
+
+
+
+
+Courses
+
+
+
+
+
+
+
+
+
+
+
+他の言語
+
+
+
+
+
+
+
+العربية
+
+
+বাংলা
+
+
+བོད་ཡིག་
+
+
+Deutsch
+
+
+English
+
+
+Español
+
+
+فارسی
+
+
+Français
+
+
+ગુજરાતી
+
+
+עִבְרִית‎
+
+
+हिन्दी
+
+
+Indonesia
+
+
+Italiano
+
+
+日本語
+
+
+ខ្មែរ
+
+
+ಕನ್ನಡ
+
+
+한국어
+
+
+ລາວ
+
+
+Монгол
+
+
+मराठी
+
+
+မြန်မာဘာသာ
+
+
+नेपाली
+
+
+ਪੰਜਾਬੀ
+
+
+پنجابی
+
+
+Polski
+
+
+Português
+
+
+Русский
+
+
+සිංහල
+
+
+தமிழ்
+
+
+తెలుగు
+
+
+ไทย
+
+
+Türkçe
+
+
+Українська
+
+
+اُردو
+
+
+Tiếng Việt
+
+
+简体中文
+
+
+繁體中文
+
+
+
+
+
+
+
+  
+Arrow down
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;ul class=&#39;footer-languages__list&#39;&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/ar/alass/ma-hw/ma-hw-aldhhn&#39;&gt;العربية&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/bn/abasyaka/ki/mana-ki&#39;&gt;বাংলা&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/bo/snying-po/gang-red/sems-zhes-pa-de-ga-re-yin-nma&#39;&gt;བོད་ཡིག་&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/de/grundlagen/was-ist/was-ist-geist&#39;&gt;Deutsch&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/en/essentials/what-is/what-is-mind&#39;&gt;English&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/es/puntos-basicos/que-es/que-es-la-mente&#39;&gt;Español&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/fa/mlzomat/chy-st/zhn-chy-st&#39;&gt;فارسی&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/fr/les-fondamentaux/qu-est-ce-que/qu-est-ce-que-l-esprit&#39;&gt;Français&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/gu/avasyaka-vastu-o/sum-che/mana-sum-che&#39;&gt;ગુજરાતી&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/he/yswdwt/mh-zh/mhy-twdh&#39;&gt;עִבְרִית‎&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/hi/maulika-tatva/kya-hai/chitta-kya-hai&#39;&gt;हिन्दी&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/id/dasar-dasar/apa-itu/apa-itu-cita&#39;&gt;Indonesia&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/it/punti-essenziali/cos-e/cos-e-la-mente&#39;&gt;Italiano&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item is-selected&#39;&gt;
+&lt;a href=&#39;/ja/ki-ishizue/daburyu-eichi-e-thi-ai-esu-dot/kokoro-to-ha-ka-ka&#39;&gt;日本語&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/km/saarasmkhaan/toe-qviidau-gyyjaa-dot-dot-dot/toe-cittjaa-qvii&#39;&gt;ខ្មែរ&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/kn/agatyagalu/enidu/citta-endarenu&#39;&gt;ಕನ್ನಡ&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/ko/haegsim/mueos-inga/ma-eum-ilan-mueos-inga&#39;&gt;한국어&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/lo/enyy-ayn-samkhn/ninyaam/chidaych-eimn-hnyng&#39;&gt;ລາວ&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/mn/undsen-kheseg/gej-yuu-ve/setgel-gej-yuu-ve&#39;&gt;Монгол&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/mr/avasyaka-mudde/kaya-ahe/mana-mhanaje-kaya&#39;&gt;मराठी&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/my/are-k-ii-akh-k-m-aa/adhippaay/citt-chiuttaabhaalai&#39;&gt;မြန်မာဘာသာ&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/ne/mula-tattva/ke-ho/citta-ke-ho&#39;&gt;नेपाली&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/pa/zaruri-cizam/ki/mana-ki-hai&#39;&gt;ਪੰਜਾਬੀ&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/pa-PK/mvtian-glan/kih-ae/mn-kih-she-ae&#39;&gt;پنجابی&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/pl/podstawy/czym-jest/czym-jest-umysl&#39;&gt;Polski&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/pt/fundamentos/o-que-e/o-que-e-a-mente&#39;&gt;Português&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/ru/osnovy/chto-takoe/chto-takoe-um&#39;&gt;Русский&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/si/muulik-krunnu/kumkd/mns-ynu-kumkd&#39;&gt;සිංහල&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/ta/atippatai/enna/manam-enral-enna&#39;&gt;தமிழ்&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/te/esenssiyls/eemitti-dot-dot-dot/mnsu-anttee-eemitti&#39;&gt;తెలుగు&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/th/neux-ha-sakhay/khux-xari/cit-khux-xari&#39;&gt;ไทย&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/tr/temel-noktalar/nedir/zihin-nedir&#39;&gt;Türkçe&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/uk/osnovy/shcho-take/shcho-take-um&#39;&gt;Українська&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/ur/ahm-nkat/kia-he/mn-kia-ciz-he&#39;&gt;اُردو&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/vi/nhung-diem-co-ban/dao-phat-la-gi/tam-la-gi&#39;&gt;Tiếng Việt&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/zh-CN/ji-ben-jiao-li/shi-yao-shi/shi-yao-shi-xin&#39;&gt;简体中文&lt;/a&gt;
+&lt;/li&gt;
+&lt;li class=&#39;footer-languages__item&#39;&gt;
+&lt;a href=&#39;/zh-TW/ji-ben-jiao-li/shi-me-shi/shi-me-shi-xin&#39;&gt;繁體中文&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+フォローする
+
+
+
+
+
+
+
+
+  
+facebook
+
+  
+
+
+
+
+
+
+
+
+on facebook
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+on X
+
+
+
+
+
+
+
+
+
+
+  
+soundcloud
+
+  
+
+
+
+
+
+
+
+
+on soundcloud
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+on youtube
+
+
+
+
+
+
+
+
+
+Subscribe to our newsletter
+
+
+
+
+Enter your email
+
+
+
+
+
+
+Subscribe
+
+
+
+
+
+
+
+
+×
+
+
+
+
+
+
+
+
+
+
+
+
+Study Buddhism Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+© 2003-2025 Berzin Archives e.V.
+
+Impressum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // Google Tag Manager
+
+
+
+
+&lt;iframe height=&#39;0&#39; src=&#39;//www.googletagmanager.com/ns.html?id=GTM-TGXT6C&#39; style=&#39;display:none;visibility:hidden&#39; width=&#39;0&#39;&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+
+
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TRVJ1FVWY3');
+
+
+
+
+
+
+
+
+  @media (prefers-color-scheme: dark) {
+    html {
+      filter: invert(1) hue-rotate(180deg);
+    }
+    iframe, img, video, .site-footer, .editorial-header, .plain-header__image svg, #stats- svg, table svg, .solid-link, .solid-link--light, .cd-top {
+      filter: invert(1) hue-rotate(180deg);
+    }
+  }
+
+
+200
+
