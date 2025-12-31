@@ -1,0 +1,1077 @@
+
+   Menu
+     *
+     * Brasil
+          + Lista alfabética de periódicos
+          + Lista temática de periódicos
+          + Busca
+          + Métricas
+          + Sobre o SciELO Brasil
+          + Contatos
+          + Reportar erro
+     * SciELO.org - Rede SciELO
+          + Coleções nacionais e temáticas
+          + Lista alfabética de periódicos
+          + Lista de periódicos por assunto
+          + Busca
+          + Métricas
+          + Acesso OAI e RSS
+          + Sobre a Rede SciELO
+          + Contatos
+     * Blog SciELO em Perspectiva
+
+   Brasil
+   (BUTTON) Arquivos Brasileiros de Cardiologia
+     * Logomarca do periódico: Arquivos Brasileiros de Cardiologia
+     * launch Submissão de manuscritos
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+   (BUTTON) language pt_BR Português
+     * English
+     * Español
+
+   (BUTTON) Arquivos Brasileiros de Cardiologia
+     * Logomarca do periódico: Arquivos Brasileiros de Cardiologia
+     * launch Submissão de manuscritos
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+   home Sumário navigate_before Anterior Atual Seguinte navigate_next
+   (BUTTON) Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+   (BUTTON) Texto (PT)
+     * Texto (Inglês)
+     * Texto (Português)
+
+   (BUTTON) PDF
+     * Download PDF (Português)
+     * Download PDF (Inglês)
+
+   (BUTTON) article Conteúdo: Texto (PT)
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+     * Texto (Inglês)
+     * Texto (Português)
+     * Download PDF (Português)
+     * Download PDF (Inglês)
+
+   (BUTTON) share
+     * Whatsapp
+     * BlueSky
+     * Mastodon
+     * Facebook
+     * Mais
+
+   home Sumário
+   (BUTTON) share
+     * Facebook
+     * X
+     * Google+
+     * LinkedIn
+     * Reddit
+     * StambleUpon
+     * CiteULike
+     * Mendeley
+
+   (BUTTON) Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+   (BUTTON) Texto (PT)
+     * Texto (Inglês)
+     * Texto (Português)
+
+   (BUTTON) PDF
+     * Download PDF (Português)
+     * Download PDF (Inglês)
+
+   Artigo Original • Arq. Bras. Cardiol. 122 (8) • 2025 •
+   https://doi.org/10.36660/abc.20240428 linkcopiar
+
+Open-access Índice de Vulnerabilidade Social e Mortalidade por Doenças
+Isquêmicas do Coração e Doenças Cerebrovasculares no Brasil de 2000 a 2021
+
+   AutoriaSCIMAGO INSTITUTIONS RANKINGS
+
+Resumo
+
+   Fundamento  Estudos prévios observaram correlação entre as taxas de
+   mortalidade por doenças isquêmicas do coração (DIC), doenças
+   cerebrovasculares (DCBV) e o Índice de Vulnerabilidade Social (IVS).
+   Porém, persistem dúvidas sobre a associação do IVS total e dimensões
+   com a mortalidade estratificada por sexo, etnia e aglomerados
+   populacionais.
+
+   Objetivo  Analisar a evolução do IVS total e dimensões, e correlacionar
+   com as taxas de mortalidade por DIC e DCBV no Brasil e Unidades da
+   Federação (UF), de 2000 a 2021.
+
+   Métodos  Estudo ecológico de séries temporais das taxas de mortalidade
+   padronizada (método direto com a população brasileira de 2000) por DIC
+   e DCBV por idade, sexo e UF entre 2000 e 2021 correlacionadas com o IVS
+   e suas dimensões. Os dados das causas básicas de morte foram obtidos do
+   Sistema de Informação de Mortalidade e os do IVS provieram do Atlas da
+   Vulnerabilidade Social. Calculou-se correlação de Spearman
+   (significativo se p<0,05) para cada estrato analisado.
+
+   Resultados  O IVS, a dimensão capital humano (IVS-CH) e a dimensão
+   renda e trabalho (IVS-RT) em 2010 apresentaram correlação forte com as
+   variações das taxas de mortalidade por DCBV e DIC (IVS x DCBV:
+   Rho(p)=0,85; IVS x DIC: Rho(p)=0,75; IVS-CH x DCVB: Rho(p)=0,84; IVS-CH
+   x DIC: Rho(p)=0,84; IVS-RT x DCBV: Rho(p)=0,81; IVS-RT x DIC:
+   Rho(p)=0,71. A dimensão infraestrutura urbana IVS-IU apresentou
+   correlação fraca para DCBV e DIC, respectivamente (IVS-IU x DCBV:
+   Rho(p)=0,33; IVS-IU x DIC: Rho(p)=0,25).
+
+   Conclusão  O IVS-CH e IVS-RT apresentaram maior grau de correlação com
+   as variações das taxas de mortalidade por DIC e DCBV.
+
+   Palavras-chave
+   Isquemia Miocárdica; Transtornos Cerebrovasculares; Doenças
+   Cardiovasculares; Vulnerabilidade Social; Epidemiologia
+
+   miniatura da Figura Central:
+   Figura Central:
+   Índice de Vulnerabilidade Social e Mortalidade por Doenças Isquêmicas
+   do Coração e Doenças Cerebrovasculares no Brasil de 2000 a 2021
+     __________________________________________________________________
+
+Abstract
+
+   Background:  Previous studies have observed a correlation between
+   mortality rates from ischemic heart diseases (IHDs), cerebrovascular
+   diseases (CBVDs), and the Social Vulnerability Index (SVI). However,
+   doubts persist about the association between the overall SVI and its
+   dimensions and mortality stratified by sex, ethnicity, and population
+   clusters.
+
+   Objective:  To analyze the evolution of the overall SVI and its
+   dimensions and correlate it with mortality rates due to IHD and CBVD in
+   Brazil and its Federative Units (FUs) from 2000 to 2021.
+
+   Methods:  Ecological study of time series of standardized mortality
+   rates (using the direct method with the Brazilian population in 2000)
+   due to IHD and CBVD categorized by age, sex, and FUs between 2000 and
+   2021, correlated with the SVI and its dimensions. Data on the
+   underlying causes of death were obtained from the Mortality Information
+   System, while SVI data were sourced from the Social Vulnerability
+   Atlas. Spearman correlation (considered significant if p<0.05) was
+   employed to calculate each analyzed stratum.
+
+   Results:  The SVI and its Human Capital (SVI-HC) dimension and Income
+   and Employment (SVI-IE) dimension in 2010 showed a strong correlation
+   with variations in mortality rates due to CBVD and IHD (SVI x CBVD:
+   Rho(p)=0.85; SVI x IHD: Rho(p)=0.75; SVI-HC x CBVD: Rho(p)=0.84; SVI-HC
+   x IHD: Rho(p)=0.84; SVI-IE x CBVD: Rho(p)=0.81; SVI-IE x IHD:
+   Rho(p)=0.71). The Urban Infrastructure dimension (SVI-UI) showed a weak
+   correlation with CBVD and IHD, respectively (SVI-UI x CBVD:
+   Rho(p)=0.33; SVI-UI x IHD: Rho(p)=0.25).
+
+   Conclusion:  Both SVI-HC and SVI-IE demonstrated strong correlations
+   with variations in mortality rates from IHD and CBVD.
+
+   Keywords
+   Myocardial Ischemia; Cerebrovascular Disorders; Cardiovascular
+   Diseases; Social Vulnerability; Epidemiology
+
+   miniatura da Central Illustration
+   Central Illustration
+   Social Vulnerability Index and Mortality from Ischemic Heart Diseases
+   and Cerebrovascular Diseases in Brazil from 2000 to 2021
+     __________________________________________________________________
+
+Introdução
+
+   Em 2021, se estimou que ocorreram mais de 9 milhões de mortes por
+   doenças isquêmicas do coração (DIC) e quase 4 milhões de mortes por
+   acidente vascular cerebral isquêmico no mundo.¹ e aproximadamente 75%
+   dessas mortes foram registradas em países em desenvolvimento.^2,^3 No
+   Brasil, as doenças cardiovasculares (DCVs) também são a principal causa
+   de morte, representadas pelas DIC e a doenças cerebrovasculares (DCBV),
+   em sua maioria.^2-^6 No final do século XX ocorreu redução da
+   mortalidade por essas condições de modo mais acelerado em regiões com
+   melhores indicadores socioeconômicos, como a Europa Ocidental e a
+   América do Norte.^7 No Brasil, as Unidades Federativas (UF) das regiões
+   Sul, Sudeste e Centro-Oeste que têm os melhores indicadores
+   socioeconômicos apresentaram maiores reduções das taxas de mortalidade
+   por DIC e DCBV.^6,^8,^9
+
+   Nos últimos anos, houve crescimento do número de estudos que associaram
+   os indicadores socioeconômicos com as taxas de mortalidade pelas DCVs,
+   entretanto, ainda são poucos os que empregaram os indicadores de
+   vulnerabilidade nessa análise.^6,^8,^10-^13 Apesar disso, em comum,
+   tais estudos identificaram maiores taxas de mortalidade em populações
+   mais vulneráveis.^6,^8,^10-^13
+
+   O termo vulnerabilidade social possui diversas definições, uma das mais
+   aceitas é "a ausência ou insuficiência de ativos que podem ser providos
+   pelo estado".^14 Não há uma padronização em âmbito global do índice de
+   Vulnerabilidade Social (IVS). No Brasil, seu cálculo é realizado pelo
+   Instituto de Pesquisa Econômica Aplicada (IPEA) que quantifica 16
+   indicadores alocados em 3 dimensões: Infraestrutura urbana, capital
+   humano e renda, trabalho e forma de inserção (formal ou não). Por fim,
+   se calcula a média aritmética dessas 3 dimensões para chegar ao valor
+   do IVS total.^14 A dimensão infraestrutura urbana tem por objetivo
+   refletir o acesso ao saneamento básico e transporte urbano. Já a
+   dimensão capital humano visa avaliar as condições de saúde e acesso à
+   educação de uma população. Por fim, a dimensão renda, trabalho e forma
+   de inserção almeja identificar a insuficiência de renda e de fluxo de
+   renda.^14 O IPEA disponibiliza ainda o cálculo do IVS e de suas
+   dimensões para alguns segmentos específicos da população, como
+   população feminina, masculina, negra, branca, rural e urbana. Esses
+   dados podem auxiliar na identificação das características de maior
+   fragilidade nas populações mais vulneráveis.
+
+   O objetivo deste artigo foi analisar a evolução do IVS total e suas
+   dimensões, e sua associação com as taxas de mortalidade por DIC e DCBV,
+   no Brasil e nas UF, no período de 2000 a 2021.
+
+Métodos
+
+   Estudo ecológico e descritivo das variações das taxas de mortalidade
+   por DIC e DCBV em ambos os sexos e faixas etárias entre os anos de 2000
+   e 2021. Analisou-se também o IVS total e dimensões, no Brasil e nas UF,
+   entre 2000 e 2021.
+
+   Os dados sobre as causas básicas de óbitos foram obtidos no site do
+   Sistema de Informações sobre mortalidade (SIM) do Departamento de
+   informática do Sistema único de Saúde (DATASUS) do Ministério da Saúde
+   (MS).^15 Foram selecionadas as informações sobre mortalidade referentes
+   ao Brasil e em suas UF. Utilizaram-se como variáveis a faixa etária, o
+   sexo e óbitos por residência. Para a pesquisa, a população foi
+   estratificada em faixas etárias da seguinte forma: 0-19 anos, 20-29
+   anos e subsequentemente em faixas com 10 anos até o grupo de maiores de
+   80 anos.
+
+   Para seleção de óbitos cuja causa básica era DIC se utilizaram os
+   códigos I20-I25 do Código Internacional de Doenças (CID-10). Para DCBV,
+   os códigos são do I60 ao I69.^16 Sequencialmente, se procedeu ao
+   download de arquivos em formato .CSV que foram convertidos para XLS no
+   programa Microsoft Excel, utilizado para análise de dados e construção
+   de gráficos e tabelas.
+
+   As informações sobre a população residente no Brasil e em suas UF foram
+   retiradas do site do DATASUS,^15 que utiliza os dados oficiais
+   censitários do Instituto Brasileiro de Geografia e Estatística (IBGE)
+   de 1980, 1991, 2000 e 2010, projeções intercensitárias até 2012, e
+   projeções populacionais de 2013 em diante.
+
+   As informações sobre o IVS foram obtidas do Atlas da Vulnerabilidade
+   Social, disponibilizado pelo IPEA,^14 onde foi obtido o valor do IVS e
+   suas dimensões para a população total e para os estratos populacionais
+   disponibilizados. O IVS foi considerado muito baixo quando era inferior
+   a 0,2, baixo quando estava entre 0,2 e 0,3, médio quando estava entre
+   0,3 e 0,4, alto quando estava entre 0,4 e 0,5 e muito alto quando era
+   maior que 0,5.^14 Tais valores foram usados como referência para a
+   coloração dos mapas e tabelas do material suplementar.
+
+   Foram realizados os cálculos das taxas de mortalidade bruta e da
+   padronizada^17 por faixa etária e sexo pelo método direto, tendo como
+   população padrão a população brasileira do ano 2000 para a DIC e para a
+   DCBV. Avaliou-se a tendência temporal das taxas de mortalidade
+   padronizadas por faixa etária e sexo no período de 2000 a 2021, e a
+   associação com o IVS e suas dimensões do ano de 2010. O ano de 2021 foi
+   escolhido como o ano limite, pois é o ano mais recente com dados
+   disponíveis para todas as variáveis analisadas.
+
+   Foram construídas tabelas usando os dados dos anos de 2000 e de 2021
+   para o IVS e suas dimensões. Para a construção dos gráficos foram
+   utilizadas as variações percentuais das taxas de mortalidade
+   padronizadas por DIC e DCBV e o IVS do ano de 2010. Utilizou-se uma
+   defasagem temporal de aproximadamente 10 anos entre os indicadores e as
+   taxas de mortalidade conforme estudos prévios sobre o tema.^8,^18,^19
+   Para análise do grau de correlação foram realizados os cálculos para
+   obtenção da correlação de Spearman (significativo se p<0,05) para cada
+   estrato analisado. A correlação foi considerada fraca se ≤ 0,3,
+   moderada se >0,3 e <0,7, e forte se ≥ 0,7.^20
+
+Resultados
+
+   No período de 2000 a 2021, ocorreram 2.127.662 mortes por DCBV e
+   2.193.405 mortes por DIC, no Brasil, sendo 50,58% e 58,29%
+   respectivamente, no sexo masculino. No mesmo período, o IVS do Brasil
+   variou de 0,446 em 2000 a 0,249 em 2021.
+
+   A análise do IVS e de suas dimensões na população total e nos estratos
+   populacionais disponíveis permitiu observar que houve melhora do
+   indicador na quase totalidade das UF, entretanto durante todo período
+   os melhores indicadores se concentram nas UF das regiões Sul, Sudeste e
+   Centro-Oeste (Figuras 1 e 2 e Tabelas 1,2,3 e 4 do material
+   suplementar). Além disso, se pôde observar que no ano de 2000 quase
+   todas as UF com vulnerabilidade muito alta se localizavam nas regiões
+   Norte e Nordeste do país (Figura 1 e Tabelas 1,2,3 e 4 do material
+   suplementar). Outro fato a ser destacado é que as populações negra e
+   rural apresentaram maior vulnerabilidade que os demais segmentos
+   analisados (Tabelas 1, 2, 3 e 4 do material suplementar).
+
+   A dimensão infraestrutura urbana (IVS-IU) apresentou menor
+   vulnerabilidade que o IVS total e o maior número de UF com
+   vulnerabilidade baixa e muito baixa em 2021 (Tabela 2 do material
+   suplementar). Maior número de UF foram classificadas como de
+   vulnerabilidade muito alta na dimensão capital humano (IVS-CH),
+   principalmente no ano de 2000, abrangendo todas as UF do Norte e
+   Nordeste. Além disso, as populações negra e rural apresentaram
+   vulnerabilidade maior do que os demais segmentos populacionais (Tabela
+   3 do material suplementar). Por fim, a dimensão renda e trabalho
+   (IVS-RT) destacou a maior vulnerabilidade da população feminina em
+   relação à masculina (Tabela 4 do material suplementar).
+
+   Na Figura 1, se observa que a população das UF das regiões Norte e
+   Nordeste teve maior vulnerabilidade e piora ou redução menos expressiva
+   das taxas de mortalidade por DIC e DCBV. Destaca-se ainda que as UF da
+   região Sul apresentaram menor vulnerabilidade com redução mais
+   expressiva da mortalidade por DIC e DCBV. Para todos os cenários foi
+   calculada a correlação de Spearman, tendo sido alcançado grau de
+   correlação moderada a forte. Os coeficientes das correlações
+   encontrados foram: IVS x DCBV: Rho(p)=0,85; IVS x DIC: Rho(p)=0,75.
+   miniatura da Figura 1
+   Figura 1
+   Comparação entre o IVS do ano de 2010 e a variação percentual da taxa
+   de mortalidade por doenças cerebrovasculares e doenças isquêmicas do
+   coração no Brasil e nas unidades federativas, em ambos os sexos, entre
+   2000 e 2021. (1A) - IVS de 2010 e variação percentual da mortalidade
+   por DCBV, em ambos os sexos, no Brasil, 2000 a 2021, (1B) IVS de 2010 e
+   variação percentual do da mortalidade por DIC, em ambos os sexos, no
+   Brasil, 2000 a 2021.
+
+   Na Figura 2 se observa que as UF das regiões Norte e Nordeste
+   apresentaram maior vulnerabilidade na dimensão infraestrutura urbana
+   que as UF da região Sul. Além disso, as UF das regiões Norte e Nordeste
+   apresentaram piora ou redução menos expressiva da mortalidade por DIC e
+   DCBV. Entretanto, ao avaliar as regiões Centro-Oeste e Sudeste, se nota
+   que Distrito Federal, Goiás, Rio de Janeiro e São Paulo apresentaram
+   vulnerabilidade maior que a maioria das UF das regiões Norte e
+   Nordeste. O cálculo da correlação de Spearman identificou correlação
+   fraca. Os coeficientes das correlações encontrados foram: IVS-IU x
+   DCBV: Rho(p)=0,33; IVS-IU x DIC: Rho(p)=0,25.
+   miniatura da Figura 2
+   Figura 2
+   Comparação entre a dimensão de infraestrutura urbana do Índice de
+   Vulnerabilidade Social de 2010 e a variação percentual da taxa de
+   mortalidade por doenças cerebrovasculares e doenças isquêmicas do
+   coração no Brasil e nas suas unidades federativas, em ambos os sexos
+   entre 2000 e 2021. (2A) - IVS-IU de 2010 e variação percentual da
+   mortalidade por DCBV, em ambos os sexos, no Brasil, 2000 a 2021, (2B)
+   IVS-IU de 2010 e variação percentual da mortalidade por DIC, em ambos
+   os sexos, no Brasil, 2000 a 2021.
+
+   Na Figura 3, se observou padrão semelhante ao identificado na Figura 1,
+   no qual as UF das regiões Norte e Nordeste apresentaram vulnerabilidade
+   maior no quesito capital humano e piora ou redução menos expressiva das
+   mortalidades por DIC e DCBV que as demais regiões. Interessante notar,
+   que ao realizar o cálculo da correlação de Spearman, foi identificada
+   correlação forte do IVS-CH comparada aos demais. Os coeficientes das
+   correlações encontrados foram: IVS-CH x DCVB: Rho(p)=0,84; IVS-CH x
+   DIC: Rho(p)=0,84.
+   miniatura da Figura 3
+   Figura 3
+   Comparação entre a dimensão capital humano do Índice de Vulnerabilidade
+   Social de 2010 e a variação percentual da taxa de mortalidade por
+   doenças cerebrovasculares e doenças isquêmicas do coração no Brasil e
+   nas suas unidades federativas, em ambos os sexos, entre 2000 e 2021.
+   (3A) - IVS-CH de 2010 e variação percentual da mortalidade por DCBV, em
+   ambos os sexos, no Brasil, 2000 a 2021, (3B) IVS-CH de 2010 e variação
+   percentual da mortalidade por DIC, em ambos os sexos, no Brasil, 2000 a
+   2021.
+
+   Na Figura 4 se nota novamente o padrão já descrito nas Figuras 1 e 3.
+   As UF das regiões Norte e Nordeste apresentam maior vulnerabilidade na
+   dimensão renda e trabalho do IVS e apresentou ou aumento da mortalidade
+   por DIC e DCBV, ou em caso de queda, esta foi menos expressiva quando
+   comparada a outras UF das demais regiões. O cálculo da correlação de
+   Spearman identificou correlação forte, entretanto de modo menos
+   expressivo que os valores obtidos com o IVS-CH e o IVS. Os coeficientes
+   das correlações encontrados foram: IVS-RT x DCBV: Rho(p)=0,81; IVS-RT x
+   DIC: Rho(p)=0,71.
+   miniatura da Figura 4
+   Figura 4
+   Comparação entre a dimensão de renda e trabalho do Índice de
+   Vulnerabilidade Social de 2010 e a variação percentual da taxa de
+   mortalidade por doenças cerebrovasculares e doenças isquêmicas do
+   coração no Brasil e nas suas unidades federativas, em ambos os sexos,
+   entre 2000 e 2021. (4A) - IVS-RT de 2010 e variação percentual da
+   mortalidade por DCBV, em ambos os sexos, no Brasil, 2000 a 2021, (4B)
+   IVS-RT de 2010 e variação percentual da mortalidade por DIC, em ambos
+   os sexos, no Brasil, 2000 a 2021.
+
+Discussão
+
+   Na avaliação das dimensões do IVS se observou que apesar da melhora dos
+   indicadores no período, a grande maioria das UF de Norte e Nordeste
+   permaneceram com a maior vulnerabilidade do país em todas as dimensões.
+   Além disso, foi evidente maior vulnerabilidade das populações negra e
+   rural e maior vulnerabilidade na dimensão capital humano do IVS. Esses
+   achados foram também descritos em outros estudos que observaram maior
+   vulnerabilidade das populações negra^21-^23 e rural^24-^26 em diversas
+   áreas, incluindo o acesso à saúde.
+
+   Observou-se que houve ou aumento da mortalidade por DIC e DCBV, ou em
+   caso de queda, esta foi menos expressiva nas UF das regiões Norte e
+   Nordeste quando comparada a outras UF, apesar da redução da
+   vulnerabilidade observada nesse período. A análise das correlações da
+   variação da mortalidade por DIC e DCBV com as dimensões do IVS
+   isoladamente, permitiu identificar que o IVS-CH (>0,83- forte) alcançou
+   um grau de correlação superior ao do IVS (>0,75 – forte). Além disso, o
+   IVS-RT também apresentou correlação forte enquanto o IVS-IU teve
+   correlação fraca (<0,35). Estudos prévios já haviam identificado a
+   associação de indicadores socioeconômicos de desenvolvimento e
+   vulnerabilidade com a mortalidade por essas
+   condições,^6,^8,^9,^18,^27-^31 entretanto ainda não havia sido
+   realizada uma análise para identificar quais fatores teriam maior
+   influência.
+
+   Em relação à vulnerabilidade, estudos dos Estados Unidos da América
+   sugeriram que as métricas de vulnerabilidade poderiam apresentar boa
+   correlação com desfechos em saúde pública.^31 Estudos internacionais
+   identificaram que populações mais vulneráveis estão sujeitas a
+   apresentar mais fatores de risco cardiovascular como hipertensão
+   arterial sistêmica, dislipidemia, diabetes e tabagismo,^10,^32 maior
+   dificuldade de acesso a serviços de saúde,^33 menor acesso a serviços
+   de reabilitação cardíaca,^33,^34 mais readmissões hospitalares em 30
+   dias por insuficiência cardíaca^35 e aumento da mortalidade, inclusive
+   mortalidade precoce por DCVs.^12,^13
+
+   Estudos prévios, que analisaram o IVS no Brasil, identificaram a
+   melhora desse indicador em âmbito nacional, entretanto com maior
+   vulnerabilidade das regiões Norte e Nordeste,^6,^8 compatível com
+   nossos achados. Em relação a mortalidade por DCBV, também foi
+   identificado uma redução da mortalidade nas UF das regiões Sul, Sudeste
+   e Centro-Oeste,^6 assim como para DIC.^8 Este estudo sugere quais
+   fatores socioeconômicos teriam maior influência sobre a mortalidade de
+   DIC e DCBV.
+
+   A dimensão infraestrutura urbana, que avalia coleta de lixo,
+   fornecimento de água e esgoto inadequados e tempo de deslocamento
+   casa-trabalho, apresentou grau de correlação inferior às demais. Esses
+   achados se devem principalmente ao fato das UF do Distrito Federal
+   (DF), Goiás (GO), Rio de Janeiro (RJ) e São Paulo (SP) terem
+   apresentado maior vulnerabilidade, diferenciando-se do padrão observado
+   nas demais dimensões. Pode-se supor que no RJ e em SP isso se deva aos
+   grandes movimentos migratórios a partir da década de 1950 que levaram a
+   um rápido e desorganizado aumento da população urbana, culminando na
+   formação das favelas.^36,^37 As UF de GO e DF também sofreram com
+   processo semelhante, embora de menor dimensão, a partir da década de
+   60, motivados pela construção da Capital Federal e posteriormente pela
+   expansão da fronteira agrícola.^38
+
+   Outras hipóteses para o fato de as correlações não serem fortes para a
+   IVS- IU, pode ser a necessidade de maior defasagem temporal entre a
+   melhoria dessa dimensão da vulnerabilidade social para que ocorra a
+   redução da mortalidade, ou ainda que essa dimensão tenha sido
+   representada por outras do IVS capital humano, que mensura a
+   mortalidade infantil e anos estudados, ou o IVS renda e trabalho com
+   avaliação da renda domiciliar per capita, que isoladamente já mostram
+   correlação em estudo anterior.^18
+
+   A dimensão Capital Humano avalia oito fatores, com foco em
+   educação/escolaridade, mortalidade infantil e mães jovens. Estudos
+   nacionais prévios, identificaram que populações com menor escolaridade
+   estavam mais predispostos a apresentar fatores de risco de DCVs e menor
+   acesso a serviços de saúde.^39,^40 Foram descritos estudos que
+   demonstram que maior mortalidade infantil pode estar associada a acesso
+   mais difícil aos serviços de saúde.^18,^41 O exposto anteriormente pode
+   justificar a melhor correlação desta dimensão com a mortalidade por DIC
+   e DCBV. É provável que esta dimensão tenha alcançado grau de correlação
+   superior ao próprio IVS, pois este sofreu influência das outras
+   dimensões.
+
+   Por fim, a forte correlação da dimensão renda e trabalho, pode ser
+   justificada pelo fato de o maior poder aquisitivo representar um acesso
+   mais fácil a serviços de saúde. Estudos prévios identificaram que
+   populações com menor poder aquisitivo têm mais fatores de risco
+   cardiovasculares e maior mortalidade por DIC.^18,^42 Foi descrito
+   também a relação inversa, uma vez que as DCVs podem deixar sequelas e
+   incapacidades afetando a capacidade de trabalho do indivíduo e
+   aumentando os gastos em saúde.^42
+
+   O presente estudo traz uma metodologia inédita e contribui para o
+   conhecimento atual das DCVs ao analisar as dimensões do IVS para a
+   população total e para os estratos populacionais disponibilizados pelo
+   IPEA, além de analisar o grau de correlação desses indicadores com a
+   variação da taxa de mortalidade padronizada pela faixa etária de DIC e
+   DCBV no Brasil e em suas UF.
+
+   Dentre as limitações do estudo estão o fato de se tratar de um estudo
+   ecológico, que permite uma análise populacional preliminar que
+   necessitará ser referendada por estudos prospectivos com coleta de
+   dados sistematizada. As informações foram obtidas de banco de dados,
+   podem estar vulneráveis a vieses por falhas na coleta de dados:
+   subnotificação, causas mal definidas ou garbage codes. No entanto, se
+   ressalta que tais limitações atuam de modo sistêmico, em todas as
+   declarações e bancos de óbito, não sendo um impedimento para a análise
+   global dos dados.
+
+   A hipótese central de que existiria correlação entre a diminuição da
+   vulnerabilidade social e a redução das taxas de mortalidade por DIC e
+   doenças cerebrovasculares foi corroborada nesse estudo. Analisar o IVS
+   por estratos populacionais permite supor que o aglomerado populacional
+   rural, as mulheres e os negros, historicamente associados com maior
+   vulnerabilidade social, apresentariam menores reduções das taxas de
+   mortalidade por DIC e DCBV. Novos estudos que contemplem períodos
+   temporais maiores poderão auxiliar no entendimento de quais componentes
+   do IVS causarão maior impacto na diminuição da morbimortalidade pelas
+   DCVs, auxiliando no direcionamento de políticas públicas voltadas para
+   a saúde.
+
+Conclusão
+
+   A análise das dimensões do IVS permitiu identificar a redução da
+   vulnerabilidade do Brasil e da grande maioria das suas UF em todas as
+   dimensões, apesar de persistirem as desigualdades com maior
+   vulnerabilidade nas UF de Norte e Nordeste. Além disso, se identificou
+   maior vulnerabilidade das populações negra e rural. Apesar da redução
+   da vulnerabilidade nas UF de Norte e Nordeste, não houve redução mais
+   expressiva de mortalidade por DIC e DCBV. Foi possível identificar
+   correlação forte da variação do IVS, IVS-CH e IVS-RT com a variação da
+   mortalidade por DIC e DCBV. Esses dados podem guiar investimentos
+   públicos, com o intuito de reduzir a mortalidade por essas condições.
+     * Fontes de financiamento
+       O presente estudo não teve fontes de financiamento externas.
+     * Vinculação acadêmica
+       Este artigo é parte de dissertação de mestrado de José Lucas
+       Bichara pela Universidade Federal do Rio de Janeiro.
+     * Aprovação ética e consentimento informado
+       Este artigo não contém estudos com humanos ou animais realizados
+       por nenhum dos autores.
+     * Uso de Inteligência Artificial
+       Os autores não utilizaram ferramentas de inteligência artificial no
+       desenvolvimento deste trabalho.
+
+Disponibilidade de Dados
+
+   Os conteúdos subjacentes ao texto da pesquisa estão contidos no
+   manuscrito.
+
+Referências
+
+     * ^1 Vaduganathan M, Mensah GA, Turco JV, Fuster V, Roth GA. The
+       Global Burden of Cardiovascular Diseases and Risk: A Compass for
+       Future Health. J Am Coll Cardiol. 2022;80(25):2361-71. doi:
+       10.1016/j.jacc.2022.11.005.
+       » https://doi.org/10.1016/j.jacc.2022.11.005
+     * ^2 World Health Organization. Newsroom. Fact Sheets. Details.
+       Cardiovascular Diseases (CVDs) [Internet]. Geneva: World Health
+       Organization; 2021 [cited 2025 Jul 03]. Avaialable from:
+       https://www.who.int/news-room/fact-sheets/detail/cardiovascular-dis
+       eases-(cvds)
+       »
+       https://www.who.int/news-room/fact-sheets/detail/cardiovascular-dis
+       eases-(cvds)
+     * ^3 World Health Organization. The top 10 Causes of Death. Geneva:
+       World Health Organization; 2020 [cited 2025 Jul 03]. Avaialable
+       from:
+       https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-
+       of-death#:~:text=The%20top%20global%20causes%20of,birth%20asphyxia%
+       20and%20birth%20trauma%2C
+       »
+       https://www.who.int/news-room/fact-sheets/detail/the-top-10-causes-
+       of-death#:~:text=The%20top%20global%20causes%20of,birth%20asphyxia%
+       20and%20birth%20trauma%2C
+     * ^4 Oliveira GMM, Brant LCC, Polanczyk CA, Biolo A, Nascimento BR,
+       Malta DC, et al. Cardiovascular Statistics - Brazil 2020. Arq Bras
+       Cardiol. 2020;115(3):308-439. doi: 10.36660/abc.20200812.
+       » https://doi.org/10.36660/abc.20200812
+     * ^5 Oliveira GMM, Brant LCC, Polanczyk CA, Malta DC, Biolo A,
+       Nascimento BR, et al. Cardiovascular Statistics - Brazil 2021. Arq
+       Bras Cardiol. 2022;118(1):115-373. doi: 10.36660/abc.20211012.
+       » https://doi.org/10.36660/abc.20211012
+     * ^6 Souza CDF, Oliveira DJ, Silva LFD, Santos CDD, Pereira MC, Paiva
+       JPS, et al. Cerebrovascular Disease Mortality Trend in Brazil (1996
+       To 2015) and Association with Human Development Index and Social
+       Vulnerability. Arq Bras Cardiol. 2021;116(1):89-99. doi:
+       10.36660/abc.20190532.
+       » https://doi.org/10.36660/abc.20190532
+     * ^7 Moran AE, Forouzanfar MH, Roth GA, Mensah GA, Ezzati M, Murray
+       CJ, et al. Temporal Trends in Ischemic Heart Disease Mortality in
+       21 World Regions, 1980 to 2010: The Global Burden of Disease 2010
+       Study. Circulation. 2014;129(14):1483-92. doi:
+       10.1161/CIRCULATIONAHA.113.004042.
+       » https://doi.org/10.1161/CIRCULATIONAHA.113.004042
+     * ^8 Bastos LAVM, Bichara JLP, Nascimento GS, Villela PB, Oliveira
+       GMM. Mortality from Diseases of the Circulatory System in Brazil
+       and Its Relationship with Social Determinants Focusing on
+       Vulnerability: An Ecological Study. BMC Public Health.
+       2022;22(1):1947. doi: 10.1186/s12889-022-14294-3.
+       » https://doi.org/10.1186/s12889-022-14294-3
+     * ^9 Villela PB, Klein CH, Oliveira GMM. Socioeconomic Factors and
+       Mortality Due to Cerebrovascular and Hypertensive Disease in
+       Brazil. Rev Port Cardiol. 2019;38(3):205-12. doi:
+       10.1016/j.repc.2018.07.007.
+       » https://doi.org/10.1016/j.repc.2018.07.007
+     * ^10 Sunderraj A, Rivera A, Gaddam M, Kim S, McCook J, O’Neal J, et
+       al. Associations of Social Vulnerability Index with Pathologic
+       Myocardial Findings at Autopsy. Front Cardiovasc Med.
+       2021;8:805278. doi: 10.3389/fcvm.2021.805278.
+       » https://doi.org/10.3389/fcvm.2021.805278
+     * ^11 Jain V, Al Rifai M, Khan SU, Kalra A, Rodriguez F, Samad Z, et
+       al. Association between Social Vulnerability Index and
+       Cardiovascular Disease: A Behavioral Risk Factor Surveillance
+       System Study. J Am Heart Assoc. 2022;11(15):e024414. doi:
+       10.1161/JAHA.121.024414.
+       » https://doi.org/10.1161/JAHA.121.024414
+     * ^12 Ganatra S, Dani SS, Kumar A, Khan SU, Wadhera R, Neilan TG, et
+       al. Impact of Social Vulnerability on Comorbid Cancer and
+       Cardiovascular Disease Mortality in the United States. JACC
+       CardioOncol. 2022;4(3):326-37. doi: 10.1016/j.jaccao.2022.06.005.
+       » https://doi.org/10.1016/j.jaccao.2022.06.005
+     * ^13 Khan SU, Javed Z, Lone AN, Dani SS, Amin Z, Al-Kindi SG, et al.
+       Social Vulnerability and Premature Cardiovascular Mortality Among
+       US Counties, 2014 to 2018. Circulation. 2021;144(16):1272-9. doi:
+       10.1161/CIRCULATIONAHA.121.054516.
+       » https://doi.org/10.1161/CIRCULATIONAHA.121.054516
+     * ^14 Instituto de Pesquisa Econômica Aplicada. Atlas da
+       Vulnerabilidade Social [Internet]. Brasília: Instituto de Pesquisa
+       Econômica Aplicada; 2025 [cited 2025 Jul 03]. Avaialable from:
+       http://ivs.ipea.gov.br/index.php/pt/
+       » http://ivs.ipea.gov.br/index.php/pt/
+     * ^15 Brasil. Ministério da Saúde. DATASUS. Informações de Saúde.
+       Morbidade e Informações Epidemiológicas. Brasília: Ministério da
+       Saúde; 2025 [cited 2025 Jul 03]. Avaialable from:
+       http://www.datasus.gov.br
+       » http://www.datasus.gov.br
+     * ^16 Organização Mundial da Saúde. Classificação Estatística
+       Internacional de Doenças e Problemas Relacionados à Saúde. 10th.
+       ed. São Paulo: EDUSP; 1995.
+     * ^17 Vermelho LL, Costa AJ, Kale PL. Indicadores de Saúde. In:
+       Medronho RA. Epidemiologia. São Paulo: Atheneu; 2008. p. 33-56.
+     * ^18 Soares GP, Brum JD, Oliveira GM, Klein CH, Silva NAS. Evolution
+       of Socioeconomic Indicators and Cardiovascular Mortality in Three
+       Brazilian States. Arq Bras Cardiol. 2013;100(2):147-56. doi:
+       10.5935/abc.20130028.
+       » https://doi.org/10.5935/abc.20130028
+     * ^19 Bichara JL, Bastos LA, Villela PB, Oliveira GMM. Socioeconomic
+       Indicators and Mortality from Ischemic Heart Disease and
+       Cerebrovascular Disease in Brazil from 2000 to 2019. Arq Bras
+       Cardiol. 2023;120(8):e20220832. doi: 10.36660/abc.20220832.
+       » https://doi.org/10.36660/abc.20220832
+     * ^20 Rumsey DJ. Statistics for Dummies. 2nd ed. Hoboken: Wiley;
+       2016.
+     * ^21 Sena A, Rodrigues M. Pandemia e Estado Necropolítico: Um Ensaio
+       Sobre as Políticas Públicas e o Agravamento das Vulnerabilidades da
+       População Negra Frente a COVID-19. Revista Fim do Mundo.
+       2021;2(4):133-54. doi: 10.36311/2675-3871.2021.v2n4.p133-154.
+       » https://doi.org/10.36311/2675-3871.2021.v2n4.p133-154
+     * ^22 Amthauer C, Kaspary D, Stuelp M, Alves MDV, Balbinot M. A
+       Vulnerabilidade em Saúde Enfrentada pela População Negra. Unoesc
+       São Miguel do Oeste. 2020;5:e27062.
+     * ^23 Hüning SM, Silva AK, Braga TL Netto. Vulnerability of the Black
+       Population and Educational Policies in Brazil. Cad CEDES.
+       2021;41(114):110-9. doi: 10.1590/CC223650.
+       » https://doi.org/10.1590/CC223650
+     * ^24 Behnke L. Rural and Indigenous Vulnerable Populations: A Case
+       Study. Nurs Clin North Am. 2022;57(3):413-20. doi:
+       10.1016/j.cnur.2022.04.007.
+       » https://doi.org/10.1016/j.cnur.2022.04.007
+     * ^25 Bettenhausen JL, Winterer CM, Colvin JD. Health and Poverty of
+       Rural Children: An Under-Researched and Under-Resourced Vulnerable
+       Population. Acad Pediatr. 2021;21(8S):S126-33. doi:
+       10.1016/j.acap.2021.08.001.
+       » https://doi.org/10.1016/j.acap.2021.08.001
+     * ^26 Souza S, Pappen M, Krug SBF, Renner JDP, Reuter CP, Pohl HH. A
+       Narrative Review Associating Health Vulnerability and Environmental
+       Factors Among Rural Workers. Rev Bras Med Trab. 2020;16(4):503-8.
+       doi: 10.5327/Z1679443520180250.
+       » https://doi.org/10.5327/Z1679443520180250
+     * ^27 Clark AM, DesMeules M, Luo W, Duncan AS, Wielgosz A.
+       Socioeconomic Status and Cardiovascular Disease: Risks and
+       Implications for Care. Nat Rev Cardiol. 2009;6(11):712-22. doi:
+       10.1038/nrcardio.2009.163.
+       » https://doi.org/10.1038/nrcardio.2009.163
+     * ^28 Zhu KF, Wang YM, Zhu JZ, Zhou QY, Wang NF. National Prevalence
+       of Coronary Heart Disease and Its Relationship with Human
+       Development Index: A Systematic Review. Eur J Prev Cardiol.
+       2016;23(5):530-43. doi: 10.1177/2047487315587402.
+       » https://doi.org/10.1177/2047487315587402
+     * ^29 Wu SH, Woo J, Zhang XH. Worldwide Socioeconomic Status and
+       Stroke Mortality: An Ecological Study. Int J Equity Health.
+       2013;12:42. doi: 10.1186/1475-9276-12-42.
+       » https://doi.org/10.1186/1475-9276-12-42
+     * ^30 Kreatsoulas C, Anand SS. The Impact of Social Determinants on
+       Cardiovascular Disease. Can J Cardiol. 2010;26(Suppl C):8C-13C.
+       doi: 10.1016/s0828-282x(10)71075-8.
+       » https://doi.org/10.1016/s0828-282x(10)71075-8
+     * ^31 Saulsberry L, Bhargava A, Zeng S, Gibbons JB, Brannan C,
+       Lauderdale DS, et al. The Social Vulnerability Metric (SVM) as a
+       New Tool for Public Health. Health Serv Res. 2023;58(4):873-81.
+       doi: 10.1111/1475-6773.14102.
+       » https://doi.org/10.1111/1475-6773.14102
+     * ^32 Ibrahim BB, Barcelona V, Condon EM, Crusto CA, Taylor JY. The
+       Association between Neighborhood Social Vulnerability and
+       Cardiovascular Health Risk Among Black/African American Women in
+       the InterGEN Study. Nurs Res. 2021;70(5S Suppl 1):S3-S12. doi:
+       10.1097/NNR.0000000000000523.
+       » https://doi.org/10.1097/NNR.0000000000000523
+     * ^33 Thompson ZM, Jain V, Chen YH, Kayani W, Patel A, Kianoush S, et
+       al. State-Level Social Vulnerability Index and Healthcare Access in
+       Patients with Atherosclerotic Cardiovascular Disease (from the
+       BRFSS Survey). Am J Cardiol. 2022;178:149-53. doi:
+       10.1016/j.amjcard.2022.05.025.
+       » https://doi.org/10.1016/j.amjcard.2022.05.025
+     * ^34 Kianoush S, Al Rifai M, Patel J, George J, Gulati M, Taub P, et
+       al. Association of Participation in Cardiac Rehabilitation with
+       Social Vulnerability Index: The Behavioral Risk Factor Surveillance
+       System. Prog Cardiovasc Dis. 2022;71:86-91. doi:
+       10.1016/j.pcad.2022.02.003.
+       » https://doi.org/10.1016/j.pcad.2022.02.003
+     * ^35 Regmi MR, Tandan N, Parajuli P, Bhattarai M, Maini R, Kulkarni
+       A, et al. Social Vulnerability Indices as a Risk Factor for Heart
+       Failure Readmissions. Clin Med Res. 2021;19(3):116-22. doi:
+       10.3121/cmr.2021.1603.
+       » https://doi.org/10.3121/cmr.2021.1603
+     * ^36 Abreu M, Vaz LF. Sobre as Origens da Favela. Proceedings of the
+       IV Encontro Nacional da ANPUR; 1991; Salvador. Salvador: Associação
+       Nacional de Pós-graduação e Pesquisa em Planejamento Urbano e
+       Regional; 1991. Belo Horizonte: ANPUR; 1991. p. 481–92.
+     * ^37 Villaça F. Uma Contribuição para a História do Planejamento
+       Urbano no Brasil. In: Deák, C, Schiffer SR, editors. O Processo de
+       Urbanização no BRASIL. São Paulo: EdUSP; 1999. p. 169-243.
+     * ^38 Amaral EFL, Rodrigues RN, Fígoli MGB. Síntese da Migração em
+       Goiás e no Distrito Federal nas Últimas Décadas. Sociedade e
+       Cultura. 2002;5(2):127-36. doi: 10.5216/sec.v5i2.565.
+       » https://doi.org/10.5216/sec.v5i2.565
+     * ^39 Teixeira CNG, Pereira SMDS, Hilgert JB, Oliveira NMA, Ribeiro
+       CCC, Neves M, et al The Use of Dental Services in the Past Year in
+       the Brazilian Population: A Systematic Review with Meta-Analysis.
+       Cien Saude Colet. 2023;28(4):1087-100. doi:
+       10.1590/1413-81232023284.11452022.
+       » https://doi.org/10.1590/1413-81232023284.11452022
+     * ^40 Malta DC, Gomes CS, Stopa SR, Andrade FMD, Prates EJS, Oliveira
+       PPV, et al. Desigualdades na Assistência à Saúde e no Acesso aos
+       Serviços de Saúde em Adultos Brasileiros com Autorrelato de
+       Hipertensão Arterial: Pesquisa Nacional de Saúde. Cadernos de Saúde
+       Pública. 2022;38(13):e00125421. doi: 10.1590/0102-311xe00125421.
+       » https://doi.org/10.1590/0102-311xe00125421
+     * ^41 Preslar JP, Worrell MC, Kaiser R, Cain CJ, Samura S, Jambai A,
+       et al. Effect of Delays in Maternal Access to Healthcare on
+       Neonatal Mortality in Sierra Leone: A Social Autopsy Case-Control
+       Study at a Child Health and Mortality Prevention Surveillance
+       (CHAMPS) Site. Matern Child Health J. 2021;25(8):1326-35. doi:
+       10.1007/s10995-021-03132-4.
+       » https://doi.org/10.1007/s10995-021-03132-4
+     * ^42 Yusuf S, Rangarajan S, Teo K, Islam S, Li W, Liu L, et al.
+       Cardiovascular Risk and Events in 17 Low-, Middle-, and High-Income
+       Countries. N Engl J Med. 2014;371(9):818-27. doi:
+       10.1056/NEJMoa1311890.
+       » https://doi.org/10.1056/NEJMoa1311890
+
+*Material suplementar
+
+   Para informação adicional, por favor, clique aqui.
+
+Editado por
+
+     * Editor responsável pela revisão:
+       Marcio Bittencourt
+
+Datas de Publicação
+
+     * Publicação nesta coleção
+       19 Set 2025
+     * Data do Fascículo
+       2025
+
+Histórico
+
+     * Recebido
+       21 Jun 2024
+     * Revisado
+       06 Abr 2025
+     * Aceito
+       07 Maio 2025
+
+   Creative Common - by 4.0
+   This is an open-access article distributed under the terms of the
+   Creative Commons Attribution License
+
+Autoria
+
+   (BUTTON)
+   person José Lucas Bichara
+   Concepção e desenho da pesquisa · Obtenção de dados · Análise e
+   interpretação dos dados · Análise estatística e Redação do manuscrito
+   schoolUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   BrasilUniversidade Federal do Rio de JaneiroBrasilRio de Janeiro, RJ,
+   BrasilUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   Brasil
+   0000-0002-2858-367X
+   person Luiz Antônio Bastos
+   Concepção e desenho da pesquisa · Obtenção de dados
+   schoolUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   BrasilUniversidade Federal do Rio de JaneiroBrasilRio de Janeiro, RJ,
+   BrasilUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   Brasil
+   person Eric Delgado dos Santos Mafra Lino
+   Auxílio na produção dos mapas e gráficos
+   schoolInstituto Militar de Engenharia, Rio de Janeiro, RJ –
+   BrasilInstituto Militar de EngenhariaBrasilRio de Janeiro, RJ,
+   BrasilInstituto Militar de Engenharia, Rio de Janeiro, RJ – Brasil
+   person Paolo Blanco Villela
+   Concepção e desenho da pesquisa · Obtenção de dados · Análise e
+   interpretação dos dados · Análise estatística e Redação do manuscrito ·
+   Revisão crítica do manuscrito quanto ao conteúdo
+   schoolUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   BrasilUniversidade Federal do Rio de JaneiroBrasilRio de Janeiro, RJ,
+   BrasilUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   Brasil
+   0000-0001-8121-5959
+   person Gláucia Maria Moraes de Oliveira
+   Concepção e desenho da pesquisa · Análise e interpretação dos dados ·
+   Análise estatística e Redação do manuscrito · Revisão crítica do
+   manuscrito quanto ao conteúdo
+   schoolUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   BrasilUniversidade Federal do Rio de JaneiroBrasilRio de Janeiro, RJ,
+   BrasilUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   Brasil
+   0000-0002-0737-6188
+   personCorrespondência:Gláucia Maria Moraes de Oliveira • Universidade
+   Federal do Rio de Janeiro – Cardiologia - Rua Prof. Rodolpho Paulo
+   Rocco, 255. CEP
+   21941-901, Rio de Janeiro, RJ - Brasil E-mail:
+   glauciamoraesoliveira@gmail.com
+
+   Potencial conflito de interesse
+
+   Não há conflito com o presente artigo
+
+   Editor responsável pela revisão:
+
+   Marcio Bittencourt
+
+SCIMAGO INSTITUTIONS RANKINGS
+
+   (BUTTON)
+   Universidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   BrasilUniversidade Federal do Rio de JaneiroBrasilRio de Janeiro, RJ,
+   BrasilUniversidade Federal do Rio de Janeiro, Rio de Janeiro, RJ –
+   Brasil
+   Instituto Militar de Engenharia, Rio de Janeiro, RJ – BrasilInstituto
+   Militar de EngenhariaBrasilRio de Janeiro, RJ, BrasilInstituto Militar
+   de Engenharia, Rio de Janeiro, RJ – Brasil
+
+Figuras
+
+   (BUTTON)
+     * Figuras (5)
+
+   [f156d97f49173a409c79bbcecaf41f2c9d88342f.jpg] Thumbnail
+
+   CAPTION: Figura Central: Índice de Vulnerabilidade Social e Mortalidade
+   por Doenças Isquêmicas do Coração e Doenças Cerebrovasculares no Brasil
+   de 2000 a 2021
+
+   [4134c5237d33b9ee5b1024af9cf521368ce9fe25.jpg] Thumbnail
+
+   CAPTION: Figura 1 Comparação entre o IVS do ano de 2010 e a variação
+   percentual da taxa de mortalidade por doenças cerebrovasculares e
+   doenças isquêmicas do coração no Brasil e nas unidades federativas, em
+   ambos os sexos, entre 2000 e 2021. (1A) - IVS de 2010 e variação
+   percentual da mortalidade por DCBV, em ambos os sexos, no Brasil, 2000
+   a 2021, (1B) IVS de 2010 e variação percentual do da mortalidade por
+   DIC, em ambos os sexos, no Brasil, 2000 a 2021.
+
+   [d900b56c515b492ac287b62ed32eac087cfb2da0.jpg] Thumbnail
+
+   CAPTION: Figura 2 Comparação entre a dimensão de infraestrutura urbana
+   do Índice de Vulnerabilidade Social de 2010 e a variação percentual da
+   taxa de mortalidade por doenças cerebrovasculares e doenças isquêmicas
+   do coração no Brasil e nas suas unidades federativas, em ambos os sexos
+   entre 2000 e 2021. (2A) - IVS-IU de 2010 e variação percentual da
+   mortalidade por DCBV, em ambos os sexos, no Brasil, 2000 a 2021, (2B)
+   IVS-IU de 2010 e variação percentual da mortalidade por DIC, em ambos
+   os sexos, no Brasil, 2000 a 2021.
+
+   [f6bcd1b400eaa137bd40aef43dd82a9fb3b93b04.jpg] Thumbnail
+
+   CAPTION: Figura 3 Comparação entre a dimensão capital humano do Índice
+   de Vulnerabilidade Social de 2010 e a variação percentual da taxa de
+   mortalidade por doenças cerebrovasculares e doenças isquêmicas do
+   coração no Brasil e nas suas unidades federativas, em ambos os sexos,
+   entre 2000 e 2021. (3A) - IVS-CH de 2010 e variação percentual da
+   mortalidade por DCBV, em ambos os sexos, no Brasil, 2000 a 2021, (3B)
+   IVS-CH de 2010 e variação percentual da mortalidade por DIC, em ambos
+   os sexos, no Brasil, 2000 a 2021.
+
+   [24d9cbf6d25769c72335e7fa28903656d55fb995.jpg] Thumbnail
+
+   CAPTION: Figura 4 Comparação entre a dimensão de renda e trabalho do
+   Índice de Vulnerabilidade Social de 2010 e a variação percentual da
+   taxa de mortalidade por doenças cerebrovasculares e doenças isquêmicas
+   do coração no Brasil e nas suas unidades federativas, em ambos os
+   sexos, entre 2000 e 2021. (4A) - IVS-RT de 2010 e variação percentual
+   da mortalidade por DCBV, em ambos os sexos, no Brasil, 2000 a 2021,
+   (4B) IVS-RT de 2010 e variação percentual da mortalidade por DIC, em
+   ambos os sexos, no Brasil, 2000 a 2021.
+
+imageFigura Central:   Índice de Vulnerabilidade Social e Mortalidade por
+Doenças Isquêmicas do Coração e Doenças Cerebrovasculares no Brasil de 2000 a
+2021 open_in_new
+
+   (BUTTON)
+   [f0f8e95bd9292729af52035be3df5a51828ca5fa.png] IVS: Índice de
+   vulnerabilidade social; IVS-IU: Dimensão infraestrutura urbana do
+   Índice de Vulnerabilidade social; IVS-RT: Dimensão renda e trabalho do
+   Índice de Vulnerabilidade social; IVS-CH: Dimensão capital humano do
+   Índice de Vulnerabilidade social. Os dados expostos nos mapas são do
+   ano de 2021.
+
+imageFigura 1   Comparação entre o IVS do ano de 2010 e a variação percentual
+da taxa de mortalidade por doenças cerebrovasculares e doenças isquêmicas do
+coração no Brasil e nas unidades federativas, em ambos os sexos, entre 2000 e
+2021. (1A) - IVS de 2010 e variação percentual da mortalidade por DCBV, em
+ambos os sexos, no Brasil, 2000 a 2021, (1B) IVS de 2010 e variação
+percentual do da mortalidade por DIC, em ambos os sexos, no Brasil, 2000 a
+2021. open_in_new
+
+   (BUTTON)
+   [cda78650f936b9e7f77a5aa55eca375fca9f9656.png]
+
+imageFigura 2   Comparação entre a dimensão de infraestrutura urbana do
+Índice de Vulnerabilidade Social de 2010 e a variação percentual da taxa de
+mortalidade por doenças cerebrovasculares e doenças isquêmicas do coração no
+Brasil e nas suas unidades federativas, em ambos os sexos entre 2000 e 2021.
+(2A) - IVS-IU de 2010 e variação percentual da mortalidade por DCBV, em ambos
+os sexos, no Brasil, 2000 a 2021, (2B) IVS-IU de 2010 e variação percentual
+da mortalidade por DIC, em ambos os sexos, no Brasil, 2000 a 2021.
+open_in_new
+
+   (BUTTON)
+   [0c6a40182374c1926ac238d2ada67546d5b33bed.png]
+
+imageFigura 3   Comparação entre a dimensão capital humano do Índice de
+Vulnerabilidade Social de 2010 e a variação percentual da taxa de mortalidade
+por doenças cerebrovasculares e doenças isquêmicas do coração no Brasil e nas
+suas unidades federativas, em ambos os sexos, entre 2000 e 2021. (3A) -
+IVS-CH de 2010 e variação percentual da mortalidade por DCBV, em ambos os
+sexos, no Brasil, 2000 a 2021, (3B) IVS-CH de 2010 e variação percentual da
+mortalidade por DIC, em ambos os sexos, no Brasil, 2000 a 2021. open_in_new
+
+   (BUTTON)
+   [0ed52d23203e3b3f6fc6acf25f0f3f7ee23a5133.png]
+
+imageFigura 4   Comparação entre a dimensão de renda e trabalho do Índice de
+Vulnerabilidade Social de 2010 e a variação percentual da taxa de mortalidade
+por doenças cerebrovasculares e doenças isquêmicas do coração no Brasil e nas
+suas unidades federativas, em ambos os sexos, entre 2000 e 2021. (4A) -
+IVS-RT de 2010 e variação percentual da mortalidade por DCBV, em ambos os
+sexos, no Brasil, 2000 a 2021, (4B) IVS-RT de 2010 e variação percentual da
+mortalidade por DIC, em ambos os sexos, no Brasil, 2000 a 2021. open_in_new
+
+   (BUTTON)
+   [30aa80a1b4adc5198377f5a567519a9bd84f4eea.png]
+
+Como citar
+
+   (BUTTON)
+
+   ____________________linkcopiar
+
+   vertical_align_top show_chart
+     * more_horiz close
+          + image
+          + translate
+          + link
+          + article
+          + vertical_align_top
+          + file_download
+          + show_chart
+          + image
+          + translate
+          + link
+          + article
+
+   location_on
+   Sociedade Brasileira de Cardiologia - SBC Avenida Marechal Câmara, 160,
+   sala: 330, Centro, CEP: 20020-907, (21) 3478-2700 - Rio de Janeiro - RJ
+   - Brazil, Fax: +55 21 3478-2770 - São Paulo - SP - Brazil
+   E-mail: revista@cardiol.br
+   rss_feed Acompanhe os números deste periódico no seu leitor de RSS
+
+Versão para download de PDF
+
+   (BUTTON)
+   PDF
+     * Português
+     * Inglês
+
+Artigos relacionados
+
+   (BUTTON)
+     * Google
+     * Google Scholar
+
+Versões e tradução automática
+
+   (BUTTON)
+   Versão original do texto
+     * English
+     * Português
+
+   Tradução automática
+     * Google Translator
+     * Microsoft Translator
+
+Como citar
+
+   (BUTTON)
+   RIS
+   BIBTEX
+   Outros formatos de citação e exportação:
+   [Enter references manager format or citation style (e.g., "APA", "AMA",
+    "MLA", "Vancouver")]
+
+   SciELO - Scientific Electronic Library Online
+
+   Rua Dr. Diogo de Faria, 1087 – 9º andar – Vila Clementino 04037-003 São
+   Paulo/SP - Brasil
+   E-mail: scielo@scielo.org
+     *
+     *
+     *
+     *
+     *
+
+   Creative Common - by 4.0
+
+   CAPES CAPES CNPq CNPq FAPESP FAPESP BVS BVS BIREME BIREME FAP-UNIFESP
+   FAP-UNIFESP
+   CAPES CNPq FAPESP BVS BIREME FAP-UNIFESP
+
+   Open Access Leia a Declaração de Acesso Aberto
+
+Métricas
+
+   (BUTTON)
+   SciELO Analytics
+   Dimensions
+   Altmetric
+   Scite_
+   Índice de Vulnerabilidade Social e Mortalidade por Doenças Isquêmicas
+   do Coração e Doenças Cerebrovasculares no Brasil de 2000 a 2021
+   PlumX
+
+   (BUTTON) ×Close
+
+Mensagem
+
+   (BUTTON) ×Close
+
+Mensagem
+
+   Reportar erro

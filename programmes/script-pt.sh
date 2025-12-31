@@ -3,248 +3,156 @@
 set -o nounset
 set -o pipefail
 
+# 1. VERIFICAÇÃO DE ARGUMENTOS E CAMINHOS
 if [ "$#" -ne 2 ]; then
-  echo "Usage: $0 fichier_urls langue"
+  echo "Usage: $0 arquivo_urls lingua"
   exit 1
 fi
 
+SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
+ROOT_DIR=$(cd "$SCRIPT_DIR/.." && pwd)
 URL_FILE="$1"
+[ ! -f "$URL_FILE" ] && URL_FILE="$ROOT_DIR/$1"
+
 LANGUE="$2"
+DUMP_DIR="$ROOT_DIR/dumps-text"
+ASP_DIR="$ROOT_DIR/aspirations"
+CTX_DIR="$ROOT_DIR/contextes"
+TBL_DIR="$ROOT_DIR/tableaux"
 
-#Recherche du mot et toutes ses variations
-MOTIFS="cora(c|ç)(ã|a)o|cora(c|ç)(õ|o)es"
-CONTEXT_SIZE=150
-UA="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0"
+mkdir -p "$DUMP_DIR" "$ASP_DIR" "$CTX_DIR" "$TBL_DIR"
 
-export LANG=pt_PT.UTF-8
-export LC_ALL=pt_PT.UTF-8
+# 2. CONFIGURAÇÕES TÉCNICAS
+MOTIFS="cora[cç][ãa]o|cora[cç][õo]es"
+UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
 
-[ ! -f "$URL_FILE" ] && { echo "Fichier introuvable : $URL_FILE"; exit 1; }
-
-for cmd in curl lynx pdftotext; do
-  command -v "$cmd" >/dev/null || { echo "Commande manquante : $cmd"; exit 1; }
-done
-
-mkdir -p dumps-text aspirations contextes tableaux concordances
-
-declare -A HTTP_CODES
-declare -A ENCODINGS
-
-clean_line() {
-  echo "$1" | tr -d '\r' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'
-}
-
-extract_url() {
-  echo "$1" | grep -oE '^https?://[^[:space:]]+'
-}
-
-download_pdf() {
-  local url="$1" out="$2" idx="$3"
-  HTTP_CODES[$idx]=$(curl -L -s -w "%{http_code}" -A "$UA" "$url" -o tmp.pdf)
-  ENCODINGS[$idx]="PDF"
-  pdftotext -layout tmp.pdf "$out" 2>/dev/null
-  rm -f tmp.pdf
-}
-
-download_html() {
-  local url="$1" out="$2" idx="$3"
-  local response html http_code content_type encoding
-
-  response=$(curl -L -s -w "\n%{http_code}\n%{content_type}" -A "$UA" "$url")
-  html=$(echo "$response" | sed '$d;$d')
-  http_code=$(echo "$response" | tail -2 | head -1)
-  content_type=$(echo "$response" | tail -1)
-
-  HTTP_CODES[$idx]="$http_code"
-
-  encoding=$(echo "$content_type" | grep -oE "charset=[^ ;]+" | cut -d= -f2)
-  [ -z "$encoding" ] && encoding="UTF-8"
-  ENCODINGS[$idx]="$encoding"
-
-  echo "$html" > "temp_${idx}.html"
-  
-  if [[ ! "$encoding" =~ [Uu][Tt][Ff]-?8 ]]; then
-    lynx -dump -nolist "temp_${idx}.html" 2>/dev/null | iconv -f "$encoding" -t "UTF-8" > "$out" 2>/dev/null || \
-    lynx -dump -nolist "temp_${idx}.html" 2>/dev/null > "$out"
-  else
-    lynx -dump -nolist "temp_${idx}.html" 2>/dev/null > "$out"
-  fi
-  
-  sed -i 's/[[:space:]]\+/ /g' "$out"
-  
-  rm -f "temp_${idx}.html"
-}
-
-extract_contexts() {
-  grep -o -E ".{0,${CONTEXT_SIZE}}(${MOTIFS}).{0,${CONTEXT_SIZE}}" "$1" \
-    > "$2" || > "$2"
-}
+# Arrays para armazenar os dados e evitar desalinhamento na tabela
+declare -A TAB_URLS
+declare -A TAB_HTTP
+declare -A TAB_ENC
 
 i=1
+echo "Analyse en cours pour le portugais..."
 
-echo "Début de l'analyse pour '$LANGUE'..."
-
-while IFS= read -r raw_line || [ -n "$raw_line" ]; do
-  line=$(clean_line "$raw_line")
+while IFS= read -r line || [ -n "$line" ]; do
   [[ -z "$line" || "$line" =~ ^# ]] && continue
-
-  url=$(extract_url "$line")
+  
+  url=$(echo "$line" | grep -oE 'https?://[^[:space:]]+' | head -1)
   [ -z "$url" ] && continue
 
-  echo "→ [$LANGUE-$i] $url"
+  # Armazena a URL exata para usar na tabela depois
+  TAB_URLS[$i]="$url"
 
-  DUMP="dumps-text/${LANGUE}-${i}.txt"
-  ASP="aspirations/${LANGUE}-${i}.html"
-  CTX="contextes/${LANGUE}-${i}.txt"
+  # Coleta metadados (HTTP e Encoding)
+  header=$(curl -L -s -I -A "$UA" "$url" --connect-timeout 10 || echo "HTTP/1.1 000 Error")
+  TAB_HTTP[$i]=$(echo "$header" | grep "HTTP/" | tail -1 | awk '{print $2}')
+  
+  charset=$(echo "$header" | grep -i "Content-Type" | grep -oE "charset=[^ ;]+" | cut -d= -f2 | tr -d '"' | tr -d "'")
+  [ -z "$charset" ] && charset="UTF-8"
+  TAB_ENC[$i]=$(echo "$charset" | tr '[:lower:]' '[:upper:]')
 
-  if [[ "$url" =~ \.pdf$ ]]; then
-    download_pdf "$url" "$DUMP" "$i"
-  else
-    download_html "$url" "$DUMP" "$i"
-  fi
+  # Caminhos dos arquivos
+  DUMP_PATH="$DUMP_DIR/${LANGUE}-${i}.txt"
+  ASP_PATH="$ASP_DIR/${LANGUE}-${i}.html"
+  CTX_PATH="$CTX_DIR/${LANGUE}-${i}.txt"
 
-  if [ ! -s "$DUMP" ]; then
-    echo "Aucun texte extrait"
-    HTTP_CODES[$i]="Erreur"
-    > "$ASP"
-    > "$CTX"
-    i=$((i+1))
-    continue
-  fi
+  # Processamento do conteúdo
+  curl -L -s -A "$UA" "$url" -o "temp.html"
+  
+  # Dump textual com Lynx e conversão de encoding para UTF-8
+  lynx -dump -nolist -display_charset=utf-8 -assume_charset="${TAB_ENC[$i]}" "temp.html" 2>/dev/null | iconv -f "${TAB_ENC[$i]}" -t "UTF-8//IGNORE" > "$DUMP_PATH" 2>/dev/null || lynx -dump -nolist "temp.html" > "$DUMP_PATH"
 
-  extract_contexts "$DUMP" "$CTX"
-
+  # Extração de contextos (Grep)
+  grep -E -o ".{0,100}(${MOTIFS}).{0,100}" "$DUMP_PATH" > "$CTX_PATH" || > "$CTX_PATH"
+  
+  # Geração da Aspiração (Página com destaques)
   {
-    echo "<!DOCTYPE html><html lang='pt'><meta charset='UTF-8'><body>"
-    echo "<h2>Source : <a href='$url'>$url</a></h2>"
-    grep -E "$MOTIFS" "$DUMP" | sed 's/^/<p>/;s/$/<\/p>/' \
-      || echo "<p>Aucune occurrence</p>"
+    echo "<!DOCTYPE html><html><head><meta charset='UTF-8'></head><body>"
+    echo "<h2>Source : <a href='$url'>$url</a></h2><hr>"
+    grep -Ei "$MOTIFS" "$DUMP_PATH" | sed 's/^/<p>/;s/$/<\/p>/' || echo "<p>Aucune occurrence</p>"
     echo "</body></html>"
-  } > "$ASP"
+  } > "$ASP_PATH"
 
+  rm -f "temp.html"
   i=$((i+1))
 done < "$URL_FILE"
 
-echo " $((i-1)) URLs traitées"
-
-CONCORDANCE_FILE="concordances/${LANGUE}-concordances.html"
-
-{
-echo "<!DOCTYPE html>"
-echo "<html><meta charset='UTF-8'>"
-echo "<head><style>"
-echo "body { font-family: sans-serif; margin: 20px; }"
-echo "h1 { border-bottom: 2px solid #4CAF50; padding-bottom: 5px; }"
-echo "h2 { margin-top: 30px; color: #333; }"
-echo "table { width: 100%; border-collapse: collapse; margin: 10px 0; }"
-echo "td { border: 1px solid #ddd; padding: 8px; }"
-echo ".left { text-align: right; width: 45%; color: #444; }"
-echo ".motif { text-align: center; width: 10%; font-weight: bold; background: #ffcccc; }"
-echo ".right { text-align: left; width: 45%; color: #444; }"
-echo ".source { font-size: 12px; color: #777; margin-bottom: 15px; }"
-echo "</style></head><body>"
-
-echo "<h1>Concordances — ${LANGUE}</h1>"
-echo "<p><strong>Motif unique :</strong> coração (corações)</p>"
-echo "<p><strong>Variantes inclusas :</strong> coraçao, coraçaõ, corações, coraçoes</p>"
-echo "<p><strong>Contexte :</strong> ±${CONTEXT_SIZE} caractères</p>"
-
-doc_num=1
-
-for idx in $(seq 1 $((i-1))); do
-  ctx="contextes/${LANGUE}-${idx}.txt"
-  dump="dumps-text/${LANGUE}-${idx}.txt"
-
-  [ ! -s "$ctx" ] && continue
-
-  url=$(sed -n "${idx}p" "$URL_FILE" | grep -oE '^https?://[^[:space:]]+')
-  [ -z "$url" ] && url="URL inconnue"
-
-  occ=$(wc -l < "$ctx" | tr -d ' ')
-  [ "$occ" -eq 0 ] && continue
-
-  echo "<h2>Document $doc_num — $occ occurrence(s) de 'coração'</h2>"
-  echo "<div class='source'>Source : <a href='$url' target='_blank'>$url</a></div>"
-
-  while IFS= read -r line; do
-    motif=$(echo "$line" | grep -oE "$MOTIFS" | head -1)
-    [ -z "$motif" ] && continue
-
-    left=$(echo "$line" | sed "s/${motif}.*//")
-    right=$(echo "$line" | sed "s/.*${motif}//")
-
-    echo "<table><tr>"
-    echo "<td class='left'>$left</td>"
-    echo "<td class='motif'>$motif</td>"
-    echo "<td class='right'>$right</td>"
-    echo "</tr></table>"
-  done < "$ctx"
-
-  doc_num=$((doc_num+1))
-done
-
-echo "</body></html>"
-} > "$CONCORDANCE_FILE"
-
-echo "✓ Concordances générées : $CONCORDANCE_FILE"
-
-OUT="tableaux/${LANGUE}.html"
-CONCORDANCE="../concordances/${LANGUE}-concordances.html"
+# 3. GERAÇÃO DO HTML FINAL (O TABLEAU)
+OUT="$TBL_DIR/${LANGUE}.html"
+CSS_PATH="../css/main.css"
 
 {
-echo "<!DOCTYPE html>"
-echo "<html><meta charset='UTF-8'>"
-echo "<head><style>"
-echo "table { border-collapse: collapse; width: 100%; margin-top: 20px; }"
-echo "th, td { border: 1px solid #ccc; padding: 8px; }"
-echo "th { background: #4CAF50; color: white; }"
-echo "tr:nth-child(even) { background: #f2f2f2; }"
-echo ".center { text-align: center; }"
-echo ".url { max-width: 400px; word-wrap: break-word; }"
-echo ".count { font-weight: bold; color: #d32f2f; }"
-echo "</style></head><body>"
+echo "<!DOCTYPE html>
+<html lang='pt'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Tableau Portugais</title>
+    <link rel='stylesheet' href='$CSS_PATH'>
+</head>
+<body>
+    <header class='hero heart-hero is-small'>
+        <div class='hero-body has-text-centered'>
+            <h1 class='title has-text-white'>Coração</h1>
+            <p class='subtitle has-text-white'>Tableau des URLs pour le portugais</p>
+        </div>
+    </header>
 
-echo "<h1>Tableau — ${LANGUE}</h1>"
-echo "<p style='font-size:18px;'> <a href='$CONCORDANCE' target='_blank'><strong>📊 Voir les concordances de 'coração'</strong></a></p>"
+    <main class='section'>
+        <div class='container box'>
+            <h2 class='title is-4 has-text-pink'>Tableau portugais</h2>
+            
+            <div class='field is-grouped'>
+                <p class='control'>
+                    <a href='../concordances/${LANGUE}-concordances.html' class='button is-pink is-light'>
+                        <span>📊 Voir les concordances</span>
+                    </a>
+                </p>
+            </div>
 
-echo "<table>"
-echo "<tr>
-<th class='center'>#</th>
-<th>URL</th>
-<th class='center'>HTTP</th>
-<th class='center'>Encodage</th>
-<th class='center'>Occurrences<br>coração</th>
-</tr>"
+            <table class='table is-fullwidth is-hoverable is-striped'>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>URL</th>
+                        <th>HTTP</th>
+                        <th>Encodage</th>
+                        <th>Occurrences</th>
+                        <th>HTML</th>
+                        <th>Dump TXT</th>
+                        <th>Contextes</th>
+                    </tr>
+                </thead>
+                <tbody>"
 
 for idx in $(seq 1 $((i-1))); do
-  url=$(sed -n "${idx}p" "$URL_FILE" | grep -oE '^https?://[^[:space:]]+')
-  [ -z "$url" ] && continue
+    url_final="${TAB_URLS[$idx]}"
+    dump_file="$DUMP_DIR/${LANGUE}-${idx}.txt"
+    
+    # Contagem real das palavras no arquivo dump
+    count=$(grep -Eio "$MOTIFS" "$dump_file" 2>/dev/null | wc -l | tr -d ' ')
 
-  dump="dumps-text/${LANGUE}-${idx}.txt"
-
-  count=0
-  if [ -f "$dump" ]; then
-    count=$(grep -oi "cora(c|ç)(ã|a)o|cora(c|ç)(õ|o)es" "$dump" 2>/dev/null | wc -l | tr -d ' ')
-  fi
-
-  echo "<tr>
-<td class='center'>$idx</td>
-<td class='url'><a href='$url' target='_blank'>$url</a></td>
-<td class='center'>${HTTP_CODES[$idx]:-N/A}</td>
-<td class='center'>${ENCODINGS[$idx]:-N/A}</td>
-<td class='center'><span class='count'>$count</span></td>
-</tr>"
+    echo "<tr>
+        <td>$idx</td>
+        <td><a href='$url_final' target='_blank' style='display:block; max-width:300px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;'>$url_final</a></td>
+        <td><span class='tag is-light'>${TAB_HTTP[$idx]}</span></td>
+        <td>${TAB_ENC[$idx]}</td>
+        <td><span class='has-text-weight-bold'>$count</span></td>
+        <td><a href='../aspirations/${LANGUE}-${idx}.html' class='has-text-info'>HTML</a></td>
+        <td><a href='../dumps-text/${LANGUE}-${idx}.txt' class='has-text-info'>TXT</a></td>
+        <td><a href='../contextes/${LANGUE}-${idx}.txt' class='has-text-info'>CTX</a></td>
+    </tr>"
 done
 
-echo "</table>"
+echo "                </tbody>
+            </table>
+        </div>
+    </main>
 
-echo "<div style='margin-top: 30px; padding: 15px; background: #f5f5f5;'>"
-echo "<h3>Motif recherché :</h3>"
-echo "<p><strong>coração</strong> (et pluriel <strong>corações</strong>)</p>"
-echo "<p><em>Variantes incluses :</em> coraçao, coraçaõ, coraçoes, coraçõe</p>"
-echo "</div>"
-
-echo "</body></html>"
+    <footer class='footer heart-footer has-text-centered'>
+        <p>Projet PPE - Analyse du mot 'Coração'</p>
+    </footer>
+</body>
+</html>"
 } > "$OUT"
 
-echo "Tableau HTML généré : $OUT"
+echo "Succès ! Tableau généré em: $OUT"

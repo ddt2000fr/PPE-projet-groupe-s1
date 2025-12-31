@@ -1,0 +1,751 @@
+
+   Menu
+     *
+     * Brasil
+          + Lista alfabética de periódicos
+          + Lista temática de periódicos
+          + Busca
+          + Métricas
+          + Sobre o SciELO Brasil
+          + Contatos
+          + Reportar erro
+     * SciELO.org - Rede SciELO
+          + Coleções nacionais e temáticas
+          + Lista alfabética de periódicos
+          + Lista de periódicos por assunto
+          + Busca
+          + Métricas
+          + Acesso OAI e RSS
+          + Sobre a Rede SciELO
+          + Contatos
+     * Blog SciELO em Perspectiva
+
+   Brasil
+   (BUTTON) Cadernos CEDES
+     * Logomarca do periódico: Cadernos CEDES
+     * launch Submissão de manuscritos
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+   (BUTTON) language pt_BR Português
+     * English
+     * Español
+
+   (BUTTON) Cadernos CEDES
+     * Logomarca do periódico: Cadernos CEDES
+     * launch Submissão de manuscritos
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+   home Sumário navigate_before Anterior Atual Seguinte navigate_next
+   (BUTTON) Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+   (BUTTON) Texto (PT)
+     * Texto (Português)
+
+   (BUTTON) PDF
+     * Download PDF (Português)
+
+   (BUTTON) article Conteúdo: Texto (PT)
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+     * Texto (Português)
+     * Download PDF (Português)
+
+   (BUTTON) share
+     * Whatsapp
+     * BlueSky
+     * Mastodon
+     * Facebook
+     * Mais
+
+   home Sumário
+   (BUTTON) share
+     * Facebook
+     * X
+     * Google+
+     * LinkedIn
+     * Reddit
+     * StambleUpon
+     * CiteULike
+     * Mendeley
+
+   (BUTTON) Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+   (BUTTON) Texto (PT)
+     * Texto (Português)
+
+   (BUTTON) PDF
+     * Download PDF (Português)
+
+   Artigos • Cad. CEDES 30 (80) • Abr 2010 •
+   https://doi.org/10.1590/S0101-32622010000100006 linkcopiar
+
+Open-access Segredos do coração: a escola como espaço para o olhar sensível
+
+Secrets of the heart: school as a space for the sensitive look
+
+   AutoriaSCIMAGO INSTITUTIONS RANKINGS
+
+Resumos
+
+   Nesse artigo apresentamos a experiência da construção, na escola, de um
+   espaço para o afeto. Em tal espaço, através da atividade artística,
+   torna-se possível trabalhar perdas, cultivar segredos, sonhos e
+   desejos. Espaço-lugar que permite a construção de um olhar sensível
+   para as histórias de cada um e para a memória coletiva. A dinâmica
+   envolvida na proposta expressa uma dimensão do ensino de arte na
+   atualidade, como espaço de atuação entre a objetividade e a
+   subjetividade no trabalho com os alunos. Nesta sintonia, durante as
+   aulas de arte que configuraram a experiência aqui analisada,
+   alinhávamos histórias dos participantes com os fios da experiência
+   estética, cruzando referências das culturas africana e indígena com a
+   tradição das bordadeiras, que tecem a sua história de vida com fios e
+   panos. Na composição de todos esses elementos, criamos na escola um
+   lugar de acolhimento das individualidades, das subjetividades de cada
+   um de nós, verdadeiros tesouros segredados.
+
+   Ensino de arte; Experiência estética; História de vida; Memória afetiva
+     __________________________________________________________________
+
+   This paper describes an experiment to build a space for affect within
+   school. Through artistic activities, such space permits to deal with
+   losses and share secrets, dreams, and desires. This locus thus allows
+   the construction of a sensible look on each one's story and on
+   collective memories. The dynamics within our proposal expresses a
+   dimension of the current view on art education as an acting space
+   combining objective and subjective aspects of our work with students.
+   This interplay in the art classes focused here allowed to weave
+   participants' stories into the threads of the aesthetic experience,
+   interlacing references of African and Native cultures with the
+   tradition of local embroiderers, who weave their stories with threads
+   and cloths. The composition of all these elements created a shelter for
+   individualities, for each one's subjectivity, for our hidden treasures,
+   in our school.
+
+   Art education; Aesthetical experience; Life story; Affective memory
+     __________________________________________________________________
+
+   ARTIGOS
+
+   Segredos do coração: a escola como espaço para o olhar sensível^*
+
+   Secrets of the heart: school as a space for the sensitive look
+
+   Rosvita Kolb-Bernardes
+
+   Doutoranda em Educação na Universidade Estadual de Campinas (UNICAMP) e
+   professora efetiva na Escola Guignard, na Universidade do Estado de
+   Minas Gerais (UEMG). E-mail: rnf.bhz@terra.com.br
+
+   RESUMO
+
+   Nesse artigo apresentamos a experiência da construção, na escola, de um
+   espaço para o afeto. Em tal espaço, através da atividade artística,
+   torna-se possível trabalhar perdas, cultivar segredos, sonhos e
+   desejos. Espaço-lugar que permite a construção de um olhar sensível
+   para as histórias de cada um e para a memória coletiva. A dinâmica
+   envolvida na proposta expressa uma dimensão do ensino de arte na
+   atualidade, como espaço de atuação entre a objetividade e a
+   subjetividade no trabalho com os alunos. Nesta sintonia, durante as
+   aulas de arte que configuraram a experiência aqui analisada,
+   alinhávamos histórias dos participantes com os fios da experiência
+   estética, cruzando referências das culturas africana e indígena com a
+   tradição das bordadeiras, que tecem a sua história de vida com fios e
+   panos. Na composição de todos esses elementos, criamos na escola um
+   lugar de acolhimento das individualidades, das subjetividades de cada
+   um de nós, verdadeiros tesouros segredados.
+
+   Palavras-chave: Ensino de arte. Experiência estética. História de vida.
+   Memória afetiva.
+
+   ABSTRACT
+
+   This paper describes an experiment to build a space for affect within
+   school. Through artistic activities, such space permits to deal with
+   losses and share secrets, dreams, and desires. This locus thus allows
+   the construction of a sensible look on each one's story and on
+   collective memories. The dynamics within our proposal expresses a
+   dimension of the current view on art education as an acting space
+   combining objective and subjective aspects of our work with students.
+   This interplay in the art classes focused here allowed to weave
+   participants' stories into the threads of the aesthetic experience,
+   interlacing references of African and Native cultures with the
+   tradition of local embroiderers, who weave their stories with threads
+   and cloths. The composition of all these elements created a shelter for
+   individualities, for each one's subjectivity, for our hidden treasures,
+   in our school.
+
+   Keywords: Art education. Aesthetical experience. Life story. Affective
+   memory.
+
+   Raízes de um projeto de arte
+
+   Início de ano. Novas turmas. Alguns já conhecidos. Turma agitada, cheia
+   de questões e sugestões. Muitas meninas e poucos meninos. Logo foram me
+   dizendo que adoram trabalhar com argila... E eu logo perguntando: sim,
+   mas o que vocês estudaram na aula de arte do ano passado? O que vocês
+   imaginam que crianças com 8, 9, 10 anos de idade podem aprender numa
+   aula de arte? (Anotações do caderno, fev. 2005)
+
+   Desse início de conversa e das inquietações, tanto minhas, professora e
+   pesquisadora, como também dessas crianças, nasceu a experiência que
+   aqui compartilho. Os dados que trago para análise dizem respeito às
+   atividades desenvolvidas com crianças entre 8 e 10 anos de idade, numa
+   escola do ensino fundamental, na cidade de Belo Horizonte, durante as
+   aulas de arte no ano de 2005. Nesse contexto, é preciso dizer que
+   aquele foi um princípio de ano carregado de muita emoção e tristeza
+   (sobretudo para nós professores), pois tínhamos perdido uma colega de
+   trabalho.
+
+   De minha parte, começava o ano reconhecendo que a vida tem limites, que
+   a morte faz parte do ciclo da vida do ser humano. Esse fato (essa
+   consciência!) me provou tanto na minha tarefa de ser professora que, ao
+   iniciar o ano letivo, lancei como eixo de trabalho: a memória da dor,
+   do sofrimento, da perda, da ausência.
+
+   Poderia a escola ser um lugar para o acolhimento de histórias e
+   memórias daqueles que a frequentam? Seria possível trabalhar o
+   sentimento de perda, cultivar segredos, sonhos e desejos na escola?
+   Seria possível, pois, através da atividade artística, construir um
+   olhar e um fazer sensíveis para as histórias de cada um? A experiência
+   que serve de base para a análise aqui proposta oferece elementos para
+   respondermos que sim, e este texto é um convite para se pensar a escola
+   como um espaço de acolhimento; um espaço para o diálogo com os nossos
+   desejos, sonhos, angústias e incertezas; um lugar do afeto, da memória,
+   de compartilhar a história de vida de cada um. Um lugar, enfim, que nos
+   permite caminhar pelos corredores, diferenciando os cheiros vindos da
+   cozinha, escutar os sons do pátio, correr pelo pátio, explorando os
+   diferentes cantos, sentar aqui ou acolá, juntar-se em roda para
+   conversar ou lanchar, subir nas árvores que compõem o cenário
+   educativo, transformando aquele tempo e aquele espaço em
+   tempo-espaço-vida-vivida-partilhada.
+
+   Olhar e reviver os espaços da escola como um lugar da nossa memória
+   afetiva significa reconhecer e reviver os cantos da escola como um
+   caminho profícuo para o resgate dos significados neles imbricados e
+   refletidos com todos aqueles que viveram e vivem nesses espaços. Mas,
+   até o momento em que formulei a proposta para as aulas de arte - de
+   puxar fios e tecer as histórias de vida que os alunos traziam -, não
+   tinha me dado conta nem da possibilidade, muito menos da importância e
+   vitalidade que esses espaços poderiam ter na história e memória de
+   alunos e professores.
+
+   O que é o vivido? O que é o passado? No dia a dia das escolas, é comum
+   difundir a ideia de que o passado existe para preparar o futuro.
+   Contudo, Benjamim (1994), em sua análise da história, fala de um
+   passado vivo, passível de ser refeito e no qual o sujeito tem um papel
+   fundamental. É possível refazer o passado, interligando-o com o
+   presente. Entretanto, como é possível fazer isso na escola, se os
+   estudantes não se colocam como sujeitos vivos e ativos na experiência
+   de seu cotidiano, sendo privados de contar sua história? O processo de
+   massificação nos priva da arte de narrar e empobrece nossa experiência.
+   Em outras palavras, pessoas moldadas em série perdem sua história,
+   deixando de ser sujeitos.
+
+   Como nos diz Kramer (1993), os sujeitos alunos e professores, no
+   momento que contam, escrevem ou falam sobre si, sobre a sua história
+   vivida, têm a possibilidade de interagir e se inter-relacionar,
+   refazendo caminhos, recompondo rastros e recontando suas histórias,
+   criando um novo passado a partir da vivência coletiva do presente.
+   Pois, se existem alunos e professores que contam histórias e têm
+   experiências significativas, eles não poderiam dar um novo sentido para
+   o conhecimento? Um sentido que se constrói pelo afeto, pela dimensão
+   cultural das crianças e adultos que vivem na escola?
+
+   Souza (2006) fala da importância do estudo das histórias de vida,
+   colocando-as como ferramentas para compreender como se constrói os
+   saberes escolares. O sujeito aprende a partir da sua própria história
+   e, ao narrá-la, permite-lhe um espaço onde pode falar, pensar, sentir
+   sobre si e os outros.
+
+   Aos poucos, tomava corpo de projeto a preocupação de garantir na escola
+   um tempo para as narrativas que os alunos me traziam, abrindo um
+   caminho metodológico no qual as histórias vividas e compartilhadas nem
+   sempre se apresentavam pela escrita (o caminho mais comum, entre os
+   procedimentos escolares...). Outras formas foram propostas e provocadas
+   para dar a conhecer os enredos construídos, apresentados em forma de
+   desenhos, em forma de diário, com fotos de objetos; ou, sugestivamente,
+   configurados em pequenas caixas, contendo objetos colecionados e
+   juntados para dar sentido ou significado a sua memória, a sua história.
+   Nesse caso, emergem sentidos extremamente simbólicos: essas caixas,
+   "memórias encaixadas", apareciam como "caixas de tesouro" (do alemão
+   Schatzkästlein), conforme Hebel (apud Benjamin, 1994). E haveria bem
+   mais precioso que a vida vivida?
+
+   Nessa direção, em meu fazer fui construindo o sentido de que as aulas
+   de arte podem oferecer aos alunos a oportunidade de recontarem sua
+   história, reconstruírem seu passado e construírem sua identidade por
+   meio de variados fazeres, onde a palavra une-se a outras
+   materialidades. Nessa abordagem, o trabalho de arte foi repensado,
+   buscando dialogar com a cultura local e com outras manifestações
+   culturais brasileiras.
+
+   Para alimentar e instigar as crianças, trouxe para a turma o livro
+   Guilherme Augusto Araújo Fernandes (Fox, 1995), que conta a história de
+   um menino que ajuda uma velha senhora, moradora de um asilo vizinho a
+   sua casa e que estava perdendo a memória, a relembrar sua vida através
+   de diferentes objetos carregados de significados pessoais.
+
+   A leitura dessa história ajudou no exercício de rememoração e, aos
+   poucos, os alunos foram trazendo, primeiramente nos seus escritos, suas
+   lembranças: "Sinto saudade de quando eu era menor" (Criança, 9 anos);
+   "Memória para mim é passado, presente e futuro, tempo hora e dia. As
+   fotos que eu trouxe são de amigos, que me fazem lembrar do tempo de
+   pessoas que gostamos, de amigos do passado, gente que ainda não chegou,
+   amigos do presente e os novos que ainda vão chegar" (Criança, 10 anos);
+   "Mas são tantas as pessoas que eu guardo no meu coração, mesmo que
+   esquecidas, porque tudo foi vivido, sentido, tudo eu pensei, tudo eu
+   falei, e vários 'eus' curti" (Criança, 10 anos).
+
+   Desse ponto seguimos, alinhavando nossas histórias com os fios da
+   experiência estética, cruzando nossas referências com as culturas
+   africana e indígena e com a tradição das bordadeiras mineiras, que
+   tecem a sua história de vida com fios e panos. Ficou explicitamente
+   visível como essa experiência de memória, de desejos, de segredos se
+   tornou mais intensa quando tivemos o contato com a lenda Quarup dos
+   índios Kamaiurá (Xingu), com o fazer dos patuás da tradição africana e
+   com os bordados da Família Dumont e das Mariquinhas. Constituindo o
+   núcleo do projeto elaborado, tais situações e atividades planejadas nos
+   conduziram a universos diferenciados, ampliando o repertório dos
+   alunos, provocando não apenas o pensamento, mas o sentimento,
+   articulando-os intensamente em novos fazeres.
+
+   Os muitos fios da história tecida: bordados, patuás, rituais
+
+   Puxando fios: bordados e bordadeiras
+
+   Ao visitar com os alunos a exposição dos bordados das Mariquinhas, numa
+   galeria em Belo Horizonte, ficamos encantados e também impactados. As
+   Mariquinhas bordam as suas histórias de sofrimento e de luta pela
+   sobrevivência. Elas moram na periferia da cidade de Belo Horizonte, de
+   onde saem panos bordados, cerzidos e narrados, de lembranças de
+   dificuldades, de momentos de alegria e tristeza.
+
+   Em alguns momentos, as crianças ficaram confusas e acharam que os
+   bordados não eram de verdade. Acharam que as histórias bordadas eram
+   imaginárias e, no caminho de volta para escola, comentaram que era
+   muito sofrimento, muita dor para um bordado só, e para uma pessoa só...
+
+   Com a Família Dumont, que mora no norte de Minas, na cidade de
+   Pirapora, aprendemos a dialogar com as linhas, tecidos e bordados que
+   trazem uma força e sensibilidade plástica/visual, onde a delicadeza é o
+   grande diferencial. São memórias repletas de poesia da vida vivida e,
+   outras vezes, com a referência na literatura.
+
+   Patuás: dando forma e construindo um lugar para a dor
+
+   Em visita à exposição Mostra do Descobrimento Brasil + 500, em São
+   Paulo, chamou-me a atenção a obra "Parede de Memória", da artista
+   plástica Rosana Paulino. É uma obra composta por 850 pequenas fotos do
+   seu álbum de família. São fotos desbotadas num tom apagado, que nos
+   remetem a sua história. É como se ela articulasse o passado com o
+   presente, falando da sua vida, relacionada as suas condições
+   histórico-sociais. A partir do catálogo da exposição, e da poesia
+   "Carrego comigo", de Carlos Drummond de Andrade, veio a inspiração para
+   a proposição de confecção de patuás com as crianças. Símbolos de sorte
+   e de proteção, os patuás são pequenas almofadas costuradas, contendo
+   alguma erva aromática, um bilhete com os desejos, sonhos e o que
+   carregamos na nossa bagagem ao longo da vida. Ao olharmos mais de perto
+   a obra da referida artista, no catálogo que levei para a aula, as
+   crianças e eu observamos detalhes: havia fotos de pessoas impressas nas
+   pequenas almofadas costuradas. À medida que tivemos mais contato e mais
+   informações, descobrimos que a artista é de descendência
+   afro-brasileira, o que possivelmente lhe deu suporte para o trabalho
+   com os patuás. Talvez sim, talvez não, mas o certo é que, olhando sua
+   obra, pensamos em seguir pelo caminho nela evidenciado: para o nosso
+   trabalho plástico naquele momento, traríamos o significado dos patuás,
+   construiríamos patuás, pois precisávamos dar forma para os sentimentos,
+   para a dor visível naquele início de ano, que já não cabia mais em nós.
+
+   A poesia de Carlos Drummond foi um presente! Ela nos permitiu um
+   mergulho na força e profundeza das palavras, das coisas ditas e não
+   ditas. Entendidas ou não. Ao ler a poesia, os versos do poeta fizeram
+   sentido para as crianças.
+
+     Carrego comigo há dezenas de anos, há centenas de anos o pequeno
+     embrulho. Serão duas cartas? Será uma flor? Será um retrato? Um
+     lenço talvez? Já não me recordo onde o encontrei. Se foi um presente
+     ou se foi furtado. Se os anjos desceram trazendo-o nas mãos, se
+     boiava no rio, se pairava no ar. Não ouso entreabri-lo. Que coisa
+     contém, ou se algo contém, nunca saberei. Como poderia tentar esse
+     gesto? O embrulho é tão frio e também tão quente. Ele arde nas mãos,
+     é doce ao meu tato. Pronto me fascina e me deixa triste. Guardar um
+     segredo em si e consigo, não querer sabê-lo ou querer demais.
+     Guardar um segredo dos seus próprios olhos, por baixo do sono, atrás
+     da lembrança. (Andrade, 2001, p. 29-32)
+
+   Após a leitura do poema, dei para cada criança um pedaço de papel onde
+   poderiam, individualmente, de uma forma bem livre e espontânea, do
+   jeito que davam conta, escrever sobre si, sobre as suas perdas,
+   segredos, sonhos e desejos...
+
+   Algumas optaram por se deitarem no chão para escrever. Outras se
+   esconderam debaixo da mesa, atrás das cortinas, e outras sentaram no
+   lugar de sempre... De repente, uma pergunta: "Alguém vai ler o que
+   vamos escrever? Segredos são segredos, e se eu for ler para alguém, já
+   não são mais segredos...". Entendi que esta criança estava
+   reivindicando um lugar especial para esta escrita, um espaço para sua
+   intimidade, onde pudesse escrever para si e não para o outro. Na
+   escola, aprendemos que sempre escrevemos para alguém. A fala desta
+   criança veio ao meu encontro, reforçando que o que estávamos
+   vivenciando naquele momento pedia um lugar especial.
+
+   Depois da escrita dos bilhetes, que foram guardados em lugares
+   supostamente seguros para elas, como no bolso da calça, no estojo,
+   seguimos para a confecção dos patuás. Era a hora de olhar para os
+   tecidos, para os retalhos, para as cores. Entre os materiais à
+   disposição, tinha de tudo. Eram tecidos lisos, sedosos, finos e
+   aveludados. Chegavam aos montes, trazidos de suas casas pelas crianças.
+   Cada um escolheu o seu pedaço. No seu retalho, a sua cor. As escolhas
+   foram as mais diversas. Algumas preferiam as cores mais claras, outras
+   as mais escuras, e outras crianças ficaram em dúvida, pois queriam
+   relacionar a cor com a escrita do bilhete... Em momentos como este, de
+   escolha frente aos materiais a serem utilizados, é que a percepção
+   estética se manifesta; neste caso, se defrontavam com a escolha dos
+   diferentes tecidos, suas texturas, cores, tamanhos. As crianças falavam
+   sobre suas percepções no contato com os materiais, como, por exemplo:
+   "Eu gostei tanto deste pano... ele é tão macio, e as cores são tão
+   leves. Ele é lindo!".
+
+   Depois da escolha dos tecidos, uma nova etapa: costurar o patuá e
+   recheá-lo com o bilhete. Trabalhamos com agulhas grossas sem ponta e
+   meadas de linhas coloridas. O costurar demorou algumas aulas. Eram
+   muitas linhas, muitos nós, muitos pontos fora do lugar, que eles
+   queriam dar conta, incluir na sua costura. Tudo isso durou mais tempo
+   do que imaginava. Por algumas vezes, achei que esta atividade não iria
+   acabar nunca! Alguns alunos, por exemplo, não contiveram a sua
+   ansiedade e necessitaram escrever vários bilhetes, costurar vários
+   patuás.
+
+   Alguns bilhetes foram costurados nas almofadas, no patuá. Outros
+   bilhetes ficaram guardados na memória, na história de vida de cada um.
+   Algumas crianças não se continham e contavam os seus segredos. Outras
+   crianças faziam confissões: "só vou abrir o meu patuá quando eu
+   casar...".
+
+   Ao observar as crianças, suas escolhas e produções, identificava sinais
+   que evidenciaram que eles estavam muito envolvidos, cada uma com a sua
+   costura, com a sua história. Nesta hora, lembrei da artista plástica
+   Fayga Ostrower (1987, p. 22): "Quando as pessoas participam ativamente
+   da feitura de formas, vendo-as nascer sob suas mãos, não só se cria uma
+   situação afetiva imediatamente carregada de associações, como também o
+   exemplo concreto é sempre mais eloquente do que explicações abstratas".
+
+   Foi uma atividade estética que proporcionou um espaço de conversa sobre
+   si, onde os fios puxados, os tecidos escolhidos, as cores
+   privilegiadas, os bilhetes escritos falavam de cada um. Um lugar para a
+   acolhida, para a canção que canta no coração de cada um. Sem dúvida, um
+   momento especial para as crianças, e para mim também.
+
+   Nascimento, morte, renascimento
+
+   Outro desdobramento desta mesma atividade foi o contato com a lenda
+   Quarup, que faz parte do ritual dos índios Kamaiurá (Xingu, Brasil), no
+   qual celebram o ciclo de nascimento-morte-renascimento. Assistimos a um
+   vídeo, sobre a festa dos mortos, onde toras de madeira de quarup eram
+   levadas para a aldeia, pintadas, adornadas com penas, colares e fios de
+   algodão. Neste momento do trabalho, tive a parceria e participação de
+   outro professor da escola, que também trabalhava com este grupo de
+   alunos. Após assistirmos ao vídeo, ficamos sentados em roda, no chão da
+   sala, onde lemos em voz alta a lenda, do livro Xingu: os índios, seus
+   mitos (Villas Bôas & Villas Bôas, 1970), para as crianças.
+
+   No primeiro momento da leitura, as crianças acharam estranho este
+   ritual religioso e nos questionaram com perguntas do tipo: "Como assim,
+   eles não choram quando alguém morre? Os mortos, para os índios, não
+   morrem não? Eles voltam?". Outro menino logo foi completando, dizendo
+   que, quando o avô dele morreu, ele também não chorou, pois ele sabe que
+   o seu avô "está por ai...". "No céu?!", alguém perguntou. Outra
+   criança, que tinha visto um programa na televisão sobre o dia dos
+   mortos no México, trouxe a informação que lá eles cantam e fazem festa
+   no cemitério: "Eu acho que é uma homenagem que as pessoas fazem para as
+   pessoas mortas".
+
+   Naquele momento, puxamos novamente o fio da conversa para o vídeo e
+   para a lenda, enfatizando a importância dos diferentes rituais que
+   existem em diferentes culturas e que cada grupo social cria os seus
+   rituais. Isso, de alguma forma, começou a fazer sentido para algumas
+   crianças, quando permitiram olhar para si.
+
+   Depois dessas interações, iniciaram a atividade plástica, fazendo um
+   desenho, um autorretrato. No verso do desenho, listaram as suas perdas,
+   saudades, a falta das coisas e de pessoas. Depois disso pronto,
+   coloriram o fundo do papel com lápis de cor e deixaram a lápis o
+   autorretrato.
+
+   O vídeo e a leitura da lenda foram elementos que ajudaram na condução
+   do nosso olhar estético, para os desenhos e escritas produzidos pelos
+   alunos. Tendo o ritual indígena como referência, aproveitamos um tronco
+   de árvore recém cortado na porta da escola, utilizando-o como suporte
+   artístico. Olhando para este ritual, tiramos a ideia de pintar o tronco
+   de árvore, colocar fios de algodão, pendurar os desenhos/autorretratos,
+   com as escritas sobre nossas perdas, tristezas e ausências. Depois que
+   todos estavam prontos com os seus desenhos e escrita, criamos o nosso
+   ritual.
+
+   Ficamos sentados em roda e, no meio, no ponto central da roda, estava o
+   "quarup" feito pelas crianças. Combinamos que cada criança, uma de cada
+   vez, teria a oportunidade de entrar no meio da roda e, bem próximo ao
+   quarup, poderia ler o que escreveu, amarrando, em seguida, o seu
+   desenho no tronco.
+
+   Participaram desta atividade vinte crianças, que deram conta de ficar
+   num silêncio absoluto, esperar a sua vez de ler, num impressionante
+   clima de respeito ao outro. À medida que foram lendo e falando,
+   instaurou-se um clima de intimidade, de convivência, de troca, com a
+   possibilidade de um encontro consigo mesmo, resultado da "exploração de
+   cores, luzes e sombras, a convivência com os anseios e receios, o
+   enfrentamento dos fantasmas, o descobrimento de alegrias novas, a
+   criação de novos processos de inventar sonhos" (Albano, 1991, p. 161).
+
+   As crianças pareciam querer isso mesmo: inventar novos sonhos, achar
+   caminhos, novos processos para as suas perdas, tristezas e angústias.
+   Ao ler os escritos que ficaram no verso dos desenhos, nota-se que eles
+   falam do peixinho que morreu, da saudade que ainda existe da mamadeira,
+   do tio que morreu e que ninguém contou, do amigo que mudou de cidade,
+   da falta da professora, da alegria de ganhar um cachorro, do irmão que
+   vai nascer, do avô que morreu e que o ensinou a amar. Onde estariam
+   esses sentimentos e sentidos, se não houvesse uma proposta para sua
+   canalização, se não houvesse uma proposta para dar forma por meio de
+   diversas expressões?
+
+   Ao criarmos na escola um ambiente de acolhimento das subjetividades de
+   cada um, criamos também um trabalho que permitiu que os alunos se
+   reconhecessem como pertencentes a um determinado grupo social,
+   percebessem que a dor e o sofrimento, que às vezes aparece como tema
+   nas obras de alguns artistas, faz parte da vida, inclusive da deles, da
+   nossa.
+
+   Penso que trabalhar com a formação humana não é um empreendimento
+   solitário, mas um investimento que envolve o outro. E envolver o outro,
+   como nos diz Formenti (2008), significa cuidado e zelo. Qual a dimensão
+   do cuidado e do zelo, quando os alunos nos trazem suas lembranças,
+   objetos, sonhos, desejos, queixas? Há escuta sensível, há acolhimento?
+
+   Essa experiência me revelou como é importante ouvir e se sentir ouvida
+   na escola. Falar de nós mesmos cria um vínculo para aquele que fala e
+   também para aquele que escuta. Gambini (2001) me iluminou quando
+   destacou o enorme ganho que esse tipo de atividade pode ter para nós,
+   educadores. Para ele, na medida em que podemos conhecer mais uma
+   dimensão daquele ser que está à nossa frente, mais condições temos,
+   como educadores, de mudar de lugar. Uma atividade como essa nos permite
+   observar o aluno a partir de outro lugar: do lugar do imaginário, da
+   subjetividade, do simbólico. Afinal, nos diz aquele autor, o
+   inconsciente cria a disposição para aprender, abrindo portas para as
+   experiências de vida.
+
+   Propor um trabalho de criação, a partir de diferentes culturas,
+   possibilita-nos construir um ensino de arte que dialoga com a
+   diversidade presente em nossa realidade, além de permitir que as
+   diferentes experiências e histórias vividas entrem para a escola,
+   invadam nossas salas de aula e tomem conta de nós, o que cria outra
+   dimensão e disposição para a aprendizagem.
+
+   Incluir a memória como um ponto deflagrador de um processo
+   artístico/afetivo/estético reafirma, também, a necessidade de fazermos
+   com que as experiências afetivas - dores, amores, perdas, faltas,
+   desejos - integrem as reflexões e produções de arte na escola. Na
+   experiência aqui analisada, foram as conversas - espaço aberto ao
+   diálogo e às narrativas do vivido, nas quais falamos e escrevemos sobre
+   nós - e os contatos com as diferentes culturas que nos proporcionaram e
+   nos permitiram criar peças tão preciosas e tão diferenciadas como os
+   patuás, envoltas por simbolismos. Criações que, para além de um simples
+   fazer artístico, carregavam e revelavam "segredos do coração" -
+   recheados com os nossos desejos e sonhos, escritos, costurados em
+   panos, com pequenos bilhetes, dobrados e guardados, e alinhavados.
+
+   Assim, criamos na escola um lugar do acolhimento das individualidades,
+   das subjetividades de cada um. Exercitamos o olhar e o fazer,
+   integrando pensamento e sentimento, sensação e intuição, afirmando a
+   arte como espaço da totalidade, e o espaço do ensino da arte como lugar
+   de muitos segredos...
+
+   Recebido em julho de 2008 e aprovado em março de 2010.
+
+Referências bibliográficas
+
+     * ALBANO, A.A. O ateliê de arte na escola: espaço de criação e
+       reflexão. In: PACHECO, E. (Org.). Comunicação, educação e arte na
+       cultura infanto-juvenil. São Paulo: Loyola, 1991. p. 159-168.
+     * ANDRADE, C.D. Carrego comigo. In: ANDRADE, C.D. A rosa do povo. 23.
+       ed. Rio de Janeiro: Record, 2001. p. 29-32.
+     * BENJAMIN, W. Magia e técnica, arte e política: ensaios sobre
+       literatura e história da cultura. São Paulo: Brasiliense, 1994.
+       (Obras escolhidas, v. 1).
+     * FORMENTI, L. A escrita autobiográfica e zelo: um olhar
+       composicional. In: PASSEGGI, M.C. (Org.). Tendências da pesquisa
+       (auto)biográfica São Paulo: Paulus; Natal: EDUFRN, 2008. p. 51-71.
+     * FOX, M. Guilherme Augusto Araújo Fernandes São Paulo: Brinque-Book,
+       1995.
+     * GALZERANI, M.C. Imagens entrecruzadas de infâncias e de produção de
+       conhecimento histórico em Walter Benjamin. São Paulo: Cortez, 2002.
+     * GAMBINI, R. Sonhos na escola. In: SCOZ, B. (Org.). (Por) uma
+       educação com alma. Petrópolis: Vozes, 2001. p. 102-157.
+     * KRAMER, S. Por entre as pedras: arma e sonho na escola. São Paulo:
+       Ática, 1993.
+     * OSTROWER, F. Universos da arte. Rio de Janeiro: Campus, 1987.
+     * SOUZA, E.C. O conhecimento de si: estágio e narrativas de formação
+       de professores. Rio de Janeiro: DP&A; Salvador: UNEB, 2006.
+     * VILLAS BÔAS, O.; VILLAS BÔAS, C. Xingu: os índios, seus mitos. São
+       Paulo: Círculo do Livro, 1970.
+
+     *
+   O projeto do qual resultou este artigo foi parcialmente financiado pela
+   Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG) e
+   pela Escola Guignard da Universidade do Estado de Minas Gerais.
+   Agradeço ao apoio da Escola Balão Vermelho no desenvolvimento do
+   presente trabalho, e a Luciana Ostetto, pela carinhosa leitura e
+   sugestões.
+
+Datas de Publicação
+
+     * Publicação nesta coleção
+       27 Maio 2010
+     * Data do Fascículo
+       Abr 2010
+
+Histórico
+
+     * Recebido
+       Jul 2008
+     * Aceito
+       Mar 2010
+
+   Creative Common - by-nc 4.0
+   This work is licensed under a Creative Commons
+   Attribution-NonCommercial 4.0 International License.
+
+Autoria
+
+   (BUTTON)
+   person Rosvita Kolb-Bernardes
+   schoolUniversidade EstadualUniversidade EstadualUniversidade
+   EstadualschoolUniversidade do Estado de Minas Gerais, Escola Guignard ,
+   Minas Gerais, BrazilUniversidade do Estado de Minas GeraisBrazilMinas
+   Gerais, BrazilUniversidade do Estado de Minas Gerais, Escola Guignard ,
+   Minas Gerais, Brazil
+
+SCIMAGO INSTITUTIONS RANKINGS
+
+   (BUTTON)
+   Universidade EstadualUniversidade EstadualUniversidade Estadual
+   Universidade do Estado de Minas Gerais, Escola Guignard , Minas Gerais,
+   BrazilUniversidade do Estado de Minas GeraisBrazilMinas Gerais,
+   BrazilUniversidade do Estado de Minas Gerais, Escola Guignard , Minas
+   Gerais, Brazil
+
+Como citar
+
+   (BUTTON)
+
+   ____________________linkcopiar
+
+   vertical_align_top show_chart
+     * more_horiz close
+          + image
+          + translate
+          + link
+          + article
+          + vertical_align_top
+          + file_download
+          + show_chart
+          + image
+          + translate
+          + link
+          + article
+
+   location_on
+   CEDES - Centro de Estudos Educação e Sociedade Caixa Postal 6022 -
+   Unicamp, 13084-971 Campinas SP - Brazil, Tel. / Fax: (55 19) 3289 -
+   1598 / 7539 - Campinas - SP - Brazil
+   E-mail: revistas.cedes@linceu.com.br
+   rss_feed Acompanhe os números deste periódico no seu leitor de RSS
+
+Versão para download de PDF
+
+   (BUTTON)
+   PDF
+     * Português
+
+Artigos relacionados
+
+   (BUTTON)
+     * Google
+     * Google Scholar
+
+Versões e tradução automática
+
+   (BUTTON)
+   Versão original do texto
+     * Português
+
+   Tradução automática
+     * Google Translator
+     * Microsoft Translator
+
+Como citar
+
+   (BUTTON)
+   RIS
+   BIBTEX
+   Outros formatos de citação e exportação:
+   [Enter references manager format or citation style (e.g., "APA", "AMA",
+    "MLA", "Vancouver")]
+
+   SciELO - Scientific Electronic Library Online
+
+   Rua Dr. Diogo de Faria, 1087 – 9º andar – Vila Clementino 04037-003 São
+   Paulo/SP - Brasil
+   E-mail: scielo@scielo.org
+     *
+     *
+     *
+     *
+     *
+
+   Creative Common - by 4.0
+
+   CAPES CAPES CNPq CNPq FAPESP FAPESP BVS BVS BIREME BIREME FAP-UNIFESP
+   FAP-UNIFESP
+   CAPES CNPq FAPESP BVS BIREME FAP-UNIFESP
+
+   Open Access Leia a Declaração de Acesso Aberto
+
+Métricas
+
+   (BUTTON)
+   SciELO Analytics
+   Dimensions
+   Altmetric
+   Scite_
+   Segredos do coração: a escola como espaço para o olhar sensível
+   PlumX
+
+   (BUTTON) ×Close
+
+Mensagem
+
+   (BUTTON) ×Close
+
+Mensagem
+
+   Reportar erro
