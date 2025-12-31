@@ -1,3 +1,4 @@
+
 #!/usr/bin/env bash
 
 set -o nounset
@@ -31,6 +32,16 @@ echo "  LANGUE: $LANGUE"
 echo "  TBL_DIR: $TBL_DIR"
 
 mkdir -p "$DUMP_DIR" "$ASP_DIR" "$CTX_DIR" "$TBL_DIR" "$CONC_DIR"
+CONC_UNICO="$CONC_DIR/concordance_pt.html"
+echo "<html><head><meta charset='utf-8'><style>
+body { font-family: sans-serif; margin: 20px; }
+h1 { border-bottom: 2px solid #e91e63; padding-bottom: 5px; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+td { border: 1px solid #ddd; padding: 8px; }
+.left { text-align: right; width: 45%; color: #444; }
+.motif { text-align: center; width: 10%; font-weight: bold; background: #fff9c4; color: #e91e63; }
+.right { text-align: left; width: 45%; color: #444; }
+</style></head><body><h1>Concordances - portugais</h1>" > "$CONC_UNICO"
 
 # Cherche le mot et toutes ses variations
 MOTIFS="cora[cç][ãa]o|cora[cç][õo]es"
@@ -43,145 +54,44 @@ declare -A TAB_TOKENS
 declare -A TAB_COMPTE
 
 # Fonctions
-extract_context() {
-    local content="$1"
-    local word="$2"
-    echo "$content" | grep -i -o -P ".{0,50}\b($word)\b.{0,50}" | head -n 5
-}
-
-extract_concordance() {
-    local content="$1"
-    local word="$2"
-    echo "$content" | grep -o -P "(?:(?:\S+\s+){0,3})\b($word)\b(?:\s+\S+){0,3}" | sed -E 's/(.*\b)\b('$word')\b(\b.*)/\1\t\2\t\3/' | awk -F'\t' '{print $1 "\t" $2 "\t" $3}' | head -n 10
-}
-
-create_concordance_html() {
-    local idx="$1"
-    local word="$2"
-    local concordance="$3"
-    local url="$4"
-    
-    CONC_HTML="$CONC_DIR/${LANGUE}-${idx}-concordance.html"
-    
-    echo "<!DOCTYPE html>
-<html lang='fr'>
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Concordance $idx - $LANGUE</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; border-bottom: 2px solid #e91e63; padding-bottom: 10px; }
-        .source { background: #f5f5f5; padding: 10px; margin: 15px 0; border-radius: 5px; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
-        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-        th { background-color: #f8f9fa; font-weight: bold; }
-        tr:nth-child(even) { background-color: #f9f9f9; }
-        .word { font-weight: bold; color: #e91e63; background-color: #fff9c4; text-align: center; }
-        .back { margin-top: 20px; }
-        a { color: #007BFF; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>Concordances pour le mot \"$word\"</h1>
-    
-    <div class='source'>
-        <strong>Document:</strong> $idx<br>
-        <strong>Source:</strong> <a href='$url' target='_blank'>$url</a><br>
-        <strong>Motif recherché:</strong> $word
-    </div>
-    
-    <table>
-        <thead>
-            <tr>
-                <th width='45%'>Contexte gauche</th>
-                <th width='10%'>Mot</th>
-                <th width='45%'>Contexte droit</th>
-            </tr>
-        </thead>
-        <tbody>" > "$CONC_HTML"
-    
-    echo "$concordance" | while IFS=$'\t' read -r left word right; do
-        if [ -n "$left" ] || [ -n "$word" ] || [ -n "$right" ]; then
-            echo "        <tr>
-            <td>${left:-&nbsp;}</td>
-            <td class='word'>${word:-&nbsp;}</td>
-            <td>${right:-&nbsp;}</td>
-        </tr>" >> "$CONC_HTML"
-        fi
-    done
-    
-    echo "    </tbody>
-    </table>
-    
-    <div class='back'>
-        <a href='../tableaux/${LANGUE}.html'>← Retour au tableau principal</a>
-    </div>
-</body>
-</html>" >> "$CONC_HTML"
-    
-    echo "$CONC_HTML"
-}
-
 create_context_html() {
     local idx="$1"
     local word="$2"
-    local context="$3"
-    local url="$4"
-    
-    CTX_HTML="$CTX_DIR/${LANGUE}-${idx}-context.html"
-    
-    echo "<!DOCTYPE html>
-<html lang='fr'>
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Contexte $idx - $LANGUE</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1 { color: #333; border-bottom: 2px solid #4CAF50; padding-bottom: 10px; }
-        .source { background: #f5f5f5; padding: 10px; margin: 15px 0; border-radius: 5px; }
-        .context { background: white; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
-        .context-line { margin: 8px 0; padding: 5px; border-left: 3px solid #4CAF50; padding-left: 10px; }
-        .highlight { font-weight: bold; color: #e91e63; }
-        .back { margin-top: 20px; }
-        a { color: #007BFF; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <h1>Contexte pour le mot \"$word\"</h1>
-    
-    <div class='source'>
-        <strong>Document:</strong> $idx<br>
-        <strong>Source:</strong> <a href='$url' target='_blank'>$url</a><br>
-        <strong>Motif recherché:</strong> $word
-    </div>
-    
-    <div class='context'>" > "$CTX_HTML"
-    
-    echo "$context" | while IFS= read -r line; do
-        if [ -n "$line" ]; then
-            highlighted=$(echo "$line" | sed -E "s/\b($word)\b/<span class='highlight'>\1<\/span>/gi")
-            echo "        <div class='context-line'>$highlighted</div>" >> "$CTX_HTML"
-        fi
+    local url="$3"
+    local dump_path="$4"
+    local out_path="$CTX_DIR/${LANGUE}-${idx}.html"
+
+    echo "<!DOCTYPE html><html><head><meta charset='utf-8'><style>
+    body { font-family: sans-serif; margin: 20px; }
+    .highlight { color: #e91e63; font-weight: bold; background: #fff9c4; }
+    .context-line { border-left: 3px solid #e91e63; margin: 10px 0; padding-left: 10px; }
+    </style></head><body>
+    <h1>Contexte - Document $idx</h1>
+    <p>URL: <a href='$url'>$url</a></p><hr>" > "$out_path"
+
+    grep -i -P ".{0,50}\b($word)\b.{0,50}" "$dump_path" | while read -r line; do
+        highlighted=$(echo "$line" | sed -E "s/\b($word)\b/<span class='highlight'>\1<\/span>/gi")
+        echo "<div class='context-line'>...$highlighted...</div>" >> "$out_path"
     done
-    
-    echo "    </div>
-    
-    <div class='back'>
-        <a href='../tableaux/${LANGUE}.html'>← Retour au tableau principal</a>
-    </div>
-</body>
-</html>" >> "$CTX_HTML"
-    
-    echo "$CTX_HTML"
+    echo "<br><a href='../tableaux/${LANGUE}.html'>Voltar para a tabela</a></body></html>" >> "$out_path"
 }
 
+append_to_concordance() {
+    local idx="$1"
+    local word="$2"
+    local url="$3"
+    local dump_path="$4"
+
+    echo "<h2>Documento $idx — <a href='$url' target='_blank'>$url</a></h2>" >> "$CONC_UNICO"
+    grep -o -P ".{0,40}\b($word)\b.{0,40}" "$dump_path" | while read -r line_ctx; do
+        left=$(echo "$line_ctx" | sed -E "s/(.*)\b($word)\b.*/\1/")
+        word_match=$(echo "$line_ctx" | grep -oP "\b($word)\b" | head -1)
+        right=$(echo "$line_ctx" | sed -E "s/.*\b($word)\b(.*)/\2/")
+        echo "<table><tr><td class='left'>${left:-&nbsp;}</td><td class='motif'>$word_match</td><td class='right'>${right:-&nbsp;}</td></tr></table>" >> "$CONC_UNICO"
+    done
+}
 # TRAITEMENT DES URLS
 i=1
-echo "Analyse en cours..."
 
 while IFS= read -r line || [ -n "$line" ]; do
   [[ -z "$line" || "$line" =~ ^# ]] && continue
@@ -189,10 +99,12 @@ while IFS= read -r line || [ -n "$line" ]; do
   url=$(echo "$line" | grep -oE 'https?://[^[:space:]]+' | head -1)
   [ -z "$url" ] && continue
 
+echo -ne "Analyse de $i... \r"
+
   TAB_URLS[$i]="$url"
 
   # Vérifier d'abord le code HTTP
-  header=$(curl -L -s -I -A "$UA" "$url" --connect-timeout 10 || echo "HTTP/1.1 000 Error")
+  header=$(curl -k -L -s -I -A "$UA" "$url" --connect-timeout 10 || echo "HTTP/1.1 000 Error")
   http_code=$(echo "$header" | grep "HTTP/" | tail -1 | awk '{print $2}')
   TAB_HTTP[$i]="$http_code"
   
@@ -205,7 +117,7 @@ while IFS= read -r line || [ -n "$line" ]; do
     continue
   fi
 
-  charset=$(echo "$header" | grep -i "Content-Type" | grep -oE "charset=[^ ;]+" | cut -d= -f2 | tr -d '"' | tr "'")
+  charset=$(echo "$header" | grep -i "Content-Type" | grep -oE "charset=[^ ;]+" | cut -d= -f2 | tr -d '"' | tr -d '\r')
   [ -z "$charset" ] && charset="UTF-8"
   TAB_ENC[$i]=$(echo "$charset" | tr '[:lower:]' '[:upper:]')
 
@@ -215,10 +127,10 @@ while IFS= read -r line || [ -n "$line" ]; do
   CTX_TXT_PATH="$CTX_DIR/${LANGUE}-${i}.txt"
   
   # Télécharger et convertir
-  curl -L -s -A "$UA" "$url" -o "temp.html"
+  curl -k -L -s -A "$UA" "$url" -o "temp.html"
   
   # Extraire le texte
-  lynx -dump -nolist -display_charset=utf-8 -assume_charset="${TAB_ENC[$i]}" "temp.html" 2>/dev/null | iconv -f "${TAB_ENC[$i]}" -t "UTF-8//IGNORE" > "$DUMP_PATH" 2>/dev/null || lynx -dump -nolist "temp.html" > "$DUMP_PATH"
+  lynx -dump -nolist -display_charset=utf-8 -assume_charset="${TAB_ENC[$i]}" "temp.html" 2>/dev/null | iconv -f "${TAB_ENC[$i]}" -t "UTF-8//IGNORE" > "$DUMP_PATH" 2>/dev/null || lynx -dump -nolist "temp.html" > "$DUMP_PATH" 2>/dev/null
 
   # Compter les tokens dans le dump textuel
   tokens=$(cat "$DUMP_PATH" 2>/dev/null | wc -w || echo "0")
@@ -227,17 +139,10 @@ while IFS= read -r line || [ -n "$line" ]; do
   # Compter les occurrences du mot
   compte=$(grep -oiP "\b($MOTIFS)\b" "$DUMP_PATH" 2>/dev/null | wc -l || echo "0")
   TAB_COMPTE[$i]="$compte"
-  
-  # Extraire le contexte
-  extract_context "$(cat "$DUMP_PATH" 2>/dev/null)" "$MOTIFS" > "$CTX_TXT_PATH"
-  
-  # Extraire les concordances
-  CONCORDANCE=$(extract_concordance "$(cat "$DUMP_PATH" 2>/dev/null)" "$MOTIFS")
-  
-  # Créer les fichiers HTML de contexte et concordance
-  CTX_HTML_PATH=$(create_context_html "$i" "$MOTIFS" "$(cat "$CTX_TXT_PATH" 2>/dev/null)" "$url")
-  CONC_HTML_PATH=$(create_concordance_html "$i" "$MOTIFS" "$CONCORDANCE" "$url")
-  
+
+  create_context_html "$i" "$MOTIFS" "$url" "$DUMP_PATH"
+  append_to_concordance "$i" "$MOTIFS" "$url" "$DUMP_PATH"
+
   # Créer l'aspiration avec les occurrences
   {
     echo "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Aspiration $i - $LANGUE</title></head><body>"
@@ -382,7 +287,7 @@ for idx in $(seq 1 $((i-1))); do
         <td class='has-text-centered'>$count</td>
         <td class='has-text-centered'><a href='../aspirations/${LANGUE}-${idx}.html' target='_blank'>HTML</a></td>
         <td class='has-text-centered'><a href='../dumps-text/${LANGUE}-${idx}.txt' target='_blank'>TXT</a></td>
-        <td class='has-text-centered'><a href='../contextes/${LANGUE}-${idx}.txt' target='_blank'>CTX</a></td>
+        <td class='has-text-centered'><a href='../contextes/${LANGUE}-${idx}.html' target='_blank'>CTX</a></td>
     </tr>"
 done
 
@@ -409,11 +314,5 @@ echo '</tbody>
 </body>
 </html>'
 } > "$OUT"
-
-if [ $? -eq 0 ] && [ -f "$OUT" ]; then
-    echo "✅ Tableau généré avec succès: $OUT"
-    echo "Taille du fichier: $(wc -l < "$OUT") lignes"
-else
-    echo "❌ Erreur lors de la génération du tableau" >&2
-    exit 1
-fi
+echo "</body></html>" >> "$CONC_UNICO"
+    echo "Tableau généré avec succès: $OUT"
