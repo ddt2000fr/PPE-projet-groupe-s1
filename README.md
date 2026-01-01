@@ -1,2 +1,4 @@
 # PPE-projet-groupe-s1
-Projet de groupe final de première semestre pour le cours de PPE. Il vise à explorer le fonctionnement du mot « cœur » en trois langues : le japonais, le russe et le portugais. Plus précisément, on considère trois sens de ce mot : l’organe, l’âme et le centre de quelque chose.
+Ce projet de groupe constitue le travail final du premier semestre du cours de PPE. Il porte sur l’étude du mot « cœur » dans trois langues : le portugais, le japonais et le russe.
+L’objectif du projet est d’automatiser l’analyse lexicale de documents web (HTML ou PDF) à partir d’une liste d’URL. Pour chaque document, un script télécharge le contenu, en extrait le texte brut, identifie le mot cible « cœur », puis extrait les contextes entourant chaque occurrence. Cette analyse produit trois types de sorties : des dumps textuels, des pages HTML d’aspiration et des concordances.
+Le projet vise plus précisément à explorer le fonctionnement sémantique du mot « cœur » dans les trois langues étudiées, en distinguant trois sens principaux : l’organe, l’âme et le centre de quelque chose.
