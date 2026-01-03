@@ -1,0 +1,17 @@
+&#39;Gênio de bom coração&#39;
+Newsom afirmou estar &#34;de coração partido&#34; e descreveu o cineasta com
+o um &#34;gênio de bom coração por trás de tantas histórias clássicas 
+o quero sangue grosso correndo pelo meu coração&#39;: Trump afirma tomar o triplo da do
+o quero sangue grosso correndo pelo meu coração&#39;: Trump afirma tomar o triplo da do
+ragraph","model":{"text":"'Gênio de bom coração'","blocks":[{"id":"6b4ab8af","type":"fr
+agment","model":{"text":"'Gênio de bom coração'","attributes":[]},"position":[17,1,1,1
+del":{"text":"Newsom afirmou estar \"de coração partido\" e descreveu o cineasta como u
+m \"gênio de bom coração por trás de tantas histórias clássicas 
+del":{"text":"Newsom afirmou estar \"de coração partido\" e descreveu o cineasta como u
+m \"gênio de bom coração por trás de tantas histórias clássicas 
+o quero sangue grosso correndo pelo meu coração': Trump afirma tomar o triplo da dose d
+o quero sangue grosso correndo pelo meu coração': Trump afirma tomar o triplo da dose d
+o quero sangue grosso correndo pelo meu coração': Trump afirma tomar o triplo da dose d
+o quero sangue grosso passando pelo meu coração.'","blocks":[{"type":"fragment","model"
+o quero sangue grosso passando pelo meu coração.'","attributes":[]}}]}}]}}]},"byline":{
+o quero sangue grosso correndo pelo meu coração': Trump afirma tomar o triplo da dose d

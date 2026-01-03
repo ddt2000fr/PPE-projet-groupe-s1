@@ -1,1558 +1,3816 @@
 
-   Menu
-     *
-     * Brasil
-          + Lista alfabética de periódicos
-          + Lista temática de periódicos
-          + Busca
-          + Métricas
-          + Sobre o SciELO Brasil
-          + Contatos
-          + Reportar erro
-     * SciELO.org - Rede SciELO
-          + Coleções nacionais e temáticas
-          + Lista alfabética de periódicos
-          + Lista de periódicos por assunto
-          + Busca
-          + Métricas
-          + Acesso OAI e RSS
-          + Sobre a Rede SciELO
-          + Contatos
-     * Blog SciELO em Perspectiva
 
-   Brasil
-   (BUTTON) Sexualidad, Salud y Sociedad (Rio de Janeiro)
-     * Logomarca do periódico: Sexualidad, Salud y Sociedad (Rio de
-       Janeiro)
-     * launch Submissão de manuscritos
-     * info Sobre o periódico
-     * help_outline Política editorial
-     * people Corpo Editorial
-     * help_outline Instruções aos autores
-     * email Contato
-     * show_chart Métricas
+ 
 
-   (BUTTON) language pt_BR Português
-     * English
-     * Español
 
-   (BUTTON) Sexualidad, Salud y Sociedad (Rio de Janeiro)
-     * Logomarca do periódico: Sexualidad, Salud y Sociedad (Rio de
-       Janeiro)
-     * launch Submissão de manuscritos
-     * info Sobre o periódico
-     * help_outline Política editorial
-     * people Corpo Editorial
-     * help_outline Instruções aos autores
-     * email Contato
-     * show_chart Métricas
+ 
 
-   home Sumário navigate_before Anterior Atual Seguinte navigate_next
-   (BUTTON) Resumo
-     * Resumo (Português)
-     *
-     * Resumo (Inglês)
-     *
-     * Resumo (Espanhol)
-     *
 
-   (BUTTON) Texto (PT)
-     * Texto (Português)
 
-   (BUTTON) PDF
-     * Download PDF (Português)
 
-   (BUTTON) article Conteúdo: Texto (PT)
-     * Resumo (Português)
-     *
-     * Resumo (Inglês)
-     *
-     * Resumo (Espanhol)
-     *
-     * Texto (Português)
-     * Download PDF (Português)
 
-   (BUTTON) share
-     * Whatsapp
-     * BlueSky
-     * Mastodon
-     * Facebook
-     * Mais
+ 
+ 
 
-   home Sumário
-   (BUTTON) share
-     * Facebook
-     * X
-     * Google+
-     * LinkedIn
-     * Reddit
-     * StambleUpon
-     * CiteULike
-     * Mendeley
+ 
 
-   (BUTTON) Resumo
-     * Resumo (Português)
-     *
-     * Resumo (Inglês)
-     *
-     * Resumo (Espanhol)
-     *
+ 
 
-   (BUTTON) Texto (PT)
-     * Texto (Português)
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
 
-   (BUTTON) PDF
-     * Download PDF (Português)
+ gtag('config', 'G-MKLVK7B5B6');
+ 
 
-   DOSSIÊ • Sex., Salud Soc. (Rio J.) (41) • 2025 •
-   https://doi.org/10.1590/1984-6487.sess.2025.41.e22310.a.pt linkcopiar
+ 
 
-Open-access Etnografando Famílias de Sangue & Famílias do Coração:
-Envelhecimento, redes de apoio social e sobre-responsabilização de homens
-cisgêneros homossexuais e mulheres trans e travestis pela gestão do próprio
-cuidado
+ 
 
-Ethnographing “Families by Blood” and “Families of the Heart”: Aging, Social
-Support Networks, and the Over-Responsibilization of Cisgender Homosexual Men
-and Transgender and Travesti Women in Managing Their Own Care
+ 
+ 
 
-Etnografiando Familias de Sangre y Familias del Corazón: Envejecimiento,
-Redes de Apoyo Social y la Sobrerresponsabilización de Hombres Homosexuales
-Cisgénero y Mujeres Trans y Travestis en la Gestión de su Propio Cuidado
+ 
 
-   AutoriaSCIMAGO INSTITUTIONS RANKINGS
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+ body{ 
+ padding-top: 74px;
+ }
+ 
+ .articleTxt{
+ top: -16px;
+ }
+
+ @media (max-width: 575.98px) {
+ 
+ .articleCtt &gt; .container{
+ padding-left: 0;
+ padding-right: 0;
+ }
+ .articleCtt .articleTxt{
+ padding-left: 16px !important;
+ padding-right: 16px !important;
+ }
+ 
+ }
+
+ @media (min-width: 768px){
+ 
+ .scielo__truncate{
+ display: block;
+ max-width: 285px;
+ }
+
+ }
+ 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+Menu
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Brasil
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Lista alfabética de periódicos
+ 
+
+ 
+
+ 
+
+ 
+
+ Lista temática de periódicos
+ 
+
+ 
+
+ 
+
+ 
+
+ Busca
+ 
+
+ 
+
+ 
+
+ 
+
+ Métricas
+ 
+
+ 
+
+ 
+
+ 
+
+ Sobre o SciELO Brasil
+ 
+
+ 
+
+ 
+
+ 
+
+ Contatos
+ 
+
+ 
+
+ 
+
+ 
+
+ Reportar erro
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+SciELO.org - Rede SciELO
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Coleções nacionais e temáticas
+ 
+
+ 
+
+ 
+
+ 
+
+ Lista alfabética de periódicos
+ 
+
+ 
+
+ 
+
+ 
+
+ Lista de periódicos por assunto
+ 
+
+ 
+
+ 
+
+ 
+
+ Busca
+ 
+
+ 
+
+ 
+
+ 
+
+ Métricas
+ 
+
+ 
+
+ 
+
+ 
+
+ Acesso OAI e RSS
+ 
+
+ 
+
+ 
+
+ 
+
+ Sobre a Rede SciELO
+ 
+
+ 
+
+ 
+
+ 
+
+ Contatos
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+Blog SciELO em Perspectiva
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+ const details = document.querySelector("details");
+ 
+ if (!details.contains(event.target)) {
+ details.removeAttribute("open");
+ }
+ });
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Brasil
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Sexualidad, Salud y Sociedad (Rio de Janeiro) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+launch
+ Submissão de manuscritos
+
+ 
+
+ 
+ 
+
+ 
+info
+ Sobre o periódico
+
+ 
+
+ 
+
+ 
+help_outline
+ Política editorial
+
+ 
+
+ 
+
+ 
+people
+ Corpo Editorial
+
+ 
+
+ 
+
+ 
+help_outline
+ Instruções aos autores
+
+ 
+
+ 
+
+ 
+email
+ Contato
+
+ 
+
+ 
+
+ 
+show_chart
+ Métricas
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+language
+
+ 
+
+ 
+ 
+pt_BR
+
+ 
+Português
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+English
+
+ 
+
+ 
+ 
+ 
+ 
+Español
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Sexualidad, Salud y Sociedad (Rio de Janeiro) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+launch
+ Submissão de manuscritos
+
+ 
+
+ 
+ 
+
+ 
+info
+ Sobre o periódico
+
+ 
+
+ 
+
+ 
+help_outline
+ Política editorial
+
+ 
+
+ 
+
+ 
+people
+ Corpo Editorial
+
+ 
+
+ 
+
+ 
+help_outline
+ Instruções aos autores
+
+ 
+
+ 
+
+ 
+email
+ Contato
+
+ 
+
+ 
+
+ 
+show_chart
+ Métricas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+home
+
+ 
+ 
+ 
+
+ Sumário
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+navigate_before
+
+ 
+Anterior
+
+ 
+
+ 
+ 
+ 
+
+ Atual
+ 
+
+ 
+ 
+ 
+
+
+ 
+Seguinte
+
+ 
+navigate_next
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ Resumo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Português)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Inglês)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Espanhol)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+ Texto
+ 
+ 
+ 
+ (PT)
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ Texto
+ 
+ (Português)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+
+ PDF
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ Download PDF (Português)
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+article
+ 
+Conteúdo:
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ Texto (PT)
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Português)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Inglês)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Espanhol)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ Texto
+ 
+ (Português)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ Download PDF (Português)
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+ 
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+share
+
+ 
+
+ 
+
+ 
+
+ 
+Whatsapp
+
+ 
+
+ 
+
+ 
+BlueSky
+ 
+ 
+
+ 
+
+ 
+Mastodon
+ 
+ 
+
+ 
+
+ 
+Facebook
+ 
+ 
+
+ 
+
+ 
+Mais
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+home
+
+ 
+
+ Sumário
+ 
+
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+share
+
+ 
+
+ 
+
+ 
+Facebook
+
+ 
+X
+
+ 
+Google+
+
+ 
+LinkedIn
+
+ 
+Reddit
+
+ 
+StambleUpon
+
+ 
+CiteULike
+
+ 
+Mendeley
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Resumo
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Português)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Inglês)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ Resumo 
+ 
+ (Espanhol)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ Texto
+ 
+ 
+ 
+ (PT)
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ Texto
+ 
+ (Português)
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ PDF
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ Download PDF (Português)
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+
+
+
+
+
+DOSSIÊ
+ • 
+Sex., Salud Soc. (Rio J.) 
+ (41)
+ 
+ • 
+2025
+ • 
+https://doi.org/10.1590/1984-6487.sess.2025.41.e22310.a.pt
+ 
+link
+copiar
+
+
+
+
+
+
+ Etnografando Famílias de Sangue &amp; Famílias do Coração: Envelhecimento, redes de apoio social e sobre-responsabilização de homens cisgêneros homossexuais e mulheres trans e travestis pela gestão do próprio cuidado
+
+
+
+
+Ethnographing “Families by Blood” and “Families of the Heart”: Aging, Social Support Networks, and the Over-Responsibilization of Cisgender Homosexual Men and Transgender and Travesti Women in Managing Their Own Care
+
+
+Etnografiando Familias de Sangre y Familias del Corazón: Envejecimiento, Redes de Apoyo Social y la Sobrerresponsabilización de Hombres Homosexuales Cisgénero y Mujeres Trans y Travestis en la Gestión de su Propio Cuidado
+
+
+
+
+
+
+Autoria
+SCIMAGO INSTITUTIONS RANKINGS
+
+
+
+
+
+
+
+
+
 
 Resumo
 
-   Neste artigo, fruto de dois trabalhos de campo etnográficos -
-   desenvolvidos entre 2010 e 2013, e entre 2018 e 2021 - na região
-   metropolitana da cidade de São Paulo, descrevo e analiso as categorias
-   êmicas “famílias de sangue” e “famílias do coração”, de modo a
-   problematizar as formas de gestão coletiva e individual do “cuidado” e
-   das redes de apoio social, conforme narradas e praticadas por homens
-   homossexuais cisgêneros e por mulheres trans e travestis na meia-idade
-   e na velhice. Analisando as narrativas de meus e minhas interlocutoras
-   em campo de maneira interseccional - em particular a partir de
-   marcadores sociais das diferenças como idade, geração, gênero,
-   sexualidade, classe e raça - apresento uma crítica sobre o modo como
-   tais interlocutores/frequentemente lidavam com uma espécie de
-   sobre-responsabilização individual na gestão do próprio cuidado ao
-   longo da vida, mas particularmente na meia-idade e na velhice, em
-   conjunturas nas quais tanto as famílias de origem quanto as “famílias
-   do coração” não proveram cuidado, assim como outros âmbitos
-   extra-familiares e institucionais também nisso falhavam.
 
-   Palavras-chave:
-   Famílias do Coração; Famílias de Sangue; Cuidado; Redes de Apoio
-   Social; Sobre-responsabilização Individual da Gestão do Próprio Cuidado
+Neste artigo, fruto de dois trabalhos de campo etnográficos - desenvolvidos entre 2010 e 2013, e entre 2018 e 2021 - na região metropolitana da cidade de São Paulo, descrevo e analiso as categorias êmicas “famílias de sangue” e “famílias do coração”, de modo a problematizar as formas de gestão coletiva e individual do “cuidado” e das redes de apoio social, conforme narradas e praticadas por homens homossexuais cisgêneros e por mulheres trans e travestis na meia-idade e na velhice. Analisando as narrativas de meus e minhas interlocutoras em campo de maneira interseccional - em particular a partir de marcadores sociais das diferenças como idade, geração, gênero, sexualidade, classe e raça - apresento uma crítica sobre o modo como tais interlocutores/frequentemente lidavam com uma espécie de 
+sobre-responsabilização individual na gestão do próprio cuidado
+ ao longo da vida, mas particularmente na meia-idade e na velhice, em conjunturas nas quais tanto as famílias de origem quanto as “famílias do coração” não proveram cuidado, assim como outros âmbitos extra-familiares e institucionais também nisso falhavam. 
+
+
+Palavras-chave:
+Famílias do Coração; Famílias de Sangue; Cuidado; Redes de Apoio Social; Sobre-responsabilização Individual da Gestão do Próprio Cuidado
+
+
+
+
+
 
 Abstract
 
-   In this article, based on two ethnographic fieldwork studies conducted
-   between 2010 and 2013 and between 2018 and 2021 in the metropolitan
-   region of São Paulo, I describe and analyze the local categories of
-   “families by blood” and “families of the heart.” I problematize the
-   collective and individual management of “care” and social support
-   networks as narrated and practiced by cisgender homosexual men and
-   transgender and travesti women in middle and old age. By
-   intersectionally analyzing the narratives of my field interlocutors -
-   particularly through social markers of difference such as age,
-   generation, gender, sexuality, class, and race - I present a critique
-   of how these individuals often have to dealt with a kind of individual
-   over-responsibilization in managing their own care throughout their
-   lives, especially in middle and old age, in contexts where neither
-   their families of origin nor their “families of the heart” provided
-   care, and where extra-familial and institutional spheres also failed to
-   do so.
 
-   Keywords:
-   Families of the Heart; Families by Blood; Care; Social Support
-   Networks; Individual Over-Responsibilization in Managing One’s Own Care
+In this article, based on two ethnographic fieldwork studies conducted between 2010 and 2013 and between 2018 and 2021 in the metropolitan region of São Paulo, I describe and analyze the local categories of “families by blood” and “families of the heart.” I problematize the collective and individual management of “care” and social support networks as narrated and practiced by cisgender homosexual men and transgender and travesti women in middle and old age. By intersectionally analyzing the narratives of my field interlocutors - particularly through social markers of difference such as age, generation, gender, sexuality, class, and race - I present a critique of how these individuals often have to dealt with a kind of individual over-responsibilization in managing their own care throughout their lives, especially in middle and old age, in contexts where neither their families of origin nor their “families of the heart” provided care, and where extra-familial and institutional spheres also failed to do so.
+
+
+Keywords:
+Families of the Heart; Families by Blood; Care; Social Support Networks; Individual Over-Responsibilization in Managing One’s Own Care
+
+
+
+
+
 
 Resumen
 
-   En este artículo, resultado de dos trabajos de campo etnográficos
-   realizados entre 2010 y 2013 y entre 2018 y 2021 en la región
-   metropolitana de la ciudad de São Paulo, describo y analizo las
-   categorías émicas de “familias de sangre” y “familias del corazón” para
-   problematizar las formas de gestión colectiva e individual del
-   “cuidado” y de las redes de apoyo social, tal como son narradas y
-   practicadas por hombres homosexuales cisgénero y mujeres trans y
-   travestis en la mediana edad y la vejez. Analizando las narrativas de
-   mis interlocutores/as en el campo desde una perspectiva interseccional
-   - en particular a partir de marcadores sociales de diferencia como la
-   edad, generación, género, sexualidad, clase y raza - presento una
-   crítica sobre cómo estos/as interlocutores/as a menudo enfrentaban una
-   especie de sobrerresponsabilización individual en la gestión de su
-   propio cuidado a lo largo de la vida, especialmente en la mediana edad
-   y la vejez, en contextos en los que ni las familias de origen ni las
-   “familias del corazón” brindaban cuidado, y donde otros ámbitos
-   extrafamiliares e institucionales también fallaban en este sentido.
 
-   Palabras-clave:
-   Familias del Corazón; Familias de Sangre; Cuidado; Redes de Apoyo
-   Social; Sobrerresponsabilización Individual en la Gestión del Propio
-   Cuidado
+En este artículo, resultado de dos trabajos de campo etnográficos realizados entre 2010 y 2013 y entre 2018 y 2021 en la región metropolitana de la ciudad de São Paulo, describo y analizo las categorías émicas de “familias de sangre” y “familias del corazón” para problematizar las formas de gestión colectiva e individual del “cuidado” y de las redes de apoyo social, tal como son narradas y practicadas por hombres homosexuales cisgénero y mujeres trans y travestis en la mediana edad y la vejez. Analizando las narrativas de mis interlocutores/as en el campo desde una perspectiva interseccional - en particular a partir de marcadores sociales de diferencia como la edad, generación, género, sexualidad, clase y raza - presento una crítica sobre cómo estos/as interlocutores/as a menudo enfrentaban una especie de sobrerresponsabilización individual en la gestión de su propio cuidado a lo largo de la vida, especialmente en la mediana edad y la vejez, en contextos en los que ni las familias de origen ni las “familias del corazón” brindaban cuidado, y donde otros ámbitos extrafamiliares e institucionales también fallaban en este sentido.
 
-Etnografando Famílias de Sangue & Famílias do Coração:
 
-   Envelhecimento, redes de apoio social e sobre-responsabilização de
-   homens cisgêneros homossexuais e mulheres trans e travestis pela gestão
-   do próprio cuidado
+Palabras-clave:
+Familias del Corazón; Familias de Sangre; Cuidado; Redes de Apoyo Social; Sobrerresponsabilización Individual en la Gestión del Propio Cuidado
 
-     “Home is where the hatred is, home is filled with pain and it might
-     not be such a bad idea if I never, never went home again…” da canção
-     “Home is where the hatred is” (1970), de Gil Scott-Heron
 
-     “Todas as famílias felizes se parecem. Cada família infeliz é
-     infeliz à sua maneira.” - Anna Karenina, Liev Tolstói (1877).
 
-     “Caring for myself is not self-indulgence, it is self-preservation,
-     and that is an act of political warfare” - Audre Lorde (2017 ).
 
-     Para Glauco B. F.: my person.
 
+ 
+Etnografando Famílias de Sangue &amp; Famílias do Coração:
+
+ 
+Envelhecimento, redes de apoio social e sobre-responsabilização de homens cisgêneros homossexuais e mulheres trans e travestis pela gestão do próprio cuidado
+
+ 
+
+ 
+
+ 
+“Home is where the hatred is, home is filled with pain and it might not be such a bad idea if I never, never went home again…” da canção “Home is where the hatred is” (1970), de Gil Scott-Heron
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+“Todas as famílias felizes se parecem. Cada família infeliz é infeliz à sua maneira.” - Anna Karenina, Liev Tolstói (1877).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+“Caring for myself is not self-indulgence, it is self-preservation, and that is an act of political warfare” - Audre
+
+ 
+
+ 
+Lorde (2017
+
+ 
+
+ 
+).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Para Glauco B. F.: my person.
+
+ 
+
+ 
+
+ 
+ 
 Roberto, 2010
 
-   Meus primeiros diálogos densos com Daniel, 59 anos, branco,
-   homossexual, cisgênero e de classe média, ocorreram na região da Av.
-   Vieira de Carvalho, no centro de São Paulo. Foi por intermédio de
-   Daniel que conheci a história de Roberto, um de seus melhores amigos,
-   que passou a ser cuidado por ele após um AVC, cinco anos antes.
-   Roberto, por sua vez, está com 76 anos de idade, nunca se casou ou teve
-   relações heterossexuais duradouras. Além disso, ao longo da vida
-   manteve relações conflituosas com a família de origem, uma família
-   abastada de fazendeiros do interior do estado de São Paulo. Sua família
-   conhecia sua identidade sexual e a rejeitava, questão que havia
-   contribuído para um afastamento acentuado. O grau de conflito em
-   relação à família de origem foi tamanho que Daniel contou que Roberto
-   teria sido deserdado pelo pai, ação que seria uma represália relativa
-   ao comportamento “desviante” do filho. Mesmo assim, Roberto conseguiu
-   se manter com vários bens e com um bom padrão de vida. Daniel e Roberto
-   são amigos íntimos há mais de três décadas e desde então se tornaram um
-   ponto de apoio mútuo para vários momentos difíceis da vida, como no
-   sofrível processo de “se assumir” homossexual, no falecimento de
-   parentes e amigos, em momentos de problemas financeiros, crises
-   pessoais, etc. Para Daniel, seu amigo Roberto faria parte do que era
-   chamado em meu campo, por vários interlocutores/as, de uma “família do
-   coração”, provendo apoio e cuidados variados e recíprocos ao longo da
-   vida. Segundo meu interlocutor, quando Roberto sofreu o AVC, pouco após
-   completar 70 anos de idade, este acabou se tornando muito dependente,
-   tendo partes do corpo paralisadas, incluindo o comprometimento moderado
-   da fala. Portanto, ao sair do hospital, na impossibilidade de gerir o
-   seu próprio cuidado com autonomia, Roberto se mudou para a casa de
-   alguém que pudesse cuidá-lo. Na ausência de cônjuge, de filhos e netos,
-   quem acabou incumbido da função foi um de seus sobrinhos, filho de uma
-   irmã recentemente falecida e uma das poucas familiares com a qual
-   Roberto mantivera boas relações ao longo dos anos. Esse sobrinho e a
-   esposa, sendo os parentes mais próximos que lhe restavam, acabaram, a
-   contragosto, se responsabilizando pelos cuidados de Roberto. Daniel,
-   meu interlocutor, continuou a visitar Roberto no hospital e também
-   quando o amigo se mudou para a casa de familiares. No entanto, com o
-   passar do tempo, o sobrinho de Roberto começou a se mostrar incomodado
-   e intolerante durante as visitas de Daniel e de outros amigos, dizendo
-   não querer “gente assim” - referindo-se aos amigos gays do tio - em sua
-   casa e perto de seus filhos. A despeito da hostilidade crescente,
-   Daniel conta que fazia questão de continuar visitando o amigo, o qual
-   falava com dificuldade e permanecia acamado. Com o passar do tempo,
-   Daniel relata ter percebido que seu amigo não parecia ser bem cuidado
-   na nova residência. Passava longos períodos sozinho no quarto, sua
-   higiene não era administrada adequadamente e se encontrava
-   constantemente melancólico, solitário e deprimido. Roberto também
-   relatava a Daniel, embora com dificuldades na fala, os comportamentos
-   agressivos, xingamentos e maus-tratos de membros da família do sobrinho
-   contra si. Tais comportamentos, no ponto de vista de meu interlocutor,
-   pareciam se dar devido ao fato de Roberto ser homossexual, além de
-   “velho” e “inválido” e, portanto, uma presença triplamente incômoda.
-   Além desse quadro delicado e hostil, o sobrinho ainda passara a
-   administrar integralmente a aposentadoria e os bens de Roberto e pouco
-   parecia fazer para revertê-los ao próprio bem-estar do tio como em
-   fisioterapias e acompanhamentos médicos necessários e de qualidade.
-   Para Daniel, isso parecia se configurar em uma forma de abuso,
-   negligência e de violência financeira contra seu amigo na velhice. Essa
-   situação, segundo meu interlocutor, perdurou até o dia em que ele,
-   durante uma de suas visitas, percebeu uma ferida arredondada no braço
-   do amigo e que aparentava ser uma queimadura de cigarro. Embora ele não
-   tivesse certeza do que havia ocorrido de fato, Daniel afirmou que essa
-   teria sido a gota d’água. Então ele confrontou o sobrinho de Roberto,
-   dizendo que faria um boletim de ocorrência em uma delegacia
-   especializada em violência contra pessoas idosas e, se necessário,
-   convidaria um programa sensacionalista de televisão para cobrir o caso.
-   Para evitar o escândalo, a exigência de meu interlocutor era que o
-   sobrinho permitisse que Roberto fosse cuidado por Daniel e se mudasse
-   para sua residência. Meu interlocutor, então, relatou que o sobrinho,
-   face às ameaças, negou ter agredido ou maltratado o tio idoso, porém ao
-   perceber que Daniel se mostrava irredutível, ao fim, teria declarado:
-   “Pode levar essa porcaria daqui!” No mesmo dia, meu interlocutor
-   afirmou ter conseguido trazer o amigo para sua casa, onde este passou,
-   dali por diante, a residir. Daniel por diversos momentos afirmou
-   carinhosamente que Roberto era como um “irmão mais velho” e que se
-   chamavam de “amigos” e não de “irmãos” só porque “não temos o mesmo
-   sangue”, embora tenha comentado que ambos, juntamente a um grupo maior
-   de pessoas, se consideravam uma “família de verdade”. De maneira
-   significativa e impactado pelas lembranças do caso que narrara, chegou
-   a afirmar em relação a esse grupo de amigos íntimos: “Nós é que somos
-   uma família de verdade, a gente é que se importa de verdade. Os outros
-   [a família de origem] não se importam. Pra mim, eles [da família de
-   origem] não são minha família de verdade. Família é a que cuida, que tá
-   sempre lá pra dar uma força quando a gente mais precisa.” Assim, em
-   termos gerais, segundo o relato de Daniel e de seus amigos, o grosso
-   dessas formas de apoio social recíprocas e cotidianas era fornecido a
-   eles primordialmente pelos membros da rede imediata de amigos, amigas e
-   ex-companheiros, a qual foi chamada, em várias ocasiões, de uma
-   “família do coração”.
+ 
+Meus primeiros diálogos densos com Daniel, 59 anos, branco, homossexual, cisgênero e de classe média, ocorreram na região da Av. Vieira de Carvalho, no centro de São Paulo. Foi por intermédio de Daniel que conheci a história de Roberto, um de seus melhores amigos, que passou a ser cuidado por ele após um AVC, cinco anos antes. Roberto, por sua vez, está com 76 anos de idade, nunca se casou ou teve relações heterossexuais duradouras. Além disso, ao longo da vida manteve relações conflituosas com a família de origem, uma família abastada de fazendeiros do interior do estado de São Paulo. Sua família conhecia sua identidade sexual e a rejeitava, questão que havia contribuído para um afastamento acentuado. O grau de conflito em relação à família de origem foi tamanho que Daniel contou que Roberto teria sido deserdado pelo pai, ação que seria uma represália relativa ao comportamento “desviante” do filho. Mesmo assim, Roberto conseguiu se manter com vários bens e com um bom padrão de vida. Daniel e Roberto são amigos íntimos há mais de três décadas e desde então se tornaram um ponto de apoio mútuo para vários momentos difíceis da vida, como no sofrível processo de “se assumir” homossexual, no falecimento de parentes e amigos, em momentos de problemas financeiros, crises pessoais, etc. Para Daniel, seu amigo Roberto faria parte do que era chamado em meu campo, por vários interlocutores/as, de uma “família do coração”, provendo apoio e cuidados variados e recíprocos ao longo da vida. Segundo meu interlocutor, quando Roberto sofreu o AVC, pouco após completar 70 anos de idade, este acabou se tornando muito dependente, tendo partes do corpo paralisadas, incluindo o comprometimento moderado da fala. Portanto, ao sair do hospital, na impossibilidade de gerir o seu próprio cuidado com autonomia, Roberto se mudou para a casa de alguém que pudesse cuidá-lo. Na ausência de cônjuge, de filhos e netos, quem acabou incumbido da função foi um de seus sobrinhos, filho de uma irmã recentemente falecida e uma das poucas familiares com a qual Roberto mantivera boas relações ao longo dos anos. Esse sobrinho e a esposa, sendo os parentes mais próximos que lhe restavam, acabaram, a contragosto, se responsabilizando pelos cuidados de Roberto. Daniel, meu interlocutor, continuou a visitar Roberto no hospital e também quando o amigo se mudou para a casa de familiares. No entanto, com o passar do tempo, o sobrinho de Roberto começou a se mostrar incomodado e intolerante durante as visitas de Daniel e de outros amigos, dizendo não querer “gente assim” - referindo-se aos amigos gays do tio - em sua casa e perto de seus filhos. A despeito da hostilidade crescente, Daniel conta que fazia questão de continuar visitando o amigo, o qual falava com dificuldade e permanecia acamado. Com o passar do tempo, Daniel relata ter percebido que seu amigo não parecia ser bem cuidado na nova residência. Passava longos períodos sozinho no quarto, sua higiene não era administrada adequadamente e se encontrava constantemente melancólico, solitário e deprimido. Roberto também relatava a Daniel, embora com dificuldades na fala, os comportamentos agressivos, xingamentos e maus-tratos de membros da família do sobrinho contra si. Tais comportamentos, no ponto de vista de meu interlocutor, pareciam se dar devido ao fato de Roberto ser homossexual, além de “velho” e “inválido” e, portanto, uma presença triplamente incômoda. Além desse quadro delicado e hostil, o sobrinho ainda passara a administrar integralmente a aposentadoria e os bens de Roberto e pouco parecia fazer para revertê-los ao próprio bem-estar do tio como em fisioterapias e acompanhamentos médicos necessários e de qualidade. Para Daniel, isso parecia se configurar em uma forma de abuso, negligência e de violência financeira contra seu amigo na velhice. Essa situação, segundo meu interlocutor, perdurou até o dia em que ele, durante uma de suas visitas, percebeu uma ferida arredondada no braço do amigo e que aparentava ser uma queimadura de cigarro. Embora ele não tivesse certeza do que havia ocorrido de fato, Daniel afirmou que essa teria sido a gota d’água. Então ele confrontou o sobrinho de Roberto, dizendo que faria um boletim de ocorrência em uma delegacia especializada em violência contra pessoas idosas e, se necessário, convidaria um programa sensacionalista de televisão para cobrir o caso. Para evitar o escândalo, a exigência de meu interlocutor era que o sobrinho permitisse que Roberto fosse cuidado por Daniel e se mudasse para sua residência. Meu interlocutor, então, relatou que o sobrinho, face às ameaças, negou ter agredido ou maltratado o tio idoso, porém ao perceber que Daniel se mostrava irredutível, ao fim, teria declarado: “Pode levar essa porcaria daqui!” No mesmo dia, meu interlocutor afirmou ter conseguido trazer o amigo para sua casa, onde este passou, dali por diante, a residir. Daniel por diversos momentos afirmou carinhosamente que Roberto era como um “irmão mais velho” e que se chamavam de “amigos” e não de “irmãos” só porque “não temos o mesmo sangue”, embora tenha comentado que ambos, juntamente a um grupo maior de pessoas, se consideravam uma “família de verdade”. De maneira significativa e impactado pelas lembranças do caso que narrara, chegou a afirmar em relação a esse grupo de amigos íntimos: “
+Nós é que somos uma família de verdade, a gente é que se importa de verdade
+. Os outros [a família de origem] não se importam. Pra mim, eles [da família de origem] não são minha família de verdade. 
+Família é a que cuida, que tá sempre lá pra dar uma força quando a gente mais precisa.
+” Assim, em termos gerais, segundo o relato de Daniel e de seus amigos, o grosso dessas formas de apoio social recíprocas e cotidianas era fornecido a eles primordialmente pelos membros da rede imediata de amigos, amigas e ex-companheiros, a qual foi chamada, em várias ocasiões, de uma “
+família do coração
+”.
 
+ 
+ 
+ 
 Bárbara, 2018
 
-   Assim que cheguei ao local de uma atividade de socialização organizada
-   pela ONG - organização não governamental - que aqui chamo de Casa da
-   Alvorada, fui apresentado às pessoas presentes como “um antropólogo gay
-   que está pesquisando pessoas idosas LGBT”. Ao descobrirem meus
-   interesses de pesquisa, a equipe gestora do local logo me inteirou
-   sobre o caso de Bárbara, uma senhora travesti idosa, de 65 anos, que
-   havia sofrido quatro derrames nos últimos quinze anos e que havia
-   chegado à Casa da Alvorada nos últimos meses de 2017. No momento em que
-   visitei a ONG, ela já estava há quase um ano vivendo nesse local. A
-   Casa da Alvorada, aliás, é uma organização não-governamental voltada a
-   atender sobretudo a mulheres trans e travestis em situação de
-   vulnerabilidade em São Paulo. As pessoas responsáveis pelo cuidado de
-   Bárbara na Casa do Alvorada narram que desde a sua chegada à ONG havia
-   grandes dificuldades da equipe para suprir e lidar com as crescentes
-   demandas de saúde que ela vinha enfrentando. Problemas de pressão e,
-   mais recentemente, sérios problemas intestinais, eram as questões mais
-   preocupantes. Alice, a assistente social da ONG que visitávamos
-   comentou que até o SAMU - Serviço de Atendimento Móvel de Urgência - já
-   estava se recusando a ir até Bárbara, devido à quantidade de vezes em
-   que o serviço foi acionado para atendê-la. Alice, afirmou diversas
-   vezes que sua ONG não possuía condições para atender pessoas idosas em
-   regime análogo ao das ILPIs (Instituições de Longa Permanência para
-   Pessoas Idosas) e que temia que a travesti idosa pudesse vir a falecer
-   ali. Na visão da assistente social, Bárbara precisava ser internada em
-   uma ILPI para pessoas que possuem um grau alto de dependência. Aliás, a
-   equipe da ONG já estava há meses recebendo negativas de ILPIs
-   consultadas na busca pela transferência dessa senhora a um lugar
-   adequado. As negativas eram quase sempre vagas, mas a equipe da ONG não
-   tinha dúvidas de que a transfobia era talvez o principal fator. Embora
-   Bárbara ainda não esteja o tempo todo acamada, nos últimos meses, ela
-   permanecia em uma cadeira de rodas a maior parte do tempo. Perguntei
-   para Alice sobre a manutenção da hormonização de Bárbara desde a sua
-   chegada à ONG e a assistente social me respondeu: “Olha, Cadu, eu tenho
-   que dar conta de toda a medicação dela, por que são muitos remédios, e
-   do cuidado constante dela e não pude priorizar a hormonização, não. Vou
-   te falar a verdade. Priorizei outras questões, isso não deu para dar
-   conta.” E foi nessa hora que Alice apontou para fora da sua salinha e
-   disse: - “A Bárbara é aquela ali, de cadeira de rodas”. Eu me virei,
-   pois estava de costas para a porta, e vi Bárbara pela primeira vez,
-   sendo conduzida ao único salão do local. Ela é uma senhora branca,
-   gordinha e de cabelos curtos. Usava uma blusinha regata de cor azul,
-   simples e desgastada, as alças do sutiã aparecendo, uma calça preta,
-   larga e chinelos estilo Havaianas. Bárbara não estava vestida de um
-   modo particularmente feminino e não parecia também estar com a higiene
-   bem administrada. Ela estava parcialmente calva e os cabelos que lhe
-   restavam estavam curtos e desalinhados. Eram cabelos castanhos-claros,
-   com raízes grisalhas e encaracolados. Alice, talvez percebendo o
-   impacto da visão de Bárbara para os visitantes, disse que em sua ONG
-   não havia pessoal preparado para atuar em questões de enfermagem para
-   gerir a higiene cotidiana de residentes. Percebi também que a senhora
-   travesti estava com barba visível e crescida e não usava adereços
-   femininos. Me peguei pensando: se é assim que uma senhora travesti vive
-   sua velhice em um contexto tido como progressista e apoiador de pessoas
-   trans e travestis, quais seriam então as experiências de mulheres trans
-   e travestis que vivem em ILPIs, as quais são geridas, muitas vezes, por
-   organizações religiosas e refratárias a pessoas como elas? Indo ao
-   encontro disso, Bárbara sequer estava sendo aceita para ser transferida
-   para as ILPIs consultadas pela equipe da ONG. Fiquei impactado com o
-   que me pareceu precariedade e vulnerabilidade tão explícitas. Ela
-   estava com um dos braços imobilizados e não estava com vestuário ou
-   mesmo posição confortáveis na cadeira de rodas. Apesar do aparente
-   desconforto, ela observava a todos atentamente, com olhos de cor clara,
-   além de pacientes, doces e gentis. A questão da ausência de
-   hormonização para uma senhora travesti que havia mantido essa prática
-   ao longo da vida, em uma instituição voltada para pessoas transexuais e
-   travestis me pareceu significativa e até chocante. Se isso ocorre aqui,
-   como seria acolá? Será que o fato de Bárbara ser “velha” - e
-   supostamente com a carreira sexual encerrada - levaria as pessoas a
-   pensarem que a hormonização, assim como cuidados regulares de afirmação
-   de gênero não seriam tão relevantes ou se tornariam progressivamente
-   mais secundários quando comparados aos demais cuidados com doenças
-   crônicas e medicações regulares? Eu percebia o quanto a equipe da ONG
-   parecia assoberbada e sobrecarregada, considerando inúmeros
-   atendimentos regulares para muitas outras pessoas na organização.
-   Entendia também que a situação era extraordinária, que não havia
-   pessoas com formação adequada para lidar com aquele nível de cuidados
-   de saúde, portanto, não quero aqui vilanizar, de modo algum, a referida
-   organização. Aliás, seu trabalho me parecia muitíssimo importante, até
-   mesmo vital, para o público por ela atendido. Mesmo assim, estava
-   chocado com uma noção reduzida, limitada e simplificada de “cuidado” no
-   caso dessa senhora travesti. Perguntei a Alice se ela conhecia outros
-   exemplos como o de Bárbara, relativos à necessidade de internações de
-   mulheres trans e travestis idosas em ILPIs. Alice disse que Bárbara
-   seria a primeira que ela tinha notícia; caso conseguissem vaga e ela
-   fosse aceita em alguma dessas instituições. Quando pude me aproximar de
-   Bárbara pela primeira vez, percebi que ela segurava em suas mãos uma
-   bonequinha de pano simples, quase sem feições discerníveis. Quando
-   fomos apresentados, ela sorriu, levantou sua bonequinha e me disse:
-   “Veja você, (…) essa é a Safirinha”, e me apresentou sua boneca de um
-   modo muito terno e doce. Eu respondi: “Que linda! Você está com ela há
-   quanto tempo?” Porém, não consegui entender sua resposta devido ao tom
-   baixo de voz e ao barulho de pessoas falando ao mesmo tempo em um só
-   recinto. Pedi que fôssemos para um local menos barulhento. Bárbara
-   sorriu quando me apresentei e expliquei minha pesquisa. Então afirmou,
-   com voz trêmula, embora compreensível, que aceitava participar da
-   investigação. Além disso, afirmou, como se já indicasse o começo de sua
-   entrevista:
+ 
+Assim que cheguei ao local de uma atividade de socialização organizada pela ONG - organização não governamental - que aqui chamo de Casa da Alvorada, fui apresentado às pessoas presentes como “um antropólogo gay que está pesquisando pessoas idosas LGBT”. Ao descobrirem meus interesses de pesquisa, a equipe gestora do local logo me inteirou sobre o caso de Bárbara, uma senhora travesti idosa, de 65 anos, que havia sofrido quatro derrames nos últimos quinze anos e que havia chegado à Casa da Alvorada nos últimos meses de 2017. No momento em que visitei a ONG, ela já estava há quase um ano vivendo nesse local. A Casa da Alvorada, aliás, é uma organização não-governamental voltada a atender sobretudo a mulheres trans e travestis em situação de vulnerabilidade em São Paulo. As pessoas responsáveis pelo cuidado de Bárbara na Casa do Alvorada narram que desde a sua chegada à ONG havia grandes dificuldades da equipe para suprir e lidar com as crescentes demandas de saúde que ela vinha enfrentando. Problemas de pressão e, mais recentemente, sérios problemas intestinais, eram as questões mais preocupantes. Alice, a assistente social da ONG que visitávamos comentou que até o SAMU - Serviço de Atendimento Móvel de Urgência - já estava se recusando a ir até Bárbara, devido à quantidade de vezes em que o serviço foi acionado para atendê-la. Alice, afirmou diversas vezes que sua ONG não possuía condições para atender pessoas idosas em regime análogo ao das ILPIs (Instituições de Longa Permanência para Pessoas Idosas) e que temia que a travesti idosa pudesse vir a falecer ali. Na visão da assistente social, Bárbara precisava ser internada em uma ILPI para pessoas que possuem um grau alto de dependência. Aliás, a equipe da ONG já estava há meses recebendo negativas de ILPIs consultadas na busca pela transferência dessa senhora a um lugar adequado. As negativas eram quase sempre vagas, mas a equipe da ONG não tinha dúvidas de que a transfobia era talvez o principal fator. Embora Bárbara ainda não esteja o tempo todo acamada, nos últimos meses, ela permanecia em uma cadeira de rodas a maior parte do tempo. Perguntei para Alice sobre a manutenção da hormonização de Bárbara desde a sua chegada à ONG e a assistente social me respondeu: “Olha, Cadu, eu tenho que dar conta de toda a medicação dela, por que são muitos remédios, e do cuidado constante dela e não pude priorizar a hormonização, não. Vou te falar a verdade. Priorizei outras questões, isso não deu para dar conta.” E foi nessa hora que Alice apontou para fora da sua salinha e disse: - “A Bárbara é aquela ali, de cadeira de rodas”. Eu me virei, pois estava de costas para a porta, e vi Bárbara pela primeira vez, sendo conduzida ao único salão do local. Ela é uma senhora branca, gordinha e de cabelos curtos. Usava uma blusinha regata de cor azul, simples e desgastada, as alças do sutiã aparecendo, uma calça preta, larga e chinelos estilo Havaianas. Bárbara não estava vestida de um modo particularmente feminino e não parecia também estar com a higiene bem administrada. Ela estava parcialmente calva e os cabelos que lhe restavam estavam curtos e desalinhados. Eram cabelos castanhos-claros, com raízes grisalhas e encaracolados. Alice, talvez percebendo o impacto da visão de Bárbara para os visitantes, disse que em sua ONG não havia pessoal preparado para atuar em questões de enfermagem para gerir a higiene cotidiana de residentes. Percebi também que a senhora travesti estava com barba visível e crescida e não usava adereços femininos. Me peguei pensando: se é assim que uma senhora travesti vive sua velhice em um contexto tido como progressista e apoiador de pessoas trans e travestis, quais seriam então as experiências de mulheres trans e travestis que vivem em ILPIs, as quais são geridas, muitas vezes, por organizações religiosas e refratárias a pessoas como elas? Indo ao encontro disso, Bárbara sequer estava sendo aceita para ser transferida para as ILPIs consultadas pela equipe da ONG. Fiquei impactado com o que me pareceu precariedade e vulnerabilidade tão explícitas. Ela estava com um dos braços imobilizados e não estava com vestuário ou mesmo posição confortáveis na cadeira de rodas. Apesar do aparente desconforto, ela observava a todos atentamente, com olhos de cor clara, além de pacientes, doces e gentis. A questão da ausência de hormonização para uma senhora travesti que havia mantido essa prática ao longo da vida, em uma instituição voltada para pessoas transexuais e travestis me pareceu significativa e até chocante. Se isso ocorre aqui, como seria acolá? Será que o fato de Bárbara ser “velha” - e supostamente com a carreira sexual encerrada - levaria as pessoas a pensarem que a hormonização, assim como cuidados regulares de afirmação de gênero não seriam tão relevantes ou se tornariam progressivamente mais secundários quando comparados aos demais cuidados com doenças crônicas e medicações regulares? Eu percebia o quanto a equipe da ONG parecia assoberbada e sobrecarregada, considerando inúmeros atendimentos regulares para muitas outras pessoas na organização. Entendia também que a situação era extraordinária, que não havia pessoas com formação adequada para lidar com aquele nível de cuidados de saúde, portanto, não quero aqui vilanizar, de modo algum, a referida organização. Aliás, seu trabalho me parecia muitíssimo importante, até mesmo vital, para o público por ela atendido. Mesmo assim, estava chocado com uma noção reduzida, limitada e simplificada de “cuidado” no caso dessa senhora travesti. Perguntei a Alice se ela conhecia outros exemplos como o de Bárbara, relativos à necessidade de internações de mulheres trans e travestis idosas em ILPIs. Alice disse que Bárbara seria a primeira que ela tinha notícia; caso conseguissem vaga e ela fosse aceita em alguma dessas instituições. Quando pude me aproximar de Bárbara pela primeira vez, percebi que ela segurava em suas mãos uma bonequinha de pano simples, quase sem feições discerníveis. Quando fomos apresentados, ela sorriu, levantou sua bonequinha e me disse: “Veja você, (…) essa é a Safirinha”, e me apresentou sua boneca de um modo muito terno e doce. Eu respondi: “Que linda! Você está com ela há quanto tempo?” Porém, não consegui entender sua resposta devido ao tom baixo de voz e ao barulho de pessoas falando ao mesmo tempo em um só recinto. Pedi que fôssemos para um local menos barulhento. Bárbara sorriu quando me apresentei e expliquei minha pesquisa. Então afirmou, com voz trêmula, embora compreensível, que aceitava participar da investigação. Além disso, afirmou, como se já indicasse o começo de sua entrevista: 
 
-     “Pois bem, meu nome é Bárbara Santiago... Tô com metade do corpo
-     paralisado, tive quatro AVCs e... Eu gostaria de agradecer em
-     primeiro lugar vocês por terem vindo aqui me visitar [na Casa da
-     Alvorada]… Porque eu sou idosa e isso me traz muita alegria... [A
-     assistente social comentou que Bárbara nunca havia recebido visitas
-     de amigos/as ou parentes]. Problema todo mundo tem, né?... Então eu
-     sou muito feliz! O importante é viver bem. Em qualquer situação. O
-     primeiro AVC aconteceu no ano 2000, eu lembro do segundo em 2007,
-     depois não me lembro mais. A cabeça não ficou muito boa. Daí não
-     lembro mais. Tô recuperando agora... Eu agradeço por terem me
-     recebido aqui, porque não sei nem como cheguei aqui [na Casa da
-     Alvorada]. Então eu agradeço por estar aqui, que me cuidam bem. E
-     olha gente, o importante é ser feliz, porque ser bicha, não
-     importa... Eu nasci feminina... Pequenininha, minha mãe era
-     costureira na roça... Eu roubava vestido das minhas irmãs e ía
-     vestir escondido. Eu gostava... Eu vim de uma outra época. Eu
-     gostava de cor-de-rosa, de vermelho. Tudo o que era feminino... Eu
-     sempre gostei. Eu vou fazer agora, em outubro, 65 anos [de idade].
-     Eu sou mulher, mas eu nasci homem... Mas será mesmo que eu sou
-     homem? Eu sou feliz, graças a Deus... Por isso eu tô aqui... Essas
-     pessoas aqui me recolheram com um carinho tão grande... Que eu tenho
-     até emoção de falar... [A voz se torna embargada]... Muito obrigado!
-     [Pergunto se ela ainda tem contato com a família de origem, irmãos,
-     parentes etc.] Não, não. É muito complicado. Eles não me querem
-     assim [e apontou para os seios], não. Eu não quero ficar com eles de
-     jeito nenhum, nem pensar! Prefiro aqui…” [Transcrição relativa a
-     setembro de 2018].
+ 
 
-   Ao longo de nossa conversa, Barbara contou possuir dois filhos do
-   primeiro casamento com uma mulher cisgênera, antes de seu processo de
-   transição de gênero. Afirmou que ao ter a coragem de se assumir mulher,
-   foi brutalmente agredida e expulsa de casa por familiares - sobretudo
-   por homens da família -, que diziam ter vergonha dela e a ameaçaram de
-   morte. A partir daí, afirma ter “ganhado a vida” por alguns anos como
-   caminhoneira, profissão que já realizava antes da transição e que nunca
-   mais voltou a contatar ou a conviver com tais familiares. Alice, a
-   assistente social da ONG, afirmou ainda que Bárbara parecia carregar um
-   trauma e enorme medo de contatos ou de ser posta sob os cuidados de sua
-   “família de sangue”, quando a possibilidade da ONG procurá-los
-   ressurgia. Talvez pelas experiências pregressas tão pesadas e negativas
-   com a família, Bárbara era taxativa em não querer contato algum.
-   Impressionava muito o fato de ela não estar em uma situação, a meu ver,
-   minimamente adequada e mesmo assim nem sequer cogitar voltar a contatar
-   seus parentes de origem: “não quero ficar com eles de jeito nenhum, nem
-   pensar!”. Por essa razão, não buscava seus eventuais direitos de
-   herança e não autorizava a equipe da ONG a contatar seus familiares de
-   origem. De qualquer forma, pelo que entendi, a ONG nunca havia
-   conseguido contato com tais parentes. Quando a profissão de
-   caminhoneira se mostrou difícil de ser mantida como mulher, Bárbara
-   conta ter passado a atuar como profissional do sexo por muitos anos.
-   Quando perguntei se ela mantinha ainda contato com antigas amizades ou
-   ex-companheiros/as, ela respondeu que quase todas as suas amigas e
-   companheiras “de luta” e “das antigas” acabaram “ficando pelo caminho”
-   (falecendo por variadas razões), se mudando de país ou de cidade e com
-   o passar dos anos e o aprofundamento de seus problemas de saúde
-   ponderou que foi ficando sozinha, especialmente após o primeiro AVC que
-   sofreu. Sua narrativa passava por momentos animados, quase eufóricos,
-   às vezes por momentos melancólicos, confusos e desconexos em que ela
-   não sabia explicar coisas básicas sobre o passado e os anos anteriores
-   a sua chegada na Casa da Alvorada. De todo modo, fazia questão de
-   afirmar, inúmeras vezes, a gratidão à equipe da ONG por tê-la recebido
-   e por “cuidar tão bem” dela hoje em dia, pois em suas palavras, ela já
-   não tinha “mais ninguém, nem outro lugar para ir”.
+ 
+“Pois bem, meu nome é Bárbara Santiago... Tô com metade do corpo paralisado, tive quatro AVCs e... Eu gostaria de agradecer em primeiro lugar vocês por terem vindo aqui me visitar [na Casa da Alvorada]… Porque eu sou idosa e isso me traz muita alegria... [A assistente social comentou que Bárbara nunca havia recebido visitas de amigos/as ou parentes]. Problema todo mundo tem, né?... Então eu sou muito feliz! O importante é viver bem. Em qualquer situação. O primeiro AVC aconteceu no ano 2000, eu lembro do segundo em 2007, depois não me lembro mais. A cabeça não ficou muito boa. Daí não lembro mais. Tô recuperando agora... Eu agradeço por terem me recebido aqui, porque não sei nem como cheguei aqui [na Casa da Alvorada]. Então eu agradeço por estar aqui, que me cuidam bem. E olha gente, o importante é ser feliz, porque ser bicha, não importa... Eu nasci feminina... Pequenininha, minha mãe era costureira na roça... Eu roubava vestido das minhas irmãs e ía vestir escondido. Eu gostava... Eu vim de uma outra época. Eu gostava de cor-de-rosa, de vermelho. Tudo o que era feminino... Eu sempre gostei. Eu vou fazer agora, em outubro, 65 anos [de idade]. Eu sou mulher, mas eu nasci homem... Mas será mesmo que eu sou homem? Eu sou feliz, graças a Deus... Por isso eu tô aqui... Essas pessoas aqui me recolheram com um carinho tão grande... Que eu tenho até emoção de falar... [A voz se torna embargada]... Muito obrigado! [Pergunto se ela ainda tem contato com a família de origem, irmãos, parentes etc.] Não, não. É muito complicado. 
+Eles não me querem assim
+ [e apontou para os seios], 
+não
+. 
+Eu não quero ficar com eles de jeito nenhum, nem pensar! Prefiro aqui
+…” [Transcrição relativa a setembro de 2018].
 
-"Família é a que Cuida!" Cuidado, Redes de Apoio Social e Famílias do Coração
+ 
 
-   As cenas etnográficas que iniciam este artigo destacam a relevância das
-   “redes de apoio social” e do “cuidado” nas narrativas reunidas ao longo
-   de duas investigações etnográficas. A primeira, junto a homens
-   homossexuais cisgêneros na região metropolitana da cidade de São Paulo,
-   em um período de trabalho de campo entre 2010 e 2013, cujo resultado
-   foi minha tese de doutorado (Henning 2014). Já a segunda, entre 2018 e
-   2021, ampliou o escopo incluindo mulheres lésbicas e cisgêneras, assim
-   como mulheres trans e travestis na meia-idade e velhice, no mesmo
-   contexto metropolitano.
+ 
+Ao longo de nossa conversa, Barbara contou possuir dois filhos do primeiro casamento com uma mulher cisgênera, antes de seu processo de transição de gênero. Afirmou que ao ter a coragem de se assumir mulher, foi brutalmente agredida e expulsa de casa por familiares - sobretudo por homens da família -, que diziam ter vergonha dela e a ameaçaram de morte. A partir daí, afirma ter “ganhado a vida” por alguns anos como caminhoneira, profissão que já realizava antes da transição e que nunca mais voltou a contatar ou a conviver com tais familiares. Alice, a assistente social da ONG, afirmou ainda que Bárbara parecia carregar um trauma e enorme medo de contatos ou de ser posta sob os cuidados de sua “família de sangue”, quando a possibilidade da ONG procurá-los ressurgia. Talvez pelas experiências pregressas tão pesadas e negativas com a família, Bárbara era taxativa em não querer contato algum. Impressionava muito o fato de ela não estar em uma situação, a meu ver, minimamente adequada e mesmo assim nem sequer cogitar voltar a contatar seus parentes de origem: “
+não quero ficar com eles de jeito nenhum, nem pensar!
+”. Por essa razão, não buscava seus eventuais direitos de herança e não autorizava a equipe da ONG a contatar seus familiares de origem. De qualquer forma, pelo que entendi, a ONG nunca havia conseguido contato com tais parentes. Quando a profissão de caminhoneira se mostrou difícil de ser mantida como mulher, Bárbara conta ter passado a atuar como profissional do sexo por muitos anos. Quando perguntei se ela mantinha ainda contato com antigas amizades ou ex-companheiros/as, ela respondeu que quase todas as suas amigas e companheiras “de luta” e “das antigas” acabaram “ficando pelo caminho” (falecendo por variadas razões), se mudando de país ou de cidade e com o passar dos anos e o aprofundamento de seus problemas de saúde ponderou que foi ficando sozinha, especialmente após o primeiro AVC que sofreu. Sua narrativa passava por momentos animados, quase eufóricos, às vezes por momentos melancólicos, confusos e desconexos em que ela não sabia explicar coisas básicas sobre o passado e os anos anteriores a sua chegada na Casa da Alvorada. De todo modo, fazia questão de afirmar, inúmeras vezes, a gratidão à equipe da ONG por tê-la recebido e por “cuidar tão bem” dela hoje em dia, pois em suas palavras, ela já não tinha “mais ninguém, nem outro lugar para ir”.
 
-   Em ambos os casos as dimensões do cuidado e das redes de apoio social
-   estavam intimamente associadas às noções êmicas de “família de sangue”
-   e “família de coração”. Neste trabalho, portanto, apresento análises
-   sobre os significados relativos a cada categoria familiar a partir do
-   exame de narrativas de interlocutores/as e suas implicações em termos
-   de “cuidado” e das “redes de apoio social”. Por fim, problematizo uma
-   tendência de sobre-responsabilização individual de homens homossexuais
-   cisgêneros e de mulheres trans e travestis pelo seu próprio cuidado ao
-   longo do curso da vida e particularmente na meia-idade e velhice. Esse
-   fenômeno, em alguns casos, levava a situações de vulnerabilidade,
-   fragilidade e isolamento, contribuindo para cenários de precariedade
-   existencial, sobretudo para aqueles e aquelas que eram mais pobres, com
-   menor formação educacional e com redes de apoio social frágeis.
+ 
+ 
+ 
+&#34;Família é a que Cuida!&#34; Cuidado, Redes de Apoio Social e Famílias do Coração
 
-   Antes de mais nada, em termos gerais, as “famílias de sangue”, entre
-   meus e minhas interlocutoras, se referiam às famílias de origem,
-   concebidas em base da ideia de consanguinidade. Célio, um de meus
-   interlocutores, 58 anos, branco, homem cisgênero e homossexual,
-   professor universitário e morador do bairro Vila Madalena, em São
-   Paulo, contextualiza e distingue as “famílias de sangue” e as “famílias
-   de coração” da seguinte forma:
+ 
+As cenas etnográficas que iniciam este artigo destacam a relevância das “redes de apoio social” e do “cuidado” nas narrativas reunidas ao longo de duas investigações etnográficas. A primeira, junto a homens homossexuais cisgêneros na região metropolitana da cidade de São Paulo, em um período de trabalho de campo entre 2010 e 2013, cujo resultado foi minha tese de doutorado (
+Henning 2014
+). Já a segunda, entre 2018 e 2021, ampliou o escopo incluindo mulheres lésbicas e cisgêneras, assim como mulheres trans e travestis na meia-idade e velhice, no mesmo contexto metropolitano. 
 
-     “Moro com minha família. Minha mãe, meu irmão, irmã e tia. Mas eu
-     tenho meus amigos também. É como se fosse uma outra família, só que
-     não de sangue. É tipo uma família do coração. É uma família que a
-     gente ama do mesmo jeito que a família de sangue. São os amigos que
-     a gente fez na vida, que tão sempre com a gente pra tudo o que der e
-     vier. Com eles a gente fala de tudo, a gente se apoia em tudo. Eu
-     vou muito na casa deles, a gente sai pra beber, se divertir. Todo
-     mundo é batalhador, ninguém fica na aba do outro, mas a gente sempre
-     se ajuda. Na minha turma quando tem um deprê [deprimido] alguém
-     dorme na casa da pessoa, ou se tá duro [sem dinheiro] a gente
-     empresta a grana, depois ele paga. É assim. Alguns deles moram
-     juntos, mas são só amigos, estilo república, dividem contas, tudo
-     mesmo. Facilita porque São Paulo tá muito cara.” [Transcrição
-     relativa a maio de 2011].
+ 
+Em ambos os casos as dimensões do cuidado e das redes de apoio social estavam intimamente associadas às noções êmicas de “família de sangue” e “família de coração”. Neste trabalho, portanto, apresento análises sobre os significados relativos a cada categoria familiar a partir do exame de narrativas de interlocutores/as e suas implicações em termos de “cuidado” e das “redes de apoio social”. Por fim, problematizo uma tendência de 
+sobre-responsabilização individual de homens homossexuais cisgêneros e de mulheres trans e travestis pelo seu próprio cuidado
+ ao longo do curso da vida e particularmente na meia-idade e velhice. Esse fenômeno, em alguns casos, levava a situações de vulnerabilidade, fragilidade e isolamento, contribuindo para cenários de precariedade existencial, sobretudo para aqueles e aquelas que eram mais pobres, com menor formação educacional e com redes de apoio social frágeis.
 
-   As distinções entre “famílias de sangue” e “famílias do coração”
-   contribuem para compreender como tais interlocutores/as narravam ter
-   lidado, vivenciado ou planejado questões do cuidado conectadas às redes
-   de apoio social em suas inter-relações com saúde, envelhecimento e
-   velhice. Tais análises, além disso, têm como pano de fundo intersecções
-   entre marcadores sociais da diferença como idade, geração, gênero,
-   sexualidade, raça, classe e corporalidades.
+ 
+Antes de mais nada, em termos gerais, as “famílias de sangue”, entre meus e minhas interlocutoras, se referiam às famílias de origem, concebidas em base da ideia de consanguinidade. Célio, um de meus interlocutores, 58 anos, branco, homem cisgênero e homossexual, professor universitário e morador do bairro Vila Madalena, em São Paulo, contextualiza e distingue as “famílias de sangue” e as “famílias de coração” da seguinte forma: 
 
-   De antemão esse conjunto de narrativas parecia profundamente envolvido
-   em uma espécie de “familismo” latente e não problematizado localmente.
-   Em outras palavras, uma expectativa de que, de um modo ou de outro,
-   seria a “família” que deveria ser acionada - seja ela “de sangue” ou
-   “do coração” - como a responsável pelo cuidado ao longo do curso da
-   vida. Em detrimento, por exemplo, da responsabilização do Estado e/ou
-   de outras configurações organizativas voltadas à gestão do cuidado em
-   âmbito extra-familiar. Embora tais famílias surgissem em muitas
-   narrativas, algo que me deixava intrigado era perceber que a maioria
-   das pessoas que as citavam também confidenciava só as acionar em
-   “último caso”, em casos extremos, e que no dia-a-dia, na maior parte
-   das vezes, “se viravam” sozinhas.
+ 
 
-   Como o debate de fundo aqui se relaciona a noções específicas de
-   “família”, Claudia Fonseca (2008, 773) pondera que tal noção, “longe de
-   ser uma unidade natural, representa o agregado de diversas relações, é
-   perpassada por diversas forças institucionais e envolve a participação
-   mais ou menos íntima de diferentes personagens”. Já Kath Weston (1991),
-   conhecida por popularizar a noção de “famílias de escolha” (“families
-   of choice”), analisou intensas transformações nas relações de
-   parentesco entre homens gays e mulheres lésbicas jovens, em San
-   Francisco, nos Estados Unidos, durante a década de 1980.
+ 
+“Moro com minha família. Minha mãe, meu irmão, irmã e tia. Mas eu tenho meus amigos também. É como se fosse uma outra família, só que não 
+de sangue
+. É tipo uma 
+família do coração
+. É uma família que a gente ama do mesmo jeito que a 
+família de sangue
+. São os amigos que a gente fez na vida, que tão sempre com a gente pra tudo o que der e vier. Com eles a gente fala de tudo, a gente se apoia em tudo. Eu vou muito na casa deles, a gente sai pra beber, se divertir. Todo mundo é batalhador, ninguém fica na aba do outro, mas a gente sempre se ajuda. Na minha turma quando tem um deprê [deprimido] alguém dorme na casa da pessoa, ou se tá duro [sem dinheiro] a gente empresta a grana, depois ele paga. É assim. Alguns deles moram juntos, mas são só amigos, estilo república, dividem contas, tudo mesmo. Facilita porque São Paulo tá muito cara.” [Transcrição relativa a maio de 2011].
 
-   Weston pondera que tais jovens, ao “saírem do armário”, muitas vezes
-   eram expulsos/as de casa e tinham relações com a família de origem
-   rompidas, à semelhança dos casos de Roberto e Bárbara que abrem este
-   trabalho. De acordo com a autora, na ausência repentina de redes de
-   apoio social provindas tradicionalmente das famílias de origem, tais
-   jovens construíam laços profundos, codependentes e duradouros de apoio
-   mútuo com amigos e amigas homossexuais, assim como com outras pessoas
-   que aceitassem sua identidade sexual. Laços que passavam a ser narrados
-   como de caráter efetivamente “familiar”.
+ 
 
-   Como se pode perceber, o “cuidado” (care) e as “redes de apoio social”
-   (social support networks) ganham centralidade nos debates sobre
-   “famílias de escolha” e “famílias do coração”. Nesse sentido, embora
-   não haja consensos sobre os significados para o “cuidado”, Joan Tronto
-   (2007, 286) pondera que:
+ 
+As distinções entre “famílias de sangue” e “famílias do coração” contribuem para compreender como tais interlocutores/as narravam ter lidado, vivenciado ou planejado questões do cuidado conectadas às redes de apoio social em suas inter-relações com saúde, envelhecimento e velhice. Tais análises, além disso, têm como pano de fundo intersecções entre marcadores sociais da diferença como idade, geração, gênero, sexualidade, raça, classe e corporalidades.
 
-     “Para alguns, cuidado é sempre uma dualidade entre uma pessoa com
-     mais poder que oferece o cuidado e de outra que o recebe (Noddings,
-     1984). Estudiosos definem cuidado de inúmeras formas, mas, para a
-     maioria deles, cuidado é o ‘trabalho do amor’, no qual uma atividade
-     privada e íntima é feita em um estado emocional particular. (…)
-     [Porém, entre outros pontos frágeis] Tal definição de cuidado também
-     exclui ‘o mau cuidado’ do cuidado em si.”
+ 
+De antemão esse conjunto de narrativas parecia profundamente envolvido em uma espécie de “familismo” latente e não problematizado localmente. Em outras palavras, uma expectativa de que, de um modo ou de outro, seria a “família” que deveria ser acionada - seja ela “de sangue” ou “do coração” - como a responsável pelo cuidado ao longo do curso da vida. Em detrimento, por exemplo, da responsabilização do Estado e/ou de outras configurações organizativas voltadas à gestão do cuidado em âmbito extra-familiar. Embora tais famílias surgissem em muitas narrativas, algo que me deixava intrigado era perceber que a maioria das pessoas que as citavam também confidenciava só as acionar em “último caso”, em casos extremos, e que no dia-a-dia, na maior parte das vezes, “se viravam” sozinhas.
 
-   Na direção de se afastar de concepções moralistas, romantizadas,
-   estáveis e universais para o “care”, assim como levando em consideração
-   relações de poder dinâmicas e processuais nele envolvidas, Hirata et.
-   al. (2011), apontam que o cuidado diria respeito a distintas práticas
-   que variam profundamente em termos históricos e culturais. Já a noção
-   de “redes de apoio social” (social support networks) costuma ser
-   considerada como intensamente associada ao cuidado. No caso específico
-   de pessoas idosas LGBTI+ (Lésbicas, Gays, Bissexuais, Travestis,
-   Transexuais, Transgêneros, Intersexuais, entre outros sujeitos), a
-   literatura proveniente do campo da “gerontologia LGBT”, por exemplo,
-   aponta um conjunto de especificidades desafiadoras no entrelaçamento de
-   cuidado, redes de apoio social e envelhecimentos (Henning 2016a, 2017,
-   2020d).
+ 
+Como o debate de fundo aqui se relaciona a noções específicas de “família”, Claudia 
+Fonseca (2008
+, 773) pondera que tal noção, “longe de ser uma unidade natural, representa o agregado de diversas relações, é perpassada por diversas forças institucionais e envolve a participação mais ou menos íntima de diferentes personagens”. Já Kath 
+Weston (1991
+), conhecida por popularizar a noção de “famílias de escolha” (“
+families of choice
+”), analisou intensas transformações nas relações de parentesco entre homens gays e mulheres lésbicas jovens, em San Francisco, nos Estados Unidos, durante a década de 1980. 
 
-   Em revisão, grande parte dessa literatura aponta que os envelhecimentos
-   dessa “população”, em termos gerais, possuiriam potenciais
-   particularidades, como uma maior probabilidade de redes de apoio social
-   frágeis e um risco mais expressivo de experimentar solidão e isolamento
-   na velhice, quando comparado à população abrangente (Henning 2017,
-   2020d). Essas diferenças ocorreriam, entre outras razões, devido a: 1)
-   Família e filhos: historicamente muitas pessoas LGBTI+ não se casaram
-   ou não tiveram filhos por concretos impedimentos sociais, legais e
-   estatais à parentalidade e conjugalidade, o que tenderia a reduzir a
-   amplitude de suas redes de apoio para o cuidado na velhice. 2)
-   Conflitos com a família de origem: muitas dessas pessoas tiveram
-   relações difíceis ou rompidas com suas famílias de origem devido a
-   discriminações, por exemplo, de fundo homofóbico, lesbofóbico e
-   transfóbico, o que diminuiria o apoio da família de origem ao longo da
-   vida e em especial na velhice. 3) Perdas durante a crise do HIV/Aids:
-   muitas relatam a expressiva perda de companheiros/as, amigos/as e
-   membros da rede de apoio social durante a epidemia de HIV/Aids nos anos
-   1980 e 1990, fragilizando suas redes de suporte no presente baseadas em
-   “famílias do coração”. 4) Juventude-centrismo e etarismo: parte da
-   comunidade LGBTI+ é descrita pela literatura como valorizando a
-   juventude em detrimento da meia-idade e velhice, o que se uniria a um
-   notório etarismo que desvalorizaria, ridicularizaria e marginalizaria
-   pessoas idosas. 5) Preconceitos e barreiras em serviços de saúde: ao
-   buscar atendimento em serviços de saúde, pessoas LGBTI+ de todas as
-   idades, mas particularmente na meia-idade e velhice, enfrentariam
-   discriminações, moralismos e violências institucionais, o que levaria
-   parte delas a postergar ou mesmo a evitar a busca por auxílio
-   especializado para questões de saúde. Nesse mesmo tópico, é destacada a
-   experiência de estresses, constrangimentos e desgastes sobressalentes
-   envolvidos na necessidade, por vezes, de esconder ou omitir informações
-   sobre expressões e identidades sexuais e de gênero (Henning 2021).
+ 
+Weston pondera que tais jovens, ao “saírem do armário”, muitas vezes eram expulsos/as de casa e tinham relações com a família de origem rompidas, à semelhança dos casos de Roberto e Bárbara que abrem este trabalho. De acordo com a autora, na ausência repentina de redes de apoio social provindas tradicionalmente das famílias de origem, tais jovens construíam laços profundos, codependentes e duradouros de apoio mútuo com amigos e amigas homossexuais, assim como com outras pessoas que aceitassem sua identidade sexual. Laços que passavam a ser narrados como de caráter efetivamente “familiar”.
 
-   De fato, tais características puderam ser acessadas em boa parte das
-   narrativas de meus e minhas interlocutoras. Porém não pressuponho, de
-   modo algum, uma noção homogeneizante sobre desafios e realidades
-   enfrentados por eles e elas na meia-idade e velhice. Um exemplo
-   dissonante em meu campo é que a maior parte das mulheres lésbicas e
-   cisgêneras, na meia-idade ou velhice, (especialmente as de classes
-   médias, brancas, que possuíam filhos, netos e/ou relacionamentos
-   longevos), eram narradas como desempenhando um papel importante nas
-   “famílias do coração”, mas não sendo tão “dependentes” assim destas.
+ 
+Como se pode perceber, o “cuidado” (
+care
+) e as “redes de apoio social” (
+social support networks
+) ganham centralidade nos debates sobre “famílias de escolha” e “famílias do coração”. Nesse sentido, embora não haja consensos sobre os significados para o “cuidado”, Joan Tronto (2007, 286) pondera que:
 
-   Elas eram frequentemente retratadas como provedoras de cuidado e apoio
-   social, em especial durante a crise do HIV/Aids nas décadas de 1980 e
-   1990 (Henning 2014). No entanto, embora fossem, por vezes, essenciais
-   nessas redes de apoio coletivo, elas mesmas raramente narravam essas
-   “famílias do coração” como fundamentais para o seu próprio cuidado no
-   presente ou no futuro. Em vez disso, tendiam a considerar o cuidado
-   como uma responsabilidade prioritária de suas companheiras, de
-   filhos/as, netos/as e outros/as parentes, reforçando uma dinâmica em
-   que eram mais vistas como cuidadoras do que como pessoas que
-   necessitavam de cuidados dentro dessas redes familiares alternativas.
+ 
 
-   Entretanto, no caso de homens cisgêneros homossexuais e de mulheres
-   trans e travestis, boa parte dos tópicos apresentados acima se
-   aproximava de suas narrativas de experiências. Especialmente para
-   aqueles/as que não possuíam prole ou cônjuge e que se encontravam
-   conectados a redes relativamente diáfanas de apoio social, como pudemos
-   acompanhar nas cenas etnográficas que abrem este artigo. Em alguns
-   desses casos, considerando a relativa inconsistência de tais redes,
-   algumas pessoas se viam diretamente dependentes de formas
-   institucionais que provêm apoio social e cuidados na meia-idade e
-   velhice, como no caso de Bárbara. Em meu campo, este caso pareceu
-   paradigmático no que diz respeito a uma expressiva maior
-   vulnerabilidade de mulheres trans e travestis em termos de redes de
-   apoio e cuidado na velhice quando comparadas, por exemplo, a situação
-   geral de homens cisgêneros homossexuais. Ainda que boa parte destes
-   também narrassem dificuldades e fragilidades significativas em suas
-   redes de apoio social na meia-idade e velhice.
+ 
+“Para alguns, cuidado é sempre uma dualidade entre uma pessoa com mais poder que oferece o cuidado e de outra que o recebe (Noddings, 1984). Estudiosos definem cuidado de inúmeras formas, mas, para a maioria deles, cuidado é o ‘trabalho do amor’, no qual uma atividade privada e íntima é feita em um estado emocional particular. (…) [Porém, entre outros pontos frágeis] Tal definição de cuidado também exclui ‘o mau cuidado’ do cuidado em si.” 
 
-   Nessa direção, considerando críticas ao “familismo” e a sobrecarga
-   feminina na gestão do cuidado, o cuidado informal e/ou não remunerado,
-   em termos gerais, é apontado como responsabilidade de integrantes das
-   redes de apoio social imediatas, em especial, membros da família de
-   origem e, sobretudo, de mulheres (Peixoto 1997; Hirata & Guimarães,
-   2012). Uma vez que muitos/as interlocutores/as em meu campo permaneciam
-   com relações rompidas ou as tiveram paralisadas por muitos anos, esse
-   relativo vácuo em termos de redes de apoio social baseadas nas
-   “famílias de sangue” era narrado como suprido, parcial ou
-   integralmente, pelas “famílias do coração”.
+ 
 
-   Portanto, as redes de apoio social poderiam ser compreendidas como um
-   agregado de agentes variados - indivíduos, grupos, famílias, amigos/as,
-   coletivos, comunidades, organizações, instituições, etc. - que provêem
-   os recursos utilizados para apoiar sujeitos variados ao longo da vida.
-   Recursos esses que envolvem uma infinidade de elementos: atenção,
-   afeição, amparo, socialização, lazer, cuidados, saúde, sexualidade,
-   aprendizagens intra-pares e auxílios genéricos, entre outras questões.
-   Tais redes geralmente atuam, são mobilizadas e se desenvolvem a partir
-   da assunção de necessidades e demandas conjunturais, tendo em mente que
-   elas operam por meios diretos e indiretos (Barker, De Vries & Herdt
-   2006, 08-09). Além disso, o caráter das redes de apoio social deve ser
-   visto como dinâmico, cambiável e processual, sendo influenciado por
-   contextos históricos e socioculturais específicos e variando conforme
-   modulações de múltiplas relações de poder.
+ 
+Na direção de se afastar de concepções moralistas, romantizadas, estáveis e universais para o “
+care
+”, assim como levando em consideração relações de poder dinâmicas e processuais nele envolvidas, 
+Hirata 
+et. al.
+ (2011
+), apontam que o cuidado diria respeito a distintas práticas que variam profundamente em termos históricos e culturais. Já a noção de “redes de apoio social” (
+social support networks
+) costuma ser considerada como intensamente associada ao cuidado. No caso específico de pessoas idosas LGBTI+ (Lésbicas, Gays, Bissexuais, Travestis, Transexuais, Transgêneros, Intersexuais, entre outros sujeitos), a literatura proveniente do campo da “gerontologia LGBT”, por exemplo, aponta um conjunto de especificidades desafiadoras no entrelaçamento de cuidado, redes de apoio social e envelhecimentos (
+Henning 2016a
+, 2017, 2020d). 
 
-   Considerando tais questões, as “famílias do coração” contribuem para
-   mobilizar as ideias de família, cuidado e redes de apoio social para
-   além da pressuposição da consanguinidade, compreendendo relações
-   baseadas em outros fundamentos, sobretudo as noções da amizade,
-   confiança, intimidade e proximidade. Desse modo, as narrativas aqui
-   analisadas apontam que as redes de apoio social baseadas nessas noções,
-   ao contrário do que se poderia supor, eram frequentemente mais seguras,
-   efetivas, confiáveis, fraternais e duradouras ao longo de suas vidas do
-   que as redes fundadas propriamente nas “famílias de sangue”. Em
-   especial, no que diz respeito às práticas e experiências associadas ao
-   cuidado (Henning 2014).
+ 
+Em revisão, grande parte dessa literatura aponta que os envelhecimentos dessa “população”, em termos gerais, possuiriam potenciais particularidades, como uma maior probabilidade de redes de apoio social frágeis e um risco mais expressivo de experimentar solidão e isolamento na velhice, quando comparado à população abrangente (
+Henning 2017
+, 2020d). Essas diferenças ocorreriam, entre outras razões, devido a: 1) Família e filhos: historicamente muitas pessoas LGBTI+ não se casaram ou não tiveram filhos por concretos impedimentos sociais, legais e estatais à parentalidade e conjugalidade, o que tenderia a reduzir a amplitude de suas redes de apoio para o cuidado na velhice. 2) Conflitos com a família de origem: muitas dessas pessoas tiveram relações difíceis ou rompidas com suas famílias de origem devido a discriminações, por exemplo, de fundo homofóbico, lesbofóbico e transfóbico, o que diminuiria o apoio da família de origem ao longo da vida e em especial na velhice. 3) Perdas durante a crise do HIV/Aids: muitas relatam a expressiva perda de companheiros/as, amigos/as e membros da rede de apoio social durante a epidemia de HIV/Aids nos anos 1980 e 1990, fragilizando suas redes de suporte no presente baseadas em “famílias do coração”. 4) Juventude-centrismo e etarismo: parte da comunidade LGBTI+ é descrita pela literatura como valorizando a juventude em detrimento da meia-idade e velhice, o que se uniria a um notório etarismo que desvalorizaria, ridicularizaria e marginalizaria pessoas idosas. 5) Preconceitos e barreiras em serviços de saúde: ao buscar atendimento em serviços de saúde, pessoas LGBTI+ de todas as idades, mas particularmente na meia-idade e velhice, enfrentariam discriminações, moralismos e violências institucionais, o que levaria parte delas a postergar ou mesmo a evitar a busca por auxílio especializado para questões de saúde. Nesse mesmo tópico, é destacada a experiência de estresses, constrangimentos e desgastes sobressalentes envolvidos na necessidade, por vezes, de esconder ou omitir informações sobre expressões e identidades sexuais e de gênero (Henning 2021).
 
-   As “famílias do coração”, porém, ganhavam uma relevância ímpar não
-   apenas por auxiliarem no enfrentamento de potenciais desafios do
-   processo de envelhecimento, mas também de aspectos associados à
-   meia-idade e à velhice. Elas também auxiliariam a mitigar o impacto da
-   estigmatização e da discriminação que essas pessoas experimentaram no
-   decorrer de todas as suas vidas, como pessoas dissidentes, de variadas
-   maneiras, de normas hegemônicas de gênero e sexualidade (Grossman,
-   D’Augelli & Hershberger 2000, 171). O mesmo poderia ser dito quanto às
-   lidas cotidianas, para alguns e algumas interlocutoras, com
-   discriminações e preconceitos de classe, raça, capacitismo ou
-   preconceitos contra pessoas com deficiências, entre outras questões.
+ 
+De fato, tais características puderam ser acessadas em boa parte das narrativas de meus e minhas interlocutoras. Porém não pressuponho, de modo algum, uma noção homogeneizante sobre desafios e realidades enfrentados por eles e elas na meia-idade e velhice. Um exemplo dissonante em meu campo é que a maior parte das mulheres lésbicas e cisgêneras, na meia-idade ou velhice, (especialmente as de classes médias, brancas, que possuíam filhos, netos e/ou relacionamentos longevos), eram narradas como desempenhando um papel importante nas “famílias do coração”, mas não sendo tão “dependentes” assim destas. 
 
-De que "Sangue", nas "Famílias de Sangue", estamos falando?
+ 
+Elas eram frequentemente retratadas como provedoras de cuidado e apoio social, em especial durante a crise do HIV/Aids nas décadas de 1980 e 1990 (
+Henning 2014
+). No entanto, embora fossem, por vezes, essenciais nessas redes de apoio coletivo, elas mesmas raramente narravam essas “famílias do coração” como fundamentais para o seu próprio cuidado no presente ou no futuro. Em vez disso, tendiam a considerar o cuidado como uma responsabilidade prioritária de suas companheiras, de filhos/as, netos/as e outros/as parentes, reforçando uma dinâmica em que eram mais vistas como cuidadoras do que como pessoas que necessitavam de cuidados dentro dessas redes familiares alternativas.
 
-   Assim como debatido por Weston (1991), também esteve presente em minhas
-   investigações o histórico da relação de vários/as interlocutores/as com
-   suas famílias de origem esteve muitas vezes atravessado por narrativas
-   densas, dolorosas e recorrentes sobre conflitos dramáticos, agressões
-   físico-morais, humilhações, progressivo distanciamento ou mesmo
-   expulsão do seio familiar na adolescência, juventude ou até mesmo na
-   própria infância. Nessa direção, Leda, uma senhora travesti de 67 anos,
-   que se definia racialmente como branca, heterossexual, analfabeta, e
-   nascida no interior do Ceará, apresenta boa parte desses dramas sobre
-   sua “família de sangue”.
+ 
+Entretanto, no caso de homens cisgêneros homossexuais e de mulheres trans e travestis, boa parte dos tópicos apresentados acima se aproximava de suas narrativas de experiências. Especialmente para aqueles/as que não possuíam prole ou cônjuge e que se encontravam conectados a redes relativamente diáfanas de apoio social, como pudemos acompanhar nas cenas etnográficas que abrem este artigo. Em alguns desses casos, considerando a relativa inconsistência de tais redes, algumas pessoas se viam diretamente dependentes de formas institucionais que provêm apoio social e cuidados na meia-idade e velhice, como no caso de Bárbara. Em meu campo, este caso pareceu paradigmático no que diz respeito a uma expressiva maior vulnerabilidade de mulheres trans e travestis em termos de redes de apoio e cuidado na velhice quando comparadas, por exemplo, a situação geral de homens cisgêneros homossexuais. Ainda que boa parte destes também narrassem dificuldades e fragilidades significativas em suas redes de apoio social na meia-idade e velhice.
 
-   Ela afirma ter precisado se prostituir desde os 12 anos de idade e
-   continuar a praticar ocasionalmente o trabalho sexual na velhice, pois
-   a bolsa-auxílio de um salário mínimo que recebia da Prefeitura de São
-   Paulo, devido à participação em um programa social, não era o
-   suficiente para a sua sobrevivência. Em suas palavras:
+ 
+Nessa direção, considerando críticas ao “familismo” e a sobrecarga feminina na gestão do cuidado, o cuidado informal e/ou não remunerado, em termos gerais, é apontado como responsabilidade de integrantes das redes de apoio social imediatas, em especial, membros da família de origem e, sobretudo, de mulheres (
+Peixoto 1997
+; 
+Hirata &amp; Guimarães, 2012
+). Uma vez que muitos/as interlocutores/as em meu campo permaneciam com relações rompidas ou as tiveram paralisadas por muitos anos, esse relativo vácuo em termos de redes de apoio social baseadas nas “famílias de sangue” era narrado como suprido, parcial ou integralmente, pelas “famílias do coração”.
 
-     “Eu saí do sertão de Ceará, uma cidade chamada Calabaço, quando eu
-     tinha cinco anos [de idade]. Minha mãe morreu quando eu tinha cinco
-     anos… Ai, é difícil pra mim, sim… [Se emociona]. Daí ninguém me
-     queria, porque eu já era viadinho desde os cinco anos… Minha família
-     mesmo, não me queria, não. Tinha vergonha. Eu tinha 4 irmãos, além
-     de mim. Cadu, eu passei tanta fome na minha vida, mas tanta fome… A
-     fome tem a cara da morte. Eu tive sarampo e ninguém me ajudou em
-     nada [na sua família de origem]. Parece que era pra deixar morrer
-     mesmo. Eu curei meu sarampo sozinha debaixo de um pé de oiticica.
-     Uma árvore que dá um frutinho e dá pra fazer sabão. Saí de lá com 8
-     anos. Fugi à pé. Fui pra casa de um tabelião, nem documentos eu
-     tinha, nem certidão de nascimento, nem nada. Eu servia de burro de
-     carga. Eu que fazia tudo, meio escrava na época. Daí a mulher de um
-     deputado veio na casa de Teresinha, com quem eu morava. E foi daí
-     que a dona Auristela me levou pra Fortaleza com 9 ou 10 anos.
-     Naquela época eles diziam que viado não precisava de documento.
-     Fiquei uns anos na casa de dona Maria Cristina até fugir e fazer a
-     vida na rua. Minhas amigas travestis, mais velhas, na rua que me
-     ensinaram tudo e viraram minha família. Mas quanta fome eu passei…
-     [Se emociona]” [Transcrição relativa a novembro de 2018].
+ 
+Portanto, 
+as redes de apoio social
+ poderiam ser compreendidas como um agregado de agentes variados - indivíduos, grupos, famílias, amigos/as, coletivos, comunidades, organizações, instituições, etc. - que provêem os recursos utilizados para apoiar sujeitos variados ao longo da vida. Recursos esses que envolvem uma infinidade de elementos: atenção, afeição, amparo, socialização, lazer, cuidados, saúde, sexualidade, aprendizagens intra-pares e auxílios genéricos, entre outras questões. Tais redes geralmente atuam, são mobilizadas e se desenvolvem a partir da assunção de necessidades e demandas conjunturais, tendo em mente que elas operam por meios diretos e indiretos (
+Barker, De Vries &amp; Herdt 2006
+, 08-09). Além disso, o caráter das redes de apoio social deve ser visto como dinâmico, cambiável e processual, sendo influenciado por contextos históricos e socioculturais específicos e variando conforme modulações de múltiplas relações de poder.
 
-   A narrativa de Leda, que passou a viver em São Paulo há quase quatro
-   décadas, elabora dolorosamente as memórias de sua infância marcada por
-   privações, violências, abusos, negligências e rejeições, primeiramente
-   por parte de sua família de origem e na sequência por famílias que a
-   exploraram - sem salário - como empregada doméstica, babá e faz-tudo no
-   interior e na capital do Ceará. Sua narrativa ganha outra luz e
-   disposição, porém, quando conta ter fugido da casa do deputado, onde
-   vivia em regime análogo à escravidão e passado a viver nas ruas. É aí
-   que conta ter conhecido suas “amigas travestis mais velhas na rua” as
-   quais, não sem eventuais conflitos e violências, viraram sua “família”,
-   quando era não mais do que uma pré-adolescente.
+ 
+Considerando tais questões, as “famílias do coração” contribuem para mobilizar as ideias de família, cuidado e redes de apoio social para além da pressuposição da consanguinidade, compreendendo relações baseadas em outros fundamentos, sobretudo as noções da 
+amizade
+, 
+confiança
+, 
+intimidade
+ e 
+proximidade
+. Desse modo, as narrativas aqui analisadas apontam que as redes de apoio social baseadas nessas noções, ao contrário do que se poderia supor
+,
+ eram frequentemente mais seguras, efetivas, confiáveis, fraternais e duradouras ao longo de suas vidas do que as redes fundadas propriamente nas “famílias de sangue”. Em especial, no que diz respeito às práticas e experiências associadas ao cuidado (
+Henning 2014
+).
 
-   Sua narrativa também realça parte do argumento deste artigo no que diz
-   respeito ao compartilhamento de certo isolamento e
-   sobre-responsabilização de si própria no autocuidado desde a tenra
-   infância. Algo que a acompanhou, sobretudo com a fragilização
-   progressiva do que restava da sua “família do coração” composta em sua
-   maioria por outras travestis trabalhadoras do sexo. Hoje, na velhice,
-   Leda pondera com melancolia que acredita ser a última remanescente
-   daquela que um dia foi uma rede vibrante e cativante de travestis
-   migrantes de vários pontos do país para “fazer a vida” em São Paulo.
-   Leda não escondia o fato de se sentir estafada e sobrecarregada para
-   lidar, quase sempre sozinha, com seus vários desafios de saúde e de
-   subsistência no cotidiano.
+ 
+As “famílias do coração”, porém, ganhavam uma relevância ímpar não apenas por auxiliarem no enfrentamento de potenciais desafios do processo de envelhecimento, mas também de aspectos associados à meia-idade e à velhice. Elas também auxiliariam a mitigar o impacto da estigmatização e da discriminação que essas pessoas experimentaram no decorrer de todas as suas vidas, como pessoas dissidentes, de variadas maneiras, de normas hegemônicas de gênero e sexualidade (
+Grossman, D’Augelli &amp; Hershberger 2000
+, 171). O mesmo poderia ser dito quanto às lidas cotidianas, para alguns e algumas interlocutoras, com discriminações e preconceitos de classe, raça, capacitismo ou preconceitos contra pessoas com deficiências, entre outras questões. 
 
-   Outra das narrativas sobre “famílias de sangue” - e, nesse caso, a
-   expressão “de sangue” toma uma conotação perversa - pode ser encontrada
-   na fala de Amadeus, 62 anos, professor aposentado, morador do Bairro da
-   Liberdade. Ele também relembra experiências dramáticas no seio familiar
-   de origem:
+ 
+ 
+De que &#34;Sangue&#34;, nas &#34;Famílias de Sangue&#34;, estamos falando?
 
-     “Meu pai batia muito em mim. Mas muito mesmo! Eles morriam de
-     vergonha porque eu sempre fui mais delicado. Naquela época não tinha
-     essas coisas de conselho tutelar, então eles mandavam ver, sentavam
-     o laço mesmo. Era tão pesado que cheguei a quebrar meu braço. Meus
-     irmãos me pegaram dando pros moleques da rua e contaram pro pai. Daí
-     ele pegou um pedaço de pau e veio. Pensei que ía me matar, eu fiz
-     assim [faz o movimento de levantar os braços como quem protege o
-     rosto e a cabeça] e ele quebrou meu braço. A dor foi tão forte que
-     não lembro de mais nada. Lembro de estar com o gesso depois. Acho
-     que ele parou decerto porque pensou que tinha me matado mesmo. Com
-     14 anos [de idade], fui expulso de casa no inverno. Quando penso
-     nessas coisas nem dá pra acreditar tudo o que já passei nessa vida.
-     Fiquei muitos anos sem dar notícia, nem no Natal, nem Páscoa, nada
-     mesmo. Nem um telefonema, nada. Minha família de verdade são os meus
-     amigos, eles são tudo pra mim. Tudo o que eu preciso eu conto com
-     eles, é até mais que família, não sei explicar... A gente se
-     responsabiliza, eles também contam comigo pra tudo.” [Transcrição
-     relativa a março de 2011].
+ 
+Assim como debatido por 
+Weston (1991
+), também esteve presente em minhas investigações o histórico da relação de vários/as interlocutores/as com suas famílias de origem esteve muitas vezes atravessado por narrativas densas, dolorosas e recorrentes sobre conflitos dramáticos, agressões físico-morais, humilhações, progressivo distanciamento ou mesmo expulsão do seio familiar na adolescência, juventude ou até mesmo na própria infância. Nessa direção, Leda, uma senhora travesti de 67 anos, que se definia racialmente como branca, heterossexual, analfabeta, e nascida no interior do Ceará, apresenta boa parte desses dramas sobre sua “família de sangue”.
 
-   As falas de Amadeus e de Leda são significativas, em especial por
-   localizarem com nitidez distintas afetividades investidas nas noções de
-   “família de sangue” e “família de coração”. Sumarizando, a tendência
-   era a de posicionar narrativamente a ambas as “famílias” em oposição:
-   nas “famílias de sangue” repousaria o lócus de conflitos, traumas,
-   violência, intolerância, expulsões, abandonos, vulnerabilidades e
-   ausência de apoio social. Já nas “famílias de coração” estariam pessoas
-   auxiliadoras, tolerantes, compreensivas, apoiadoras, confiáveis, fonte
-   de afeto, aprendizagens e carinho as quais atuariam como fonte efetiva
-   de apoio social e de cuidado ao longo do percurso biográfico.
+ 
+Ela afirma ter precisado se prostituir desde os 12 anos de idade e continuar a praticar ocasionalmente o trabalho sexual na velhice, pois a bolsa-auxílio de um salário mínimo que recebia da Prefeitura de São Paulo, devido à participação em um programa social, não era o suficiente para a sua sobrevivência. Em suas palavras: 
 
-   Portanto, existem densos componentes narrativos que sinalizam mágoas,
-   ressentimentos, negligências, afastamentos, traumas e brutais práticas
-   de violências nas “famílias de sangue”. É digno de nota, porém, que
-   esses componentes dizem respeito, em termos gerais, em especial a
-   pessoas que afirmam serem vistas desde cedo como dissonantes de certas
-   convenções de gênero e sexualidade, como interlocutores/as que apontam
-   serem mais “femininos/as” e “delicados/as” desde a infância.
+ 
 
-E os limites das "famílias do coração"?
+ 
+“Eu saí do sertão de Ceará, uma cidade chamada Calabaço, quando eu tinha cinco anos [de idade]. Minha mãe morreu quando eu tinha cinco anos… Ai, é difícil pra mim, sim… [Se emociona]. 
+Daí ninguém me queria, porque eu já era viadinho desde os cinco anos… Minha família mesmo, não me queria, não. Tinha vergonha.
+ Eu tinha 4 irmãos, além de mim. Cadu, eu passei tanta fome na minha vida, mas tanta fome… A fome tem a cara da morte. Eu tive sarampo e ninguém me ajudou em nada [na sua família de origem]. 
+Parece que era pra deixar morrer mesmo
+. Eu curei meu sarampo sozinha debaixo de um pé de oiticica. Uma árvore que dá um frutinho e dá pra fazer sabão. Saí de lá com 8 anos. Fugi à pé. Fui pra casa de um tabelião, nem documentos eu tinha, nem certidão de nascimento, nem nada. Eu servia de burro de carga. Eu que fazia tudo, meio escrava na época. Daí a mulher de um deputado veio na casa de Teresinha, com quem eu morava. E foi daí que a dona Auristela me levou pra Fortaleza com 9 ou 10 anos. Naquela época eles diziam que 
+viado
+ não precisava de documento. Fiquei uns anos na casa de dona Maria Cristina até fugir e fazer a vida na rua. 
+Minhas amigas travestis, mais velhas, na rua que me ensinaram tudo e viraram minha família.
+ Mas quanta fome eu passei… [Se emociona]” [Transcrição relativa a novembro de 2018].
 
-   Embora as “famílias do coração” e categorias congêneres sejam
-   recorrentemente narradas como em oposição às de “sangue” e tenham um
-   papel, sem dúvida, relevante e recorrente ao longo de meus trabalhos de
-   campos, é preciso relativizar e complexificar brevemente sua incidência
-   e quase onipresença narrativa. Um relato dissidente e que relativiza o
-   papel irrestrito e positivo das redes de apoio social provindas das
-   “famílias do coração” é proporcionado por Francisco, 59 anos, branco,
-   de classe média-baixa, zelador e morador do Bairro da Mooca. De acordo
-   com ele:
+ 
 
-     “Meus amigos significam muito pra mim, são muito importantes na
-     minha vida. Mas todo mundo sabe que quando a coisa aperta, é com a
-     sua família de verdade que você vai contar. Quando eu fiquei doente
-     depois da trombose, meus amigos se afastaram. É claro, eu não podia
-     sair à noite, estava ainda me recuperando. E a depressão não me
-     deixava fazer nada, mesmo que eu quisesse. Passei muita dificuldade.
-     Quando fui despejado, minha mãe já tinha falecido, coitada. E quem
-     cuidou de mim foi minha tia e uma prima, morei com elas vários anos.
-     Nessa hora os amigos de festa sumiram, né? Mas isso é que dá, eu
-     aprendi a selecionar melhor as amizades. Quem sobrou daquela época é
-     amigo pra vida toda. Mas na hora que aperta, eu sei que a gente
-     conta mesmo é com a família [de origem]. Por isso é importante ficar
-     junto da família. Não tem família perfeita, às vezes a gente tem que
-     engolir sapos, mas é assim mesmo.” [Transcrição relativa a outubro
-     de 2011].
+ 
+A narrativa de Leda, que passou a viver em São Paulo há quase quatro décadas, elabora dolorosamente as memórias de sua infância marcada por privações, violências, abusos, negligências e rejeições, primeiramente por parte de sua família de origem e na sequência por famílias que a exploraram - sem salário - como empregada doméstica, babá e faz-tudo no interior e na capital do Ceará. Sua narrativa ganha outra luz e disposição, porém, quando conta ter fugido da casa do deputado, onde vivia em regime análogo à escravidão e passado a viver nas ruas. É aí que conta ter conhecido suas “amigas travestis mais velhas na rua” as quais, não sem eventuais conflitos e violências, viraram sua “família”, quando era não mais do que uma pré-adolescente. 
 
-   Na contramão da tendência geral aqui debatida, Francisco pondera que
-   quando seus problemas de saúde se aprofundaram e se prolongaram, foi em
-   última instância no seio de sua “família de verdade” (referindo-se à
-   família de origem) que ele encontrou uma rede de apoio social para o
-   cuidado garantida e estável. Porém este interlocutor, é preciso
-   realçar, possuía uma trajetória de manutenção de relações com várias
-   pessoas de sua família de origem, o que impactava seus investimentos
-   afetivos ao longo das narrativas e não passara por experiências de
-   violência e miséria, como algumas pessoas narraram até aqui.
+ 
+Sua narrativa também realça parte do argumento deste artigo no que diz respeito ao compartilhamento de certo isolamento e sobre-responsabilização de si própria no autocuidado desde a tenra infância. Algo que a acompanhou, sobretudo com a fragilização progressiva do que restava da sua “família do coração” composta em sua maioria por outras travestis trabalhadoras do sexo. Hoje, na velhice, Leda pondera com melancolia que acredita ser a última remanescente daquela que um dia foi uma rede vibrante e cativante de travestis migrantes de vários pontos do país para “fazer a vida” em São Paulo. Leda não escondia o fato de se sentir estafada e sobrecarregada para lidar, quase sempre sozinha, com seus vários desafios de saúde e de subsistência no cotidiano.
 
-   Ademais, apesar de sua família também ser humilde, ela possuía um nível
-   educacional mais alto e que a distinguia do retratado em alguns relatos
-   analisados em meus campos. Essas questões poderiam influenciar em
-   termos de uma maior aceitação e tolerância no âmbito de sua família de
-   origem, mesmo tendo que “engolir sapos” para tolerar aspectos
-   desagradáveis dessa convivência, como ele mencionou. Nesse caso,
-   questões de classe, nível educacional, estilos de masculinidade, entre
-   vários outros fatores, influenciam essa equação do cuidado e das redes
-   de apoio social de variadas maneiras.
+ 
+Outra das narrativas sobre “famílias de sangue” - e, nesse caso, a expressão “de sangue” toma uma conotação perversa - pode ser encontrada na fala de Amadeus, 62 anos, professor aposentado, morador do Bairro da Liberdade. Ele também relembra experiências dramáticas no seio familiar de origem:
 
-   Outro exemplo de campo que, por sua vez, complexifica e embaça, até
-   certo ponto, a pureza constitutiva entre “famílias de sangue” e
-   “famílias do coração” é o de Alberto, 59 anos, branco, cisgênero, parte
-   de uma família rica do Bairro Higienópolis. Ele relata que perdeu os
-   pais em um acidente durante a adolescência e que foi criado pelos tios
-   e corresponsável pela criação dos irmãos menores. Após terminar a
-   faculdade, ao se assumir homossexual, acabou renegado pela maioria da
-   família de origem:
+ 
 
-     “Eu cheguei um dia, porque não aguentava mais e contei para os meus
-     tios que eu estava namorando outro homem que eles já conheciam. Isso
-     foi logo depois de me formar na faculdade. Foi um rebuliço, um
-     escândalo na família. Todo mundo ficou sabendo em pouco tempo e meus
-     tios ficaram contra mim, tentaram me afastar dos meus irmãos, diziam
-     que eu era uma má influência, foi uma coisa terrível. Minha família
-     sempre foi tradicional, muito conservadora, daquelas quatrocentonas
-     mesmo. E eles conseguiram me afastar dos meus irmãos, menos de uma
-     irmã que estava indo estudar na Europa. Isso salvou a nossa relação,
-     porque ela não ficou tanto na influência deles. Ela foi morar na
-     Espanha e eu comecei a visitá-la todo ano. Quando ela vinha para o
-     Brasil ficava na minha casa e nem dava bola para os nossos tios.
-     Somos muito próximos até hoje. Ela é o que sobrou da minha família.
-     Não tenho mais nenhuma relação com meus outros irmãos, também não
-     quero mais saber. Mas a gente também tem uma tia, a tia Márcia, que
-     eu gosto muito, eu visito sempre que dá e ela me liga quase todo
-     dia. Ela é viúva e sem filhos e gosta muito de mim, meio que me
-     adotou. Ela nunca foi cabecinha fechada feito o resto da família.
-     [Pergunto então com quem ele passa o dia de Natal e Páscoa]. Eu já
-     passei sozinho, não ligo muito pra isso na verdade. Já passei muitas
-     vezes com meus amigos, que são minha outra família. Mas quando tô no
-     Brasil essa minha tia geralmente me convida pra passar com ela. Teve
-     um par de vezes que passamos eu, ela e os meus amigos. Ela já falou
-     que adora eles, que se sente à vontade com gays. Mas no fim do ano
-     eu costumo passar com minha irmã em Madrid. Todo ano eu fico um
-     período com ela. [Pergunto quem costuma cuidar dele se ele
-     eventualmente adoece, quando tem febre ou se sente mal] Depende.
-     Agora eu tenho meu companheiro, ele é muito atencioso, mas essa tia
-     já cuidou de mim no passado, me convidou pra ficar com ela até eu
-     ficar melhor. Mas eu quase nunca fico doente, tenho uma saúde ótima,
-     ainda bem. Eu já tomei conta dela também. Ela está com 73 anos,
-     procuro ficar de olho para ver como ela anda, se tudo anda bem.
-     [Pergunto se os amigos íntimos também já precisaram cuidar dele em
-     alguma ocasião] Se já cuidaram de mim? Não lembro, acho que não...
-     [Reflete por um momento]. Quando eu operei uma hérnia um dos meus
-     amigos ficou comigo uns dias, mas eu melhorei rápido. Eu já cuidei
-     deles também, mas poucas vezes. Coisa de gripe, febre, mas muito
-     raramente. Acho que a gente é saudável, nos cuidamos bastante.
-     [Pergunto então quem ele considera como parte de sua família. Ele
-     reflete um momento e responde:] Acho que minha irmã, minha tia e
-     meus amigos.” [Transcrição relativa a junho de 2010].
+ 
+“Meu pai batia muito em mim. Mas muito mesmo! Eles morriam de vergonha porque eu sempre fui mais delicado. Naquela época não tinha essas coisas de conselho tutelar, então eles mandavam ver, sentavam o laço mesmo. Era tão pesado que cheguei a quebrar meu braço. Meus irmãos me pegaram dando pros moleques da rua e contaram pro pai. Daí ele pegou um pedaço de pau e veio. Pensei que ía me matar, eu fiz assim [faz o movimento de levantar os braços como quem protege o rosto e a cabeça] e ele quebrou meu braço. A dor foi tão forte que não lembro de mais nada. Lembro de estar com o gesso depois. Acho que ele parou decerto porque pensou que tinha me matado mesmo. Com 14 anos [de idade], fui expulso de casa no inverno. Quando penso nessas coisas nem dá pra acreditar tudo o que já passei nessa vida. Fiquei muitos anos sem dar notícia, nem no Natal, nem Páscoa, nada mesmo. Nem um telefonema, nada. 
+Minha família de verdade são os meus amigos, eles são tudo pra mim
+. 
+Tudo o que eu preciso eu conto com eles, é até mais que família, não sei explicar
+... A gente se responsabiliza, eles também contam comigo pra tudo.” [Transcrição relativa a março de 2011].
 
-   Diferentemente de outras pessoas em minhas investigações, Alberto não
-   possuía uma trajetória de ascensão social, pois em termos de classe,
-   ele sempre se manteve uma pessoa integrante de elites econômicas, mesmo
-   após romper relações com a maioria de sua “família de sangue”. Em seu
-   relato, Alberto, que anteriormente havia frisado o caráter crucial de
-   sua rede imediata de amigos em termos de apoio social para o cuidado no
-   decorrer da vida, aponta aqui o papel igualmente relevante que uma tia
-   e uma de suas irmãs cumpriram como fontes constantes de apoio desde
-   antes da revelação da homossexualidade para a família de origem.
+ 
 
-   Interessantemente, como no caso de Alberto e de outros/as
-   interlocutores/as, alguns integrantes das “famílias de sangue” também
-   chegavam a compor o que era visto como a “família de coração”, dado que
-   auxilia a embaralhar, ao menos parcialmente, os limites estritos de
-   cada categoria. Por outro lado, é também apropriado pontuar que embora
-   o constructo narrativo indique que seria nas “famílias de coração” que
-   repousaria o “apoio real”, a tolerância e a afetividade, também nelas
-   existiriam conflitos, inconsistências e fragilidades conjunturais em
-   termos de apoio social efetivo. A solidariedade em seu bojo, por sua
-   vez, não deveria ser compreendida como absoluta e irrestrita, estando
-   submetida a inconsistências e fatores contingentes.
+ 
+As falas de Amadeus e de Leda são significativas, em especial por localizarem com nitidez 
+distintas afetividades
+ investidas nas noções de “família de sangue” e “família de coração”. Sumarizando, a tendência era a de posicionar narrativamente a ambas as “famílias” em oposição: nas “famílias de sangue” repousaria o 
+lócus
+ de conflitos, traumas, violência, intolerância, expulsões, abandonos, vulnerabilidades e ausência de apoio social. Já nas “famílias de coração” estariam pessoas auxiliadoras, tolerantes, compreensivas, apoiadoras, confiáveis, fonte de afeto, aprendizagens e carinho as quais atuariam como fonte efetiva de apoio social e de cuidado ao longo do percurso biográfico. 
 
-   Desse modo, embora é de se supor que a noção de “famílias do coração” e
-   categorias congêneres ainda persistam junto, por exemplo, a homens
-   homossexuais cisgêneros e a mulheres trans e travestis mais jovens,
-   esse conjunto de narrativas aqui analisado pode talvez ser visto como
-   marcado por um recorte etário e geracional específico ou, em outras
-   palavras, o que chamo de uma sensibilidade geracional (Henning 2014).
-   Entre pessoas integrantes, por exemplo, da geração baby boomer, que
-   vivenciaram profundas transformações sociais nos costumes e nas
-   relações de gênero e sexualidade da segunda metade do Século XX até o
-   contemporâneo, suas narrativas sobre intolerância, violências e
-   expulsão do seio das famílias de origem devido a identidades sexuais e
-   de gênero dissidentes tende a se distinguir, em termos gerais, das
-   narrativas de pessoas mais jovens criadas em tempos - em termos muito
-   gerais -, mais abertos e tolerantes. Isso não quer dizer, é claro, que
-   as “famílias do coração” perderiam relevância entre pessoas mais jovens
-   ou que as “famílias de sangue”, para estes, deixariam de produzir
-   relatos dolorosos, discriminatórios e violentos. Suas características,
-   incidência e idiossincrasias geracionais, porém, merecem análises
-   específicas e mais detidas e não suponho que seriam idênticas ao que é
-   narrado e analisado aqui para coortes mais velhas.
+ 
+Portanto, existem densos componentes narrativos que sinalizam mágoas, ressentimentos, negligências, afastamentos, traumas e brutais práticas de violências nas “famílias de sangue”. É digno de nota, porém, que esses componentes dizem respeito, em termos gerais, em especial a pessoas que afirmam serem vistas desde cedo como dissonantes de certas convenções de gênero e sexualidade, como interlocutores/as que apontam serem mais “femininos/as” e “delicados/as” desde a infância.
 
-   Já no que diz respeito à análise das narrativas de homens homossexuais
-   cisgêneros, assim como de mulheres trans e travestis na meia-idade e na
-   velhice (sobretudo para pessoas de extratos mais pobres ou de classes
-   médias-baixas, pouco instruídas, além de possuírem relações frágeis com
-   as famílias de origem), as “famílias do coração” costumavam ganhar uma
-   significância ímpar no que diz respeito a práticas de cuidado e apoio
-   social ao longo de toda a vida e particularmente na meia-idade e
-   velhice. Tal significância narrativa - embora com inconsistências e
-   descontinuidades no contemporâneo - dizia respeito tanto à gestão do
-   cuidado no passado e presente, quanto no planejamento do cuidado no
-   futuro, por exemplo, em uma velhice avançada ou em momentos de
-   convalescença ao longo do tempo.
+ 
+ 
+E os limites das &#34;famílias do coração&#34;?
 
+ 
+Embora as “famílias do coração” e categorias congêneres sejam recorrentemente narradas como em oposição às de “sangue” e tenham um papel, sem dúvida, relevante e recorrente ao longo de meus trabalhos de campos, é preciso relativizar e complexificar brevemente sua incidência e quase onipresença narrativa. Um relato dissidente e que relativiza o papel irrestrito e positivo das redes de apoio social provindas das “famílias do coração” é proporcionado por Francisco, 59 anos, branco, de classe média-baixa, zelador e morador do Bairro da Mooca. De acordo com ele: 
+
+ 
+
+ 
+“Meus amigos significam muito pra mim, são muito importantes na minha vida. 
+Mas todo mundo sabe que quando a coisa aperta, é com a sua família de verdade que você vai contar.
+ Quando eu fiquei doente depois da trombose, meus amigos se afastaram. É claro, eu não podia sair à noite, estava ainda me recuperando. E a depressão não me deixava fazer nada, mesmo que eu quisesse. Passei muita dificuldade. Quando fui despejado, minha mãe já tinha falecido, coitada. E quem cuidou de mim foi minha tia e uma prima, morei com elas vários anos. Nessa hora os amigos de festa sumiram, né? Mas isso é que dá, eu aprendi a selecionar melhor as amizades. Quem sobrou daquela época é amigo pra vida toda. 
+Mas na hora que aperta, eu sei que a gente conta mesmo é com a família
+ [de origem]. Por isso é importante ficar junto da família. Não tem família perfeita, às vezes a gente tem que engolir sapos, mas é assim mesmo.” [Transcrição relativa a outubro de 2011].
+
+ 
+
+ 
+Na contramão da tendência geral aqui debatida, Francisco pondera que quando seus problemas de saúde se aprofundaram e se prolongaram, foi em última instância no seio de sua “família de verdade” (referindo-se à família de origem) que ele encontrou uma rede de apoio social para o cuidado garantida e estável. Porém este interlocutor, é preciso realçar, possuía uma trajetória de manutenção de relações com várias pessoas de sua família de origem, o que impactava seus investimentos afetivos ao longo das narrativas e não passara por experiências de violência e miséria, como algumas pessoas narraram até aqui. 
+
+ 
+Ademais, apesar de sua família também ser humilde, ela possuía um nível educacional mais alto e que a distinguia do retratado em alguns relatos analisados em meus campos. Essas questões poderiam influenciar em termos de uma maior aceitação e tolerância no âmbito de sua família de origem, mesmo tendo que “engolir sapos” para tolerar aspectos desagradáveis dessa convivência, como ele mencionou. Nesse caso, questões de classe, nível educacional, estilos de masculinidade, entre vários outros fatores, influenciam essa equação do cuidado e das redes de apoio social de variadas maneiras.
+
+ 
+Outro exemplo de campo que, por sua vez, complexifica e embaça, até certo ponto, a pureza constitutiva entre “famílias de sangue” e “famílias do coração” é o de Alberto, 59 anos, branco, cisgênero, parte de uma família rica do Bairro Higienópolis. Ele relata que perdeu os pais em um acidente durante a adolescência e que foi criado pelos tios e corresponsável pela criação dos irmãos menores. Após terminar a faculdade, ao se assumir homossexual, acabou renegado pela maioria da família de origem:
+
+ 
+
+ 
+“Eu cheguei um dia, porque não aguentava mais e contei para os meus tios que eu estava namorando outro homem que eles já conheciam. Isso foi logo depois de me formar na faculdade. Foi um rebuliço, um escândalo na família. Todo mundo ficou sabendo em pouco tempo e meus tios ficaram contra mim, tentaram me afastar dos meus irmãos, diziam que eu era uma má influência, foi uma coisa terrível. Minha família sempre foi tradicional, muito conservadora, daquelas quatrocentonas mesmo. E eles conseguiram me afastar dos meus irmãos, menos de uma irmã que estava indo estudar na Europa. Isso salvou a nossa relação, porque ela não ficou tanto na influência deles. Ela foi morar na Espanha e eu comecei a visitá-la todo ano. Quando ela vinha para o Brasil ficava na minha casa e nem dava bola para os nossos tios. Somos muito próximos até hoje. Ela é o que sobrou da minha família. Não tenho mais nenhuma relação com meus outros irmãos, também não quero mais saber. Mas a gente também tem uma tia, a tia Márcia, que eu gosto muito, eu visito sempre que dá e ela me liga quase todo dia. Ela é viúva e sem filhos e gosta muito de mim, meio que me adotou. Ela nunca foi cabecinha fechada feito o resto da família. [Pergunto então com quem ele passa o dia de Natal e Páscoa]. Eu já passei sozinho, não ligo muito pra isso na verdade. Já passei muitas vezes com 
+meus amigos, que são minha outra família
+. Mas quando tô no Brasil essa minha tia geralmente me convida pra passar com ela. Teve um par de vezes que passamos eu, ela e os meus amigos. Ela já falou que adora eles, que se sente à vontade com gays. Mas no fim do ano eu costumo passar com minha irmã em Madrid. Todo ano eu fico um período com ela. [Pergunto quem costuma cuidar dele se ele eventualmente adoece, quando tem febre ou se sente mal] Depende. Agora eu tenho meu companheiro, ele é muito atencioso, mas essa tia já cuidou de mim no passado, me convidou pra ficar com ela até eu ficar melhor. Mas eu quase nunca fico doente, tenho uma saúde ótima, ainda bem. Eu já tomei conta dela também. Ela está com 73 anos, procuro ficar de olho para ver como ela anda, se tudo anda bem. [Pergunto se os amigos íntimos também já precisaram cuidar dele em alguma ocasião] Se já cuidaram de mim? Não lembro, acho que não... [Reflete por um momento]. Quando eu operei uma hérnia um dos meus amigos ficou comigo uns dias, mas eu melhorei rápido. Eu já cuidei deles também, mas poucas vezes. Coisa de gripe, febre, mas muito raramente. Acho que a gente é saudável, nos cuidamos bastante. [Pergunto então quem ele considera como parte de sua família. Ele reflete um momento e responde:] 
+Acho que minha irmã, minha tia e meus amigos.
+” [Transcrição relativa a junho de 2010].
+
+ 
+
+ 
+Diferentemente de outras pessoas em minhas investigações, Alberto não possuía uma trajetória de ascensão social, pois em termos de classe, ele sempre se manteve uma pessoa integrante de elites econômicas, mesmo após romper relações com a maioria de sua “família de sangue”. Em seu relato, Alberto, que anteriormente havia frisado o caráter crucial de sua rede imediata de amigos em termos de apoio social para o cuidado no decorrer da vida, aponta aqui o papel igualmente relevante que uma tia e uma de suas irmãs cumpriram como fontes constantes de apoio desde antes da revelação da homossexualidade para a família de origem. 
+
+ 
+Interessantemente, como no caso de Alberto e de outros/as interlocutores/as, alguns integrantes das “famílias de sangue” também chegavam a compor o que era visto como a “família de coração”, dado que auxilia a embaralhar, ao menos parcialmente, os limites estritos de cada categoria. Por outro lado, é também apropriado pontuar que embora o constructo narrativo indique que seria nas “famílias de coração” que repousaria o “apoio real”, a tolerância e a afetividade, também nelas existiriam conflitos, inconsistências e fragilidades conjunturais em termos de apoio social efetivo. A solidariedade em seu bojo, por sua vez, não deveria ser compreendida como absoluta e irrestrita, estando submetida a inconsistências e fatores contingentes.
+
+ 
+Desse modo, embora é de se supor que a noção de “famílias do coração” e categorias congêneres ainda persistam junto, por exemplo, a homens homossexuais cisgêneros e a mulheres trans e travestis mais jovens, esse conjunto de narrativas aqui analisado pode talvez ser visto como marcado por um recorte etário e geracional específico ou, em outras palavras, o que chamo de uma 
+sensibilidade geracional
+ (
+Henning 2014
+). Entre pessoas integrantes, por exemplo, da geração 
+baby boomer
+, que vivenciaram profundas transformações sociais nos costumes e nas relações de gênero e sexualidade da segunda metade do Século XX até o contemporâneo, suas narrativas sobre intolerância, violências e expulsão do seio das famílias de origem devido a identidades sexuais e de gênero dissidentes tende a se distinguir, em termos gerais, das narrativas de pessoas mais jovens criadas em tempos - em termos muito gerais -, mais abertos e tolerantes. Isso não quer dizer, é claro, que as “famílias do coração” perderiam relevância entre pessoas mais jovens ou que as “famílias de sangue”, para estes, deixariam de produzir relatos dolorosos, discriminatórios e violentos. Suas características, incidência e idiossincrasias geracionais, porém, merecem análises específicas e mais detidas e não suponho que seriam idênticas ao que é narrado e analisado aqui para coortes mais velhas.
+
+ 
+Já no que diz respeito à análise das narrativas de homens homossexuais cisgêneros, assim como de mulheres trans e travestis na meia-idade e na velhice (sobretudo para pessoas de extratos mais pobres ou de classes médias-baixas, pouco instruídas, além de possuírem relações frágeis com as famílias de origem), as “famílias do coração” costumavam ganhar uma significância ímpar no que diz respeito a práticas de cuidado e apoio social ao longo de toda a vida e particularmente na meia-idade e velhice. Tal significância narrativa - embora com inconsistências e descontinuidades no contemporâneo - dizia respeito tanto à gestão do cuidado no passado e presente, quanto no planejamento do cuidado no futuro, por exemplo, em uma velhice avançada ou em momentos de convalescença ao longo do tempo. 
+
+ 
+ 
 Considerações finais
 
-   Tendo apresentado questões relacionadas às redes de apoio social e o
-   cuidado e problematizado as categorias “família de sangue” e “família
-   do coração”, para finalizar o artigo, elaboro algumas questões
-   conclusivas. Ao longo de minhas pesquisas foi muito presente um tipo de
-   relato que realçava a importância das “famílias do coração” para lidar
-   com momentos críticos da vida, como pudemos acompanhar em várias das
-   cenas etnográficas e das narrativas apresentadas e analisadas neste
-   artigo.
+ 
+Tendo apresentado questões relacionadas às redes de apoio social e o cuidado e problematizado as categorias “família de sangue” e “família do coração”, para finalizar o artigo, elaboro algumas questões conclusivas. Ao longo de minhas pesquisas foi muito presente um tipo de relato que realçava a importância das “famílias do coração” para lidar com momentos críticos da vida, como pudemos acompanhar em várias das cenas etnográficas e das narrativas apresentadas e analisadas neste artigo. 
 
-   Porém, por mais que tais narrativas produzissem uma afetividade muito
-   positiva sobre tais famílias, o que me impactou e até mesmo afligiu foi
-   encontrar relatos de pessoas idosas que precisavam lidar - quase que
-   absolutamente sozinhas - com delicados desafios de saúde e com a
-   necessidade de serem cuidadas, mesmo relatando possuírem relações e
-   participações junto às suas “famílias de sangue” e “do coração”. Leda,
-   minha interlocutora travesti de 67 anos, afirmava ter perdido quase
-   toda a sua “família do coração” e, talvez por isso, estava tentando na
-   época em que a entrevistei, com alguma angústia, se reconectar com sua
-   família de origem, seus irmãos e irmãs remanescentes, no interior do
-   Ceará. Inclusive fazendo planos concretos para uma visita à sua
-   família, mesmo sabendo que, segundo ela: “infelizmente é tudo
-   bolsonarista…”, o que a deixava receosa e insegura. Nesse cenário de
-   isolamento e vulnerabilidade, Leda lidava cotidianamente com diabetes,
-   alterações hormonais, problemas articulares e ósseos, era hipertensa e
-   se deslocava com grande dificuldade pela cidade, não apenas por
-   questões de saúde, mas também por ser analfabeta e ganhar muito pouco,
-   o que produzia barreiras e dificuldades sobressalentes em sua vida.
+ 
+Porém, por mais que tais narrativas produzissem uma afetividade muito positiva sobre tais famílias, o que me impactou e até mesmo afligiu foi encontrar relatos de pessoas idosas que precisavam lidar - quase que absolutamente sozinhas - com delicados desafios de saúde e com a necessidade de serem cuidadas, mesmo relatando possuírem relações e participações junto às suas “famílias de sangue” e “do coração”. Leda, minha interlocutora travesti de 67 anos, afirmava ter perdido quase toda a sua “família do coração” e, talvez por isso, estava tentando na época em que a entrevistei, com alguma angústia, se reconectar com sua família de origem, seus irmãos e irmãs remanescentes, no interior do Ceará. Inclusive fazendo planos concretos para uma visita à sua família, mesmo sabendo que, segundo ela: “infelizmente é tudo bolsonarista…”, o que a deixava receosa e insegura. Nesse cenário de isolamento e vulnerabilidade, Leda lidava cotidianamente com diabetes, alterações hormonais, problemas articulares e ósseos, era hipertensa e se deslocava com grande dificuldade pela cidade, não apenas por questões de saúde, mas também por ser analfabeta e ganhar muito pouco, o que produzia barreiras e dificuldades sobressalentes em sua vida. 
 
-   Maurício, por exemplo, que se declarava negro, homossexual e cisgênero,
-   de 61 anos de idade e que vivia com o HIV há quase três décadas quando
-   o conheci, encarava nos últimos anos debilitantes e extenuantes
-   tratamentos médicos contra a leucemia e um câncer de próstata que
-   enfrentava ao mesmo tempo. Ele relatava precisar atravessar sozinho a
-   cidade de São Paulo, por vezes em grande fragilidade e fraqueza, até o
-   hospital onde realizava sua quimioterapia, pois sentia que não podia
-   contar com seus amigos ou com sua família de origem.
+ 
+Maurício, por exemplo, que se declarava negro, homossexual e cisgênero, de 61 anos de idade e que vivia com o HIV há quase três décadas quando o conheci, encarava nos últimos anos debilitantes e extenuantes tratamentos médicos contra a leucemia e um câncer de próstata que enfrentava ao mesmo tempo. Ele relatava precisar atravessar sozinho a cidade de São Paulo, por vezes em grande fragilidade e fraqueza, até o hospital onde realizava sua quimioterapia, pois sentia que não podia contar com seus amigos ou com sua família de origem. 
 
-   Maurício dizia também que não queria “incomodar” e ser um “peso” para
-   amigos/as e para uma sobrinha que vivia na cidade e que eventualmente o
-   auxiliava. Afirmava que sabia que talvez até pudesse contar com uma ou
-   outra pessoa dessas redes, mas que como essas possibilidades eram muito
-   limitadas, ele evitava ao máximo acioná-las, para “não queimar cartas”
-   quando realmente necessitasse delas. Desse modo, a autonomia que ele
-   foi impelido a aprender sobre o autocuidado desde muito jovem - devido
-   a conflitos e tensões com a “família de sangue”: “eu sempre tive que me
-   virar sozinho, sempre foi assim…” - se materializava em sua velhice
-   através do que parecia ser uma espécie de hiper-responsabilização
-   individual sobre o próprio cuidado.
+ 
+Maurício dizia também que não queria “incomodar” e ser um “peso” para amigos/as e para uma sobrinha que vivia na cidade e que eventualmente o auxiliava. Afirmava que sabia que talvez até pudesse contar com uma ou outra pessoa dessas redes, mas que como essas possibilidades eram muito limitadas, ele evitava ao máximo acioná-las, para “não queimar cartas” quando realmente necessitasse delas. Desse modo, a autonomia que ele foi impelido a aprender sobre o autocuidado desde muito jovem - devido a conflitos e tensões com a “família de sangue”: 
+“eu sempre tive que me virar sozinho, sempre foi assim
+…” - se materializava em sua velhice através do que parecia ser uma espécie de hiper-responsabilização individual sobre o próprio cuidado. 
 
-   Esse cenário, afinal de contas, o fragilizava e o vulnerabilizava
-   profunda e arriscadamente. Lembro, por exemplo, dele ter me contado que
-   às vezes, quando voltava para casa da quimioterapia, se locomovendo com
-   dificuldade, com enjoos e exaustão física, tendo que subir escadas no
-   metrô ou nos ônibus, ele se sentia prestes a desmaiar, mas reunia
-   forças e conseguia prosseguir. Maurício se esforçava para realizar o
-   tratamento “sem incomodar ninguém”, tentando manter uma autonomia que
-   ele já sabia que não teria condições de manter por muito tempo. Em suas
-   palavras:
+ 
+Esse cenário, afinal de contas, o fragilizava e o vulnerabilizava profunda e arriscadamente. Lembro, por exemplo, dele ter me contado que às vezes, quando voltava para casa da quimioterapia, se locomovendo com dificuldade, com enjoos e exaustão física, tendo que subir escadas no metrô ou nos ônibus, ele se sentia prestes a desmaiar, mas reunia forças e conseguia prosseguir. Maurício se esforçava para realizar o tratamento “sem incomodar ninguém”, tentando manter uma autonomia que ele já sabia que não teria condições de manter por muito tempo. Em suas palavras: 
 
-     “Com a leucemia e câncer de próstata mais gente ainda se afastou de
-     mim. Tinha uma época que era só eu e meu companheiro, antes da gente
-     se separar. Não dava pra contar com a minha família [de origem] pra
-     nada, nada, nada... Só quando eles acharam que eu iria morrer por
-     causa da leucemia é que a minha tia levou a minha mãe para me
-     visitar, quando ela ainda estava um pouco lúcida. Eu nunca pude
-     contar com a minha família [de origem] pra nada. Não tô falando isso
-     pra parecer coitadinho, não. É que eu dei conta das coisas sozinho
-     mesmo. Porque minha família sempre foi assim... Quer dizer, as
-     minhas sobrinhas ajudam sim, mas só uma vive aqui em São Paulo. Elas
-     ajudam como podem, mas quando meu irmão foi me buscar quando tive
-     alta da leucemia ele disse: ‘ah, isso aí é mais uma batalha que você
-     vai conseguir superar. Você é forte, se vira sozinho.’ Eu sempre fui
-     muito forte e independente, mas essa independência também afastou
-     eles de mim. Eu sei que sou forte, mas isso não quer dizer que não
-     precise de ajuda de vez em quando, né?” [Transcrição relativa a
-     outubro de 2018, trechos presentes também em Henning, 2020b].
+ 
 
-   Esse tipo de relato, em variações e idiossincrasias, tanto entre homens
-   homossexuais quanto entre mulheres trans e travestis, surgiu em
-   diversas ocasiões em minhas investigações. É preciso destacar que, por
-   um lado, entre tais mulheres havia, no geral, uma fragilidade superior
-   em suas redes de apoio em comparação com as desses homens. Por outro
-   lado, a experiência de uma sobrerresponsabilização individual sobre o
-   próprio cuidado era presente em muitas narrativas de ambas as
-   interlocuções.
+ 
+“Com a leucemia e câncer de próstata mais gente ainda se afastou de mim. Tinha uma época que era só eu e meu companheiro, antes da gente se separar. Não dava pra contar com a minha família [de origem] pra nada, nada, nada... Só quando eles acharam que eu iria morrer por causa da leucemia é que a minha tia levou a minha mãe para me visitar, quando ela ainda estava um pouco lúcida. 
+Eu nunca pude contar com a minha família
+ [de origem] 
+pra nada
+. Não tô falando isso pra parecer coitadinho, não. É que eu dei conta das coisas sozinho mesmo. Porque minha família sempre foi assim... Quer dizer, as minhas sobrinhas ajudam sim, mas só uma vive aqui em São Paulo. Elas ajudam como podem, mas quando meu irmão foi me buscar quando tive alta da leucemia ele disse: ‘ah, isso aí é mais uma batalha que você vai conseguir superar. 
+Você é forte, se vira sozinho
+.’ 
+Eu sempre fui muito forte e independente, mas essa independência também afastou eles de mim. Eu sei que sou forte, mas isso não quer dizer que não precise de ajuda de vez em quando, né?
+” [Transcrição relativa a outubro de 2018, trechos presentes também em 
+Henning, 2020b
+].
 
-   Essa tendência, presente desde a infância e ao longo de todo o curso da
-   vida, parecia reforçar uma prática de “se virar”, “lutar pela vida”,
-   “ser forte”, “ser independente” e “não depender de ninguém”, o que se
-   agravava em especial no caso de pessoas mais pobres, sem filhos ou
-   cônjuges, e com nível educacional mais baixo. Essa tentativa de manter
-   na velhice um ethos independente e autônomo no autocuidado e que foi,
-   em muitos casos, imposto a eles e elas desde a infância, contribuía
-   para vulnerabilidades e fragilidades mais expressivas na velhice.
+ 
 
-   A ausência concreta de pessoas de quaisquer redes de apoio social
-   convencionalmente concebidas como apropriadas e disponíveis para o
-   cuidado, assim como a inexistência de um cenário institucional voltado
-   ao cuidado de pessoas idosas e que considere a existência de velhos e
-   velhas que não sejam, a priori, tidos como heterossexuais e/ou
-   cisgêneros/as, também produzia angústias e precariedades existenciais
-   perceptíveis em meu campo. A isso pode ser conectada a necessidade de
-   uma crítica ao panorama cisheteronormativo sobre a velhice, o qual
-   ainda reina no debate público, na formulação de políticas públicas, na
-   produção de leis, em políticas de Estado, assim como em instituições
-   que lidam e gerem o cuidado e a saúde de pessoas idosas (Henning 2016b,
-   2017, 2020b).
+ 
+Esse tipo de relato, em variações e idiossincrasias, tanto entre homens homossexuais quanto entre mulheres trans e travestis, surgiu em diversas ocasiões em minhas investigações. É preciso destacar que, por um lado, entre tais mulheres havia, no geral, uma fragilidade superior em suas redes de apoio em comparação com as desses homens. Por outro lado, a experiência de uma sobrerresponsabilização individual sobre o próprio cuidado era presente em muitas narrativas de ambas as interlocuções. 
 
-   Esse panorama tende a borrar qualquer imagética da velhice que escape à
-   ideia de velhos e velhas cisgêneros/as e heterossexuais do horizonte de
-   produção, avaliação e desenvolvimento de políticas públicas. E, por
-   fim, contribui para ignorar e negligenciar grande parte da pluralidade
-   dos envelhecimentos e velhices contemporâneos, sobretudo em termos de
-   dissidências sexuais e de gênero. Nesse caso, é importante relembrar
-   Bárbara, a senhora travesti idosa cujo caso abre este artigo, quando
-   recordamos que, após meses procurando uma ILPI que a pudesse receber, a
-   equipe da ONG onde ela residia ainda não havia recebido nenhum aceite.
-   Isso sinalizava à equipe uma franca resistência - provavelmente de
-   fundo moralista, transfóbico e, talvez, até religioso - a receber
-   pessoas com seu perfil em tais instituições. Esse conjunto de questões,
-   portanto, tendia a sobrecarregar, isolar, vulnerabilizar e “deixar à
-   própria sorte” tais pessoas, muitas vezes, em momentos delicados e em
-   que mais necessitavam de apoio social e de cuidado na velhice.
+ 
+Essa tendência, presente desde a infância e ao longo de todo o curso da vida, parecia reforçar uma prática de “se virar”, “lutar pela vida”, “ser forte”, “ser independente” e “não depender de ninguém”, o que se agravava em especial no caso de pessoas mais pobres, sem filhos ou cônjuges, e com nível educacional mais baixo. Essa tentativa de manter na velhice um 
+ethos
+ independente e autônomo no autocuidado e que foi, em muitos casos, imposto a eles e elas desde a infância, contribuía para vulnerabilidades e fragilidades mais expressivas na velhice.
 
-   Assim, no que diz respeito à lida concreta com a necessidade de redes
-   de apoio social sólidas para administrar o cuidado no presente, pude
-   constatar que, por vezes, nem as “famílias de sangue” nem as “famílias
-   do coração” provinham o apoio necessário e concreto para certos homens
-   homossexuais cisgêneros, e para a maioria das mulheres trans e
-   travestis na velhice que participaram de minhas pesquisas. Em especial
-   para aqueles e aquelas que eram mais pobres, com menor nível
-   educacional, sem prole ou cônjuge, que viviam com doenças crônicas e
-   com redes de apoio social fragilizadas ou quase inexistentes na
-   maturidade.
+ 
+A ausência concreta de pessoas de quaisquer redes de apoio social convencionalmente concebidas como apropriadas e disponíveis para o cuidado, assim como a inexistência de um cenário institucional voltado ao cuidado de pessoas idosas e que considere a existência de velhos e velhas que não sejam, 
+a priori,
+ tidos como heterossexuais e/ou cisgêneros/as, também produzia angústias e precariedades existenciais perceptíveis em meu campo. A isso pode ser conectada a necessidade de uma crítica ao 
+panorama cisheteronormativo sobre a velhice
+, o qual ainda reina no debate público, na formulação de políticas públicas, na produção de leis, em políticas de Estado, assim como em instituições que lidam e gerem o cuidado e a saúde de pessoas idosas (
+Henning 2016b
+, 2017, 2020b). 
 
-   De certo modo, é compreensível o cenário narrativo extremamente
-   familista entre meus e minhas interlocutoras. Nesse sentido, realço que
-   estamos em uma conjuntura político-cultural na qual o próprio Estatuto
-   da Pessoa Idosa e documentos reguladores do cuidado sequer mencionam,
-   por exemplo, as palavras “sexualidade”, “gênero”, “homossexualidade”,
-   “direitos sexuais”, “travestis”, “pessoas trans”, “pessoas LGBTI” ou
-   “pessoas idosas LGBTI”. Este cenário contribui para um completo
-   apagamento e ignorância de eventuais características, necessidades e
-   demandas particulares de grupos politicamente minorizados em termos de
-   identidades e expressões de gênero e sexualidade na velhice.
+ 
+Esse panorama tende a borrar qualquer imagética da velhice que escape à ideia de velhos e velhas cisgêneros/as e heterossexuais do horizonte de produção, avaliação e desenvolvimento de políticas públicas. E, por fim, contribui para ignorar e negligenciar grande parte da pluralidade dos envelhecimentos e velhices contemporâneos, sobretudo em termos de dissidências sexuais e de gênero. Nesse caso, é importante relembrar Bárbara, a senhora travesti idosa cujo caso abre este artigo, quando recordamos que, após meses procurando uma ILPI que a pudesse receber, a equipe da ONG onde ela residia ainda não havia recebido nenhum aceite. Isso sinalizava à equipe uma franca resistência - provavelmente de fundo moralista, transfóbico e, talvez, até religioso - a receber pessoas com seu perfil em tais instituições. Esse conjunto de questões, portanto, tendia a sobrecarregar, isolar, vulnerabilizar e “deixar à própria sorte” tais pessoas, muitas vezes, em momentos delicados e em que mais necessitavam de apoio social e de cuidado na velhice. 
 
-   Por um lado seria possível apontar que, talvez pela primeira vez na
-   história, vivemos um momento político-cultural que vem produzindo um
-   “orgulho grisalho”, que mobiliza e estimula ativismos e discursos
-   voltados à defesa dos direitos de pessoas idosas LGBTI+ no Brasil e no
-   mundo (Henning 2020d). Por outro lado, será necessário elaborar uma
-   discussão mais aprofundada, crítica e até urgente sobre formas de
-   fomentar, produzir e fortalecer redes de apoio social extrafamiliares
-   para pessoas discriminadas por suas identidades sexuais e de gênero ao
-   longo de toda a vida e, em particular, na velhice. Isso, entre outras
-   questões, auxiliaria a questionar a produção e manutenção de discursos
-   estereotípicos e fundados em teleologias cisheteronormativas que, por
-   exemplo, localizam a velhice de homens gays cisgêneros e de mulheres
-   trans e travestis, como uma espécie de sítio punitivo, um conto
-   preventivo ou mesmo um “não-futuro” (Henning 2016b, 2021).
+ 
+Assim, no que diz respeito à lida concreta com a necessidade de redes de apoio social sólidas para administrar o cuidado no presente, pude constatar que, por vezes, nem as “famílias de sangue” nem as “famílias do coração” provinham o apoio necessário e concreto para certos homens homossexuais cisgêneros, e para a maioria das mulheres trans e travestis na velhice que participaram de minhas pesquisas. Em especial para aqueles e aquelas que eram mais pobres, com menor nível educacional, sem prole ou cônjuge, que viviam com doenças crônicas e com redes de apoio social fragilizadas ou quase inexistentes na maturidade. 
 
-   Por fim, frente a esse conjunto de discussões e análises críticas, é
-   mister fomentar e examinar a produção de novos debates, análises,
-   iniciativas, leis e políticas públicas em âmbito de Estado e junto à
-   sociedade civil, os quais considerem, reconheçam e façam jus à
-   existência desses processos de subjetivação e de novas demandas de
-   populações envelhecidas. Esse processo poderá, quiçá, também contribuir
-   para desafiar e desmantelar limitações discursivas e até auxiliar a
-   transformar e subverter radicalmente as concepções cisheteronormativas
-   que sustentam e entrelaçam familismo, cuidado e redes de apoio social
-   na velhice.
+ 
+De certo modo, é compreensível o cenário narrativo extremamente 
+familista
+ entre meus e minhas interlocutoras. Nesse sentido, realço que estamos em uma conjuntura político-cultural na qual o próprio Estatuto da Pessoa Idosa e documentos reguladores do cuidado sequer mencionam, por exemplo, as palavras “sexualidade”, “gênero”, “homossexualidade”, “direitos sexuais”, “travestis”, “pessoas trans”, “pessoas LGBTI” ou “pessoas idosas LGBTI”. Este cenário contribui para um completo apagamento e ignorância de eventuais características, necessidades e demandas particulares de grupos politicamente minorizados em termos de identidades e expressões de gênero e sexualidade na velhice. 
+
+ 
+Por um lado seria possível apontar que, talvez pela primeira vez na história, vivemos um momento político-cultural que vem produzindo um “orgulho grisalho”, que mobiliza e estimula ativismos e discursos voltados à defesa dos direitos de pessoas idosas LGBTI+ no Brasil e no mundo (
+Henning 2020d
+). Por outro lado, será necessário elaborar uma discussão mais aprofundada, crítica e até urgente sobre formas de fomentar, produzir e fortalecer redes de apoio social extrafamiliares para pessoas discriminadas por suas identidades sexuais e de gênero ao longo de toda a vida e, em particular, na velhice. Isso, entre outras questões, auxiliaria a questionar a produção e manutenção de discursos estereotípicos e fundados em 
+teleologias cisheteronormativas
+ que, por exemplo, localizam a velhice de homens gays cisgêneros e de mulheres trans e travestis, como uma espécie de sítio punitivo, um conto preventivo ou mesmo um “não-futuro” (Henning 2016b, 2021).
+
+ 
+Por fim, frente a esse conjunto de discussões e análises críticas, é mister fomentar e examinar a produção de novos debates, análises, iniciativas, leis e políticas públicas em âmbito de Estado e junto à sociedade civil, os quais considerem, reconheçam e façam jus à existência desses processos de subjetivação e de novas demandas de populações envelhecidas. Esse processo poderá, quiçá, também contribuir para desafiar e desmantelar limitações discursivas e até auxiliar a transformar e subverter radicalmente as concepções cisheteronormativas que sustentam e entrelaçam familismo, cuidado e redes de apoio social na velhice. 
+
+ 
+
+
+
 
 Referências
 
-     * ANTUNES, Pedro Paulo S. 2010. Travestis Envelhecem? Dissertação de
-       Mestrado em Gerontologia, São Paulo, PUC/SP.
-     * Aisengart, Rachel. 2004. Em busca da “boa morte”. Antropologia dos
-       cuidados paliativos. Rio de Janeiro: Garamond / FIOCRUZ.
-     * Akotirene, Carla. 2019. Interseccionalidade. São Paulo: Pólen
-       Livros.
-     * Aultman, B. Lee-Harrison. 2014. Cisgender. Transgender Studies
-       Quarterly 1 (1-2): 61-62.
-     * Bagagli, Beatriz Pagliarini. 2018.“Cisgênero” nos discursos
-       feministas: uma palavra “tão defendida; tão atacada; tão pouco
-       entendida”. Campinas: UNICAMP/IEL/Setor de Publicações.
-     * Barker, J; DE VRIES, B; HERDT, G. 2006. Social support in the lives
-       of Lesbian and Gay men at midlife and later. Sexuality Research &
-       Social Policy. Vol.3. N.2, Pp.1-23.
-     * BRASIL. Estatuto da Pessoa Idosa. Lei n° 10.741 de 1 de outubro de
-       2003. Disponível em:
-       https://www.gov.br/mdh/pt-br/centrais-de-conteudo/pessoa-idosa/esta
-       tuto-da-pessoa-idosa.pdf/@@download/file
-       »
-       https://www.gov.br/mdh/pt-br/centrais-de-conteudo/pessoa-idosa/esta
-       tuto-da-pessoa-idosa.pdf/@@download/file
-     * Britto da Motta, A. 2010. A família multigeracional e seus
-       personagens. Educação e Sociedade, v. 31, n. 1, p. 435-458.
-     * Cardozo, Fernanda. 2009. Das Dimensões da Coragem: sociabilidades,
-       conflitos e moralidades entre travestis em uma cidade no sul do
-       Brasil. Dissertação de Mestrado (Programa de Pós-Graduação em
-       Antropologia Social), Florianópolis: Universidade Federal de Santa
-       Catarina.
-     * Carsten, Janet. 2014. A matéria do parentesco. R@U, 6 (2), jul./dez
-       : 103-118.
-     * Carvalho, Renata. 2025. Uma ode ao traviarcado. P. 31-34. LOPES,
-       Beth; STAVALE, Danilo; et ali. (Org.) Vocabulários. São Paulo:
-       Associação dos Artistas Amigos da Praça. Selo Phedra.
-     * Combahee River Collective, 2019 [1977]. Manifesto do Coletivo
-       Combahee River. PLURAL, Revista do Programa de Pós-Graduação em
-       Sociologia da USP, São Paulo, v.26.1, 2019, p.197-207. [Tradução de
-       Stefania Pereira e Letícia Simões Gomes].
-     * Crenshaw, Kimberlé W. 1991. Mapping the Margins: Intersectionality,
-       Identity Politics, and Violence Against Women of Color. Stanford
-       Law Review 43(6), p. 1241-99.
-     * Debert, Guita. 1999, A Reinvenção da Velhice: Socialização e
-       Processos de Reprivatização do Envelhecimento. São Paulo: EDUSP.
-     * ________; Simões, Julio A. 2006. Envelhecimento e velhice na
-       família contemporânea. In: FREITAS, E. V. et al. (Eds.). 2.ed.
-       Tratado de Geriatria e Gerontologia. Rio de Janeiro: Guanabara
-       Koogan. p. 1366-73.
-     * ________; Brigeiro, Mauro. 2012. Fronteiras de Genero e a
-       Sexualidade na Velhice. Revista Brasileira de Ciências Sociais,
-       Vol. 27 n° 80 outubro.
-     * Engel, Cintia Liara. 2022. Hiperprivatização do cuidado: projetos
-       de cuidado das demências e seus efeitos. Revista Estudos
-       Feministas, Florianópolis, v. 30, n. 3, e79285.
-     * Finch, Aisha. 2022. Introduction. Black feminism and the practice
-       of care. Palimpsest: A Journal on Women, Gender, and the Black
-       International. State University of New York Press, Volume 11, Issue
-       1, pp. 1-41.
-     * Fonseca, Cláudia. 2005. Concepções de família e práticas de
-       intervenção: uma contribuição antropológica. Saúde & Sociedade, v.
-       14, n. 2, p. 50-59, 2005.
-     * ________. 2008. Homoparentalidade: novas luzes sobre o parentesco.
-       Revista Estudos Feministas. Florianópolis, 16(3):424,
-       setembro-dezembro.
-     * Grossman, A; D’AUGELLI,A; HERSHERBERGER, S. 2000. Social support
-       networks of Lesbian, Gay, and Bisexual Adults 60 Years of Age and
-       Older. Journal of Gerontology. Vol.55B. N.3., Pp.171-179.
-     * Heilborn, Maria Luiza; PEIXOTO, Clarice E.; LINS DE BARROS, Myriam.
-       2020. Tensões familiares em tempos de pandemia e confinamento.
-       Cuidadoras familiares. Physis: Revista de Saúde Coletiva, Rio de
-       Janeiro, v. 30(2), e300206.
-     * Henning, Carlos Eduardo. 2014. Paizões, Tiozões, Tias e Cacuras:
-       Envelhecimento, meia-idade, velhice e homoerotismo masculino na
-       cidade de São Paulo. Tese de Doutorado (em Antropologia Social),
-       Campinas: Unicamp.
-       https://repositorio.unicamp.br/Busca/Download?codigoArquivo=494709&
-       tipoMidia=0
-       »
-       https://repositorio.unicamp.br/Busca/Download?codigoArquivo=494709&
-       tipoMidia=0
-     * ________. 2015. Interseccionalidade e pensamento feminista: as
-       contribuições históricas e os debates contemporâneos acerca do
-       entrelaçamento de marcadores sociais da diferença. Mediações,
-       Londrina, v. 20, n. 2, p. 97-128, jul./dez.
-       https://ojs.uel.br/revistas/uel/index.php/mediacoes/article/view/22
-       900/pdf’
-       »
-       https://ojs.uel.br/revistas/uel/index.php/mediacoes/article/view/22
-       900/pdf’
-     * ________. 2016a. Is old age always already heterosexual (and
-       cisgender)?: the LGBT gerontology and the formation of the “LGBT
-       elders”. Vibrant: Virtual Brazilian Anthropology, Brasília, v. 13,
-       n. 1, p. 132-154.
-       https://www.scielo.br/j/vb/a/mMgc7FzzMQN3g5WdmmkGv6c/?format=pdf⟨=e
-       n
-       »
-       https://www.scielo.br/j/vb/a/mMgc7FzzMQN3g5WdmmkGv6c/?format=pdf⟨=e
-       n
-     * ________. 2016b. “Na minha época não tinha escapatória”:
-       teleologias, temporalidades e heteronormatividade. Cadernos Pagu,
-       Campinas, n. 46, p. 341-371, jan./abr.
-       https://www.scielo.br/j/cpa/a/snXgZkZt9N66DSZckMQ5YPF/?format=pdf⟨=
-       pt
-       »
-       https://www.scielo.br/j/cpa/a/snXgZkZt9N66DSZckMQ5YPF/?format=pdf⟨=
-       pt
-     * ________. 2017. Gerontologia LGBT: velhice, gênero, sexualidade e a
-       constituição dos “idosos LGBT”. Horizontes Antropológicos, Porto
-       Alegre, ano 23, n. 47, p. 283-323.
-       https://www.scielo.br/j/ha/a/Mw58qyvVjfSQy7hbmmZqLbm/?format=pdf⟨=p
-       t
-       »
-       https://www.scielo.br/j/ha/a/Mw58qyvVjfSQy7hbmmZqLbm/?format=pdf⟨=p
-       t
-     * ________. 2020a. Las vejeces de personas LGBTI: reflexionando sobre
-       escenarios futuros frente a las ciudades y sociedades que
-       envejecen. SCHENCK, Marcela. Futuro. Miradas Latinoamericanas,
-       Mirada Estratégica. Montevideo.
-       https://montevideo.gub.uy/sites/default/files/biblioteca/7futuro-se
-       rieciudades.pdf
-       »
-       https://montevideo.gub.uy/sites/default/files/biblioteca/7futuro-se
-       rieciudades.pdf
-     * ________. 2020b. O Luxo do Futuro. Idosos LGBT, teleologias
-       heteronormativas e futuros viáveis. Sexualidad, Salud y Sociedad -
-       Revista Latinoamericana, n. 35 - ago. / ago. / aug. Pp.133-158.
-       https://www.scielo.br/j/sess/a/6BV7hwY9pTWB9qdmTHcCczn/?format=pdf⟨
-       =pt
-       »
-       https://www.scielo.br/j/sess/a/6BV7hwY9pTWB9qdmTHcCczn/?format=pdf⟨
-       =pt
-     * ________. 2020c. Ancianos LGBT en Brasil. Los viejos de guerra y
-       sus narrativas sobre batallas, resistencia y vulnerabilidad en
-       tiempos ultraconservadores. Plural. Antropología Desde América
-       Latina y el Caribe. Año 3, No 6. Julio-Diciembre.
-       https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=h
-       ttps://asociacionlatinoamericanadeantropologia.net/revistas/index.p
-       hp/plural/article/download/157/116/289&ved=2ahUKEwiPsob-t_6MAxXqBbk
-       GHRyCPWEQFnoECBYQAQ&usg=AOvVaw3G3CwIOAmdKp7i1v4G3FMn
-       »
-       https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=h
-       ttps://asociacionlatinoamericanadeantropologia.net/revistas/index.p
-       hp/plural/article/download/157/116/289&ved=2ahUKEwiPsob-t_6MAxXqBbk
-       GHRyCPWEQFnoECBYQAQ&usg=AOvVaw3G3CwIOAmdKp7i1v4G3FMn
-     * ________. 2020d. O nascimento do “orgulho grisalho”. Idosos LGBT e
-       batalhas por viabilidades existenciais. FACCHINI, Regina; FRANÇA,
-       Isadora. Direitos em Disputa. LGBTI+, poder e diferença no Brasil
-       contemporâneo. Campinas: Editora da Unicamp, pp. 72-86.
-       https://books.scielo.org/id/f5tt4/07
-       » https://books.scielo.org/id/f5tt4/07
-     * ________. 2020e. Nem no mesmo barco nem nos mesmos mares:
-       gerontocídios, práticas necropolíticas de governo e discursos sobre
-       velhices na pandemia da COVID-19. Cadernos de Campo, São Paulo, v.
-       29, n. 1, p. 150-155.
-       https://www.revistas.usp.br/cadernosdecampo/article/view/170798/161
-       271
-       »
-       https://www.revistas.usp.br/cadernosdecampo/article/view/170798/161
-       271
-     * ________. 2021. A expansão do orgulho grisalho e da gerontologia e
-       geriatria LGBTI+ no Brasil. In: REBELLATO, C.; GOMES, M.; CRENITTE,
-       M. (org.). Introdução às velhices LGBTI+. Rio de Janeiro: Edições
-       SBGG-RJ. p. 170-180. Disponível em:
-       https://aliancalgbti.org.br/wp-content/uploads/2021/07/Livro-Introd
-       ucao-as-velhices-LGBTI.pdf
-       »
-       https://aliancalgbti.org.br/wp-content/uploads/2021/07/Livro-Introd
-       ucao-as-velhices-LGBTI.pdf
-     * ________; Debert, G. G. 2015. Velhice, gênero e sexualidade:
-       revisando debates e apresentando tendências contemporâneas. Mais60
-       - Estudos sobre Envelhecimento, São Paulo, v. 26, n. 63, p. 8-31.
-       https://portal.sescsp.org.br/files/artigo/6504a33a-ddc8-4efd-92e1-c
-       1914a62f088.pdf
-       »
-       https://portal.sescsp.org.br/files/artigo/6504a33a-ddc8-4efd-92e1-c
-       1914a62f088.pdf
-     * Hirano, Luis Felipe Kojima. 2019. Marcadores Sociais das
-       Diferenças: rastreando a construção de um conceito em relação à
-       abordagem interseccional e a associação de categorias. HIRANO, L.
-       F. K.; ACUÑA, M.; FONSECA MACHADO, B. Marcadores Sociais das
-       Diferenças: fluxos, trânsitos e intersecções. Imprensa
-       Universitária: Goiânia.
-     * Hirata, Helena; GUIMARÃES, Nadya. (eds.). 2012. Cuidado e
-       Cuidadoras: As várias faces do trabalho do care. São Paulo: Atlas.
-     * ________; Guimarães, Nadya Araujo; SUGITA, Kurumi. 2011. “Cuidado e
-       cuidadoras: o trabalho do care no Brasil, França e Japão”.
-       Sociologia e Antropologia. Revista do PPGSA/UFRJ, Vol. 1.
-     * Kofes, Suely. 1994. Experiências Sociais, Interpretações
-       Individuais. Histórias de vida, suas possibilidades e limites.
-       Cadernos Pagu, Campinas, n.3, pp. 117-141.
-     * Lorde, Audre. 2017. A Burst of Light: and Other Essays. Mineola,
-       NY: Ixia Press.
-     * Machado, Maria D. C.; LINS DE BARROS, Myriam M. 2009. Gênero,
-       geração e classe: uma discussão sobre as mulheres das camadas
-       médias e populares do Rio de Janeiro. Estudos Feministas, v. 17, n.
-       2.
-     * Maluf, Sonia Weidner. 1999. Antropologia, Narrativas e a Busca de
-       Sentido. Horizontes Antropológicos, Porto Alegre, ano 5, n.12, p.
-       69-82.
-     * Moira, Amara. 2017 O cis pelo trans. Estudos Feministas, 25 (1).
-     * Oliveira, Amanda. 2008. A feminização da velhice e a invisibilidade
-       da violência contra o idoso. Um estudo sobre o atendimento de
-       velhos nas delegacias de polícia. Dissertação (em Antropologia
-       Social). Campinas: Unicamp.
-     * Oliveira, Lorena de. 2017. Travesti envelhece, não vira purpurina!
-       Um olhar interseccional sobre as velhices na experiência de
-       travestis em Belo Horizonte. Dissertação de Mestrado (em
-       Antropologia Social). Belo Horizonte: Universidade Federal de Minas
-       Gerais.
-     * Peixoto, Clarice E. 2004. Aposentadoria: retorno ao trabalho e
-       solidariedade familiar. Peixoto, C. (Org.). Família e
-       Envelhecimento. Rio de Janeiro: FGV.
-     * ________.1997. Histórias de mais de 60 anos. Estudos Feministas, v.
-       5, n. 1.
-     * Piscitelli, Adriana. 2008. Interseccionalidade, categorias de
-       articulação e experiências de migrantes brasileiras. Sociedade e
-       Cultura, v.11, n.2, jul/dez, p. 263-274.
-     * Rosenfelf, D; Bartlam, B; Smith, R. 2012. Out of the Closet and
-       into the Trenches, Gay Male baby boomers, aging, and HIV/AIDS. The
-       Gerontologist Vol. 0, No. 0, 1-9.
-     * Sander, Vanessa; DE OLIVEIRA, Lorena. 2016. Tias e Novinhas.
-       Envelhecimento e relações intergeracionais nas experiências de
-       travestis trabalhadoras sexuais em Belo Horizonte. Revista
-       Sociedade e Cultura, Goiânia, v. 19, n. 2, p. 69-81, jul./dez.
-     * Silva, Hélio. 2019. Travestis, entre o espelho e a rua. Porto
-       Alegre: Zouk.
-     * Siqueira, Monica S. 2009. Arrasando Horrores! Uma etnografia das
-       memórias, formas de sociabilidade e itinerários urbanos de
-       travestis das antigas. Tese de Doutorado em Antropologia
-       Social),Universidade Federal de Santa Catarina, Florianópolis.
-     * ________. 2004. Sou senhora: um estudo antropológico sobre
-       travestis na velhice. Dissertação (Mestrado em Antropologia Social)
-       Universidade Federal de Santa Catarina, Florianópolis.
-     * Strathern, Marilyn. 1995. Necessidade de Pais, Necessidade de Mães.
-       Revista Estudos Feministas. Rio de Janeiro 3 (2), Pp.: 303-329.
-     * Vergueiro, Viviane. 2016. Pensando a cisgeneridade como crítica
-       decolonial. In: Messeder, S.; Castro, M. G.; Moutinho, L. (orgs.).
-       Enlaçando sexualidades: uma tessitura interdisciplinar no reino das
-       sexualidades e das relações de gênero. Salvador: EDUFBA.
-     * Wekker, Gloria. 2006. The Politics of Passion: women’s sexual
-       culture in the Afro-Surinamese diaspora. New York: Columbia
-       University Press.
-     * Weston, Kath. 1991. Families We Choose: Lesbians, Gays, Kinship.
-       New York: Columbia University Press.
 
-     * Declaração de dados:
-       Todos os dados estão disponíveis no texto
 
-     * Editor-chefe:
-       Sergio Carrara
 
-     * Editoras associadas:
-       Regina Facchini e Paula Lacerda
+
+
+ANTUNES, Pedro Paulo S. 2010. Travestis Envelhecem? Dissertação de Mestrado em Gerontologia, São Paulo, PUC/SP.
+
+
+
+
+Aisengart, Rachel. 2004. Em busca da “boa morte”. Antropologia dos cuidados paliativos. Rio de Janeiro: Garamond / FIOCRUZ.
+
+
+
+
+Akotirene, Carla. 2019. Interseccionalidade. São Paulo: Pólen Livros.
+
+
+
+
+Aultman, B. Lee-Harrison. 2014. Cisgender. Transgender Studies Quarterly 1 (1-2): 61-62.
+
+
+
+
+Bagagli, Beatriz Pagliarini. 2018.“Cisgênero” nos discursos feministas: uma palavra “tão defendida; tão atacada; tão pouco entendida”. Campinas: UNICAMP/IEL/Setor de Publicações.
+
+
+
+
+Barker, J; DE VRIES, B; HERDT, G. 2006. Social support in the lives of Lesbian and Gay men at midlife and later. Sexuality Research &amp; Social Policy. Vol.3. N.2, Pp.1-23.
+
+
+
+
+BRASIL. Estatuto da Pessoa Idosa. Lei n° 10.741 de 1 de outubro de 2003. Disponível em: https://www.gov.br/mdh/pt-br/centrais-de-conteudo/pessoa-idosa/estatuto-da-pessoa-idosa.pdf/@@download/file 
+» https://www.gov.br/mdh/pt-br/centrais-de-conteudo/pessoa-idosa/estatuto-da-pessoa-idosa.pdf/@@download/file
+
+
+
+
+
+
+Britto da Motta, A. 2010. A família multigeracional e seus personagens. Educação e Sociedade, v. 31, n. 1, p. 435-458.
+
+
+
+
+Cardozo, Fernanda. 2009. Das Dimensões da Coragem: sociabilidades, conflitos e moralidades entre travestis em uma cidade no sul do Brasil. Dissertação de Mestrado (Programa de Pós-Graduação em Antropologia Social), Florianópolis: Universidade Federal de Santa Catarina.
+
+
+
+
+Carsten, Janet. 2014. A matéria do parentesco. R@U, 6 (2), jul./dez : 103-118.
+
+
+
+
+Carvalho, Renata. 2025. Uma ode ao traviarcado. P. 31-34. LOPES, Beth; STAVALE, Danilo; et ali. (Org.) Vocabulários. São Paulo: Associação dos Artistas Amigos da Praça. Selo Phedra.
+
+
+
+
+Combahee River Collective, 2019 [1977]. Manifesto do Coletivo Combahee River. PLURAL, Revista do Programa de Pós-Graduação em Sociologia da USP, São Paulo, v.26.1, 2019, p.197-207. [Tradução de Stefania Pereira e Letícia Simões Gomes].
+
+
+
+
+Crenshaw, Kimberlé W. 1991. Mapping the Margins: Intersectionality, Identity Politics, and Violence Against Women of Color. Stanford Law Review 43(6), p. 1241-99.
+
+
+
+
+Debert, Guita. 1999, A Reinvenção da Velhice: Socialização e Processos de Reprivatização do Envelhecimento. São Paulo: EDUSP.
+
+
+
+
+________; Simões, Julio A. 2006. Envelhecimento e velhice na família contemporânea. In: FREITAS, E. V. et al. (Eds.). 2.ed. Tratado de Geriatria e Gerontologia. Rio de Janeiro: Guanabara Koogan. p. 1366-73.
+
+
+
+
+________; Brigeiro, Mauro. 2012. Fronteiras de Genero e a Sexualidade na Velhice. Revista Brasileira de Ciências Sociais, Vol. 27 n° 80 outubro.
+
+
+
+
+Engel, Cintia Liara. 2022. Hiperprivatização do cuidado: projetos de cuidado das demências e seus efeitos. Revista Estudos Feministas, Florianópolis, v. 30, n. 3, e79285.
+
+
+
+
+Finch, Aisha. 2022. Introduction. Black feminism and the practice of care. Palimpsest: A Journal on Women, Gender, and the Black International. State University of New York Press, Volume 11, Issue 1, pp. 1-41.
+
+
+
+
+Fonseca, Cláudia. 2005. Concepções de família e práticas de intervenção: uma contribuição antropológica. Saúde &amp; Sociedade, v. 14, n. 2, p. 50-59, 2005.
+
+
+
+
+________. 2008. Homoparentalidade: novas luzes sobre o parentesco. Revista Estudos Feministas. Florianópolis, 16(3):424, setembro-dezembro.
+
+
+
+
+Grossman, A; D’AUGELLI,A; HERSHERBERGER, S. 2000. Social support networks of Lesbian, Gay, and Bisexual Adults 60 Years of Age and Older. Journal of Gerontology. Vol.55B. N.3., Pp.171-179.
+
+
+
+
+Heilborn, Maria Luiza; PEIXOTO, Clarice E.; LINS DE BARROS, Myriam. 2020. Tensões familiares em tempos de pandemia e confinamento. Cuidadoras familiares. Physis: Revista de Saúde Coletiva, Rio de Janeiro, v. 30(2), e300206.
+
+
+
+
+Henning, Carlos Eduardo. 2014. Paizões, Tiozões, Tias e Cacuras: Envelhecimento, meia-idade, velhice e homoerotismo masculino na cidade de São Paulo. Tese de Doutorado (em Antropologia Social), Campinas: Unicamp. https://repositorio.unicamp.br/Busca/Download?codigoArquivo=494709&amp;tipoMidia=0 
+» https://repositorio.unicamp.br/Busca/Download?codigoArquivo=494709&amp;tipoMidia=0
+
+
+
+
+
+
+________. 2015. Interseccionalidade e pensamento feminista: as contribuições históricas e os debates contemporâneos acerca do entrelaçamento de marcadores sociais da diferença. Mediações, Londrina, v. 20, n. 2, p. 97-128, jul./dez. https://ojs.uel.br/revistas/uel/index.php/mediacoes/article/view/22900/pdf’ 
+» https://ojs.uel.br/revistas/uel/index.php/mediacoes/article/view/22900/pdf’
+
+
+
+
+
+
+________. 2016a. Is old age always already heterosexual (and cisgender)?: the LGBT gerontology and the formation of the “LGBT elders”. Vibrant: Virtual Brazilian Anthropology, Brasília, v. 13, n. 1, p. 132-154. https://www.scielo.br/j/vb/a/mMgc7FzzMQN3g5WdmmkGv6c/?format=pdf⟨=en 
+» https://www.scielo.br/j/vb/a/mMgc7FzzMQN3g5WdmmkGv6c/?format=pdf⟨=en
+
+
+
+
+
+
+________. 2016b. “Na minha época não tinha escapatória”: teleologias, temporalidades e heteronormatividade. Cadernos Pagu, Campinas, n. 46, p. 341-371, jan./abr. https://www.scielo.br/j/cpa/a/snXgZkZt9N66DSZckMQ5YPF/?format=pdf⟨=pt 
+» https://www.scielo.br/j/cpa/a/snXgZkZt9N66DSZckMQ5YPF/?format=pdf⟨=pt
+
+
+
+
+
+
+________. 2017. Gerontologia LGBT: velhice, gênero, sexualidade e a constituição dos “idosos LGBT”. Horizontes Antropológicos, Porto Alegre, ano 23, n. 47, p. 283-323. https://www.scielo.br/j/ha/a/Mw58qyvVjfSQy7hbmmZqLbm/?format=pdf⟨=pt 
+» https://www.scielo.br/j/ha/a/Mw58qyvVjfSQy7hbmmZqLbm/?format=pdf⟨=pt
+
+
+
+
+
+
+________. 2020a. Las vejeces de personas LGBTI: reflexionando sobre escenarios futuros frente a las ciudades y sociedades que envejecen. SCHENCK, Marcela. Futuro. Miradas Latinoamericanas, Mirada Estratégica. Montevideo. https://montevideo.gub.uy/sites/default/files/biblioteca/7futuro-serieciudades.pdf 
+» https://montevideo.gub.uy/sites/default/files/biblioteca/7futuro-serieciudades.pdf
+
+
+
+
+
+
+________. 2020b. O Luxo do Futuro. Idosos LGBT, teleologias heteronormativas e futuros viáveis. Sexualidad, Salud y Sociedad - Revista Latinoamericana, n. 35 - ago. / ago. / aug. Pp.133-158. https://www.scielo.br/j/sess/a/6BV7hwY9pTWB9qdmTHcCczn/?format=pdf⟨=pt 
+» https://www.scielo.br/j/sess/a/6BV7hwY9pTWB9qdmTHcCczn/?format=pdf⟨=pt
+
+
+
+
+
+
+________. 2020c. Ancianos LGBT en Brasil. Los viejos de guerra y sus narrativas sobre batallas, resistencia y vulnerabilidad en tiempos ultraconservadores. Plural. Antropología Desde América Latina y el Caribe. Año 3, No 6. Julio-Diciembre. https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://asociacionlatinoamericanadeantropologia.net/revistas/index.php/plural/article/download/157/116/289&amp;ved=2ahUKEwiPsob-t_6MAxXqBbkGHRyCPWEQFnoECBYQAQ&amp;usg=AOvVaw3G3CwIOAmdKp7i1v4G3FMn 
+» https://www.google.com/url?sa=t&amp;source=web&amp;rct=j&amp;opi=89978449&amp;url=https://asociacionlatinoamericanadeantropologia.net/revistas/index.php/plural/article/download/157/116/289&amp;ved=2ahUKEwiPsob-t_6MAxXqBbkGHRyCPWEQFnoECBYQAQ&amp;usg=AOvVaw3G3CwIOAmdKp7i1v4G3FMn
+
+
+
+
+
+
+________. 2020d. O nascimento do “orgulho grisalho”. Idosos LGBT e batalhas por viabilidades existenciais. FACCHINI, Regina; FRANÇA, Isadora. Direitos em Disputa. LGBTI+, poder e diferença no Brasil contemporâneo. Campinas: Editora da Unicamp, pp. 72-86. https://books.scielo.org/id/f5tt4/07 
+» https://books.scielo.org/id/f5tt4/07
+
+
+
+
+
+
+________. 2020e. Nem no mesmo barco nem nos mesmos mares: gerontocídios, práticas necropolíticas de governo e discursos sobre velhices na pandemia da COVID-19. Cadernos de Campo, São Paulo, v. 29, n. 1, p. 150-155. https://www.revistas.usp.br/cadernosdecampo/article/view/170798/161271 
+» https://www.revistas.usp.br/cadernosdecampo/article/view/170798/161271
+
+
+
+
+
+
+________. 2021. A expansão do orgulho grisalho e da gerontologia e geriatria LGBTI+ no Brasil. In: REBELLATO, C.; GOMES, M.; CRENITTE, M. (org.). Introdução às velhices LGBTI+. Rio de Janeiro: Edições SBGG-RJ. p. 170-180. Disponível em: https://aliancalgbti.org.br/wp-content/uploads/2021/07/Livro-Introducao-as-velhices-LGBTI.pdf 
+» https://aliancalgbti.org.br/wp-content/uploads/2021/07/Livro-Introducao-as-velhices-LGBTI.pdf
+
+
+
+
+
+
+________; Debert, G. G. 2015. Velhice, gênero e sexualidade: revisando debates e apresentando tendências contemporâneas. Mais60 - Estudos sobre Envelhecimento, São Paulo, v. 26, n. 63, p. 8-31. https://portal.sescsp.org.br/files/artigo/6504a33a-ddc8-4efd-92e1-c1914a62f088.pdf 
+» https://portal.sescsp.org.br/files/artigo/6504a33a-ddc8-4efd-92e1-c1914a62f088.pdf
+
+
+
+
+
+
+Hirano, Luis Felipe Kojima. 2019. Marcadores Sociais das Diferenças: rastreando a construção de um conceito em relação à abordagem interseccional e a associação de categorias. HIRANO, L. F. K.; ACUÑA, M.; FONSECA MACHADO, B. Marcadores Sociais das Diferenças: fluxos, trânsitos e intersecções. Imprensa Universitária: Goiânia.
+
+
+
+
+Hirata, Helena; GUIMARÃES, Nadya. (eds.). 2012. Cuidado e Cuidadoras: As várias faces do trabalho do care. São Paulo: Atlas.
+
+
+
+
+________; Guimarães, Nadya Araujo; SUGITA, Kurumi. 2011. “Cuidado e cuidadoras: o trabalho do care no Brasil, França e Japão”. Sociologia e Antropologia. Revista do PPGSA/UFRJ, Vol. 1.
+
+
+
+
+Kofes, Suely. 1994. Experiências Sociais, Interpretações Individuais. Histórias de vida, suas possibilidades e limites. Cadernos Pagu, Campinas, n.3, pp. 117-141.
+
+
+
+
+Lorde, Audre. 2017. A Burst of Light: and Other Essays. Mineola, NY: Ixia Press.
+
+
+
+
+Machado, Maria D. C.; LINS DE BARROS, Myriam M. 2009. Gênero, geração e classe: uma discussão sobre as mulheres das camadas médias e populares do Rio de Janeiro. Estudos Feministas, v. 17, n. 2.
+
+
+
+
+Maluf, Sonia Weidner. 1999. Antropologia, Narrativas e a Busca de Sentido. Horizontes Antropológicos, Porto Alegre, ano 5, n.12, p. 69-82.
+
+
+
+
+Moira, Amara. 2017 O cis pelo trans. Estudos Feministas, 25 (1).
+
+
+
+
+Oliveira, Amanda. 2008. A feminização da velhice e a invisibilidade da violência contra o idoso. Um estudo sobre o atendimento de velhos nas delegacias de polícia. Dissertação (em Antropologia Social). Campinas: Unicamp.
+
+
+
+
+Oliveira, Lorena de. 2017. Travesti envelhece, não vira purpurina! Um olhar interseccional sobre as velhices na experiência de travestis em Belo Horizonte. Dissertação de Mestrado (em Antropologia Social). Belo Horizonte: Universidade Federal de Minas Gerais.
+
+
+
+
+Peixoto, Clarice E. 2004. Aposentadoria: retorno ao trabalho e solidariedade familiar. Peixoto, C. (Org.). Família e Envelhecimento. Rio de Janeiro: FGV.
+
+
+
+
+________.1997. Histórias de mais de 60 anos. Estudos Feministas, v. 5, n. 1.
+
+
+
+
+Piscitelli, Adriana. 2008. Interseccionalidade, categorias de articulação e experiências de migrantes brasileiras. Sociedade e Cultura, v.11, n.2, jul/dez, p. 263-274.
+
+
+
+
+Rosenfelf, D; Bartlam, B; Smith, R. 2012. Out of the Closet and into the Trenches, Gay Male baby boomers, aging, and HIV/AIDS. The Gerontologist Vol. 0, No. 0, 1-9.
+
+
+
+
+Sander, Vanessa; DE OLIVEIRA, Lorena. 2016. Tias e Novinhas. Envelhecimento e relações intergeracionais nas experiências de travestis trabalhadoras sexuais em Belo Horizonte. Revista Sociedade e Cultura, Goiânia, v. 19, n. 2, p. 69-81, jul./dez.
+
+
+
+
+Silva, Hélio. 2019. Travestis, entre o espelho e a rua. Porto Alegre: Zouk.
+
+
+
+
+Siqueira, Monica S. 2009. Arrasando Horrores! Uma etnografia das memórias, formas de sociabilidade e itinerários urbanos de travestis das antigas. Tese de Doutorado em Antropologia Social),Universidade Federal de Santa Catarina, Florianópolis.
+
+
+
+
+________. 2004. Sou senhora: um estudo antropológico sobre travestis na velhice. Dissertação (Mestrado em Antropologia Social) Universidade Federal de Santa Catarina, Florianópolis.
+
+
+
+
+Strathern, Marilyn. 1995. Necessidade de Pais, Necessidade de Mães. Revista Estudos Feministas. Rio de Janeiro 3 (2), Pp.: 303-329.
+
+
+
+
+Vergueiro, Viviane. 2016. Pensando a cisgeneridade como crítica decolonial. In: Messeder, S.; Castro, M. G.; Moutinho, L. (orgs.). Enlaçando sexualidades: uma tessitura interdisciplinar no reino das sexualidades e das relações de gênero. Salvador: EDUFBA.
+
+
+
+
+Wekker, Gloria. 2006. The Politics of Passion: women’s sexual culture in the Afro-Surinamese diaspora. New York: Columbia University Press.
+
+
+
+
+Weston, Kath. 1991. Families We Choose: Lesbians, Gays, Kinship. New York: Columbia University Press.
+
+
+
+
+
+
+
+
+
+ 
+Declaração de dados:
+
+ 
+ Todos os dados estão disponíveis no texto
+
+ 
+
+
+
+
+
+ 
+Editor-chefe:
+
+ 
+ Sergio Carrara
+
+ 
+
+
+
+
+
+ 
+Editoras associadas:
+
+ 
+ Regina Facchini e Paula Lacerda
+
+ 
+
 
 Disponibilidade de dados
 
-   Todos os dados estão disponíveis no texto
 
-Datas de Publicação
+ Todos os dados estão disponíveis no texto
 
-     * Publicação nesta coleção
-       03 Nov 2025
-     * Data do Fascículo
-       2025
+
+
+
+Datas de Publicação 
+
+
+
+
+
+
+Publicação nesta coleção
+03 Nov 2025
+
+
+
+
+Data do Fascículo
+2025
+
+
+
+
+
+
+
 
 Histórico
 
-     * Recebido
-       09 Abr 2025
-     * Aceito
-       05 Jul 2025
 
-   Creative Common - by 4.0
-   Este é um artigo publicado em acesso aberto sob uma licença Creative
-   Commons
+
+
+
+
+Recebido
+09 Abr 2025
+
+
+
+
+Aceito
+05 Jul 2025
+
+
+
+
+
+
+
+
+
+
+Este é um artigo publicado em acesso aberto sob uma licença Creative Commons
+
+
+
+
+
+
+
+
+
 
 Autoria
 
-   (BUTTON)
-   person Carlos Eduardo Henning
-   schoolLaboratório de Experimentações Etnográficas e Marcadores Sociais
-   das Diferenças (LEX), Programa de Pós-Graduação em Antropologia Social
-   (PPGAS), Programa de Pós-Graduação em Sociologia (PPGS), Faculdade de
-   Ciências Sociais (FCS), Universidade Federal de Goiás (UFG), Goiânia,
-   Brasil. carloseduardohenning@ufg.brUniversidade Federal de Goiás
-   (UFG)BrasilGoiânia, BrasilLaboratório de Experimentações Etnográficas e
-   Marcadores Sociais das Diferenças (LEX), Programa de Pós-Graduação em
-   Antropologia Social (PPGAS), Programa de Pós-Graduação em Sociologia
-   (PPGS), Faculdade de Ciências Sociais (FCS), Universidade Federal de
-   Goiás (UFG), Goiânia, Brasil. carloseduardohenning@ufg.br
-   0000-0003-2103-2821
 
-   Editor-chefe:
 
-   Sergio Carrara
 
-   Editoras associadas:
 
-   Regina Facchini e Paula Lacerda
 
-SCIMAGO INSTITUTIONS RANKINGS
 
-   (BUTTON)
-   Laboratório de Experimentações Etnográficas e Marcadores Sociais das
-   Diferenças (LEX), Programa de Pós-Graduação em Antropologia Social
-   (PPGAS), Programa de Pós-Graduação em Sociologia (PPGS), Faculdade de
-   Ciências Sociais (FCS), Universidade Federal de Goiás (UFG), Goiânia,
-   Brasil. carloseduardohenning@ufg.brUniversidade Federal de Goiás
-   (UFG)BrasilGoiânia, BrasilLaboratório de Experimentações Etnográficas e
-   Marcadores Sociais das Diferenças (LEX), Programa de Pós-Graduação em
-   Antropologia Social (PPGAS), Programa de Pós-Graduação em Sociologia
-   (PPGS), Faculdade de Ciências Sociais (FCS), Universidade Federal de
-   Goiás (UFG), Goiânia, Brasil. carloseduardohenning@ufg.br
+ .author-card {
+ border-bottom: 1px solid #ccc;
+ padding: 1rem 0;
+ }
+ .author-card:last-child {
+ border-bottom: 0px;
+ }
+ .author-name {
+ font-weight: 600;
+ }
+ .material-icons-outlined {
+ vertical-align: middle;
+ margin-right: 4px;
+ }
+ .orcid-button {
+ padding-left: 2.5rem;
+ }
+ .modal-body {
+ padding-bottom: 3rem;
+ }
+ .orcid-button::before {
+ content: &#34;&#34;;
+ position: absolute;
+ background-image: url(https://ds.scielo.org/img/logo-orcid.svg);
+ background-repeat: no-repeat;
+ background-size: 1.5em auto;
+ background-position: .5em center;
+ display: block;
+ width: 60px;
+ height: 60px;
+ top: -10px;
+ left: 0;
+ }
+ 
+
+
+
+
+
+
+
+
+person
+ Carlos Eduardo Henning 
+
+
+
+
+
+
+school
+Laboratório de Experimentações Etnográficas e Marcadores Sociais das Diferenças (LEX), Programa de Pós-Graduação em Antropologia Social (PPGAS), Programa de Pós-Graduação em Sociologia (PPGS), Faculdade de Ciências Sociais (FCS), Universidade Federal de Goiás (UFG), Goiânia, Brasil. carloseduardohenning@ufg.br
+Universidade Federal de Goiás (UFG)
+Brasil
+Goiânia, Brasil
+Laboratório de Experimentações Etnográficas e Marcadores Sociais das Diferenças (LEX), Programa de Pós-Graduação em Antropologia Social (PPGAS), Programa de Pós-Graduação em Sociologia (PPGS), Faculdade de Ciências Sociais (FCS), Universidade Federal de Goiás (UFG), Goiânia, Brasil. carloseduardohenning@ufg.br
+
+
+
+
+0000-0003-2103-2821
+
+
+
+
+
+
+
+ 
+
+
+Editor-chefe:
+
+ 
+
+
+ Sergio Carrara
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+Editoras associadas:
+
+ 
+
+
+ Regina Facchini e Paula Lacerda
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ SCIMAGO INSTITUTIONS RANKINGS
+ 
+
+
+
+
+
+
+
+
+Laboratório de Experimentações Etnográficas e Marcadores Sociais das Diferenças (LEX), Programa de Pós-Graduação em Antropologia Social (PPGAS), Programa de Pós-Graduação em Sociologia (PPGS), Faculdade de Ciências Sociais (FCS), Universidade Federal de Goiás (UFG), Goiânia, Brasil. carloseduardohenning@ufg.br
+Universidade Federal de Goiás (UFG)
+Brasil
+Goiânia, Brasil
+Laboratório de Experimentações Etnográficas e Marcadores Sociais das Diferenças (LEX), Programa de Pós-Graduação em Antropologia Social (PPGAS), Programa de Pós-Graduação em Sociologia (PPGS), Faculdade de Ciências Sociais (FCS), Universidade Federal de Goiás (UFG), Goiânia, Brasil. carloseduardohenning@ufg.br
+
+
+
+
+
+
+
+
+
 
 Como citar
 
-   (BUTTON)
 
-   ____________________linkcopiar
 
-   vertical_align_top show_chart
-     * more_horiz close
-          + image
-          + translate
-          + link
-          + article
-          + vertical_align_top
-          + file_download
-          + show_chart
-          + image
-          + translate
-          + link
-          + article
 
-   location_on
-   Centro Latino-Americano em Sexualidade e Direitos Humanos
-   (CLAM/IMS/UERJ) R. São Francisco Xavier, 524, 6º andar, Bloco E
-   20550-013 Rio de Janeiro/RJ Brasil, Tel./Fax: (21) 2568-0599 - Rio de
-   Janeiro - RJ - Brazil
-   E-mail: sexualidadsaludysociedad@gmail.com
-   rss_feed Acompanhe os números deste periódico no seu leitor de RSS
 
-Versão para download de PDF
 
-   (BUTTON)
-   PDF
-     * Português
 
-Artigos relacionados
 
-   (BUTTON)
-     * Google
-     * Google Scholar
 
-Versões e tradução automática
 
-   (BUTTON)
-   Versão original do texto
-     * Português
+link
+copiar
 
-   Tradução automática
-     * Google Translator
-     * Microsoft Translator
 
-Como citar
 
-   (BUTTON)
-   RIS
-   BIBTEX
-   Outros formatos de citação e exportação:
-   [Enter references manager format or citation style (e.g., "APA", "AMA",
-    "MLA", "Vancouver")]
 
-   SciELO - Scientific Electronic Library Online
 
-   Rua Dr. Diogo de Faria, 1087 – 9º andar – Vila Clementino 04037-003 São
-   Paulo/SP - Brasil
-   E-mail: scielo@scielo.org
-     *
-     *
-     *
-     *
-     *
 
-   Creative Common - by 4.0
 
-   CAPES CAPES CNPq CNPq FAPESP FAPESP BVS BVS BIREME BIREME FAP-UNIFESP
-   FAP-UNIFESP
-   CAPES CNPq FAPESP BVS BIREME FAP-UNIFESP
+ function currentDate() {
+ var today = new Date();
+ var months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+ today.setTime(today.getTime());
+ return today.getDate() + " " + months[today.getMonth()] + " " + today.getFullYear();
+ }
+ var citation = 'Henning, Carlos Eduardo. Etnografando Famílias de Sangue & Famílias do Coração: Envelhecimento, redes de apoio social e sobre-responsabilização de homens cisgêneros homossexuais e mulheres trans e travestis pela gestão do próprio cuidado. Sexualidad, Salud y Sociedad (Rio de Janeiro) [online]. 2025, n. 41 [Acessado CURRENTDATE], e22310. Disponível em: &lt;https://doi.org/10.1590/1984-6487.sess.2025.41.e22310.a.pt&gt;. Epub 03 Nov 2025. ISSN 1984-6487. https://doi.org/10.1590/1984-6487.sess.2025.41.e22310.a.pt.'.replace('CURRENTDATE', currentDate());
+ document.getElementById('citation').innerHTML = citation;
+ document.getElementById('citationCut').value = citation.replace('&lt;', '<').replace('&gt;', ">");
+ 
 
-   Open Access Leia a Declaração de Acesso Aberto
 
-Métricas
 
-   (BUTTON)
-   SciELO Analytics
-   Dimensions
-   Altmetric
-   Scite_
-   Etnografando Famílias de Sangue &amp; Famílias do Coração:
-   Envelhecimento, redes de apoio social e sobre-responsabilização de
-   homens cisgêneros homossexuais e mulheres trans e travestis pela gestão
-   do próprio cuidado
-   PlumX
 
-   (BUTTON) ×Close
+ 
+ 
+ 
 
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ vertical_align_top
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ show_chart
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+more_horiz
+
+ 
+close
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ image
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ translate
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ link
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ article
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ vertical_align_top
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ file_download
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ show_chart
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ image
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ translate
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ link
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ article
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+location_on
+
+ 
+
+ 
+
+ 
+Centro Latino-Americano em Sexualidade e Direitos Humanos (CLAM/IMS/UERJ)
+
+ 
+ 
+R. São Francisco Xavier, 524, 6º andar, Bloco E 20550-013 Rio de Janeiro/RJ Brasil, Tel./Fax: (21) 2568-0599
+ - 
+ 
+ 
+ 
+Rio de Janeiro
+ -
+ 
+ 
+ 
+RJ
+ -
+ 
+ 
+ 
+Brazil
+ 
+
+ 
+ 
+ 
+ 
+E-mail:
+ sexualidadsaludysociedad@gmail.com
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+rss_feed
+
+ 
+
+ Acompanhe os números deste periódico no seu leitor de RSS
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Versão para download de PDF
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+PDF
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ Português
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Artigos relacionados
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ Google
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ Google Scholar
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Versões e tradução automática
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Versão original do texto
+
+ 
+
+ 
+ 
+ 
+
+ 
+Português
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Tradução automática
+
+ 
+
+ 
+Google Translator
+
+ 
+Microsoft Translator
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ pre {
+ display: block;
+ padding: 9.5px;
+ margin: 0 0 10px;
+ font-size: 11px;
+ line-height: 1;
+ word-break: break-all;
+ word-wrap: break-word;
+ background-color: #f5f5f5;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ white-space: pre-wrap;
+ word-break: break-word; 
+}
+
+
+
+
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ Como citar
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ RIS
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ BIBTEX
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+ 
+Outros formatos de citação e exportação:
+
+ 
+
+ 
+Enter references manager format or citation style (e.g., &#34;APA&#34;, &#34;AMA&#34;, &#34;MLA&#34;, &#34;Vancouver&#34;)
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+
+
+ 
+
+ .scielo__logo-partner{
+ max-height: 50px;
+ max-width: 170px;
+ }
+ .scielo__logo-partner--dark{
+ display:none;
+ }
+ .scielo__theme--dark .scielo__logo-partner--light{
+ display:none;
+ }
+ .scielo__theme--dark .scielo__logo-partner--dark{
+ display:inline-block;
+ }
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ SciELO - Scientific Electronic Library Online
+
+ 
+Rua Dr. Diogo de Faria, 1087 – 9º andar – Vila Clementino 04037-003 São Paulo/SP - Brasil
+
+ E-mail: scielo@scielo.org 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Leia
+ a Declaração de Acesso Aberto
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Métricas
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+SciELO Analytics
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Dimensions
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Altmetric
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Scite_
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Etnografando Famílias de Sangue &amp;amp; Famílias do Coração: Envelhecimento, redes de apoio social e sobre-responsabilização de homens cisgêneros homossexuais e mulheres trans e travestis pela gestão do próprio cuidado
+
+ 
+
+ 
+
+ 
+
+ 
+PlumX
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+×
+Close
+
+ 
 Mensagem
 
-   (BUTTON) ×Close
+ 
 
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+×
+Close
+
+ 
 Mensagem
 
-   Reportar erro
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+Reportar erro
+
+
+ 
+
+ // Variáveis para tradução da barra de acessibilidade 
+ darkMode: "Modo escuro",
+ increaseText: "Aumentar texto",
+ decreaseText: "Diminuir texto",
+ originalText: "Texto original",
+ markerLine: "Marcador",
+ readingLine: "Linha guia",
+ reset: "Redefinir",
+ accessibilityMenu: "Menu de acessibilidade",
+ skipLinkText: "Ir para o conteúdo principal"
+ };
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+
+
+
+ // Add rows article search
+ let addRowBtn = $('.addRowBtn');
+ let placeRow = $('.scielo__dinamic-row');
+ let newFormRow = '<div class="row"><div class="col-12"><hr></div><div class="col-2 col-lg-1 text-end"><button type="button" class="btn btn-danger scielo__btn-with-icon--only"><i class="material-icons-outlined">clear</i></button></div><div class="col-10 col-lg-11"><div class="input-group"><div class="input-group-preppend"><select class="form-select" name="bool[]"><option selected>AND</option><option>OR</option><option>AND NOT</option></select></div><textarea name="q[]" class="form-control" aria-label="With textarea" placeholder="Entre uma ou mais palavras"></textarea><div class="input-group-append"><select class="form-select"><option selected value="todos">Todos os índices</option><option value="ano">Ano</option><option value="autor">Autor</option><option value="financiador">Financiador</option><option value="periodico">Periódico</option><option value="resumo">Resumo</option><option value="titulo">Título</option></select></div></div></div></div>';
+
+ let btnRemoveRow = $('.btn-danger');
+
+ placeRow.append( newFormRow );
+ })
+
+ // Remove as linhas inseridas dinamicamente e as que já estavam lá.
+ $(this).parent().parent().animate({'opacity':0},300).hide(1);
+ })
+
+ });
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ affiliations = {};
+
+ function add_scimago_image(selector, remove_br=true, add_br_after=true, find_div=false){
+ $(selector).each(
+
+ function () {
+
+ if (remove_br){
+ $(this).find("br").remove()
+ }
+ 
+ internal_items = find_div ? $(this).find('div').not(".clearfix") : $(this).not(".clearfix")
+
+ internal_items.each(function () { 
+ self = $(this);
+
+ affiliation_name = $('span:first', self).text();
+ if (affiliation_name){
+ scimago_link = ' <a href="#" target="_blank" class="scimago_link" data-affiliation="' + affiliation_name + '" ><img src="/static/img/scimago.svg" alt=" SCImago image" height="12" data-toggle="tooltip" data-placement="top" title="Link to SCImago Institutions Rankings"></a>';
+ self.append(scimago_link);
+ }
+ });
+
+ if (add_br_after){
+ $(this).after("<br />")
+ }
+
+ });
+
+ }
+
+ add_scimago_image('#ModalScimago .info div')
+ add_scimago_image('.tutors', remove_br=false, add_br_after=false, find_div=true) 
+
+ e.preventDefault();
+
+ affiliation_name = $(this).data("affiliation");
+
+ if (affiliation_name){
+ if (affiliations[affiliation_name]) {
+ } else {
+ $.ajax({
+ type: "GET",
+ async: false,
+ url: "/scimago/query",
+ data: 'q=' + encodeURI(affiliation_name),
+ success: function (data) {
+ if (data) {
+ affiliations[affiliation_name] = 'https://www.scimagoir.com/' + data
+ }else{
+ toastr.options = {
+ positionClass: 'toast-top-center'
+ };
+ toastr.error('Link temporariamente indisponível');
+ }
+ }
+ });
+ }
+ } 
+ });
+
+
+ var howcite_initialized = false;
+
+ $('#ModalHowcite').on('shown.bs.modal', function () {
+
+ if (!howcite_initialized) {
+ initial = {
+ "American Psychological Association": "apa", "Vancouver": "vancouver"
+ }
+
+ $.each(initial, function (key, value) {
+ $.ajax({
+ url: "/citation/zj5PxmgZQyT9fJdHZjRrTFc/?style=" + value,
+ dataType: 'html',
+ delay: 250,
+ async: true
+ })
+ .done(function (html) {
+ $("<span><b>" + key + "</b></span>" + "<pre>" + html + "</pre>").insertBefore($("#select_label"));
+ })
+ });
+ howcite_initialized = true;
+ }
+
+ $(".js-data-example-ajax").select2({
+ ajax: {
+ url: "/citation/list",
+ dataType: 'json',
+ delay: 250,
+ data: function (params) {
+ return {
+ q: params.term, // search term
+ };
+ },
+ processResults: function (data, params) {
+ return {
+ results: data.results
+ };
+ },
+ cache: true
+ },
+ escapeMarkup: function (markup) { return markup; },
+ minimumInputLength: 1,
+ dropdownParent: $('#ModalHowcite')
+ });
+
+ $(document).on('select2:open', () => {
+ document.querySelector('.select2-search__field').focus();
+ });
+
+ $(".js-data-example-ajax").on('select2:select', function (e) {
+ var data = e.params.data;
+
+ $.ajax({
+ url: "/citation/zj5PxmgZQyT9fJdHZjRrTFc/?style=" + data.id,
+ dataType: 'html',
+ delay: 250
+ })
+ .done(function (html) {
+
+ if ($('#citation_text').css('display') == 'none') {
+ $('#citation_text').show()
+ }
+
+ $("#citation_text").html(html);
+
+ })
+ .fail(function () {
+ alert("Erro ao tentar obter esse estilo de citação");
+ })
+
+ });
+ });
+
+
+
+
+
+
+
+ 
+
+
+ // Garante que o valor do campo share_url é a URL corrente.
+
+ //moment.locale('pt_BR');
+
+ //$("#date").text(moment().format("L HH:mm:ss ZZ"));
+
+ 
+
+
+ 
+ 
+
+
+ 
+
+ 
+
+200

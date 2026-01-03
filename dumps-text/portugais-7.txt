@@ -1,506 +1,3816 @@
-   #alternate alternate
 
-   (BUTTON) Menu
-   (BUTTON) Avatar do usuário deslogado ENTRAR
-     * ENTRARSAIR
+ 
+.searchOpener .hide-s {display: none !important;}
 
-   Avatar do usuário logado
-   Usuário
-   OLÁ, Usuário
-   Assine (BUTTON) Buscar
+@media (max-width: 991px) and (orientation: landscape) {
+ .sidebar-sign-search .assinetop {
+ display: none !important;
+ }
+}
 
-   Buscar por conteudo no site
 
-   Busca ____________________ (BUTTON) Buscar Buscar
 
-     * Índice de Destinos
-     * Manual do Viajante
-     * Brasil
-     * Mundo
-     * Hotel
+@media (max-width: 991px) {
+ html {overflow-x: hidden !important;}
+ body, html {padding-bottom:30px;}
+ main &gt; .breaking-news:first-child:first-of-type { padding-top: 32px; }
+}
+body, html { font-size: 10px; font-family: &#34;Roboto&#34;, sans-serif; }
+body.no-scroll { overflow: hidden; }
+a, button, .btn { text-decoration: none; border: none; background: transparent; cursor: pointer; }
+button { font-family: &#34;Roboto&#34;, sans-serif; font-size: 1.4rem; }
+a { color: #AE0F09; }
+p del {text-decoration: line-through;}
+.dark .title a, .darklight .title a { color: inherit; }
+.block-title a { color: #2f2f2f; }
+.dark .block-title a, .darklight .block-title a { color: inherit; }
+ 
+/* ASSUNTOS EM DESTAQUE */
+.hot-topics { font-size: 1.3rem; color: #fff; background: #313131; padding: 10px 0; }
+.hot-topics a { color: inherit; }
+.hot-topics a:not(.btn) { text-decoration: underline; }
+.hot-topics li { display: inline; padding: 0 4.5px; }
+.hot-topics li:first-child, .hot-topics li:last-child { padding: 0; }
+.hot-topics .btn { padding: 4px 8px; border: 1px solid #fff; float: right;margin-top: -5px; }
 
-     * ×
-     * Assine
-     * Já sou assinanteSair
-     * Índice de Destinos
-     * Assine a newsletter
-     * Manual do Viajante
-     * Cruzeiros
-     * Brasil
-     * Mundo
-     * Seleção de Airbnb
-     * Compre seu voo
-     * Reserve hospedagem pelo Booking
-     * Alugue um carro
-     * Faça um seguro viagem
-     * Ideias de Viagem
-          + Ecoturismo
-          + Praias
-          + Trem
-          + Viagens a dois
-          + Viagem com crianças
-          + Mochilão
-          + Acessibilidade
-          + Livros para Viajar
-     * Minha Abril
+/* SIDEBAR SOCIAL */
+.sidebar-social .menu a{width: 30px;height: 30px;display: block;font-size: 0px;background-size: cover;background-repeat: no-repeat;border:none;}
+.sidebar-social .menu a:before{font-family: &#39;icons&#39; !important;speak: never;font-style: normal;font-weight: 400;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;color: #000;font-size: 18px;line-height: 26px;}
+.sidebar-social .menu a[href*=&#34;twitter&#34;]:before, .sidebar-social .menu a[href*=&#34;x.com&#34;]:before { content: &#34;\e917&#34;; }
+.sidebar-social .menu a[href*=&#34;youtube&#34;]:before { content: &#34;\ea9d&#34;; }
+.sidebar-social .menu a[href*=&#34;facebook&#34;]:before { content: &#34;\e914&#34;; }
+.sidebar-social .menu a[href*=&#34;instagram&#34;]:before { content: &#34;\ea92&#34;; }
+.sidebar-social .menu a[href*=&#34;spotify&#34;]:before { content: &#34;\e916&#34;; }
+.sidebar-social .menu a[href*=&#34;linkedin&#34;]:before { content: &#34;\e91b&#34;; }
+.sidebar-social .menu a[href*=&#34;pinterest&#34;]:before, .sidebar-social a[href*=&#34;pin.it&#34;]:before { content: &#34;\e907&#34; }
+.sidebar-social .menu a[href*=&#34;tiktok&#34;]:before { content: &#34;\e906&#34;; }
+.sidebar-social .menu a[href*=&#34;t.me&#34;]:before { content: &#34;\e90a&#34;; font-size: 14px; }
+.sidebar-social .menu a[href*=main]:before{
+ content: url(&#34;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyBjbGFzcz0iZmVhdGhlciBmZWF0aGVyLWFycm93LWRvd24tY2lyY2xlIiBmaWxsPSJub25lIiBoZWlnaHQ9IjI0IiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjIiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIi8+PHBvbHlsaW5lIHBvaW50cz0iOCAxMiAxMiAxNiAxNiAxMiIvPjxsaW5lIHgxPSIxMiIgeDI9IjEyIiB5MT0iOCIgeTI9IjE2Ii8+PC9zdmc+&#34;);
+ 
+}
+.sidebar-social .menu-social-container .menu li a {padding-left: 0 !important; margin: 0;border-left: 0}
+.sidebar-social .menu {float: left;display: flex;z-index: 99;align-items: center;justify-content: left;flex-wrap: wrap;width:100%;margin-top: 0;}
+.sidebar-social .menu li {float:left;}
+.sidebar-social .menu li a {padding: 0 !important; padding-left: 0!important;text-decoration: none;width: 30px;height: 30px;display: block;font-size: 0px;background-size: cover;background-repeat: no-repeat;}
+.sidebar-social .menu li a:hover{background: transparent;}
+.sidebar-social .menu-image-title {font-size: 0;}
 
-   Ícone de fechar alerta de notificações
-   Avatar do usuário logado
-   Usuário
+.sidebarMenu .sidebar-social .menu { justify-content: center;margin-top: 0;}
+.sidebarMenu .sidebar-social .menu li {text-align:center;}
+.sidebarMenu .sidebar-social {margin-bottom: 0;height: 40px;padding-bottom: 12px;margin-top: 8px;display: flex;align-items: center;justify-content: center;width: 100%;}
+.sidebarMenu ul:not(.container, .menu) &gt; .menu-item {border-top: 1px solid #cecece;}
+.sidebarMenu ul:not(.container, .menu) &gt; .menu-item ~.menu-item{border-top: none;}
+.sidebarMenu .assine-btn a{margin-bottom: 10px;}
+.sidebarMenu .userName:not(:empty) {margin-top: 15px;}
+.sidebarMenu &gt; ul &gt; li #logout2 {padding-bottom: 15px !important;}
+.sub-header .sidebar-social {margin-bottom: 0;}
 
-   Usuário
-   email@usuario.com.br
-   CONTA
-   CONTEÚDOS SALVOS
-   Sair
+body.fixed .sub-header .sidebar-social-wrapper {display:none;}
 
-   Matérias
+@media (max-width: 991px) {
+ .hot-topics-user-exp {padding: 0;margin:0;display:none;}
+ .hot-topics-user-exp .container:first-of-type{padding: 0 16px;}
+ .sidebar-social-wrapper {display:none;}
+ .hot-topics-user-exp .container:first-of-type{padding: 0 16px;}
+}
 
+@media (min-width: 992px) and (max-width: 1200px) {
+ .hot-topics-user-exp {padding: 6px 12px;margin:0;}
+}
+
+@media (min-width: 1201px) and (max-width: 1280px) {
+ .hot-topics-user-exp {margin: 0;}
+}
+
+@media (min-width: 992px) {
+ .sidebarMenu .assine-btn a{margin-top: 10px;}
+ .sidebarMenu .sidebar-social { display:none;}
+ .hot-topics, .sub-header { position: relative; }
+}
+
+/* HEADER PRINCIPAL */
+body &gt; header { border-bottom: 1.5px solid rgba(0, 0, 0, 0.17); font-size: 1.5rem; background-color: #FAFAFA; }
+header .main-menu { padding: 12px 0; margin: 12px 0 0; flex-grow: 4; position: relative; text-align: center; font-family: &#34;Source Serif Pro&#34;, serif; font-size: 1.5rem; }
+.main-menu a { color: #000; text-transform: uppercase; }
+.main-menu::before { content: &#34;&#34;; position: absolute; top: -1px; left: -100%; right: -100%; height: 1.5px; background: rgba(0, 0, 0, 0.17); }
+.main-menu li { display: inline; padding: 0 5px; }
+
+.mobile-assine.on {display: none;position: sticky !important;top: 0px;z-index: 99;height: 48px;opacity: 1;}
+
+.mobile-assine {padding: 0;margin-top: 0;opacity: 0;overflow: hidden;height: 0;position: absolute;width: 100%;}
+.single .mobile-assine{margin-bottom: -40px;}
+.mobile-assine span {height: 35px;margin-top: 0;padding: 9px 0;display:block;text-align: center;background: #ffce00;color: #a0251a;font-size: 13px;font-size: 13px;width: 100%;max-width:100vw;font-weight: bold;}
+.fixed .mobile-assine {z-index: 99999;}
+
+.heading-tag { font-size: 0; width: 1px; height: 1px; position: absolute; }
+
+@media (min-width: 992px) {
+ body &gt; header { overflow-x: hidden; }
+}
+
+@media (max-width: 991px) {
+ body section .cards:first-of-type { padding-top: 0; }
+ body section:first-child {padding-top: 40px;}
+ body.tag section:first-child {padding-top: 0;}
+ body section.block:first-of-type {padding-top: 20px;}
+ .sub-header.container:before{ left: 0 !important; right: 0 !important; max-width: 100%;}
+}
+
+/* HEADER PRINCIPAL - FIXADO */
+.fixed .hot-topics { display: none; }
+.fixed .sub-header { position: fixed;z-index: 999990 !important; top: 0; right: 0; left: 0; }
+.fixed .sub-header::before { content: &#34;&#34;; position: absolute; top: 0; bottom: 0; left: -100%; right: -100%; background: #fafafa; z-index: -1; border-bottom: 1.5px solid rgba(0, 0, 0, 0.17); }
+.fixed .brand-logo img, .fixed .brand-logo svg { height: 36px; width:auto; }
+
+.fixed .menu-button { order: 1; }
+.fixed .brand-logo { order: 2; }
+.fixed .main-menu { order: 3; margin: 0; padding: 0; position: static; }
+.fixed .search-area { order: 4; }
+
+@media (min-width: 992px) {
+ .fixed .menu-button { width: 3% }
+ .fixed .brand-logo { width: 101px }
+ .fixed .main-menu { width: calc(60% - 120px); }
+ .fixed .search-area { width: 20% }
+ .fixed .sub-header .icon + span { display: none; }
+ body:not(.fixed) header .sub-header {padding-top: 10px;}
+}
+
+
+/* SUB-HEADER */ 
+header .sub-header {text-transform: uppercase; font-size: 1.4rem; position: relative; background-color: #FAFAFA; }
+body:not(.new-exp-logada) header .sub-header { padding-top: 6px; padding-bottom: 6px;}
+.sub-header .row { align-items: center;justify-content: space-between;}
+.sub-header .icon { vertical-align: middle; font-size: 2rem; position: relative;}
+.sub-header .icon:first-child { padding-right: 5px; }
+.menuOpener { font-size: 1.4rem; text-transform: uppercase;display: flex;align-items: center; }
+.brand-logo { text-align: center; }
+.brand-logo img, .brand-logo svg { max-width: 105px; }
+.menu-button {height: 23px; text-align: left;
+ position: static;
+ z-index: 9999;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: left;
+ align-items: center;}
+
+@media (max-width: 991px) {
+ .sub-header img { max-width: 85px; }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+ .fixed .search-area { width: 25% !important }
+ .fixed .main-menu, .fixed .brand-logo {width: 50% !important;margin-left: 21%;}
+ .fixed .sub-header .icon + span { display: none; }
+ .hide-s {display: none !important;}
+}
+
+/* PESQUISA NO HEADER */
+.sub-header .search-area { text-align: right; position: static;z-index:9999;display: flex;flex-direction: row;flex-wrap: wrap;justify-content: right;align-items: center; }
+.sub-header .search-area a { margin-right: 15px; display: none; pointer-events:none;}
+.exp-logado.fixed .sub-header .search-area {margin-top: 0 !important; top: 0;}
+.sub-header .search-area button { text-transform: uppercase; }
+.sub-header .search-area input { width: 100%; height: 35px; padding: 0 35px 0 15px; border: 1px solid rgba(0, 0, 0, 0.17); font-size: 16px!important; -webkit-transition: font-size .25s ease; }
+.sub-header .search-area input:focus { font-size: 16px !important; }
+.sub-header .search-area form button { border: 0; padding: 0; position: absolute; top: 11px; right: 0; background: #ae0f09; color: white; padding: 0 12px; font-weight: 300;text-transform: capitalize; top: 10px; right: 20px; bottom: 10px;}
+.sub-header .search-area form { z-index: 9; position: absolute; overflow-x: hidden; height: 0; width: 100%; padding: 0 20px; background: white; border: 0px solid transparent; top: 100%; left: 0; right: 0; transition: .3s ease;}
+.searchOpen .sub-header .search-area form { height: 57px; padding: 10px 20px; border: 1px solid #ccc; }
+.searchOpen .sub-header .search-area {z-index: 9999999;}
+.fixed .sub-header .search-area form {margin: -10px 0;}
+
+@media (min-width: 992px) {
+ .sub-header .search-area form { opacity: 0; top: 19px;left:5px; }
+ .sub-header .search-area form button { color: #000; padding: 0; background: transparent; top: 7px; right: 7px; }
+ .sub-header .search-area form, .searchOpen .sub-header .search-area form { left: auto; padding: 0; border: 0; height: auto; width: 0; }
+ .searchOpen .sub-header .search-area form { width: 220px; opacity: 1;top:17px;right: -10px;}
+ .fixed .searchOpen .sub-header .search-area form {top:6px;right:3px;}
+}
+
+body.paywall-theme-dark .mobile-assine span{background: #000;color: #FFF;font-weight: bold;text-decoration: underline; line-height:17px;}
+
+@media ( min-width: 992px) {
+ body:not(.fixed) &gt; header .hot-topics-user-exp .hot-topics.hide-s {min-width: 900px;min-height: 15px;}
+ body:not(.fixed) header .sub-header{min-height:115px;min-width:115px; padding-bottom: 0}
+ body:not(.fixed).new-exp-logada .search-area {min-height: 5px;}
+ body:not(.fixed) .hot-topics, .sub-header {min-width: 835px;}
+}
+
+ 
+
+ 
+
+ 
+
+ 
+/* TOP MENU &amp; HEADER */
+header * { font-family: &#39;Montserrat&#39;, sans-serif; }
+
+a { color: #5f9073; }
+
+aside.sidebarMenu &gt; ul &gt; li &gt; a &gt; svg { width: 100%; max-width: 100%; display: block;max-height: 26px;}
+body &gt; header, header .sub-header { background: none; }
+body &gt; header { background-position:center center; background-size:cover; background-repeat:no-repeat;
+}
+
+/* TOP MENU */
+.menuOpener {font-family: &#34;Montserrat&#34;;font-size: 16px;text-transform: uppercase;font-weight: 500;}
+header .main-menu{margin: 24px 0 0; }
+body:not(.fixed) .main-menu ul.menu::before { content: &#34; &#34;; position: absolute; top: 0; left: -100%; right: -100%; bottom: 0; background: #5F9073; }
+
+body:not(.fixed) .sidebar-sign-search a.assinetop {
+ background:#6E9D81;
+ color:#FFFFFF;
+ padding: 5px 10px 5px 10px;
+}
+
+
+body.fixed .sidebar-sign-search a.assinetop {
+ background:#6E9D81;
+ color:#FFFFFF;
+ padding: 0px 15px 0px 15px;
+}
+
+
+/* MENU LATERAL */
+.sidebarMenu&gt;ul{overflow-x: hidden;}
+.sidebarMenu &gt; ul li.menu-item-has-children ul{background: #FFF;}
+.sidebarMenu &gt; ul li {padding: 0 8px; }
+.sidebarMenu &gt; ul &gt; li &gt; a { border-bottom: 1px solid rgba(0, 0, 0, 1); }
+.sidebarMenu &gt; ul &gt; li { border-bottom:none; }
+.sidebarMenu &gt; ul &gt; li:first-child { border: none; margin: 0; border-bottom: 1px solid rgba(0, 0, 0, 1);}
+.sidebarMenu &gt; ul &gt; li.assine-btn { margin-bottom: 8px; }
+.sidebarMenu .fixed-logo {display: none;}
+.sidebarMenu .menu-item a {font-size: 18px;font-weight: bold;}
+.sidebarMenu &gt; ul &gt; li.assine-btn a, .sidebarMenu .assinante, .sidebarMenu .fixed-logo {display: none;}
+.sidebarMenu ul li .sub-menu a {font-size: 16px;font-weight: normal;color: #000;}
+.sidebarMenu &gt; ul li.menu-item-has-children.active &gt; a { font-weight: 700;}
+
+/* Menu Lateral */
+.sidebarMenu &gt; ul li {padding: 0px;}
+.sidebarMenu ul li .sub-menu a, .sidebarMenu .menu-item a, .sidebarMenu &gt; ul li.menu-item-has-children.active &gt; a {font-weight: 400;}
+header * {font-family: &#39;Jost&#39;;}
+.sidebarMenu ul li a {text-transform: initial;}
+.sidebarMenu ul.sub-menu li a {font-size: 18px;padding-left: 34px;}
+.sidebarMenu &gt; ul &gt; li &gt; a, .sidebarMenu ul.sub-menu li a, .sidebarMenu &gt; ul &gt; li:first-child {border-color: #6E9D81;}
+aside.sidebarMenu &gt; ul &gt; li &gt; a &gt; svg {max-height: 46px;}
+.sidebarMenu &gt; ul &gt; li:first-child a {margin-left: -20px;padding-bottom: 0px;padding-left: 0px;padding-top: 12px;}
+.sidebarMenu .menuCloser {font-size: 30px;font-weight: 300;line-height: 30px;padding-right: 8px;padding-top: 16px;}
+.sidebarMenu &gt; ul li.menu-item-has-children &gt; a::before ,.sidebarMenu &gt; ul li.menu-item-has-children.active &gt; a::before {border-left: 2px solid #6E9D81;border-top: 2px solid #6E9D81;top: 27px;}
+.sidebarMenu &gt; ul li.menu-item-has-children &gt; a::before {top: 23px;}
+.sidebarMenu &gt; ul &gt; li.assine-btn a, .sidebarMenu &gt; ul &gt; li.assine-btn a:hover {display: block;background: #6E9D81;text-transform: uppercase;}
+.sidebarMenu #GABRILa64949181231miv_Viagem &gt; * {fill: #6E9D81;}
+
+.sidebarMenu ul:not(.container, .menu) &gt; .menu-item{border-color: #6E9D81;}
+
+/* COLOR REDES SOCIAL */
+.f-social a[href*=facebook]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/facebook.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/facebook.svg); }
+.f-social a[href*=twitter]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/twitter.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/twitter.svg); mask-repeat: no-repeat; mask-position: center;}
+.f-social a[href*=youtube]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/youtube.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/youtube.svg); }
+.f-social a[href*=instagram]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/instagram.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/instagrams.svg); }
+.f-social a[href*=spotify]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/spotify.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/spotify.svg); }
+.main-menu li:last-child:after {display: none;}
+.main-menu .menu li {margin: 0 5px;vertical-align: -webkit-baseline-middle;}
+body &gt; header { border-bottom: none; }
+.brand-logo { padding: 8px 12px; }
+body:not(.fixed) .brand-logo { padding: 14px 12px 8px; }
+.brand-logo img {max-width: 485px;}
+.fixed .brand-logo img, .fixed .brand-logo svg {max-width: 100%;}
+header .main-menu { padding: 0; }
+.main-menu::before { height: 1px; background: rgba(0, 0, 0, 0);}
+.main-menu .menu { border-top: 1px solid rgb(0,0,0); border-bottom: 1px solid rgb(0,0,0); padding: 8px 0 4px 0; height: 45px; width: calc(100% - 32px); margin: 0 auto; }
+.fixed .main-menu .menu { border: none; }
+.main-menu .menu span { font-size: 17px; font-weight: 400; }
+.main-menu .menu li { transition: all 0.5s ease; margin: 0 16px; padding: 8px 0; display: inline-block; position: relative; }
+.fixed .main-menu .menu li { margin: 0 16px; }
+.main-menu .menu li:nth-child(n+2) a::before {content: &#34;•&#34;; position: absolute; left: -20px;}
+.fixed .main-menu .menu li:nth-child(n+2) a::before { left: -23px;}
+.fixed-logo, .fixed .sidebarMenu .fixed-logo {display: none;}
+
+/* HOVER MENU */
+.main-menu .menu-item a:hover:after {content: &#39;&#39;;position: absolute;bottom: -7px;height: 5px;left: 0;right: 0;}
+.main-menu a {position: relative;}
+.main-menu a:after {content: &#39;&#39;;height: 0;transition: .3s ease all;}
+
+/* MENU FIXED */
+.main-menu a{font-size: 17px;}
+.main-menu::before{display: none}
+.fixed .menu-sociais-container .menu{border: none;}
+.fixed .sub-header::before{background: #5F9073;}
+.fixed .main-menu a {color: #FFF;}
+.fixed .main-menu li:after {color:#FFF;}
+.fixed .fixed-logo {display: block; fill: #FFF;}
+.fixed .brand-logo { width: 124px; padding: 0px 8px 6px; }
+.fixed .brand-logo img, .fixed .brand-logo svg {height: 42px;}
+.fixed .main-menu.hide-s {border: none;margin: 0;width: auto;}
+.fixed .f-social a[href*=facebook],footer .f-social a[href*=facebook]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/facebook.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/facebook.svg);background: #FFF;}
+.fixed .f-social a[href*=twitter],footer .f-social a[href*=twitter]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/twitter.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/twitter.svg);background: #FFF;}
+.fixed .f-social a[href*=youtube],footer .f-social a[href*=youtube]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/youtube.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/youtube.svg);background: #FFF;}
+.fixed .f-social a[href*=instagram],footer .f-social a[href*=instagram]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/instagram.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/instagram.svg);background: #FFF;}
+.fixed .f-social a[href*=spotify],footer .f-social a[href*=spotify]{-webkit-mask-image: url(/wp-content/themes/abril-master2/assets/img/spotify.svg);mask-image: url(/wp-content/themes/abril-master2/assets/img/spotify.svg);background: #FFF;}
+.fixed .searchOpener .hide-s {display: none;}
+.fixed .sub-header .search-area {width: auto;}
+.fixed .sub-header .search-area form {margin: -3px 0;}
+.fixed .sub-header .icon {color: #FFF;}
+.fixed .sub-header .icon.search {top: -1px;font-size: 17px;}
+
+/* BUSCA */
+.after-form-header { margin: 24px 4px 0 4px; height: 60px; }
+.after-form-header input { font: 400 16px/18px &#39;Montserrat&#39;, sans-serif; }
+.after-form-header button .search {position: absolute;top: 23%;right: 0;margin-right: 40px;font-size: 29px;}
+.after-form-header form input::placeholder {color: black;font-size: 16px;}
+.after-form-header form input { width: 100%; border: 1px solid; padding: 12px 24px 10px 24px; font-size: 16px; height: 60px; }
+
+.block.tres-destaques .description
+{ font-family: &#39;Lato&#39;, sans-serif !important;}
+
+/* BUSCA SEARCH BOX */
+.cpt_searchbox .container { padding: 32px; border: 1px solid #6E9D81; }
+.cpt_searchbox .close { color: #9D9D9C; right: 14px; top: 14px; width: 24px; height: 24px; font: 400 20px/20px &#34;Montserrat&#34;, Serif; text-indent: -9999px; background: transparent url(inc/images/close-24px.png) center center no-repeat; }
+.cpt_searchbox .list .item .main { font: 400 23px/32px &#39;Jost&#39;, sans-serif; color: #6E9D81; }
+.cpt_searchbox .list .item .sec { font: 400 18px/32px &#39;Jost&#39;, sans-serif; color: #9D9D9C; }
+.cpt_searchbox .action { font: 500 14px/20px &#39;Jost&#39;, sans-serif; margin: 8px auto 0 auto; width: 300px; height: 40px; text-align: center; padding: 9px 29px; text-transform: uppercase; }
+.cpt_searchbox .list .item a { display: block; }
+.cpt_searchbox .list .item { flex-grow: 1; flex-grow: 0; flex-shrink: 0; flex-basis: 25%; padding: 0 0 16px 0;}
+
+@media(max-width:991px) {
+ /* TOP MENU */
+ html { overflow-x: hidden;}
+ body.single { width: 100vw; overflow-x: hidden; }
+ header .sub-header { padding-top: 0; box-shadow: 0 0 1px #777; height: 80px; padding: 0 8px; }
+ .fixed header .sub-header { height: auto;}
+ .fixed .brand-logo { width: calc(80% - 32px); padding: 8px 12px 8px 24px; }
+ .brand-logo img, .brand-logo svg {max-width: 100%;padding: 0;margin-left: -5px;}
+ .brand-logo { padding: 0 12px; }
+ .after-form-header .hide-l{display: none;}
+ .after-form-header form input {height: 42px;padding: 12px 24px 10px 10px;}
+ .icon.search.hide-s{display: block !important;font-size: 24px;margin-top: -5px;}
+ .fixed .fixed-logo {display: none;}
+ .fixed a.brand svg:first-child {display: block;}
+ .fixed .sub-header::before {background: #FFF;}
+ .fixed .sub-header .icon {color: #FFF;}
+ .fixed .brand-logo svg {height: 100%;width: 100%;}
+
+
+ /* HEADER */
+ body &gt; header .sub-header { padding-top: 24px; height: auto; }
+
+ /* BUSCA MOBILE */
+ .cpt_searchbox .list .item { flex-basis: 50%; }
+ .cpt_searchbox .container { padding: 14px 24px 32px 24px; }
+ .cpt_searchbox .list .item .main { font: 400 18px/32px &#39;Jost&#39;, sans-serif; }
+ .cpt_searchbox .list .item .sec { font: 400 16px/32px &#39;Jost&#39;, sans-serif; }
+ .cpt_searchbox .action { width: 100%; }
+
+}
+
+@media(min-width:992px){
+ #user-exp-ctrl,.searchOpener {color: #030303;}
+ .searchOpener span {font: normal normal 600 14px/16px Jost;}
+}
+
+@media (max-width:991px){
+ body.searchOpen .sub-header .search-area form {margin-top: 20px;}
+}
+
+/* HEADER */
+.sidebarMenu&gt;ul&gt;li:nth-child(2){border-bottom:1px solid #6E9D81;margin-bottom:0;padding-top:12px;padding-bottom:12px;}
+.sidebarMenu&gt;ul&gt;li.assine-btn a,.sidebarMenu&gt;ul&gt;li.assine-btn a:hover{display:block;background:#6E9D81;text-transform:uppercase;}
+.fixed .brand-logo img,.fixed .brand-logo svg{width:108px; display: block;}
+.fixed .sub-header{padding-top:0;padding-bottom:0;}
+.main-menu .menu span.menu-image-title{font-size:16px;font-weight:500;color:#FFFFFF;text-shadow:0 1px 1px #00000040;}
+body &gt; header .menuOpener { color: #030303; }
+body &gt; header .sub-header { overflow: hidden; max-width: initial; padding-top: 0; background: #ffffff; }
+main &gt; section.breaking-news:nth-child(1) { margin-top: 0; }
+
+.brand-logo svg{max-width: 204px; max-height: 70px; width: 204px; height: 70px; position:relative; top:4px;}
+body:not(.fixed) .brand-logo svg g path, body:not(.fixed) .brand-logo svg g polyline, body:not(.fixed) .brand-logo svg g polygon {fill: #5F9073;}
+.main-menu .menu{border:none;padding:0;height:auto;}
+header .main-menu{margin:4px 0 0;}.main-menu .menu li:nth-child(n+2) a::before{color:#FFFFFF;}
+
+.container.container-after-form-header {left:calc(50% - 359px);margin:auto;padding:0;position:absolute;top:253px;width:718px; z-index: 2 !important; }
+body:not(.menuOpen) .container.container-after-form-header {
+ z-index: 10 !important;
+}
+.after-form-header{margin:0;}
+input#search{background:#00000065 0% 0% no-repeat padding-box;border:1px solid #FFFFFF;color:#FFFFFF; height: 51px;}
+input#search::placeholder {color: #fff;}
+.after-form-header button .search {font-size: 28px;font-weight: 100;margin-right: 26px;margin-top: 1px; color: white;}
+.fixed .sub-header.container {height: auto;line-height: 36px;}
+.fixed .sub-header.container span.brand-logo.col-s-6 {margin-top: 0px;padding-top: 0px;}
+#sponsored-fixed p { color: #FFF; font-family: &#39;Jost&#39;; }
+
+@media (max-width: 991px) {
+ .brand-logo svg {margin-top: 20px;max-height: 34px; height: 34px; max-width: 100%; width: 102px; top: -7px;}
+ body:not(.fixed) .brand-logo { padding: 4px 0 0; }
+ .sub-header.container .col-s-6 {width: 50%;}
+ .container.container-after-form-header {left: 16px;max-width: calc(100% - 32px);top: 126px;}
+ .sub-header.container .icon.search:before {position: relative;left: 0px;top: 0px;}
+ .fixed .sub-header:before {background:#5F9073;}
+ .fixed header .sub-header {height: 60px;}
+ .fixed header .sub-header .brand-logo {margin-top: 0px;padding:0;text-align: center; text-align: -webkit-center;}
+ .fixed .sub-header .icon.search {font-size: 20px;top: -2px;}
+ .after-form-header span.icon.search.hide-s {margin-top: 4px;}
+ .fixed .sub-header .search-area { width: 25%; }
+}
+
+
+/* AS2-838 Header */
+.after-form-header form input, .after-form-header form input::placeholder {font-weight: 300;}
+.sub-header.container &gt; .row {max-width: 1280px;margin: auto;}
+.fixed .sub-header.container &gt; .row {margin-top: 0px;}
+body.new-exp-logada.fixed .sub-header .sidebar-social-wrapper.sidebar-social-right {display: none !important;}
+.after-form-header button .search {font-size: 24px;}
+#menu-social-links {padding-left: 10px;}
+@media (min-width: 1300px) {
+ #menu-social-links {padding-left: 0px;}
+}
+@media (min-width: 780px) {
+ .container.container-after-form-header {left: calc(50% - 359px);}
+}
+@media (max-width: 991px) {
+ .f-social a {width: 32px;height: 32px;margin-top: 2px;}
+ body &gt; header {height: auto;}
+ .container.container-after-form-header {top: auto;margin-top: -84px;}
+ body &gt; header .sub-header {padding-top: 18px;}
+ body:not(.fixed) #sponsored-fixed { padding-top: 10px; }
+ body.new-exp-logada .search-area {flex-wrap: nowrap;}
+}
+ #sponsored-fixed {margin-top: 0; padding-bottom:10px;}
+ #sponsored-fixed p {color: #000;}
+ body:not(.fixed) #sponsored-fixed-ctrl {display: none;}
+ body.fixed #sponsored-fixed { padding-top: 7px;}
+ body.fixed #sponsored-fixed p {margin-top: -15px;}
+ #sponsored-fixed-wrapper, #sponsored-fixed-ctrl {padding: 0;}
+ #sponsored-fixed-ctrl #sponsored-fixed { margin-left: 0; left: 0; width: 100%; }
+ body.fixed .sub-header.container:has(#sponsored-fixed-ctrl) {padding-bottom: 0;}
+ #sponsored-fixed, #sponsored-fixed-ctrl { border-top: 0; }
+@media (min-width:992px) {
+ body:not(.fixed) #sponsored-fixed { padding-top: 10px; margin-top: 0; border-top: 0; }
+ #sponsored-fixed p { color: #FFF; }
+ body:not(.fixed) #sponsored-fixed-ctrl {display: none;}
+ #sponsored-fixed {margin-top: 0; padding-bottom:10px;}
+ #sponsored-fixed p {color: #000;}
+ body.fixed #sponsored-fixed { padding-top: 5px; margin-top: 0;}
+ body.fixed #sponsored-fixed p {margin-top: 0;padding-bottom:5px;}
+}
+
+@media (max-width:991px) {
+ body.fixed #sponsored-fixed-ctrl p { color: #000; }
+ body.fixed #sponsored-fixed p, body.fixed #sponsored-fixed { margin-top: 0; }
+}
+.relacionadas-list .mais-lidas-hat{ display: none; }
+
+#sponsored-fixed-ctrl { height: 55px; }
+
+@media (max-width:991px) {
+ .sub-header .icon,
+ body.new-exp-logada .sub-header.container .brand-logo svg {max-width: 165px;width: 100%}
+ body.new-exp-logada .search-area, body.new-exp-logada:not(.fixed) .sub-header .search-area .sidebar-sign-search {position: relative !important;}
+}
+
+
+ 
+ 
+
+ header.header-partner {
+ background-color: }
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+Menu
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ENTRAR
+
+ 
+
+ 
+
+ 
+
+ 
+ENTRAR
+SAIR
+ 
+
+ 
+
+ 
+
+ 
+ 
+Usuário
+
+ 
+
+ 
+OLÁ, 
+Usuário
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+Assine
+
+ 
+ 
+Buscar
+ 
+
+ 
+
+ 
+
+ 
+Buscar por conteudo no site
+
+ 
+Busca
+
+ 
+
+ 
+
+ 
+
+ 
+Buscar
+
+ 
+Buscar
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Índice de Destinos
+
+
+Manual do Viajante
+
+
+Brasil
+
+
+Mundo
+
+
+Hotel
+
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+×
+
+ 
+
+ 
+ 
+
+ 
+
+ Assine 
+
+ 
+
+ 
+Já sou assinante
+Sair
+ 
+Índice de Destinos
+
+
+Assine a newsletter
+
+
+Manual do Viajante
+
+
+Cruzeiros
+
+
+Brasil
+
+
+Mundo
+
+
+Seleção de Airbnb
+
+
+Compre seu voo
+
+
+Reserve hospedagem pelo Booking
+
+
+Alugue um carro
+
+
+Faça um seguro viagem
+
+
+Ideias de Viagem
+
+
+
+ 
+Ecoturismo
+
+ 
+Praias
+
+ 
+Trem
+
+ 
+Viagens a dois
+
+ 
+Viagem com crianças
+
+ 
+Mochilão
+
+ 
+Acessibilidade
+
+ 
+Livros para Viajar
+
+
+
+
+
+
+Minha Abril
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+Usuário
+
+
+ 
+
+ 
+Usuário
+
+ 
+email@usuario.com.br
+
+ 
+
+ 
+
+ 
+CONTA
+
+ 
+
+ 
+
+ 
+CONTEÚDOS SALVOS 
+
+ 
+ 
+
+ 
+
+ 
+Sair
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+ 
+Matérias
+ 
+
+ 
 Coração de São Paulo
 
-Três roteiros cheios de história, arte, arquitetura, compras e gastronomia
-para você (re) descobrir, em deliciosas caminhadas, o Centro de São Paulo
+ 
+Três roteiros cheios de história, arte, arquitetura, compras e gastronomia para você (re) descobrir, em deliciosas caminhadas, o Centro de São Paulo
 
-   Por Felipe Zylbersztajn 25 set 2012, 16h14 • Atualizado em 16 dez 2016,
-   08h24
+ 
+ 
+ 
 
-   (BUTTON) Coração de São Paulo (BUTTON) Coração de São Paulo (BUTTON)
-   Coração de São Paulo (BUTTON)
-   Compartilhe essa matéria: Coração de São Paulo Coração de São Paulo
-   Coração de São Paulo Coração de São Paulo Coração de São Paulo
-   Link copiado!
+ Por 
+Felipe Zylbersztajn
+ 
+
+ 25 set 2012, 16h14 • Atualizado em 16 dez 2016, 08h24 
+
+ 
+
+
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ .new-share-button .icon.new-share::before {
+ content: &#34;\e913&#34;;
+ display: inline-block;
+ color: #6e9d81;
+ padding: 2px 4px;
+ }
+ .share-box .icon.new-share::before {
+ content: &#34;\e913&#34;;
+ color: #6e9d81;
+ font-size: 16px;
+ display: inline-block;
+ }
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+Compartilhe essa matéria:
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ Link copiado!
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
 
 
 
-   <a
-   href="https://viajeaqui.abril.com.br/estabelecimentos/br-sp-sao-paulo-a
-   tracao-pateo-do-collegio" rel="O Pátio do Colégio" target="_blank">O
-   Pátio do Colégio</a> 1/12 O Pátio do Colégio (Luiz Aymar)
-   A grandiosa <a
-   href="https://viajeaqui.abril.com.br/estabelecimentos/br-sp-sao-paulo-a
-   tracao-catedral-metropolitana-se" rel="Catedral da Sé"
-   target="_blank">Catedral da Sé</a> 2/12 A grandiosa Catedral da Sé
-   (Luiz Aymar)
-   O <a
-   href="https://viajeaqui.abril.com.br/estabelecimentos/br-sp-sao-paulo-a
-   tracao-theatro-municipal" rel="Teatro Municipal" target="_blank">Teatro
-   Municipal</a> após a reforma de 2011 3/12 O Teatro Municipal após a
-   reforma de 2011 (Fernando Moraes)
-   O Viaduto Santa Ifigênia, em estilo art nouveau 4/12 O Viaduto Santa
-   Ifigênia, em estilo art nouveau (Hernán Heig)
-   A estação Sé do metrô, base de passeios 5/12 A estação Sé do metrô,
-   base de passeios (Luiz Aymar)
-   O <a
-   href="https://viajeaqui.abril.com.br/estabelecimentos/br-sp-sao-paulo-a
-   tracao-centro-cultural-banco-do-brasil" rel="Centro Cultural Banco do
-   Brasil " target="_blank">Centro Cultural Banco do Brasil </a> 6/12 O
-   Centro Cultural Banco do Brasil (Daniela Toviansky)
-   Glorioso cardápio do <a
-   href="https://viajeaqui.abril.com.br/estabelecimentos/br-sp-sao-paulo-r
-   estaurante-bar-da-dona-onca" rel="Dona Onça " target="_blank">Dona Onça
-   </a> 7/12 Glorioso cardápio do Dona Onça (Jair Magri)
-   O expresso do Café Floresta, no térreo do Copan 8/12 O expresso do Café
-   Floresta, no térreo do Copan (Bia Parreiras)
-   O Café do Páteo 9/12 O Café do Páteo (Luiz Aymar)
-   Ares fifties na Barbearia 9 de Julho 10/12 Ares fifties na Barbearia 9
-   de Julho (Luciano Munhos)
-   Mosaico de pastilhas de Di Cavalcanti no Edifício Triângulo 11/12
-   Mosaico de pastilhas de Di Cavalcanti no Edifício Triângulo (Luiz
-   Aymar)
-   O sinuoso Copan 12/12 O sinuoso Copan (Germano Luders)
 
-   São Paulo não tem o Centro dos sonhos de todos os seus moradores. É
-   proverbial a dificuldade para ocupar a região à noite, por exemplo. Mas
-   o lugar vem atraindo cada vez mais paulistanos a seus museus,
-   restaurantes e lojas. Poucas regiões têm tantos prédios de relevância
-   histórica ou arquitetônica (763 imóveis tombados). Ali você pode viajar
-   para mundos tão diferentes quanto a casa da marquesa de Santos e um
-   salão black power. A VT propõe três roteiros a pé a partir de três
-   estações de metrô.
 
-   ROTEIRO 1
+ 
 
-   República
+ 
 
-   Vale a pena gastar uns instantes nessa estação antes de sair para o
-   agito. Num dos acessos à Praça da República, dê uma olhada na
-   instalação Momento Antropofágico com Oswald de Andrade, do artista
-   plástico Antonio Peticov. No teto, uma mancha disforme é a senha para o
-   grande barato da obra. Refletida num tubo de inox, ela forma o rosto do
-   escritor modernista. ao pé da obra, pode-se ler “tupi or not tupi”,
-   famosa sacada antropofágica de Oswald com a frase de Shakespeare. Da
-   praça, siga pela Avenida Ipiranga, que guarda duas pérolas
-   arquitetônicas. A primeira é um ícone italiano concebido por um alemão,
-   Franz Heep, em 1965. Falamos do modernista Edifício Itália (Avenida
-   Ipiranga, 344, 2189-2990), de 46 andares – o afamado restaurante
-   Terraço Itália (2189-2929; Cc: A, D, M, V) fica no 42º. Nos dias úteis,
-   das 15 às 16 horas, pode-se visitar gratuitamente o terraço, com sua
-   vista para um perder de vista dos edifícios da cidade. Logo ao lado
-   está o Copan (no nº 200, 3259-5917), projetado por Oscar Niemeyer e
-   inaugurado em 1966. Grande postal paulistano, ele tem 30 andares e
-   também permite visitas ao terraço nos dias úteis (das 10h às 10h30 e
-   das 15h às 15h30), de onde se veem os limites da cidade.
+ 
 
-   Siga
-   WhatsApp WhatsApp ENTRAR NO CANAL
-   Google News GOOGLE NEWS
-   Instagram Seguir no Instagram
-   Facebook Seguir no Facebook
-   X Seguir no X
-   X Seguir no Threads
 
-   Setembro reserva uma novidade no Copan: a inauguração do Pivô, um
-   espaço cultural, prevista para o dia 4. Paralelamente à Bienal de São
-   Paulo, ele sediará a Bienal de Chernobyl, com artistas emergentes e
-   consagrados, como Carmela Gross. Depois disso, talvez você precise de
-   gás extra para continuar o passeio. Tome o “café cremoso”, que é na
-   verdade o bom e velho expresso, no balcão do Café Floresta (loja 21,
-   3259-8416; R$ 3), que fica no térreo. Agora, se a fome vier, saiba que
-   o Copan tem uma das melhores cozinhas de bar da cidade, a do Dona Onça
-   (loja 27, 3257-2016; Cc: A, D, M, V), que serve arroz de galinhada
-   caipira com quiabo (R$ 49).
-   O sinuoso Copan
+ 
 
-   O sinuoso Copan – Foto: Germano Luders
 
-   Continua após a publicidade
+ 
 
-   Satisfeito, volte pela Ipiranga e, se quiser sobremesa, vire na avenida
-   São Luís e conheça o novato Ramona (nº 282, 3258-6385; Cc: A, D, M, V),
-   cujos fogões são pilotados por Bruno Fischetti (ex- P.J. Clarke’s), que
-   se orgulha de seu pudim de leite (R$ 15). Caso queira deixar para
-   almoçar de verdade ali, prove o delicioso fusilli aos cinco cogumelos
-   (R$ 35). Atravesse então a avenida para curtir a Praça Dom José Gaspar,
-   seu bulevar e seus cafés. Aos sábados há ali os shows do Piano na Praça
-   (3397-0000; 15h/17h), que devem voltar em setembro. Depois, retorne à
-   Ipiranga e ande até a Rua Barão de Itapetininga. É surpreendente saber
-   que um de seus brinquedos de infância (como um robô ou uma miniatura do
-   bat-móvel) pode custar até R$ 3 000 nas lojas da Galeria Itapetininga
-   (nº 267), que é visitada por colecionadores como o ator Dalton Vigh, um
-   apaixonado por Forte Apache. Além de jogos, você acha camisas antigas
-   de futebol – uma do Corinthians dos anos 1990 custa R$ 120 na Galeria
-   dos Brinquedos (loja 12). E dá para encomendar uma tela a óleo do seu
-   super-herói predileto na loja 7 (R$ 70).
+ 
 
-   Na saída da galeria é provável que você cruze com seguidores da Cultura
-   Racional, a seita que fez Tim Maia criar grandes arranjos de soul para
-   letras de pregação confusa. Os raros discos desse período (Tim Maia
-   Racional I e II) são vendidos um pouco mais adiante, no segundo andar
-   da Galeria Nova Barão (nº 37), onde há descoladas lojas de discos de
-   vinil. No fim da rua está o belíssimo Teatro Municipal (Praça Ramos de
-   Azevedo, 3397- 0300), que também propicia visitas guiadas com
-   agendamento prévio. Ali perto, note que a Galeria do Rock (Rua 24 de
-   Maio, 62) já não é tão roqueira. As tradicionais lojas de CDs, como a
-   Baratos Afins (loja 316), dividem espaço com vitrines street wear e
-   salões de cabeleireiros afro, sem falar que o subsolo é dedicado ao
-   rap. Um corte na Primo Black Power (loja 26) sai por R$ 30. Escolha a
-   saída da São João e celebre com o famoso bauru do Ponto Chic (Largo do
-   Paissandu, 27; R$ 15), aqui em seu endereço original e mais famoso.
-   Siga pela São João até o cruzamento com a Ipiranga – não se preocupe se
-   nada acontecer com o seu coração – e volte à Praça da República, onde
-   as linhas amarela e vermelha do metrô o esperam. Se fizer esse roteiro
-   em um fim de semana, você ainda vê a velha Feira da República (9h/17h).
+ 
 
-   ROTEIRO 2
 
-   São Bento
 
-   Ao sair da estação você já vê o conjunto do Mosteiro de São Bento
-   (Largo São Bento), que começou a ser erguido em 1598. Vale uma visita à
-   bela Basílica, que abriga uma lojinha com os quitutes da ótima
-   panificadora do mosteiro – com filial chique nos Jardins. Aos domingos,
-   as concorridas missas com cantos gregorianos começam às 10 horas. Em
-   seguida, se quiser conhecer uma das menores lanchonetes paulistanas, vá
-   à Ladeira Porto Geral e aperte-se nos 3,75 metros quadrados da Quickies
-   (nº 14, loja 101), que faz inusitados croquetes de talharim (R$ 1).
-   Quem gosta de eletrônicos (com ou sem pedigree) pode cruzar o Viaduto
-   Santa Ifigênia, em estilo art nouveau, e cair na rua homônima, com suas
-   galerias comerciais. Se não for o caso, siga pela Rua Líbero Badaró,
-   pegue a São João e curta o Edifício Martinelli (nº 35, 3104-2477), com
-   seus 30 andares, onde há visitas guiadas de segunda a sábado. Quando
-   foi inaugurado, em 1929, ele era o prédio mais alto do mundo fora dos
-   Estados Unidos. Continue subindo pela São João até a Praça Antônio
-   Prado, em frente à Bovespa. Com ares interioranos, a praça tem relógio,
-   coreto, engraxates e cabine telefônica. Não deixe de conferir o
-   magnífico saguão do Banco de São Paulo (nº 9), onde o piso é um mosaico
-   de pastilhas de cerâmica. Dali também é fácil chegar à torre art déco
-   do Banespa (Rua João Brícola, 24, 3249-7180; visitas de 2ª/6ª 10h/15h).
-   O Centro Cultural Banco do Brasil
 
-   Continua após a publicidade
 
-   O Centro Cultural Banco do Brasil – Foto: Daniela Toviansky
+ 
 
-   Cansou de prédios? Siga pela Rua XV de Novembro, vire na Rua do
-   Comércio e aviste a vintage Barbearia 9 de Julho (nº 43), onde um corte
-   sai por R$ 30. Depois vire na Rua Álvares Penteado e visite o Centro
-   Cultural Banco do Brasil (nº 112, 3113-3651; 3ª/dom 10h/22h), a antiga
-   sede do banco, concluída em 1927, que desde 2001 abriga exposições em
-   seu prédio em estilo eclético. Antes de voltar ao metrô São Bento, veja
-   a mostra Paris: Impressionismo e Modernidade, com obras de mestres como
-   Cézanne e Van Gogh vindas do Musée d’Orsay, de Paris. É grátis, mas as
-   filas, em especial nos fins de semana, exigem paciência.
 
-   ROTEIRO 3
 
-   Sé
+ 
+1/12
+ 
+O Pátio do Colégio
+ 
+(Luiz Aymar)
+2/12
+ A grandiosa 
+Catedral da Sé
+ 
+(Luiz Aymar)
+3/12
+ O 
+Teatro Municipal
+ após a reforma de 2011 
+(Fernando Moraes)
+4/12
+ O Viaduto Santa Ifigênia, em estilo art nouveau 
+(Hernán Heig)
+5/12
+ A estação Sé do metrô, base de passeios 
+(Luiz Aymar)
+6/12
+ O 
+Centro Cultural Banco do Brasil 
+ 
+(Daniela Toviansky)
+7/12
+ Glorioso cardápio do 
+Dona Onça 
+ 
+(Jair Magri)
+8/12
+ O expresso do Café Floresta, no térreo do Copan 
+(Bia Parreiras)
+9/12
+ O Café do Páteo 
+(Luiz Aymar)
+10/12
+ Ares fifties na Barbearia 9 de Julho 
+(Luciano Munhos)
+11/12
+ Mosaico de pastilhas de Di Cavalcanti no Edifício Triângulo 
+(Luiz Aymar)
+12/12
+ O sinuoso Copan 
+(Germano Luders)
 
-   Esse é talvez o mais “excitante” dos três roteiros. É aqui que se
-   concentra boa parte dos prédios mais antigos de São Paulo. E é aqui que
-   se concentram os punguistas profissionais do pedaço. O expressivo
-   número de guardas ao redor da estação Sé evidencia um certo clima de
-   tensão. Dito isso, é legal deixar objetos de valor em casa e circular
-   com atenção, principalmente perto da Sé e da contígua Praça Clóvis.
-   Como já dizia a velha canção de Paulo Vanzolini, “na Praça Clóvis /
-   minha carteira foi batida”… Logo na saída da estação Sé você enxerga a
-   grandiosa Catedral Metropolitana (Praça da Sé, 3107- 6832). Projetada
-   em 1912 em estilo neogótico, conta com uma enorme cúpula de inspiração
-   renascentista e tem capacidade para 8 mil pessoas. Aproveite para
-   apreciar os 54 vitrais e a ornamentação com motivos brasileiros, como o
-   tatu, o tucano e o cacau.
 
-   Depois, ande pela Rua Senador Feijó, à direita da Catedral, vire também
-   à direita na Rua Quintino Bocaiuva e vá até a esquina com a Rua José
-   Bonifácio. Preste atenção no Edifício Triângulo (nº 24), que recebeu
-   tal nome por razões óbvias. É mais um rebento de Oscar Niemeyer, e sua
-   entrada tem um belo (mas deteriorado) mosaico de Di Cavalcanti.
-   Continue na José Bonifácio e pegue a Rua Direita. No fim dela, já de
-   volta à Praça da Sé, você encontrará a Caixa Cultural SP (nº 111, 3321-
-   4400; 3ª/sáb 9h/21h). A velha sede da Caixa Econômica Federal, de 1939,
-   é um prédio com grandes colunas de estilo jônico que hoje é espaço de
-   exposições. Deixe a instituição e caia na travessa do Pátio do Colégio,
-   seguindo os protetores de ferro. É difícil não intuir que ali é o local
-   de fundação da cidade (com a realização da primeira missa, em 25 de
-   janeiro de 1554). Hoje o Pátio abriga a capela, o Café do Páteo (3101-
-   8512; 3ª/dom 9h/16h30) e o Museu Padre Anchieta (3105-6899; 3ª/ dom
-   9h/17h; R$ 6), com uma coleção de 700 objetos da antiga construção – a
-   pia batismal em que os jesuítas convertiam indígenas é uma atração.
+São Paulo
+ não tem o Centro dos sonhos de todos os seus moradores. É proverbial a dificuldade para ocupar a região à noite, por exemplo. Mas o lugar vem atraindo cada vez mais paulistanos a seus museus, restaurantes e lojas. Poucas regiões têm tantos prédios de relevância histórica ou arquitetônica (763 imóveis tombados). Ali você pode viajar para mundos tão diferentes quanto a casa da marquesa de Santos e um salão black power. A
+ VT
+ propõe três roteiros a pé a partir de três estações de metrô.
 
-   Continua após a publicidade
 
-   A grandiosa Catedral da Sé
 
-   A grandiosa Catedral da Sé – Foto: Luiz Aymar
 
-   Depois de ver onde a megalópole nasceu, ande um pouquinho até o Marco
-   da Paz e seu sino de 300 quilos. Não tenha receio de tocá-lo. O som é
-   alto e chama a atenção de quem passa por ali. A ideia é essa mesmo: a
-   badalada tem a “missão” de inspirar a humanidade na cultura da paz.
-   Para saber mais sobre os primórdios paulistanos, contorne a capela para
-   chegar ao Solar da Marquesa de Santos (Rua Roberto Simonsen, 136,
-   3241-1081; 3ª/dom 9h/17h), uma construção do século 18 que foi o lar de
-   Maria Domitila de Castro, célebre por seu caso com dom Pedro 1o. Ao
-   lado, mais história na Casa da Imagem (3106-5122; 3ª/ dom 9h/17h),
-   voltada à memória fotográfica paulistana, e no Beco do Pinto (3396-
-   6047; 3ª/dom 9h/17h), antiga passagem para o rio tamanduateí que
-   preserva o calçamento colonial feito de dolomita. Após esse passeio
-   pelo passado, ainda na Roberto Simonsen, recupere-se com uma pasta no
-   restaurante Pateo do Collegio (nº 122, 3107- 4205; 2ª/6ª 11h/15h30).
-   Depois, se quiser voltar para casa, lembre-se de que a estação Sé está
-   próxima. Mas talvez você queira caminhar mais, como quem não quer nada,
-   e continuar a ver a gostosa agitação urbana que não cessa.
 
-   Leia mais:
 
-   Setembro de 2012 – Edição 203
 
-   10 atrações grátis em São Paulo
 
-   Continua após a publicidade
+ROTEIRO 1
 
-   Um passeio sensorial pelo Mercado Municipal de São Paulo
 
-   Passeio pelo Ipiranga: Museu Paulista e arredores
+República
 
-   Museu Catavento, a casa dos curiosos em São Paulo
 
-   13 Delícias do Mercado Municipal de SP
+Vale a pena gastar uns instantes nessa estação antes de sair para o agito. Num dos acessos à Praça da República, dê uma olhada na instalação 
+Momento Antropofágico com Oswald de Andrade
+, do artista plástico Antonio Peticov. No teto, uma mancha disforme é a senha para o grande barato da obra. Refletida num tubo de inox, ela forma o rosto do escritor modernista. ao pé da obra, pode-se ler “tupi or not tupi”, famosa sacada antropofágica de Oswald com a frase de Shakespeare. Da praça, siga pela Avenida Ipiranga, que guarda duas pérolas arquitetônicas. A primeira é um ícone italiano concebido por um alemão, Franz Heep, em 1965. Falamos do modernista 
+Edifício Itália 
+(
+Avenida Ipiranga, 344, 2189-2990
+), de 46 andares – o afamado 
+restaurante
+ Terraço Itália
+ (
+2189-2929; Cc: A, D, M, V
+) fica no 42º. Nos dias úteis, das 15 às 16 horas, pode-se visitar gratuitamente o terraço, com sua vista para um perder de vista dos edifícios da cidade. Logo ao lado está o 
+Copan
+ (
+no nº 200, 3259-5917
+), projetado por 
+Oscar Niemeyer
+ e inaugurado em 1966. Grande postal paulistano, ele tem 30 andares e também permite visitas ao terraço nos dias úteis (das 10h às 10h30 e das 15h às 15h30), de onde se veem os limites da cidade.
 
-   48 Horas em São Paulo
 
-   Continua após a publicidade
 
-   São Paulo – Hotéis, restaurantes e atrações
 
-   Publicidade
 
-     * Mais lidas
 
-   1
-   Mundo
-   rocky-mountaineer As novas rotas de trem que serão lançadas em 2026
-   2
-   Brasil
-   Vista panorâmica de praia de Copacabana, com fogos de artifício
-   estourando em balsas no mar Réveillon: 9 destinos de praia para passar
-   a virada com o pé na areia
-   3
-   Brasil
-   Praia de Cabo Branco, João Pessoa, Paraíba Paraíba: 7 praias para
-   conhecer em João Pessoa
-   4
-   Mundo
-   samoa-americana-eua Qual é o último lugar do mundo a virar o ano?
-   5
-   Manual do Viajante
-   comida-aviao Chicken or pasta: o que comer (ou não) durante o voo
 
-   TAGS:
-   Centro de São Paulo
-   roteiros turísticos
-   São Paulo (capital)
-   (BUTTON)
+ 
+Siga 
 
-   Assine Abril
 
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+ENTRAR NO CANAL
+
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GOOGLE NEWS
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Seguir no Instagram
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Seguir no Facebook
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Seguir no X
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+Seguir no Threads
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+Setembro reserva uma novidade no Copan: a inauguração do Pivô, um espaço cultural, prevista para o dia 4. Paralelamente à Bienal de São Paulo, ele sediará a Bienal de Chernobyl, com artistas emergentes e consagrados, como Carmela Gross. Depois disso, talvez você precise de gás extra para continuar o passeio. Tome o “café cremoso”, que é na verdade o bom e velho expresso, no balcão do 
+Café Floresta 
+(
+loja 21, 3259-8416; R$ 3
+), que fica no térreo. Agora, se a fome vier, saiba que o Copan tem uma das melhores cozinhas de bar da cidade, a do 
+Dona Onça
+ (
+loja 27, 3257-2016; Cc: A, D, M, V
+), que serve arroz de galinhada caipira com quiabo (R$ 49).
+
+
+
+
+O sinuoso Copan – Foto: Germano Luders
+
+
+
+ 
+Continua após a publicidade
+
+
+
+
+
+
+Satisfeito, volte pela Ipiranga e, se quiser sobremesa, vire na avenida São Luís e conheça o novato 
+Ramona
+ (
+nº 282, 3258-6385; Cc: A, D, M, V
+), cujos fogões são pilotados por Bruno Fischetti (ex- P.J. Clarke’s), que se orgulha de seu pudim de leite (R$ 15). Caso queira deixar para almoçar de verdade ali, prove o delicioso fusilli aos cinco cogumelos (R$ 35). Atravesse então a avenida para curtir a Praça Dom José Gaspar, seu bulevar e seus cafés. Aos sábados há ali os shows do 
+Piano na Praça
+ (
+3397-0000; 15h/17h
+), que devem voltar em setembro. Depois, retorne à Ipiranga e ande até a Rua Barão de Itapetininga. É surpreendente saber que um de seus brinquedos de infância (como um robô ou uma miniatura do bat-móvel) pode custar até R$ 3 000 nas lojas da 
+Galeria Itapetininga
+ (
+nº 267
+), que é visitada por colecionadores como o ator Dalton Vigh, um apaixonado por Forte Apache. Além de jogos, você acha camisas antigas de futebol – uma do Corinthians dos anos 1990 custa R$ 120 na 
+Galeria dos Brinquedos
+ (
+loja 12
+). E dá para encomendar uma tela a óleo do seu super-herói predileto na loja 7 (R$ 70).
+
+
+Na saída da galeria é provável que você cruze com seguidores da Cultura Racional, a seita que fez Tim Maia criar grandes arranjos de soul para letras de pregação confusa. Os raros discos desse período (
+Tim Maia Racional I e II
+) são vendidos um pouco mais adiante, no segundo andar da 
+Galeria Nova Barão
+ (
+nº 37
+), onde há descoladas lojas de discos de vinil. No fim da rua está o belíssimo 
+Teatro Municipal 
+(
+Praça Ramos de Azevedo, 3397- 0300
+), que também propicia visitas guiadas com agendamento prévio. Ali perto, note que a 
+Galeria do Rock
+ (
+Rua 24 de Maio, 62
+) já não é tão roqueira. As tradicionais lojas de CDs, como a 
+Baratos Afins 
+(
+loja 316
+), dividem espaço com vitrines street wear e salões de cabeleireiros afro, sem falar que o subsolo é dedicado ao rap. Um corte na 
+Primo Black Power 
+(
+loja 26
+) sai por R$ 30. Escolha a saída da São João e celebre com o famoso bauru do 
+Ponto Chic
+ (
+Largo do Paissandu, 27; R$ 15
+), aqui em seu endereço original e mais famoso. Siga pela São João até o cruzamento com a Ipiranga – não se preocupe se nada acontecer com o seu coração – e volte à Praça da República, onde as linhas amarela e vermelha do metrô o esperam. Se fizer esse roteiro em um fim de semana, você ainda vê a velha 
+Feira da República
+ (
+9h/17h
+).
+
+
+ROTEIRO 2
+
+
+São Bento
+
+
+Ao sair da estação você já vê o conjunto do 
+Mosteiro de São Bento
+ (Largo São Bento), que começou a ser erguido em 1598. Vale uma visita à bela Basílica, que abriga uma lojinha com os quitutes da ótima panificadora do mosteiro – com filial chique nos Jardins. Aos domingos, as concorridas missas com cantos gregorianos começam às 10 horas. Em seguida, se quiser conhecer uma das menores lanchonetes paulistanas, vá à Ladeira Porto Geral e aperte-se nos 3,75 metros quadrados da 
+Quickies
+ (
+nº 14, loja 101
+), que faz inusitados croquetes de talharim (R$ 1). Quem gosta de eletrônicos (com ou sem pedigree) pode cruzar o Viaduto Santa Ifigênia, em estilo art nouveau, e cair na rua homônima, com suas galerias comerciais. Se não for o caso, siga pela Rua Líbero Badaró, pegue a São João e curta o 
+Edifício Martinelli
+ (
+nº 35, 3104-2477
+), com seus 30 andares, onde há visitas guiadas de segunda a sábado. Quando foi inaugurado, em 1929, ele era o prédio mais alto do mundo fora dos Estados Unidos. Continue subindo pela São João até a Praça Antônio Prado, em frente à Bovespa. Com ares interioranos, a praça tem relógio, coreto, engraxates e cabine telefônica. Não deixe de conferir o magnífico saguão do 
+Banco de São Paulo
+ (
+nº 9
+), onde o piso é um mosaico de pastilhas de cerâmica. Dali também é fácil chegar à torre art déco do 
+Banespa
+ (
+Rua João Brícola, 24, 3249-7180; visitas de 2ª/6ª 10h/15h
+).
+
+
+
+
+
+ 
+Continua após a publicidade
+
+
+
+
+
+
+O Centro Cultural Banco do Brasil – Foto: Daniela Toviansky
+
+
+Cansou de prédios? Siga pela Rua XV de Novembro, vire na Rua do Comércio e aviste a vintage 
+Barbearia 9 de Julho 
+(
+nº 43
+), onde um corte sai por R$ 30. Depois vire na Rua Álvares Penteado e visite o 
+Centro Cultural Banco do Brasil
+ (
+nº 112, 3113-3651; 3ª/dom 10h/22h
+), a antiga sede do banco, concluída em 1927, que desde 2001 abriga exposições em seu prédio em estilo eclético. Antes de voltar ao metrô São Bento, veja a mostra 
+Paris: Impressionismo e Modernidade
+, com obras de mestres como Cézanne e Van Gogh vindas do 
+Musée d’Orsay
+, de 
+Paris
+. É grátis, mas as filas, em especial nos fins de semana, exigem paciência.
+
+
+ROTEIRO 3
+
+
+Sé
+
+
+Esse é talvez o mais “excitante” dos três roteiros. É aqui que se concentra boa parte dos prédios mais antigos de São Paulo. E é aqui que se concentram os punguistas profissionais do pedaço. O expressivo número de guardas ao redor da estação Sé evidencia um certo clima de tensão. Dito isso, é legal deixar objetos de valor em casa e circular com atenção, principalmente perto da Sé e da contígua Praça Clóvis. Como já dizia a velha canção de Paulo Vanzolini, 
+“na Praça Clóvis / minha carteira foi batida”
+… Logo na saída da estação Sé você enxerga a grandiosa 
+Catedral Metropolitana
+ (
+Praça da Sé, 3107- 6832
+). Projetada em 1912 em estilo neogótico, conta com uma enorme cúpula de inspiração renascentista e tem capacidade para 8 mil pessoas. Aproveite para apreciar os 54 vitrais e a ornamentação com motivos brasileiros, como o tatu, o tucano e o cacau.
+
+
+Depois, ande pela Rua Senador Feijó, à direita da Catedral, vire também à direita na Rua Quintino Bocaiuva e vá até a esquina com a Rua José Bonifácio. Preste atenção no 
+Edifício Triângulo
+ (
+nº 24
+), que recebeu tal nome por razões óbvias. É mais um rebento de Oscar Niemeyer, e sua entrada tem um belo (mas deteriorado) mosaico de Di Cavalcanti. Continue na José Bonifácio e pegue a Rua Direita. No fim dela, já de volta à Praça da Sé, você encontrará a 
+Caixa Cultural SP
+ (
+nº 111, 3321- 4400; 3ª/sáb 9h/21h
+). A velha sede da Caixa Econômica Federal, de 1939, é um prédio com grandes colunas de estilo jônico que hoje é espaço de exposições. Deixe a instituição e caia na travessa do 
+Pátio do Colégio
+, seguindo os protetores de ferro. É difícil não intuir que ali é o local de fundação da cidade (com a realização da primeira missa, em 25 de janeiro de 1554). Hoje o Pátio abriga a capela, o 
+Café do Páteo
+ (
+3101- 8512; 3ª/dom 9h/16h30
+) e o 
+Museu Padre Anchieta
+ (
+3105-6899; 3ª/ dom 9h/17h; R$ 6
+), com uma coleção de 700 objetos da antiga construção – a pia batismal em que os jesuítas convertiam indígenas é uma atração.
+
+
+
+ 
+Continua após a publicidade
+
+
+
+
+
+
+
+
+A grandiosa Catedral da Sé – Foto: Luiz Aymar
+
+
+Depois de ver onde a megalópole nasceu, ande um pouquinho até o Marco da Paz e seu sino de 300 quilos. Não tenha receio de tocá-lo. O som é alto e chama a atenção de quem passa por ali. A ideia é essa mesmo: a badalada tem a “missão” de inspirar a humanidade na cultura da paz. Para saber mais sobre os primórdios paulistanos, contorne a capela para chegar ao 
+Solar da Marquesa de Santos
+ (
+Rua Roberto Simonsen, 136, 3241-1081; 3ª/dom 9h/17h
+), uma construção do século 18 que foi o lar de Maria Domitila de Castro, célebre por seu caso com dom Pedro 1o. Ao lado, mais história na 
+Casa da Imagem
+ (3106-5122; 3ª/ dom 9h/17h), voltada à memória fotográfica paulistana, e no 
+Beco do Pinto
+ (
+3396- 6047; 3ª/dom 9h/17h
+), antiga passagem para o rio tamanduateí que preserva o calçamento colonial feito de dolomita. Após esse passeio pelo passado, ainda na Roberto Simonsen, recupere-se com uma pasta no 
+restaurante 
+Pateo do Collegio 
+(
+nº 122, 3107- 4205; 2ª/6ª 11h/15h30
+). Depois, se quiser voltar para casa, lembre-se de que a estação Sé está próxima. Mas talvez você queira caminhar mais, como quem não quer nada, e continuar a ver a gostosa agitação urbana que não cessa.
+
+
+Leia mais:
+
+
+Setembro de 2012 – Edição 203
+
+
+
+10 atrações grátis em São Paulo
+
+
+
+ 
+Continua após a publicidade
+
+
+
+
+
+
+Um passeio sensorial pelo Mercado Municipal de São Paulo
+
+
+
+Passeio pelo Ipiranga: Museu Paulista e arredores
+
+
+
+Museu Catavento, a casa dos curiosos em São Paulo
+
+
+
+13 Delícias do Mercado Municipal de SP
+
+
+
+48 Horas em São Paulo
+
+
+
+ 
+Continua após a publicidade
+
+
+
+
+
+
+São Paulo – Hotéis, restaurantes e atrações
+
+
+
+
+ 
+Publicidade
+
+
+
+
+
+
+Mais lidas
+1
+Mundo
+ 
+As novas rotas de trem que serão lançadas em 2026
+2
+Brasil
+ 
+5 praias fora do óbvio para conhecer em Ubatuba
+3
+Brasil
+ 
+10 praias ‘escondidas’ no Nordeste que você precisa conhecer
+4
+Mundo
+ 
+Qual é o último lugar do mundo a virar o ano?
+5
+Brasil
+ 
+28 passeios para fazer com crianças em São Paulo e interior
+TAGS:
+Centro de São Paulo
+roteiros turísticos
+São Paulo (capital)
+
+ 
+
+
+ 
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+ .box-inf-capas-title {
+ font-weight: bold;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ font-size: 20px;
+ }
+
+ .box-inf-capas-title-info {
+ font-weight: bold;
+ }
+ .block.carousel-capa {
+ width: 100%;
+ }
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
 Superinteressante
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
+ 
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 5,99/mês
+
+ 
+
+ 
+
+ 
+Guia do Estudante
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+Apenas R$ 1,99/mês
+
+ 
+
+ 
+
+ 
+Veja
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 5,99/mês
+
+ 
+
+ 
+
+ 
+Veja Saúde
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 4,99/mês
+
+ 
+
+ 
+
+ 
+Você RH
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 4,99/mês
+
+ 
+
+ 
+
+ 
+QUATRO RODAS
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 5,99/mês
+
+ 
+
+ 
+
+ 
+Você S/A
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+Apenas R$ 1,99/mês
+
+ 
+
+ 
+
+ 
+Veja Negócios 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 4,99/mês
+
+ 
+
+ 
+
+ 
+CLAUDIA
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 4,99/mês
+
+ 
+
+ 
+
+ 
+GoRead
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 9,90/mês
+
+ 
+
+ 
+
+ 
+Veja + Estadão
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 12,00/mês
+
+ 
+
+ 
+
+ 
+Veja + Zero Hora
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+RESOLUÇÕES ANO NOVO
+
+ 
+
+ 
+Assine a revista RESOLUÇÕES ANO NOVO - 
+A partir de R$ 5,99/mês
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+ Quem assina tem mais vantagens
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+Colunistas
+
+ 
+Conteúdo criado por especialistas
+
+ 
+
+ 
+
+ 
+
+ 
+Seus favoritos
+
+ 
+Acompanhe as publicações dos seus autores favoritos
+
+ 
+
+ 
+
+ 
+
+ 
+Aplicativo
+
+ 
+Leia todas as revistas em um só app
+
+ 
+
+ 
+
+ 
+
+ 
+Sites
+
+ 
+Acesso ilimitado aos sites
+
+ 
+
+ 
+
+ 
+
+ 
+Leia offline
+
+ 
+Baixe e leia as edições digitais no app até onde não tem internet
+
+ 
+
+ 
+
+ 
+
+ 
+Clube
+
+ 
+Ingressos com super descontos
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Leia também no 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ 
+ 
+
+ 
+ 
+Siga
+
+ 
+Facebook
+
+
+Twitter
+
+
+Instagram
+
+
+RSS
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+BEBÊ
+
+
+Boa Forma
+
+
+Bravo!
+
+
+Capricho
+
+
+CASA
+
+
+CASACOR
+
+
+Claudia
+
+
+Elastica
+
+
+Especiallistas
+
 
 Guia do Estudante
 
-   Assine a revista OFERTA RELÂMPAGO - Apenas R$ 1,99/mês
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - Apenas R$ 1,99/mês
+Instituto Veja
 
-Veja
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 1,99/mês
+Quatro Rodas
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 1,99/mês
 
-Veja Saúde
+Superinteressante
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
+VEJA
+
+
+VEJA Rio
+
+
+VEJA São Paulo
+
+
+VEJA Saúde
+
 
 Você RH
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
-
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
-
-QUATRO RODAS
-
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
-
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
 
 Você S/A
 
-   Assine a revista OFERTA RELÂMPAGO - Apenas R$ 1,99/mês
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - Apenas R$ 1,99/mês
+ 
 
-Veja Negócios
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
+ 
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
+ 
 
-CLAUDIA
+ 
+Grupo Abril
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
+Política de Privacidade de Dados
 
-GoRead
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 9,90/mês
+Como desativar o AdBlock
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 9,90/mês
 
-Veja + Estadão
+Atendimento ao assinante – Minha Abril
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 12,00/mês
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 12,00/mês
+Anuncie
 
-Veja + Zero Hora
 
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
+Dicas de Segurança
 
-   OFERTA RELÂMPAGO
-   Assine a revista OFERTA RELÂMPAGO - A partir de R$ 5,99/mês
-   Quem assina tem mais vantagens
-   [imagem-colunistas.png]
-   Colunistas
-   Conteúdo criado por especialistas
-   [imagem-favoritos.png]
-   Seus favoritos
-   Acompanhe as publicações dos seus autores favoritos
-   [imagem-aplicativo.png]
-   Aplicativo
-   Leia todas as revistas em um só app
-   [imagem-sites.png]
-   Sites
-   Acesso ilimitado aos sites
-   [imagem-leia-offline.png]
-   Leia offline
-   Baixe e leia as edições digitais no app até onde não tem internet
-   [imagem-clube.png]
-   Clube
-   Ingressos com super descontos
 
-   Leia também no GoRead
+Vendas
 
-     * Siga
-     * Facebook
-     * Twitter
-     * Instagram
-     * RSS
 
-   Logomarca Grupo Abril
+ 
 
-     * BEBÊ
-     * Boa Forma
-     * Bravo!
-     * Capricho
-     * CASA
-     * CASACOR
-     * Claudia
-     * Elastica
-     * Especiallistas
-     * Guia do Estudante
-     * Instituto Veja
-     * Quatro Rodas
-     * Superinteressante
-     * VEJA
-     * VEJA Rio
-     * VEJA São Paulo
-     * VEJA Saúde
-     * Você RH
-     * Você S/A
 
-     * Grupo Abril
-     * Política de Privacidade de Dados
-     * Como desativar o AdBlock
-     * Atendimento ao assinante – Minha Abril
-     * Anuncie
-     * Dicas de Segurança
-     * Vendas
+ 
 
-     * QUEM SOMOS
-     * FALE CONOSCO
-     * TERMOS E CONDIÇÕES
-     * TRABALHE CONOSCO
-     * EXPEDIENTE
+ 
 
-   Abril Comunicações S.A., CNPJ 44.597.052/0001-62 - Todos os direitos
-   reservados.
+ 
+QUEM SOMOS
 
-   Comscore
+
+FALE CONOSCO
+
+
+TERMOS E CONDIÇÕES
+
+
+TRABALHE CONOSCO
+
+
+EXPEDIENTE
+
+
+ 
+
+
+ 
+Abril Comunicações S.A., CNPJ 44.597.052/0001-62 - Todos os direitos reservados.
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ abril_scripts_dinamicos_carregados = false;
+ scripts_dinamicos_click = false;
+
+ AbrilScriptsExec.addFunctionList({"name":"initLgpd.init","load":false,"ordem":0,"exec":true,"status":"","init":"","label":"LGPD"});
+ AbrilScriptsExec.addFunctionList({"name":"check_cookie_critica","load":false,"ordem":1,"exec":true,"status":"","init":"","label":"Notifica\u00e7\u00e3o Cr\u00edtica"});
+ AbrilScriptsExec.addFunctionList({"name":"AbrilBundle.startOnboarding","load":false,"ordem":2,"exec":true,"status":"","init":"","label":"Onboarding"});
+ AbrilScriptsExec.addFunctionList({"name":"AbrilBundle.startLinking","load":false,"ordem":3,"exec":true,"status":"","init":"","label":"Linking"});
+ 
+ AbrilScriptsExec.addFunctionDirect("loadPushNewsFile");
+ 
+ // Otimização INP: Melhor gerenciamento de carregamento de scripts
+ function abril_scripts_add() {
+ if (abril_scripts_dinamicos_carregados === true) {
+ return;
+ }
+ 
+ // Usa requestIdleCallback para carregar scripts quando o navegador estiver ocioso
+ if ('requestIdleCallback' in window) {
+ requestIdleCallback(() => {
+ loadScriptsDynamically();
+ }, { timeout: 2000 });
+ } else {
+ // Fallback para navegadores que não suportam requestIdleCallback
+ setTimeout(loadScriptsDynamically, 100);
+ }
+ }
+
+ function loadScriptsDynamically() {
+ const script_0 = document.createElement('script');
+ script_0.src = 'https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/assets/js/abril_lgpd.js?ver=3.0.1';
+ script_0.async = true; // Otimização INP: carrega assincronamente
+ document.body.appendChild(script_0);
+ const script_1 = document.createElement('script');
+ script_1.src = 'https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/assets/js/single.js?ver=3.0.1';
+ script_1.async = true; // Otimização INP: carrega assincronamente
+ document.body.appendChild(script_1);
+ const script_2 = document.createElement('script');
+ script_2.src = 'https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/assets/js/our-carousel.js?ver=3.0.1';
+ script_2.async = true; // Otimização INP: carrega assincronamente
+ document.body.appendChild(script_2);
+ const script_3 = document.createElement('script');
+ script_3.src = 'https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/plugins/abril-content/sendinblue/js/sendinblue.js?ver=3.0.1';
+ script_3.async = true; // Otimização INP: carrega assincronamente
+ document.body.appendChild(script_3);
+ const script_4 = document.createElement('script');
+ script_4.src = 'https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/plugins/abril-content/sendinblue/js/sendinblue-validation.js?ver=3.0.1';
+ script_4.async = true; // Otimização INP: carrega assincronamente
+ document.body.appendChild(script_4);
+ console.log("enqueue_hike");
+ const script_metadados_storage = document.createElement('script');
+ script_metadados_storage.src = 'https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/js/abril-js-metadados-storage.js?ver=3.0.1';
+ script_metadados_storage.async = true; // Otimização INP: carrega assincronamente
+ document.body.appendChild(script_metadados_storage);
+ abril_scripts_dinamicos_carregados = true;
+ return;
+ }
+
+ 
+ $(window).one('scroll mousemove ', function () {
+ abril_scripts_add();
+ });
+
+ function abril_scripts_add_click(clallback, param) {
+ if (abril_scripts_dinamicos_carregados !== true) {
+ abril_scripts_add();
+ abril_scripts_dinamicos_carregados = true;
+ }
+ pcallback = eval("(" + clallback + ")");
+ return pcallback(param);
+ }
+
+ $(".menuOpener").click(() => {
+ if (abril_scripts_dinamicos_carregados !== true) {
+ abril_scripts_add();
+ abril_scripts_dinamicos_carregados = true;
+ }
+ return;
+ });
+
+ $("#user-exp-ctrl").on("click", function () {
+ if (abril_scripts_dinamicos_carregados !== true) {
+ abril_scripts_add();
+ abril_scripts_dinamicos_carregados = true;
+ }
+ return;
+ });
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ if (typeof wp_linkeds_words == 'undefined' || wp_linkeds_words == '') {
+ wp_linkeds_words = '';
+ }
+
+ if (typeof wp_linkeds_url == 'undefined' || wp_linkeds_url == '') {
+ wp_linkeds_url = '';
+ }
+ 
+var custom_map1 = {
+ 'dimension1': 'tipo_pagina',
+ 'dimension2': 'status_pagina',
+ 'dimension3': 'autor',
+ 'dimension4': 'editor',
+ 'dimension5': 'tag',
+ 'dimension6': 'editoria',
+ 'dimension7': 'data_publicacao',
+ 'dimension8': 'hora_publicacao',
+ 'dimension9': 'data_atualizacao',
+ 'dimension10': 'hora_atualizacao',
+ 'dimension11': 'nome_blog',
+ 'dimension12': 'programa',
+ 'dimension13': 'oferecimento',
+ 'dimension21': 'userID',
+ 'dimension22': 'status_pagina',
+ 'dimension23': 'autor_sem_pagina',
+ 'dimension24': 'autor_com_pagina',
+ 'dimension25': 'ultima_revisao',
+ 'dimension27': 'tipo_paywall',
+ 'dimension28': 'status_usuario',
+ 'dimension29': 'dimension29',
+ 'dimension31': 'palavra_linkada',
+ 'dimension32': 'url_linkada',
+ 'metric1': 'posts_caracteres'
+ }; 
+
+
+ var ts = new Date().getTime().toString();
+ var clientId = 'N/A';
+ try{
+ clientId = document.cookie.match(/_gaCookieGrupoAbril=([GA0-9]{3}\.[0-9]{1}\.[0-9]*\.[0-9]*)/)[1];
+ }catch(err){
+ clientId = 'N/A';
+ }
+
+ function userID(){
+ let crm = null;
+ const userAssets = JSON.parse(localStorage.getItem('abrilAssetsUser'));
+ if( userAssets !== null ){
+ if(userAssets.crm > 0){
+ crm = userAssets.crm;
+ }
+ }
+ return crm;
+ }
+ 
+ var dimensions_metrics;
+ dimensions_metrics = {
+ /*tipo-pagina */ dimension1 : customData['tipo-pagina'] || 'N/A',
+ /*status-pagina */ dimension2 : customData['status-pagina'] || 'N/A',
+ /*autor */ dimension3 : (customData.autor || []).join() || 'N/A',
+ /*editor */ dimension4 : customData.editor || 'N/A',
+ /*tag */ dimension5 : (customData.tag||[]).join() || 'N/A',
+ /*editoria */ dimension6 : (customData.editoria || []).join() || 'N/A',
+ /*data_publicacao */ dimension7 : customData['data-publicacao'] || 'N/A',
+ /*hora_publicacao */ dimension8 : customData['hora-publicacao'] || 'N/A',
+ /*data_atualizacao */ dimension9 : customData['data-atualizacao'] || 'N/A',
+ /*hora_atualizacao */ dimension10 : customData['hora-atualizacao'] || 'N/A',
+ /*nome_blog */ dimension11 : customData['nome-blog'] || 'N/A',
+ /*programa */ dimension12 : customData.programa || 'N/A',
+ /*oferecimento */ dimension13 : customData['oferecimento'] || 'N/A',
+ /*client_id */ dimension14 : clientId || 'N/A',
+ /*status_pagina */ dimension22 : customData['status_pagina'] || 'N/A',
+ /*autor_sem_pagina */ dimension23 : customData['autor_sem_pagina'] || 'N/A',
+ /*autor_com_pagina */ dimension24 : customData['autor_com_pagina'] || 'N/A',
+ /*ultima_revisao */ dimension25 : customData['ultima_revisao'] || 'N/A',
+ /*tipo-paywall */ dimension27 : customData['tipo-paywall'] || 'N/A',
+ /*palavra-linkada */ dimension31 : wp_linkeds_words || 'N/A',
+ /*url-linkada */ dimension32 : wp_linkeds_url || 'N/A',
+ /*posts caracteres */ metrics1 : customData['report-data-value'] || 'N/A',
+ 'non_interaction': true
+ };
+ if(userID() !== null){
+ dimensions_metrics["user_id"] = userID();
+ }
+ if(typeof customData !== "undefined"){
+ if(typeof customData["tipo-pagina"] !== "undefined"){
+ if(customData["tipo-pagina"] === "Matéria"){
+ dimensions_metrics["id_materia"] = 67065;
+ }
+ }
+ }
+ if( (originString2.indexOf("/ofertas/") >= 0 || originString2.indexOf("/ofertas") >= 0)){
+ if( (originString2.indexOf("/piaui/") >= 0 || originString2.indexOf("/piaui") >= 0)){
+ dimensions_metrics["editora"] = "Piauí";
+ }else{
+ dimensions_metrics["editora"] = "Abril";
+ }
+ }
+ gtag('set',{ 'custom_map': custom_map1 }); 
+
+ gtag('config', 'G-0HTYQ9ZBSJ', dimensions_metrics); 
+
+ gtag('config', 'G-E5YJHBJ3M4', dimensions_metrics);
+ }
+ 
+
+ 
+
+ let referrer_value = "";
+ let referrer = document.referrer;
+ let saveLocalStorage = "";
+ if (currentUrl.indexOf("source") === -1 && currentUrl.indexOf("utm_source ") === -1) {
+ if (referrer.indexOf("google.com") !== -1) {
+ if (
+ currentUrl.indexOf("/assine/") !== -1 ||
+ currentUrl.indexOf("/assinar/") !== -1 ||
+ currentUrl.indexOf(".com.br/ofertas") !== -1 ||
+ currentUrl.indexOf("assine.abril.com.br") !== -1
+ ) {
+ saveLocalStorage = "google_assinar";
+ }
+ if (currentUrl.indexOf("gclid") !== -1) {
+ saveLocalStorage = "google_cpc";
+ }
+ if (
+ currentUrl.indexOf("gclid") === -1 &&
+ currentUrl.indexOf("/assine/") === -1 &&
+ currentUrl.indexOf("/assinar/") === -1 &&
+ currentUrl.indexOf(".com.br/ofertas") === -1 &&
+ currentUrl.indexOf("assine.abril.com.br") === -1
+ ) {
+ saveLocalStorage = "google_organico";
+ }
+ } else {
+ if (referrer === "") {
+ saveLocalStorage = "direto";
+ }
+ if (referrer !== "" && referrer.indexOf(".abril.com.br") === -1) {
+ saveLocalStorage = "referrer_externo";
+ }
+ }
+ if (saveLocalStorage !== "") {
+ referrer_value = saveLocalStorage;
+ }
+
+ }
+
+
+ var min_leitura = 60000;
+ var inicio_leitura = performance.now();
+ let sendMetricStatus = false;
+ let limite_leitura = false;
+ let crm_id = '';
+ console.log("limite_leitura: " + limite_leitura);
+ console.log("sendMetricStatus: " + sendMetricStatus);
+ setTimeout(setLimiteLeitura, min_leitura);
+ 
+ function setLimiteLeitura() {
+ limite_leitura = true;
+ console.log("limite_leitura " + limite_leitura);
+ }
+
+ function sendCustomDimension(dimension) {
+
+ if (typeof dimension == 'undefined') {
+ return;
+ }
+ if (typeof dimension.dimension29 !== 'undefined') {
+ if (dimension.dimension29 != 'N/A') {
+ gaUserProperties({"direitos_assinante": dimension.dimension29});
+ gaSendEvent({
+ "category":"Usuário autenticado",
+ "action":"Direitos assinante",
+ "label":dimension.dimension29,
+ "dimensionsGA4": {
+ "dimension29": dimension.dimension29
+ }
+ });
+ }
+ }
+
+ if (typeof dimension.dimension30 !== 'undefined') {
+ if (dimension.dimension30 != 'N/A') {
+ gaUserProperties({
+ "tipo_cadastro": AbrilCustomDimension.tipoAssinante(),
+ "tipo_assinatura": AbrilCustomDimension.tipoAssinatura()
+ });
+ gaSendEvent({
+ "category": "Usuário autenticado",
+ "action": "Tipo de assinatura",
+ "label": dimension.dimension30
+ });
+ }
+ }
+ }
+
+ function tipoAssinante(){
+ let tipo = "nao logado";
+ if( AbrilCustomDimension.verifyCookie(AbrilCustomDimension.sessionPrefix()) !== '' ){
+ tipo = "cadastrado";
+ const prodUser = localStorage.getItem('AbrilProductsUser');
+ if(prodUser !== null && prodUser.length > 0){
+ tipo = "assinante";
+ }
+ }
+ return tipo;
+ }
+
+ function tipoAssinatura(){
+ let tipo = "sem assinatura";
+ let prodUser = localStorage.getItem('AbrilProductsUser');
+ let combo = logged_paywall_combo[0].split(",");
+ let digital = logged_paywall[0].split(",");
+
+ if( prodUser !== null ){
+ if(prodUser.length > 0){
+ direito = prodUser.split(",");
+
+ for(let i = 0; i < digital.length; i++){
+ if (direito.indexOf(digital[i].toString()) != -1 && digital[i] != "") {
+ tipo = "digital";
+ }
+ }
+
+ for(let i = 0; i < combo.length; i++){
+ if (direito.indexOf(combo[i].toString()) != -1 && combo[i] != "") {
+ tipo = "combo";
+ }
+ }
+ }
+ }
+
+ return tipo;
+ }
+
+ function tipoLogin(){
+ let tipo = 'abril';
+ const userAssets = JSON.parse(localStorage.getItem('abrilAssetsUser'));
+ if( userAssets !== null ){
+ if(userAssets.tipo_login !== ""){
+ tipo = userAssets.tipo_login;
+ }
+ }
+ return tipo;
+ }
+
+ function userID(){
+ let crm = null;
+ const userAssets = JSON.parse(localStorage.getItem('abrilAssetsUser'));
+ if( userAssets !== null ){
+ if(userAssets.crm > 0){
+ crm = userAssets.crm;
+ }
+ }
+ return crm;
+ }
+
+ function verifyCookie(c_name, cpar) {
+ var name = c_name + "=";
+ var ca = document.cookie.split(';');
+ for (var i = 0; i < ca.length; i++) {
+ var c = ca[i];
+ while (c.charAt(0) == ' ') {
+ c = c.substring(1);
+ }
+ if (c.indexOf(name) == 0 && cpar == undefined) {
+ return c.substring(name.length, c.length);
+ }
+ if (c.indexOf(name) == 0 && cpar) {
+ var arr = [];
+ str = c.substring(name.length, c.length);
+ str = str.split(":");
+ for (var j = 0; j < str.length; j++) {
+ a = str[j].split("=");
+ arr[a[0]] = a[1];
+ }
+
+ if (arr[cpar]) {
+ return arr[cpar];
+ }
+ }
+ }
+ return "";
+ }
+
+ function sendNavigationData() {
+
+ console.log("sendMetricStatus: " + sendMetricStatus);
+ console.log("limite_leitura: " + limite_leitura);
+
+ if (!sendMetricStatus && limite_leitura) {
+ console.log("caiu no limite!!!!!!!!");
+ return sendNavigationDataBq();
+ }
+ console.log("Espera min_leitura");
+ return setTimeout(sendNavigationData, 5000);
+ }
+
+ function getCookieIdGlobal(c_name) {
+ if (document.cookie.length > 0) {
+ c_start = document.cookie.indexOf(c_name + "=");
+ if (c_start != -1) {
+ c_start = c_start + c_name.length + 1;
+ c_end = document.cookie.indexOf(";", c_start);
+ if (c_end == -1) {
+ c_end = document.cookie.length;
+ }
+ return unescape(document.cookie.substring(c_start, c_end));
+ }
+ }
+ return "";
+ }
+
+ function getLocalStorage(c_name){
+ return localStorage.getItem(c_name);
+ }
+
+ function setCookieGlobalId(c_name,value){
+ var y = new Date();
+ y.setTime(y.getTime() + (365*24*60*60*1000));
+ expires = "expires="+ y.toUTCString();
+ document.cookie = c_name+"="+value+";" + expires + ";domain=.abril.com.br;path=/";
+ console.log("Gerou Cokie: " + value);
+ }
+
+ function setLocalStorage(c_name,value){
+ localStorage.setItem(c_name, value);
+ console.log("Gerou LocalStorage: " + value);
+ }
+
+ function persistIdGlobal() {
+
+ if ( verifyCrossDomainIdGlobal('abrilUserId') == true ){
+ return;
+ }
+
+ if( typeof gaGlobal != 'undefined'){
+ clientId = gaGlobal.vid;
+ console.log("Gerou ID pelo gaGlobal: "+clientId);
+ var hoje = new Date().toDateString();
+ var value = `${clientId}|${hoje}`;
+ setCookieGlobalId('abrilUserId',value);
+ setLocalStorage('abrilUserId',value);
+ return;
+ }
+
+ if (typeof gtag !== 'undefined'){
+ gtag('get', 'G-0HTYQ9ZBSJ', 'client_id', (clientId)=> {
+ console.log("Gerou ID pelo GA4: "+clientId);
+ var hoje = new Date().toDateString();
+ var value = `${clientId}|${hoje}`;
+ setCookieGlobalId('abrilUserId',value);
+ setLocalStorage('abrilUserId',value);
+ //localStorage.setItem('abrilUserId', `${clientId}|${hoje}`);
+
+ })
+ return;
+ }
+
+ AbrilCustomDimension.persistIdGlobal();
+ }, 1000);
+ }
+
+ function parseIdGLobalValue(value){
+ if(idData = value.split("|")){
+ return idData;
+ }
+ return null;
+ }
+
+ function verifyCrossDomainIdGlobal(c_name) {
+
+ var idDataCokie = getCookieIdGlobal(c_name);
+ var idDataStorage = getLocalStorage(c_name);
+
+ if( idDataCokie && idDataStorage ){
+ if( idDataCokie !== idDataStorage ){
+ console.log("IdGlobal: checar ID mais antigo");
+ let dataCokie = parseIdGLobalValue(idDataCokie);
+ let dataStorage = parseIdGLobalValue(idDataStorage);
+ console.log( `${idDataCokie} ${idDataStorage}` );
+ console.log( new Date(dataCokie[1]) < new Date(dataStorage[1]) );
+ if( new Date(dataCokie[1]) < new Date(dataStorage[1]) ){
+ setLocalStorage(c_name,idDataCokie);
+ console.log('gravou valor do cokie no storage' + idDataCokie);
+ return true;
+ }else{
+ setCookieGlobalId(c_name,idDataStorage);
+ console.log('gravou valos do storage no cokie ' + idDataStorage);
+ return true;
+ }
+ }
+ console.log("IdGlobal: IDs iguais");
+ return true;
+ }
+
+ if( idDataCokie && !idDataStorage ){
+ console.log("IdGlobal: Apenas id cokie");
+ setLocalStorage(c_name,idDataCokie);
+ return true;
+ }
+
+ if( !idDataCokie && idDataStorage ){
+ console.log("IdGlobal: Apenas id storage");
+ setCookieGlobalId(c_name,idDataStorage);
+ return true;
+ }
+
+ return false;
+ //new Date(new Date().setDate(new Date().getDate() - 5)).toDateString();
+
+ }
+
+ function getUnicIdGlobal() {
+ //let idCokie = getCookieIdGlobal('abrilUserId');
+ //verifyCrossDomainIdGlobal('abrilUserId');
+ let id = null;
+ if ( verifyCrossDomainIdGlobal('abrilUserId') == true ){
+ let idStorage = localStorage.getItem('abrilUserId');
+ let dataId = null;
+ if ( idStorage ) {
+ if(idData = idStorage.split("|")){
+ id = idData[0];
+ dataId = idData[1]
+ }
+ console.log("getUnicIdGlobal: " + id);
+ return id;
+ }
+ }
+
+ // possivel forçar gerar id;
+ console.log("getUnicIdGlobal: " + id);
+ return false;
+ }
+
+ function checkUnicIdGlobal() {
+ if (getUnicIdGlobal()) {
+ console.log("checkUnicIdGlobal: " + getUnicIdGlobal());
+ return true;
+ }
+ console.log("checkUnicIdGlobal: " + getUnicIdGlobal());
+ return false;
+ }
+
+ async function sendNavigationDataBq(assinou = false, postAssineId = false, userId = '', bloqueado = false) {
+
+ return;
+ 
+ if (sendMetricStatus) {
+ return;
+ }
+
+ var fim_leitura = performance.now();
+ var tempo_leitura = (fim_leitura - inicio_leitura) / 1000;
+ sendMetricStatus = true;
+
+ 
+ 
+
+ 
+ 
+ let post_id = '67065';
+ let marca = 'viagemeturismo';
+ let timestamp = new Date().getTime();
+ let autenticado = false;
+ let codTipoIdentificador = "gaId";
+ assinou = false;
+
+ if (verifyCookie("AbrilProductsUser") != '') {
+ autenticado = true;
+ }
+
+ 
+ if (AbrilCustomDimension.checkUnicIdGlobal()) {
+ userId = AbrilCustomDimension.getUnicIdGlobal();
+ } else {
+ AbrilCustomDimension.persistIdGlobal();
+ userId = AbrilCustomDimension.getUnicIdGlobal();
+ }
+
+ if (typeof AbrilPaywall != 'undefined') {
+ bloqueado = AbrilPaywall.ShowPaywall;
+ }
+
+ console.log("Tempo de leitura: " + tempo_leitura);
+ console.log("user id: " + userId);
+ console.log("post id: " + post_id);
+ console.log("marca: " + marca);
+
+ if (userId == null || userId == '' || typeof userId == 'undefined' || post_id == null || post_id == '' || typeof post_id == 'undefined' || marca == null || marca == '' || typeof marca == 'undefined') {
+ console.log("Dados CW incompletos");
+ return;
+ }
+
+ 
+ let userStorage = JSON.parse(localStorage.getItem('abrilAssetsUser'));
+ if(typeof userStorage === "object" && userStorage !== null){
+ if(typeof userStorage.crm === "number" ){
+ AbrilCustomDimension.crm_id = userStorage.crm;
+ }
+ }
+
+ let slug = '/';
+ var pathSlug = location.pathname;
+ var pathComponentsSlug = pathSlug.match(/([^\/]+)/g);
+ if( pathComponentsSlug ){
+ if( pathComponentsSlug[pathComponentsSlug.length - 1] === 'mobile' ){
+ pathComponentsSlug.pop();
+ }
+ slug = pathComponentsSlug.pop().split(";")[0];
+ }
+
+
+ let data = {
+ 'marca': marca,
+ 'post_id': post_id,
+ 'user_id': userId,
+ 'bloqueado': bloqueado,
+ 'assinou': assinou,
+ 'autenticado': autenticado,
+ 'plataforma': 'WEB',
+ 'tempo_leitura': tempo_leitura,
+ 'utm_source': '',
+ 'utm_medium': '',
+ 'utm_campaign': '',
+ 'crm_id': AbrilCustomDimension.crm_id,
+ 'utm_crm_id': '',
+ 'tipo' : customData['tipo-pagina'],
+ 'slug' : slug,
+ 'referrer' : referrer_value,
+ 'source' : ''
+ };
+
+ console.log("DATA NOVOS PARANS");
+ console.log(data);
+
+ fetch('https://us-central1-abril-id-testes-1528223718961.cloudfunctions.net/navigationData/dados-editoriais', {
+ method: "POST",
+ body: JSON.stringify(data),
+ headers: {
+ "Content-type": "application/json; charset=UTF-8"
+ }
+ })
+ .then(response => response.json())
+ .then(json => console.log(json))
+ .catch(err => console.log(err));
+ }
+
+ function getQueryVariable(variable) {
+ var vars = query.split("&");
+ for (var i=0;i<vars.length;i++) {
+ var pair = vars[i].split("=");
+ if(pair[0] == variable){return pair[1];}
+ }
+ return(false);
+ }
+
+ function setCookie(cname, cvalue, exdays) {
+ var d = new Date();
+ d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+ var expires = "expires=" + d.toUTCString();
+ document.cookie = cname + "=" + cvalue + "; path=/;" + expires + "; domain=.abril.com.br";
+ console.log("Gerou Cookie: " + cname);
+ return;
+ }
+ 
+ function sessionPrefix(){
+ let prefix_amb = "";
+ if(typeof assine_environment[0] !== 'undefined'){
+ if(assine_environment[0] !== 'sandbox'){
+ prefix_amb = "homolog_";
+ }
+ }
+ return prefix_amb + 'session';
+ }
+
+ return {
+ sendCustomDimension: sendCustomDimension,
+ sendNavigationData: sendNavigationData,
+ verifyCookie: verifyCookie,
+ setCookie: setCookie,
+ getQueryVariable: getQueryVariable,
+ persistIdGlobal: persistIdGlobal,
+ checkUnicIdGlobal: checkUnicIdGlobal,
+ getUnicIdGlobal: getUnicIdGlobal,
+ crm_id: crm_id,
+ tipoAssinante: tipoAssinante,
+ tipoAssinatura: tipoAssinatura,
+ tipoLogin: tipoLogin,
+ userID: userID,
+ verifyCrossDomainIdGlobal: verifyCrossDomainIdGlobal,
+ sessionPrefix: sessionPrefix
+ };
+ })();
+
+ if ( !AbrilCustomDimension.checkUnicIdGlobal()) {
+ AbrilCustomDimension.persistIdGlobal();
+ }
+
+ 
+
+
+
+ 
+
+
+
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/abril-viagemeturismo\/*","\/wp-content\/themes\/abril-master2\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+
+
+
+
+ n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script',
+ '//gadasource.storage.googleapis.com/ivc.js','ivc'));
+ idWeb: '331'
+ });
+ 
+var ajaxurl = "https:\/\/viagemeturismo.abril.com.br\/wp-admin\/admin-ajax.php";
+ 
+
+ 
+
+ });
+ 
+
+
+
+
+
+
+
+ // Mantém rastreamento de quais eventNames já foram enviados ao GA nesta página.
+ var audimaForwarded = {};
+ function audimaAnalyticsForwarder(event){
+ var d = event.data || {};
+ 
+
+ if (typeof d !== 'object') { return; }
+
+ // Aceita apenas mensagens da Audima que sejam do tipo "analytics".
+ if (d.message === 'analytics') {
+ let safeParams = {};
+ try {
+ // Garante que eventParams seja serializável (sem referências circulares).
+ if (d.eventParams && typeof d.eventParams === 'object') {
+ JSON.stringify(d.eventParams); // Dispara erro se houver referência circular
+ safeParams = d.eventParams;
+ if( d.eventName === 'PlayerAudima' ){
+ d.eventName = 'player_audima';
+ }
+ }
+ } catch (e) {
+ console.warn('eventParams inválido ou com referência circular:', e);
+ }
+ }
+ }
+ }
+ if (typeof window !== 'undefined') {
+ }
+ })();
+
+
+
+
+
+
+
+
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var templateResumoJsObj = {"ajaxurl":"https:\/\/viagemeturismo.abril.com.br\/wp-admin\/admin-ajax.php","nonce":"8633369a18"};
+
+
+
+
+
+
+
+
+_stq.push([ "view", JSON.parse("{\"v\":\"ext\",\"blog\":\"184719887\",\"post\":\"67065\",\"tz\":\"-3\",\"srv\":\"viagemeturismo.abril.com.br\",\"hp\":\"vip\",\"j\":\"1:14.3\"}") ]);
+_stq.push([ "clickTrackerInit", "184719887", "67065" ]);
+
+
+
+
+var fcSettings = {"nonce":"52SBWZ11kIW04--S8AXODg","displayMessage":""};
+
+
+
+
+ 
+
+ if (
+ document.location.href.indexOf("/assine/") === -1 &&
+ document.location.href.indexOf("/assinar/") === -1 &&
+ document.location.href.indexOf("/login") === -1 &&
+ document.location.href.indexOf("/ofertas") === -1 &&
+ document.location.href.indexOf("/login-vivo-fibra") === -1 &&
+ document.location.href.indexOf("/btg-especial-financas") === -1 &&
+ document.location.href.indexOf("/25-viagens-para-fazer-em-2025-especial-btg") === -1 &&
+ document.location.href.indexOf("assine.abril.com.br") === -1
+ ) {
+
+ function addScriptToHead() {
+ var scriptElement = document.createElement('script');
+ scriptElement.src = 'https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/js/abrad.min.js?ver=3.0.1';
+ document.body.appendChild(scriptElement);
+ }
+
+ function handleScroll() {
+
+ eventos.forEach(function (evento) {
+ });
+
+ addScriptToHead();
+ }
+
+ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+ var eventos = ["scroll"];
+ } else {
+ var eventos = ["keydown", "mousemove", "touchmove", "touchstart", "touchend", "wheel", "scroll", "click"];
+ }
+
+ });
+ }
+ 
+
+ 
+
+
+
+
+$("#user-exp-alerts-wrapper").css('visibility','hidden');
+scripts_dinamicos_carregados = false;
+scripts_dinamicos_click = false;
+function scripts_add(){
+
+ if( scripts_dinamicos_carregados === true){
+ return;
+ }
+
+ console.log("ADD SCRIPTS");
+ 
+ const script_0 = document.createElement('script');
+ script_0.src = 'https://news.google.com/swg/js/v1/swg.js?ver=3.0.1';
+ document.body.appendChild(script_0);
+
+ 
+ const script_1 = document.createElement('script');
+ script_1.src = 'https://viagemeturismo.abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/abril-firebase-auth/abril-swg.js?ver=3.0.1';
+ document.body.appendChild(script_1);
+
+ 
+ const script_2 = document.createElement('script');
+ script_2.src = 'https://viagemeturismo.abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/abril-firebase-auth/abril-interface-middleware.js?ver=3.0.1';
+ document.body.appendChild(script_2);
+
+ 
+ const script_3 = document.createElement('script');
+ script_3.src = 'https://viagemeturismo.abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/abril-firebase-auth/abril-paywall.js?ver=3.0.1';
+ document.body.appendChild(script_3);
+
+ 
+ const script_4 = document.createElement('script');
+ script_4.src = 'https://viagemeturismo.abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/abril-firebase-auth/abril-login.js?ver=3.0.1';
+ document.body.appendChild(script_4);
+
+ 
+ const script_5 = document.createElement('script');
+ script_5.src = 'https://viagemeturismo.abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/abril-firebase-auth/abril-paywall-ofertas.js?ver=3.0.1';
+ document.body.appendChild(script_5);
+
+ 
+ const script_6 = document.createElement('script');
+ script_6.src = 'https://accounts.google.com/gsi/client?ver=3.0.1';
+ script_6.async = true;
+ document.body.appendChild(script_6);
+
+ 
+ const script_7 = document.createElement('script');
+ script_7.src = 'https://viagemeturismo.abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/abril-firebase-auth/page-interactions.js?ver=3.0.1';
+ document.body.appendChild(script_7);
+
+ 
+ const script_8 = document.createElement('script');
+ script_8.src = 'https://viagemeturismo.abril.com.br/wp-content/plugins/abril-plugins/abril-paywall/js/abril-firebase-auth/bundle.js?ver=3.0.1';
+ document.body.appendChild(script_8);
+
+ scripts_dinamicos_carregados = true;
+ return ;
+
+}
+
+
+ scripts_add();
+});
+
+
+function scripts_add_click(clallback, param){
+ if( scripts_dinamicos_carregados !== true){
+ scripts_add();
+ scripts_dinamicos_carregados = true;
+ }
+ if( typeof AbrilLogin === 'undefined' ){
+ return setTimeout(() => {
+ scripts_add_click(clallback, param);
+ }, "1000");
+ }
+ pcallback = eval("(" + clallback + ")");
+ return pcallback(param);
+}
+
+$(".menuOpener").click( () =>{ 
+ if( scripts_dinamicos_carregados !== true){
+ scripts_add();
+ scripts_dinamicos_carregados = true;
+ }
+ return;
+
+} );
+
+$("#user-exp-ctrl").on("click", function () {
+ $("#user-exp-login-spinner").addClass("loadExpLoggedSpinner");
+ $('#user-exp-ctrl').css("pointerEvents", "none");
+ $("#header-user-exp-ctrl").css("pointerEvents", "none");
+ $("#user-exp-login-spinner").toggleClass("show");
+ $("html").toggleClass("user-exp-overflow");
+ // refatora
+ $('#user-exp-ctrl').css("pointerEvents", "none");
+ $("#header-user-exp-ctrl").css("pointerEvents", "none");
+ $("#user-exp-menu").toggleClass("show");
+ $("#user-exp-menu-fade").toggleClass("show");
+ $("#user-exp-login-spinner").removeClass("loadExpLoggedSpinner");
+ if( scripts_dinamicos_carregados !== true){
+ scripts_add();
+ scripts_dinamicos_carregados = true;
+ }
+ AbrilNotificacoes.ler(1);
+ return;
+} );
+
+$(".user-alert-close img").on("click", function () {
+ $('#user-exp-ctrl').css("pointerEvents", "auto")
+ $("#header-user-exp-ctrl").css("pointerEvents", "auto");
+ $("#user-exp-menu").removeClass("show");
+ $("#user-exp-menu-fade").removeClass("show");
+ $("html").toggleClass("user-exp-overflow");
+ $("#user-exp-login-spinner").toggleClass("show");
+ if($(".user-alert-icon img").length > 0){
+ $(".user-alert-icon img").css("display", "none");
+ }
+ if($(".user-alert-icon").length > 0){
+ $(".user-alert-icon").css("display", "none");
+ }
+});
+
+var AbrilNotificacoes = (function () {
+ var cokieName = "notificationsControl";
+ var storageName = "abrilNotificacoes";
+ function init(){
+ const data_info = JSON.parse(localStorage.getItem('abrilNotificacoes'));
+ console.log('AbrilNotificacoes.init()');
+
+ if(data_info===null){
+ $('.user-avatar-name').css('display','inline');
+ $('#user-exp-ctrl .user-avatar').css('display', 'none');
+ $('.user-avatar-name').css('display','inline-block')
+ $('#user-exp-ctrl .user-avatar').css('display','none');
+ $('.user-avatar.user-avatar-notification').css('display', 'none');
+ $("#user-exp-alerts-wrapper").css('visibility','hidden');
+ $(".user-exp-detail").css('border-radius','0 0 4px 4px');
+ return;
+ }
+
+ $("#user-exp-login-spinner").removeClass("loadExpLoggedSpinner");
+ if (data_info.avatar) {
+ $('.user-avatar-name').css('display','none');
+ $('#user-exp-ctrl .user-avatar').attr('src', data_info.avatar).css('display', 'inline');
+ $('.user-avatar.user-avatar-notification').attr('src', data_info.avatar).css('display', 'inline');
+ $(".user-alert-icon").addClass("user-alert-foto");
+ } else {
+ $('.user-avatar-name').css('display','inline-block')
+ $('#user-exp-ctrl .user-avatar').css('display','none');
+ $('.user-avatar.user-avatar-notification').css('display', 'none');
+ $(".user-alert-icon").removeClass("user-alert-foto");
+ }
+
+ if(typeof data_info.visualizado !=="undefined"){
+ if(data_info.visualizado === true){
+ $("#user-exp-ctrl").attr("data-visualizado", true);
+ $(".user-alert-icon").css("display", "none");
+ }else{
+ $("#user-exp-ctrl").attr("data-visualizado", false);
+ $(".user-alert-icon").css("display", "inline-block");
+ }
+ }
+
+ let perfilUrl = 'https://minha.abril.com.br';
+ if(assine_environment[0]==='sandbox'){
+ perfilUrl = 'https://homolog-minha.abril.com.br';
+ }
+
+ $('.user-exp-account a').attr('href', perfilUrl);
+
+ if(typeof data_info.notifications === 'undefined'){
+ $("#user-exp-alerts-wrapper").css('visibility','hidden');
+ $(".user-exp-detail").css('border-radius','0 0 4px 4px');
+ return;
+ }
+
+ if(data_info.notifications === null){
+ $("#user-exp-alerts-wrapper").css({'visibility':'hidden'});
+ $(".user-exp-detail").css({'border-radius':'0 0 4px 4px'});
+ return;
+ }
+
+ return AbrilNotificacoes.montar(data_info.notifications, perfilUrl)
+ }
+
+ function montar(notifications, perfilUrl){
+ let htmlMsg = '';
+ let temCritico = '';
+ if(notifications.length >= 1){
+ $("#user-exp-alerts-wrapper").css("visibility", "visible");
+ let total = notifications.length;
+
+ const unicNotifications = Object.values(
+ notifications.reduce((acc, obj) => ({ ...acc, [obj.dscTituloNotificacao]: obj }), {})
+ );
+ 
+ unicNotifications.forEach((msg, i) => {
+ console.log(msg);
+ let titulo = msg.dscTituloNotificacao? msg.dscTituloNotificacao : msg.codTipoNotificacao;
+ let critico = msg.critico;
+ if ('sim' === critico) {
+ temCritico = 'sim';
+ }
+
+ let bg = msg.codCorTextoNotificacao? ' style="background-color: '+msg.codCorTextoNotificacao+'"': '';
+ if(i<=1){
+ if ('sim' === critico) {
+ htmlMsg += '<div class="user-exp-row user-alert-critico">';
+ }
+ else {
+ htmlMsg += '<div class="user-exp-row">';
+ }
+ htmlMsg += '<div class="info">';
+ htmlMsg += '<p class="user-alert-title"><mark'+bg+'>'+titulo+'</mark></p>';
+ htmlMsg += '</div>';
+ if(msg.txtNotificacao != null){
+ htmlMsg += '<div class="textlink"><a href="'+msg.dscUrlMinhaAbril+'">';
+ htmlMsg += convertHtml(msg.txtNotificacao) + '</a></div>';
+ }
+ htmlMsg += '</div>';
+ }
+ if(i==2){
+ htmlMsg += '<div class="user-exp-row"><div class="info-more">';
+ htmlMsg += '<p class="user-alert-title">Você tem <span class="user-alert-qt">+ alertas</span>. ';
+ htmlMsg += '<a href="'+perfilUrl+'/mural/" target="blank">Saiba mais...</a></p></div></div>';
+ }
+ });
+ }
+ $("#user-exp-alerts-wrapper").html('<div class="user-exp-menu-fade-alerts"></div>' +htmlMsg);
+ return;
+ }
+
+ function criar(userID, mostrar=false) {
+ console.log("AbrilNotificacoes.cria notificações storage", mostrar);
+ if (Number.isInteger(userID) !== true) {
+ console.log("AbrilNotificacoes.cria userID invalido");
+ return;
+ }
+ 
+ sendAjax(userID, false);
+ if(mostrar === true){
+ AbrilNotificacoes.init();
+ }
+ }
+
+ async function sendAjax(userID, visualizar=false){
+ console.log("AbrilNotificacoes: sendAjax");
+ if( checkCokieNotifications() && checkStorageNotifications() ){
+ console.log("AbrilNotificacoes: ja existe storage não criar");
+ init();
+ return;
+ }
+ 
+ const myHeaders = new Headers();
+ myHeaders.append("Content-Type", "application/x-www-form-urlencoded");
+ 
+ const data = new URLSearchParams();
+ data.append("action", "get_notification_user");
+ data.append("_token", document.getElementById("notification_user_ajax_nonce").value);
+ data.append("crm", userID);
+ 
+ const requestOptions = {
+ method: "POST",
+ headers: myHeaders,
+ body: data
+ }
+ 
+ const response = await fetch(ajaxurl, requestOptions)
+ .then((response) => response.json())
+ .then((result) => {
+ console.log(result)
+ salvar(result);
+ createCokieNotifications();
+ console.log("AbrilNotificacoes: notificações criadas");
+ })
+ .catch((error) => {
+ console.error(error)
+ console.log("AbrilNotificacoes: Erro Notifications 1");
+ });
+ init();
+ }
+
+ function ler(userID){
+ console.log("AbrilNotificacoes.ler notificações storage");
+ if (Number.isInteger(userID) !== true) {
+ console.log("AbrilNotificacoes.ler userID invalido");
+ return;
+ }
+
+ $("#user-exp-ctrl").attr("data-visualizado", true);
+ $(".user-alert-icon").css("display", "none");
+
+ console.log("AbrilNotificacoes: sava 3");
+ changeStorageStatusLida();
+ //sendAjax(userID, true);
+ }
+
+ function salvar(data){
+ if (!data) {
+ return;
+ }
+ localStorage.setItem("abrilNotificacoes", JSON.stringify(data));
+ }
+
+ function excluir(){
+ localStorage.removeItem('abrilNotificacoes');
+ deleteCokieNotifications();
+ $("#user-exp-ctrl").attr("data-visualizado", true);
+ $(".user-alert-icon").css("display", "none");
+ console.log('AbrilNotificacoes.excluir');
+ return init();
+ }
+
+ function convertHtml(text){
+ text = text.replaceAll(/&lt;/g,'<');
+ text = text.replaceAll(/&gt;/g,'>');
+ text = text.replaceAll(/&amp;/g,'&');
+ text = text.replaceAll(/&quot;/g,'"');
+ return text;
+ }
+
+ function createCokieNotifications(){
+ var d = '';
+ var value = true;
+ d = new Date();
+ d.setTime( d.getTime() + (1000*60*60*24)) ;
+ expires = "expires="+ d.toUTCString();
+ return document.cookie = cokieName+"="+value+";" + expires + ";domain=.abril.com.br;path=/";
+ } 
+
+ function checkCokieNotifications(){
+ var nameEQ = cokieName + "=";
+ var ca = document.cookie.split(";");
+ for (var i = 0; i < ca.length; i++) {
+ var c = ca[i];
+ while (c.charAt(0) == " ") c = c.substring(1, c.length);
+ if (c.indexOf(nameEQ) == 0) {
+ return true;
+ }
+ }
+ 
+ return false;
+ }
+ 
+ function deleteCokieNotifications() {
+ let cookie_params = cokieName +"=" +
+ ";domain=.abril.com.br" + 
+ "expires=Thu, 01 Jan 1970 00:00:01 GMT";
+ document.cookie = cookie_params;
+ }
+
+ function checkStorageNotifications(){
+ if( localStorage.getItem(storageName) ){
+ return true;
+ }
+ return false;
+ } 
+
+ function changeStorageStatusLida(){
+ if( data = localStorage.getItem(storageName) ){
+ data = JSON.parse(localStorage.getItem(storageName));
+ data.visualizado =true;
+ localStorage.setItem(storageName, JSON.stringify(data));
+ }
+ return ;
+ }
+ 
+ function checkNotificationsExists(){
+ return checkCokieNotifications() && checkStorageNotifications();
+ }
+ 
+ return {
+ init: init,
+ montar, montar,
+ criar: criar,
+ excluir: excluir,
+ ler: ler,
+ changeStorageStatusLida: changeStorageStatusLida,
+ check: checkNotificationsExists
+ };
+})();
+
+
+
+ 
+
+ const storageUser = "abrilAssetsUser";
+
+ function setMessage(mensagem, name, line, tipo) {
+ cor = "#000000";
+ if (tipo !== undefined) {
+ cor = "#FFFFFF";
+ }
+ console.log("%c" + name + " | linha: " + line + "\n" + mensagem,
+ "color:" + cor + "; background-color: " + corTipo(tipo) + "; padding:3px 10px;");
+ return;
+ }
+
+ function corTipo(tipo) {
+ switch (tipo) {
+ case "alert":
+ cor = '#FF8000'
+ break;
+ case "alert":
+ cor = '#D90000'
+ break;
+ case "success":
+ cor = '#00B200'
+ break;
+ default:
+ cor = "#FFFFFF";
+ }
+ return cor;
+ }
+
+ function montarHeaderLogged(userBundle) {
+ const dataUser = JSON.parse(localStorage.getItem(storageUser));
+ console.log("montarHeaderLogged", userBundle);
+
+ const ofertaDiv = document.querySelector('.menu-oferta-aovivo');
+ if (ofertaDiv && userBundle == true) {
+ ofertaDiv.style.display = 'none';
+ }
+
+ objHideShow(".user-alert-icon", "none");
+ if (dataUser.nome.length > 0) {
+ objPointerEvents(".sub-header .search-area a");
+ if (document.querySelectorAll(".user-Name").length > 0) {
+ let inicialNome = dataUser.nome.substr(0, 2);
+ let nomeSobrenome = dataUser.nome.substr(0, 2);
+ let qtdNomes = dataUser.nome.split(' ').length;
+ let nomPessoaFirstName = dataUser.nome;
+ if (dataUser.nome.split(' ')[0] !== undefined) {
+ nomPessoaFirstName = dataUser.nome.split(' ')[0];
+ nomeSobrenome = nomPessoaFirstName;
+ }
+ if (qtdNomes > 1) {
+ inicialNome = dataUser.nome.split(' ')[0].substr(0, 1) + dataUser.nome.split(' ')[qtdNomes-1].substr(0, 1);
+ nomeSobrenome = dataUser.nome.split(' ')[0] + ' ' + dataUser.nome.split(' ')[qtdNomes-1];
+ }
+ objValue(".user-Name", inicialNome, "text");
+ 
+ objHideShow("#user-exp-ctrl .user-avatar", "none");
+ objHideShow("#user-exp-ctrl .user-avatar-name", "inline");
+ objValue("#userName", "OLÁ, " + nomeSobrenome, "text");
+ objValue(".userNameExp", nomPessoaFirstName, "text");
+ objValue("#userNameExpToggled", nomeSobrenome, "text");
+ objValue("#userExpEmail", dataUser.email, "text");
+ }
+ }
+ if(document.getElementById("header-user-exp-ctrl") !== null) {
+ objHideShow(".hot-topics-user-exp", "block");
+ }
+ objAddRemoveClass('body', 'add', 'logged-block');
+ objHideShow("#login", "none");
+ objHideShow("#assinemenu", "none");
+ objHideShow("#logintop", "none");
+ objHideShow(".sidebarMenu .assine-btn", "none");
+ objHideShow(".assinante", "none");
+ objHideShow("#user-exp-login", "none");
+ objHideShow("#logout", "inline");
+ objHideShow("#logout2", "inline");
+ objAddRemoveClass('body', 'add', 'logged');
+ objHideShow(".search-area a:not(.btn-assine-abril)", "none");
+ $('body').addClass('logged');
+ objHideShow(".assinetop", "none");
+ }
+ if($("#header-user-exp-ctrl").length) {
+ $("#header-user-exp-ctrl").show();
+ $(".assinante").hide();
+ }
+ 
+ if(userBundle === true) {
+ if(AbrilNotificacoes.check()){
+ AbrilNotificacoes.init();
+ }else{
+ AbrilNotificacoes.criar(dataUser.crm, true);
+ }
+ }
+ return;
+ }
+
+ function montarHeaderNotLogged() {
+ objPointerEvents(".sub-header .search-area a");
+ objHideShow("#login", "block");
+ objHideShow("#assinemenu", "block");
+ objHideShow("#logintop", "block");
+ objHideShow("#logout", "block");
+ objHideShow(".buscaVivo", "class", "block");
+ objHideShow("#logout2", "none");
+ objHideShow("#assine_top", "block");
+ objHideShow("#logout", "none");
+ objHideShow("#logout", "none");
+ objHideShow(".sub-header .search-area a", "block");
+ objAddRemoveClass(".sub-header .search-area a", "remove", "hide-s");
+ objAddRemoveClass("body", "remove", "logged");
+ objValue(".userNameExp", "Usuário", "text");
+ objValue("#userName", "Usuário", "text");
+ objHideShow(".assinetop", "none");
+ objAddRemoveClass(".mobile-assine", "add", "on");
+ }
+ return;
+ }
+
+ function objHideShow(name, value) {
+ const objs = document.querySelectorAll(name);
+ objs.forEach(obj => {
+ obj.style.display = value;
+ });
+ }
+
+ function objAddRemoveClass(name, action, value) {
+ const objs = document.querySelectorAll(name);
+ objs.forEach(obj => {
+ if (action === 'add') {
+ obj.classList.add(value);
+ }
+ if (action === 'remove') {
+ obj.classList.remove(value);
+ }
+ });
+ }
+
+ function objPointerEvents(name) {
+ const objs = document.querySelectorAll(name);
+ objs.forEach(obj => {
+ obj.style.pointerEvents = 'initial';
+ });
+ }
+
+ function objValue(name, value, type = 'text') {
+ const objs = document.querySelectorAll(name);
+ objs.forEach(obj => {
+ if (type === 'text') {
+ obj.innerText = value;
+ }
+ if (type === 'value') {
+ obj.value = value;
+ }
+ });
+ }
+
+ function getUser(userBundle = false) {
+ let userStorage = localStorage.getItem(storageUser);
+ let dateNow = new Date().toLocaleString("pt-BR");
+ if(userStorage !== null) {
+ userBundle = true;
+ }
+ if (userBundle === true) {
+ return AbrilUserHeader.montarHeaderLogged(true);
+ } else if (userStorage !== null) {
+ return AbrilUserHeader.montarHeaderLogged(false);
+ }
+ const ofertaDiv = document.querySelector('.menu-oferta-aovivo');
+ if (ofertaDiv) {
+ ofertaDiv.style.display = 'block';
+ }
+ return AbrilUserHeader.montarHeaderNotLogged();
+ }
+
+ return {
+ setMessage,
+ getUser,
+ montarHeaderLogged,
+ montarHeaderNotLogged,
+ objAddRemoveClass
+ }
+ })();
+ AbrilUserHeader.getUser(false);
+ 
+
+ 
+
+ function loadPushNewsFile() {
+
+ let userStorage = JSON.parse(localStorage.getItem('abrilAssetsUser'));
+ if(typeof userStorage === "object" && userStorage !== null){
+ if(typeof userStorage.crm === "number" ){
+ console.log('PUSH NEWS CANCELADA - USER LOGADO');
+ return;
+ }
+ }
+
+ AbrilScriptsExec.createCookieListControl("abril_exec_pushNews");
+
+ let filePushNews = "https://cdn.pn.vg/push/pushnews-launcher.js?appId=acd3d6e0-397e-4727-9a18-a035002972f6";
+ 
+ console.log('CHAMA PUSH NEWS');
+
+ if(page.indexOf("abril.com.br/ofertas") !== -1){ return console.log("local pushnew bloqueou ofertas"); }
+ if(page.indexOf("abril.com.br/assinar") !== -1){ return console.log("local pushnew bloqueou assinar"); }
+ if(page.indexOf("abril.com.br/login") !== -1){ return console.log("local pushnew bloqueou login"); }
+
+ if('viagemeturismo' === 'boaforma'){
+ let showPush = false;
+ if((jQuery('body.single-post .article-tags.tags').length > 0 && jQuery(window).scrollTop() >= jQuery('body.single-post .article-tags.tags')[0].offsetTop) ||
+ (jQuery('body.single-blog_post .article-tags.tags').length > 0 && jQuery(window).scrollTop() >= jQuery('body.single-blog_post .article-tags.tags')[0].offsetTop) ||
+ (jQuery('article.special-post section').length > 0 && jQuery(window).scrollTop() >= jQuery('article.special-post section').last()[0].offsetTop)){
+ showPush = true;
+ } else if(jQuery(window).scrollTop() >= (jQuery(document).height() / 2)){
+ showPush = true;
+ } else {
+ showPush = false;
+ }
+
+ if(false === jQuery('#user-exp-menu-fade.show').length > 0 && showPush === true) {
+ console.log('EXECUTA PUSH NEWS BOA FORMA')
+ var pushNewsScript = document.createElement("script");
+ pushNewsScript.src = filePushNews;
+ pushNewsScript.async = true;
+ document.body.appendChild(pushNewsScript);
+ }
+ });
+ } else {
+ if(false === jQuery('#user-exp-menu-fade.show').length > 0) {
+ console.log('EXECUTA PUSH NEWS GERAL')
+ var pushNewsScript = document.createElement("script");
+ pushNewsScript.src = filePushNews;
+ pushNewsScript.async = true;
+ document.body.appendChild(pushNewsScript);
+ }
+ });
+ }
+ }
+/* Remove regra de 1 pushnews oor dia */
+/* 
+ var execPushNews = AbrilScriptsExec.checkCookieListControl("abril_exec_pushNews");
+ if ( execPushNews ) {
+ AbrilScriptsExec.removeFunctionList("loadPushNewsFile");
+ console.log('Removeu PushNews File');
+ }
+*/
+ AbrilScriptsExec.setLoadStatus("loadPushNewsFile");
+
+ if( AbrilScriptsExec.checkDirectExec("loadPushNewsFile") ){
+ loadPushNewsFile();
+ }
+ 
+
+ 
+ 
+
+ var bannerTime = 5000;
+ abrConfSite = {
+ "adsTargets": "editorias=Mat\u00e9rias;tags=Centro de S\u00e3o Paulo, roteiros tur\u00edsticos, S\u00e3o Paulo (capital), patrocinado, , campanha-patrocinado, ",
+ "abrAdsArea": "viagemeturismo\/materias" }
+ if($(window).width() < 991) {
+ abrConfSite.abrAdMap = "https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/js/ads/ads_master_smartphone.json";
+ } else {
+ abrConfSite.abrAdMap = "https://viagemeturismo.abril.com.br/wp-content/themes/abril-master2/js/ads/ads_master.json";
+ }
+ 
+
+
+
+ if(typeof wp_paywall_vars !== 'undefined'){
+ if( (wp_paywall_vars.tipo_paywall == "opened" || typeof wp_paywall_vars.tipo_paywall === 'undefined' || wp_paywall_vars.tipo_paywall == null || AbrilCustomDimension.verifyCookie("AbrilProductsUser") != '') && ( wp_paywall_vars.tipo_paywall != "closed" && wp_paywall_vars.tipo_paywall != "accounted") ){
+ AbrilCustomDimension.sendNavigationData();
+ }
+ }
+
+
+
+
+
+
+
+
+
+ let cs_fpid = AbrilCustomDimension.getUnicIdGlobal();
+ let cs_fpit = "lo";
+ let userStorage = JSON.parse(localStorage.getItem('abrilAssetsUser'));
+ if(typeof userStorage === "object" && userStorage !== null){
+ if(typeof userStorage.crm === "number" ){
+ //cs_fpid = userStorage.crm;
+ cs_fpit = "li"; 
+ }
+ }
+
+ let data_comscore = {
+ c1: "2", 
+ c2: "6906435",
+ cs_fpid: cs_fpid , 
+ cs_fpit: cs_fpit , 
+ cs_fpdm: "*null" , 
+ cs_fpdt: "01" ,
+ options: {
+ enableFirstPartyCookie: true,
+ bypassUserConsentRequirementFor1PCookie: true
+ }
+ };
+
+ console.log("COMSCORE");
+ console.log(data_comscore);
+
+ var _comscore = _comscore || [];
+ _comscore.push(data_comscore);
+ var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+ s.src = "https://sb.scorecardresearch.com/cs/6906435/beacon.js";
+ el.parentNode.insertBefore(s, el);
+ })();
+
+
+
+
+ &lt;img src=&#34;https://sb.scorecardresearch.com/p?c1=2&amp;amp;c2=6906435&amp;amp;cv=4.4.0&amp;amp;cj=1&#34; alt=&#34;Comscore&#34;&gt;
+
+
+
+
+
+
+
+
+
+200

@@ -1,326 +1,2025 @@
-   IFRAME: https://www.googletagmanager.com/ns.html?id=GTM-PX4JSCW
 
-   (BUTTON) Seções menu Gerais Política Economia Nacional Internacional
-   Saúde Cultura Degusta (BUTTON) Busca
-   Assine (BUTTON) Entrar
-   (BUTTON) fechar menu
-   Facebook Instagram Linkedin Logo Google Discovery
-   Assine (BUTTON) Entrar
-     * Gerais
-     * Política
-     * Economia
-     * Nacional
-     * Internacional
-     * DiversEM
-     * Saúde
-     * Colunistas
-     * Cultura
-     * BBB
-     * Educação
-     * Publicidade Legal
-     * Direito & Justiça Minas
+ 
 
-     * Regiões de Minas
-     * Opinião
-     * Especiais
-     * #PRAENTENDER
-     * Emprego
-     * Charges
-     * Turismo
-     * Ciência
-     * Feminino e Masculino
-     * Degusta
-     * Tecnologia
-     * Esportes
-     * Pensar
-     * Podcast
-     * (BUTTON) No Ataque
-          + Capa
-          + América
-          + Atlético
-          + Cruzeiro
+ 
 
-     * Agropecuário
-     * Entretenimento
-     * Horóscopo
-     * Divirta-se
-     * Apostas
-     * Capa do Dia
-     * Loterias
-     * Casa e Decoração
-     * Mundo Corporativo
 
-     * Portal Uai
-     * TV Alterosa
-     * Parceiros
-     * Blogs
-     * Aqui
-     * Vrum
-     * Sou BH
+&lt;iframe src=&#34;https://www.googletagmanager.com/ns.html?id=GTM-PX4JSCW&#34;
+height=&#34;0&#34; width=&#34;0&#34; style=&#34;display:none;visibility:hidden&#34;&gt;&lt;/iframe&gt;
 
-     * Assine
-     * Anuncie
-     * Newsletter
-     * Classificados
 
-     * Clube do Assinante
-     * EM Digital
-     * Espaço do Leitor
-     * Fale com o EM
-     * Perguntas Frequentes
+ 
 
-     * Publicidade Legal Aqui
-     * Conteúdo Patrocinado
-     * Política de privacidade
 
-   overlay
-   Início Trends
-   Turismo
 
+
+
+ 
+
+ .publicidade-ancorads {position: fixed; z-index: 9999; bottom: 0px; display: block; width: 100%; background: #fff; border-top: 10px solid #ededed; height: 110px; transition: bottom 1s;}
+ .publicidade-ancorads.closing {bottom: -100px;} 
+ .publicidade-ancorads .btn-close-ancorads {background-color: #ededed; width: 60px; height: 30px; top: -30px; z-index: 9999; display: block; position: absolute; right: 3%; border-radius: 10px;}
+ .publicidade-ancorads .btn-close-ancorads .close-button {padding: 5px;margin: 0 15px;fill: #8d8d8d;}
+ .publicidade-ancorads.closing {height: 0;} 
+ .publicidade-ancorads.closing .btn-close-ancorads{transform: rotate(180deg);} 
+
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+ var btnClsAncor = document.querySelector('.btn-close-ancorads'),
+ ancorado = document.querySelector('.publicidade-ancorads');
+ adsContainer = document.querySelector('#em-publicidade-ancorads');
+ btnClsAncor.addEventListener('click', ()=>{ancorado.classList.toggle('closing');})
+
+ const listener = new MutationObserver((mutationsList, listener) => {
+ mutationsList.forEach(mutation => {
+ if (mutation.type === 'childList' && adsContainer.childElementCount > 0) {
+ ancorado.classList.toggle('closing')
+ listener.disconnect()
+ }
+ });
+ });
+
+ listener.observe(adsContainer, { childList: true });
+
+ 
+
+
+ 
+
+ 
+ 
+
+ .modal {
+ display: none;
+ }
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+ document.body.classList.add('mobile');
+ 
+
+ 
+
+ .edm-page-news .edm-post-info .edm-bottom .edm-right .edm-google:after,
+ .edm-page-special-post .edm-post-info .edm-bottom .edm-right .edm-google:after,
+ .edm-page-sponsor-post .edm-post-info .edm-bottom .edm-right .edm-google:after {
+ background: url(/static/images/google-news.svg) no-repeat 50% / contain !important;
+ }
+
+ header.edm-header .edm-menu&gt;nav .edm-logo a {
+ background: url(/static/images/logo.svg) no-repeat 50% / contain !important;
+ }
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+Seções 
+menu
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Gerais
+
+ 
+Política
+
+ 
+Economia
+
+ 
+Nacional
+
+ 
+Internacional
+
+ 
+Saúde
+
+ 
+Cultura
+
+ 
+Degusta
+
+
+ 
+
+ 
+
+ 
+Busca
+
+
+ 
+
+ 
+Assine
+
+ 
+Entrar
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+fechar menu
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Facebook
+
+ 
+Instagram
+
+ 
+Linkedin
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+Assine
+
+ 
+Entrar
+
+ 
+
+
+ 
+
+ 
+
+ 
+Gerais
+
+ 
+Política
+
+ 
+Economia
+
+ 
+Nacional
+
+ 
+Internacional
+
+ 
+DiversEM
+
+ 
+Saúde
+
+ 
+Colunistas
+
+ 
+Cultura
+
+ 
+BBB
+
+ 
+Educação
+
+ 
+Publicidade Legal
+
+ 
+Direito &amp; Justiça Minas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Regiões de Minas
+
+ 
+Opinião
+
+ 
+Especiais
+
+ 
+#PRAENTENDER
+
+ 
+Emprego
+
+ 
+Charges
+
+ 
+Turismo
+
+ 
+Ciência
+
+ 
+Feminino e Masculino
+
+ 
+Degusta
+
+ 
+Tecnologia
+
+ 
+Esportes
+
+ 
+Pensar
+
+ 
+Podcast
+
+ 
+No Ataque
+
+ 
+
+ 
+
+ 
+Capa
+
+ 
+América
+
+ 
+Atlético
+
+ 
+Cruzeiro
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Agropecuário
+
+ 
+Entretenimento
+
+ 
+Horóscopo
+
+ 
+Divirta-se
+
+ 
+Apostas
+
+ 
+Capa do Dia
+
+ 
+Loterias
+
+ 
+Casa e Decoração
+
+ 
+Mundo Corporativo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Portal Uai
+
+ 
+TV Alterosa
+
+ 
+Parceiros
+
+ 
+Blogs
+
+ 
+Aqui
+
+ 
+Vrum
+
+ 
+Sou BH
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Assine
+
+ 
+Anuncie
+
+ 
+Newsletter
+
+ 
+Classificados
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Clube do Assinante
+
+ 
+EM Digital
+
+ 
+Espaço do Leitor
+
+ 
+Fale com o EM
+
+ 
+Perguntas Frequentes
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Publicidade Legal Aqui
+
+ 
+Conteúdo Patrocinado
+
+ 
+Política de privacidade
+
+ 
+
+ 
+
+ 
+overlay
+
+ 
+
+ 
+
+ 
+
+ const o = Array.from(document.querySelectorAll(".js-columnist")),
+ e = Array.from(document.querySelectorAll(".columnist")),
+ s = Array.from(document.querySelectorAll(".columnist-desc")),
+ c = Array.from(document.querySelectorAll(".columnist-share"));
+ o && o.forEach(o => {
+ o.classList.remove("columnist"), o.classList.remove("columnist-desc"), o.classList.remove("columnist-share")
+ }), e && e.forEach(o => o.classList.remove("columnist")), s && s.forEach(o => o.classList.remove("columnist-desc")), c && c.forEach(o => o.classList.remove("columnist-share"))
+ }
+ }();
+
+ function whatsappShare(url) {
+ // Verifica se o dispositivo é um desktop
+ // Abre a versão web do WhatsApp
+ } else {
+ // Abre o aplicativo do WhatsApp
+ }
+ }
+
+
+
+
+
+ header.edm-header .edm-submenu&gt;nav .edm-logo a {
+ height: 29px !important;
+ }
+
+
+
+
+
+
+ 
+
+ 
+ 
+Início
+
+ 
+ 
+Trends
+
+ 
+
+
+
+
+
+ 
+
+ 
+Turismo
+
+ 
 Rota da gastronomia: um roteiro de 3 dias pelas cidades de Minas Gerais
 
-Quer provar o melhor da comida mineira? Preparamos um guia com dicas de
-restaurantes e passeios em cidades como Tiradentes, Ouro Preto e Belo
-Horizonte
+ 
+Quer provar o melhor da comida mineira? Preparamos um guia com dicas de restaurantes e passeios em cidades como Tiradentes, Ouro Preto e Belo Horizonte
 
-   Publicidade
-   Carregando...
-   (BUTTON) Voltar (BUTTON) Próximo
-   JA
-   Juliane Aguiar
-   (BUTTON) info
-   JA
-   Juliane Aguiar
-   Repórter
-   E-mail
-   22/12/2025 14:23 - atualizado em 22/12/2025 16:55
+ 
 
-   compartilhe
-   facebook whatsapp
-   SIGA
-   x
-   Rota da gastronomia: um roteiro de 3 dias pelas cidades de Minas Gerais
-   Ouro Preto, cenário de história e sabores no roteiro gastronômico por
-   Minas Gerais. crédito: João André Simiquelli de Souza/ Wikimedia
-   Commons
 
-   Minas Gerais foi eleito recentemente um dos melhores destinos
-   gastronômicos do mundo para 2026 pela revista Condé Nast Traveler, uma
-   das principais publicações de turismo e lifestyle do planeta. Para quem
-   deseja mergulhar nesses sabores, preparamos um roteiro de três dias que
-   combina história, cultura e, claro, muita comida boa. O percurso passa
-   por Tiradentes, Ouro Preto e Belo Horizonte, cidades que são o coração
-   da culinária mineira.
+ 
 
-   Fique por dentro das notícias que importam para você!
-   SIGA O ESTADO DE MINAS NO Google Discover Icon Google Discover SIGA O
-   EM NO Google Discover Icon Google Discover
+ 
 
-   A viagem oferece uma experiência completa, desde pratos tradicionais
-   preparados em fogão a lenha até as criações inovadoras de chefs
-   contemporâneos. Sendo o único destino brasileiro na lista, o estado se
-   destaca pela riqueza de ingredientes e técnicas que tornam essa cozinha
-   única. Prepare-se para encontrar muito mais do que pão de queijo.
+ 
+Publicidade
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ .edm-most-read h4 {
+ margin: 0 !important;
+ }
+
+ #loadingMessage {
+ min-height: 73px;
+ }
+
+ @media (min-width: 990px) {
+ #loadingMessage {
+ min-height: 97px;
+ }
+ }
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Carregando...
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+Voltar
+
+ 
+Próximo
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ const carousel = document.querySelector('.edm-carousel-most-read.swiper');
+ const maislidasContainer = document.getElementById("maislidas");
+ const loadingMessage = document.getElementById("loadingMessage");
+
+ function verificarInicializacao() {
+ if (!carousel.classList.contains('swiper-initialized')) {
+ carousel.style.display = 'none'; // Oculta o carousel enquanto não está inicializado
+ loadingMessage.style.display = 'block'; // Mostra a mensagem de carregamento
+ } else {
+ carousel.style.display = 'block'; // Mostra o carousel quando está inicializado
+ loadingMessage.style.display = 'none'; // Oculta a mensagem de carregamento
+ }
+ }
+
+ verificarInicializacao();
+
+ const observer = new MutationObserver(verificarInicializacao);
+ observer.observe(carousel, {
+ attributes: true,
+ attributeFilter: ['class']
+ });
+
+ const header = document.createElement('span');
+ header.innerText = 'Mais lidas';
+ maislidasContainer.insertBefore(header, maislidasContainer.firstChild);
+
+ fetch('https://www.em.com.br/_conteudo/jsons/top-portal.json').then((response) => {
+ response.json().then((data) => {
+ const swiperWrapper = carousel.querySelector('.swiper-wrapper');
+ swiperWrapper.innerHTML = ''; // Limpa o conteúdo atual do swiper-wrapper
+
+ for (let i = 0; i <= 4; i++) {
+ swiperWrapper.insertAdjacentHTML(
+ "beforeend",
+ `<div class="swiper-slide">
+ <h4>
+ <a title="${data.matia[i].title}" data-tb-link href="${data.matia[i].link}" target="_blank">
+ ${data.matia[i].title}
+ </a>
+ </h4>
+ </div>`
+ );
+ }
+ verificarInicializacao();
+ });
+ });
+ 
+
+
+ 
+
+ .swiper-slide h5 {
+ margin: 0 !important;
+ }
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+
+
+ 
+
+ 
+JA
+ 
+
+ 
+Juliane Aguiar
+
+ 
+
+ 
+info
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+JA
+ 
+
+ 
+
+ 
+Juliane Aguiar
+
+ 
+Repórter
+
+ 
+
+ 
+
+ 
+
+ 
+E-mail
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+22/12/2025 14:23
+
+ - atualizado em 22/12/2025 16:55 
+
+ 
+
+ 
+compartilhe
+
+ 
+
+ 
+
+ 
+facebook
+
+ 
+
+ 
+
+ 
+whatsapp
+
+ 
+
+ 
+
+ 
+
+ SIGA
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ .edm-bottom .edm-right p {
+ margin: 0 !important;
+ }
+
+ .edm-read-more {
+ margin-bottom: 20px !important;
+ }
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ .corpo-texto .foto-noticia {
+ position: relative
+ }
+
+ .publicidade-in-image {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+ z-index: 9;
+ background-color: rgba(0, 0, 0, 0.6);
+ }
+
+ .in-image-close {
+ width: 35px;
+ height: 20px;
+ background-color: rgba(0, 0, 0, 0.6);
+ border-radius: 100% 100% 0 0;
+ position: absolute;
+ align-items: center;
+ display: flex;
+ justify-content: center;
+ right: 0px;
+ top: -20px;
+ cursor: pointer;
+ color: #d9d9d9;
+ }
+
+ figure.news-photo picture {
+ position: relative;
+ height: auto;
+ display: block;
+ }
+
+ figure img {
+ max-width: 100% !important;
+ }
+ 
+
+ 
+
+ 
+x
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Ouro Preto, cenário de história e sabores no roteiro gastronômico por Minas Gerais. 
+crédito: João André Simiquelli de Souza/ Wikimedia Commons
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ .edm-cms-content a {
+ color: #1973B4 !important;
+ font-family: Merriweather;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 30px;
+ text-decoration-line: underline;
+ }
+ 
+
+
+
+
+ 
+Minas Gerais foi eleito recentemente um dos melhores destinos gastronômicos do mundo para 2026 pela 
+revista Condé Nast Traveler
+, uma das principais publicações de turismo e lifestyle do planeta. Para quem deseja mergulhar nesses sabores, preparamos um roteiro de três dias que combina história, cultura e, claro, muita comida boa. O percurso passa por Tiradentes, Ouro Preto e Belo Horizonte, cidades que são o coração da culinária mineira.
+Fique por dentro das notícias que importam para você!
+ 
+SIGA O 
+ESTADO DE MINAS
+ NO
+ 
+ 
+ 
+SIGA O 
+EM
+ NO
+ 
+ 
+
+
+A viagem oferece uma experiência completa, desde pratos tradicionais preparados em fogão a lenha até as criações inovadoras de chefs contemporâneos. Sendo o único destino brasileiro na lista, o estado se destaca pela riqueza de ingredientes e técnicas que tornam essa cozinha única. Prepare-se para encontrar muito mais do que pão de queijo.
+
 
 Leia Mais
 
-     * Minas Gerais é eleito um dos melhores destinos do planeta para 2026
-     * Minas Gerais na rota dos gringos: por que o estado virou queridinho
-     * Comida mineira está entre as 30 melhores do mundo, elege
-       'TasteAtlas'
+
+
+
+
+
+Minas Gerais é eleito um dos melhores destinos do planeta para 2026
+
+
+
+
+
+
+Minas Gerais na rota dos gringos: por que o estado virou queridinho
+
+
+
+
+
+
+Comida mineira está entre as 30 melhores do mundo, elege &#39;TasteAtlas&#39;
+
+
+
+
+
 
 Dia 1: Charme e tradição em Tiradentes
 
-   Comece o roteiro em Tiradentes, onde o cenário colonial serve de palco
-   para uma gastronomia sofisticada e, ao mesmo tempo, de raiz. A cidade é
-   famosa por seus restaurantes que valorizam ingredientes locais e por
-   sediar o tradicional Festival Cultura e Gastronomia. Passeie pelas ruas
-   de pedra e aproveite para almoçar em um local que ofereça o clássico
-   frango com quiabo ou a costelinha com ora-pro-nóbis.
 
-   À noite, a cidade se ilumina e o clima fica ainda mais convidativo. É a
-   oportunidade ideal para provar pratos mais elaborados, como o leitão à
-   pururuca, um dos carros-chefes da região. Não deixe de visitar as
-   lojinhas de doces para levar para casa compotas, goiabadas e o
-   autêntico doce de leite mineiro.
+Comece o 
+roteiro em Tiradentes
+, onde o cenário colonial serve de palco para uma gastronomia sofisticada e, ao mesmo tempo, de raiz. A cidade é famosa por seus restaurantes que valorizam ingredientes locais e por sediar o tradicional Festival Cultura e Gastronomia. Passeie pelas ruas de pedra e aproveite para almoçar em um local que ofereça o clássico frango com quiabo ou a costelinha com ora-pro-nóbis.
+
+
+À noite, a cidade se ilumina e o clima fica ainda mais convidativo. É a oportunidade ideal para provar pratos mais elaborados, como o leitão à pururuca, um dos carros-chefes da região. Não deixe de visitar as lojinhas de doces para levar para casa compotas, goiabadas e o autêntico doce de leite mineiro.
+
 
 Dia 2: Sabores com história em Ouro Preto
 
-   O segundo dia é em Ouro Preto, cidade que respira a história do ciclo
-   do ouro. Aqui, a culinária reflete a herança dos tropeiros e a fartura
-   das antigas fazendas. Pratos robustos como o feijão tropeiro e o tutu à
-   mineira são paradas obrigatórias para entender a alma da cozinha local.
-   Restaurantes instalados em casarões históricos tornam a refeição uma
-   verdadeira viagem no tempo.
+
+O segundo dia é em Ouro Preto, cidade que respira a história do ciclo do ouro. Aqui, a 
+culinária reflete a herança dos tropeiros
+ e a fartura das antigas fazendas. Pratos robustos como o feijão tropeiro e o tutu à mineira são paradas obrigatórias para entender a alma da cozinha local. Restaurantes instalados em casarões históricos tornam a refeição uma verdadeira viagem no tempo.
+
 
 Dia 3: O coração pulsante de Belo Horizonte
 
-   O roteiro termina na capital, Belo Horizonte, reconhecida pela UNESCO
-   como Cidade Criativa da Gastronomia e famosa por sua vibrante cultura
-   de botecos. O ponto de partida é o Mercado Central, um labirinto de
-   cores, aromas e sons. Lá, a dica é provar o famoso fígado com jiló
-   acompanhado de uma cerveja gelada ou simplesmente se perder entre as
-   bancas de queijos, pimentas e artesanato.
 
-   A cidade oferece um leque gastronômico que vai dos bares mais
-   tradicionais, com comida de estufa e porções generosas, a restaurantes
-   de alta gastronomia que reinventam clássicos mineiros. Caminhar pelo
-   bairro de Lourdes ou Savassi revela dezenas de opções para fechar a
-   viagem com uma experiência que mostra por que a comida de Minas é tão
-   aclamada.
+O roteiro termina na capital, 
+Belo Horizonte
+, reconhecida pela UNESCO como Cidade Criativa da Gastronomia e famosa por sua vibrante cultura de botecos. O ponto de partida é o Mercado Central, um labirinto de cores, aromas e sons. Lá, a dica é provar o famoso fígado com jiló acompanhado de uma cerveja gelada ou simplesmente se perder entre as bancas de queijos, pimentas e artesanato.
 
-   Siga nosso canal no WhatsApp e receba notícias relevantes para o seu
-   dia
 
-   Uma ferramenta de IA foi usada para auxiliar na produção desta
-   reportagem, sob supervisão editorial humana.
+A cidade oferece um leque gastronômico que vai dos bares mais tradicionais, com comida de estufa e porções generosas, a restaurantes de alta gastronomia que reinventam clássicos mineiros. Caminhar pelo bairro de Lourdes ou Savassi revela dezenas de opções para fechar a viagem com uma experiência que mostra por que a 
+comida de Minas
+ é tão aclamada.
+ 
+Siga nosso canal no WhatsApp e receba notícias relevantes para o seu dia
 
-   Tópicos relacionados:
-   comida-mineira minas-gerais
+ 
 
-   compartilhe
-   facebook whatsapp
+Uma ferramenta de IA foi usada para auxiliar na produção desta reportagem, sob supervisão editorial humana.
+ 
 
+ 
+ 
+
+ 
+Tópicos relacionados:
+
+ 
+comida-mineira
+
+ 
+minas-gerais
+
+ 
+
+ 
+ 
+
+ 
+compartilhe
+
+ 
+
+ 
+
+ 
+facebook
+
+ 
+
+ 
+
+ 
+whatsapp
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+ var foto = document.querySelector('.edm-featured-image .news-feature-img');
+ var inImage = document.querySelector('.publicidade-in-image');
+ if (foto) {
+ var inImage = document.querySelector('.publicidade-in-image');
+ var image = document.querySelector('.in-image-close');
+ // foto.appendChild(inImage);
+ image.addEventListener('click', () => {
+ inImage.remove()
+ });
+ } else {
+ inImage.remove();
+ }
+
+
+
+
+ .publicidade-interna-container::before {
+ content: &#39;Continua após a Publicidade&#39;;
+ text-align: center;
+ width: 100%;
+ font-size: 11px;
+ color: #7d7d7d;
+ top: -20px;
+ position: absolute;
+ text-transform: uppercase;
+ }
+ .publicidade-interna-slot iframe {
+ /* width: 336px !important;
+ height: 280px !important;
+ aspect-ratio: unset !important; */
+ }
+ .publicidade-interna-container {
+ width: 100%;
+ min-height: 280px;
+ background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAK0lEQVQImT3JwQkAMAzDQNPsv1+yi43yCPQnTupu2wCgX8CrKkkzk0Rn9xczyijaHqaA3QAAAABJRU5ErkJggg==) 50%;
+ display: inline-flex;
+ margin: 20px 0;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+ position: relative;
+ }
+
+
+
+
+
+ function addPubContainer(parent, doublePub = false, video = false) {
+ minHeight = 0;
+ var pubDiv = document.createElement('div');
+ pubDiv.className = 'publicidade-interna-container';
+ parent.after(pubDiv);
+ addPubBlock(pubDiv, 'a', video);
+ if (article.offsetWidth > 680 && doublePub && !video) {
+ addPubBlock(pubDiv, 'b'); 
+ }
+ count++;
+ }
+
+ function addPubOutofpage(parent, id) {
+ minHeight = 0;
+ var pubDiv = document.createElement('div');
+ pubDiv.className = 'publicidade-interna-'.concat(id.replace('publicidade-', ''));
+ parent.after(pubDiv);
+ addPubBlockOutofpage(pubDiv, id);
+ }
+
+ function addPubBlockOutofpage(parent, id) {
+ var pubSlot = document.createElement('div');
+ pubSlot.id = id;
+ parent.appendChild(pubSlot);
+
+ slotdfpi[id] = googletag.defineOutOfPageSlot('/6887/em/'.concat(id.replace('publicidade-', '')), id).
+ setTargeting('formato', id.replace('publicidade-', '')).
+ setTargeting('pos', [(++indexformats).toString()]).
+ addService(googletag.pubads());
+ });
+ })(id);
+ }
+
+ function addPubBlock(parent, prefix = 'a', video = false) {
+ var formatosPub = [[300, 250],[336, 280]];
+ if(video) {
+ pos_id = 'retangulo-intext-video';
+ pubName = 'intext-video';
+ count--;
+ formatosPub = [[480,320],[300, 250],[336, 280],'fluid'];
+ }
+
+ var pubSlot = document.createElement('div');
+ var pos = ''.concat(count).concat('-'+prefix);
+ var pubName = pubName || 'intext-'+pos;
+ var pos_id = pos_id || 'retangulo-'.concat(pubName);
+ pubSlot.className = 'publicidade-interna-slot';
+ pubSlot.id = pos_id;
+ parent.appendChild(pubSlot);
+ // console.log(pos);
+
+ slotdfpi[pos_id] = googletag.defineSlot(diretoriodfp+'/'.concat(pubName), formatosPub, pos_id).
+ setTargeting('refresh_count','0').
+ setTargeting('pos',pos).
+ setTargeting('formato', 'retangulo-intext').
+ addService(googletag.pubads());
+ });
+ })(pos_id);
+ }
+ 
+ const article = document.querySelector(articleBody);
+ // const article = document.querySelector('div.entry');
+ var minHeight = 0;
+ var count = 1;
+ var slotdfpi = {};
+ var paragraphy = [];
+ var intext1x1 = true;
+ var intextVideo = true;
+ for (let index = 0; index < article.children.length; index++) {
+ paragraphy.push(article.children[index]);
+ }
+ if (article.children.length > 3) {
+ for (let index = 0; index < paragraphy.length; index++) {
+ minHeight += paragraphy[index].offsetHeight;
+ if (index === 2) {
+ addPubContainer(paragraphy[index], true);
+ } else if (minHeight > (interval / 4) && intext1x1 && index > 3) {
+ intext1x1 = false;
+ addPubOutofpage(paragraphy[index], 'publicidade-intext-1x1');
+ } else if (minHeight > (interval / 4) && intextVideo && index > 6) {
+ intextVideo = false;
+ addPubContainer(paragraphy[index], true, true);
+ // addPubOutofpage(paragraphy[index], 'publicidade-intext-video');
+ } else if (index % 3 === 0 && minHeight > interval) { //Alem do Tamanho do paragrafo, exibir a cada 3 paragrafos o anuncio
+ addPubContainer(paragraphy[index], true);
+ }
+ }
+ }
+
+ e = document.getElementById(e);
+ if (document.hidden == true) {
+ return false
+ }
+ if (e.style.visibilit == 'hidden' || !Boolean(e.offsetParent)) {
+ return false
+ }
+ n = n || 0, t = t || "visible";
+ var o = e.getBoundingClientRect(),
+ d = o.bottom - n < 0,
+ w = o.top - i + n >= 0;
+ return "above" === t ? d : "below" === t ? w : !d && !w
+ }
+
+ function eventScrollInterna() {
+ for (let i = 0; i < Object.keys(slotdfpi).length; i++) {
+ displaySlotLazyLoad(Object.keys(slotdfpi)[i]);
+ }
+ }
+
+ function displaySlotLazyLoad(slotId) {
+ if (elemonscreen(slotId, -500) && !viewable[slotId]) {
+ viewable[slotId] = true;
+ googletag.pubads().refresh([slotdfpi[slotId]]);
+ }
+ }
+
+ document.addEventListener('scroll', eventScrollInterna);
+ });
+
+ // console.log(article);
+ })([400, 600], 'div.edm-cms-content');
+
+
+ 
+
+ 
 Acesse o Clube do Assinante
 
-   ____________________ Clique aqui para finalizar a ativação. (BUTTON)
-   Cadastrar (BUTTON) Fechar
+ 
 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Clique aqui para finalizar a ativação.
+ 
+
+ 
+Cadastrar
+
+
+ 
+Fechar
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Estado de Minas
 
-     * Política
-     * Economia
-     * Internacional
-     * Nacional
-     * Cultura
-     * Saúde e Bem Viver
-     * EM Digital
-     * Fale com o EM
-     * Assine o Estado de Minas
+ 
 
+ 
+ 
+Política
+
+ 
+ 
+Economia
+
+ 
+ 
+Internacional
+
+ 
+ 
+Nacional
+
+ 
+ 
+Cultura
+
+ 
+ 
+Saúde e Bem Viver
+
+ 
+ 
+EM Digital
+
+ 
+ 
+Fale com o EM
+
+ 
+ 
+Assine o Estado de Minas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Entretenimento
 
-     * Entretenimento
-     * Famosos
-     * Séries e TV
-     * Cinema
-     * Música
-     * Trends
-     * Comportamento
-     * Gastronomia
-     * Tech
-     * Promoções
+ 
 
+ 
+ 
+Entretenimento
+
+ 
+ 
+Famosos
+
+ 
+ 
+Séries e TV
+
+ 
+ 
+Cinema
+
+ 
+ 
+Música
+
+ 
+ 
+Trends
+
+ 
+ 
+Comportamento
+
+ 
+ 
+Gastronomia
+
+ 
+ 
+Tech
+
+ 
+ 
+Promoções
+
+ 
+
+ 
 Anuncie no Uai
 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Correio Braziliense
 
-     * Cidades DF
-     * Política
-     * Brasil
-     * Economia
-     * Mundo
-     * Diversão e Arte
-     * Ciência e Saúde
-     * Eu Estudante
-     * Concursos
-     * Esportes
+ 
 
+ 
+ 
+Cidades DF
+
+ 
+ 
+Política
+
+ 
+ 
+Brasil
+
+ 
+ 
+Economia
+
+ 
+ 
+Mundo
+
+ 
+ 
+Diversão e Arte
+
+ 
+ 
+Ciência e Saúde
+
+ 
+ 
+Eu Estudante
+
+ 
+ 
+Concursos
+
+ 
+ 
+Esportes
+
+ 
+
+ 
 Correio Web
 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 No Ataque
 
-     * América
-     * Atlético
-     * Cruzeiro
-     * Vôlei
-     * Futebol Nacional
-     * Futebol Internacional
-     * Esporte na Mídia
-     * Onde Assistir
+ 
 
+ 
+ 
+América
+
+ 
+ 
+Atlético
+
+ 
+ 
+Cruzeiro
+
+ 
+ 
+Vôlei
+
+ 
+ 
+Futebol Nacional
+
+ 
+ 
+Futebol Internacional
+
+ 
+ 
+Esporte na Mídia
+
+ 
+ 
+Onde Assistir
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Vrum
 
-     * Classificados MG
-     * Classificados DF
-     * Notícias
+ 
 
+ 
+ 
+Classificados MG
+
+ 
+ 
+Classificados DF
+
+ 
+ 
+Notícias
+
+ 
+
+ 
+
+ 
+
+ 
 Lugar Certo
 
-     * Classificados MG
-     * Classificados DF
+ 
 
+ 
+ 
+Classificados MG
+
+ 
+ 
+Classificados DF
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Jornal Aqui
 
-     * Cidades
-     * Esporte
-     * Entretenimento
-     * Curiosidades
+ 
 
+ 
+ 
+Cidades
+
+ 
+ 
+Esporte
+
+ 
+ 
+Entretenimento
+
+ 
+ 
+Curiosidades
+
+ 
+
+ 
+
+ 
+
+ 
 Revista Encontro
 
-     * Notícias
-     * Cultura
-     * Gastrô
+ 
 
+ 
+ 
+Notícias
+
+ 
+ 
+Cultura
+
+ 
+ 
+Gastrô
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 TV Alterosa
 
-     * Alterosa Alerta
-     * Jornal da Alterosa
-     * Alterosa Esporte
+ 
 
+ 
+ 
+Alterosa Alerta
+
+ 
+ 
+Jornal da Alterosa
+
+ 
+ 
+Alterosa Esporte
+
+ 
+
+ 
+
+ 
+
+ 
 Sou BH
 
+ 
+
+ 
+
+ 
 Tupi FM
 
-     * Apresentadores
-     * Programação
-     * PodCasts
-     * Mestre da Bola Tupi
+ 
 
-   (BUTTON) Voltar ao topo
+ 
+ 
+Apresentadores
 
-   © Copyright 2025 Diários Associados Todos os direitos reservados.
-   Facebook X Instagram Linkedin
-   Busca ____________________Preencha o campo (BUTTON) buscar
-   (BUTTON) Fechar
-   overflay
+ 
+ 
+Programação
 
+ 
+ 
+PodCasts
+
+ 
+ 
+Mestre da Bola Tupi
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Voltar ao topo
+
+ 
+
+ 
+
+ 
+© Copyright 2025 Diários Associados 
+Todos os direitos reservados.
+
+ 
+
+ 
+Facebook
+
+ 
+X
+
+ 
+Instagram
+
+ 
+Linkedin
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+ _taboola.push({
+ mode: 'alternating-thumbnails-a',
+ container: 'taboola-below-article-thumbnails',
+ placement: 'Below Article Thumbnails',
+ target_type: 'mix'
+ });
+ // gtag('event', 'taboola', {
+ // 'event': 'PV',
+ // 'placement': 'Below Article Thumbnails'
+ // });
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+
+ 
+
+ _taboola.push({
+ flush: true
+ });
+ 
+
+
+
+
+ .modal {
+ display: none;
+ }
+
+ .edm-bottom-social p {
+ margin: 0 !important;
+ }
+
+
+
+
+
+ 
+
+ 
+Busca
+
+ 
+Preencha o campo
+buscar
+
+ 
+
+ 
+Fechar
+
+ 
+overflay
+
+
+
+
+
+
+ 
+
+ 
+
+ 
 Acesse sua conta
 
-   Se você já possui cadastro no Estado de Minas, informe e-mail/matrícula
-   e senha. Se ainda não tem, (BUTTON) faça o seu cadastro grátis aqui.
-   ____________________Preencha o campo ____________________Preencha o
-   campo
-   (BUTTON) Acessar
-   (BUTTON) Cadastrar (BUTTON) Esqueci minha senha
+ 
 
-   Informe seus dados para criar uma conta:
-   ____________________ ____________________ ____________________ [X]
-   Receber as principais notícias do dia por email.
-   (BUTTON) Cadastrar
-   (BUTTON) Acessar minha conta (BUTTON) Esqueci minha senha
+ 
 
-   Digite seu e-mail da conta para enviarmos os passos para a recuperação
-   de senha:
-   ____________________
-   (BUTTON) Recuperar senha
-   (BUTTON) Acessar minha conta (BUTTON) Cadastrar
+ 
 
+ 
+
+ 
+
+ 
+
+ 
+Se você já possui cadastro no Estado de Minas, informe e-mail/matrícula e senha. Se ainda
+ não tem, 
+faça
+ o seu cadastro grátis aqui.
+
+ 
+Preencha o
+ campo
+Preencha o
+ campo
+
+ 
+Acessar
+
+ 
+
+ 
+Cadastrar
+Esqueci minha senha
+
+ 
+
+ 
+
+ 
+Informe seus dados para criar uma conta:
+
+ 
+Receber as principais notícias do dia por
+ email.
+
+ 
+Cadastrar
+
+ 
+
+ 
+Acessar minha conta
+Esqueci minha senha
+
+ 
+
+ 
+
+ 
+Digite seu e-mail da conta para enviarmos os passos para a recuperação de senha:
+
+ 
+
+ 
+Recuperar senha
+
+ 
+
+ 
+Acessar minha conta
+Cadastrar
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Faça a sua assinatura
 
-   Estado de Minas
+ 
 
+ 
+
+ 
+
+ 
 Estado de Minas
 
-   de R$ 9,90 por apenas
+ 
+de 
+R$ 9,90
+ por apenas
 
-   R$ 1,90
+ 
+R$ 1,90
 
-   nos 2 primeiros meses
+ 
+nos 2 primeiros meses
 
-   Aproveite o melhor do Estado de Minas: conteúdos exclusivos, colunistas
-   renomados e muitos benefícios para você
-   Assine agora
-   (BUTTON) Fechar
-   overflay
+ 
+Aproveite o melhor do Estado de Minas: conteúdos exclusivos, colunistas
+ renomados e muitos benefícios para você
+Assine agora
+
+ 
+Fechar
+
+ 
+overflay
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ function sendClickGaleriaEvent(button) {
+
+ // Envie o evento click_galeria com nome e rótulo específicos
+ const eventName = button === prev ? 'prevButton' : 'nextButton';
+ var id_galeria = '7319153';
+
+ gtag('event', 'page_view', {
+ 'event_category': 'Galeria-' + id_galeria,
+ 'event_label': eventName
+ });
+
+ pSUPERFLY.virtualPage({
+ title: `Rota da gastronomia: um roteiro de 3 dias pelas cidades de Minas Gerais - ${eventName}`
+ });
+ }
+
+ const prev = document.getElementById('prevButton');
+ const next = document.getElementById('nextButton');
+
+ // Adicione o evento de clique aos seus botões
+ if (prev && next) {
+ prev.addEventListener('click', () => sendClickGaleriaEvent(prev));
+ next.addEventListener('click', () => sendClickGaleriaEvent(next));
+ }
+
+ });
+
+
+
+
+
+ function hasVideosOnPage() {
+ return document.querySelectorAll('iframe[src*="youtube"], iframe[src*="dailymotion"]').length > 0;
+ }
+
+ // Refresh
+ function getQueryParam(param) {
+ return urlParams.get(param);
+ }
+ var isRefreshEnabled = getQueryParam('refresh') === 'true';
+
+ if (location.hostname === 'www.em.com.br') {
+ const condicional = hasVideosOnPage()
+ if (!condicional) {
+ console.log('*** entrou aqui', isRefreshEnabled);
+
+ isRefreshEnabled && console.log('*** A função de refresh está ativa.');
+ setTimeout(location.reload.bind(location), 210000);
+ } else {
+ console.log('*** Vídeo encontrado. Refresh cancelado.');
+ }
+
+ } else {
+ isRefreshEnabled && console.log('*** A função de refresh está desativada.');
+ }
+
+
+
+
+
+200

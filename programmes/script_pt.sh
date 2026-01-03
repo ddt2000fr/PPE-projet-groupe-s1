@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 
 set -o nounset
@@ -6,7 +5,7 @@ set -o pipefail
 
 # Vérifie les arguments
 if [ "$#" -ne 2 ]; then
-  echo "Usage: $0 arquivo_urls lingua"
+  echo "Usage: $0 fichier_urls langue"
   exit 1
 fi
 
@@ -35,17 +34,24 @@ mkdir -p "$DUMP_DIR" "$ASP_DIR" "$CTX_DIR" "$TBL_DIR" "$CONC_DIR"
 CONC_UNICO="$CONC_DIR/concordance_pt.html"
 echo "<html><head><meta charset='utf-8'><style>
 body { font-family: sans-serif; margin: 20px; }
-h1 { border-bottom: 2px solid #e91e63; padding-bottom: 5px; }
+h1 { border-bottom: 2px solid #333; padding-bottom: 5px; }
 table { width: 100%; border-collapse: collapse; margin: 10px 0; }
 td { border: 1px solid #ddd; padding: 8px; }
 .left { text-align: right; width: 45%; color: #444; }
 .motif { text-align: center; width: 10%; font-weight: bold; background: #fff9c4; color: #e91e63; }
 .right { text-align: left; width: 45%; color: #444; }
-</style></head><body><h1>Concordances - portugais</h1>" > "$CONC_UNICO"
+</style></head><body>
+<h1>Concordances - portugais</h1>
+<p><strong>Motifs :</strong>coração|coracao|corações|coracoes</p>
+<p><strong>Contexte :</strong> une ligne</p>" > "$CONC_UNICO"
 
 # Cherche le mot et toutes ses variations
-MOTIFS="cora[cç][ãa]o|cora[cç][õo]es"
-UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+MOTIFS="(coração|coracao|corações|coracoes)"
+UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+for cmd in curl pup; do
+  command -v "$cmd" >/dev/null || { echo "Erreur: Commande '$cmd' manquante"; exit 1; }
+done
 
 declare -A TAB_URLS
 declare -A TAB_HTTP
@@ -54,26 +60,25 @@ declare -A TAB_TOKENS
 declare -A TAB_COMPTE
 
 # Fonctions
-create_context_html() {
+create_context_txt() {
     local idx="$1"
     local word="$2"
-    local url="$3"
-    local dump_path="$4"
-    local out_path="$CTX_DIR/${LANGUE}-${idx}.html"
+    local dump_path="$3"
+    local out_path="$CTX_DIR/${LANGUE}-${idx}.txt"
+    
+    > "$out_path"
+    grep -o -E ".{0,40}\b($word)\b.{0,40}" "$dump_path" > "$out_path" 2>/dev/null
+}
 
-    echo "<!DOCTYPE html><html><head><meta charset='utf-8'><style>
-    body { font-family: sans-serif; margin: 20px; }
-    .highlight { color: #e91e63; font-weight: bold; background: #fff9c4; }
-    .context-line { border-left: 3px solid #e91e63; margin: 10px 0; padding-left: 10px; }
-    </style></head><body>
-    <h1>Contexte - Document $idx</h1>
-    <p>URL: <a href='$url'>$url</a></p><hr>" > "$out_path"
-
-    grep -i -P ".{0,50}\b($word)\b.{0,50}" "$dump_path" | while read -r line; do
-        highlighted=$(echo "$line" | sed -E "s/\b($word)\b/<span class='highlight'>\1<\/span>/gi")
-        echo "<div class='context-line'>...$highlighted...</div>" >> "$out_path"
-    done
-    echo "<br><a href='../tableaux/${LANGUE}.html'>Voltar para a tabela</a></body></html>" >> "$out_path"
+download_pdf() {
+    local url="$1" out="$2"
+    curl -k -L -s -A "$UA" "$url" -o temp.pdf 2>/dev/null
+    if [ -f temp.pdf ]; then
+        pdftotext -layout temp.pdf "$out" 2>/dev/null
+        rm -f temp.pdf
+        return 0
+    fi
+    return 1
 }
 
 append_to_concordance() {
@@ -81,15 +86,17 @@ append_to_concordance() {
     local word="$2"
     local url="$3"
     local dump_path="$4"
+    local nb_occ="$5"
 
-    echo "<h2>Documento $idx — <a href='$url' target='_blank'>$url</a></h2>" >> "$CONC_UNICO"
-    grep -o -P ".{0,40}\b($word)\b.{0,40}" "$dump_path" | while read -r line_ctx; do
-        left=$(echo "$line_ctx" | sed -E "s/(.*)\b($word)\b.*/\1/")
-        word_match=$(echo "$line_ctx" | grep -oP "\b($word)\b" | head -1)
-        right=$(echo "$line_ctx" | sed -E "s/.*\b($word)\b(.*)/\2/")
+    echo "<h2>Document $idx — $nb_occ occurrences.</h2>" >> "$CONC_UNICO"
+    grep -o -E ".{0,40}\b($word)\b.{0,40}" "$dump_path" | while read -r line_ctx; do
+        left=$(echo "$line_ctx" | sed -E "s/\b($word)\b.*//")
+        word_match=$(echo "$line_ctx" | grep -oE "\b($word)\b" | head -1)
+        right=$(echo "$line_ctx" | sed -E "s/.*\b($word)\b//")
         echo "<table><tr><td class='left'>${left:-&nbsp;}</td><td class='motif'>$word_match</td><td class='right'>${right:-&nbsp;}</td></tr></table>" >> "$CONC_UNICO"
     done
 }
+
 # TRAITEMENT DES URLS
 i=1
 
@@ -103,36 +110,62 @@ echo -ne "Analyse de $i... \r"
 
   TAB_URLS[$i]="$url"
 
-  # Vérifier d'abord le code HTTP
-  header=$(curl -k -L -s -I -A "$UA" "$url" --connect-timeout 10 || echo "HTTP/1.1 000 Error")
-  http_code=$(echo "$header" | grep "HTTP/" | tail -1 | awk '{print $2}')
-  TAB_HTTP[$i]="$http_code"
-  
-  # Si le code HTTP est une erreur, ignorer la page
-  if [[ "$http_code" -ge 400 ]]; then
-    echo "Page avec erreur HTTP ($http_code) : $url. Ne sera pas traitée." >&2
-    TAB_TOKENS[$i]=0
-    TAB_COMPTE[$i]=0
-    i=$((i+1))
-    continue
-  fi
-
-  charset=$(echo "$header" | grep -i "Content-Type" | grep -oE "charset=[^ ;]+" | cut -d= -f2 | tr -d '"' | tr -d '\r')
-  [ -z "$charset" ] && charset="UTF-8"
-  TAB_ENC[$i]=$(echo "$charset" | tr '[:lower:]' '[:upper:]')
-
   # Chemin des fichiers
   DUMP_PATH="$DUMP_DIR/${LANGUE}-${i}.txt"
   ASP_PATH="$ASP_DIR/${LANGUE}-${i}.html"
   CTX_TXT_PATH="$CTX_DIR/${LANGUE}-${i}.txt"
-  
-  # Télécharger et convertir
-  curl -k -L -s -A "$UA" "$url" -o "temp.html"
-  
-  # Extraire le texte
-  lynx -dump -nolist -display_charset=utf-8 -assume_charset="${TAB_ENC[$i]}" "temp.html" 2>/dev/null | iconv -f "${TAB_ENC[$i]}" -t "UTF-8//IGNORE" > "$DUMP_PATH" 2>/dev/null || lynx -dump -nolist "temp.html" > "$DUMP_PATH" 2>/dev/null
 
-  # Compter les tokens dans le dump textuel
+  # Pour traiter les PDFs
+  if [[ "$url" =~ \.pdf$ ]]; then
+    echo " PDF detecté "
+    if download_pdf "$url" "$DUMP_PATH"; then
+        TAB_HTTP[$i]="200"
+        TAB_ENC[$i]="PDF"
+    else
+        TAB_HTTP[$i]="000"
+        TAB_ENC[$i]="ERREUR"
+        > "$DUMP_PATH"
+    fi
+ fi
+ 
+# Telecharge et fais l'extraction du texte
+response=$(curl -k -L -s -w "\n%{http_code}\n%{content_type}" -A "$UA" --connect-timeout 10 "$url" 2>/dev/null)
+html=$(echo "$response" | sed '$d;$d')
+http_code=$(echo "$response" | tail -2 | head -1)
+content_type=$(echo "$response" | tail -1)
+
+# Mettre le code a jour
+TAB_HTTP[$i]="$http_code"
+
+# Pour l'erreur en code HTTP
+if [[ "$http_code" -ge 400 ]]; then
+   echo "Page avec erreur HTTP ($http_code) - le traitement sera limité."
+   TAB_TOKENS[$i]=0
+   TAB_COMPTE[$i]=0
+fi
+
+# Extraction encoding
+charset=$(echo "$content_type" | grep -oE "charset=[^ ;]+" | cut -d= -f2)
+[ -z "$charset" ] && charset="UTF-8"
+TAB_ENC[$i]=$(echo "$charset" | tr '[:lower:]' '[:upper:]')
+
+# Texte plus clean avec pup
+texte=$(echo "$html" | pup 'article text{}, main text{}, body text{}' | sed '/window\./d;/INIT_DATA/d;/function(/d' | sed 's/[[:space:]]\+/ /g')
+
+if echo "$texte" | grep -q -P "Ã[¡§³´µ·¸¹º]|Ã[€-¿]"; then
+    if echo "$texte" | iconv -f ISO-8859-1 -t UTF-8 2>/dev/null > "$DUMP_PATH"; then
+        echo "  Convertido: ISO-8859-1 → UTF-8"
+    elif echo "$texte" | iconv -f WINDOWS-1252 -t UTF-8 2>/dev/null > "$DUMP_PATH"; then
+        echo "  Convertido: WINDOWS-1252 → UTF-8"
+    else
+        echo "$texte" > "$DUMP_PATH"
+    fi
+else
+    echo "$texte" > "$DUMP_PATH"
+fi
+
+# Compter les tokens dans le dump textuel
+  tr -d '\000' < "$DUMP_PATH" > "${DUMP_PATH}.tmp" && mv "${DUMP_PATH}.tmp" "$DUMP_PATH"
   tokens=$(cat "$DUMP_PATH" 2>/dev/null | wc -w || echo "0")
   TAB_TOKENS[$i]="$tokens"
   
@@ -140,8 +173,8 @@ echo -ne "Analyse de $i... \r"
   compte=$(grep -oiP "\b($MOTIFS)\b" "$DUMP_PATH" 2>/dev/null | wc -l || echo "0")
   TAB_COMPTE[$i]="$compte"
 
-  create_context_html "$i" "$MOTIFS" "$url" "$DUMP_PATH"
-  append_to_concordance "$i" "$MOTIFS" "$url" "$DUMP_PATH"
+  create_context_txt "$i" "$MOTIFS" "$DUMP_PATH"
+  append_to_concordance "$i" "$MOTIFS" "$url" "$DUMP_PATH" "$compte"
 
   # Créer l'aspiration avec les occurrences
   {
@@ -152,7 +185,6 @@ echo -ne "Analyse de $i... \r"
     echo "</body></html>"
   } > "$ASP_PATH"
 
-  rm -f "temp.html"
   i=$((i+1))
 done < "$URL_FILE"
 
@@ -287,7 +319,7 @@ for idx in $(seq 1 $((i-1))); do
         <td class='has-text-centered'>$count</td>
         <td class='has-text-centered'><a href='../aspirations/${LANGUE}-${idx}.html' target='_blank'>HTML</a></td>
         <td class='has-text-centered'><a href='../dumps-text/${LANGUE}-${idx}.txt' target='_blank'>TXT</a></td>
-        <td class='has-text-centered'><a href='../contextes/${LANGUE}-${idx}.html' target='_blank'>CTX</a></td>
+        <td class='has-text-centered'><a href='../contextes/${LANGUE}-${idx}.txt' target='_blank'>CTX</a></td>
     </tr>"
 done
 
@@ -316,3 +348,4 @@ echo '</tbody>
 } > "$OUT"
 echo "</body></html>" >> "$CONC_UNICO"
     echo "Tableau généré avec succès: $OUT"
+ 

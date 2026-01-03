@@ -1,368 +1,3951 @@
-   #Conteúdo via RSS
 
-   [p?c1=2&amp;c2=6036356&amp;cv=4.4.0&amp;cj=1]
+ 
 
-   Logo Mundo Educação
-   ____________________ (BUTTON) search icon
+ 
 
-     * Disciplinas
-       Biologia
-       Educação Física
-       Artes
-       Espanhol
-       Filosofia
-       Física
-       Geografia
-       Gramática
-       História da América
-       História do Brasil
-       História Geral
-       Inglês
-       Literatura
-       Matemática
-       Química
-       Redação
-       Sociologia
-     * Destaques
-       Proclamação da República
-       Dia das crianças
-       Halloween
-       Primeira guerra mundial
-       Segunda guerra mundial
-       Maiores países do mundo
-       Célula animal
-       Pronomes
-       Números romanos
-       Estações do ano
-       Tabela periódica
-       Mapa do Brasil
-       Revolução Russa
-       Porque ou por que?
-       O que é a Otan?
-       Revolução industrial
-       União Europeia
-       Países da Europa
-     * Pesquisa Escolar
-       Acordo ortográfico
-       Biografias
-       China
-       Curiosidades
-       Datas Comemorativas
-       Doenças
-       Drogas
-       Educação
-       Folclore
-       Informática
-       Japão
-       Política
-       Psicologia
-       Saúde e Bem Estar
-       Sexualidade
-     * Vestibular
-       Agenda
-       Aprovados
-       Bolsas de estudo
-       Cursinhos Comunitários
-       Dicas
-       Ensino a distância (EaD)
-       Guia de Profissões
-       Intercâmbio
-       Notícias do Vestibular
-       Orientação Vocacional
-       ProUni
-       Universidades
-     * ENEM
-       Enem 2025
-       Aulão Enem 2025
-       Conteúdos para o Enem
-       Correção Enem 2025
-       ProUni
-       Dicas do Enem
-       Inscrição no Enem
-       Redação do Enem
-       Provas e Gabaritos do ENEM
-       Simulado do Enem
-       Fies
-       SiSU
-     * Escola Kids
-       Datas Comemorativas
-       Ciências
-       Geografia
-       História
-       Português
-       Matemática
-     * Exercícios
-       Exercícios de Biologia
-       Exercícios de Física
-       Exercícios de Matemática
-       Exercícios de Química
-       Exercícios de História
-       História da América
-       Exercícios de Geografia
-       Geografia do Brasil
-       Exercícios de Gramática
-       Exercícios de Literatura
-       Exercícios de Redação
-     * Notícias
+ 
 
-    1. Home
-    2. Biologia
-    3. Anatomia humana
-    4. Coração
+ 
 
-Coração
+ 
 
-   Coração é um órgão muscular que apresenta capacidade de contração. Suas
-   contrações são essenciais para garantir o bombeamento e a circulação do
-   sangue pelo corpo.
+ 
 
-   Coração é um importante órgão muscular, formado principalmente por
-   músculo cardíaco, que faz parte do sistema cardiovascular. É esse
-   sistema que garante que o sangue seja transportado para todo o
-   organismo, e o coração exerce importante papel nele, uma vez que atua
-   bombeando o sangue. A seguir falaremos mais a respeito do coração
-   humano, um órgão vital para nossa sobrevivência.
-   Não pare agora... Tem mais depois da publicidade ;)
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Disciplinas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Biologia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ EducaÃ§Ã£o FÃ­sica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Artes
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Espanhol
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Filosofia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ FÃ­sica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Geografia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ GramÃ¡tica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ HistÃ³ria da AmÃ©rica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ HistÃ³ria do Brasil
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ HistÃ³ria Geral
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ InglÃªs
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Literatura
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ MatemÃ¡tica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ QuÃ­mica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ RedaÃ§Ã£o
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Sociologia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Destaques
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ProclamaÃ§Ã£o da RepÃºblica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Dia das crianÃ§as
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Halloween
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Primeira guerra mundial
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Segunda guerra mundial
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Maiores paÃ­ses do mundo
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ CÃ©lula animal
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Pronomes
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ NÃºmeros romanos
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ EstaÃ§Ãµes do ano
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Tabela periÃ³dica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Mapa do Brasil
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ RevoluÃ§Ã£o Russa
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Porque ou por que?
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ O que Ã© a Otan?
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ RevoluÃ§Ã£o industrial
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ UniÃ£o Europeia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ PaÃ­ses da Europa
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Pesquisa Escolar
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Acordo ortogrÃ¡fico
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Biografias
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ China
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Curiosidades
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Datas Comemorativas
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ DoenÃ§as
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Drogas
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ EducaÃ§Ã£o
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Folclore
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ InformÃ¡tica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ JapÃ£o
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ PolÃ­tica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Psicologia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ SaÃºde e Bem Estar
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Sexualidade
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Vestibular
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Agenda
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Aprovados
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Bolsas de estudo
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Cursinhos ComunitÃ¡rios
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Dicas
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Ensino a distÃ¢ncia (EaD)
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Guia de ProfissÃµes
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ IntercÃ¢mbio
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ NotÃ­cias do Vestibular
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ OrientaÃ§Ã£o Vocacional
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ProUni
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Universidades
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ENEM
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Enem 2025
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ AulÃ£o Enem 2025
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ConteÃºdos para o Enem
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ CorreÃ§Ã£o Enem 2025
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ProUni
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Dicas do Enem
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ InscriÃ§Ã£o no Enem
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ RedaÃ§Ã£o do Enem
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Provas e Gabaritos do ENEM
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Simulado do Enem
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Fies
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ SiSU
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Escola Kids
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Datas Comemorativas
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ CiÃªncias
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Geografia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ HistÃ³ria
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ PortuguÃªs
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ MatemÃ¡tica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de Biologia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de FÃ­sica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de MatemÃ¡tica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de QuÃ­mica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de HistÃ³ria
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ HistÃ³ria da AmÃ©rica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de Geografia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Geografia do Brasil
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de GramÃ¡tica
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de Literatura
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ ExercÃ­cios de RedaÃ§Ã£o
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ NotÃ­cias
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Home
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+Biologia
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Anatomia humana
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+CoraÃ§Ã£o
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+CoraÃ§Ã£o
+
+ 
+
+
+ 
+
+ 
+CoraÃ§Ã£o Ã© um Ã³rgÃ£o muscular que apresenta capacidade de contraÃ§Ã£o. Suas contraÃ§Ãµes sÃ£o essenciais para garantir o bombeamento e a circulaÃ§Ã£o do sangue pelo corpo.
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+Coração 
+é um importante órgão muscular, 
+formado principalmente por 
+músculo cardíaco
+, que faz 
+parte do 
+sistema cardiovascular.
+ É esse sistema que garante que o 
+sangue
+ seja transportado para todo o organismo, e o coração exerce importante papel nele, uma vez que atua bombeando o sangue. A seguir falaremos mais a respeito do coração humano, um órgão vital para nossa sobrevivência.
+NÃ£o pare agora... Tem mais depois da publicidade ;)
+
+
 
 Função do coração
 
-   Coração é um órgão muscular que, por meio da sua contração, garante o
-   bombeamento do sangue para as diferentes partes do corpo. O bombeamento
-   do sangue é fundamental para que nutrientes e oxigênio cheguem a todas
-   as células e que os resíduos do metabolismo sejam levados até locais
-   adequados para sua eliminação.
+
+
+Coração é um órgão muscular que, por meio da sua contração, garante o
+ bombeamento do sangue para as diferentes partes do corpo
+. O bombeamento do sangue é fundamental para que nutrientes e 
+oxigênio
+ cheguem a todas as células e que os resíduos do metabolismo sejam levados até locais adequados para sua eliminação.
+
+
 
 Características do coração
 
-   Coração é um órgão localizado na parte inferior do mediastino médio.
-   Encontra-se na cavidade torácica, mais precisamente na região posterior
-   ao osso esterno e acima do músculo diafragma. Esse órgão tem o tamanho
-   aproximado de uma mão fechada e apresenta maior parte da sua massa à
-   esquerda da linha mediana.
 
-   O coração possui um formato de cone invertido, com seu ápice voltado
-   para baixo, e seu peso é de cerca de 300 g. O coração é um órgão
-   formado, principalmente, por tecido muscular estriado cardíaco, o qual
-   se caracteriza por apresentar contração involuntária. Esse órgão
-   realiza contrações e relaxamentos que seguem um ritmo cíclico. Sua
-   contração garante o bombeamento de sangue, enquanto seu relaxamento
-   permite que as câmaras encham-se dele. A fase de contração recebe a
-   denominação de sístole, enquanto a fase de relaxamento é denominada
-   diástole.
 
-   Não pare agora... Tem mais depois da publicidade ;)
+Coração
+ é um órgão 
+localizado na parte inferior do mediastino médio
+. Encontra-se na cavidade torácica, mais precisamente na região posterior ao osso esterno e acima do músculo diafragma. Esse órgão tem o 
+tamanho aproximado de uma mão fechada
+ e apresenta 
+maior parte da sua massa à esquerda 
+da linha mediana.
 
-   O batimento cardíaco é conseguido graças a uma massa de células
-   especializadas, encontradas nesse órgão, chamadas de nó sinoatrial.
-   Essa massa de células está na parede do átrio direito e é responsável
-   por gerar impulso elétrico. Esse impulso propaga-se pelo tecido
-   muscular até chegar ao nó atrioventricular, o qual está localizado na
-   parede, entre os átrios esquerdo e direito.
 
-   Esse nó constitui um ponto de transmissão de impulsos nervosos, os
-   quais partem dessa região e seguem em direção aos ventrículos e ao
-   ápice do coração através de estruturas chamadas de ramos do feixe e
-   fibras de Purkinje.
 
-   Veja também: Artérias - características, exemplos e classificação
+O coração possui um formato de 
+cone invertido,
+ com seu ápice voltado para baixo, e seu peso é de 
+cerca de 300 g.
+ O coração é um órgão formado, principalmente, por tecido muscular estriado cardíaco, o qual se caracteriza por apresentar contração involuntária. Esse órgão realiza contrações e relaxamentos que seguem um 
+ritmo cíclico.
+ Sua contração garante o bombeamento de sangue, enquanto seu relaxamento permite que as câmaras encham-se dele. A fase de contração recebe a denominação de 
+sístole
+, enquanto a fase de relaxamento é denominada 
+diástole.
+
+
+
+
+ 
+NÃ£o pare agora... Tem mais depois da publicidade ;)
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+O 
+batimento cardíaco
+ é conseguido graças a uma massa de células especializadas, encontradas nesse órgão, chamadas de 
+nó sinoatrial
+. Essa massa de células está na parede do átrio direito e é responsável por gerar impulso elétrico. Esse impulso propaga-se pelo tecido muscular até chegar ao
+ nó atrioventricular,
+ o qual está localizado na parede, entre os átrios esquerdo e direito.
+
+
+
+Esse nó constitui um ponto de 
+transmissão de impulsos nervosos
+, os quais partem dessa região e seguem em direção aos ventrículos e ao ápice do coração através de estruturas chamadas de 
+ramos do feixe 
+e
+ fibras de Purkinje.
+
+
+
+Veja também:
+ 
+Artérias - características, exemplos e classificação
+
+
 
 Camadas do coração
 
-   Partes principais do coração. Observe as principais partes que formam o
-   coração.
 
-   O coração apresenta paredes constituídas por três camadas:
-     * Endocárdio: é a camada mais interna e é formado por endotélio que
-       está sobre uma camada subendotelial delgada de tecido conjuntivo.
-       Essa última camada conecta-se ao miocárdio por uma camada de tecido
-       conjuntivo que apresenta nervos, veias e alguns ramos do sistema
-       responsável pela condução do impulso do coração. O endocárdio
-       reveste as cavidades do coração, as válvulas e os músculos
-       associados com as válvulas.
-     * Miocárdio: é a camada média do coração e a mais espessa. O
-       miocárdio é rico em células musculares cardíacas, sendo a camada
-       responsável pela capacidade de contração desse órgão. O miocárdio
-       do ventrículo esquerdo é mais espesso que o do ventrículo direito.
-       Isso se deve ao fato de que a contração nessa região deve ser mais
-       vigorosa, de modo a garantir que o sangue siga para o corpo.
-     * Pericárdio: é uma espécie de saco invaginado constituído de uma
-       camada mais externa, chamada de pericárdio parietal, e de uma
-       camada mais interna, chamada de pericárdio visceral. É este último
-       que adere ao coração e forma a camada mais externa do órgão
-       (epicárdio).
 
-   Leia também: Diferenças entre artérias, veias e capilares
+
+
+
+
+Observe as principais partes que formam o coração.
+
+
+
+
+
+
+
+O coração apresenta paredes constituídas por
+ três camadas
+:
+
+
+
+
+ 
+
+ 
+Endocárdio:
+ é a camada mais interna e é formado por endotélio que está sobre uma camada subendotelial delgada de tecido conjuntivo. Essa última camada conecta-se ao miocárdio por uma camada de tecido conjuntivo que apresenta nervos, veias e alguns ramos do sistema responsável pela condução do impulso do coração. O endocárdio reveste as cavidades do coração, as válvulas e os músculos associados com as válvulas.
+
+ 
+
+ 
+
+ 
+Miocárdio: 
+é a camada média do coração e a mais espessa. O miocárdio é rico em células musculares cardíacas, sendo a camada responsável pela capacidade de contração desse órgão. O miocárdio do ventrículo esquerdo é mais espesso que o do ventrículo direito. Isso se deve ao fato de que a contração nessa região deve ser mais vigorosa, de modo a garantir que o sangue siga para o corpo.
+
+ 
+
+ 
+
+ 
+Pericárdio:
+ é uma espécie de saco invaginado constituído de uma camada mais externa, chamada de pericárdio parietal, e de uma camada mais interna, chamada de pericárdio visceral. É este último que adere ao coração e forma a camada mais externa do órgão (epicárdio).
+
+ 
+
+
+
+
+
+Leia também:
+ 
+Diferenças entre artérias, veias e capilares
+
+
 
 Cavidades do coração
 
-   O coração humano é formado por quatro cavidades, assim como o de todos
-   os mamíferos. Nesse órgão é possível observar dois átrios e dois
-   ventrículos. Veja mais sobre essas cavidades:
-     * Átrios: apresentam paredes relativamente delgadas e funcionam como
-       câmaras receptoras de sangue. O átrio esquerdo recebe o sangue
-       proveniente do pulmão, enquanto o direito recebe o que vem de
-       outras partes do corpo, com exceção do pulmão. Dessas cavidades o
-       sangue segue para os ventrículos.
-     * Ventrículos: apresentam paredes mais grossas — uma característica
-       importante, uma vez que sua contração garante que o sangue siga
-       para os pulmões e outras partes do corpo. A contração do ventrículo
-       direito impulsiona-o em direção aos pulmões, enquanto a do esquerdo
-       garante o seu impulso ao restante do corpo.
 
-   Saiba mais: Coração dos vertebrados
+
+O coração humano é formado por 
+quatro cavidades
+, assim como o de todos os 
+mamíferos
+. Nesse órgão é possível observar 
+dois átrios e dois ventrículos
+. Veja mais sobre essas cavidades:
+
+
+
+
+ 
+
+ 
+Átrios:
+ apresentam paredes relativamente delgadas e funcionam como câmaras receptoras de sangue. O átrio esquerdo recebe o sangue proveniente do pulmão, enquanto o direito recebe o que vem de outras partes do corpo, com exceção do pulmão. Dessas cavidades o sangue segue para os ventrículos.
+
+ 
+
+ 
+
+ 
+Ventrículos:
+ apresentam paredes mais grossas — uma característica importante, uma vez que sua contração garante que o sangue siga para os pulmões e outras partes do corpo. A contração do ventrículo direito impulsiona-o em direção aos pulmões, enquanto a do esquerdo garante o seu impulso ao restante do corpo.
+
+ 
+
+
+
+
+
+Saiba mais: 
+Coração dos vertebrados
+ 
+
+
 
 Válvulas do coração
 
-   Válvulas do coração. A presença de válvulas no coração impede o refluxo
-   de sangue.
 
-   A presença de válvulas no coração faz com que o refluxo do sangue não
-   ocorra e ele siga sempre uma mesma direção. No total existem quatro
-   válvulas no coração: duas válvulas atrioventriculares e duas válvulas
-   semilunares. As primeiras situam-se entre cada átrio e cada ventrículo;
-   já as segundas estão localizadas nos dois locais por onde o sangue sai
-   do coração. Uma válvula semilunar está localizada na região onde a
-   aorta sai do ventrículo esquerdo, e a outra, no local onde a artéria
-   pulmonar sai do ventrículo direito.
+
+
+
+
+
+A presença de válvulas no coração impede o refluxo de sangue.
+
+
+
+
+
+
+
+A presença de válvulas no coração faz com que o refluxo do sangue não ocorra e ele siga sempre uma mesma direção. No total existem quatro válvulas no coração: 
+duas válvulas atrioventriculares e duas válvulas semilunares. 
+As primeiras situam-se entre cada átrio e cada ventrículo; já as segundas estão localizadas nos dois locais por onde o sangue sai do coração. Uma válvula semilunar está localizada na região onde a aorta sai do ventrículo esquerdo, e a outra, no local onde a artéria pulmonar sai do ventrículo direito.
+
+
 
 Caminho do sangue dentro do coração
 
-   O coração funciona como uma espécie de bomba que garante o
-   impulsionamento do sangue para todas as partes do corpo. O sangue,
-   proveniente das várias partes do corpo, com exceção do pulmão, chega ao
-   coração pelo átrio direito. As veias cavas superior e inferior trazem
-   sangue do corpo e desembocam-no nessa cavidade, assim como o seio
-   coronário, o qual é responsável por drenar o sangue presente no
-   coração.
 
-   Após chegar ao átrio direito, o sangue segue em direção ao ventrículo
-   direito. Do ventrículo, ele parte em direção aos pulmões, sendo levado
-   pela artéria pulmonar. Nos pulmões, o sangue, que até então estava rico
-   em gás carbônico, recebe o oxigênio proveniente da respiração,
-   tornando-se oxigenado.
 
-   O sangue oxigenado retorna então para o coração por meio das veias
-   pulmonares. Essas veias desembocam no átrio esquerdo. O sangue, daí,
-   segue para o ventrículo esquerdo, local de onde será impulsionado para
-   todo o corpo, com exceção do pulmão, sendo levado pela artéria aorta.
+O coração funciona como uma espécie de bomba que garante o impulsionamento do sangue para todas as partes do corpo. O sangue, proveniente das várias partes do corpo, com exceção do pulmão, chega ao coração pelo 
+átrio direito. 
+As veias cavas superior e inferior trazem sangue do corpo e desembocam-no nessa cavidade, assim como o seio coronário, o qual é responsável por drenar o sangue presente no coração.
 
-   Leia também: Circulação sistêmica e pulmonar
+
+
+Após chegar ao átrio direito, o sangue segue em direção ao 
+ventrículo direito
+. Do ventrículo, ele parte em direção aos pulmões, sendo levado pela artéria pulmonar. Nos pulmões, o sangue, que até então estava rico em gás carbônico, recebe o oxigênio proveniente da 
+respiração
+, tornando-se oxigenado.
+
+
+
+O sangue oxigenado retorna então para o coração por meio das veias pulmonares. Essas veias desembocam no 
+átrio esquerdo. 
+O sangue, daí, segue para o
+ ventrículo esquerdo,
+ local de onde será impulsionado para todo o corpo, com exceção do pulmão, sendo levado pela artéria aorta.
+
+
+
+Leia também:
+ 
+Circulação sistêmica e pulmonar
+
+
 
 Dia Mundial do Coração
 
-   Homem com a mão no coração em referência ao infarto. Infartos são uma
-   importante causa de mortes no mundo e, muitas vezes, poderiam ser
-   evitados com hábitos de vida mais saudáveis.
 
-   O Dia Mundial do Coração é comemorado no dia 29 de setembro. Essa data
-   visa conscientizar a respeito da importância de ter-se hábitos de vida
-   adequados; e mostrar como uma vida saudável pode ser a chave para a
-   garantia da saúde do coração.
 
-   Você sabia que no Brasil são registrados anualmente cerca de 300 mil
-  casos de infarto agudo do miocárdio? Clique aqui e conheça mais sobre o
-         infarto, uma das principais causas de morte no nosso país.
 
-   Representação do coração. O coração é um órgão importante do nosso
-   sistema cardiovascular.
-   Escritor do artigo
-   Escrito por: Vanessa Sardinha dos Santos Possui graduação em Ciências
-   Biológicas pela Universidade Estadual de Goiás (2008) e mestrado em
-   Biodiversidade Vegetal pela Universidade Federal de Goiás (2013). Atua
-   como professora de Ciências e Biologia da Educação Básica desde 2008.
-   Teste agora seus conhecimentos com os exercícios deste texto
-   Quero fazer os exercícios
 
+
+
+Infartos são uma importante causa de mortes no mundo e, muitas vezes, poderiam ser evitados com hábitos de vida mais saudáveis.
+
+
+
+
+
+
+
+O Dia Mundial do Coração é comemorado no dia 
+29 de setembro
+. Essa data visa conscientizar a respeito da 
+importância de ter-se hábitos de vida adequados
+; e mostrar como uma vida saudável pode ser a chave para a garantia da 
+saúde do coração
+.
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+Você sabia que no Brasil são registrados anualmente cerca de 300 mil casos de infarto agudo do miocárdio? 
+Clique aqui e conheça mais sobre o infarto,
+ uma das principais causas de morte no nosso país.
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+ O coraÃ§Ã£o Ã© um Ã³rgÃ£o importante do nosso sistema cardiovascular.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Escrito
+ por: Vanessa Sardinha dos Santos
+
+ 
+
+ Possui graduaÃ§Ã£o em CiÃªncias BiolÃ³gicas pela Universidade Estadual de GoiÃ¡s (2008) e mestrado em Biodiversidade Vegetal pela Universidade Federal de GoiÃ¡s (2013). Atua como professora de CiÃªncias e Biologia da EducaÃ§Ã£o BÃ¡sica desde 2008.
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Teste agora seus conhecimentos com os exercÃ­cios deste texto
+ 
+
+ 
+
+ 
+
+ Quero fazer os exercÃ­cios
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
 Videoaulas
 
-   IFRAME: https://www.youtube.com/embed/_IOZnDBRfIc&autoplay=1
+ 
+ 
 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
 Artigos Relacionados
 
-   Arritmia cardíaca
-   Clique aqui e veja o que é arritmia cardíaca e quais as suas causas
-   Coração dos vertebrados
-   Aprenda as principais diferenças existentes em relação ao coração dos
-   vertebrados de cada grupo.
-   Diferenças entre artérias, veias e capilares
-   Compreenda as diferenças entre artérias, veias e capilares, vasos
-   sanguíneos encontrados em nosso corpo que garantem o transporte do
-   sangue.
-   Esôfago
-   Aprenda mais sobre o esôfago clicando aqui! Neste texto abordaremos as
-   principais características do órgão e algumas doenças que o atingem.
-   Infarto
-   O infarto do miocárdio é um problema de saúde grave que pode levar à
-   morte caso o tratamento não ocorra rapidamente. Clique aqui e saiba
-   mais sobre o tema!
-   Músculo estriado cardíaco
-   Clique aqui e saiba mais sobre o músculo estriado cardíaco, ou
-   miocárdio.
-   Parada Cardiorrespiratória
-   Quais são as causas e sintomas da parada cardiorrespiratória? Saiba
-   mais aqui!
-   Sistema cardiovascular
-   Aprenda mais sobre o sistema cardiovascular, aqui! Neste texto,
-   abordaremos os órgãos que fazem parte desse sistema e como ocorre a
-   circulação do sangue.
-   Sistema digestório
-   Amplie seus conhecimentos sobre o sistema digestório. Neste texto,
-   falaremos sobre os órgãos que fazem parte desse sistema e de algumas
-   funções atribuídas a eles.
 
+
+ 
+ 
+
+ 
+
+ 
+
+ Arritmia cardÃ­aca
+ 
+
+
+ 
+
+ Clique aqui e veja o que Ã© arritmia cardÃ­aca e quais as suas causas
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ CoraÃ§Ã£o dos vertebrados
+ 
+
+
+ 
+
+ Aprenda as principais diferenÃ§as existentes em relaÃ§Ã£o ao coraÃ§Ã£o dos vertebrados de cada grupo.
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ DiferenÃ§as entre artÃ©rias, veias e capilares
+ 
+
+
+ 
+
+ Compreenda as diferenÃ§as entre artÃ©rias, veias e capilares, vasos sanguÃ­neos encontrados em nosso corpo que garantem o transporte do sangue.
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ EsÃ´fago
+ 
+
+
+ 
+
+ Aprenda mais sobre o esÃ´fago clicando aqui! Neste texto abordaremos as principais caracterÃ­sticas do Ã³rgÃ£o e algumas doenÃ§as que o atingem.
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ Infarto
+ 
+
+
+ 
+
+ O infarto do miocÃ¡rdio Ã© um problema de saÃºde grave que pode levar Ã  morte caso o tratamento nÃ£o ocorra rapidamente. Clique aqui e saiba mais sobre o tema!
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ MÃºsculo estriado cardÃ­aco
+ 
+
+
+ 
+
+ Clique aqui e saiba mais sobre o mÃºsculo estriado cardÃ­aco, ou miocÃ¡rdio.
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ Parada CardiorrespiratÃ³ria
+ 
+
+
+ 
+
+ Quais sÃ£o as causas e sintomas da parada cardiorrespiratÃ³ria? Saiba mais aqui!
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ Sistema cardiovascular
+ 
+
+
+ 
+
+ Aprenda mais sobre o sistema cardiovascular, aqui! Neste texto, abordaremos os Ã³rgÃ£os que fazem parte desse sistema e como ocorre a circulaÃ§Ã£o do sangue.
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ Sistema digestÃ³rio
+ 
+
+
+ 
+
+ Amplie seus conhecimentos sobre o sistema digestÃ³rio. Neste texto, falaremos sobre os Ã³rgÃ£os que fazem parte desse sistema e de algumas funÃ§Ãµes atribuÃ­das a eles.
+ 
+
+ 
+
+
+ 
+ 
+
+
+ 
+
+ 
 Ferramentas Brasil Escola
-     __________________________________________________________________
 
-   Cronograma de estudos
-   Cronograma
-   Saiba mais
-   Jornada do Enem
-   Jogo dos Palpites
-   Saiba mais
-   Corrige Aqui
-   Jogo dos Palpites
-   Saiba mais
-   Tire Dúvidas
-   Tire Dúvidas
-   Saiba mais
-   Calculadora SISU
-   Calculadora SISU
-   Saiba mais
-   Calculadora PROUNI
-   Calculadora PROUNI
-   Saiba mais
-   Jogo das Capitais
-   Jogo das Capitais
-   Saiba mais
-   Palpites
-   Jogo dos Palpites
-   Saiba mais
-   Simulados Enem
-   Jogo dos Palpites
-   Saiba mais
-   Simulados Vestibulares
-   Jogo dos Palpites
-   Saiba mais
+ 
 
-Últimas notícias
+ 
 
-   23/12/2025 • 09h16
-   MEC divulga edital do SiSU 2026; veja orientações e datas
-   16/12/2025 • 09h31
-   Encceja 2025: confira resultado do exame
-   19/11/2025 • 11h42
-   Gabarito Enem 2025: Inep divulga respostas oficias do segundo dia
-   16/11/2025 • 08h00
-   Enem 2025: segundo dia de provas acontece neste domingo (16)
-   13/11/2025 • 15h42
-   Gabarito do 1º dia do Enem 2025 é liberado pelo Inep
-   09/11/2025 • 13h55
-   Redação Enem 2025: participantes escrevem sobre envelhecimento
+ 
 
-   backgroung art
-   Logo Mundo Educação
-   Política de Privacidade Termos de Uso Anuncie Quem Somos Fale Conosco
-   Logo Facebook Logo Twitter Logo Instagram
-   Copyright © 2025   Rede Omnia©   Todos os direitos reservados. Proibida
-   a reprodução comercial sem autorização (Inciso I do Artigo 29 Lei
-   9.610/98).
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+Cronograma de estudos
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Jornada do Enem
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Corrige Aqui
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Tire DÃºvidas
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Calculadora SISU
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Calculadora PROUNI
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Jogo das Capitais
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Palpites
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Simulados Enem
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+Simulados Vestibulares
+
+ 
+
+
+ 
+Saiba mais
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+ .ferramentas-title{
+ color: #ffdb3a;
+ text-decoration: none;
+ font-size: 18px;
+ font-weight: 700;
+ }
+ .navegacao-ferramentas {
+ display: flex;
+ justify-content: flex-end;
+ width: 175px;
+ }
+ .area-cards-ferramentas {
+ width: 100%;
+ padding: 0 15px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ overflow: hidden;
+ }
+ .lista-ferramentas {
+ width: 100%;
+ display: flex;
+ gap: 15px;
+ align-items: center;
+ transition: transform 0.5s ease-in-out;
+ }
+ .btn-ferramenta-anterior,
+ .btn-ferramenta-proxima {
+ display: flex;
+ position: relative;
+ height: 35px;
+ font-size: 12px;
+ align-items: center;
+ cursor: pointer;
+ }
+ .btn-ferramenta-anterior svg,
+ .btn-ferramenta-proxima svg {
+ height: 50px;
+ width: 50px;
+ }
+ .btn-ferramenta-anterior svg:hover path,
+ .btn-ferramenta-proxima svg:hover path {
+ stroke: #00bb6f;
+ }
+ .card-ferramenta {
+ min-width: 300px;
+ padding: 10px;
+ background-color: #f7f7f7;
+ border-radius: 8px;
+ border: 2px solid #e5e5e5;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ text-decoration: none;
+ color: unset
+ }
+ .icon-ferramenta {
+ width: 80px;
+ height: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .icon-ferramenta img {
+ height: 70px;
+ }
+ .info-ferramenta {
+ text-align: center;
+ font-size: 14px;
+ }
+ .link-ferramenta {
+ color: #00bb6f;
+ padding: 8px 25px;
+ background: linear-gradient(0deg, #009a5b 0, #00bb6f 100%);
+ color: #FFF;
+ font-size: 14px;
+ text-decoration: none;
+ border-radius: 6px;
+ transition: all ease 0.3s;
+ }
+ .link-ferramenta:hover {
+ background: linear-gradient(0deg,#00bb6f 0,#00bb6f 100%);
+ }
+ .detaques-topo {
+ display: flex;
+ align-items: center;
+ position: relative;
+ gap: 10px;
+ margin-bottom: 15px;
+ margin-bottom: 15px;
+ }
+ hr.dashed-line {
+ border: none;
+ border-top: 2px dotted #ffa106;
+ color: #fff;
+ height: 1px;
+ width: 100%;
+ opacity: 1;
+ margin-top: 10px;
+ }
+ .detaques-topo h2{
+ white-space: nowrap
+ }
+ @media screen and (max-width: 550px){
+ .detaques-topo{
+ flex-direction: column;
+ }
+ .detaques-topo h2{
+ white-space: break-spaces;
+ }
+ .navegacao-ferramentas{
+ width: auto;
+ }
+ }
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+Ãšltimas notÃ­cias
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 23/12/2025 â€¢ 09h16
+ 
+
+ 
+
+ MEC divulga edital do SiSU 2026; veja orientaÃ§Ãµes e datas
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 16/12/2025 â€¢ 09h31
+ 
+
+ 
+
+ Encceja 2025: confira resultado do exame
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 19/11/2025 â€¢ 11h42
+ 
+
+ 
+
+ Gabarito Enem 2025: Inep divulga respostas oficias do segundo dia
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 16/11/2025 â€¢ 08h00
+ 
+
+ 
+
+ Enem 2025: segundo dia de provas acontece neste domingo (16)
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 13/11/2025 â€¢ 15h42
+ 
+
+ 
+
+ Gabarito do 1Âº dia do Enem 2025 Ã© liberado pelo Inep
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 09/11/2025 â€¢ 13h55
+ 
+
+ 
+
+ RedaÃ§Ã£o Enem 2025: participantes escrevem sobre envelhecimento
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+PolÃ­tica de Privacidade
+
+ 
+Termos de Uso
+
+ 
+Anuncie
+
+ 
+Quem Somos
+
+ 
+Fale Conosco
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Copyright Â© 2026   
+Rede OmniaÂ©
+   Todos os direitos reservados. Proibida a reproduÃ§Ã£o comercial
+ sem autorizaÃ§Ã£o (Inciso I do Artigo 29 Lei 9.610/98).
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ var docWidth = document.documentElement.offsetWidth;
+
+ [].forEach.call(
+ document.querySelectorAll('*'),
+ if (el.offsetWidth > docWidth) {
+ console.log(el);
+ }
+ }
+ );
+
+
+
+
+
+
+.pub_insert_content_titulo{
+ font-size: 14px;
+ color: #707070;
+ width: fit-content;
+ margin: auto;
+}
+
+
+200

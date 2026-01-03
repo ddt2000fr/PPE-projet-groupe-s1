@@ -1,261 +1,158 @@
-   #alternate alternate oEmbed (JSON) oEmbed (XML) JSON
-
-   ____________________ (BUTTON)
-
-   assine newsletter edição impressa
-
-   english español
-
-     * ____________________ Submit
-     * Ciência
-     * Política C&T
-     * Tecnologia
-     * Humanidades
-     * Ética
-     * Saúde
-     * Sustentabilidade
-     * Gente
-     * Vídeos
-     * Podcasts
-     * Edição Impressa
-     * newsletter
-     * english español
-
-   Imprimir PDF
-   Share on Facebook Tweet about this on Twitter Email this to someone
-   Share on LinkedIn Share on Telegram Share on Whatsapp
-   Republicar
-
-Engenharia Biomédica
-
-Dentro do coração
-     __________________________________________________________________
-     __________________________________________________________________
-
-   Edição 40
-   mar 1999
-   EngenhariaMedicina
-
-   O estudo do transporte e regulação do íon cálcio no coração é um tema
-   que vem mobilizando, há mais de dez anos, o Laboratório de Pesquisa
-   Cardiovascular (LPCv) da Universidade Estadual de Campinas (Unicamp).
-   Um novo projeto temático, Transporte de cálcio em miócitos
-   ventriculares de ratos durante o desenvolvimento pós-natal, financiado
-   pela FAPESP, está ampliando, com resultados animadores, os
-   conhecimentos nessa área. “Importantes conclusões estão previstas para
-   o próximo ano”, informa o pesquisador José Wilson Magalhães Bassani,
-   diretor do Centro de Engenharia Biomédica e professor da Faculdade de
-   Engenharia Elétrica e de Computação da Unicamp, coordenador do projeto.
-
-   A importância do projeto é maior do que parece à primeira vista. O íon
-   cálcio é responsável pela contração do músculo cardíaco. Há fortes
-   indicações de que muitas doenças que levam a insuficiências nas funções
-   do coração, como hipertensão arterial, isquemia miocárdica, hipertrofia
-   e distúrbio de ritmo, estão ligadas a alterações nos transportadores de
-   cálcio. Para caracterizar definitivamente essas alterações, porém, é
-   preciso pesquisar de maneira mais profunda os mecanismos básicos da
-   célula sadia. É justamente este o objetivo do projeto, iniciado há três
-   anos.
-
-   Até o fim de 1999, ele pretende apresentar uma descrição quantitativa
-   precisa e completa da participação relativa dos transportadores de
-   cálcio em animais jovens e recém-nascidos. Os objetivos do projeto
-   ficam dentro da pesquisa pura. Mas não há dúvidas de que suas
-   descobertas poderão levar, posteriormente, a pesquisas sobre
-   tratamentos mais eficazes para os problemas cardíacos, responsáveis,
-   segundo dados da Fundação Interamericana do Coração (IHF), por 34% das
-   mortes que ocorrem no Brasil.
-
-   Metodologia
-   O projeto, mesmo no estágio atual, já tem o que mostrar. Por exemplo,
-   para sua realização, foi desenvolvida uma metodologia totalmente nova.
-   Esse desenvolvimento foi realizado no laboratório do professor Donald
-   Martin Bers, na Universidade Loyola, em Chicago, nos Estados Unidos,
-   com a participação de Bassani e da doutora Rosana Almada Bassani,
-   também da Unicamp. O desdobramento desse trabalho no Brasil também
-   contou com um financiamento da FAPESP. Nas primeiras etapas do projeto
-   temático, os pesquisadores se concentraram no desenvolvimento e
-   aprimoramento de métodos e instrumentos destinados a permitir que
-   fossem medidas as participações relativas dos diversos mecanismos de
-   transporte de cálcio nas células cardíacas, além da parte liberada pelo
-   retículo sarcoplasmático, a principal fonte do cálcio destinado às
-   contrações do músculo existente nessas células.
-
-   Além do estoque de cálcio existente no retículo sarcoplasmático, as
-   células contam com vários mecanismos para o transporte do íon, como as
-   bombas de cálcio existentes no retículo e na membrana das células, a
-   troca sódio-cálcio e o transportador mitrocondrial. Todos esses fatores
-   estão sendo pesquisados como parte do projeto.
-
-   Contração
-   O íon cálcio tem diversas funções no organismo. Ele regula a
-   transcrição genética e controla a produção de energia nas células. Uma
-   de suas funções mais importantes, porém, é controlar o processo de
-   contração do coração, que bombeia o sangue para todo o organismo. “O
-   íon cálcio atua como fator de ligação entre a excitação elétrica e a
-   contração em células musculares cardíacas, além de modular a força
-   desenvolvida pelas células”, explica o professor Bassani. Uma falha no
-   processo pode ter conseqüências fatais.
-
-   Estudos recentes documentaram uma ligação entre a hipertensão severa,
-   um estado que pode levar ao aumento exagerado e à falência do coração,
-   e alterações no processo de ligação entre excitação e contração,
-   especialmente com relação à quantidade de cálcio liberada pelo retículo
-   sarcoplasmático, onde fica seu estoque principal. “Esse é o conceito
-   que temos defendido como possível explicação alternativa para o
-   controle do inotropismo (função contrátil) cardíaco”, afirma o
-   professor.
-
-   Em estudos anteriores, o grupo de trabalho da Unicamp determinou, a
-   partir de pesquisas em coelhos adultos, que, durante uma contração,
-   cerca de 70% do cálcio é transportado pelo retículo sarcoplasmático,
-   28% pela troca sódio-cálcio e apenas 2% por mecanismos mais lentos,
-   como as bombas de cálcio da membrana e os transportadores
-   mitocondriais. “Essas participações podem ser muito diferentes em
-   animais jovens ou recém-nascidos”, comenta o professor Bassani, “e o
-   impacto de tratamentos que afetem o transporte de cálcio será
-   certamente dependente da importância relativa dos diversos
-   transportadores.” Daí a importância do trabalho em curso.
-
-   Fluorescência
-   Várias etapas do projeto já foram vencidas. Uma delas foi a
-   determinação dos sítios de ligação passiva dos íons, os chamados
-   buffers de cálcio, no interior das células. Outras foram a determinação
-   de parâmetros e o desenvolvimento de métodos de calibração do sinal de
-   fluorescência usado para medir as concentrações intracelulares de
-   cálcio. A metodologia das pesquisas envolve o isolamento de células
-   cardíacas, ou miócitos, por digestão enzimática; medição de correntes
-   iônicas por patch-clamps (técnica que utiliza microeletrodos para essa
-   medição); medição de encurtamento celular por detecção de borda de
-   sinal de vídeo e de concentração intracelular de cálcio por
-   fluorescência.
-
-   De acordo com Bassani, os pesquisadores, a certa altura, depararam com
-   a necessidade de desenvolver uma técnica própria de estimulação
-   elétrica. Essa nova técnica já levou a dois subprodutos: um modelo
-   matemático, com base na teoria eletromagnética, para explicar o
-   processo de excitação elétrica das células de animais recém-nascidos; e
-   um estimulador elétrico de alta potência.
-   “A partir de agora, não só o nosso laboratório, mas outros, no Brasil e
-   no exterior, poderão beneficiar-se do conhecimento de que miócitos de
-   animais neonatos podem ser estimulados eletricamente, por campo
-   elétrico, desde que se usem estimuladores capazes de fornecer correntes
-   superiores a 500 miliampères”, afirma o professor da Unicamp. Essa
-   corrente, superior a 500 miliampères, é cerca de dez vezes maior que a
-   necessária para estimular miócitos de animais adultos nas mesmas
-   condições. Há mais.
-
-   A equipe desenvolveu um microfotômetro, instrumento completo (óptico,
-   mecânico e eletrônico) para medir a concentração de cálcio no interior
-   das células, mais compacto e, aparentemente, mais adequado aos
-   ambientes hospitalares do que equipamentos importados. O aparelho,
-   capaz de monitorar a concentração intracelular de cálcio numa célula
-   isolada, é uma das melhores opções nesse campo, inclusive em nível
-   internacional. Considerando-se que o projeto ainda não chegou ao final,
-   são resultados amplos e importantes.
-
-   Muitos outros, provavelmente, vão aparecer até o projeto chegar à sua
-   conclusão, no fim do ano que vem. Além do professor Bassani, a equipe
-   multidisciplinar envolvida no projeto temático inclui Rosana Almada
-   Bassani, bióloga, mestre em Ciências Biológicas e doutora em Ciências,
-   da Unicamp, que atua como vice-coordenadora do projeto; o professor
-   Aníbal Vercesi, médico, doutor em Ciências, da Unicamp; Márcia Fagian,
-   bióloga, doutora em Ciências, da Unicamp; o professor Carlos Marcelo
-   Gurjão de Godoy, engenheiro-eletrônico, da Universidade de Moji das
-   Cruzes; e o professor Paulo Alberto Paes Gomes, físico, da Universidade
-   de Moji das Cruzes.
-
-   Nos Estados Unidos, o projeto tem o apoio do professor Donald Martin
-   Bers, da Universidade Loyola, de Chicago. Participam ainda os alunos de
-   doutoramento Sandro Aparecido Ferraz, tecnólogo em saúde, e Josemar
-   Gurgel da Costa, biólogo; os alunos de mestrado Katherine Almeida Lima,
-   engenheira-eletrônica, e Nivaldo Zafalon Júnior, tecnólogo em saúde; e,
-   em iniciação científica, os estudantes Christianne Basílio e Silva,
-   Gustavo Shingai Sinzato e Ana Carolina Silveira. Fornecem apoio técnico
-   Alexandre Tedeschi, técnico em eletrônica, Gílson Barbosa Maia Júnior,
-   biólogo, e Rubia Franchi, estagiária em Bioquímica.
-
-   O íon que faz o coração se contrair
-   Quando o coração é ativado eletricamente, o íon cálcio entra nas
-   células cardíacas, por meio dos canais de cálcio, desempenhando dois
-   papéis: ativar diretamente o mecanismo de contração e provocar a
-   liberação maciça de cálcio vindo dos estoques existentes no retículo
-   sarcoplasmático. A concentração intracelular de cálcio eleva-se, então,
-   do nível de repouso para um pico, de cerca de dez vezes maior. O íon
-   liga-se a proteínas contráteis e o processo de contração é
-   desencadeado. O cálcio é removido do citoplasma por transportadores, a
-   concentração volta ao nível de repouso e o ciclo se repete.
-
-   O papel dos transportadores é fundamental para que a concentração de
-   cálcio na célula aumente e volte aos níveis iniciais após a ativação
-   elétrica, constituindo uma variação transitória chamada transiente de
-   cálcio. O tempo em que ocorre o processo e a amplitude do transiente de
-   cálcio determinam a força desenvolvida e a potência da contração do
-   músculo cardíaco.
-
-   Os estudos para a medição de cálcio dentro das células ganharam força a
-   partir de 1985, quando empresas dos Estados Unidos colocaram no mercado
-   indicadores de cálcio mais eficientes e que podiam ser usados mais
-   facilmente. Os indicadores, atualmente, são fluorescentes e emitem luz
-   quando a célula é iluminada com luz ultravioleta. Quanto maior a
-   quantidade de cálcio, mais intensa é a luz emitida. O controle das
-   contrações do músculo cardíaco não é a única função do íon cálcio no
-   organismo.
-
-   Ele tem importantes funções como mensageiro intracelular. Sinaliza
-   processos vitais no organismo e pode ser mobilizado de fontes tanto
-   dentro como fora das células. Entre as atividades reguladas pelo
-   cálcio, estão a divisão das células, a transcrição genética e a
-   produção de energia celular. Mas seu excesso representa um perigo. Uma
-   sobrecarga de cálcio, por períodos prolongados, pode levar à morte da
-   célula.
-
-   O professor José Wilson Magalhães Bassani tem 45 anos. Bacharelou-se em
-   Ciências de Computação e fez mestrado e doutorado em Engenharia
-   Elétrica e Biomédica na Unicamp. Depois de um pós-doutoramento na
-   Universidade da Califórnia, em Riverside, foi professor-assistente da
-   Universidade Loyola, em Chicago, nos Estados Unidos. Atualmente, é
-   professor livre-docente do Departamento de Engenharia Biomédica da
-   Faculdade de Engenharia Elétrica e de Computação da Unicamp e dirige o
-   Centro de Engenharia Biomédica.
-   Republicar
-
+ 
+ 
+ 
+ 
+assine
+ 
+newsletter
+ 
+edição impressa
+ 
+ 
+ 
+english
+ 
+español
+ 
+ 
+ 
+Ciência
+Política C&amp;T
+Tecnologia
+Humanidades
+Ética
+Saúde
+Sustentabilidade
+Gente
+Vídeos
+Podcasts
+ 
+ Edição Impressa 
+ 
+newsletter
+ 
+english
+ 
+español
+ 
+Imprimir
+ 
+PDF
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Republicar
-
-   É permitida a republicação desta reportagem em meios digitais de acordo
-   com a licença Creative Commons CC-BY-NC-ND. É obrigatório o cumprimento
-   da Política de Republicação Digital de Conteúdo de Pesquisa FAPESP,
-   aqui especificada. Em resumo, o conteúdo não pode ser protegido por
-   paywall, isto é, não pode ter acesso limitado a assinantes ou mediante
-   pagamento, não deve ser editado e a autoria deve ser atribuída, assim
-   como a fonte (Pesquisa FAPESP). O uso do botão HTML permite o
-   atendimento a essas normas. Em caso de reprodução apenas do texto, por
-   favor, consulte a Política de Republicação Digital.
-   (BUTTON) Texto (BUTTON) HTML
-   &lt;br&gt;&lt;p&gt;Este texto foi originalmente publicado po
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-
-   Este texto foi originalmente publicado por Pesquisa FAPESP d
-   ____________________________________________________________
-   ____________________________________________________________
-   ____________________________________________________________
-   (BUTTON) Copiar código [cc-selo.gif]
-
-   IFRAME:
-   /wp-content/themes/revista-pesquisa-fapesp-tema/related-box.php?id=4636
-   6&lang=pt-br
-
-   (BUTTON) (BUTTON) (BUTTON) (BUTTON)
-   (BUTTON) (BUTTON)
-
+Engenharia Biomédica
+ 
+Dentro do coração
+ 
+Edição 40 
+ mar 1999
+Engenharia
+Medicina
+O estudo do transporte e regulação do íon cálcio no coração é um tema que vem mobilizando, há mais de dez anos, o Laboratório de Pesquisa Cardiovascular (LPCv) da Universidade Estadual de Campinas (Unicamp). Um novo projeto temático, 
+Transporte de cálcio em miócitos ventriculares de ratos durante o desenvolvimento pós-natal
+, financiado pela FAPESP, está ampliando, com resultados animadores, os conhecimentos nessa área. “Importantes conclusões estão previstas para o próximo ano”, informa o pesquisador José Wilson Magalhães Bassani, diretor do Centro de Engenharia Biomédica e professor da Faculdade de Engenharia Elétrica e de Computação da Unicamp, coordenador do projeto.
+A importância do projeto é maior do que parece à primeira vista. O íon cálcio é responsável pela contração do músculo cardíaco. Há fortes indicações de que muitas doenças que levam a insuficiências nas funções do coração, como hipertensão arterial, isquemia miocárdica, hipertrofia e distúrbio de ritmo, estão ligadas a alterações nos transportadores de cálcio. Para caracterizar definitivamente essas alterações, porém, é preciso pesquisar de maneira mais profunda os mecanismos básicos da célula sadia. É justamente este o objetivo do projeto, iniciado há três anos.
+Até o fim de 1999, ele pretende apresentar uma descrição quantitativa precisa e completa da participação relativa dos transportadores de cálcio em animais jovens e recém-nascidos. Os objetivos do projeto ficam dentro da pesquisa pura. Mas não há dúvidas de que suas descobertas poderão levar, posteriormente, a pesquisas sobre tratamentos mais eficazes para os problemas cardíacos, responsáveis, segundo dados da Fundação Interamericana do Coração (IHF), por 34% das mortes que ocorrem no Brasil.
+Metodologia
+ 
+O projeto, mesmo no estágio atual, já tem o que mostrar. Por exemplo, para sua realização, foi desenvolvida uma metodologia totalmente nova. Esse desenvolvimento foi realizado no laboratório do professor Donald Martin Bers, na Universidade Loyola, em Chicago, nos Estados Unidos, com a participação de Bassani e da doutora Rosana Almada Bassani, também da Unicamp. O desdobramento desse trabalho no Brasil também contou com um financiamento da FAPESP. Nas primeiras etapas do projeto temático, os pesquisadores se concentraram no desenvolvimento e aprimoramento de métodos e instrumentos destinados a permitir que fossem medidas as participações relativas dos diversos mecanismos de transporte de cálcio nas células cardíacas, além da parte liberada pelo retículo sarcoplasmático, a principal fonte do cálcio destinado às contrações do músculo existente nessas células.
+Além do estoque de cálcio existente no retículo sarcoplasmático, as células contam com vários mecanismos para o transporte do íon, como as bombas de cálcio existentes no retículo e na membrana das células, a troca sódio-cálcio e o transportador mitrocondrial. Todos esses fatores estão sendo pesquisados como parte do projeto.
+Contração
+ 
+O íon cálcio tem diversas funções no organismo. Ele regula a transcrição genética e controla a produção de energia nas células. Uma de suas funções mais importantes, porém, é controlar o processo de contração do coração, que bombeia o sangue para todo o organismo. “O íon cálcio atua como fator de ligação entre a excitação elétrica e a contração em células musculares cardíacas, além de modular a força desenvolvida pelas células”, explica o professor Bassani. Uma falha no processo pode ter conseqüências fatais.
+Estudos recentes documentaram uma ligação entre a hipertensão severa, um estado que pode levar ao aumento exagerado e à falência do coração, e alterações no processo de ligação entre excitação e contração, especialmente com relação à quantidade de cálcio liberada pelo retículo sarcoplasmático, onde fica seu estoque principal. “Esse é o conceito que temos defendido como possível explicação alternativa para o controle do inotropismo (função contrátil) cardíaco”, afirma o professor.
+Em estudos anteriores, o grupo de trabalho da Unicamp determinou, a partir de pesquisas em coelhos adultos, que, durante uma contração, cerca de 70% do cálcio é transportado pelo retículo sarcoplasmático, 28% pela troca sódio-cálcio e apenas 2% por mecanismos mais lentos, como as bombas de cálcio da membrana e os transportadores mitocondriais. “Essas participações podem ser muito diferentes em animais jovens ou recém-nascidos”, comenta o professor Bassani, “e o impacto de tratamentos que afetem o transporte de cálcio será certamente dependente da importância relativa dos diversos transportadores.” Daí a importância do trabalho em curso.
+Fluorescência
+ 
+Várias etapas do projeto já foram vencidas. Uma delas foi a determinação dos sítios de ligação passiva dos íons, os chamados buffers de cálcio, no interior das células. Outras foram a determinação de parâmetros e o desenvolvimento de métodos de calibração do sinal de fluorescência usado para medir as concentrações intracelulares de cálcio. A metodologia das pesquisas envolve o isolamento de células cardíacas, ou miócitos, por digestão enzimática; medição de correntes iônicas por patch-clamps (técnica que utiliza microeletrodos para essa medição); medição de encurtamento celular por detecção de borda de sinal de vídeo e de concentração intracelular de cálcio por fluorescência.
+De acordo com Bassani, os pesquisadores, a certa altura, depararam com a necessidade de desenvolver uma técnica própria de estimulação elétrica. Essa nova técnica já levou a dois subprodutos: um modelo matemático, com base na teoria eletromagnética, para explicar o processo de excitação elétrica das células de animais recém-nascidos; e um estimulador elétrico de alta potência.
+ “A partir de agora, não só o nosso laboratório, mas outros, no Brasil e no exterior, poderão beneficiar-se do conhecimento de que miócitos de animais neonatos podem ser estimulados eletricamente, por campo elétrico, desde que se usem estimuladores capazes de fornecer correntes superiores a 500 miliampères”, afirma o professor da Unicamp. Essa corrente, superior a 500 miliampères, é cerca de dez vezes maior que a necessária para estimular miócitos de animais adultos nas mesmas condições. Há mais.
+A equipe desenvolveu um microfotômetro, instrumento completo (óptico, mecânico e eletrônico) para medir a concentração de cálcio no interior das células, mais compacto e, aparentemente, mais adequado aos ambientes hospitalares do que equipamentos importados. O aparelho, capaz de monitorar a concentração intracelular de cálcio numa célula isolada, é uma das melhores opções nesse campo, inclusive em nível internacional. Considerando-se que o projeto ainda não chegou ao final, são resultados amplos e importantes.
+Muitos outros, provavelmente, vão aparecer até o projeto chegar à sua conclusão, no fim do ano que vem. Além do professor Bassani, a equipe multidisciplinar envolvida no projeto temático inclui Rosana Almada Bassani, bióloga, mestre em Ciências Biológicas e doutora em Ciências, da Unicamp, que atua como vice-coordenadora do projeto; o professor Aníbal Vercesi, médico, doutor em Ciências, da Unicamp; Márcia Fagian, bióloga, doutora em Ciências, da Unicamp; o professor Carlos Marcelo Gurjão de Godoy, engenheiro-eletrônico, da Universidade de Moji das Cruzes; e o professor Paulo Alberto Paes Gomes, físico, da Universidade de Moji das Cruzes.
+Nos Estados Unidos, o projeto tem o apoio do professor Donald Martin Bers, da Universidade Loyola, de Chicago. Participam ainda os alunos de doutoramento Sandro Aparecido Ferraz, tecnólogo em saúde, e Josemar Gurgel da Costa, biólogo; os alunos de mestrado Katherine Almeida Lima, engenheira-eletrônica, e Nivaldo Zafalon Júnior, tecnólogo em saúde; e, em iniciação científica, os estudantes Christianne Basílio e Silva, Gustavo Shingai Sinzato e Ana Carolina Silveira. Fornecem apoio técnico Alexandre Tedeschi, técnico em eletrônica, Gílson Barbosa Maia Júnior, biólogo, e Rubia Franchi, estagiária em Bioquímica.
+O íon que faz o coração se contrair
+ 
+Quando o coração é ativado eletricamente, o íon cálcio entra nas células cardíacas, por meio dos canais de cálcio, desempenhando dois papéis: ativar diretamente o mecanismo de contração e provocar a liberação maciça de cálcio vindo dos estoques existentes no retículo sarcoplasmático. A concentração intracelular de cálcio eleva-se, então, do nível de repouso para um pico, de cerca de dez vezes maior. O íon liga-se a proteínas contráteis e o processo de contração é desencadeado. O cálcio é removido do citoplasma por transportadores, a concentração volta ao nível de repouso e o ciclo se repete.
+O papel dos transportadores é fundamental para que a concentração de cálcio na célula aumente e volte aos níveis iniciais após a ativação elétrica, constituindo uma variação transitória chamada transiente de cálcio. O tempo em que ocorre o processo e a amplitude do transiente de cálcio determinam a força desenvolvida e a potência da contração do músculo cardíaco.
+Os estudos para a medição de cálcio dentro das células ganharam força a partir de 1985, quando empresas dos Estados Unidos colocaram no mercado indicadores de cálcio mais eficientes e que podiam ser usados mais facilmente. Os indicadores, atualmente, são fluorescentes e emitem luz quando a célula é iluminada com luz ultravioleta. Quanto maior a quantidade de cálcio, mais intensa é a luz emitida. O controle das contrações do músculo cardíaco não é a única função do íon cálcio no organismo.
+Ele tem importantes funções como mensageiro intracelular. Sinaliza processos vitais no organismo e pode ser mobilizado de fontes tanto dentro como fora das células. Entre as atividades reguladas pelo cálcio, estão a divisão das células, a transcrição genética e a produção de energia celular. Mas seu excesso representa um perigo. Uma sobrecarga de cálcio, por períodos prolongados, pode levar à morte da célula.
+O professor 
+José Wilson Magalhães Bassani
+ tem 45 anos. Bacharelou-se em Ciências de Computação e fez mestrado e doutorado em Engenharia Elétrica e Biomédica na Unicamp. Depois de um pós-doutoramento na Universidade da Califórnia, em Riverside, foi professor-assistente da Universidade Loyola, em Chicago, nos Estados Unidos. Atualmente, é professor livre-docente do Departamento de Engenharia Biomédica da Faculdade de Engenharia Elétrica e de Computação da Unicamp e dirige o Centro de Engenharia Biomédica.
+ 
+Republicar
+Republicar
+ É permitida a republicação desta reportagem em meios digitais de acordo com a licença Creative Commons 
+CC-BY-NC-ND
+. É obrigatório o cumprimento da Política de Republicação Digital de Conteúdo de Pesquisa FAPESP, 
+aqui especificada
+. Em resumo, o conteúdo não pode ser protegido por paywall, isto é, não pode ter acesso limitado a assinantes ou mediante pagamento, não deve ser editado e a autoria deve ser atribuída, assim como a fonte (Pesquisa FAPESP). O uso do botão HTML permite o atendimento a essas normas. Em caso de reprodução apenas do texto, por favor, consulte a 
+Política de Republicação Digital
+.
+ 
+Texto
+ 
+HTML
+Este texto foi originalmente publicado por Pesquisa FAPESP de acordo com a licença Creative Commons CC-BY-NC-ND. Leia o original aqui.
+Copiar código
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Siga-nos
-
-   [USEMAP:social-icons-new.png]
-
-   Home Quem Somos Anuncie Fale Conosco
-   FAPESP Agência FAPESP Biblioteca Virtual
-
-   © Revista Pesquisa FAPESP - Todos os direitos reservados. É proibida a
-   reprodução total ou parcial de textos e imagens sem prévia autorização.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Home 
+ 
+Quem Somos 
+ 
+ Anuncie 
+ 
+ Fale Conosco 
+ 
+ FAPESP 
+ 
+ Agência FAPESP 
+ 
+ Biblioteca Virtual 
+ © Revista Pesquisa FAPESP - Todos os direitos reservados. É proibida a reprodução total ou parcial de textos e imagens sem prévia autorização.
+ 
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/revista-pesquisa-fapesp-tema/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+ 
+ 
+ 
+200

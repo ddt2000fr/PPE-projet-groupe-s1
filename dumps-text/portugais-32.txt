@@ -1,1126 +1,12478 @@
+ 
+ 
+&lt;iframe src=&#34;//www.googletagmanager.com/ns.html?id=GTM-5PWZB8V&#34; height=&#34;0&#34; width=&#34;0&#34; style=&#34;display:none;visibility:hidden&#34;&gt;&lt;/iframe&gt;
+ 
+ 
+ 
 
 
-   IFRAME: //www.googletagmanager.com/ns.html?id=GTM-5PWZB8V
+ glb.fnMetadata = glb.fnMetadata || {};
+ glb.fnMetadata.envName = 'prod';
+ glb.fnMetadata.headerProductColor = '#C4170C';
+ glb.fnMetadata.hasMenuCdn = true; 
+ glb.fnMetadata.clientUrl = 'https://s3.glbimg.com/v1/AUTH_f7d75b8ab8c8447292333ff06480419a/nav-cdn/client/3.0.1/fn-cdn-client.min.js';
 
-   Saúde
+ glb.getCurrentEnv = () => 'prod';
 
-Nem vape nem tabaco aquecido: nicotina é tóxica para o coração em qualquer
-forma, diz revisão internacional
+ 
+ 
+ 
+ 
 
-Revisão publicada na revista científica “European Heart Journal” afirma que
-vapes, bolsas de nicotina e tabaco aquecido também aumentam o risco
-cardiovascular.
+ .header-navegacao-color {
+ color: #C4170C;
+ }
 
-   Por Redação g1
+ .header-editoria--link,
+ .header-subeditoria--link,
+ .header-navegacao .logo,
+ .header-navegacao .menu-label,
+ #busca-padrao #busca-campo::placeholder {
+ color: #fff;
+ }
 
-   20/12/2025 05h01 Atualizado 20/12/2025
-     __________________________________________________________________
+ .header-navegacao .menu-button .burger,
+ .header-navegacao .menu-button .burger:before,
+ .header-navegacao .menu-button .burger:after {
+ background-color: #fff;
+ }
 
-   1 de 1 Pessoa fumando vape — Foto: Diego Fedele/AAP Image via AP
+ #busca-padrao .lupa svg,
+ .header-navegacao .search-icon {
+ fill: #fff;
+ }
 
-   Pessoa fumando vape — Foto: Diego Fedele/AAP Image via AP
+ .header-navegacao .logo svg {
+ fill: currentColor;
+ }
 
-   Nem vapor, nem sachê, nem tabaco aquecido. A nicotina é tóxica para o
-   coração e para os vasos sanguíneos em qualquer forma de consumo, e a
-   ideia de que existiriam versões “mais seguras” desse tipo de produto
-   não se sustenta à luz das evidências científicas.
+ .gui-color-primary-bg-after:after {
+ background-color: #C4170C;
+ }
 
-   Essa é a principal conclusão de um artigo internacional publicado nesta
-   quinta-feira (18) na revista científica “European Heart Journal”, que
-   reúne resultados de décadas de pesquisas sobre os efeitos da nicotina
-   no sistema cardiovascular.
+ .header-navegacao .logo {
+ width: 28px;
+ height: 28px;
+ }
 
-   O trabalho foi liderado por pesquisadores do University Medical Center
-   Mainz, na Alemanha, e envolveu especialistas de centros de pesquisa da
-   Europa e dos Estados Unidos. Os autores afirmam que há hoje um consenso
-   científico de que a nicotina, independentemente da forma de consumo, é
-   tóxica para o sistema cardiovascular.
+ @media (max-width: 767px) {
+ .has-not-regua .header-navegacao .header-title {
+ padding: 0 24px 0 24px;
+ }
+ }
 
+ @media (min-width: 768px) {
+ .header-navegacao .logo {
+ width: 34px;
+ height: 34px;
+ }
+
+ .header-navegacao .floating-bar .logo {
+ width: 34px;
+ height: 34px;
+ }
+ }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Saúde
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ glb.cdnConfig = glb.cdnConfig || {};
+ glb.cdnConfig.headerConfig = glb.cdnConfig.headerConfig || {
+ brand: {
+ link: "https://g1.globo.com/"
+ },
+ editoria: {
+ label: "Saúde",
+ link: "https://g1.globo.com/saude/"
+ },
+
+ };
+
+ glb.cdnConfig.headerConfig.isHome = false;
+ glb.cdnConfig.headerConfig.headerKind = "category";
+
+ glb.searchV2 = true;
+ glb.searchV2Ready = true;
+ glb.headerReady = true;
+ glb.headerCdn = true;
+ 
+ 
+
+ document.dispatchEvent(new CustomEvent('glb.headerDom.ready'));
+ }, false);
+
+ 
+
+:root { --text-highlight-color: #F3D1CE; }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nem vape nem tabaco aquecido: nicotina é tóxica para o coração em qualquer forma, diz revisão internacional
+ 
+ 
+ 
+ 
+Revisão publicada na revista científica “European Heart Journal” afirma que vapes, bolsas de nicotina e tabaco aquecido também aumentam o risco cardiovascular.
+ 
+ 
+ 
+ 
+ 
+ 
+ Por 
+Redação g1
+ 
+ 
+ 
+ 20/12/2025 05h01 
+ 
+ 
+ Atualizado 
+ 20/12/2025 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1 de 1&#13;Pessoa fumando vape — Foto: Diego Fedele/AAP Image via AP 
+ 
+ 
+ 
+ Pessoa fumando vape — Foto: Diego Fedele/AAP Image via AP 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Nem vapor, nem sachê, nem tabaco aquecido. A 
+nicotina é tóxica para o coração e para os vasos sanguíneos em qualquer forma de consumo
+, e a ideia de que existiriam versões “mais seguras” desse tipo de produto não se sustenta à luz das evidências científicas. 
+ 
+ 
+ 
+ 
+ 
+ 
+ Essa é a principal conclusão de um artigo internacional publicado nesta quinta-feira (18) na revista científica “European Heart Journal”, que reúne resultados de décadas de pesquisas sobre os efeitos da nicotina no sistema cardiovascular. 
+ 
+ 
+ 
+ 
+ 
+ O trabalho foi liderado por pesquisadores do University Medical Center Mainz, na Alemanha, e envolveu especialistas de centros de pesquisa da Europa e dos Estados Unidos. Os autores afirmam que há hoje um 
+consenso científico
+ de que a nicotina, independentemente da forma de consumo, é tóxica para o sistema cardiovascular. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Nicotina como toxina cardiovascular
+ 
+ 
+ 
+ 
+ 
+ De acordo com o estudo, a nicotina: 
+ 
+ 
+ 
+ 
+ 
+ativa o sistema nervoso simpático, 
+eleva a pressão arterial, 
+aumenta a rigidez das artérias e 
+causa disfunção do endotélio — a camada interna dos vasos sanguíneos, considerada um marcador precoce de doença cardiovascular.
+ 
+ 
+ 
+ 
+ 
+Os autores afirmam que esses efeitos aparecem independentemente do meio de consumo, incluindo cigarros tradicionais, cigarros eletrônicos, produtos de tabaco aquecido, narguilé e bolsas de nicotina usadas na boca.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Veja os vídeos que estão em alta no g1 
+ 
+ 
+ 
+ 
 
-   De acordo com o estudo, a nicotina:
+@media (min-width: 768px) {
+ .cxm-block-video__container--vertical #wp3-player-9oh9u .clappr-player .poster__play-wrapper &gt; svg {
+ width: 50%;
+ height: 50%;
+ }
+}
 
-     * ativa o sistema nervoso simpático,
-     * eleva a pressão arterial,
-     * aumenta a rigidez das artérias e
-     * causa disfunção do endotélio — a camada interna dos vasos
-       sanguíneos, considerada um marcador precoce de doença
-       cardiovascular.
+ 
+ 
+ 
+ 
+ “A nicotina não é um estimulante inofensivo; é uma toxina cardiovascular direta. Em cigarros, vapes, tabaco aquecido e sachês de nicotina, observamos de forma consistente aumento da pressão arterial, danos aos vasos sanguíneos e maior risco de doenças cardíacas. Nenhum produto que forneça nicotina é seguro para o coração&#34;, afirma o pesquisador Thomas Münzel. &#34;A narrativa da ‘nicotina mais segura’ precisa acabar.&#34; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
-     Os autores afirmam que esses efeitos aparecem independentemente do
-     meio de consumo, incluindo cigarros tradicionais, cigarros
-     eletrônicos, produtos de tabaco aquecido, narguilé e bolsas de
-     nicotina usadas na boca.
-
-   Veja os vídeos que estão em alta no g1
-
-   Veja os vídeos que estão em alta no g1
-
-   “A nicotina não é um estimulante inofensivo; é uma toxina
-   cardiovascular direta. Em cigarros, vapes, tabaco aquecido e sachês de
-   nicotina, observamos de forma consistente aumento da pressão arterial,
-   danos aos vasos sanguíneos e maior risco de doenças cardíacas. Nenhum
-   produto que forneça nicotina é seguro para o coração", afirma o
-   pesquisador Thomas Münzel. "A narrativa da ‘nicotina mais segura’
-   precisa acabar."
-
+ {
+ "data": {"app":{"image":"https:\/\/s2-g1.glbimg.com\/epWR-FMZ8UyAMiw7aaaHJVUfARk=\/540x304\/middle\/smart\/https:\/\/i.s3.glbimg.com\/v1\/AUTH_59edd422c0c84a879bd37670ae4f538a\/internal_photos\/bs\/2023\/M\/O\/L0NvpnQlu6HA1BAHq5Vw\/vape-geracao-3.jpeg"},"title":"\u0027Veneno suficiente para causar doen\u00e7as\u0027: especialista alerta sobre mito do \u0027vapor inofensivo\u0027 dos vapes","type":"editorial","url":"https:\/\/g1.globo.com\/saude\/bem-estar\/noticia\/2025\/08\/28\/veneno-suficiente-para-causar-doencas-especialista-alerta-sobre-mito-do-vapor-inofensivo-dos-vapes.ghtml","web":{"desktop":"https:\/\/s2-g1.glbimg.com\/_7vJn8_Ef_VlTVs-nzdJKEEzlrs=\/320x200\/middle\/smart\/https:\/\/i.s3.glbimg.com\/v1\/AUTH_59edd422c0c84a879bd37670ae4f538a\/internal_photos\/bs\/2023\/M\/O\/L0NvpnQlu6HA1BAHq5Vw\/vape-geracao-3.jpeg","image":"https:\/\/s2-g1.glbimg.com\/epWR-FMZ8UyAMiw7aaaHJVUfARk=\/540x304\/middle\/smart\/https:\/\/i.s3.glbimg.com\/v1\/AUTH_59edd422c0c84a879bd37670ae4f538a\/internal_photos\/bs\/2023\/M\/O\/L0NvpnQlu6HA1BAHq5Vw\/vape-geracao-3.jpeg","mobileSizes":{"L":"https:\/\/s2-g1.glbimg.com\/Bu-IhvjikMwpAOqh4bS4K68R0Aw=\/414x468\/middle\/smart\/https:\/\/i.s3.glbimg.com\/v1\/AUTH_59edd422c0c84a879bd37670ae4f538a\/internal_photos\/bs\/2023\/M\/O\/L0NvpnQlu6HA1BAHq5Vw\/vape-geracao-3.jpeg","LL":"https:\/\/s2-g1.glbimg.com\/bEd2AaNsj197BR-g67dXNJXyGN0=\/480x543\/middle\/smart\/https:\/\/i.s3.glbimg.com\/v1\/AUTH_59edd422c0c84a879bd37670ae4f538a\/internal_photos\/bs\/2023\/M\/O\/L0NvpnQlu6HA1BAHq5Vw\/vape-geracao-3.jpeg","M":"https:\/\/s2-g1.glbimg.com\/FV7cMmRQbR_ONdLN-AQpWtLNnnE=\/375x424\/middle\/smart\/https:\/\/i.s3.glbimg.com\/v1\/AUTH_59edd422c0c84a879bd37670ae4f538a\/internal_photos\/bs\/2023\/M\/O\/L0NvpnQlu6HA1BAHq5Vw\/vape-geracao-3.jpeg","S":"https:\/\/s2-g1.glbimg.com\/Q3MW7jiwqh8SEbKHTx1M0zYH8_s=\/320x362\/middle\/smart\/https:\/\/i.s3.glbimg.com\/v1\/AUTH_59edd422c0c84a879bd37670ae4f538a\/internal_photos\/bs\/2023\/M\/O\/L0NvpnQlu6HA1BAHq5Vw\/vape-geracao-3.jpeg"}}}
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Jovens no centro da nova epidemia
-
-   O consenso chama atenção para o crescimento acelerado do uso de vapes e
-   bolsas de nicotina entre adolescentes e adultos jovens. Dados reunidos
-   no estudo indicam que até 75% dos jovens que usam cigarros eletrônicos
-   nunca haviam fumado antes, o que contraria o discurso de redução de
-   danos.
-
-   Segundo os autores, sabores atrativos, marketing em redes sociais e
-   brechas regulatórias têm impulsionado uma nova geração de dependentes
-   de nicotina, com potenciais impactos de longo prazo na saúde
-   cardiovascular.
-
+ 
+ 
+ 
+ 
+ 
+ O consenso chama atenção para o crescimento acelerado do uso de vapes e bolsas de nicotina entre adolescentes e adultos jovens. Dados reunidos no estudo indicam que até 75% dos jovens que usam cigarros eletrônicos nunca haviam fumado antes, o que contraria o discurso de redução de danos. 
+ 
+ 
+ 
+ 
+ 
+ Segundo os autores, sabores atrativos, marketing em redes sociais e brechas regulatórias têm impulsionado uma nova geração de dependentes de nicotina, com potenciais impactos de longo prazo na saúde cardiovascular. 
+ 
+ 
+ 
+ 
+ 
 Exposição passiva também preocupa
-
-   Outro ponto destacado é o risco da exposição passiva à fumaça e aos
-   aerossóis. Mesmo exposições breves podem causar alterações vasculares
-   mensuráveis em não usuários, especialmente crianças, gestantes e
-   pessoas com doenças cardíacas prévias.
-
-   O estudo defende que leis antifumo devem ser ampliadas para incluir
-   também cigarros eletrônicos, tabaco aquecido e narguilé.
-
+ 
+ 
+ 
+ 
+ 
+ Outro ponto destacado é o risco da exposição passiva à fumaça e aos aerossóis. Mesmo exposições breves podem causar alterações vasculares mensuráveis em não usuários, especialmente crianças, gestantes e pessoas com doenças cardíacas prévias. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ O estudo defende que leis antifumo devem ser ampliadas para incluir também cigarros eletrônicos, tabaco aquecido e narguilé. 
+ 
+ 
+ 
+ 
+ 
 Metodologia e limitações
-
-   O artigo é uma revisão sistemática e relatório de consenso, baseada na
-   análise de estudos epidemiológicos, ensaios clínicos, experimentos
-   laboratoriais e dados globais de carga de doença.
-
-   Os autores reconhecem que os efeitos de longo prazo de alguns produtos
-   mais recentes ainda estão em investigação e que o uso combinado de
-   diferentes formas de nicotina dificulta análises isoladas.
-
-   Ainda assim, o grupo afirma que o conjunto das evidências é suficiente
-   para uma conclusão clara: não existe produto com nicotina que seja
-   seguro para o sistema cardiovascular.
-
+ 
+ 
+ 
+ 
+ 
+ O artigo é uma revisão sistemática e relatório de consenso, baseada na análise de estudos epidemiológicos, ensaios clínicos, experimentos laboratoriais e dados globais de carga de doença. 
+ 
+ 
+ 
+ 
+ 
+ Os autores reconhecem que os efeitos de longo prazo de alguns produtos mais recentes ainda estão em investigação e que o uso combinado de diferentes formas de nicotina dificulta análises isoladas. 
+ 
+ 
+ 
+ 
+ 
+ Ainda assim, o grupo afirma que o conjunto das evidências é suficiente para uma conclusão clara: não existe produto com nicotina que seja seguro para o sistema cardiovascular. 
+ 
+ 
+ 
+ 
+ 
 Chamado à regulação
+ 
+ 
+ 
+ 
+ 
+ Os pesquisadores defendem medidas como banimento de sabores, tributação proporcional ao teor de nicotina, embalagens padronizadas, restrições à publicidade digital e integração da prevenção ao uso de nicotina nas políticas de saúde cardiovascular. 
+ 
+ 
+ 
+ 
+ 
+ Para eles, sem ação regulatória, o mundo corre o risco de enfrentar “a maior onda de dependência de nicotina desde os anos 1950”. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
-   Os pesquisadores defendem medidas como banimento de sabores, tributação
-   proporcional ao teor de nicotina, embalagens padronizadas, restrições à
-   publicidade digital e integração da prevenção ao uso de nicotina nas
-   políticas de saúde cardiovascular.
+ globalThis.playerAssetsInfo = {
+ tsTick: Date.now(),
+ perfVersion: '8',
+ }
+ const promiseGetPlayerAssets = new Promise((resolve, reject) => {
+ });
 
-   Para eles, sem ação regulatória, o mundo corre o risco de enfrentar “a
-   maior onda de dependência de nicotina desde os anos 1950”.
+ const psHandleLoad = (elem, attr) => {
+ elem.setAttribute(attr, '');
+ elem.onload = elem.onerror = null;
+ }
+ globalThis.playerAssetsHandleError = (scriptElem) => { psHandleLoad(scriptElem, 'data-has-error') }
+ globalThis.playerAssetsHandleLoad = (scriptElem) => { psHandleLoad(scriptElem, 'data-loaded') }
+ globalThis.playerAssetsHandleManagerError = (scriptElem) => {
+ globalThis.playerAssetsHandleError(scriptElem)
+ }
 
-   IFRAME:
-   https://s3.glbimg.com/v1/AUTH_14ce1dbebbe64b1e8e955809a085692d/web-comp
-   onents/teste-ab.html?url=aHR0cHM6Ly9zMy5nbGJpbWcuY29tL3YxL0FVVEhfMTRjZT
-   FkYmViYmU2NGIxZThlOTU1ODA5YTA4NTY5MmQvd2ViLWNvbXBvbmVudHMvcGxheWVyLXdlY
-   i1tdWx0aWNvbnRlbnQvcHJvZC93aWRnZXQuaHRtbD9wcm9kdWN0TmFtZT1nMSZwcm9kdWN0
-   Q29sb3I9JTIzQzQxNzBDJmFydHdvcmtVUkw9aHR0cHMlM0ElMkYlMkZzMy5nbGJpbWcuY29
-   tJTJGdjElMkZBVVRIXzU5ZWRkNDIyYzBjODRhODc5YmQzNzY3MGFlNGY1MzhhJTJGYXVkaW
-   9wdWItZXBpc29kZXMlMkZicyUyRjIwMjQlMkZrJTJGayUyRmRPTnlHQlFaV3h6SVNQMXpRa
-   Wh3JTJGbmF0dXphLWNhcGEuanBnJmF1ZGlvVVJMPWh0dHBzJTNBJTJGJTJGdHJhZmZpYy5v
-   bW55LmZtJTJGZCUyRmNsaXBzJTJGNjUxYTI1MWUtMDZlMS00N2UwLTkzMzYtYWM1YTAwZjQ
-   xNjI4JTJGMDQ1NjFiNDMtNzUzZC00Nzg0LThlMTktYWM4YjAwZTg2NDExJTJGZDU4YTU2Mz
-   AtMjllMi00NWVmLWFkYTgtYjIwZDAwMzVhMjE1JTJGYXVkaW8ubXAzJmR1cmF0aW9uPTE2M
-   TguNzU1JmF1dGhvcj1HMSZlcGlzb2RlVGl0bGU9VmFwZSUzQStvcytyaXNjb3MrbW9ydGFp
-   cytkbytjaWdhcnJvK2VsZXRyJUMzJUI0bmljbysmcG9kY2FzdFRpdGxlPU8rQXNzdW50byZ
-   wdWJsaXNoZWRBdD0yMDI0LTEwLTE4VDAzJTNBMTglM0E1NFomc2hhcmVVcmw9aHR0cHMlM0
-   ElMkYlMkZnMS5nbG9iby5jb20lMkZwb2RjYXN0JTJGby1hc3N1bnRvJTJG&channel=desk
-   top
+ 
+ 
 
+ globalThis.playerAssetsConfig = {
+ WM: { name: 'WM', url: 'https://s3.glbimg.com/v1/AUTH_e1b09a2d222b4900a437a46914be81e5/api/stable/web/api.min.js', label: 'player_api' },
+ BSPLAYER: { name: 'bsPlayer', url: 'https://s3.glbimg.com/v1/AUTH_f75bb4776e3c4683acd769d47144995f/bs-player-g1/1.9.2/bs-player.min.js', label: 'bsplayer', wcId: 'bs-player' },
+ LOGIN: { name: 'LoginScreen', url: 'https://s3.glbimg.com/cdn/libs/clappr-plugins/login-screen/1.2.1/player-plugin-login-screen.min.js', pluginName: 'LoginScreen', label: 'plugin_login' },
+ REC: { name: 'VideoRecommendationPlugin', url: 'https://s3.glbimg.com/v1/AUTH_05f06ca986b54d6e9c5df94927ccf7fc/libs/clappr-plugins/video-recommendation/v2.4.0-g1/video-recommendation-plugin.js', pluginName: 'video-recommendation-flow-plugin', label: 'plugin_rec' },
+ VIEWPORT: { name: 'ViewportPlayPlugin', url: 'https://s3.glbimg.com/v1/AUTH_f75bb4776e3c4683acd769d47144995f/viewport-play-plugin/v1.3.0/viewport-play-plugin.min.js', pluginName: 'viewport_play_plugin', label: 'plugin_viewport' },
+ }
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Resumo do dia
-
-   De segunda a sábado, as notícias que você não pode perder diretamente
-   no seu e-mail.
-   (BUTTON) Inscreva-se e receba a newsletter
-
-   Para se inscrever, entre ou crie uma conta Globo gratuita.
-
+ 
+ De segunda a sábado, as notícias que você não pode perder diretamente no seu e-mail. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Inscreva-se e receba a newsletter 
+ 
+ 
+ 
+ Para se inscrever, entre ou crie uma conta Globo gratuita. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 Ops!
+ 
+ 
+ 
+ 
+ Ok 
+ 
+ 
+ 
 
-   (BUTTON) Ok
+ { "articleSection": ["G1","Saúde"]}
 
-   Veja também
-   []
+ 
 
-   Anterior
-   Próximo
 
-Mais lidas
 
-   Mais do G1
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Veja também
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Anterior 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Próximo 
+ 
+ 
+ 
+ 
+ 
+ 
 
-Veja FOTOS e VÍDEOS das festas de réveillon pelo mundo
 
-   Veja FOTOS e VÍDEOS das festas de réveillon pelo mundo - Foto:
-   (REUTERS/Maxim Shemetov)
-   Há 3 horas Mundo
-     * Copacabana tem barraca a R$ 100, cadeira por R$ 40 e caipirinha de
-       R$ 35
-       Há 3 horas
+ 
+ 
+ 
+ 
+ 
+Mais 
+ lidas
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Mais do 
+G1
+ 
+ 
 
-   Rio de Janeiro
+ SETTINGS.BASTIAN = SETTINGS.BASTIAN || {};
+ SETTINGS.BASTIAN['RECOMMENDATION_URL'] = "https://recomendacao.globo.com/v3/globocom/ab/";
+ SETTINGS.BASTIAN['HORIZON_HOST'] = "https://horizon.globo.com";
+ SETTINGS.BASTIAN['PORTAL'] = "g1";
+ SETTINGS.BASTIAN['DEVICE_GROUP'] = "desktop";
+ SETTINGS.BASTIAN['PAGINABLE'] = false;
+ SETTINGS.BASTIAN['IS_FULL_FEED_SSR'] = false;
+ SETTINGS.BASTIAN['FULL_FEED_SSR_TYPE'] = "";
+ SETTINGS.BASTIAN['HAS_HOMELIVE'] = false;
 
-Menino desaparece no mar de Copacabana; mais de 100 foram resgatados
+ 
+ 
 
-   Menino desaparece no mar de Copacabana; mais de 100 foram resgatados -
-   Foto: (Reprodução/TV Globo)
-   Há 4 horas Rio de Janeiro
-     * 'Não mergulhem, o mar vai subir', alerta bombeiro
-       Há 4 horas
 
-   Blog do Valdo Cruz
 
-Nova suspeita de fraude do Banco Master envolve fundos da Reag
 
-   Nova suspeita de fraude do Banco Master envolve fundos da Reag - Foto:
-   (Reprodução Fantástico)
-   Há 2 horas Blog do Valdo Cruz
-     * BC fica aliviado após diretor ser dispensado de acareação
-       Há 2 horas
+#bstn-rtcl,.bstn-fd,.bstn-hl{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.bstn-hls{display:block}.bstn-hls:not(.variation-uber) .bstn-hl{will-change:transform;border-radius:var(--glb-fd-hl-border-radius,3px)}.bstn-hl{display:none;background:#fff;height:100%;position:relative;background-size:0;overflow:hidden}.bstn-hl:first-child{display:block}.bstn-hl.with-photo:before{background-color:#000;background-image:var(--bstn-hl-cover);background-position:50%;background-size:cover;cursor:pointer}.bstn-hl.with-photo:after,.bstn-hl.with-photo:before{position:absolute;top:0;right:0;bottom:0;left:0;content:&#34;&#34;}.bstn-hl.with-photo:after{background:linear-gradient(0deg,rgba(0,0,0,.6),rgba(0,0,0,.2) 40%,rgba(0,0,0,.2) 80%,rgba(0,0,0,.4));z-index:1}.bstn-hls.variation-uber .bstn-hl{border-radius:var(--glb-fd-hl-uber-border-radius)}.bstn-uhl-picture{padding-top:100%;position:relative}.bstn-uhl-picture:before{background-color:#000;background-image:var(--bstn-uhl-cover);background-position:50%;background-size:cover;z-index:1}.bstn-uhl-picture:after,.bstn-uhl-picture:before{position:absolute;top:0;right:0;bottom:0;left:0;content:&#34;&#34;}.bstn-uhl-picture:after{background:linear-gradient(180deg,transparent,#000);z-index:2}.bstn-fd,.bstn-feed{font-family:var(--font-family-book),var(--font-family-book-fallback);font-size:var(--font-size-30-responsive-book);letter-spacing:var(--font-size-30-responsive-book-letter-spacing);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman)}.post-notifier-pushstream{display:none}.bstn-item-shape{background-color:var(--glb-fd-item-bg-color,#fff);contain:layout paint style;margin:16px 0 0;overflow:hidden}#bstn-rtcl .bastian-feed-item[data-index=&#34;1&#34;]&gt;.bstn-item-shape,.bastian-page[data-index=&#34;0&#34;] .bastian-feed-item[data-index=&#34;1&#34;]&gt;.bstn-item-shape,.bastian-page[data-index=&#34;1&#34;] .bastian-feed-item[data-index=&#34;1&#34;]&gt;.bstn-item-shape{margin-top:0}.bstn-fd .bastian-card-mobile,.tag-manager-publicidade-banner_feed_esppub--visivel .tag-manager-publicidade-banner_feed_esppub{background-color:var(--glb-fd-item-bg-color,#fff);contain:layout paint style;margin:16px 0 0;overflow:hidden}.feed-media-wrapper{margin:24px -24px 0}.bstn-fd-item-cover{background-color:#ccc;background-position:50%;background-size:cover;height:var(--glb-fd-item-cover-height,0);overflow:hidden;padding-top:56.25%;position:relative;width:100%;border-radius:var(--glb-fd-item-cover-border-radius)}.bstn-fd-cover-picture{position:absolute;top:0;left:0;height:100%;width:100%;border-radius:inherit}.bstn-fd-picture-image{color:transparent;height:100%;width:100%;border-radius:inherit}.feed-post-body{padding:24px 24px 0}.feed-post-link{display:block;text-decoration:none}.feed-post-header{display:flex;color:#333;font-family:var(--font-family-book),var(--font-family-book-fallback);font-size:var(--font-size-40-responsive-book);letter-spacing:var(--font-size-40-responsive-book-letter-spacing);line-height:var(--font-line-height-compact);font-weight:var(--font-weight-semibold);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman)}.feed-post-header-chapeu{display:flex;align-content:center;align-items:center;gap:.5em}.bstn-aovivo-label{background:var(--glb-fd-aovivo-label-bg-color,red);border-radius:var(--glb-fd-aovivo-label-border-radius,3px);color:var(--glb-fd-aovivo-label-color,#fff);display:inline-block;font-size:var(--font-size-10-responsive-book);letter-spacing:var(--font-size-10-responsive-book-letter-spacing);line-height:var(--font-line-height-spaced);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman);margin:0 8px 0 0;padding:3px 8px 2px;position:relative;text-transform:uppercase;vertical-align:middle}.bstn-aovivo-label,.feed-post-body-title{font-family:var(--font-family-book),var(--font-family-book-fallback);font-weight:var(--font-weight-bold)}.feed-post-body-title{margin-top:8px;word-wrap:break-word;font-size:var(--font-size-60-responsive-book);letter-spacing:var(--font-size-60-responsive-book-letter-spacing);line-height:var(--font-line-height-compact);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman)}.feed-post-body-title:first-child{margin-top:0}.bstn-related .feed-post-body-title{display:block;font-family:var(--font-family-book),var(--font-family-book-fallback);font-size:var(--font-size-40-responsive-book);letter-spacing:var(--font-size-40-responsive-book-letter-spacing);line-height:var(--font-line-height-compact);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman);margin-top:24px}.feed-post-body-resumo{margin-top:8px;font-size:var(--font-size-40-responsive-book);letter-spacing:var(--font-size-40-responsive-book-letter-spacing);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman)}.feed-post-body-resumo,.feed-post-metadata{color:#555;font-family:var(--font-family-book),var(--font-family-book-fallback);line-height:var(--font-line-height-spaced);font-weight:var(--font-weight-regular)}.feed-post-metadata{align-items:center;display:block;justify-content:flex-start;font-size:var(--font-size-20-responsive-book);letter-spacing:var(--font-size-20-responsive-book-letter-spacing);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman);margin:24px 0 0}.feed-post-metadata:last-child{margin:24px 0}.feed-media-wrapper+.feed-post-metadata{margin:16px 0}.bstn-related .feed-post-metadata{margin:16px 0 0}.feed-post-datetime{white-space:nowrap}.feed-post-metadata&gt;:after{content:&#34;— &#34;;margin-left:4px}.feed-post-metadata&gt;:last-child:after{display:none}.feed-post-metadata-section:before{content:&#34;Em &#34;}.bstn-related{margin:24px 0}.feed-media-wrapper~.bstn-related{margin:16px 0 24px}.bstn-relateditems{list-style-type:none}.bstn-relateditem{color:#999;border-top:1px solid #ddd;margin-top:16px;padding:0;background-color:#fff}.bstn-relateditem+.bstn-relateditem{margin-top:24px}.bstn-face-temporeal .bstn-aovivo-label{background-color:var(--glb-fd-p-temporeal-label-bg-color,#06aa48)}.label-tempo-real,.scoreboard-bastian-feed{display:none}.highlight-bastian-feed{display:none;color:#555;line-height:20px;display:block;margin:8px 0 0}.highlight-bastian-feed .time{line-height:16px;font-family:var(--font-family-book),var(--font-family-book-fallback);font-size:var(--font-size-20-responsive-book);letter-spacing:var(--font-size-20-responsive-book-letter-spacing);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman);margin-bottom:8px}.highlight-bastian-feed .text{margin-bottom:4px}.load-more{margin:16px 24px 0;text-align:center;text-transform:uppercase}.load-more a{overflow-anchor:none;color:#fff;display:block;font-family:var(--font-family-book),var(--font-family-book-fallback);font-size:var(--font-size-30-responsive-book);letter-spacing:var(--font-size-30-responsive-book-letter-spacing);line-height:var(--font-line-height-spaced);font-weight:var(--font-weight-bold);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman);padding:15px 0}@media (max-width:539px){body{background-color:#eee}.areatemplate-showtime,body{margin:0}.regua-apuracao~main .areatemplate-showtime{margin-top:16px}.areatemplate-esquerda{float:left;margin-top:16px!important;padding-left:12px;padding-right:12px;width:100%}.regua-apuracao~main .areatemplate-esquerda{margin-top:0!important}.regua-apuracao~main&gt;.row+.row&gt;.areatemplate-esquerda{margin-top:16px!important}}@media (min-width:540px){.bstn-hls&gt;div{display:grid;height:460px;grid-template-columns:1fr;grid-template-rows:1fr}.bstn-hl{border:1px solid #e1e1e1}.bstn-hl.with-photo{border:0}.bstn-fd .bstn-item-shape{box-shadow:none;background-color:var(--glb-fd-medium-item-bg-color,transparent);border-radius:var(--glb-fd-medium-item-border-radius,0);margin:32px 0 0}.bstn-fd .bstn-item-shape:after{background-color:#c8c8c8;content:&#34;&#34;;display:block;height:1px;margin-top:32px}#bstn-rtcl .bstn-item-shape{background-color:var(--glb-fd-item-side-bg-color,#fff);contain:layout paint style;overflow:hidden}.no-image .feed-post{min-height:auto}.feed-post-body{align-items:start;column-gap:16px;grid-column-gap:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(45%,max-content));grid-template-rows:repeat(5,auto);padding:0}.feed-post-header{grid-column:2;padding-bottom:8px}.feed-post-body-title{grid-column:2;margin:4px 0 0;font-family:var(--font-family-display),var(--font-family-display-fallback);font-size:var(--font-size-70-responsive-display);letter-spacing:var(--font-size-70-responsive-display-letter-spacing);line-height:var(--font-line-height-compact);font-variation-settings:var(--font-variation-settings-display-normal-roman);font-feature-settings:var(--font-feature-settings-display-roman)}.feed-post-body-title:first-child{margin-top:0}.bstn-related .feed-post-body-title{font-family:var(--font-family-book),var(--font-family-book-fallback);font-size:var(--font-size-30-responsive-book);letter-spacing:var(--font-size-30-responsive-book-letter-spacing);font-weight:var(--font-weight-regular);font-variation-settings:var(--font-variation-settings-book-normal-roman);font-feature-settings:var(--font-feature-settings-book-roman);line-height:normal}.feed-post-body-resumo{grid-column:2;margin:10px 0 7px}.feed-media-wrapper{margin:0;grid-column:1;grid-row:1/span 5}.feed-post-metadata{grid-column:2;margin:6px 0 0}.feed-media-wrapper+.feed-post-metadata,.feed-post-metadata:last-child{margin:6px 0 0}.bstn-related .feed-post-metadata{display:none}.bstn-related~.feed-post-metadata{margin-top:6px}.bstn-related{display:block;grid-column:2;grid-row:3}.bstn-related,.feed-media-wrapper~.bstn-related{margin:6px 0 0 1px}.scoreboard-bastian-feed~.bstn-related{grid-row:4}.bstn-relateditems{list-style-type:disc;padding:0 0 0 16px}.bstn-relateditem{border:0;margin:2px 0;background-color:transparent;padding:4px 0}.bstn-relateditem+.bstn-relateditem{margin-top:2px}.bstn-fd .bastian-card-mobile,.bstn-fd .tag-manager-publicidade-container--visivel,.tag-manager-publicidade-banner_feed_esppub--visivel .tag-manager-publicidade-banner_feed_esppub{box-shadow:none;background-color:var(--glb-fd-medium-item-bg-color,transparent);border-radius:var(--glb-fd-medium-item-border-radius,0);margin:32px 0 0}.bs-home .areatemplate-direita,.bs-home .areatemplate-esquerda{margin-top:40px}}@media (min-width:1000px){.bstn-hls{position:relative;padding-top:49.49%}.bstn-hls&gt;div{position:absolute;top:0;right:0;bottom:0;left:0;grid-gap:12px;grid-auto-columns:1fr;grid-auto-rows:1fr;height:100%}.model-3 .bstn-hl-wrapper:first-child{grid-row:span 2}.bstn-hl-wrapper:not(:first-child){display:block;grid-column:2}.bstn-hl.with-photo:before{transition:transform .35s ease}.bstn-hls:not(.variation-uber) .bstn-hl.with-photo:hover:before{transform:scale(1.1)}.variation-uber{position:static;padding-top:0}.variation-uber&gt;div{position:static}.variation-uber .bstn-hl{position:static;height:585px;background:transparent}.variation-uber .bstn-hl:before{background-image:linear-gradient(0deg,rgba(0,0,0,.8),transparent),var(--bstn-hl-cover);bottom:auto;height:585px;top:auto}.variation-uber .bstn-hl:after{bottom:auto;content:&#34;&#34;;left:0;position:absolute;right:0;top:auto}.glb-feat-feed-highlights--smaller .model-3&gt;div{grid-template-columns:1.25fr}.glb-feat-feed-highlights--smaller .bstn-hls:not(.variation-uber){padding-top:41.2%}.bastian-container{display:flex;flex-direction:row-reverse}.bastian-container .areatemplate-esquerda{width:66.5%}}.glb-skeleton-container{position:relative;height:100%;width:100%}.bstn-headline-skeleton.glb-skeleton-box{--skeleton-width:100%;--skeleton-height:100%;position:absolute;top:0;z-index:1}.with-photo .bstn-headline-skeleton.glb-skeleton-box{--skeleton-beam:linear-gradient(90deg,hsla(0,0%,100%,0),hsla(0,0%,100%,0.06) 50%,hsla(0,0%,100%,0));background-color:transparent}
+Blog do Valdo Cruz
+TCU vai analisar documentos sobre o Banco Master que estão com o BC
+Há 8 horas
+ Blog do Valdo Cruz 
+Decisões sobre Master geram insatisfação no mercado e no próprio TCU
+Há 8 horas
+Tijuca
+Bombeiro civil é procurado após fogo em shopping no Rio
+Há 53 minutos
+ Rio de Janeiro 
+São Paulo
+Árvore de grande porte cai no Parque do Ibirapuera e deixa 3 feridos
+Há 4 horas
+ São Paulo 
+Tragédia na BR-116
+Batida entre caminhão e ônibus deixa 11 mortos em rodovia no RS
+Há 4 horas
+ Rio Grande do Sul 
+Rio de Janeiro
+Marinha resgata 8 pessoas no mar após pouso de emergência de helicóptero
+Há 3 horas
+ Região dos Lagos 
+VÍDEO mostra vítimas à deriva e socorro da Marinha
+Há 3 horas
+Ressaca no mar
+VÍDEO: turistas ignoram alertas e são atropelados por ondas no Rio
+Há 4 horas
+ Rio de Janeiro 
+Ressaca deve ficar ainda mais forte durante o fim de semana
+Há 4 horas
+Preço salgado
+Prato na praia a quase R$ 500 gera revolta entre turistas de Búzios
+Há 7 horas
+ Região dos Lagos 
+Balneário Camboriú 
+Homem esfaqueia três na praia, tenta fugir, mas é preso
+Há 2 horas
+ Santa Catarina 
+Veja mais
+ 
 
-   Sonho bilionário 🍀💰
 
-Ainda dá tempo de apostar na Mega da Virada; veja como jogar
 
-   Ainda dá tempo de apostar na Mega da Virada; veja como jogar - Foto:
-   (Edi Sousa/Ato Press/Estadão Conteúdo)
-   Há 9 horas Loterias
-     * Em 2024, bolão ficou sem prêmio por apostar no 28 em vez do 29
-       Há 9 horas
-     * Apostadores fazem fila em lotérica que teve aposta vencedora em
-       2024
-       Há 9 horas
-     * Prêmio de R$ 1 bilhão atrai até estrangeiros na fronteira
-       Há 9 horas
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
-   Contaminação em bebidas alcoólicas
+ abEnv: 'prod',
+ wishlistTokenApi: 'https://wishlist-user-api.advertising.globo/wishlist/token',
+ }
 
-Prefeitura da Bahia proíbe destilados após casos de intoxicação por metanol
+ 
+ 
 
-   Prefeitura da Bahia proíbe destilados após casos de intoxicação por
-   metanol - Foto: (Reprodução/TV Globo)
-   Há 4 horas Bahia
-     * Laudo confirma substância; 7 pessoas estão internadas
-       Há 4 horas
+ const isPreview =false;
 
-vídeos do g1
+ if (window[key]) {
+ callback();
+ } else {
+ waitForGlobal(key, callback);
+ }, 1000);
+ }
+ };
 
-   Há 2 meses
+ let contentTypeApi = 'multi-content';
+ if (contentTypeApi === 'multi-content') {
+ contentTypeApi = 'multicontent';
+ }
 
-g1 Jogos
+ 'https://globo-ab.globo.com',
+ false,
+ 'g1',
+ 'desktop',
+ isPreview,
+ contentTypeApi
+ );
+ });
+ });
+ });
 
-   Há 3 semanas
-   Minas Gerais
+ 
 
-Marido de brasileira em estado vegetativo volta dos EUA com os filhos
+// 86acbd31cd7c09cf30acb66d2fbedc91daa48b86:1607625335.6190588
+a.rel=t,r.head.appendChild(a)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+'UA', {
+ vapidPublicKey: 'BD9ppJ4GTEjuluRER_I0FOsZgr7w-OldYk4i1QAkCBxjoJi5_K5CqCYdIytn0c9JpJBSCABKNj5JwOEzY70hduI=',
+ websitePushId: 'web.com.globo.g1',
+ appKey: 'fiJnSbYuRhS_XdzV8dgLeg',
+ token: 'MTpmaUpuU2JZdVJoU19YZHpWOGRnTGVnOm8tbEJRZlVkRGFHWkowS0ZBQXAtRjV3S0JNUktqRjRRQTNXeWNaeFpMdkk',
+ workerUrl: '/sw.js'
+ });
 
-   Marido de brasileira em estado vegetativo volta dos EUA com os filhos -
-   Foto: (Ubiratan Rodrigues/Arquivo Pessoal)
-   Há 3 horas Zona da Mata
-   Veja mais
+ 
+ 
+ 
+ 
+Deseja receber as notícias mais importantes em tempo real?
+ 
+Ative as notificações do G1!
+ 
+ 
+ 
+ 
+Agora não
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ativar
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
-   Deseja receber as notícias mais importantes em tempo real? Ative as
-   notificações do G1!
-   (BUTTON) Agora não (BUTTON) Ativar
 
-   Últimas Notícias
-   © Copyright 2000-2025 Globo Comunicação e Participações S.A.
-     * princípios editoriais
-     * política de privacidade
-     * minha conta
-     * anuncie conosco
+ 
 
-     * Editorias
-        (BUTTON) menu g1 Editorias
-          + Agro
-             (BUTTON) Editorias Agro
-               o Primeira Página
-               o Agro de gente pra gente
-               o Globo Rural
-          + Carnaval 2025
-             (BUTTON) Editorias Carnaval 2025
-               o primeira página
-               o Rio de Janeiro
-               o São Paulo
-               o Pernambuco
-               o Minas Gerais
-          + Carros
-             (BUTTON) Editorias Carros
-               o primeira página
-               o Motos
-               o Dinheiro sobre rodas
-          + Ciência
-             (BUTTON) Editorias Ciência
-               o Primeira Página
-               o Viva Você
-          + Economia
-             (BUTTON) Editorias Economia
-               o Primeira Página
-               o Bitcoin
-               o Calculadoras
-               o Dólar
-               o Educação Financeira
-               o Imposto de Renda
-               o Mídia e Marketing
-               o Open banking
-          + Educação
-             (BUTTON) Editorias Educação
-               o Primeira Página
-               o Enem
-               o Guia de Carreiras
-               o Simulado Enem
-               o Teste Vocacional
-               o Universidades
-          + Empreendedorismo​
-             (BUTTON) Editorias Empreendedorismo​
-               o Primeira página
-               o pequenas empresas
-               o Menos 30 Fest
-               o Dia do Empreendedor
-          + Fato ou Fake
-          + Guia de compras
-          + Inovação
-          + Loterias
-          + Meio Ambiente
-             (BUTTON) Editorias Meio Ambiente
-               o Primeira Página
-               o Amazônia
-               o Globo Natureza
-               o Sustentabilidade​
-          + Monitor da Violência
-          + Mundo
-             (BUTTON) Editorias Mundo
-               o Primeira página
-               o Guerra na Ucrânia
-          + Olha que legal
-          + Política
-             (BUTTON) Editorias Política
-               o Primeira Página
-               o Eleições 2024
-               o Reforma da Previdência
-          + Pop & Arte
-             (BUTTON) Editorias Pop & Arte
-               o Primeira Página
-               o Cinema
-               o Diversidade
-               o Games
-               o Música
-               o Rock in Rio 2024
-               o The Town
-               o Tv e séries
-               o Lollapalooza 2025
-               o Circuito Sertanejo
-               o Oscar
-          + Saúde
-             (BUTTON) Editorias Saúde
-               o Primeira página
-               o Bem Estar
-               o Coronavirus
-          + Tecnologia
-          + Trabalho e Carreira​
-             (BUTTON) Editorias Trabalho e Carreira​
-               o Primeira página
-               o Concursos
-               o Vagas de emprego
-          + Turismo e Viagem
-             (BUTTON) Editorias Turismo e Viagem
-               o Primeira Página
-               o Descubra o Brasil
-     * Jogos
-        (BUTTON) menu g1 Jogos
-          + Todos os jogos
-          + Soletra
-          + Combinado
-          + Dito
-          + Palavras cruzadas
-          + Palavras cruzadas mini
-          + Sudoku
-          + Caça-Palavras
-          + Assine Coquetel
-     * Guia de Compras
-        (BUTTON) menu g1 Guia de Compras
-          + Primeira página
-          + Casa
-          + Celulares
-          + Lazer
-          + Moda e beleza
-          + Presentes
-          + Tecnologia
-          + Especial Vem Que Tem
-             (BUTTON) Guia de Compras Especial Vem Que Tem
-               o Mercado Pago
-     * Carros
-     * Regiões
-        (BUTTON) menu g1 Regiões
-          + centro-oeste
-             (BUTTON) Regiões centro-oeste
-               o Distrito Federal
-                  (BUTTON) centro-oeste Distrito Federal
-                    # Primeira página
-                    # Bom Dia DF
-                    # DF1
-                    # DF2
-                    # Globo Comunidade DF
-                    # DF no campo
-                    # O que fazer no DF
-                    # Moto Week
-               o Goiás
-                  (BUTTON) centro-oeste Goiás
-                    # Primeira página
-                    # Bom Dia GO
-                    # Bom dia sábado
-                    # JA 1ª Edição
-                    # JA 2ª Edição
-                    # Jornal do Campo
-                    # Esporte
-                    # Mercado Imobiliário
-               o Mato Grosso
-                  (BUTTON) centro-oeste Mato Grosso
-                    # Primeira Página
-                    # Bom Dia MT
-                    # MT TV 1ª Edição
-                    # MT Rural
-                    # MT TV 2ª Edição
-                    # Esporte
-               o Mato Grosso do Sul
-                  (BUTTON) centro-oeste Mato Grosso do Sul
-                    # Primeira Página
-                    # Bom Dia MS
-                    # MS TV 1ª Edição
-                    # MS TV 2ª Edição
-                    # MS Rural
-                    # Esporte
-          + nordeste
-             (BUTTON) Regiões nordeste
-               o Alagoas
-                  (BUTTON) nordeste Alagoas
-                    # Primeira Página
-                    # Esporte
-               o Bahia
-                  (BUTTON) nordeste Bahia
-                    # Primeira Página
-                    # Jornal da manhã
-                    # Bahia Meio Dia
-                    # BATV
-                    # Bahia Rural
-                    # Esporte
-               o Ceará
-                  (BUTTON) nordeste Ceará
-                    # Primeira Página
-                    # Bom Dia CE
-                    # CETV 1ª Edição
-                    # CETV 2ª Edição
-                    # NE Rural
-                    # Esporte
-               o Maranhão
-                  (BUTTON) nordeste Maranhão
-                    # Primeira Página
-                    # Bom Dia Mirante
-                    # JMTV 1ª Edição
-                    # JMTV 2ª edição
-                    # Mirante Rural
-                    # Esporte
-                    # Daqui
-                    # Repórter Mirante
-               o Paraíba
-                  (BUTTON) nordeste Paraíba
-                    # Primeira Página
-                    # Bom Dia Paraíba
-                    # JPB 1ª Edição
-                    # JPB 2ª Edição
-                    # Paraíba Comunidade
-                    # Esporte
-               o Pernambuco
-                  (BUTTON) nordeste Pernambuco
-                    # Recife e região
-                       (BUTTON) Pernambuco Recife e região
-                         @ Primeira página
-                         @ Bom Dia PE
-                         @ NE 1
-                         @ NE 2
-                         @ Espaço PE
-                         @ Globo Comunidade PE
-                         @ Nordeste Viver e Preservar
-                         @ Educação
-                         @ Esporte
-                         @ Praia Limpa
-                         @ São João 2025
-                    # Caruaru e região
-                       (BUTTON) Pernambuco Caruaru e região
-                         @ Primeira Página
-                         @ Bom Dia PE
-                         @ ABTV 1ª Edição
-                         @ ABTV 2ª Edição
-                         @ Globo Comunidade
-                         @ Esporte
-                         @ Paixão de Cristo
-                    # Petrolina e região
-                       (BUTTON) Pernambuco Petrolina e região
-                         @ Primeira Página
-                         @ Bom Dia Pernambuco
-                         @ GRTV 1ª Edição
-                         @ GRTV 2ª edição
-                         @ Esporte
-               o Piauí
-                  (BUTTON) nordeste Piauí
-                    # Primeira Página
-                    # Bom Dia Piauí
-                    # Bom dia Sábado
-                    # PI TV 1ª edição
-                    # PI TV 2ª Edição
-                    # Clube Rural
-                    # Esporte
-               o Rio Grande do Norte
-                  (BUTTON) nordeste Rio Grande do Norte
-                    # Primeira Página
-                    # Bom Dia RN
-                    # RN TV 1ª Edição
-                    # RN TV 2ª edição
-                    # Inter TV Rural
-                    # Esporte
-               o Sergipe
-                  (BUTTON) nordeste Sergipe
-                    # Primeira página
-                    # Bom Dia SE
-                    # SETV 1ª Edição
-                    # SETV 2ª Edição
-                    # Estação Agrícola
-                    # Esporte
-          + norte
-             (BUTTON) Regiões norte
-               o Acre
-                  (BUTTON) norte Acre
-                    # Primeira Página
-                    # Bom Dia Amazônia
-                    # JAC 1ª Edição
-                    # JAC 2ª Edição
-                    # Globo Esporte Acre
-               o Amapá
-                  (BUTTON) norte Amapá
-                    # Primeira Página
-                    # Bom Dia Amazônia
-                    # JAP 1ª Edição
-                    # JAP 2ª Edição
-                    # Amazônia Rural
-                    # Esporte
-               o Amazonas
-                  (BUTTON) norte Amazonas
-                    # Primeira Página
-                    # Bom Dia Amazônia
-                    # JAM 1ª Edição
-                    # JAM 2ª Edição
-                    # Amazônia rural
-                    # Esporte
-               o Pará
-                  (BUTTON) norte Pará
-                    # Belém e região
-                       (BUTTON) Pará Belém e região
-                         @ Primeira Página
-                         @ Bom Dia Pará
-                         @ Jornal Liberal 1ª Edição
-                         @ Jornal Liberal 2ª Edição
-                         @ Liberal Comunidade
-                         @ É do Pará
-                         @ Esporte
-                    # Santarém e região
-                       (BUTTON) Pará Santarém e região
-                         @ Primeira Página
-                         @ Bom Dia Santarém
-                         @ Jornal Tapajós 1ª Edição
-                         @ Jornal Tapajós 2ª Edição
-                         @ Esporte
-               o Rondônia
-                  (BUTTON) norte Rondônia
-                    # Primeira Página
-                    # Bom Dia Amazônia
-                    # JRO 1ª Edição
-                    # JRO 2ª Edição
-                    # Amazônia Rural
-                    # Esporte
-               o Roraima
-                  (BUTTON) norte Roraima
-                    # Primeira Página
-                    # Bom Dia Amazônia
-                    # JRR 1ª Edição
-                    # JRR 2ª Edição
-                    # Amazônia Rural
-                    # Esporte
-               o Tocantins
-                  (BUTTON) norte Tocantins
-                    # Primeira Página
-                    # Bom Dia Tocantins
-                    # JA 1ª Edição
-                    # JA 2ª Edição
-                    # Jornal do Campo
-                    # Esporte
-          + sudeste
-             (BUTTON) Regiões sudeste
-               o Espírito Santo
-                  (BUTTON) sudeste Espírito Santo
-                    # Primeira Página
-                    # Bom dia Espírito Santo
-                    # Gazeta Meio Dia
-                    # Boa Noite ES
-                    # Jornal do Campo
-                    # Agronégocios
-                    # Educação
-                    # Concursos
-                    # Esporte
-               o Minas Gerais
-                  (BUTTON) sudeste Minas Gerais
-                    # Belo Horizonte e região
-                       (BUTTON) Minas Gerais Belo Horizonte e região
-                         @ Primeira Página
-                         @ Bom dia Minas
-                         @ MG1
-                         @ MG2
-                         @ Rolê nas Gerais
-                         @ Terra de Minas
-                         @ pelas cozinhas de minas
-                         @ Esporte
-                    # Centro-Oeste
-                       (BUTTON) Minas Gerais Centro-Oeste
-                         @ Primeira Página
-                         @ Bom dia Minas
-                         @ MG TV 1ª Edição
-                         @ MG TV 2ª Edição
-                         @ MG Rural
-                         @ Integração notícia
-                         @ Esporte
-                    # Grande Minas
-                       (BUTTON) Minas Gerais Grande Minas
-                         @ Primeira página
-                         @ Inter TV Notícia
-                         @ MG Inter TV 1ª Edição
-                         @ MG Inter TV 2ª Edição
-                         @ Inter TV Rural
-                         @ É o bicho
-                         @ Esporte
-                    # Sul de Minas
-                       (BUTTON) Minas Gerais Sul de Minas
-                         @ Primeira Página
-                         @ Bom dia Cidade
-                         @ Jornal da EPTV 1ª Edição
-                         @ Jornal da EPTV 2ª Edição
-                         @ Terra da gente
-                         @ Esporte
-                    # Triângulo Mineiro
-                       (BUTTON) Minas Gerais Triângulo Mineiro
-                         @ Primeira Página
-                         @ Bom dia Minas
-                         @ Uberlândia
-                            (BUTTON) Triângulo Mineiro Uberlândia
-                              - MG TV 1ª Edição
-                              - MGTV 2ª edição
-                         @ Uberaba
-                            (BUTTON) Triângulo Mineiro Uberaba
-                              - MGTV 1ª Edição
-                              - MGTV 2ª Edição
-                         @ MG Rural
-                         @ Integração notícia
-                         @ Concursos
-                         @ Esporte
-                         @ Globo Esporte
-                    # Vales de Minas Gerais
-                       (BUTTON) Minas Gerais Vales de Minas Gerais
-                         @ Primeira Página
-                         @ Inter TV notícia
-                         @ MG Inter TV 1ª Edição
-                         @ MG Inter TV 2ª Edição
-                         @ Inter TV Rural
-                         @ É o bicho
-                         @ Esporte
-                    # Zona da Mata
-                       (BUTTON) Minas Gerais Zona da Mata
-                         @ Primeira Página
-                         @ Bom dia Minas
-                         @ MG TV 1ª Edição
-                         @ MG TV 2ª Edição
-                         @ MG Rural
-                         @ Integração notícia
-                         @ Esporte
-                         @ Globo Esporte
-               o Rio de Janeiro
-                  (BUTTON) sudeste Rio de Janeiro
-                    # Rio de Janeiro e região
-                       (BUTTON) Rio de Janeiro Rio de Janeiro e região
-                         @ Primeira Página
-                         @ Bom dia Rio
-                         @ RJ1
-                         @ RJ2
-                         @ Globo Comunidade RJ
-                         @ show da madonna
-                         @ guia rj
-                         @ Fora do ponto
-                         @ Esporte
-                         @ Rio Innovation Week
-                    # Norte Fluminense
-                       (BUTTON) Rio de Janeiro Norte Fluminense
-                         @ Primeira Página
-                         @ Bom dia Rio
-                         @ RJ TV Inter 1ª Edição
-                         @ RJ TV Inter 2ª Edição
-                         @ Inter TV Rural
-                         @ Esporte
-                    # Região dos Lagos
-                       (BUTTON) Rio de Janeiro Região dos Lagos
-                         @ Primeira Página
-                         @ Bom dia Rio
-                         @ RJ TV Inter 1ª Edição
-                         @ RJ TV Inter 2ª Edição
-                         @ Inter TV Rural
-                         @ Esporte
-                    # Região Serrana
-                       (BUTTON) Rio de Janeiro Região Serrana
-                         @ Primeira Página
-                         @ Bom dia Rio
-                         @ RJ TV Inter 1ª Edição
-                         @ RJ TV Inter 2ª Edição
-                         @ Inter TV Rural
-                         @ Esporte
-                    # Sul e Costa Verde
-                       (BUTTON) Rio de Janeiro Sul e Costa Verde
-                         @ Primeira Página
-                         @ Bom dia Rio
-                         @ RJ TV 1ª Edição
-                         @ RJ TV 2ª Edição
-                         @ Esporte
-                         @ bom dia sábado
-               o São Paulo
-                  (BUTTON) sudeste São Paulo
-                    # São Paulo e região
-                       (BUTTON) São Paulo São Paulo e região
-                         @ Primeira Página
-                         @ Bom Dia SP
-                         @ SP1
-                         @ SP2
-                         @ Antena Paulista
-                         @ Mistura Paulista
-                         @ O que fazer em SP
-                         @ Esporte
-                    # Bauru e Marília
-                       (BUTTON) São Paulo Bauru e Marília
-                         @ Primeira Página
-                         @ Bom Dia SP
-                         @ Bom Dia Cidade
-                         @ Tem Notícias 1ª Edição
-                         @ Tem Notícias 2ª Edição
-                         @ Nosso Campo
-                         @ Esporte
-                    # Campinas e região
-                       (BUTTON) São Paulo Campinas e região
-                         @ Primeira Página
-                         @ Bom Dia Cidade
-                         @ Jornal da EPTV 1ª Edição
-                         @ Jornal da EPTV 2ª Edição
-                         @ Terra da Gente
-                         @ Concursos
-                         @ Esporte
-                    # Itapetininga e região
-                       (BUTTON) São Paulo Itapetininga e região
-                         @ Primeira Página
-                         @ Bom Dia SP
-                         @ Bom Dia Cidade
-                         @ TEM Notícias 1ª Edição
-                         @ TEM Notícias 2ª Edição
-                         @ Antena Paulista
-                         @ Nosso Campo
-                         @ Resumo da Notícia
-                         @ Memória
-                         @ TEM Comunidade
-                         @ Esporte
-                    # Mogi das Cruzes e Suzano
-                       (BUTTON) São Paulo Mogi das Cruzes e Suzano
-                         @ Primeira Página
-                         @ Bom Dia Diário
-                         @ Diário TV 1ª Edição
-                         @ Diário TV 2ª Edição
-                         @ Diário Comunidade
-                         @ Concursos
-                         @ Esporte
-                    # Piracicaba e região
-                       (BUTTON) São Paulo Piracicaba e região
-                         @ Primeira Página
-                         @ Bom Dia Cidade
-                         @ Jornal da EPTV 1ª Edição
-                         @ Jornal da EPTV 2ª Edição
-                         @ Terra da Gente
-                         @ Esporte
-                    # Pres. Prudente e Região
-                    # Ribeirão Preto e Franca
-                       (BUTTON) São Paulo Ribeirão Preto e Franca
-                         @ Primeira Página
-                         @ Bom Dia Cidade
-                         @ Jornal da EPTV 1ª Edição
-                         @ Jornal da EPTV 2ª Edição
-                         @ Terra da Gente
-                         @ Esporte
-                    # Rio Preto e Araçatuba
-                       (BUTTON) São Paulo Rio Preto e Araçatuba
-                         @ Primeira Página
-                         @ Bom Dia SP
-                         @ Bom Dia Cidade
-                         @ TEM Notícias 1ª Edição
-                         @ TEM Notícias 2ª Edição
-                         @ Nosso Campo
-                         @ Esporte
-                    # Santos e região
-                       (BUTTON) São Paulo Santos e região
-                         @ Primeira Página
-                         @ Bom Dia Região
-                         @ Jornal Tribuna 1ª Edição
-                         @ Jornal Tribuna 2ª Edição
-                         @ Antena Paulista
-                         @ G1 em um Minuto Santos
-                         @ Viver Bem
-                         @ O Que Fazer Em Santos
-                         @ Culinária #13
-                         @ Por Dentro do Porto
-                         @ Esporte
-                    # São Carlos e Araraquara
-                       (BUTTON) São Paulo São Carlos e Araraquara
-                         @ Primeira Página
-                         @ Bom Dia Cidade
-                         @ Jornal da EPTV 1ª Edição
-                         @ Jornal da EPTV 2ª edição
-                         @ Terra da Gente
-                    # Sorocaba e Jundiaí
-                       (BUTTON) São Paulo Sorocaba e Jundiaí
-                         @ Primeira Página
-                         @ Bom Dia SP
-                         @ Bom Dia Cidade
-                         @ Tem Notícias 1ª Edição
-                         @ Tem notícias 2ª Edição
-                         @ Nosso Campo
-                         @ Esporte
-                    # Vale do Paraíba e região
-                       (BUTTON) São Paulo Vale do Paraíba e região
-                         @ Primeira Página
-                         @ Bom Dia Vanguarda
-                         @ Link Vanguarda
-                         @ Jornal Vanguarda
-                         @ Vanguarda Comunidade
-                         @ Esporte
-          + sul
-             (BUTTON) Regiões sul
-               o Paraná
-                  (BUTTON) sul Paraná
-                    # Curitiba e Região
-                       (BUTTON) Paraná Curitiba e Região
-                         @ Primeira Página
-                         @ Bom Dia Paraná
-                         @ Meio Dia Paraná
-                         @ Boa Noite Paraná
-                         @ Caminhos do Campo
-                         @ Bom Dia Sábado
-                         @ Globo Esporte Paraná
-                    # Campos Gerais e Sul
-                       (BUTTON) Paraná Campos Gerais e Sul
-                         @ Primeira Página
-                         @ Bom Dia Paraná
-                         @ Meio Dia Paraná – Ponta Grossa
-                         @ Boa Noite Paraná
-                         @ Caminhos do Campo
-                         @ Bom Dia Sábado
-                         @ Globo Esporte Paraná
-                    # Norte e Noroeste
-                       (BUTTON) Paraná Norte e Noroeste
-                         @ Primeira Página
-                         @ Bom Dia Paraná
-                         @ Meio Dia Paraná – Maringá
-                         @ Boa Noite Paraná
-                         @ Caminhos do Campo
-                         @ Meio Dia Paraná – Londrina
-                         @ Meio Dia Paraná - Noroeste
-                         @ Bom Dia Sábado
-                         @ Globo Esporte Paraná
-                    # Oeste e Sudoeste
-                       (BUTTON) Paraná Oeste e Sudoeste
-                         @ Primeira Página
-                         @ Bom Dia Paraná
-                         @ Meio Dia Paraná – Foz do Iguaçu
-                         @ Boa Noite Paraná
-                         @ Caminhos do Campo
-                         @ Meio Dia Paraná – Cascavel
-                         @ Bom Dia Sábado
-                         @ Globo Esporte Paraná
-               o Rio Grande do Sul
-                  (BUTTON) sul Rio Grande do Sul
-                    # Primeira Página
-                    # Bom Dia Rio Grande
-                    # Jornal do Almoço
-                    # RBS Notícias
-                    # Campo e Lavoura
-                    # Esporte
-               o Santa Catarina
-                  (BUTTON) sul Santa Catarina
-                    # Primeira Página
-                    # Bom Dia Santa Catarina
-                    # Jornal do Almoço
-                    # NSC Notícias
-                    # Nossa Santa Catarina
-                    # Campo e Negócios
-                    # Tech SC
-                    # Esporte
-     * Telejornais
-        (BUTTON) menu g1 Telejornais
-          + Bom Dia Brasil
-             (BUTTON) Telejornais Bom Dia Brasil
-               o Primeira Página
-               o Redação
-               o História
-               o Vídeos
-          + Fantástico
-             (BUTTON) Telejornais Fantástico
-               o Primeira Página
-               o quadros e séries
-                  (BUTTON) Fantástico quadros e séries
-                    # repórter por um dia
-                    # shows e musicais
-                    # gols do fantástico
-               o história
-               o vídeos
-               o vc no fantástico
-          + G1 em 1 Minuto
-          + Globo Repórter
-             (BUTTON) Telejornais Globo Repórter
-               o Primeira Página
-               o redação
-               o história
-               o receitas
-               o testes
-               o vídeos
-               o vc no globo repórter
-          + Globo Rural
-             (BUTTON) Telejornais Globo Rural
-               o Primeira Página
-               o agro
-               o guia do globo rural
-               o revista globo rural
-               o história
-               o vídeos
-               o vc no globo rural
-          + Hora 1
-             (BUTTON) Telejornais Hora 1
-               o Primeira Página
-               o história
-               o vídeos
-               o vc no hora um
-          + Jornal da Globo
-             (BUTTON) Telejornais Jornal da Globo
-               o Primeira Página
-               o redação
-               o história
-               o vídeos
-               o vc no jg
-          + Jornal Hoje
-             (BUTTON) Telejornais Jornal Hoje
-               o Primeira Página
-               o crônicas
-               o história
-               o vídeos
-               o vc no jh
-          + Jornal Nacional
-             (BUTTON) Telejornais Jornal Nacional
-               o Primeira Página
-               o Brasil em Constituição
-               o jornal nacional 50 anos
-               o Série Lítio Exclusivo
-               o redação
-               o história
-               o vídeos
-               o vc no jornal nacional
-          + Pequenas Empresas
-             (BUTTON) Telejornais Pequenas Empresas
-               o Primeira Página
-               o pme
-               o quadros
-                  (BUTTON) Pequenas Empresas quadros
-                    # pegn.tec
-               o contato das empresas
-               o revista pegn
-               o história
-               o vídeos
-               o vc no pegn
-          + Profissão Repórter
-             (BUTTON) Telejornais Profissão Repórter
-               o Primeira Página
-               o equipe
-               o história
-               o vídeos
-               o vc no profissão repórter
-     * GloboNews
-        (BUTTON) menu g1 GloboNews
-          + Primeira Página
-          + jornais
-             (BUTTON) GloboNews jornais
-               o Estúdio i
-               o GloboNews Em Pauta
-               o GloboNews em Ponto
-               o Jornal das Dez
-               o Jornal GloboNews
-               o Conexão GloboNews
-               o GloboNews Mais
-               o Edição das 18
-               o Especial de Domingo
-          + programas
-             (BUTTON) GloboNews programas
-               o cidades e soluções
-               o diálogos com mario sergio conti
-               o Fernando Gabeira
-               o globonews documentário
-               o globonews internacional
-               o globonews miriam leitão
-               o roberto d'avila
-          + podcasts
-             (BUTTON) GloboNews podcasts
-               o as histórias na globonews
-               o em movimento
-               o globonews internacional
-               o hub globonews
-               o papo de política
-          + globonews ao vivo
-          + Converse com outras ideias
-          + canais globo
-          + programação
-          + redes sociais
-             (BUTTON) GloboNews redes sociais
-               o globonews
-               o time globonews
-          + História
-          + --
-          + grupo globo
-          + princípios editoriais
-     * Blogs e Colunas
-     * Podcasts
-        (BUTTON) menu g1 Podcasts
-          + Todos
-          + o assunto
-          + Abuso
-          + À Mão Armada
-          + Marília: O outro lado da sofrência
-          + bem estar
-          + Cadê meu trampo
-          + desenrola, rio
-          + De onde vem o que eu como
-          + educação financeira
-          + Escuta Que O Filho É Teu
-          + Frango com Quiabo
-          + Funciona Assim
-          + g1 ouviu
-          + isso é fantástico
-          + meu pedaço
-          + Livro da Vez
-          + papo de política
-          + Resumão Diário
-          + Prazer, Renata
-          + Bichos na Escuta
-          + Isso Está Acontecendo
-     * Serviços
-        (BUTTON) menu g1 Serviços
-          + App g1
-          + Calculadoras
-          + Loterias
-          + Previsão do Tempo
-          + Climatempo
-     * Vídeos
-     * Webstories
-     * especiais publicitários
-        (BUTTON) menu g1 especiais publicitários
-          + 99 Food
-          + banco bv
-          + bradesco
-          + byd
-          + empreenda com sebrae
-          + Itaú Empresas
-          + Livelo
-          + Novo Nordisk
-          + Sicredi
-          + volksvagem
-     * --
-     * Princípios editoriais
-     * Sobre o g1
-     * App g1
-     * Equipe
-     * Entre em contato
-     * Termos de uso do g1
-     * Esporte
-        (BUTTON) menu g1 Esporte
-          + GE
-             (BUTTON) Esporte GE
-               o Flamengo
-                  (BUTTON) GE Flamengo
-                    # Agenda de jogos do Flamengo
-               o Corinthians
-                  (BUTTON) GE Corinthians
-                    # Agenda de jogos do Corinthians
-               o Grêmio
-                  (BUTTON) GE Grêmio
-                    # Agenda de jogos do Grêmio
-               o Palmeiras
-                  (BUTTON) GE Palmeiras
-                    # Agenda de jogos do Palmeiras
-               o Santos
-                  (BUTTON) GE Santos
-                    # Agenda de jogos do Santos
-               o São Paulo
-                  (BUTTON) GE São Paulo
-                    # Agenda de jogos do São Paulo
-               o Atlético MG
-                  (BUTTON) GE Atlético MG
-                    # Agenda de jogos do Atlético MG
-               o Fluminense
-                  (BUTTON) GE Fluminense
-                    # Agenda de jogos do Fluminense
-               o Vasco
-                  (BUTTON) GE Vasco
-                    # Agenda de jogos do Vasco
-               o Botafogo
-                  (BUTTON) GE Botafogo
-                    # Agenda de jogos do Botafogo
-               o Cruzeiro
-                  (BUTTON) GE Cruzeiro
-                    # Agenda de jogos do Cruzeiro
-               o Internacional
-                  (BUTTON) GE Internacional
-                    # Agenda de jogos do Internacional
-               o Athletico PR
-                  (BUTTON) GE Athletico PR
-                    # Agenda de jogos do Athletico PR
-               o Ceará
-                  (BUTTON) GE Ceará
-                    # Agenda de jogos do Ceará
-               o Sport
-                  (BUTTON) GE Sport
-                    # Agenda de jogos do Sport
-               o Bahia
-                  (BUTTON) GE Bahia
-                    # Agenda de jogos do Bahia
-               o Fortaleza
-                  (BUTTON) GE Fortaleza
-                    # Agenda de jogos do Fortaleza
-               o América MG
-                  (BUTTON) GE América MG
-                    # Agenda de jogos do América MG
-               o Atlético GO
-                  (BUTTON) GE Atlético GO
-                    # Agenda de jogos do Atlético GO
-               o Juventude
-                  (BUTTON) GE Juventude
-                    # Agenda de jogos do Juventude
-          + Gato Mestre
-          + Cartola
-          + Assine Cartola Pro
-     * Entretenimento
-        (BUTTON) menu g1 Entretenimento
-          + Gshow
-     * Receitas
-     * Globo.com
-     *
-     *
-          + Acesse sua conta
-            ou cadastre-se grátis
-          + grupo globo
-          + sair da conta
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Últimas Notícias
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+© Copyright 2000-2026 Globo Comunicação e Participações S.A.
+
+ 
+
+ 
+princípios editoriais
+
+ 
+política de privacidade
+
+ 
+minha conta
+
+ 
+anuncie conosco
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Editorias
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Editorias
+
+ 
+
+
+
+ 
+
+ 
+Agro
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Agro
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Agro de gente pra gente
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Rural
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Carnaval 2025
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Carnaval 2025
+
+ 
+
+
+
+ 
+
+ 
+primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Rio de Janeiro
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+São Paulo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Pernambuco
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Minas Gerais
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Carros
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Carros
+
+ 
+
+
+
+ 
+
+ 
+primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Motos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Dinheiro sobre rodas
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Ciência
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Ciência
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Viva Você
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Economia
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Economia
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bitcoin
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Calculadoras
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Dólar
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Educação Financeira
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Imposto de Renda
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Mídia e Marketing
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Open banking
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Educação
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Educação
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Enem
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Guia de Carreiras
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Simulado Enem
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Teste Vocacional
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Universidades
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Empreendedorismo​
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Empreendedorismo​
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+pequenas empresas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Menos 30 Fest
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Dia do Empreendedor
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Fato ou Fake
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Guia de compras
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inovação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Loterias
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Ambiente
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Meio Ambiente
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Amazônia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Natureza
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Sustentabilidade​
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Monitor da Violência
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Mundo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Mundo
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Guerra na Ucrânia
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Olha que legal
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Política
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Política
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Eleições 2024
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Reforma da Previdência
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Pop &amp; Arte
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Pop &amp; Arte
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Cinema
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Diversidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Games
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Música
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Rock in Rio 2024
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+The Town
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Tv e séries
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Lollapalooza 2025
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Circuito Sertanejo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Oscar
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Saúde
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Saúde
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bem Estar
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Coronavirus
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Tecnologia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Trabalho e Carreira​
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Trabalho e Carreira​
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Concursos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Vagas de emprego
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Turismo e Viagem
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Editorias
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Turismo e Viagem
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Descubra o Brasil
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Jogos
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Jogos
+
+ 
+
+
+
+ 
+
+ 
+Todos os jogos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Soletra
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Combinado
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Dito
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Palavras cruzadas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Palavras cruzadas mini
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Sudoku
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Caça-Palavras
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Assine Coquetel
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Guia de Compras
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Guia de Compras
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Casa
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Celulares
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Lazer
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Moda e beleza
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Presentes
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Tecnologia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Especial Vem Que Tem
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Guia de Compras
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Especial Vem Que Tem
+
+ 
+
+
+
+ 
+
+ 
+Mercado Pago
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Carros
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Regiões
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Regiões
+
+ 
+
+
+
+ 
+
+ 
+centro-oeste
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Regiões
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+centro-oeste
+
+ 
+
+
+
+ 
+
+ 
+Distrito Federal
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+centro-oeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Distrito Federal
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia DF
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+DF1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+DF2
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Comunidade DF
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+DF no campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+O que fazer no DF
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Moto Week
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Goiás
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+centro-oeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Goiás
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia GO
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia sábado
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JA 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JA 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal do Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Mercado Imobiliário
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Mato Grosso
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+centro-oeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Mato Grosso
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia MT
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MT TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MT Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MT TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Mato Grosso do Sul
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+centro-oeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Mato Grosso do Sul
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia MS
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MS TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MS TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MS Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+nordeste
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Regiões
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+nordeste
+
+ 
+
+
+
+ 
+
+ 
+Alagoas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Alagoas
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Bahia
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Bahia
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da manhã
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bahia Meio Dia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+BATV
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bahia Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Ceará
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Ceará
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia CE
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+CETV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+CETV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+NE Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Maranhão
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Maranhão
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Mirante
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JMTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JMTV 2ª edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Mirante Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Daqui
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Repórter Mirante
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Paraíba
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Paraíba
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Paraíba
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JPB 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JPB 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Paraíba Comunidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Pernambuco
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Pernambuco
+
+ 
+
+
+
+ 
+
+ 
+Recife e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Pernambuco
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Recife e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia PE
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+NE 1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+NE 2
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Espaço PE
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Comunidade PE
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Nordeste Viver e Preservar
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Educação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Praia Limpa
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+São João 2025
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Caruaru e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Pernambuco
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Caruaru e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia PE
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ABTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ABTV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Comunidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Paixão de Cristo
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Petrolina e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Pernambuco
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Petrolina e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Pernambuco
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+GRTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+GRTV 2ª edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Piauí
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Piauí
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Piauí
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Sábado
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+PI TV 1ª edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+PI TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Clube Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Rio Grande do Norte
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Rio Grande do Norte
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia RN
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RN TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RN TV 2ª edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Sergipe
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+nordeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Sergipe
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia SE
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+SETV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+SETV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Estação Agrícola
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+norte
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Regiões
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+norte
+
+ 
+
+
+
+ 
+
+ 
+Acre
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+norte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Acre
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Amazônia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JAC 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JAC 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Esporte Acre
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Amapá
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+norte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Amapá
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Amazônia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JAP 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JAP 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Amazônia Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Amazonas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+norte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Amazonas
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Amazônia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JAM 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JAM 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Amazônia rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Pará
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+norte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Pará
+
+ 
+
+
+
+ 
+
+ 
+Belém e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Pará
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Belém e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Pará
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal Liberal 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal Liberal 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Liberal Comunidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+É do Pará
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Santarém e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Pará
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Santarém e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Santarém
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal Tapajós 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal Tapajós 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Rondônia
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+norte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Rondônia
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Amazônia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JRO 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JRO 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Amazônia Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Roraima
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+norte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Roraima
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Amazônia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JRR 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JRR 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Amazônia Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Tocantins
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+norte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Tocantins
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Tocantins
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JA 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+JA 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal do Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+sudeste
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Regiões
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+sudeste
+
+ 
+
+
+
+ 
+
+ 
+Espírito Santo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sudeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Espírito Santo
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Espírito Santo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Gazeta Meio Dia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Boa Noite ES
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal do Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Agronégocios
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Educação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Concursos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Minas Gerais
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sudeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Minas Gerais
+
+ 
+
+
+
+ 
+
+ 
+Belo Horizonte e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Minas Gerais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Belo Horizonte e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Minas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG2
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Rolê nas Gerais
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Terra de Minas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+pelas cozinhas de minas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Centro-Oeste
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Minas Gerais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Centro-Oeste
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Minas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Integração notícia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Grande Minas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Minas Gerais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Grande Minas
+
+ 
+
+
+
+ 
+
+ 
+Primeira página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV Notícia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG Inter TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG Inter TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+É o bicho
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Sul de Minas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Minas Gerais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Sul de Minas
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Terra da gente
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Triângulo Mineiro
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Minas Gerais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Triângulo Mineiro
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Minas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Uberlândia
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Triângulo Mineiro
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Uberlândia
+
+ 
+
+
+
+ 
+
+ 
+MG TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MGTV 2ª edição 
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Uberaba
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Triângulo Mineiro
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Uberaba
+
+ 
+
+
+
+ 
+
+ 
+MGTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MGTV 2ª Edição
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+MG Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Integração notícia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Concursos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Vales de Minas Gerais
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Minas Gerais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Vales de Minas Gerais
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV notícia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG Inter TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG Inter TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+É o bicho
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Zona da Mata
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Minas Gerais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Zona da Mata
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Minas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG TV 2ª Edição 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+MG Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Integração notícia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Rio de Janeiro
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sudeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Rio de Janeiro
+
+ 
+
+
+
+ 
+
+ 
+Rio de Janeiro e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Rio de Janeiro
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Rio de Janeiro e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Rio
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ2
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Comunidade RJ
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+show da madonna
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+guia rj
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Fora do ponto
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Rio Innovation Week
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Norte Fluminense
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Rio de Janeiro
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Norte Fluminense
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Rio
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV Inter 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV Inter 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Região dos Lagos
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Rio de Janeiro
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Região dos Lagos
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Rio
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV Inter 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV Inter 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Região Serrana
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Rio de Janeiro
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Região Serrana
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Rio
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV Inter 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV Inter 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Inter TV Rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Sul e Costa Verde
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Rio de Janeiro
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Sul e Costa Verde
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom dia Rio
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RJ TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+bom dia sábado
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+São Paulo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sudeste
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+São Paulo
+
+ 
+
+
+
+ 
+
+ 
+São Paulo e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+São Paulo e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia SP
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+SP1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+SP2
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Antena Paulista
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Mistura Paulista
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+O que fazer em SP
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Bauru e Marília
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Bauru e Marília
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia SP
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Tem Notícias 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Tem Notícias 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Nosso Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Campinas e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Campinas e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Terra da Gente
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Concursos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Itapetininga e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Itapetininga e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia SP
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+TEM Notícias 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+TEM Notícias 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Antena Paulista
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Nosso Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Resumo da Notícia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Memória
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+TEM Comunidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Mogi das Cruzes e Suzano
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Mogi das Cruzes e Suzano
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Diário
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Diário TV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Diário TV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Diário Comunidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Concursos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Piracicaba e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Piracicaba e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Terra da Gente
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Pres. Prudente e Região
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Ribeirão Preto e Franca
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Ribeirão Preto e Franca
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Terra da Gente
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Rio Preto e Araçatuba
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Rio Preto e Araçatuba
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia SP
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+TEM Notícias 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+TEM Notícias 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Nosso Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Santos e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Santos e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Região
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal Tribuna 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal Tribuna 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Antena Paulista
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+G1 em um Minuto Santos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Viver Bem
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+O Que Fazer Em Santos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Culinária #13
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Por Dentro do Porto
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+São Carlos e Araraquara
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+São Carlos e Araraquara
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal da EPTV 2ª edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Terra da Gente
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Sorocaba e Jundiaí
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Sorocaba e Jundiaí
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia SP
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Cidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Tem Notícias 1ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Tem notícias 2ª Edição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Nosso Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Vale do Paraíba e região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+São Paulo
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Vale do Paraíba e região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Vanguarda
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Link Vanguarda
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal Vanguarda
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Vanguarda Comunidade
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+sul
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Regiões
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+sul
+
+ 
+
+
+
+ 
+
+ 
+Paraná
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sul
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Paraná
+
+ 
+
+
+
+ 
+
+ 
+Curitiba e Região
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Paraná
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Curitiba e Região
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Dia Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Boa Noite Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Caminhos do Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Sábado 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Esporte Paraná
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Campos Gerais e Sul
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Paraná
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Campos Gerais e Sul
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Dia Paraná – Ponta Grossa 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Boa Noite Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Caminhos do Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Sábado 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Esporte Paraná
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Norte e Noroeste
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Paraná
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Norte e Noroeste
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Dia Paraná – Maringá 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Boa Noite Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Caminhos do Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Dia Paraná – Londrina 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Dia Paraná - Noroeste
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Sábado
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Esporte Paraná
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Oeste e Sudoeste
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Paraná
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Oeste e Sudoeste
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Dia Paraná – Foz do Iguaçu
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Boa Noite Paraná
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Caminhos do Campo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Meio Dia Paraná – Cascavel 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Sábado 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Esporte Paraná
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Rio Grande do Sul
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sul
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Rio Grande do Sul
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Rio Grande
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal do Almoço
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+RBS Notícias
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Campo e Lavoura
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Santa Catarina
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sul
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Santa Catarina
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Santa Catarina
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal do Almoço
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+NSC Notícias
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Nossa Santa Catarina
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Campo e Negócios
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Tech SC
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Telejornais
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Telejornais
+
+ 
+
+
+
+ 
+
+ 
+Bom Dia Brasil
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Bom Dia Brasil
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Redação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+História
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Vídeos
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Fantástico
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Fantástico
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+quadros e séries
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Fantástico
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+quadros e séries
+
+ 
+
+
+
+ 
+
+ 
+repórter por um dia
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+shows e musicais
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+gols do fantástico
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no fantástico
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+G1 em 1 Minuto
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo Repórter
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Globo Repórter
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+redação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+receitas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+testes
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no globo repórter
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Globo Rural
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Globo Rural
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+agro
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+guia do globo rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+revista globo rural
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no globo rural
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Hora 1
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Hora 1
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no hora um
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Jornal da Globo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Jornal da Globo
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+redação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no jg
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Jornal Hoje
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Jornal Hoje
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+crônicas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no jh
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Jornal Nacional
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Jornal Nacional
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Brasil em Constituição
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+jornal nacional 50 anos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Série Lítio Exclusivo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+redação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no jornal nacional
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Pequenas Empresas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Pequenas Empresas
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+pme
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+quadros
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Pequenas Empresas
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+quadros
+
+ 
+
+
+
+ 
+
+ 
+pegn.tec
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+contato das empresas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+revista pegn
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no pegn
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Profissão Repórter
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Telejornais
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Profissão Repórter
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+equipe
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+história
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+vc no profissão repórter
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+GloboNews
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+GloboNews
+
+ 
+
+
+
+ 
+
+ 
+Primeira Página
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+jornais
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GloboNews
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+jornais
+
+ 
+
+
+
+ 
+
+ 
+Estúdio i
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+GloboNews Em Pauta
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+GloboNews em Ponto
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal das Dez
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Jornal GloboNews
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Conexão GloboNews
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+GloboNews Mais
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Edição das 18
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Especial de Domingo
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+programas
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GloboNews
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+programas
+
+ 
+
+
+
+ 
+
+ 
+cidades e soluções
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+diálogos com mario sergio conti
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Fernando Gabeira
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+globonews documentário
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+globonews internacional
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+globonews miriam leitão
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+roberto d&#39;avila
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+podcasts
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GloboNews
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+podcasts
+
+ 
+
+
+
+ 
+
+ 
+as histórias na globonews
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+em movimento
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+globonews internacional
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+hub globonews
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+papo de política
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+globonews ao vivo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Converse com outras ideias
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+canais globo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+programação
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+redes sociais
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GloboNews
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+redes sociais
+
+ 
+
+
+
+ 
+
+ 
+globonews
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+time globonews
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+História
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+--
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+grupo globo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+princípios editoriais
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Blogs e Colunas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Podcasts
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Podcasts
+
+ 
+
+
+
+ 
+
+ 
+Todos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+o assunto
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Abuso
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+À Mão Armada
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Marília: O outro lado da sofrência
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+bem estar
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Cadê meu trampo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+desenrola, rio
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+De onde vem o que eu como
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+educação financeira
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Escuta Que O Filho É Teu
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Frango com Quiabo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Funciona Assim
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+g1 ouviu
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+isso é fantástico
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+meu pedaço
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Livro da Vez
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+papo de política
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Resumão Diário
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Prazer, Renata
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Bichos na Escuta
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Isso Está Acontecendo
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Serviços
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Serviços
+
+ 
+
+
+
+ 
+
+ 
+App g1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Calculadoras
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Loterias
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Previsão do Tempo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Climatempo
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Vídeos
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Webstories
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+especiais publicitários
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+especiais publicitários
+
+ 
+
+
+
+ 
+
+ 
+99 Food
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+banco bv
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+bradesco
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+byd
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+empreenda com sebrae
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Itaú Empresas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Livelo
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Novo Nordisk
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Sicredi
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+volksvagem
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+--
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Princípios editoriais
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Sobre o g1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+App g1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Equipe
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Entre em contato
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Termos de uso do g1
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Esporte
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Esporte
+
+ 
+
+
+
+ 
+
+ 
+GE
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Esporte
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+GE
+
+ 
+
+
+
+ 
+
+ 
+Flamengo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Flamengo
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Flamengo
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Corinthians
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Corinthians
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Corinthians
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Grêmio
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Grêmio
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Grêmio
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Palmeiras
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Palmeiras
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Palmeiras
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Santos
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Santos
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Santos
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+São Paulo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+São Paulo
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do São Paulo
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Atlético MG
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Atlético MG
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Atlético MG
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Fluminense
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Fluminense
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Fluminense
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Vasco
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Vasco
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Vasco
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Botafogo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Botafogo
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Botafogo
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Cruzeiro
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Cruzeiro
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Cruzeiro
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Internacional
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Internacional
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Internacional
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Athletico PR
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Athletico PR
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Athletico PR
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Ceará
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Ceará
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Ceará
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Sport
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Sport
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Sport
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Bahia
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Bahia
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Bahia
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Fortaleza
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Fortaleza
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Fortaleza
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+América MG
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+América MG
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do América MG
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Atlético GO
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Atlético GO
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Atlético GO
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Juventude
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+GE
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Juventude
+
+ 
+
+
+
+ 
+
+ 
+Agenda de jogos do Juventude
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Gato Mestre
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Cartola
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Assine Cartola Pro 
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Entretenimento
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+menu g1
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Entretenimento
+
+ 
+
+
+
+ 
+
+ 
+Gshow
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+Receitas
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+Globo.com
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Acesse sua conta 
+ou cadastre-se grátis
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+grupo globo
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+sair da conta
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+//<![CDATA[
+/*! For license information please see web.critical.js.LICENSE.txt */
+/*! For license information please see web.critical.js.LICENSE */
+/* web(desktop) critical javascript */
+
+ const fontFamilyToExclude = ['Globotipo Rounded'];
+ const FONT_GLOBOTIPO_URL = 'https://s3.glbimg.com/v1/AUTH_b922f1376f6c452e9bb337cc7d996a6e/codex/foundation/typefaces/version/6408cb8fc43ff49841e181db/globotipo-variable.css';
+
+ function includeGlobotipoVariable() {
+ let linkElement = document.createElement('link');
+ linkElement.rel = 'stylesheet';
+ linkElement.type = 'text/css';
+ linkElement.href = FONT_GLOBOTIPO_URL;
+ linkElement.setAttribute('data-origin', 'barra-globo');
+
+ document.head.appendChild(linkElement);
+ }
+
+ function checkValidAvailableFonts(fontFaceSet) {
+ const validFontsAvailable = [...fontFaceSet]
+ .filter(fontset => fontset.family.includes('Globotipo'))
+ .filter(fontset => !fontFamilyToExclude.includes(fontset.family))
+ .map(fontSet => fontSet.family);
+
+ return [...new Set(validFontsAvailable)];
+ }
+
+ document.fonts.ready.then((fontFaceSet) => {
+ const validFontsAvailable = checkValidAvailableFonts(fontFaceSet);
+ const hasFontValidLoaded = validFontsAvailable.length > 0;
+
+ if (!hasFontValidLoaded) {
+ includeGlobotipoVariable();
+ }
+ });
+})();
+
+
+//]]>
+
+ 
+ 
+ 
+ 
+200

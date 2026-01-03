@@ -1,300 +1,3155 @@
-   [tr?id=225003278047334&ev=PageView&noscript=1] #Feed para Portal
-   Drauzio Varella » Feed de comentários para Portal Drauzio Varella »
-   JSON oEmbed (JSON) oEmbed (XML) alternate
 
-   Logo Portal Drauzio Varella
-       Últimas
-       Opinião
-       Drauzio Varella
-       Mariana Varella
-       Drauzio Varella
-       Biografia
-       Livros
-       Mari Entrevista
-       Vídeos
-       Documentários
-       Trocando Ideia
-       Bem-estar
-       Alimentação
-       Atividade física
-       Sono
-       Doenças e sintomas
-       AVC
-       Colesterol
-       Dengue
-       Diabetes
-       Covid-19
-       Dor de barriga
-       Dor de cabeça
-       Dor de garganta
-       Dor nas costas
-       Infecção urinária
-       Endometriose
-       Febre
-       Gripe
-       Infarto
-       Labirintite
-       Obesidade
-       Pressão alta
-       Pressão baixa
-       Doenças raras
-       Drogas
-       LGBTQIAPN+
-       Longevidade
-       Medicamentos
-       Oncologia
-       Câncer colorretal
-       Câncer de mama
-       Câncer de pele
-       Câncer de próstata
-       Pediatria
-       Saúde Íntima
-       Contraceptivo
-       ISTs
-       Menopausa
-       Menstruação
-       Proctologia
-       Urologia
-       Saúde Mental
-       Ansiedade
-       Burnout
-       Depressão
-       Fobias
-       Suicídio
-       TDAH
-       TOC
-       Transtorno bipolar
-       Saúde Pública
-       Vacinas
-       Contato
-       Comercial
-       Conheça a equipe
 
-   Siga nossas redes
 
-   Menu
+ @media only screen and (max-width: 480px) {
+ .page-interna-post .content-wrapper .left-wrapper .texto-conteudo figure {
+ max-width: 100px;
+ }
+}
 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ /* Set color style to inherit */
+ .inherit-color * {
+ color: inherit;
+ }
+
+ /* Focus state style for keyboard navigation for the focusable elements */
+ *[tabindex]:focus-visible,
+ input[type=&#34;file&#34;]:focus-visible {
+ outline: 0.125rem solid #4d65ff;
+ outline-offset: 0.125rem;
+ }
+
+ /* Get rid of top margin on first element in any rich text element */
+ .w-richtext&gt; :not(div):first-child,
+ .w-richtext&gt;div:first-child&gt; :first-child {
+ margin-top: 0 !important;
+ }
+
+ /* Get rid of bottom margin on last element in any rich text element */
+ .w-richtext&gt;:last-child,
+ .w-richtext ol li:last-child,
+ .w-richtext ul li:last-child {
+ margin-bottom: 0 !important;
+ }
+
+ /* Prevent all click and hover interaction with an element */
+ .pointer-events-off {
+ pointer-events: none;
+ }
+
+ /* Enables all click and hover interaction with an element */
+ .pointer-events-on {
+ pointer-events: auto;
+ }
+
+ /* Create a class of .div-square which maintains a 1:1 dimension of a div */
+ .div-square::after {
+ content: &#34;&#34;;
+ display: block;
+ padding-bottom: 100%;
+ }
+
+ /* Make sure containers never lose their center alignment */
+ .container-medium,
+ .container-small,
+ .container-large {
+ margin-right: auto !important;
+ margin-left: auto !important;
+ }
+
+ /* 
+ Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+ Important: You will not be able to style for example &#34;All Links&#34; in Designer with this CSS applied.
+ Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+ */
+ a,
+ .w-input,
+ .w-select,
+ .w-tab-link,
+ .w-nav-link,
+ .w-dropdown-btn,
+ .w-dropdown-toggle,
+ .w-dropdown-link {
+ color: inherit;
+ text-decoration: inherit;
+ font-size: inherit;
+ }
+
+ /* Apply &#34;...&#34; after 3 lines of text */
+ .text-style-3lines {
+ display: -webkit-box;
+ overflow: hidden;
+ -webkit-line-clamp: 3;
+ -webkit-box-orient: vertical;
+ }
+
+ /* Apply &#34;...&#34; after 2 lines of text */
+ .text-style-2lines {
+ display: -webkit-box;
+ overflow: hidden;
+ -webkit-line-clamp: 2;
+ -webkit-box-orient: vertical;
+ }
+
+ /* Adds inline flex display */
+ .display-inlineflex {
+ display: inline-flex;
+ }
+
+ /* These classes are never overwritten */
+ .hide {
+ display: none !important;
+ }
+
+ @media screen and (max-width: 991px) {
+
+ .hide,
+ .hide-tablet {
+ display: none !important;
+ }
+ }
+
+ @media screen and (max-width: 767px) {
+ .hide-mobile-landscape {
+ display: none !important;
+ }
+ }
+
+ @media screen and (max-width: 479px) {
+ .hide-mobile {
+ display: none !important;
+ }
+ }
+
+ .margin-0 {
+ margin: 0rem !important;
+ }
+
+ .padding-0 {
+ padding: 0rem !important;
+ }
+
+ .spacing-clean {
+ padding: 0rem !important;
+ margin: 0rem !important;
+ }
+
+ .margin-top {
+ margin-right: 0rem !important;
+ margin-bottom: 0rem !important;
+ margin-left: 0rem !important;
+ }
+
+ .padding-top {
+ padding-right: 0rem !important;
+ padding-bottom: 0rem !important;
+ padding-left: 0rem !important;
+ }
+
+ .margin-right {
+ margin-top: 0rem !important;
+ margin-bottom: 0rem !important;
+ margin-left: 0rem !important;
+ }
+
+ .padding-right {
+ padding-top: 0rem !important;
+ padding-bottom: 0rem !important;
+ padding-left: 0rem !important;
+ }
+
+ .margin-bottom {
+ margin-top: 0rem !important;
+ margin-right: 0rem !important;
+ margin-left: 0rem !important;
+ }
+
+ .padding-bottom {
+ padding-top: 0rem !important;
+ padding-right: 0rem !important;
+ padding-left: 0rem !important;
+ }
+
+ .margin-left {
+ margin-top: 0rem !important;
+ margin-right: 0rem !important;
+ margin-bottom: 0rem !important;
+ }
+
+ .padding-left {
+ padding-top: 0rem !important;
+ padding-right: 0rem !important;
+ padding-bottom: 0rem !important;
+ }
+
+ .margin-horizontal {
+ margin-top: 0rem !important;
+ margin-bottom: 0rem !important;
+ }
+
+ .padding-horizontal {
+ padding-top: 0rem !important;
+ padding-bottom: 0rem !important;
+ }
+
+ .margin-vertical {
+ margin-right: 0rem !important;
+ margin-left: 0rem !important;
+ }
+
+ .padding-vertical {
+ padding-right: 0rem !important;
+ padding-left: 0rem !important;
+ }
+
+ /* Apply &#34;...&#34; at 100% width */
+ .truncate-width {
+ width: 100%;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ }
+
+ /* Removes native scrollbar */
+ .no-scrollbar {
+ -ms-overflow-style: none;
+ overflow: -moz-scrollbars-none;
+ }
+
+ .no-scrollbar::-webkit-scrollbar {
+ display: none;
+ }
+
+ .w-layout-grid {
+ grid-row-gap: 16px;
+ grid-column-gap: 16px;
+ grid-template-rows: auto auto;
+ grid-auto-columns: 1fr;
+ display: grid;
+ }
+
+
+ /* Utility classes for grid columns on the grid container */
+ .grid-1 {
+ display: grid;
+ grid-row-gap: 2rem;
+ grid-column-gap: 2rem;
+ grid-template-columns: repeat(1, 1fr) !important;
+ }
+
+ .grid-2 {
+ display: grid;
+ grid-row-gap: 2rem;
+ grid-column-gap: 2rem;
+ grid-template-columns: repeat(2, 1fr) !important;
+ }
+
+ .grid-3 {
+ display: grid;
+ grid-row-gap: 2rem;
+ grid-column-gap: 2rem;
+ grid-template-columns: repeat(3, 1fr) !important;
+ }
+
+ .grid-4 {
+ display: grid;
+ grid-row-gap: 2rem;
+ grid-column-gap: 2rem;
+ grid-template-columns: repeat(4, 1fr) !important;
+ }
+
+ /* Common media queries for tablets (768px) */
+ @media (max-width: 768px) {
+ .grid-2 {
+ grid-template-columns: repeat(1, 1fr) !important;
+ }
+
+ .grid-3 {
+ grid-template-columns: repeat(1, 1fr) !important;
+ }
+
+ .grid-4 {
+ grid-template-columns: repeat(2, 1fr) !important;
+ }
+ }
+
+ /* Common media queries for mobile devices (576px) */
+ @media (max-width: 576px) {
+ .grid-2 {
+ grid-template-columns: repeat(1, 1fr) !important;
+ }
+
+ .grid-3 {
+ grid-template-columns: repeat(1, 1fr) !important;
+ }
+
+ .grid-4 {
+ grid-template-columns: repeat(2, 1fr) !important;
+ }
+ }
+
+ /* Utility classes for Slides columns */
+ .slides-1 {
+ width: 100% !important;
+ }
+
+ .slides-2 {
+ width: 50% !important;
+ }
+
+ .slides-3 {
+ width: 33.33% !important;
+ }
+
+ .slides-4 {
+ width: 25% !important;
+ }
+
+ .slides-5 {
+ width: 20% !important;
+ }
+
+ /* Common media queries for tablets (768px) */
+ @media (max-width: 768px) {
+ .slides-2 {
+ width: 100% !important;
+ }
+
+ .slides-3 {
+ width: 50% !important;
+ }
+
+ .slides-4 {
+ width: 33.33% !important;
+ }
+ }
+
+ /* Common media queries for mobile devices (576px) */
+ @media (max-width: 576px) {
+ .slides-2 {
+ width: 100% !important;
+ }
+
+ .slides-3 {
+ width: 100% !important;
+ }
+
+ .slides-4 {
+ width: 50% !important;
+ }
+ }
+
+ .w-slider-dot {
+ background-color: #BFFF00;
+ width: 20px !important;
+ height: 10px !important;
+ border-radius: 15px !important;
+ }
+
+ .w-slider-dot.w-active {
+ background-color: #BFFF00;
+ width: 40px !important;
+ height: 10px !important;
+ border-radius: 15px !important;
+ }
+
+ nav.greedy {
+ position: relative;
+ height: 60px;
+ display: flex;
+ align-items: center;
+ background: #FFF;
+ }
+
+ nav.greedy button {
+ align-self: stretch;
+ transition: all .4s ease-out;
+ padding: 0 1rem 0 1.5rem;
+ outline: 0;
+ border: 0;
+ font-size: 1rem;
+ font-weight: bold;
+ }
+
+ nav.greedy button.hidden {
+ transition: none;
+ border-right: 0.5rem solid #FFF;
+ width: 0;
+ padding: 0;
+ overflow: hidden;
+ }
+
+ nav.greedy ul.menu {
+ display: flex;
+ justify-content: flex-end;
+ flex: 1;
+ overflow: hidden;
+ padding-left: 0;
+ list-style: none;
+ }
+
+ nav.greedy ul.menu li {
+ flex: none;
+ padding: 1rem;
+ }
+
+ nav.greedy ul.menu li a {
+ color: #000;
+ text-decoration: none;
+ }
+
+ nav.greedy ul.hidden-links {
+ position: absolute;
+ background: #FFF;
+ right: 0;
+ top: 100%;
+ }
+
+ nav.greedy ul.hidden-links.hidden {
+ display: none;
+ }
+
+ nav.greedy ul.hidden-links li {
+ padding: 1rem;
+ }
+
+ nav.greedy ul.hidden-links li a {
+ color: #000;
+ text-decoration: none;
+ text-align: center
+ }
+
+ .wpp-list {
+ margin: 0;
+ padding: 0;
+ }
+
+ .post_content .text-rich-text iframe {
+ max-width: 100%;
+ max-height: 520px;
+ }
+
+ .post_content .text-rich-text ol {
+ overflow-wrap: break-word;
+ }
+
+ .publiciade-banner-area:after {
+ color: #757575;
+ font-size: 0.666em;
+ text-transform: uppercase;
+ bottom: -1.833333333333333em;
+ content: &#39;Publicidade&#39;;
+ position: absolute;
+ right: 0;
+ }
+
+ @media (max-width: 767px) {
+
+ .links,
+ #menu-menu-principal,
+ #menu-menu-principal-2024 {
+ display: none !important;
+ }
+
+ /* Disable scroll only on mobile when the &#39;no-scroll&#39; class is added */
+ .no-scroll {
+ overflow: hidden;
+ }
+
+ }
+
+ .text-ficha-tecnica img {
+ max-width: 140px;
+ margin-bottom: 1rem;
+ }
+
+ #audima-iframe {
+ margin-top: 0;
+ margin-bottom: 0;
+ }
+
+ #audimaWidget {
+ margin-bottom: 1rem;
+ }
+
+
+ #uolpd-video-inarticle {
+ margin-bottom: 1rem !important;
+
+ }
+
+ .text-rich-text blockquote {
+ border-top: 1px solid var(--base-color-neutral--neutral-lighter);
+ border-bottom: 1px solid var(--base-color-neutral--neutral-lighter);
+ border-left-style: none;
+ margin-top: 2rem;
+ margin-bottom: 2rem;
+ padding: 1.5rem 2rem;
+ position: relative;
+ }
+
+
+ .text-rich-text blockquote p {
+
+ font-size: 1.25rem;
+ font-style: italic;
+ font-weight: 600;
+ line-height: 1.25;
+
+ }
+
+ .text-rich-text blockquote:before {
+ border-bottom: 2px solid #000;
+ border-top: 2px solid #000;
+ bottom: 0;
+ content: &#34; &#34;;
+ left: calc(50% - 60px);
+ position: absolute;
+ top: 0;
+ width: 120px;
+ }
+
+ .wp-block-separator {
+
+ border-bottom: 1px solid #eee !important;
+ }
+ 
+
+
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+Últimas
+Opinião
+Drauzio Varella
+Mariana Varella
+Drauzio Varella
+Biografia
+Livros
+Mari Entrevista
+Vídeos
+Documentários
+Trocando Ideia
+Bem-estar
+Alimentação
+Atividade física
+Sono
+Doenças e sintomas
+AVC
+Colesterol
+Dengue
+Diabetes
+Covid-19
+Dor de barriga
+Dor de cabeça
+Dor de garganta
+Dor nas costas
+Infecção urinária
+Endometriose
+Febre
+Gripe
+Infarto
+Labirintite
+Obesidade
+Pressão alta
+Pressão baixa
+Doenças raras
+Drogas
+LGBTQIAPN+
+Longevidade
+Medicamentos
+Oncologia
+Câncer colorretal
+Câncer de mama
+Câncer de pele
+Câncer de próstata
+Pediatria
+Saúde Íntima
+Contraceptivo
+ISTs
+Menopausa
+Menstruação
+Proctologia
+Urologia
+Saúde Mental
+Ansiedade
+Burnout
+Depressão
+Fobias
+Suicídio
+TDAH
+TOC
+Transtorno bipolar
+Saúde Pública
+Vacinas
+Contato
+Comercial
+Conheça a equipe
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+Siga nossas redes
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Menu
+
+ 
+
+
+ 
 Portal Drauzio Varella
 
-   Logo Portal Drauzio Varella
-     * Últimas
-     * Opinião
-     * Doenças e sintomas
-     * Doenças raras
-     * Bem-estar
-     * Saúde Mental
-     * Saúde Íntima
-     * SUS
-     * Longevidade
-     * Oncologia
-     * Pare de fumar!
-     * Conheça a equipe
+ 
 
-   (BUTTON)
-   Mais+
+ 
 
-   Página Inicial
-   Corpo humano
+ 
 
+ 
+
+
+ 
+
+
+ 
+Últimas
+Opinião
+Doenças e sintomas
+Doenças raras
+Bem-estar
+Saúde Mental
+Saúde Íntima
+SUS
+Longevidade
+Oncologia
+Pare de fumar!
+Conheça a equipe
+
+ 
+
+
+
+ 
+
+ 
+Mais+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ id: "banner-728x90-1"
+ });
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Página Inicial
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+Corpo humano
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Coração
 
-   Mariana Varella
-   Publicado em 11/07/2014
-   Revisado em 21/11/2023
-   imagem em 3D de tórax humano com coração em destaque
-   Publicidade
+ 
 
-   O coração é uma espécie de bomba que impulsiona mais de 70 mil litros
-   de sangue por dia para que circule por todo o organismo.
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Mariana Varella 
+
+ 
+
+ 
+
+ 
+
+ 
+Publicado em 11/07/2014
+
+ 
+Revisado em 21/11/2023
+
+ 
 
 
-   O coração é um órgão muscular oco, em forma de cone e relativamente
-   pequeno: tem mais ou menos o tamanho de um punho fechado e pesa entre
-   250g e 300g nos adultos.
+ 
 
-   Apoia-se sobre o diafragma e se situa sob o esterno (osso do tórax), no
-   interior do mediastino (linha média da cavidade torácica) e entre os
-   dois pulmões. Tem três camadas: o endocárdio, camada lisa que fica no
-   interior do órgão; o miocárdio, camada média do músculo cardíaco; e o
-   pericárdio, membrana que envolve o coração.
+ 
 
-   Veja também: Entenda o que são as arritmias/palpitações
+ 
 
-   O sangue venoso e o arterial são separados por uma membrana vertical,
-   que divide o coração em dois lados: o direito, composto de um átrio e
-   um ventrículo, e o esquerdo, composto de outro átrio e outro
-   ventrículo. Os dois átrios são câmaras superiores que recebem o sangue
-   venoso (desoxigenado); os dois ventrículos bombeiam o sangue arterial
-   (oxigenado). A divisão horizontal é feita por válvulas
-   atrioventriculares: a mitral, que divide o lado esquerdo em dois, e a
-   tricúspide, que divide o lado direito.
+ 
 
-   A saída de cada ventrículo possui duas válvulas: a aórtica, que liga o
-   órgão à aorta (principal artéria do sistema circulatório) e a do tronco
-   pulmonar, que permite que o fluxo de sangue siga até os pulmões.
+ 
 
-   A veia cava superior, que recebe o fluxo vindo da cabeça e membros
-   superiores, e a veia cava inferior, que traz o sangue do abdômen e dos
-   membros inferiores funcionam como portas de entrada do sangue no
-   coração.
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+Publicidade
+
+
+ 
+
+ 
+
+ id: "banner-300x250-header"
+ });
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+ 
+
+ .anuncio-amp {
+ margin-bottom: 3rem;
+ }
+ 
+ ol {
+ overflow-wrap: break-word;
+ }
+ /* Basic gallery container styling */
+.wp-block-gallery {
+ display: flex;
+ flex-wrap: wrap;
+ gap: 1rem; /* Adjust spacing between images */
+}
+
+.wp-block-gallery .blocks-gallery-item {
+ flex: 1 1 100%;
+ max-width: 100%;
+}
+
+.wp-block-gallery.columns-2 .blocks-gallery-item,
+.wp-block-gallery.columns-3 .blocks-gallery-item,
+.wp-block-gallery.columns-4 .blocks-gallery-item,
+.wp-block-gallery.columns-5 .blocks-gallery-item,
+.wp-block-gallery.columns-6 .blocks-gallery-item {
+ flex: 1 1 calc(100% / var(--gallery-columns, 2)); /* Adjust for the number of columns */
+}
+
+.wp-block-gallery img {
+ width: 100%;
+ height: auto;
+ object-fit: cover;
+}
+
+/* Optional: Lightbox styles if you use it */
+.wp-block-gallery .blocks-gallery-image figure {
+ position: relative;
+}
+
+.wp-block-gallery .blocks-gallery-image figcaption {
+ display: block;
+ text-align: center;
+ padding-top: 0.5rem;
+ font-size: 0.875rem;
+ color: #666;
+}
+
+
+O coração é uma espécie de bomba que impulsiona mais de 70 mil litros de sangue por dia para que circule por todo o organismo.
+
+
+ 
+
+
+O coração é um órgão muscular oco, em forma de cone e relativamente pequeno: tem mais ou menos o tamanho de um punho fechado e pesa entre 250g e 300g nos adultos.
+
+
+Apoia-se sobre o 
+diafragma
+ e se situa sob o esterno (osso do tórax), no interior do mediastino (linha média da cavidade torácica) e entre os dois 
+pulmões
+. Tem três camadas: o endocárdio, camada lisa que fica no interior do órgão; o miocárdio, camada média do músculo cardíaco; e o pericárdio, membrana que envolve o coração.
+
+
+Veja também: 
+Entenda o que são as arritmias/palpitações
+
+
+O sangue venoso e o arterial são separados por uma membrana vertical, que divide o coração em dois lados: o direito, composto de um átrio e um ventrículo, e o esquerdo, composto de outro átrio e outro ventrículo. Os dois átrios são câmaras superiores que recebem o sangue venoso (desoxigenado); os dois ventrículos bombeiam o sangue arterial (oxigenado). A divisão horizontal é feita por válvulas atrioventriculares: a mitral, que divide o lado esquerdo em dois, e a tricúspide, que divide o lado direito.
+
+
+A saída de cada ventrículo possui duas válvulas: a aórtica, que liga o órgão à aorta (principal artéria do sistema circulatório) e a do tronco pulmonar, que permite que o fluxo de sangue siga até os pulmões.
+
+
+A veia cava superior, que recebe o fluxo vindo da cabeça e membros superiores, e a veia cava inferior, que traz o sangue do abdômen e dos membros inferiores funcionam como portas de entrada do sangue no coração.
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 
 
 Caminho da circulação sanguínea
 
-   O sangue circula em apenas uma direção. O sangue arterial é oxigenado
-   pelos pulmões e distribuído pelo coração para o corpo; o sangue venoso,
-   rico em gás carbônico, retorna ao coração pela veia cava superior e
-   pela veia cava inferior e chega ao átrio direito. O espaço do átrio é
-   preenchido com sangue venoso, de onde é então enviado ao ventrículo
-   direito. O ventrículo direito impulsiona o sangue aos pulmões como uma
-   bomba.
 
-   A veias pulmonares então conduzem o sangue oxigenado de volta ao lado
-   esquerdo do coração, onde primeiro chega ao átrio esquerdo e depois vai
-   para o ventrículo esquerdo, de onde é bombeado para a artéria aorta.
+O sangue circula em apenas uma direção. O sangue arterial é oxigenado pelos pulmões e distribuído pelo coração para o corpo; o sangue venoso, rico em gás carbônico, retorna ao coração pela veia cava superior e pela veia cava inferior e chega ao átrio direito. O espaço do átrio é preenchido com sangue venoso, de onde é então enviado ao ventrículo direito. O ventrículo direito impulsiona o sangue aos pulmões como uma bomba.
 
-   A nutrição do órgão é feita pelas artérias coronárias, que se originam
-   na aorta.
 
-   Os batimentos cardíacos são coordenados por sinais elétricos. Em uma
-   pessoa saudável, o coração bate em média 70 a 80 vezes por minuto e é
-   capaz de bombear até 7.500 litros de sangue por dia.
+A veias pulmonares então conduzem o sangue oxigenado de volta ao lado esquerdo do coração, onde primeiro chega ao átrio esquerdo e depois vai para o ventrículo esquerdo, de onde é bombeado para a artéria aorta.
+
+
+A nutrição do órgão é feita pelas artérias coronárias, que se originam na aorta.
+
+
+Os batimentos cardíacos são coordenados por sinais elétricos. Em uma pessoa saudável, o coração bate em média 70 a 80 vezes por minuto e é capaz de bombear até 7.500 litros de sangue por dia.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
 
 
 Principais problemas que acometem o coração
 
-   O infarto é um dos principais problemas que atingem o coração. Ele
-   ocorre quando algum vaso que irriga o órgão é obstruído (geralmente por
-   um trombo), o que faz com que o tecido cardíaco pare de receber
-   oxigênio e nutrientes. É uma condição gravíssima que precisa de
-   atendimento rápido.
+
+O 
+infarto
+ é um dos principais problemas que atingem o coração. Ele ocorre quando algum vaso que irriga o órgão é obstruído (geralmente por um 
+trombo
+), o que faz com que o tecido cardíaco pare de receber oxigênio e nutrientes. É uma condição gravíssima que precisa de atendimento rápido.
 
 
-   Vídeo: Veja como se formam as placas de gordura que podem causar o
-   infarto
-
-   IFRAME: https://www.youtube.com/embed/fgLD73AsrpA
+ 
 
 
-   Um problema menos frequente, mas também uma emergência médica, é a
-   dissecção de aorta, que precisa de socorro imediato devido ao alto
-   risco de morte.
+Vídeo: Veja como se formam as placas de gordura que podem causar o infarto
 
-   Veja também: Leia uma entrevista com especialista sobre doenças do
-   coração
+ 
 
-   Um dos maiores fatores de risco tanto de infarto como de dissecção é a
-   hipertensão, uma das doenças mais prevalentes no Brasil e no mundo. A
-   pressão alta lesiona órgãos e tecidos e facilita a formação de trombos.
+ 
 
-   Outros problemas menos graves, mas muito comuns e que precisam ser
-   investigados, incluem o sopro no coração e as arritmias.
-   Compartilhe
-   Tags
-   coração sangue infarto cardiologia
-   Mariana Varella é editora-chefe do Portal Drauzio Varella. Jornalista
-   de saúde, é formada em Ciências Sociais e mestre em ciências pela
-   Faculdade de Saúde Pública da USP. Atualmente, é doutoranda em saúde
-   global pela mesma FSP. Interessa-se por saúde pública e saúde da
-   mulher. Prêmio Einstein Colunista +Admirados da Imprensa de Saúde e
-   Bem-Estar 2021, destaque do Prêmio Especialistas Saúde 2023 e 2024,
-   entre outros.
+ 
 
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+
+Um problema menos frequente, mas também uma emergência médica, é a 
+dissecção de aorta
+, que precisa de socorro imediato devido ao alto risco de morte.
+
+
+Veja também: 
+Leia uma entrevista com especialista sobre doenças do coração
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+Um dos maiores fatores de risco tanto de infarto como de dissecção é a 
+hipertensão
+, uma das doenças mais prevalentes no Brasil e no mundo. A pressão alta lesiona órgãos e tecidos e facilita a formação de trombos.
+
+
+Outros problemas menos graves, mas muito comuns e que precisam ser investigados, incluem o 
+sopro no coração
+ e as 
+arritmias
+.
+
+ 
+
+ 
+
+
+ 
+ 
+ 
+
+
+ 
+
+ 
+
+ 
+Compartilhe
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+Tags
+
+
+ 
+
+ 
+
+ 
+coração
+
+ 
+
+ 
+
+ 
+sangue
+
+ 
+
+ 
+
+ 
+infarto
+
+ 
+
+ 
+
+ 
+cardiologia
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ Mariana Varella é editora-chefe do Portal Drauzio Varella. Jornalista de saúde, é formada em Ciências Sociais e mestre em ciências pela Faculdade de Saúde Pública da USP. Atualmente, é doutoranda em saúde global pela mesma FSP. Interessa-se por saúde pública e saúde da mulher. Prêmio Einstein Colunista +Admirados da Imprensa de Saúde e Bem-Estar 2021, destaque do Prêmio Especialistas Saúde 2023 e 2024, entre outros. 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+
+ 
+
+ 
+
+ 
 Em alta
 
-Mais uma propaganda enganosa… Não caia nessa
+ 
 
-Lipedema: o que é, sintomas e tratamento
+ 
 
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+Entrou água no ouvido? Saiba o que fazer
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
 5 dicas para baixar a febre sem medicamentos
 
-Ardência e irritação na vulva e na vagina: o que fazer?
+ 
 
-Metanol: é seguro beber vinho e cerveja?
+ 
 
-   Publicidade
+ 
 
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+Tomei a pílula do dia seguinte. O que pode acontecer?
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+Batidas na cabeça: quais são os riscos e quando buscar ajuda médica
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+Sexo na menstruação: saiba o que pode e o que não pode
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+Publicidade
+
+ 
+
+ 
+
+ id: "banner-300x600-sidebar"
+ });
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ id: "banner-970x250-1"
+ });
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Veja também
 
-   Atividade física
+ 
 
-Qual é a frequência cardíaca ideal durante o exercício físico?
+ 
 
-   Médica medindo a pressão de uma pessoa obesa.
-   Endocrinologia
+ 
 
-Síndrome metabólica
+ 
 
-   Profissional de saúde medindo a pressão arterial de senhora.
-   Ambulatório
+ 
 
-Hipertensão (pressão alta)
 
-   cigarro eletrônico sem nicotina com cartucho ao lado
-   Drogas Lícitas e Ilícitas
+ 
+ 
 
-Cigarro eletrônico sem nicotina faz mal?
+ 
 
-   As doenças cardiovasculares são a principal causa de morte no Brasil.
-   Saiba quando procurar um cardiologista.
-   Cardiovascular
+ 
 
-Quando é hora de procurar um cardiologista?
+ 
+ 
 
-   homem deitado de bruços no sofá, cansado, com computador aberto.
-   Sedentarismo causa doenças não transmissíveis
-   Hipertensão
+ 
 
-Sedentarismo é um dos principais fatores de risco de doenças não
-transmissíveis
+ 
 
+ 
+
+ 
+
+ 
+Doenças e sintomas
+
+ 
+
+ 
+
+ 
+
+ 
+Varizes
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Corpo humano
+
+ 
+
+ 
+
+ 
+
+ 
+Córnea
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Infarto
+
+ 
+
+ 
+
+ 
+
+ 
+Conheça os níveis ideais de colesterol no sangue
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Cardiovascular
+
+ 
+
+ 
+
+ 
+
+ 
+Aumentam casos de infarto em jovens
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Vídeos
+
+ 
+
+ 
+
+ 
+
+ 
+Dicas para controlar o colesterol – Animação #43
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Cardiovascular
+
+ 
+
+ 
+
+ 
+
+ 
+Fibrilação Atrial é uma das principais causas de AVC
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
 Newsletter do Portal Drauzio
 
-   Mantenha-se informado quando o assunto é saúde! Todas as
-   segundas-feiras, receba por e-mail as principais reportagens publicadas
-   por aqui.
-   ____________________
-   (BUTTON) ASSINAR (BUTTON)
-   Carregando...
-   [ ]
+ 
 
-   Ao assinar nossa newsletter você concorda em receber notícias semanais.
-   (BUTTON) ASSINAR (BUTTON)
-   Carregando...
+ 
+Mantenha-se informado quando o assunto é saúde! Todas as
+ segundas-feiras, receba por e-mail as principais reportagens publicadas por aqui.
 
+ 
+
+ 
+
+ 
+
+ 
+
+ @import url(&#34;https://assets.mlcdn.com/fonts.css?version=1732263&#34;);
+ 
+
+ 
+
+ .email-input_component {
+ background-color: #fff;
+ border: 2px solid #000;
+ max-width: 30rem;
+ height: 70px;
+ padding: 10px 10px 21px 10px;
+ margin-bottom: 10px;
+ }
+
+ /* LOADER */
+ .ml-form-embedSubmitLoad {
+ display: inline-block;
+ width: 20px;
+ height: 20px;
+ }
+
+ .g-recaptcha {
+ transform: scale(1);
+ -webkit-transform: scale(1);
+ transform-origin: 0 0;
+ -webkit-transform-origin: 0 0;
+ height: ;
+ }
+
+ .sr-only {
+ position: absolute;
+ width: 1px;
+ height: 1px;
+ padding: 0;
+ margin: -1px;
+ overflow: hidden;
+ clip: rect(0, 0, 0, 0);
+ border: 0;
+ }
+
+ .ml-form-embedSubmitLoad:after {
+ content: &#34; &#34;;
+ display: block;
+ width: 11px;
+ height: 11px;
+ margin: 1px;
+ border-radius: 50%;
+ border: 4px solid #fff;
+ border-color: #ffffff #ffffff #ffffff transparent;
+ animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+ }
+
+ @keyframes ml-form-embedSubmitLoad {
+ 0% {
+ transform: rotate(0deg);
+ }
+
+ 100% {
+ transform: rotate(360deg);
+ }
+ }
+
+ #mlb2-20248836.ml-form-embedContainer {
+ box-sizing: border-box;
+ display: table;
+ margin: 0 auto;
+ position: static;
+ width: 100% !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer h4,
+ #mlb2-20248836.ml-form-embedContainer p,
+ #mlb2-20248836.ml-form-embedContainer span,
+ #mlb2-20248836.ml-form-embedContainer button {
+ text-transform: none !important;
+ letter-spacing: normal !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper {
+ border-width: 0px;
+ border-color: transparent;
+ border-radius: 4px;
+ border-style: solid;
+ box-sizing: border-box;
+ display: inline-block !important;
+ margin: 0;
+ padding: 0;
+ position: relative;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper.embedPopup,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper.embedDefault {
+ width: 400px;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper.embedForm {
+ width: 100%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-align-left {
+ text-align: left;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-align-center {
+ text-align: center;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-align-default {
+ display: table-cell !important;
+ vertical-align: middle !important;
+ text-align: center !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-align-right {
+ text-align: right;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedHeader img {
+ border-top-left-radius: 4px;
+ border-top-right-radius: 4px;
+ height: auto;
+ margin: 0 auto !important;
+ max-width: 100%;
+ width: undefinedpx;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+ padding: 10px 5px 0 10px;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody.ml-form-embedBodyHorizontal {
+ padding-bottom: 0;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent {
+ text-align: left;
+ margin: 0 0 20px 0;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+ color: #000000;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-size: 30px;
+ font-weight: 400;
+ margin: 0 0 10px 0;
+ text-align: left;
+ word-break: break-word;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+ color: #000000;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 20px;
+ margin: 0 0 10px 0;
+ text-align: left;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ul,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ul,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol {
+ color: #000000;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol {
+ list-style-type: lower-alpha;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol ol ol,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent ol ol ol {
+ list-style-type: lower-roman;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p a,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p a {
+ color: #000000;
+ text-decoration: underline;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group {
+ text-align: left !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group label {
+ margin-bottom: 5px;
+ color: #333333;
+ font-size: 14px;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-style: normal;
+ text-decoration: none;
+ display: inline-block;
+ line-height: 20px;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p:last-child,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p:last-child {
+ margin: 0;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {
+ margin: 0;
+ width: 100%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+ margin: 0 0 20px 0;
+ width: 100%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
+ float: left;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+ margin: 0;
+ padding: 0;
+ width: 100%;
+ height: auto;
+ float: left;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+ margin: 0 0 10px 0;
+ width: 100%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
+ margin: 0;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-formfieldHorizintal {
+ margin: 0;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input {
+ background-color: #ffffff !important;
+ color: #333333 !important;
+ border-color: #cccccc;
+ border-radius: 4px !important;
+ border-style: solid !important;
+ border-width: 1px !important;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-size: 14px !important;
+ height: auto;
+ line-height: 21px !important;
+ margin-bottom: 0;
+ margin-top: 0;
+ margin-left: 0;
+ margin-right: 0;
+ padding: 10px 10px !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ max-width: 100% !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-webkit-input-placeholder,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-webkit-input-placeholder {
+ color: #333333;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input::-moz-placeholder,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input::-moz-placeholder {
+ color: #333333;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-ms-input-placeholder,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-ms-input-placeholder {
+ color: #333333;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input:-moz-placeholder,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input:-moz-placeholder {
+ color: #333333;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow textarea,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow textarea {
+ background-color: #ffffff !important;
+ color: #333333 !important;
+ border-color: #cccccc;
+ border-radius: 4px !important;
+ border-style: solid !important;
+ border-width: 1px !important;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-size: 14px !important;
+ height: auto;
+ line-height: 21px !important;
+ margin-bottom: 0;
+ margin-top: 0;
+ padding: 10px 10px !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ max-width: 100% !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+ border-color: #cccccc !important;
+ background-color: #ffffff !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input.custom-control-input[type=&#34;checkbox&#34;] {
+ box-sizing: border-box;
+ padding: 0;
+ position: absolute;
+ z-index: -1;
+ opacity: 0;
+ margin-top: 5px;
+ margin-left: -1.5rem;
+ overflow: visible;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+ border-radius: 4px !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=&#34;checkbox&#34;]:checked~.label-description::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=&#34;checkbox&#34;]:checked~.label-description::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=&#34;checkbox&#34;]:checked~.label-description::after {
+ background-image: url(&#34;data:image/svg+xml,%3csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;0 0 8 8&#39;%3e%3cpath fill=&#39;%23fff&#39; d=&#39;M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z&#39;/%3e%3c/svg%3e&#34;);
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::after {
+ background-image: url(&#34;data:image/svg+xml,%3csvg xmlns=&#39;http://www.w3.org/2000/svg&#39; viewBox=&#39;-4 -4 8 8&#39;%3e%3ccircle r=&#39;3&#39; fill=&#39;%23fff&#39;/%3e%3c/svg%3e&#34;);
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input:checked~.custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input:checked~.custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input:checked~.custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox input[type=&#34;checkbox&#34;]:checked~.label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox input[type=&#34;checkbox&#34;]:checked~.label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=&#34;checkbox&#34;]:checked~.label-description::before {
+ border-color: #000000 !important;
+ background-color: #000000 !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label::after {
+ top: 2px;
+ box-sizing: border-box;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+ top: 0px !important;
+ box-sizing: border-box !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+ top: 0px !important;
+ box-sizing: border-box !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after {
+ top: 0px !important;
+ box-sizing: border-box !important;
+ position: absolute;
+ left: -1.5rem;
+ display: block;
+ width: 1rem;
+ height: 1rem;
+ content: &#34;&#34;;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before {
+ top: 0px !important;
+ box-sizing: border-box !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::before {
+ position: absolute;
+ top: 4px;
+ left: -1.5rem;
+ display: block;
+ width: 16px;
+ height: 16px;
+ pointer-events: none;
+ content: &#34;&#34;;
+ background-color: #ffffff;
+ border: #adb5bd solid 1px;
+ border-radius: 50%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-control-label::after {
+ position: absolute;
+ top: 2px !important;
+ left: -1.5rem;
+ display: block;
+ width: 1rem;
+ height: 1rem;
+ content: &#34;&#34;;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::before,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::before {
+ position: absolute;
+ top: 4px;
+ left: -1.5rem;
+ display: block;
+ width: 16px;
+ height: 16px;
+ pointer-events: none;
+ content: &#34;&#34;;
+ background-color: #ffffff;
+ border: #adb5bd solid 1px;
+ border-radius: 50%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after {
+ position: absolute;
+ top: 0px !important;
+ left: -1.5rem;
+ display: block;
+ width: 1rem;
+ height: 1rem;
+ content: &#34;&#34;;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+ position: absolute;
+ top: 0px !important;
+ left: -1.5rem;
+ display: block;
+ width: 1rem;
+ height: 1rem;
+ content: &#34;&#34;;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-radio .custom-control-label::after {
+ background: no-repeat 50%/50% 50%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .custom-checkbox .custom-control-label::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedPermissions .ml-form-embedPermissionsOptionsCheckbox .label-description::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-interestGroupsRow .ml-form-interestGroupsRowCheckbox .label-description::after,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description::after {
+ background: no-repeat 50%/50% 50%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-control,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-control {
+ position: relative;
+ display: block;
+ min-height: 1.5rem;
+ padding-left: 1.5rem;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-input,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-input,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-input,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-input {
+ position: absolute;
+ z-index: -1;
+ opacity: 0;
+ box-sizing: border-box;
+ padding: 0;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-radio .custom-control-label,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-radio .custom-control-label,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-checkbox .custom-control-label,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-checkbox .custom-control-label {
+ color: #000000;
+ font-size: 12px !important;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ line-height: 22px;
+ margin-bottom: 0;
+ position: relative;
+ vertical-align: top;
+ font-style: normal;
+ font-weight: 700;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow .custom-select,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow .custom-select {
+ background-color: #ffffff !important;
+ color: #333333 !important;
+ border-color: #cccccc;
+ border-radius: 4px !important;
+ border-style: solid !important;
+ border-width: 1px !important;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-size: 14px !important;
+ line-height: 20px !important;
+ margin-bottom: 0;
+ margin-top: 0;
+ padding: 10px 28px 10px 12px !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ max-width: 100% !important;
+ height: auto;
+ display: inline-block;
+ vertical-align: middle;
+ background: url(&#34;https://assets.mlcdn.com/ml/images/default/dropdown.svg&#34;) no-repeat right 0.75rem center/8px 10px;
+ -webkit-appearance: none;
+ -moz-appearance: none;
+ appearance: none;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow {
+ height: auto;
+ width: 100%;
+ float: left;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+ width: 70%;
+ float: left;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal {
+ width: 30%;
+ float: left;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-button-horizontal.labelsOn {
+ padding-top: 25px;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields {
+ box-sizing: border-box;
+ float: left;
+ padding-right: 10px;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow input {
+ background-color: #ffffff;
+ color: #333333;
+ border: 0;
+ font-size: 14px;
+ line-height: 20px;
+ margin-bottom: 0;
+ margin-top: 0;
+ padding: 10px 10px;
+ width: 100%;
+ box-sizing: border-box;
+ overflow-y: initial;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button {
+ color: #0e0e0e;
+ background-color: rgb(255, 220, 96);
+ border: 2px solid #000;
+ padding: 0.675rem 1.5rem;
+ font-size: 0.85rem;
+ font-weight: 700;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
+ background-color: #000 !important;
+ border-color: #000 !important;
+ color: #FFF;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type=&#34;checkbox&#34;] {
+ box-sizing: border-box;
+ padding: 0;
+ position: absolute;
+ z-index: -1;
+ opacity: 0;
+ margin-top: 5px;
+ margin-left: -1.5rem;
+ overflow: visible;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow .label-description {
+ color: #000000;
+ display: block;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ text-align: left;
+ margin-bottom: 0;
+ position: relative;
+ vertical-align: top;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label {
+ font-weight: normal;
+ margin: 0;
+ padding: 0;
+ position: relative;
+ display: block;
+ min-height: 24px;
+ padding-left: 24px;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label a {
+ color: #000000;
+ text-decoration: underline;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p {
+ color: #000000 !important;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif !important;
+ font-size: 12px !important;
+ font-weight: normal !important;
+ line-height: 18px !important;
+ padding: 0 !important;
+ margin: 0 5px 0 0 !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow label p:last-child {
+ margin: 0;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {
+ margin: 0 0 20px 0;
+ float: left;
+ width: 100%;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button {
+ background-color: #000000 !important;
+ border: none !important;
+ border-radius: 4px !important;
+ box-shadow: none !important;
+ color: #ffffff !important;
+ cursor: pointer;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif !important;
+ font-size: 14px !important;
+ font-weight: 700 !important;
+ line-height: 21px !important;
+ height: auto;
+ padding: 10px !important;
+ width: 100% !important;
+ box-sizing: border-box !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.loading {
+ display: none;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
+ background-color: #333333 !important;
+ }
+
+ .ml-subscribe-close {
+ width: 30px;
+ height: 30px;
+ background: url(&#34;https://assets.mlcdn.com/ml/images/default/modal_close.png&#34;) no-repeat;
+ background-size: 30px;
+ cursor: pointer;
+ margin-top: -10px;
+ margin-right: -10px;
+ position: absolute;
+ top: 0;
+ right: 0;
+ }
+
+ .ml-error input,
+ .ml-error textarea,
+ .ml-error select {
+ border-color: red !important;
+ }
+
+ .ml-error .custom-checkbox-radio-list {
+ border: 1px solid red !important;
+ border-radius: 4px;
+ padding: 10px;
+ }
+
+ .ml-error .label-description,
+ .ml-error .label-description p,
+ .ml-error .label-description p a,
+ .ml-error label:first-child {
+ color: #ff0000 !important;
+ }
+
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p,
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow.ml-error .label-description p:first-letter {
+ color: #ff0000 !important;
+ }
+
+ @media only screen and (max-width: 400px) {
+
+ .ml-form-embedWrapper.embedDefault,
+ .ml-form-embedWrapper.embedPopup {
+ width: 100% !important;
+ }
+
+ .ml-form-formContent.horozintalForm {
+ float: left !important;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow {
+ height: auto !important;
+ width: 100% !important;
+ float: left !important;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal {
+ width: 100% !important;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal&gt;div {
+ padding-right: 0px !important;
+ padding-bottom: 10px;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-button-horizontal {
+ width: 100% !important;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-button-horizontal.labelsOn {
+ padding-top: 0px !important;
+ }
+ }
+ 
+
+
+ 
+
+ .ml-mobileButton-horizontal {
+ display: none;
+ }
+
+ #mlb2-20248836 .ml-mobileButton-horizontal button {
+ background-color: #000000 !important;
+ border-color: #000000 !important;
+ border-style: solid !important;
+ border-width: 1px !important;
+ border-radius: 4px !important;
+ box-shadow: none !important;
+ color: #ffffff !important;
+ cursor: pointer;
+ font-family: &#34;Open Sans&#34;, Arial, Helvetica, sans-serif !important;
+ font-size: 14px !important;
+ font-weight: 700 !important;
+ line-height: 20px !important;
+ padding: 10px !important;
+ width: 100% !important;
+ }
+
+ @media only screen and (max-width: 400px) {
+ #mlb2-20248836.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent.horozintalForm {
+ padding: 0 0 10px 0 !important;
+ }
+
+ .ml-hide-horizontal {
+ display: none !important;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-button-horizontal {
+ display: none !important;
+ }
+
+ .ml-mobileButton-horizontal {
+ display: inline-block !important;
+ margin-bottom: 20px;
+ width: 100%;
+ }
+
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .ml-input-horizontal&gt;div {
+ padding-bottom: 0px !important;
+ }
+ }
+ 
+
+ 
+
+ @media only screen and (max-width: 400px) {
+ .ml-form-formContent.horozintalForm .ml-form-horizontalRow .horizontal-fields {
+ margin-bottom: 10px !important;
+ width: 100% !important;
+ }
+ }
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ ASSINAR
+ 
+
+
+ 
+
+ 
+
+ 
+Carregando...
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Ao assinar nossa
+ newsletter você concorda em
+ receber notícias
+ semanais.
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ ASSINAR
+ 
+
+ 
+
+ 
+
+ 
+Carregando...
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
 Obrigado!
 
-   Você se cadastrou com sucesso em nossa lista de assinantes.
+ 
+Você se cadastrou com sucesso em nossa lista de
+ assinantes.
 
-   Logo Portal Drauzio Varella
-   Informação clara e segura sobre saúde para todos, de resfriados e
-   questões sociais.
-   Editorias
-   Bem-estar
-   Doenças e sintomas
-   Doenças raras
-   Drogas
-   LGBTQIAPN+
-   Longevidade
-   PediatriaOncologia
+ 
 
-   Saúde Íntima Saúde Mental SUS
+ 
 
-   Outras seções
-   Últimas
-   Opinião
+ 
 
-   Vídeos Podcasts Documentários Trocando Ideia
+ 
 
-   Siga nossas redes
-   Youtube
-   Instagram
-   Tiktok
-   Facebook
-   Bluesky
+ 
 
-   Contato Comercial Conheça a equipe Política de Privacidade Termos de
-   Uso
-   Logo Júpiter Conteúdo
+ 
 
-   Vá para versão mobile
+ function ml_webform_success_20248836() {
+ var $ = ml_jQuery || jQuery;
+ $(".ml-subscribe-form-20248836 .row-success").show();
+ $(".ml-subscribe-form-20248836 .row-form").hide();
+ }
+ 
+
+
+ 
+
+ 
+
+ fetch(
+ "https://assets.mailerlite.com/jsonp/1004126/forms/139169125650925500/takel"
+ );
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Informação clara e segura sobre saúde para todos, de resfriados e questões sociais.
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+Editorias
+
+ 
+
+ 
+Bem-estar
+
+
+Doenças e sintomas
+
+
+Doenças raras
+
+
+Drogas
+
+
+LGBTQIAPN+
+
+
+Longevidade
+
+
+Pediatria
+
+
+Oncologia
+
+
+Saúde Íntima
+
+
+Saúde Mental
+
+
+SUS
+
+ 
+
+ 
+
+ 
+
+ 
+Outras seções
+
+ 
+
+ 
+Últimas
+
+
+Opinião
+
+
+Vídeos
+
+
+Podcasts
+
+
+Documentários
+
+
+Trocando Ideia
+
+ 
+
+ 
+
+ 
+
+ 
+Siga nossas redes
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Youtube
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Instagram
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Tiktok
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+Facebook
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+Bluesky
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+Contato
+ Comercial
+
+ 
+Conheça
+ a equipe
+
+ 
+Política de Privacidade
+
+ 
+Termos de Uso
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+ document.querySelectorAll(".swiper").forEach((swiperContainer) => {
+ new Swiper(swiperContainer, {
+ // Optional parameters
+ direction: "horizontal",
+ loop: true,
+ slidesPerView: 1,
+ slidesPerGroup: 1,
+ spaceBetween: 28,
+ parallax: false,
+ centeredSlides: false,
+ mousewheel: {
+ forceToAxis: true
+ },
+ speed: 300,
+ // Responsive breakpoints
+ breakpoints: {
+ 480: {
+ slidesPerView: 1
+ },
+ 768: {
+ slidesPerView: 2
+ },
+ 992: {
+ slidesPerView: 3
+ }
+ },
+
+ // Navigation arrows (specific to each slider)
+ navigation: {
+ nextEl: swiperContainer.querySelector(".swiper-button-next"),
+ prevEl: swiperContainer.querySelector(".swiper-button-prev"),
+ },
+ });
+ });
+});
+
+
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+ document.querySelectorAll(".swiper-overflow").forEach((swiperContainer) => {
+ new Swiper(swiperContainer, {
+ // Optional parameters
+ direction: "horizontal",
+ loop: false,
+ slidesPerView: 1,
+ slidesPerGroup: 1,
+ spaceBetween: 28,
+ parallax: false,
+ centeredSlides: false,
+ mousewheel: {
+ forceToAxis: true
+ },
+ speed: 300,
+ // Responsive breakpoints
+ breakpoints: {
+ 480: {
+ slidesPerView: 1
+ },
+ 768: {
+ slidesPerView: 2
+ },
+ 992: {
+ slidesPerView: 4,
+ centeredSlides: false
+ }
+ },
+
+ // Navigation arrows (specific to each slider)
+ navigation: {
+ nextEl: swiperContainer.querySelector(".swiper-button-next"),
+ prevEl: swiperContainer.querySelector(".swiper-button-prev"),
+ },
+ });
+ });
+});
+
+
+
+
+ 
+<!--
+ var seriesdropdown = document.getElementById("orgseries_dropdown");
+ if (seriesdropdown) {
+ function onSeriesChange() {
+ if ( seriesdropdown.options[seriesdropdown.selectedIndex].value != ( 0 || -1 ) ) {
+ location.href = "https://drauziovarella.uol.com.br/series/"+seriesdropdown.options[seriesdropdown.selectedIndex].value;
+ }
+ }
+ seriesdropdown.onchange = onSeriesChange;
+ }
+ -->
+
+ 
+
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/drauziovarella2025\/*","\/wp-content\/themes\/twentytwentyfour\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+
+
+ 
+
+ 
+
+ Vá para versão mobile 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+200
