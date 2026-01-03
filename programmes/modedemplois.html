@@ -2,7 +2,7 @@
 <html data-theme="light">
 
 <head>
-    <title> 心 </title>
+    <title> 心 coração сердце</title>
     <link rel="stylesheet" href="../css/main.css" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -133,6 +133,62 @@
 
 </section>
 
+<section class="documentation">
+
+  <h2 style="margin-bottom: 1rem; border-bottom: 2px solid #444; padding-bottom: 0.3rem;">
+    UTILISATION DU SCRIPT RUSSE
+  </h2>
+
+  <p style="margin-bottom: 1rem;">
+    Le script peut être exécuté à l’aide de la commande suivante&nbsp;:
+  </p>
+
+  <pre style="background-color: #f5f5f5; padding: 0.8rem; border-left: 4px solid #999; margin-bottom: 1.5rem;">
+<code>bash script_ru.sh ../URLs/urls-ru.txt ../tableaux/tableau-ru.html</code>
+  </pre>
+
+  <p style="margin-bottom: 1rem;">
+   et il accepte deux arguments (leur présence est vérifiée au début du scripte)&nbsp;:
+   le chemin vers le fichier avec une liste des URLs et le chemin vers le tebleau html des résultats.
+
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Lors du travail avec la langue russe, nous nous sommes limités au traitement de pages HTML.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Dans ce programme, la commande <code>curl</code> est utilisée pour télécharger la structure HTML des pages web listées danq le fichier urls-ru.txt.
+    Immédiatement après, une vérification de l’encodage du texte de la page web est effectuée. Si l’encodage n’est pas indiqué au début du document,
+    il est déterminé à l’aide de la commande <code>file</code>. Lorsqu’il est possible d’identifier l’encodage, la page est alors convertie en UTF-8.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Pour extraire le contenu textuel brut, la commande <code>lynx -dump</code> est utilisée.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Pour rechercher le code de réponse HTTP, l’encodage de la page et les phrases contenant le mot « сердце »,
+    on utilise la commande <code>egrep</code> en combinaison avec des expressions régulières, ainsi que la commande <code>sed</code>,
+    qui permet de supprimer les parties inutiles des résultats de recherche. Lors de la recherche des occurrences du mot « сердце »,
+    l’expression régulière prend en compte toutes ses terminaisons possibles : сердц(е|а|у|ем|ец|цами|цах).
+  </p>
+
+  <p style="margin-bottom: 2rem;">
+    Pour compter le nombre de lignes contenant le mot « сердце » sur l’ensemble des pages analysées, la commande <code>wc -l</code> est utilisée.
+  </p>
+
+  <p style="margin-bottom: 2rem;">
+    Pour la tokenisation du contenu textuel des pages web et l’application ultérieure des scripts PALS, un script Python a été créé,
+    utilisant le module de traitement du langage naturel Spacy.
+  </p>
+
+  <p style="margin-bottom: 2rem;">
+    Le nuage de mots représentant les termes apparaissant fréquemment avec le mot « сердце » a été généré à l’aide du module Python WordCloud.
+  </p>
+
+</section>
+
 
         <div class="footer heart-hero" >
         <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
@@ -145,7 +201,9 @@
             <div class="content" >
                 <p>
                     <b>Programmation et projet encadré 1</b>
-                    <br>Margot LACOUR, mettre vos noms </br>
+                    <br>Margot LACOUR</br>
+                    <br>Carmen CARVALHO</br>
+                    <br>Daria TUPIKINA</br>
                 </p>
             </div>
         </div>
