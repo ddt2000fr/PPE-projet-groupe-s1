@@ -40,9 +40,6 @@ echo -e '<!DOCTYPE html>
                 <a class="navbar-item" href="../tableaux/tableaux.html">
                     Tableaux
                 </a>
-                <a class="navbar-item" href="../concordances/concordancier.html">
-                    Concordancier
-                </a>
                 <a class="navbar-item" href="../programmes/modedemplois.html">
                     Mode d&apos;emploi
                 </a>
