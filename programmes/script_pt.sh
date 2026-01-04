@@ -1,206 +1,19 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-set -o nounset
-set -o pipefail
-
-# Vérifie les arguments
-if [ "$#" -ne 2 ]; then
-  echo "Usage: $0 fichier_urls langue"
-  exit 1
+if [ $# -ne 2 ]
+then
+        echo "Le scripte attend exactement deux arguments: le chemin verl le fichier d'URL et le chemin vers le fichier de sortie"
+        exit
 fi
 
-SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
-ROOT_DIR=$(cd "$SCRIPT_DIR/.." && pwd)
-URL_FILE="$1"
-[ ! -f "$URL_FILE" ] && URL_FILE="$ROOT_DIR/$1"
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
 
-LANGUE="$2"
-DUMP_DIR="$ROOT_DIR/dumps-text"
-ASP_DIR="$ROOT_DIR/aspirations"
-CTX_DIR="$ROOT_DIR/contextes"
-TBL_DIR="$ROOT_DIR/tableaux"
-CONC_DIR="$ROOT_DIR/concordances"
+FICHIER_URL=$1
+FICHIER_SORTIE="$PROJECT_DIR/tableaux/$2"
 
-# Vérifications supplémentaires
-[ -z "$LANGUE" ] && { echo "Erreur: Langue non spécifiée"; exit 1; }
-[ -z "$ROOT_DIR" ] && { echo "Erreur: Répertoire racine non trouvé"; exit 1; }
+mkdir -p "$PROJECT_DIR/aspirations" "$PROJECT_DIR/dumps-text" "$PROJECT_DIR/contextes" "$PROJECT_DIR/concordances"
 
-echo "Configuration:"
-echo "  ROOT_DIR: $ROOT_DIR"
-echo "  LANGUE: $LANGUE"
-echo "  TBL_DIR: $TBL_DIR"
-
-mkdir -p "$DUMP_DIR" "$ASP_DIR" "$CTX_DIR" "$TBL_DIR" "$CONC_DIR"
-CONC_UNICO="$CONC_DIR/concordance_pt.html"
-echo "<html><head><meta charset='utf-8'><style>
-body { font-family: sans-serif; margin: 20px; }
-h1 { border-bottom: 2px solid #333; padding-bottom: 5px; }
-table { width: 100%; border-collapse: collapse; margin: 10px 0; }
-td { border: 1px solid #ddd; padding: 8px; }
-.left { text-align: right; width: 45%; color: #444; }
-.motif { text-align: center; width: 10%; font-weight: bold; background: #fff9c4; color: #e91e63; }
-.right { text-align: left; width: 45%; color: #444; }
-</style></head><body>
-<h1>Concordances - portugais</h1>
-<p><strong>Motifs :</strong>coração|coracao|corações|coracoes</p>
-<p><strong>Contexte :</strong> une ligne</p>" > "$CONC_UNICO"
-
-# Cherche le mot et toutes ses variations
-MOTIFS="(coração|coracao|corações|coracoes)"
-UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-
-for cmd in curl pup; do
-  command -v "$cmd" >/dev/null || { echo "Erreur: Commande '$cmd' manquante"; exit 1; }
-done
-
-declare -A TAB_URLS
-declare -A TAB_HTTP
-declare -A TAB_ENC
-declare -A TAB_TOKENS
-declare -A TAB_COMPTE
-
-# Fonctions
-create_context_txt() {
-    local idx="$1"
-    local word="$2"
-    local dump_path="$3"
-    local out_path="$CTX_DIR/${LANGUE}-${idx}.txt"
-    
-    > "$out_path"
-    grep -o -E ".{0,40}\b($word)\b.{0,40}" "$dump_path" > "$out_path" 2>/dev/null
-}
-
-download_pdf() {
-    local url="$1" out="$2"
-    curl -k -L -s -A "$UA" "$url" -o temp.pdf 2>/dev/null
-    if [ -f temp.pdf ]; then
-        pdftotext -layout temp.pdf "$out" 2>/dev/null
-        rm -f temp.pdf
-        return 0
-    fi
-    return 1
-}
-
-append_to_concordance() {
-    local idx="$1"
-    local word="$2"
-    local url="$3"
-    local dump_path="$4"
-    local nb_occ="$5"
-
-    echo "<h2>Document $idx — $nb_occ occurrences.</h2>" >> "$CONC_UNICO"
-    grep -o -E ".{0,40}\b($word)\b.{0,40}" "$dump_path" | while read -r line_ctx; do
-        left=$(echo "$line_ctx" | sed -E "s/\b($word)\b.*//")
-        word_match=$(echo "$line_ctx" | grep -oE "\b($word)\b" | head -1)
-        right=$(echo "$line_ctx" | sed -E "s/.*\b($word)\b//")
-        echo "<table><tr><td class='left'>${left:-&nbsp;}</td><td class='motif'>$word_match</td><td class='right'>${right:-&nbsp;}</td></tr></table>" >> "$CONC_UNICO"
-    done
-}
-
-# TRAITEMENT DES URLS
-i=1
-
-while IFS= read -r line || [ -n "$line" ]; do
-  [[ -z "$line" || "$line" =~ ^# ]] && continue
-  
-  url=$(echo "$line" | grep -oE 'https?://[^[:space:]]+' | head -1)
-  [ -z "$url" ] && continue
-
-echo -ne "Analyse de $i... \r"
-
-  TAB_URLS[$i]="$url"
-
-  # Chemin des fichiers
-  DUMP_PATH="$DUMP_DIR/${LANGUE}-${i}.txt"
-  ASP_PATH="$ASP_DIR/${LANGUE}-${i}.html"
-  CTX_TXT_PATH="$CTX_DIR/${LANGUE}-${i}.txt"
-
-  # Pour traiter les PDFs
-  if [[ "$url" =~ \.pdf$ ]]; then
-    echo " PDF detecté "
-    if download_pdf "$url" "$DUMP_PATH"; then
-        TAB_HTTP[$i]="200"
-        TAB_ENC[$i]="PDF"
-    else
-        TAB_HTTP[$i]="000"
-        TAB_ENC[$i]="ERREUR"
-        > "$DUMP_PATH"
-    fi
- fi
- 
-# Telecharge et fais l'extraction du texte
-response=$(curl -k -L -s -w "\n%{http_code}\n%{content_type}" -A "$UA" --connect-timeout 10 "$url" 2>/dev/null)
-html=$(echo "$response" | sed '$d;$d')
-http_code=$(echo "$response" | tail -2 | head -1)
-content_type=$(echo "$response" | tail -1)
-
-# Mettre le code a jour
-TAB_HTTP[$i]="$http_code"
-
-# Pour l'erreur en code HTTP
-if [[ "$http_code" -ge 400 ]]; then
-   echo "Page avec erreur HTTP ($http_code) - le traitement sera limité."
-   TAB_TOKENS[$i]=0
-   TAB_COMPTE[$i]=0
-fi
-
-# Extraction encoding
-charset=$(echo "$content_type" | grep -oE "charset=[^ ;]+" | cut -d= -f2)
-[ -z "$charset" ] && charset="UTF-8"
-TAB_ENC[$i]=$(echo "$charset" | tr '[:lower:]' '[:upper:]')
-
-# Texte plus clean avec pup
-texte=$(echo "$html" | pup 'article text{}, main text{}, body text{}' | sed '/window\./d;/INIT_DATA/d;/function(/d' | sed 's/[[:space:]]\+/ /g')
-
-if echo "$texte" | grep -q -P "Ã[¡§³´µ·¸¹º]|Ã[€-¿]"; then
-    if echo "$texte" | iconv -f ISO-8859-1 -t UTF-8 2>/dev/null > "$DUMP_PATH"; then
-        echo "  Convertido: ISO-8859-1 → UTF-8"
-    elif echo "$texte" | iconv -f WINDOWS-1252 -t UTF-8 2>/dev/null > "$DUMP_PATH"; then
-        echo "  Convertido: WINDOWS-1252 → UTF-8"
-    else
-        echo "$texte" > "$DUMP_PATH"
-    fi
-else
-    echo "$texte" > "$DUMP_PATH"
-fi
-
-# Compter les tokens dans le dump textuel
-  tr -d '\000' < "$DUMP_PATH" > "${DUMP_PATH}.tmp" && mv "${DUMP_PATH}.tmp" "$DUMP_PATH"
-  tokens=$(cat "$DUMP_PATH" 2>/dev/null | wc -w || echo "0")
-  TAB_TOKENS[$i]="$tokens"
-  
-  # Compter les occurrences du mot
-  compte=$(grep -oiP "\b($MOTIFS)\b" "$DUMP_PATH" 2>/dev/null | wc -l || echo "0")
-  TAB_COMPTE[$i]="$compte"
-
-  create_context_txt "$i" "$MOTIFS" "$DUMP_PATH"
-  append_to_concordance "$i" "$MOTIFS" "$url" "$DUMP_PATH" "$compte"
-
-  # Créer l'aspiration avec les occurrences
-  {
-    echo "<!DOCTYPE html><html><head><meta charset='UTF-8'><title>Aspiration $i - $LANGUE</title></head><body>"
-    echo "<h2>Source : <a href='$url'>$url</a></h2>"
-    echo "<p><strong>Occurrences trouvées :</strong> $compte</p><hr>"
-    grep -Ei "$MOTIFS" "$DUMP_PATH" 2>/dev/null | sed 's/^/<p>/;s/$/<\/p>/' || echo "<p>Aucune occurrence trouvée</p>"
-    echo "</body></html>"
-  } > "$ASP_PATH"
-
-  i=$((i+1))
-done < "$URL_FILE"
-
-# Vérification finale avant génération
-if [ -z "$TBL_DIR" ] || [ -z "$LANGUE" ]; then
-    echo "ERREUR: TBL_DIR ou LANGUE est vide!" >&2
-    echo "TBL_DIR: '$TBL_DIR'" >&2
-    echo "LANGUE: '$LANGUE'" >&2
-    exit 1
-fi
-
-# generation du tableau
-OUT="$TBL_DIR/${LANGUE}.html"
-echo "Génération du tableau: $OUT"
-
-{
 echo -e '<!DOCTYPE html>
 <html data-theme="light">
 
@@ -223,7 +36,7 @@ echo -e '<!DOCTYPE html>
                         <span aria-hidden="true"></span>
                         <span aria-hidden="true"></span>
                     </a>
-                    <h1 class="subtitle"><a href="../">coeur</a></h1>
+                    <h1 class="subtitle"><a href=".">coeur</a></h1>
                 </div>
             </div>
 
@@ -251,7 +64,6 @@ echo -e '<!DOCTYPE html>
     </nav>
 
     <section class="hero heart-hero">
-        <!-- Cœurs flottants -->
         <span class="heart-float" style="top:10%; left:5%; font-size:1rem;">♡</span>
         <span class="heart-float" style="top:30%; left:25%; font-size:1.2rem;">♡</span>
         <span class="heart-float" style="top:50%; left:60%; font-size:0.9rem;">♡</span>
@@ -259,7 +71,7 @@ echo -e '<!DOCTYPE html>
         <span class="heart-float" style="top:80%; left:75%; font-size:0.8rem;">♡</span>
         <div class="container is-max-desktop">
             <div class="hero-body">
-                <p class="title">Coração</p>
+                <p class="title">coração</p>
                 <p class="subtitle">Tableau des URLs pour le portugais</p>
             </div>
         </div>
@@ -290,40 +102,48 @@ echo -e '<!DOCTYPE html>
                             <th class="has-text-centered">Contextes</th>
                         </tr>
                     </thead>
-                    <tbody>'
+                    <tbody>' > "$FICHIER_SORTIE"
 
-for idx in $(seq 1 $((i-1))); do
-    url_final="${TAB_URLS[$idx]}"
-    [ -z "$url_final" ] && continue
+lineno=1
+UA="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+while read -r line || [ -n "$line" ];
+do
+    line=$(echo "$line" | tr -d '\r' | xargs)
+    [[ -z "$line" ]] && continue
+
+    HTTP_code=$(curl -L -k -s -A "$UA" --max-time 15 "$line" \
+         -o "$PROJECT_DIR/aspirations/pt-${lineno}.html" \
+         -w "%{http_code}")
+
+    [ -z "$HTTP_code" ] && HTTP_code="Erreur"
+
+    encoding=$(grep -oiP 'charset=["'\'']?\K[A-Za-z0-9_\-]+' "$PROJECT_DIR/aspirations/pt-${lineno}.html" | head -n 1 | tr '[:lower:]' '[:upper:]')
+    [ -z "$encoding" ] && encoding="UTF-8"
+
+if [[ "$HTTP_code" == "200" ]]; then
+        lynx -dump -nolist "$PROJECT_DIR/aspirations/pt-${lineno}.html" | \
+            sed -n '/^References$/q;p' | \
+            sed -E 's/\[[0-9]+\]//g' | \
+            sed 's/(BUTTON)//g' | \
+            grep -viE 'oEmbed|JSON|XML|@|{[[:space:]]*"@context"|http' \
+            > "$PROJECT_DIR/dumps-text/pt-${lineno}.txt" 2>/dev/null
     
-    http_code="${TAB_HTTP[$idx]}"
-    
-    # Si c'est une erreur HTTP
-    if [[ "$http_code" -ge 400 ]]; then
-        echo "<tr>
-            <td class='has-text-centered'>$idx</td>
-            <td style='max-width: 400px; word-wrap: break-word;'><a href='$url_final' target='_blank'>$url_final</a></td>
-            <td class='has-text-centered'>$http_code</td>
-            <td colspan='5'>Erreur HTTP $http_code</td>
-        </tr>"
-        continue
+        grep -iE 'coração|coracao|corações|coracoes' "$PROJECT_DIR/dumps-text/pt-${lineno}.txt" | \
+            grep -viE 'oEmbed|JSON|XML|{[[:space:]]*"' | \
+            sed -E 's/^[[:space:]]+//' > "$PROJECT_DIR/contextes/pt-${lineno}.txt"
+            
+        words=$(grep -oiE 'coração|coracao|corações|coracoes' "$PROJECT_DIR/dumps-text/pt-${lineno}.txt" | wc -l)
+    else
+        words=0
+        echo "" > "$PROJECT_DIR/contextes/pt-${lineno}.txt"
     fi
-    
-    count="${TAB_COMPTE[$idx]:-0}"
-    
-    echo "<tr>
-        <td class='has-text-centered'>$idx</td>
-        <td style='max-width: 400px; word-wrap: break-word;'><a href='$url_final' target='_blank'>$url_final</a></td>
-        <td class='has-text-centered'>${TAB_HTTP[$idx]}</td>
-        <td class='has-text-centered'>${TAB_ENC[$idx]}</td>
-        <td class='has-text-centered'>$count</td>
-        <td class='has-text-centered'><a href='../aspirations/${LANGUE}-${idx}.html' target='_blank'>HTML</a></td>
-        <td class='has-text-centered'><a href='../dumps-text/${LANGUE}-${idx}.txt' target='_blank'>TXT</a></td>
-        <td class='has-text-centered'><a href='../contextes/${LANGUE}-${idx}.txt' target='_blank'>CTX</a></td>
-    </tr>"
-done
 
-echo '</tbody>
+    echo -e "<tr>\n<td class='has-text-centered'>${lineno}</td><td style='max-width: 400px; word-wrap: break-word;'><a href='${line}' target='_blank'>${line}</a></td><td class='has-text-centered'>${HTTP_code}</td><td class='has-text-centered'>${encoding}</td><td class='has-text-centered'>${words}</td><td class='has-text-centered'><a href='../aspirations/pt-${lineno}.html' target='_blank'>HTML</a></td><td class='has-text-centered'><a href='../dumps-text/pt-${lineno}.txt' target='_blank'>TXT</a></td><td class='has-text-centered'><a href='../contextes/pt-${lineno}.txt'  target='_blank'>CTX</a></td>\n</tr>" >> "$FICHIER_SORTIE"
+    lineno=$((lineno + 1))
+done < "$FICHIER_URL"
+
+echo -e '</tbody>
                 </table>
             </div>
         </div>
@@ -342,10 +162,41 @@ echo '</tbody>
             });
         });
     </script>
-
 </body>
-</html>'
-} > "$OUT"
-echo "</body></html>" >> "$CONC_UNICO"
-    echo "Tableau généré avec succès: $OUT"
- 
+</html>' >> "$FICHIER_SORTIE"
+
+echo -e '<!DOCTYPE html>
+<html><meta charset="UTF-8">
+<head><style>
+body { font-family: sans-serif; margin: 20px; }
+h1 { border-bottom: 2px solid #4CAF50; padding-bottom: 5px; }
+h2 { margin-top: 30px; color: #333; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; table-layout: fixed; }
+td { border: 1px solid #ddd; padding: 8px; overflow: hidden; }
+.left { text-align: right; width: 45%; color: #444; }
+.motif { text-align: center; width: 10%; font-weight: bold; background: #fff9c4; }
+.right { text-align: left; width: 45%; color: #444; }
+</style></head><body>
+<h1>Concordances — portugais</h1>
+<p><strong>Motifs :</strong> coração|coracao|corações|coracoes</p>
+<p><strong>Contexte :</strong> une ligne</p>' > "$PROJECT_DIR/concordances/concordance_pt.html"
+
+fileno=1
+for file in $(ls "$PROJECT_DIR/contextes/pt-"* | sort -V); do
+    [[ -f "$file" ]] || continue
+    occurrencesno=$(wc -l < "$file")
+    [ "$occurrencesno" -eq 0 ] && continue
+
+    echo -e "<h2>Document ${fileno} — ${occurrencesno} occurrences</h2>" >> "$PROJECT_DIR/concordances/concordance_pt.html"
+
+    while IFS= read -r line; do
+        left=$(echo "$line" | sed -E 's/^(.*)(coração|coracao|corações|coracoes).*/\1/i')
+        word=$(echo "$line" | grep -oiE 'coração|coracao|corações|coracoes' | head -n 1)
+        right=$(echo "$line" | sed -E 's/.*(coração|coracao|corações|coracoes)(.*)/\2/i')
+        
+        echo -e "<table><tr><td class='left'>${left}</td><td class='motif'>${word}</td><td class='right'>${right}</td></tr></table>" >> "$PROJECT_DIR/concordances/concordance_pt.html"
+    done < "$file"
+    fileno=$((fileno + 1))
+done
+
+echo -e '</body></html>' >> "$PROJECT_DIR/concordances/concordance_pt.html"

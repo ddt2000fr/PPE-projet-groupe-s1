@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(e){this.triggerEvents=e,this.eventOptions={passive:!0},this.userEventListener=this.triggerListener.bind(this),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventListener,e.eventOptions)))}_removeUserInteractionListener(e){this.triggerEvents.forEach((t=>window.removeEventListener(t,e.userEventListener,e.eventOptions)))}triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}async _loadEverythingNow(){this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async),await this._triggerDOMContentLoaded(),await this._triggerWindowLoad(),window.dispatchEvent(new Event("rocket-allScriptsLoaded"))}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._requestAnimFrame(),new Promise((t=>{const n=document.createElement("script");let r;[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type",r=e.nodeValue),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t()),e.parentNode.replaceChild(n,e)}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){var e=document.createDocumentFragment();[...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async].forEach((t=>{const n=t.getAttribute("src");if(n){const t=document.createElement("link");t.href=n,t.rel="preload",t.as="script",e.appendChild(t)}})),document.head.appendChild(e)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(r){e["rocket"+t]=n=r}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._requestAnimFrame(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._requestAnimFrame(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._requestAnimFrame(),window.dispatchEvent(new Event("rocket-load")),await this._requestAnimFrame(),window.rocketonload&&window.rocketonload(),await this._requestAnimFrame(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),window.dispatchEvent(new Event("rocket-pageshow")),await this._requestAnimFrame(),window.rocketonpageshow&&window.rocketonpageshow()}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,r=document.createRange(),i=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const a=document.createDocumentFragment();r.setStart(a,0),a.appendChild(r.createContextualFragment(t)),i.insertBefore(a,o)}}async _requestAnimFrame(){return new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts(["keydown","mousemove","touchmove","touchstart","touchend","wheel"]);e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+	
+	<link rel="profile" href="https://gmpg.org/xfn/11" />
+	<link rel="pingback" href="https://portalcustomer.com.br/xmlrpc.php" />
+	<link rel='preload' as='image' href='https://portalcustomer.com.br/wp-content/uploads/2022/10/Portal-Customer.png' type='image/png'>
+<link rel='preload' as='image' href='https://portalcustomer.com.br/wp-content/uploads/2022/10/Portal-Customer-1.png' type='image/png'>
+<link rel='preload' as='font' href='https://portalcustomer.com.br/wp-content/themes/jannah/assets/fonts/fontawesome/fontawesome-webfont.woff2' type='font/woff2' crossorigin='anonymous' />
+<link rel='preload' as='font' href='https://portalcustomer.com.br/wp-content/themes/jannah/assets/fonts/tiefonticon/tiefonticon.woff' type='font/woff' crossorigin='anonymous' />
+
+<meta http-equiv='x-dns-prefetch-control' content='on'>
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v21.0 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>A cultura organizacional é o coração da empresa Portal Customer</title><link rel="stylesheet" href="https://portalcustomer.com.br/wp-content/cache/min/1/eae277c3a5a87bfa8ec7aabe44f19192.css" media="all" data-minify="1" />
+	<meta name="description" content="A cultura no cenário corporativo é o que define o modus operandi da empresa. E como construir uma boa cultura organizacional?" />
+	<link rel="canonical" href="https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" />
+	<meta property="og:locale" content="pt_BR" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="A cultura organizacional é o coração da empresa Portal Customer" />
+	<meta property="og:description" content="A cultura no cenário corporativo é o que define o modus operandi da empresa. E como construir uma boa cultura organizacional?" />
+	<meta property="og:url" content="https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" />
+	<meta property="og:site_name" content="Portal Customer" />
+	<meta property="article:author" content="https://www.facebook.com/Portal-Customer-100189255175969" />
+	<meta property="article:published_time" content="2022-07-29T08:00:00+00:00" />
+	<meta property="article:modified_time" content="2022-07-27T17:05:29+00:00" />
+	<meta property="og:image" content="https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-15-1.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="627" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="author" content="Redação Portal Customer" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="Redação Portal Customer" />
+	<meta name="twitter:label2" content="Est. tempo de leitura" />
+	<meta name="twitter:data2" content="3 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Article","@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#article","isPartOf":{"@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/"},"author":{"name":"Redação Portal Customer","@id":"https://portalcustomer.com.br/#/schema/person/1b6ece93413a6d5b3aa9b24c2f480a83"},"headline":"A cultura organizacional é o coração da empresa","datePublished":"2022-07-29T08:00:00+00:00","dateModified":"2022-07-27T17:05:29+00:00","mainEntityOfPage":{"@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/"},"wordCount":562,"commentCount":0,"publisher":{"@id":"https://portalcustomer.com.br/#organization"},"image":{"@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#primaryimage"},"thumbnailUrl":"https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-15-1.png","keywords":["Colaboradores","Empresas","Soft Skills","Tecnologia"],"articleSection":["Jornada e Colaborador"],"inLanguage":"pt-BR","potentialAction":[{"@type":"CommentAction","name":"Comment","target":["https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#respond"]}]},{"@type":"WebPage","@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/","url":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/","name":"A cultura organizacional é o coração da empresa Portal Customer","isPartOf":{"@id":"https://portalcustomer.com.br/#website"},"primaryImageOfPage":{"@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#primaryimage"},"image":{"@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#primaryimage"},"thumbnailUrl":"https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-15-1.png","datePublished":"2022-07-29T08:00:00+00:00","dateModified":"2022-07-27T17:05:29+00:00","description":"A cultura no cenário corporativo é o que define o modus operandi da empresa. E como construir uma boa cultura organizacional?","breadcrumb":{"@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#breadcrumb"},"inLanguage":"pt-BR","potentialAction":[{"@type":"ReadAction","target":["https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/"]}]},{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#primaryimage","url":"https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-15-1.png","contentUrl":"https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-15-1.png","width":1200,"height":627,"caption":"A cultura organizacional é o coração da empresa - Fonte: Canva Pro"},{"@type":"BreadcrumbList","@id":"https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://portalcustomer.com.br/"},{"@type":"ListItem","position":2,"name":"A cultura organizacional é o coração da empresa"}]},{"@type":"WebSite","@id":"https://portalcustomer.com.br/#website","url":"https://portalcustomer.com.br/","name":"Portal Customer","description":"O seu portal","publisher":{"@id":"https://portalcustomer.com.br/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://portalcustomer.com.br/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"pt-BR"},{"@type":"Organization","@id":"https://portalcustomer.com.br/#organization","name":"Portal Customer","url":"https://portalcustomer.com.br/","logo":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://portalcustomer.com.br/#/schema/logo/image/","url":"https://portalcustomer.com.br/wp-content/uploads/2020/11/Logo-portal.png","contentUrl":"https://portalcustomer.com.br/wp-content/uploads/2020/11/Logo-portal.png","width":1273,"height":320,"caption":"Portal Customer"},"image":{"@id":"https://portalcustomer.com.br/#/schema/logo/image/"}},{"@type":"Person","@id":"https://portalcustomer.com.br/#/schema/person/1b6ece93413a6d5b3aa9b24c2f480a83","name":"Redação Portal Customer","image":{"@type":"ImageObject","inLanguage":"pt-BR","@id":"https://portalcustomer.com.br/#/schema/person/image/","url":"https://portalcustomer.com.br/wp-content/uploads/2022/10/Design-sem-nome.png","contentUrl":"https://portalcustomer.com.br/wp-content/uploads/2022/10/Design-sem-nome.png","caption":"Redação Portal Customer"},"description":"contato@portalcustomer.com.br","sameAs":["https://portalcustomer.com.br","https://www.facebook.com/Portal-Customer-100189255175969","https://www.instagram.com/portalcustomer/","https://www.linkedin.com/company/portal-customer/about/?viewAsMember=true"],"url":"https://portalcustomer.com.br/author/redacao/"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+
+<link rel="alternate" type="application/rss+xml" title="Feed para Portal Customer &raquo;" href="https://portalcustomer.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Portal Customer &raquo;" href="https://portalcustomer.com.br/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Portal Customer &raquo; A cultura organizacional é o coração da empresa" href="https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://portalcustomer.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fportalcustomer.com.br%2Fa-cultura-organizacional-e-o-coracao-da-empresa%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://portalcustomer.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fportalcustomer.com.br%2Fa-cultura-organizacional-e-o-coracao-da-empresa%2F&#038;format=xml" />
+<!-- portalcustomer.com.br is managing ads with Advanced Ads 2.0.16 – https://wpadvancedads.com/ --><!--noptimize--><script type="rocketlazyloadscript" id="porta-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<!--/noptimize--><style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+
+<style id='wp-block-paragraph-inline-css' type='text/css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://portalcustomer.com.br/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+
+
+
+<style id='dominant-color-styles-inline-css' type='text/css'>
+img[data-dominant-color]:not(.has-transparency) { background-color: var(--dominant-color); }
+/*# sourceURL=dominant-color-styles-inline-css */
+</style>
+
+
+
+
+
+
+
+
+<link rel='stylesheet' id='tie-css-print-css' href='https://portalcustomer.com.br/wp-content/themes/jannah/assets/css/print.css?ver=4.7.2' type='text/css' media='print' />
+
+
+
+
+<style id='otw-shortcode-inline-css' type='text/css'>
+.wf-active .logo-text,.wf-active h1,.wf-active h2,.wf-active h3,.wf-active h4,.wf-active h5,.wf-active h6,.wf-active .the-subtitle{font-family: 'Poppins';}#main-nav .main-menu > ul > li > a{font-size: 10px;text-transform: uppercase;}.brand-title,a:hover,#tie-popup-search-submit,#logo.text-logo a,.theme-header nav .components #search-submit:hover,.theme-header .header-nav .components > li:hover > a,.theme-header .header-nav .components li a:hover,.main-menu ul.cats-vertical li a.is-active,.main-menu ul.cats-vertical li a:hover,.main-nav li.mega-menu .post-meta a:hover,.main-nav li.mega-menu .post-box-title a:hover,.search-in-main-nav.autocomplete-suggestions a:hover,#main-nav .menu ul li:hover > a,#main-nav .menu ul li.current-menu-item:not(.mega-link-column) > a,.top-nav .menu li:hover > a,.top-nav .menu > .tie-current-menu > a,.search-in-top-nav.autocomplete-suggestions .post-title a:hover,div.mag-box .mag-box-options .mag-box-filter-links a.active,.mag-box-filter-links .flexMenu-viewMore:hover > a,.stars-rating-active,body .tabs.tabs .active > a,.video-play-icon,.spinner-circle:after,#go-to-content:hover,.comment-list .comment-author .fn,.commentlist .comment-author .fn,blockquote::before,blockquote cite,blockquote.quote-simple p,.multiple-post-pages a:hover,#story-index li .is-current,.latest-tweets-widget .twitter-icon-wrap span,.wide-slider-nav-wrapper .slide,.wide-next-prev-slider-wrapper .tie-slider-nav li:hover span,#instagram-link:hover,.review-final-score h3,#mobile-menu-icon:hover .menu-text,.entry a,.entry .post-bottom-meta a:hover,.comment-list .comment-content a,.widget.tie-weather-widget .icon-basecloud-bg:after,q a,blockquote a,.site-footer a:hover,.site-footer .stars-rating-active,.site-footer .twitter-icon-wrap span,.site-info a:hover{color: #1b98e0;}[type='submit'],.button,.generic-button a,.generic-button button,.theme-header .header-nav .comp-sub-menu a.button.guest-btn:hover,.theme-header .header-nav .comp-sub-menu a.checkout-button,nav.main-nav .menu > li.tie-current-menu > a,nav.main-nav .menu > li:hover > a,.main-menu .mega-links-head:after,#main-nav .mega-menu.mega-cat .cats-horizontal li a.is-active,#mobile-menu-icon:hover .nav-icon,#mobile-menu-icon:hover .nav-icon:before,#mobile-menu-icon:hover .nav-icon:after,.search-in-main-nav.autocomplete-suggestions a.button,.search-in-top-nav.autocomplete-suggestions a.button,.spinner > div,.post-cat,.pages-numbers li.current span,.multiple-post-pages > span,#tie-wrapper .mejs-container .mejs-controls,.mag-box-filter-links a:hover,.slider-arrow-nav a:not(.pagination-disabled):hover,.comment-list .reply a:hover,.commentlist .reply a:hover,#reading-position-indicator,#story-index-icon,.videos-block .playlist-title,.review-percentage .review-item span span,.tie-slick-dots li.slick-active button,.tie-slick-dots li button:hover,.digital-rating-static,.timeline-widget li a:hover .date:before,#wp-calendar #today,.posts-list-counter li:before,.cat-counter a + span,.tie-slider-nav li span:hover,.fullwidth-area .widget_tag_cloud .tagcloud a:hover,.magazine2:not(.block-head-4) .dark-widgetized-area ul.tabs a:hover,.magazine2:not(.block-head-4) .dark-widgetized-area ul.tabs .active a,.magazine1 .dark-widgetized-area ul.tabs a:hover,.magazine1 .dark-widgetized-area ul.tabs .active a,.block-head-4.magazine2 .dark-widgetized-area .tabs.tabs .active a,.block-head-4.magazine2 .dark-widgetized-area .tabs > .active a:before,.block-head-4.magazine2 .dark-widgetized-area .tabs > .active a:after,.demo_store,.demo #logo:after,.widget.tie-weather-widget,span.video-close-btn:hover,#go-to-top,.latest-tweets-widget .slider-links .button:not(:hover){background-color: #1b98e0;color: #FFFFFF;}.tie-weather-widget .widget-title .the-subtitle,.block-head-4.magazine2 #footer .tabs .active a:hover{color: #FFFFFF;}pre,code,.pages-numbers li.current span,.theme-header .header-nav .comp-sub-menu a.button.guest-btn:hover,.multiple-post-pages > span,.post-content-slideshow .tie-slider-nav li span:hover,#tie-body .tie-slider-nav li > span:hover,#instagram-link:before,#instagram-link:after,.slider-arrow-nav a:not(.pagination-disabled):hover,.main-nav .mega-menu.mega-cat .cats-horizontal li a.is-active, .main-nav .mega-menu.mega-cat .cats-horizontal li a:hover,.main-menu .menu > li > .menu-sub-content{border-color: #1b98e0;}.main-menu .menu > li.tie-current-menu{border-bottom-color: #1b98e0;}.top-nav .menu li.menu-item-has-children:hover > a:before{border-top-color: #1b98e0;}.main-nav .main-menu .menu > li.tie-current-menu > a:before,.main-nav .main-menu .menu > li:hover > a:before{border-top-color: #FFFFFF;}header.main-nav-light .main-nav .menu-item-has-children li:hover > a:before,header.main-nav-light .main-nav .mega-menu li:hover > a:before{border-left-color: #1b98e0;}.rtl header.main-nav-light .main-nav .menu-item-has-children li:hover > a:before,.rtl header.main-nav-light .main-nav .mega-menu li:hover > a:before{border-right-color: #1b98e0;border-left-color: transparent;}.top-nav ul.menu li .menu-item-has-children:hover > a:before{border-top-color: transparent;border-left-color: #1b98e0;}.rtl .top-nav ul.menu li .menu-item-has-children:hover > a:before{border-left-color: transparent;border-right-color: #1b98e0;}::-moz-selection{background-color: #1b98e0;color: #FFFFFF;}::selection{background-color: #1b98e0;color: #FFFFFF;}circle.circle_bar{stroke: #1b98e0;}#reading-position-indicator{box-shadow: 0 0 10px rgba( 27,152,224,0.7);}#tie-popup-search-submit:hover,#logo.text-logo a:hover,.entry a:hover,.comment-list .comment-content a:hover,.block-head-4.magazine2 .site-footer .tabs li a:hover,q a:hover,blockquote a:hover{color: #0066ae;}.button:hover,input[type='submit']:hover,.generic-button a:hover,.generic-button button:hover,a.post-cat:hover,.site-footer .button:hover,.site-footer [type='submit']:hover,.search-in-main-nav.autocomplete-suggestions a.button:hover,.search-in-top-nav.autocomplete-suggestions a.button:hover,.theme-header .header-nav .comp-sub-menu a.checkout-button:hover{background-color: #0066ae;color: #FFFFFF;}.theme-header .header-nav .comp-sub-menu a.checkout-button:not(:hover),.entry a.button{color: #FFFFFF;}#story-index.is-compact .story-index-content{background-color: #1b98e0;}#story-index.is-compact .story-index-content a,#story-index.is-compact .story-index-content .is-current{color: #FFFFFF;}#tie-body .mag-box-title h3 a,#tie-body .block-more-button{color: #1b98e0;}#tie-body .mag-box-title h3 a:hover,#tie-body .block-more-button:hover{color: #0066ae;}#tie-body .mag-box-title{color: #1b98e0;}#tie-body .mag-box-title:before{border-top-color: #1b98e0;}#tie-body .mag-box-title:after,#tie-body #footer .widget-title:after{background-color: #1b98e0;}.brand-title,a:hover,#tie-popup-search-submit,#logo.text-logo a,.theme-header nav .components #search-submit:hover,.theme-header .header-nav .components > li:hover > a,.theme-header .header-nav .components li a:hover,.main-menu ul.cats-vertical li a.is-active,.main-menu ul.cats-vertical li a:hover,.main-nav li.mega-menu .post-meta a:hover,.main-nav li.mega-menu .post-box-title a:hover,.search-in-main-nav.autocomplete-suggestions a:hover,#main-nav .menu ul li:hover > a,#main-nav .menu ul li.current-menu-item:not(.mega-link-column) > a,.top-nav .menu li:hover > a,.top-nav .menu > .tie-current-menu > a,.search-in-top-nav.autocomplete-suggestions .post-title a:hover,div.mag-box .mag-box-options .mag-box-filter-links a.active,.mag-box-filter-links .flexMenu-viewMore:hover > a,.stars-rating-active,body .tabs.tabs .active > a,.video-play-icon,.spinner-circle:after,#go-to-content:hover,.comment-list .comment-author .fn,.commentlist .comment-author .fn,blockquote::before,blockquote cite,blockquote.quote-simple p,.multiple-post-pages a:hover,#story-index li .is-current,.latest-tweets-widget .twitter-icon-wrap span,.wide-slider-nav-wrapper .slide,.wide-next-prev-slider-wrapper .tie-slider-nav li:hover span,#instagram-link:hover,.review-final-score h3,#mobile-menu-icon:hover .menu-text,.entry a,.entry .post-bottom-meta a:hover,.comment-list .comment-content a,.widget.tie-weather-widget .icon-basecloud-bg:after,q a,blockquote a,.site-footer a:hover,.site-footer .stars-rating-active,.site-footer .twitter-icon-wrap span,.site-info a:hover{color: #1b98e0;}[type='submit'],.button,.generic-button a,.generic-button button,.theme-header .header-nav .comp-sub-menu a.button.guest-btn:hover,.theme-header .header-nav .comp-sub-menu a.checkout-button,nav.main-nav .menu > li.tie-current-menu > a,nav.main-nav .menu > li:hover > a,.main-menu .mega-links-head:after,#main-nav .mega-menu.mega-cat .cats-horizontal li a.is-active,#mobile-menu-icon:hover .nav-icon,#mobile-menu-icon:hover .nav-icon:before,#mobile-menu-icon:hover .nav-icon:after,.search-in-main-nav.autocomplete-suggestions a.button,.search-in-top-nav.autocomplete-suggestions a.button,.spinner > div,.post-cat,.pages-numbers li.current span,.multiple-post-pages > span,#tie-wrapper .mejs-container .mejs-controls,.mag-box-filter-links a:hover,.slider-arrow-nav a:not(.pagination-disabled):hover,.comment-list .reply a:hover,.commentlist .reply a:hover,#reading-position-indicator,#story-index-icon,.videos-block .playlist-title,.review-percentage .review-item span span,.tie-slick-dots li.slick-active button,.tie-slick-dots li button:hover,.digital-rating-static,.timeline-widget li a:hover .date:before,#wp-calendar #today,.posts-list-counter li:before,.cat-counter a + span,.tie-slider-nav li span:hover,.fullwidth-area .widget_tag_cloud .tagcloud a:hover,.magazine2:not(.block-head-4) .dark-widgetized-area ul.tabs a:hover,.magazine2:not(.block-head-4) .dark-widgetized-area ul.tabs .active a,.magazine1 .dark-widgetized-area ul.tabs a:hover,.magazine1 .dark-widgetized-area ul.tabs .active a,.block-head-4.magazine2 .dark-widgetized-area .tabs.tabs .active a,.block-head-4.magazine2 .dark-widgetized-area .tabs > .active a:before,.block-head-4.magazine2 .dark-widgetized-area .tabs > .active a:after,.demo_store,.demo #logo:after,.widget.tie-weather-widget,span.video-close-btn:hover,#go-to-top,.latest-tweets-widget .slider-links .button:not(:hover){background-color: #1b98e0;color: #FFFFFF;}.tie-weather-widget .widget-title .the-subtitle,.block-head-4.magazine2 #footer .tabs .active a:hover{color: #FFFFFF;}pre,code,.pages-numbers li.current span,.theme-header .header-nav .comp-sub-menu a.button.guest-btn:hover,.multiple-post-pages > span,.post-content-slideshow .tie-slider-nav li span:hover,#tie-body .tie-slider-nav li > span:hover,#instagram-link:before,#instagram-link:after,.slider-arrow-nav a:not(.pagination-disabled):hover,.main-nav .mega-menu.mega-cat .cats-horizontal li a.is-active, .main-nav .mega-menu.mega-cat .cats-horizontal li a:hover,.main-menu .menu > li > .menu-sub-content{border-color: #1b98e0;}.main-menu .menu > li.tie-current-menu{border-bottom-color: #1b98e0;}.top-nav .menu li.menu-item-has-children:hover > a:before{border-top-color: #1b98e0;}.main-nav .main-menu .menu > li.tie-current-menu > a:before,.main-nav .main-menu .menu > li:hover > a:before{border-top-color: #FFFFFF;}header.main-nav-light .main-nav .menu-item-has-children li:hover > a:before,header.main-nav-light .main-nav .mega-menu li:hover > a:before{border-left-color: #1b98e0;}.rtl header.main-nav-light .main-nav .menu-item-has-children li:hover > a:before,.rtl header.main-nav-light .main-nav .mega-menu li:hover > a:before{border-right-color: #1b98e0;border-left-color: transparent;}.top-nav ul.menu li .menu-item-has-children:hover > a:before{border-top-color: transparent;border-left-color: #1b98e0;}.rtl .top-nav ul.menu li .menu-item-has-children:hover > a:before{border-left-color: transparent;border-right-color: #1b98e0;}::-moz-selection{background-color: #1b98e0;color: #FFFFFF;}::selection{background-color: #1b98e0;color: #FFFFFF;}circle.circle_bar{stroke: #1b98e0;}#reading-position-indicator{box-shadow: 0 0 10px rgba( 27,152,224,0.7);}#tie-popup-search-submit:hover,#logo.text-logo a:hover,.entry a:hover,.comment-list .comment-content a:hover,.block-head-4.magazine2 .site-footer .tabs li a:hover,q a:hover,blockquote a:hover{color: #0066ae;}.button:hover,input[type='submit']:hover,.generic-button a:hover,.generic-button button:hover,a.post-cat:hover,.site-footer .button:hover,.site-footer [type='submit']:hover,.search-in-main-nav.autocomplete-suggestions a.button:hover,.search-in-top-nav.autocomplete-suggestions a.button:hover,.theme-header .header-nav .comp-sub-menu a.checkout-button:hover{background-color: #0066ae;color: #FFFFFF;}.theme-header .header-nav .comp-sub-menu a.checkout-button:not(:hover),.entry a.button{color: #FFFFFF;}#story-index.is-compact .story-index-content{background-color: #1b98e0;}#story-index.is-compact .story-index-content a,#story-index.is-compact .story-index-content .is-current{color: #FFFFFF;}#tie-body .mag-box-title h3 a,#tie-body .block-more-button{color: #1b98e0;}#tie-body .mag-box-title h3 a:hover,#tie-body .block-more-button:hover{color: #0066ae;}#tie-body .mag-box-title{color: #1b98e0;}#tie-body .mag-box-title:before{border-top-color: #1b98e0;}#tie-body .mag-box-title:after,#tie-body #footer .widget-title:after{background-color: #1b98e0;}#top-nav,#top-nav .sub-menu,#top-nav .comp-sub-menu,#top-nav .ticker-content,#top-nav .ticker-swipe,.top-nav-boxed #top-nav .topbar-wrapper,.search-in-top-nav.autocomplete-suggestions,#top-nav .guest-btn{background-color : #f5f5f5;}#top-nav *,.search-in-top-nav.autocomplete-suggestions{border-color: rgba( 0,0,0,0.08);}#top-nav .icon-basecloud-bg:after{color: #f5f5f5;}#top-nav a,#top-nav input,#top-nav #search-submit,#top-nav .fa-spinner,#top-nav .dropdown-social-icons li a span,#top-nav .components > li .social-link:not(:hover) span,.search-in-top-nav.autocomplete-suggestions a{color: #444444;}#top-nav .menu-item-has-children > a:before{border-top-color: #444444;}#top-nav li .menu-item-has-children > a:before{border-top-color: transparent;border-left-color: #444444;}.rtl #top-nav .menu li .menu-item-has-children > a:before{border-left-color: transparent;border-right-color: #444444;}#top-nav input::-moz-placeholder{color: #444444;}#top-nav input:-moz-placeholder{color: #444444;}#top-nav input:-ms-input-placeholder{color: #444444;}#top-nav input::-webkit-input-placeholder{color: #444444;}#top-nav .comp-sub-menu .button:hover,#top-nav .checkout-button,.search-in-top-nav.autocomplete-suggestions .button{background-color: #1b98e0;}#top-nav a:hover,#top-nav .menu li:hover > a,#top-nav .menu > .tie-current-menu > a,#top-nav .components > li:hover > a,#top-nav .components #search-submit:hover,.search-in-top-nav.autocomplete-suggestions .post-title a:hover{color: #1b98e0;}#top-nav .comp-sub-menu .button:hover{border-color: #1b98e0;}#top-nav .tie-current-menu > a:before,#top-nav .menu .menu-item-has-children:hover > a:before{border-top-color: #1b98e0;}#top-nav .menu li .menu-item-has-children:hover > a:before{border-top-color: transparent;border-left-color: #1b98e0;}.rtl #top-nav .menu li .menu-item-has-children:hover > a:before{border-left-color: transparent;border-right-color: #1b98e0;}#top-nav .comp-sub-menu .button:hover,#top-nav .comp-sub-menu .checkout-button,.search-in-top-nav.autocomplete-suggestions .button{color: #FFFFFF;}#top-nav .comp-sub-menu .checkout-button:hover,.search-in-top-nav.autocomplete-suggestions .button:hover{background-color: #007ac2;}#top-nav,#top-nav .comp-sub-menu,#top-nav .tie-weather-widget{color: #777777;}.search-in-top-nav.autocomplete-suggestions .post-meta,.search-in-top-nav.autocomplete-suggestions .post-meta a:not(:hover){color: rgba( 119,119,119,0.7 );}#footer{background-color: #444444;}#site-info{background-color: #ffffff;}#footer .posts-list-counter .posts-list-items li:before{border-color: #444444;}#footer .timeline-widget a .date:before{border-color: rgba(68,68,68,0.8);}#footer .footer-boxed-widget-area,#footer textarea,#footer input:not([type=submit]),#footer select,#footer code,#footer kbd,#footer pre,#footer samp,#footer .show-more-button,#footer .slider-links .tie-slider-nav span,#footer #wp-calendar,#footer #wp-calendar tbody td,#footer #wp-calendar thead th,#footer .widget.buddypress .item-options a{border-color: rgba(255,255,255,0.1);}#footer .social-statistics-widget .white-bg li.social-icons-item a,#footer .widget_tag_cloud .tagcloud a,#footer .latest-tweets-widget .slider-links .tie-slider-nav span,#footer .widget_layered_nav_filters a{border-color: rgba(255,255,255,0.1);}#footer .social-statistics-widget .white-bg li:before{background: rgba(255,255,255,0.1);}.site-footer #wp-calendar tbody td{background: rgba(255,255,255,0.02);}#footer .white-bg .social-icons-item a span.followers span,#footer .circle-three-cols .social-icons-item a .followers-num,#footer .circle-three-cols .social-icons-item a .followers-name{color: rgba(255,255,255,0.8);}#footer .timeline-widget ul:before,#footer .timeline-widget a:not(:hover) .date:before{background-color: #262626;}#footer .widget-title,#footer .widget-title a:not(:hover){color: #dddddd;}#footer,#footer textarea,#footer input:not([type='submit']),#footer select,#footer #wp-calendar tbody,#footer .tie-slider-nav li span:not(:hover),#footer .widget_categories li a:before,#footer .widget_product_categories li a:before,#footer .widget_layered_nav li a:before,#footer .widget_archive li a:before,#footer .widget_nav_menu li a:before,#footer .widget_meta li a:before,#footer .widget_pages li a:before,#footer .widget_recent_entries li a:before,#footer .widget_display_forums li a:before,#footer .widget_display_views li a:before,#footer .widget_rss li a:before,#footer .widget_display_stats dt:before,#footer .subscribe-widget-content h3,#footer .about-author .social-icons a:not(:hover) span{color: #aaaaaa;}#footer post-widget-body .meta-item,#footer .post-meta,#footer .stream-title,#footer.dark-skin .timeline-widget .date,#footer .wp-caption .wp-caption-text,#footer .rss-date{color: rgba(170,170,170,0.7);}#footer input::-moz-placeholder{color: #aaaaaa;}#footer input:-moz-placeholder{color: #aaaaaa;}#footer input:-ms-input-placeholder{color: #aaaaaa;}#footer input::-webkit-input-placeholder{color: #aaaaaa;}#site-info,#site-info ul.social-icons li a:not(:hover) span{color: #999999;}#footer .site-info a:not(:hover){color: #666666;}.tie-cat-2,.tie-cat-item-2 > span{background-color:#e67e22 !important;color:#FFFFFF !important;}.tie-cat-2:after{border-top-color:#e67e22 !important;}.tie-cat-2:hover{background-color:#c86004 !important;}.tie-cat-2:hover:after{border-top-color:#c86004 !important;}.tie-cat-10,.tie-cat-item-10 > span{background-color:#0a0000 !important;color:#FFFFFF !important;}.tie-cat-10:after{border-top-color:#0a0000 !important;}.tie-cat-10:hover{background-color:#000000 !important;}.tie-cat-10:hover:after{border-top-color:#000000 !important;}.tie-cat-13,.tie-cat-item-13 > span{background-color:#9b59b6 !important;color:#FFFFFF !important;}.tie-cat-13:after{border-top-color:#9b59b6 !important;}.tie-cat-13:hover{background-color:#7d3b98 !important;}.tie-cat-13:hover:after{border-top-color:#7d3b98 !important;}.tie-cat-15,.tie-cat-item-15 > span{background-color:#34495e !important;color:#FFFFFF !important;}.tie-cat-15:after{border-top-color:#34495e !important;}.tie-cat-15:hover{background-color:#162b40 !important;}.tie-cat-15:hover:after{border-top-color:#162b40 !important;}.tie-cat-18,.tie-cat-item-18 > span{background-color:#795548 !important;color:#FFFFFF !important;}.tie-cat-18:after{border-top-color:#795548 !important;}.tie-cat-18:hover{background-color:#5b372a !important;}.tie-cat-18:hover:after{border-top-color:#5b372a !important;}.tie-cat-19,.tie-cat-item-19 > span{background-color:#4CAF50 !important;color:#FFFFFF !important;}.tie-cat-19:after{border-top-color:#4CAF50 !important;}.tie-cat-19:hover{background-color:#2e9132 !important;}.tie-cat-19:hover:after{border-top-color:#2e9132 !important;}.tie-cat-56,.tie-cat-item-56 > span{background-color:#000000 !important;color:#FFFFFF !important;}.tie-cat-56:after{border-top-color:#000000 !important;}.tie-cat-56:hover{background-color:#000000 !important;}.tie-cat-56:hover:after{border-top-color:#000000 !important;}.tie-cat-53,.tie-cat-item-53 > span{background-color:#0a0a0a !important;color:#FFFFFF !important;}.tie-cat-53:after{border-top-color:#0a0a0a !important;}.tie-cat-53:hover{background-color:#000000 !important;}.tie-cat-53:hover:after{border-top-color:#000000 !important;}.tie-cat-104,.tie-cat-item-104 > span{background-color:#000000 !important;color:#FFFFFF !important;}.tie-cat-104:after{border-top-color:#000000 !important;}.tie-cat-104:hover{background-color:#000000 !important;}.tie-cat-104:hover:after{border-top-color:#000000 !important;}.tie-cat-52,.tie-cat-item-52 > span{background-color:#0a0a0a !important;color:#FFFFFF !important;}.tie-cat-52:after{border-top-color:#0a0a0a !important;}.tie-cat-52:hover{background-color:#000000 !important;}.tie-cat-52:hover:after{border-top-color:#000000 !important;}.tie-cat-54,.tie-cat-item-54 > span{background-color:#000000 !important;color:#FFFFFF !important;}.tie-cat-54:after{border-top-color:#000000 !important;}.tie-cat-54:hover{background-color:#000000 !important;}.tie-cat-54:hover:after{border-top-color:#000000 !important;}.tie-cat-94,.tie-cat-item-94 > span{background-color:#000000 !important;color:#FFFFFF !important;}.tie-cat-94:after{border-top-color:#000000 !important;}.tie-cat-94:hover{background-color:#000000 !important;}.tie-cat-94:hover:after{border-top-color:#000000 !important;}@media (min-width: 1200px){.container{width: auto;}}.boxed-layout #tie-wrapper,.boxed-layout .fixed-nav{max-width: 1530px;}@media (min-width: 1500px){.container,.wide-next-prev-slider-wrapper .slider-main-container{max-width: 1500px;}}
+/*# sourceURL=otw-shortcode-inline-css */
+</style>
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://portalcustomer.com.br/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/plugins/colorbox-panels/assets/js/masonry.pkgd.min.js?ver=df363cc392f6636b9e611c3967480512" id="wpsm_colorbox_masnory-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/plugins/colorbox-panels/assets/js/jcolumn.min.js?ver=df363cc392f6636b9e611c3967480512" id="wpsm_colorbox_height-js" defer></script>
+
+<!-- Snippet da etiqueta do Google (gtag.js) adicionado pelo Site Kit -->
+<!-- Snippet do Google Análises adicionado pelo Site Kit -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=GT-M63K5CG" id="google_gtagjs-js" async></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="google_gtagjs-js-after">
+/* <![CDATA[ */
+window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}
+gtag("set","linker",{"domains":["portalcustomer.com.br"]});
+gtag("js", new Date());
+gtag("set", "developer_id.dZTNiMT", true);
+gtag("config", "GT-M63K5CG");
+//# sourceURL=google_gtagjs-js-after
+/* ]]> */
+</script>
+<link rel="https://api.w.org/" href="https://portalcustomer.com.br/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://portalcustomer.com.br/wp-json/wp/v2/posts/12276" />
+		<!-- GA Google Analytics @ https://m0n.co/ga -->
+		<script type="rocketlazyloadscript">
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-178479485-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+
+	<meta name="generator" content="Site Kit by Google 1.168.0" /><meta name="generator" content="Performance Lab 2.6.0; modules: images/dominant-color-images, images/webp-support, images/webp-uploads">
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+/* <![CDATA[ */
+var taqyeem = {"ajaxurl":"https://portalcustomer.com.br/wp-admin/admin-ajax.php" , "your_rating":"Your Rating:"};
+/* ]]> */
+</script>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="theme-color" content="#1b98e0" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Meta-etiquetas do Google AdSense adicionado pelo Site Kit -->
+<meta name="google-adsense-platform-account" content="ca-host-pub-2644536267352236">
+<meta name="google-adsense-platform-domain" content="sitekit.withgoogle.com">
+<!-- Fim das meta-etiquetas do Google AdSense adicionado pelo Site Kit -->
+<meta name="generator" content="Elementor 3.15.3; features: e_dom_optimization, e_optimized_assets_loading, e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+
+<!-- Snippet do Gerenciador de Tags do Google adicionado pelo Site Kit -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+/* <![CDATA[ */
+
+			( function( w, d, s, l, i ) {
+				w[l] = w[l] || [];
+				w[l].push( {'gtm.start': new Date().getTime(), event: 'gtm.js'} );
+				var f = d.getElementsByTagName( s )[0],
+					j = d.createElement( s ), dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore( j, f );
+			} )( window, document, 'script', 'dataLayer', 'GTM-M66RSBX' );
+			
+/* ]]> */
+</script>
+
+<!-- Fim do código do Gerenciador de Etiquetas do Google adicionado pelo Site Kit -->
+<script type="rocketlazyloadscript" data-ad-client="ca-pub-3321662451754319" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><link rel="icon" href="https://portalcustomer.com.br/wp-content/uploads/2022/10/cropped-Design-sem-nome-35-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://portalcustomer.com.br/wp-content/uploads/2022/10/cropped-Design-sem-nome-35-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://portalcustomer.com.br/wp-content/uploads/2022/10/cropped-Design-sem-nome-35-180x180.png" />
+<meta name="msapplication-TileImage" content="https://portalcustomer.com.br/wp-content/uploads/2022/10/cropped-Design-sem-nome-35-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			#tie-block_555  {margin-top:-50px!important;}
+
+#tie-block_3284 {margin-bottom:-20px!important;}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+
+<body data-rsssl=1 id="tie-body" class="wp-singular post-template-default single single-post postid-12276 single-format-standard wp-theme-jannah tie-no-js wrapper-has-shadow block-head-1 magazine2 is-thumb-overlay-disabled is-desktop is-header-layout-3 has-header-ad sidebar-right has-sidebar post-layout-1 narrow-title-narrow-media is-standard-format has-mobile-share post-has-toggle hide_share_post_top hide_share_post_bottom e-lazyload elementor-default elementor-kit-2728 aa-prefix-porta-">
+
+
+		<!-- Snippet do Gerenciador de Etiqueta do Google (noscript) adicionado pelo Site Kit -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M66RSBX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- Fim do código do Gerenciador de Etiquetas do Google (noscript) adicionado pelo Site Kit -->
+		
+
+<div class="background-overlay">
+
+	<div id="tie-container" class="site tie-container">
+
+		
+		<div id="tie-wrapper">
+
+			
+<header id="theme-header" class="theme-header header-layout-3 main-nav-dark main-nav-below main-nav-boxed top-nav-active top-nav-light top-nav-above has-shadow mobile-header-centered">
+	
+<nav id="top-nav" class="has-date-breaking-components top-nav header-nav has-breaking-news" aria-label="Navegação Secundária">
+	<div class="container">
+		<div class="topbar-wrapper">
+
+			
+					<div class="topbar-today-date fa-before">
+						sábado, janeiro 3 2026					</div>
+					
+			<div class="tie-alignleft">
+				
+<div class="breaking controls-is-active">
+
+	<span class="breaking-title">
+		<span class="fa fa-bolt" aria-hidden="true"></span>
+		<span class="breaking-title-text">Notícias de Última Hora</span>
+	</span>
+
+	<ul id="breaking-news-in-header" class="breaking-news" data-type="reveal" data-arrows="true">
+
+		
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/a-nova-era-do-atendimento-ao-cliente-no-brasil-empatia-e-cultura-como-diferenciais/">A nova era do atendimento ao cliente no Brasil: empatia e cultura como diferenciais</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/alem-do-churn-o-customer-success-como-o-novo-pivot-da-economia-de-recorrencia/">Além do Churn: O Customer Success como o Novo Pivot da Economia de Recorrência</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/como-a-inteligencia-artificial-esta-reinventando-a-experiencia-do-cliente-no-brasil/">Como a inteligência artificial está reinventando a experiência do cliente no Brasil</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/o-fim-do-checklist-por-que-a-qualidade-agora-e-a-alma-do-cx/">O Fim do Checklist: Por que a Qualidade agora é a alma do CX?</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/o-que-e-um-programa-de-embaixadores-de-cliente-e-como-aplicar-em-sua-empresa/">O que é um programa de embaixadores de cliente e como aplicar em sua empresa?</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/fernando-moulin-assume-como-ceo-da-polaris-group/">Fernando Moulin assume como CEO da Polaris Group</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/115-frases-reais-para-transformar-o-atendimento-ao-cliente/">115 frases reais para transformar o atendimento ao cliente</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/livecast-cx-2026-tendencias-e-estrategias-para-uma-nova-era-da-experiencia-do-cliente/">LiveCast CX 2026: Tendências e Estratégias para uma Nova Era da Experiência do Cliente</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/vendas-no-b2b2c-como-integrar-gestao-e-experiencia-do-cliente-em-toda-a-cadeia-de-valor/">Vendas no B2B2C: como integrar gestão e experiência do cliente em toda a cadeia de valor</a>
+							</li>
+
+							
+							<li class="news-item">
+								<a href="https://portalcustomer.com.br/mais-que-tendencia-como-transformar-a-experiencia-do-cliente-em-atitude/">Mais que tendência: como transformar a experiência do cliente em atitude diária dentro das empresas</a>
+							</li>
+
+							
+	</ul>
+</div><!-- #breaking /-->
+			</div><!-- .tie-alignleft /-->
+
+			<div class="tie-alignright">
+				<ul class="components">	<li class="side-aside-nav-icon menu-item custom-menu-link">
+		<a href="#">
+			<span class="fa fa-navicon" aria-hidden="true"></span>
+			<span class="screen-reader-text">Barra Lateral</span>
+		</a>
+	</li>
+		<li class="random-post-icon menu-item custom-menu-link">
+		<a href="/a-cultura-organizacional-e-o-coracao-da-empresa/?random-post=1" class="random-post" title="Artigo aleatório" rel="nofollow">
+			<span class="fa fa-random" aria-hidden="true"></span>
+			<span class="screen-reader-text">Artigo aleatório</span>
+		</a>
+	</li>
+	
+	
+		<li class="popup-login-icon menu-item custom-menu-link">
+			<a href="#" class="lgoin-btn tie-popup-trigger">
+				<span class="fa fa-lock" aria-hidden="true"></span>
+				<span class="screen-reader-text">Entrar</span>
+			</a>
+		</li>
+
+			 <li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.instagram.com/portalcustomer/"><span class="fa fa-instagram"></span><span class="screen-reader-text">Instagram</span></a></li><li class="social-icons-item"><a class="social-link linkedin-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.linkedin.com/company/portal-customer/about/?viewAsMember=true"><span class="fa fa-linkedin"></span><span class="screen-reader-text">Linkedin</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/PortalCustomer1"><span class="fa fa-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://web.facebook.com/Portal-Customer-100189255175969"><span class="fa fa-facebook"></span><span class="screen-reader-text">Facebook</span></a></li> </ul><!-- Components -->			</div><!-- .tie-alignright /-->
+
+		</div><!-- .topbar-wrapper /-->
+	</div><!-- .container /-->
+</nav><!-- #top-nav /-->
+
+<div class="container header-container">
+	<div class="tie-row logo-row">
+
+		
+		<div class="logo-wrapper">
+			<div class="tie-col-md-4 logo-container">
+				
+		<a href="#" id="mobile-menu-icon">
+			<span class="nav-icon"></span>
+
+				<span class="menu-text">Menu</span>		</a>
+		
+		<div id="logo" class="image-logo" >
+
+			
+			<a title="Portal Customer " href="https://portalcustomer.com.br/">
+				
+					<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%20550'%3E%3C/svg%3E" alt="Portal Customer " class="logo_normal" width="1920" height="550" style="max-height:550px; width: auto;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Portal-Customer.png"><noscript><img src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Portal-Customer.png" alt="Portal Customer " class="logo_normal" width="1920" height="550" style="max-height:550px; width: auto;"></noscript>
+					<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%20550'%3E%3C/svg%3E" alt="Portal Customer " class="logo_2x" width="1920" height="550" style="max-height:550px; width: auto;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Portal-Customer-1.png"><noscript><img src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Portal-Customer-1.png" alt="Portal Customer " class="logo_2x" width="1920" height="550" style="max-height:550px; width: auto;"></noscript>
+							</a>
+
+			
+		</div><!-- #logo /-->
+
+					</div><!-- .tie-col /-->
+		</div><!-- .logo-wrapper /-->
+
+		<div class="tie-col-md-8 stream-item stream-item-top-wrapper"><div class="stream-item-top"><a title="Livro Euriale Voidela CX &amp; CS " href="https://loja.literarebooks.com.br/negocios/cx-amp-cs-criando-experiencias-que-geram-valor-da-estrategia-a-acao?parceiro=11520 " rel="nofollow noopener" target="_blank" class="stream-title">Livro Euriale Voidela CX & CS </a>
+					<a href="https://loja.literarebooks.com.br/negocios/cx-amp-cs-criando-experiencias-que-geram-valor-da-estrategia-a-acao?parceiro=11520%20" title="Livro Euriale Voidela CX&amp;CS " target="_blank" rel="nofollow noopener">
+						<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20728%2090'%3E%3C/svg%3E" alt="Livro Euriale Voidela CX&amp;CS " width="728" height="90" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Customer_Livro_CXCS_EurialeVoidela-jpg.webp" /><noscript><img src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Customer_Livro_CXCS_EurialeVoidela-jpg.webp" alt="Livro Euriale Voidela CX&amp;CS " width="728" height="90" /></noscript>
+					</a>
+				</div></div><!-- .tie-col /-->
+	</div><!-- .tie-row /-->
+</div><!-- .container /-->
+
+<div class="main-nav-wrapper">
+	<nav id="main-nav"  class="main-nav header-nav"  aria-label="Navegação Primária">
+		<div class="container">
+
+			<div class="main-menu-wrapper">
+
+				
+				<div id="menu-components-wrap">
+
+					
+					<div class="main-menu main-menu-wrap tie-alignleft">
+						<div id="main-nav-menu" class="main-menu header-menu"><ul id="menu-tielabs-main-menu" class="menu" role="menubar"><li id="menu-item-19572" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19572"><a href="https://portalcustomer.com.br/category/customer/">Customer</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-19643" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19643"><a href="https://portalcustomer.com.br/category/customer/customerexperience/">Customer Experience</a></li>
+	<li id="menu-item-19644" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19644"><a href="https://portalcustomer.com.br/category/customer/atendimento-ao-cliente/">Atendimento ao Cliente</a></li>
+	<li id="menu-item-19655" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19655"><a href="https://portalcustomer.com.br/category/customer/call-center/">Call Center</a></li>
+	<li id="menu-item-19645" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19645"><a href="https://portalcustomer.com.br/category/customer/customer-success/">Customer Success</a></li>
+	<li id="menu-item-19672" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19672"><a href="https://portalcustomer.com.br/category/customer/customer-centric/">Customer Centric</a></li>
+	<li id="menu-item-19646" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19646"><a href="https://portalcustomer.com.br/category/customer/comportamento-do-consumidor/">Comportamento do Consumidor</a></li>
+	<li id="menu-item-19669" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19669"><a href="https://portalcustomer.com.br/category/customer/jornada-cliente/">Jornada do Cliente</a></li>
+	<li id="menu-item-19685" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19685"><a href="https://portalcustomer.com.br/category/customer/jornada-do-paciente/">Jornada do Paciente</a></li>
+	<li id="menu-item-19663" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19663"><a href="https://portalcustomer.com.br/category/customer/user-experience/">User Experience</a></li>
+</ul>
+</li>
+<li id="menu-item-19571" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor menu-item-has-children menu-item-19571"><a href="https://portalcustomer.com.br/category/colaborador/">Colaborador</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-19654" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-19654"><a href="https://portalcustomer.com.br/category/colaborador/jornada-e-colaborador/">Jornada e Colaborador</a></li>
+	<li id="menu-item-19671" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19671"><a href="https://portalcustomer.com.br/category/colaborador/experiencia-do-colaborador/">Experiência do Colaborador</a></li>
+</ul>
+</li>
+<li id="menu-item-19575" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19575"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/">Gestão &amp; Liderança</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-19668" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19668"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/empreendedorismo/">Empreendedorismo</a></li>
+	<li id="menu-item-19651" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19651"><a href="https://portalcustomer.com.br/category/colaborador/gestao-de-gente/">Gestão de Gente</a></li>
+	<li id="menu-item-19689" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19689"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/lgpd/">LGPD- Lei Geral de Proteção de Dados</a></li>
+	<li id="menu-item-19658" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19658"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/gestao-estrategica/">Gestão Estratégica</a></li>
+	<li id="menu-item-19662" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19662"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/lideranca/">Liderança</a></li>
+	<li id="menu-item-19664" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19664"><a href="https://portalcustomer.com.br/category/colaborador/oportunidades/">Oportunidades</a></li>
+	<li id="menu-item-19673" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19673"><a href="https://portalcustomer.com.br/category/colaborador/modelos-de-trabalho/">Modelos de Trabalho</a></li>
+	<li id="menu-item-19679" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19679"><a href="https://portalcustomer.com.br/category/recursos-humanos/">Recursos Humanos</a></li>
+	<li id="menu-item-19680" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19680"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/gestao-remota/">Gestão Remota</a></li>
+	<li id="menu-item-19674" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19674"><a href="https://portalcustomer.com.br/category/colaborador/carreira-profissional/">Carreira Profissional</a></li>
+	<li id="menu-item-19677" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19677"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/governanca-empresarial/">Governança Empresarial</a></li>
+	<li id="menu-item-19675" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19675"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/esg/">ESG</a></li>
+	<li id="menu-item-19666" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19666"><a href="https://portalcustomer.com.br/category/colaborador/cursos-e-capacitacao/">Cursos e Capacitação</a></li>
+</ul>
+</li>
+<li id="menu-item-19569" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19569"><a href="https://portalcustomer.com.br/category/qualidade/">Qualidade</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-19647" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19647"><a href="https://portalcustomer.com.br/category/qualidade/satisfacao-e-fidelidade/">Satisfação &amp; Fidelidade</a></li>
+	<li id="menu-item-19683" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19683"><a href="https://portalcustomer.com.br/category/qualidade/monitoria-de-qualidade/">Monitoria de Qualidade</a></li>
+</ul>
+</li>
+<li id="menu-item-19570" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19570"><a href="https://portalcustomer.com.br/category/tecnologia/">TI</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-19684" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19684"><a href="https://portalcustomer.com.br/category/customer/customer-service/">Customer Service</a></li>
+	<li id="menu-item-19681" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19681"><a href="https://portalcustomer.com.br/category/colaborador/comunicacao-interna/">Comunicação Interna</a></li>
+	<li id="menu-item-19649" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19649"><a href="https://portalcustomer.com.br/category/tecnologia/inovacao/">Inovação</a></li>
+	<li id="menu-item-19650" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19650"><a href="https://portalcustomer.com.br/category/tecnologia/solucoes-e-tecnologia/">Soluções e TI</a></li>
+	<li id="menu-item-19656" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19656"><a href="https://portalcustomer.com.br/category/tecnologia/transformacao-digital/">Transformação Digital</a></li>
+	<li id="menu-item-19659" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19659"><a href="https://portalcustomer.com.br/category/tecnologia/inteligencia-artificial/">Inteligência Artificial</a></li>
+	<li id="menu-item-19661" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19661"><a href="https://portalcustomer.com.br/category/tecnologia/crm/">CRM</a></li>
+	<li id="menu-item-19665" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19665"><a href="https://portalcustomer.com.br/category/tecnologia/chatbots/">Chatbots</a></li>
+	<li id="menu-item-19667" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19667"><a href="https://portalcustomer.com.br/category/tecnologia/startup/">Startup</a></li>
+	<li id="menu-item-19676" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19676"><a href="https://portalcustomer.com.br/category/tecnologia/projeto-pmo/">Projeto PMO</a></li>
+	<li id="menu-item-19678" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19678"><a href="https://portalcustomer.com.br/category/tecnologia/telecom/">Telecom</a></li>
+	<li id="menu-item-19687" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19687"><a href="https://portalcustomer.com.br/category/tecnologia/suporte-tecnico/">Suporte Técnico</a></li>
+	<li id="menu-item-19686" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19686"><a href="https://portalcustomer.com.br/category/tecnologia/metodologias-ageis/">Metodologias Ágeis</a></li>
+</ul>
+</li>
+<li id="menu-item-19573" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19573"><a href="https://portalcustomer.com.br/category/entrevistas/">Entrevistas</a></li>
+<li id="menu-item-19576" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19576"><a href="https://portalcustomer.com.br/podcast-comite-de-clientes">Comitê de Clientes</a></li>
+<li id="menu-item-19574" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19574"><a href="https://portalcustomer.com.br/category/euriale-voidela/">Euriale Voidela</a></li>
+<li id="menu-item-19652" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19652"><a href="https://portalcustomer.com.br/category/customer/vendas/">Vendas</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-19653" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19653"><a href="https://portalcustomer.com.br/category/mkt/marketing-digital/">Marketing Digital</a></li>
+	<li id="menu-item-19657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19657"><a href="https://portalcustomer.com.br/category/customer/e-commerce-varejo-customer/">E-Commerce &amp; Varejo</a></li>
+	<li id="menu-item-19660" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19660"><a href="https://portalcustomer.com.br/category/lancamentos-e-promocoes/">Lançamentos e Promoções</a></li>
+</ul>
+</li>
+<li id="menu-item-19670" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-19670"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/legislacao/">Legislação</a>
+<ul class="sub-menu menu-sub-content">
+	<li id="menu-item-19682" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19682"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/leis-e-direitos-do-consumidor/">Leis e Direitos do Consumidor</a></li>
+	<li id="menu-item-19688" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19688"><a href="https://portalcustomer.com.br/category/gestao-e-lideranca/outras-legislacoes/">Outras Legislações</a></li>
+</ul>
+</li>
+<li id="menu-item-19728" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19728"><a href="https://portalcustomer.com.br/elementor-19690/">Classificados Customer</a></li>
+</ul></div>					</div><!-- .main-menu.tie-alignleft /-->
+
+					<ul class="components">		<li class="search-bar menu-item custom-menu-link" aria-label="Busca">
+			<form method="get" id="search" action="https://portalcustomer.com.br//">
+				<input id="search-input" type="text" name="s" title="Procurar por" placeholder="Procurar por" />
+				<button id="search-submit" type="submit">
+					<span class="fa fa-search" aria-hidden="true"></span>
+					<span class="screen-reader-text">Procurar por</span>
+				</button>
+			</form>
+		</li>
+		</ul><!-- Components -->
+				</div><!-- #menu-components-wrap /-->
+			</div><!-- .main-menu-wrapper /-->
+		</div><!-- .container /-->
+	</nav><!-- #main-nav /-->
+</div><!-- .main-nav-wrapper /-->
+
+</header>
+
+
+			<div id="content" class="site-content container">
+				<div class="tie-row main-content-row">
+		
+
+<div class="main-content tie-col-md-8 tie-col-xs-12" role="main">
+
+	
+	<article id="the-post" class="container-wrapper post-content tie-standard">
+
+		
+<header class="entry-header-outer">
+
+	
+	<div class="entry-header">
+
+		<span class="post-cat-wrap"><a class="post-cat tie-cat-48" href="https://portalcustomer.com.br/category/colaborador/jornada-e-colaborador/">Jornada e Colaborador</a></span>
+		<h1 class="post-title entry-title">A cultura organizacional é o coração da empresa</h1>
+
+		<div class="post-meta clearfix"><span class="single-author with-avatars"><span class="meta-item meta-author-wrapper">
+						<span class="meta-author-avatar">
+							<a href="https://portalcustomer.com.br/author/redacao/"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20140%20140'%3E%3C/svg%3E" width="140" height="140" alt="Redação Portal Customer" class="avatar avatar-140 wp-user-avatar wp-user-avatar-140 alignnone photo" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Design-sem-nome-150x150.png" /><noscript><img src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Design-sem-nome-150x150.png" width="140" height="140" alt="Redação Portal Customer" class="avatar avatar-140 wp-user-avatar wp-user-avatar-140 alignnone photo" /></noscript></a>
+						</span>
+					
+					<span class="meta-author"><a href="https://portalcustomer.com.br/author/redacao/" class="author-name" title="Redação Portal Customer">Redação Portal Customer</a>
+					</span>
+				
+						<a href="mailto:contato@customercentric.com.br" class="author-email-link" target="_blank" rel="nofollow noopener" title="Send an email">
+							<span class="fa fa-envelope" aria-hidden="true"></span>
+							<span class="screen-reader-text">Send an email</span>
+						</a>
+					</span></span><span class="date meta-item fa-before">29 de julho, 2022</span><div class="tie-alignright"><span class="meta-comment meta-item fa-before">0</span><span class="meta-reading-time meta-item"><span class="fa fa-bookmark" aria-hidden="true"></span> 2 minutos de leitura</span> </div></div><!-- .post-meta -->	</div><!-- .entry-header /-->
+
+	
+	
+</header><!-- .entry-header-outer /-->
+
+
+		<div class="post-footer post-footer-on-top">
+			<div class="share-links  share-centered icons-only">
+				<a href="https://www.facebook.com/sharer.php?u=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="facebook-share-btn"><span class="fa fa-facebook"></span> <span class="screen-reader-text">Facebook</span></a><a href="https://twitter.com/intent/tweet?text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa&#038;url=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="twitter-share-btn"><span class="fa fa-twitter"></span> <span class="screen-reader-text">Twitter</span></a><a href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/&#038;title=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa" rel="external noopener" target="_blank" class="linkedin-share-btn"><span class="fa fa-linkedin"></span> <span class="screen-reader-text">Linkedin</span></a><a href="https://api.whatsapp.com/send?text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa%20https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="whatsapp-share-btn"><span class="fa fa-whatsapp"></span> <span class="screen-reader-text">WhatsApp</span></a>			</div><!-- .share-links /-->
+		</div><!-- .post-footer-on-top /-->
+
+		<div  class="featured-area"><div class="featured-area-inner"><figure class="single-featured-image"><img width="780" height="470" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20780%20470'%3E%3C/svg%3E" class="attachment-jannah-image-post size-jannah-image-post wp-post-image" alt="A cultura organizacional é o coração da empresa - Fonte: Canva Pro" decoding="async" fetchpriority="high" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-15-1-780x470.png" /><noscript><img width="780" height="470" src="https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-15-1-780x470.png" class="attachment-jannah-image-post size-jannah-image-post wp-post-image" alt="A cultura organizacional é o coração da empresa - Fonte: Canva Pro" decoding="async" fetchpriority="high" /></noscript>
+						<figcaption class="single-caption-text">
+							<span class="fa fa-camera" aria-hidden="true"></span> A cultura organizacional é o coração da empresa - Fonte: Canva Pro
+						</figcaption>
+					</figure></div></div>
+		<div class="entry-content entry clearfix">
+
+			
+			
+<p>Fazendo uma analogia ao corpo humano, a cultura de uma empresa funciona como o coração. Se ele é o responsável pelo bombeamento do sangue para o restante do corpo, levando os demais órgãos a funcionar adequadamente, a cultura no cenário corporativo é o que define o modus operandi da <a href="https://portalcustomer.com.br/sua-empresa-entrega-o-que-o-seu-cliente-realmente-quer/" target="_blank" rel="noreferrer noopener">empresa</a>. E como construir uma boa cultura organizacional? Mantendo crenças e valores bem estabelecidos e coerentes com o que se pratica todos os dias, em todas as atitudes que tomamos. A área de Pessoas e Cultura tem um papel crucial nesse processo, uma vez que tem a função de nutrir esse grande organismo com pessoas que estejam alinhadas com seu propósito, além de guiar os processos, símbolos, sistemas, ferramentas e comportamentos que manterão o corpo saudável e funcionando adequadamente.</p>
+
+
+
+<p>Logo, o primeiro passo para a construção de uma cultura é explicitar o que a empresa acredita e estabelecer de forma muito transparente e simples o que espera das suas pessoas. Dessa forma, é possível solidificar os valores e as crenças, elementos que norteiam o como a organização espera atingir seus resultados.</p>
+
+
+
+<p>Trabalhando há anos na área de <a href="https://portalcustomer.com.br/a-expertise-de-vendas-aliada-a-tecnologia-aumenta-a-lucratividade-do-seu-negocio/" target="_blank" rel="noreferrer noopener">tecnologia</a>, posso afirmar que, fundamentalmente, o lado humano é a base norteadora de como uma empresa opera, de como os processos são estabelecidos. Não é à toa que as habilidades socioemocionais, como as <a href="https://portalcustomer.com.br/criativos-empreendedores-e-resilientes-as-soft-skills-do-futuro/" target="_blank" rel="noreferrer noopener">soft skills</a>, são cada vez mais requisitadas. Isso não significa que o conhecimento técnico se tornou irrelevante, mas, sim, que não é o único elemento importante para a contratação de talentos. Por exemplo, em um contexto de trabalho remoto, certas competências são inegociáveis e fazem a diferença na hora da escolha do(a) profissional e processo seletivo: responsabilidade, autonomia, proatividade, flexibilidade, boa comunicação e senso de urgência, para citar algumas competências.</p>
+
+
+
+<p>Com as expectativas definidas em relação ao comportamento e  desempenho de suas pessoas, a empresa consegue focar seus esforços no desenvolvimento e retenção daqueles que compartilham das mesmas crenças e do propósito. No entanto, essa é uma via de mão dupla. Ao mesmo tempo em que a companhia anseia por profissionais alinhados com o que acredita, ela também deve estar atenta às necessidades das diferentes pessoas que sonham (ou ainda não) somar àquela organização. Se a empresa proporciona um ambiente em que seus <a href="https://portalcustomer.com.br/roit-inova-ao-deixar-seus-colaboradores-escolherem-nomes-para-seus-cargos/" target="_blank" rel="noreferrer noopener">colaboradores</a> possam ser quem são e expressar suas ideias, com autonomia, flexibilidade e se sentindo estimulados pela liderança, provavelmente colherá frutos muito positivos, similares ao de um corpo saudável e em crescimento.</p>
+
+
+
+<p>Agindo de forma coerente, correta e transparente, a possibilidade de construir uma história de sucesso e da qual as pessoas se orgulham é apenas uma consequência. Colocando esses tópicos em prática, a empresa construirá uma cultura organizacional forte e saudável, estimulando que todos e todas que trabalham para a marca se tornem mais do que defensores dela, mas sim promotores. Independentemente do segmento de atuação, gostar de interagir com pessoas, ouvir e compreendê-las, respeitá-las e inspirá-las é o dever de toda liderança de pessoas, não é à toa que a área se chama People.</p>
+
+
+
+<p> <strong><a href="https://www.linkedin.com/in/katiuscia-teixeira-aa773b26/" target="_blank" rel="noreferrer noopener">Katiuscia Teixeira</a> é a Chief Human Resources Officer (CHRO) da Zenvia, plataforma de experiência do cliente</strong></p>
+
+			<div class="post-bottom-meta post-bottom-tags"><div class="post-bottom-meta-title"><span class="fa fa-tags" aria-hidden="true"></span> Etiquetas</div><span class="tagcloud"><a href="https://portalcustomer.com.br/tag/colaboradores/" rel="tag">Colaboradores</a> <a href="https://portalcustomer.com.br/tag/empresas/" rel="tag">Empresas</a> <a href="https://portalcustomer.com.br/tag/soft-skills/" rel="tag">Soft Skills</a> <a href="https://portalcustomer.com.br/tag/tecnologia/" rel="tag">Tecnologia</a></span></div>
+		</div><!-- .entry-content /-->
+
+		<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Article","dateCreated":"2022-07-29T08:00:00+00:00","datePublished":"2022-07-29T08:00:00+00:00","dateModified":"2022-07-27T17:05:29+00:00","headline":"A cultura organizacional \u00e9 o cora\u00e7\u00e3o da empresa","name":"A cultura organizacional \u00e9 o cora\u00e7\u00e3o da empresa","keywords":"Colaboradores,Empresas,Soft Skills,Tecnologia","url":"https:\/\/portalcustomer.com.br\/a-cultura-organizacional-e-o-coracao-da-empresa\/","description":"Fazendo uma analogia ao corpo humano, a cultura de uma empresa funciona como o cora\u00e7\u00e3o. Se ele \u00e9 o respons\u00e1vel pelo bombeamento do sangue para o restante do corpo, levando os demais \u00f3rg\u00e3os a funcionar","copyrightYear":"2022","articleSection":"Jornada e Colaborador","articleBody":"\nFazendo uma analogia ao corpo humano, a cultura de uma empresa funciona como o cora\u00e7\u00e3o. Se ele \u00e9 o respons\u00e1vel pelo bombeamento do sangue para o restante do corpo, levando os demais \u00f3rg\u00e3os a funcionar adequadamente, a cultura no cen\u00e1rio corporativo \u00e9 o que define o modus operandi da empresa. E como construir uma boa cultura organizacional? Mantendo cren\u00e7as e valores bem estabelecidos e coerentes com o que se pratica todos os dias, em todas as atitudes que tomamos. A \u00e1rea de Pessoas e Cultura tem um papel crucial nesse processo, uma vez que tem a fun\u00e7\u00e3o de nutrir esse grande organismo com pessoas que estejam alinhadas com seu prop\u00f3sito, al\u00e9m de guiar os processos, s\u00edmbolos, sistemas, ferramentas e comportamentos que manter\u00e3o o corpo saud\u00e1vel e funcionando adequadamente.\n\n\n\nLogo, o primeiro passo para a constru\u00e7\u00e3o de uma cultura \u00e9 explicitar o que a empresa acredita e estabelecer de forma muito transparente e simples o que espera das suas pessoas. Dessa forma, \u00e9 poss\u00edvel solidificar os valores e as cren\u00e7as, elementos que norteiam o como a organiza\u00e7\u00e3o espera atingir seus resultados.\n\n\n\nTrabalhando h\u00e1 anos na \u00e1rea de tecnologia, posso afirmar que, fundamentalmente, o lado humano \u00e9 a base norteadora de como uma empresa opera, de como os processos s\u00e3o estabelecidos. N\u00e3o \u00e9 \u00e0 toa que as habilidades socioemocionais, como as soft skills, s\u00e3o cada vez mais requisitadas. Isso n\u00e3o significa que o conhecimento t\u00e9cnico se tornou irrelevante, mas, sim, que n\u00e3o \u00e9 o \u00fanico elemento importante para a contrata\u00e7\u00e3o de talentos. Por exemplo, em um contexto de trabalho remoto, certas compet\u00eancias s\u00e3o inegoci\u00e1veis e fazem a diferen\u00e7a na hora da escolha do(a) profissional e processo seletivo: responsabilidade, autonomia, proatividade, flexibilidade, boa comunica\u00e7\u00e3o e senso de urg\u00eancia, para citar algumas compet\u00eancias.\n\n\n\nCom as expectativas definidas em rela\u00e7\u00e3o ao comportamento e\u00a0 desempenho de suas pessoas, a empresa consegue focar seus esfor\u00e7os no desenvolvimento e reten\u00e7\u00e3o daqueles que compartilham das mesmas cren\u00e7as e do prop\u00f3sito. No entanto, essa \u00e9 uma via de m\u00e3o dupla. Ao mesmo tempo em que a companhia anseia por profissionais alinhados com o que acredita, ela tamb\u00e9m deve estar atenta \u00e0s necessidades das diferentes pessoas que sonham (ou ainda n\u00e3o) somar \u00e0quela organiza\u00e7\u00e3o. Se a empresa proporciona um ambiente em que seus colaboradores possam ser quem s\u00e3o e expressar suas ideias, com autonomia, flexibilidade e se sentindo estimulados pela lideran\u00e7a, provavelmente colher\u00e1 frutos muito positivos, similares ao de um corpo saud\u00e1vel e em crescimento.\n\n\n\nAgindo de forma coerente, correta e transparente, a possibilidade de construir uma hist\u00f3ria de sucesso e da qual as pessoas se orgulham \u00e9 apenas uma consequ\u00eancia. Colocando esses t\u00f3picos em pr\u00e1tica, a empresa construir\u00e1 uma cultura organizacional forte e saud\u00e1vel, estimulando que todos e todas que trabalham para a marca se tornem mais do que defensores dela, mas sim promotores. Independentemente do segmento de atua\u00e7\u00e3o, gostar de interagir com pessoas, ouvir e compreend\u00ea-las, respeit\u00e1-las e inspir\u00e1-las \u00e9 o dever de toda lideran\u00e7a de pessoas, n\u00e3o \u00e9 \u00e0 toa que a \u00e1rea se chama People.\n\n\n\n\u00a0Katiuscia Teixeira \u00e9 a Chief Human Resources Officer (CHRO) da Zenvia, plataforma de experi\u00eancia do cliente\n","publisher":{"@id":"#Publisher","@type":"Organization","name":"Portal Customer","logo":{"@type":"ImageObject","url":"https:\/\/portalcustomer.com.br\/wp-content\/uploads\/2022\/10\/Portal-Customer-1.png"},"sameAs":["https:\/\/web.facebook.com\/Portal-Customer-100189255175969","https:\/\/twitter.com\/PortalCustomer1","https:\/\/www.linkedin.com\/company\/portal-customer\/about\/?viewAsMember=true","https:\/\/www.instagram.com\/portalcustomer\/"]},"sourceOrganization":{"@id":"#Publisher"},"copyrightHolder":{"@id":"#Publisher"},"mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/portalcustomer.com.br\/a-cultura-organizacional-e-o-coracao-da-empresa\/"},"author":{"@type":"Person","name":"Reda\u00e7\u00e3o Portal Customer","url":"https:\/\/portalcustomer.com.br\/author\/redacao\/"},"image":{"@type":"ImageObject","url":"https:\/\/portalcustomer.com.br\/wp-content\/uploads\/2022\/07\/Portal-15-1.png","width":1200,"height":627}}</script>
+		<div class="toggle-post-content clearfix">
+			<a id="toggle-post-button" class="button" href="#">
+				Mostrar mais <span class="fa fa-chevron-down"></span>
+			</a>
+		</div><!-- .toggle-post-content -->
+		
+		<div class="post-footer post-footer-on-bottom">
+			<div class="share-links  share-centered icons-only">
+										<div class="share-title">
+						<span class="fa fa-share-alt" aria-hidden="true"></span>
+						<span> Compartilhar</span>
+						</div>
+						<a href="https://www.facebook.com/sharer.php?u=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="facebook-share-btn"><span class="fa fa-facebook"></span> <span class="screen-reader-text">Facebook</span></a><a href="https://twitter.com/intent/tweet?text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa&#038;url=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="twitter-share-btn"><span class="fa fa-twitter"></span> <span class="screen-reader-text">Twitter</span></a><a href="https://www.linkedin.com/shareArticle?mini=true&#038;url=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/&#038;title=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa" rel="external noopener" target="_blank" class="linkedin-share-btn"><span class="fa fa-linkedin"></span> <span class="screen-reader-text">Linkedin</span></a><a href="https://api.whatsapp.com/send?text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa%20https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="whatsapp-share-btn"><span class="fa fa-whatsapp"></span> <span class="screen-reader-text">WhatsApp</span></a><a href="mailto:?subject=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa&#038;body=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="email-share-btn"><span class="fa fa-envelope"></span> <span class="screen-reader-text">Compartilhar via e-mail</span></a><a href="#" rel="external noopener" target="_blank" class="print-share-btn"><span class="fa fa-print"></span> <span class="screen-reader-text">Imprimir</span></a>			</div><!-- .share-links /-->
+		</div><!-- .post-footer-on-top /-->
+
+		
+	</article><!-- #the-post /-->
+
+	<div class="stream-item stream-item-below-post"><a title="Novo Canal de Conteúdos | Chat WhatsApp Portal Customer" href="https://chat.whatsapp.com/EFP6EGLsxsy1834wTYGtwj" rel="nofollow noopener" target="_blank" class="stream-title">Novo Canal de Conteúdos | Chat WhatsApp Portal Customer</a>
+					<a href="https://chat.whatsapp.com/EFP6EGLsxsy1834wTYGtwj" title="Acesso Novo Canal de Conteúdos CHAT WhatsApp - Portal Customer" target="_blank" >
+						<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20728%2090'%3E%3C/svg%3E" alt="Acesso Novo Canal de Conteúdos CHAT WhatsApp - Portal Customer" width="728" height="90" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2023/06/Tarja_NovoCanalConteudos.jpeg" /><noscript><img src="https://portalcustomer.com.br/wp-content/uploads/2023/06/Tarja_NovoCanalConteudos.jpeg" alt="Acesso Novo Canal de Conteúdos CHAT WhatsApp - Portal Customer" width="728" height="90" /></noscript>
+					</a>
+				</div>
+	<div class="post-components">
+
+		
+		<div class="about-author container-wrapper about-author-2">
+
+								<div class="author-avatar">
+						<a href="https://portalcustomer.com.br/author/redacao/">
+							<img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20180%20180'%3E%3C/svg%3E" width="180" height="180" alt="Redação Portal Customer" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Design-sem-nome-300x300.png" /><noscript><img src="https://portalcustomer.com.br/wp-content/uploads/2022/10/Design-sem-nome-300x300.png" width="180" height="180" alt="Redação Portal Customer" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo" /></noscript>						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+				<h3 class="author-name"><a href="https://portalcustomer.com.br/author/redacao/">Redação Portal Customer</a></h3>
+
+				<div class="author-bio">
+					contato@portalcustomer.com.br				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="https://portalcustomer.com.br" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="fa fa-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							
+								<li class="social-icons-item">
+									<a href="https://www.facebook.com/Portal-Customer-100189255175969" rel="external noopener nofollow" target="_blank" class="social-link facebook-social-icon">
+										<span class="fa fa-facebook" aria-hidden="true"></span>
+										<span class="screen-reader-text">Facebook</span>
+									</a>
+								</li>
+							
+								<li class="social-icons-item">
+									<a href="https://www.linkedin.com/company/portal-customer/about/?viewAsMember=true" rel="external noopener nofollow" target="_blank" class="social-link linkedin-social-icon">
+										<span class="fa fa-linkedin" aria-hidden="true"></span>
+										<span class="screen-reader-text">Linkedin</span>
+									</a>
+								</li>
+							
+								<li class="social-icons-item">
+									<a href="https://www.instagram.com/portalcustomer/" rel="external noopener nofollow" target="_blank" class="social-link instagram-social-icon">
+										<span class="fa fa-instagram" aria-hidden="true"></span>
+										<span class="screen-reader-text">Instagram</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		<div class="prev-next-post-nav container-wrapper media-overlay">
+			<div class="tie-col-xs-6 prev-post">
+				<a data-bg="https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-14-1-390x220.png" href="https://portalcustomer.com.br/como-conquistar-os-cliente-e-ter-a-agenda-lotada-todos-os-meses/" style="" class="post-thumb rocket-lazyload" rel="prev">
+					<div class="post-thumb-overlay-wrap">
+						<div class="post-thumb-overlay">
+							<span class="icon"></span>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://portalcustomer.com.br/como-conquistar-os-cliente-e-ter-a-agenda-lotada-todos-os-meses/" rel="prev">
+					<h3 class="post-title">Como conquistar os cliente e ter a agenda lotada todos os meses?</h3>
+				</a>
+			</div>
+
+			
+			<div class="tie-col-xs-6 next-post">
+				<a data-bg="https://portalcustomer.com.br/wp-content/uploads/2022/07/Portal-16-1-390x220.png" href="https://portalcustomer.com.br/empresas-planejam-aumentar-os-investimentos-em-cx-em-ate-50/" style="" class="post-thumb rocket-lazyload" rel="next">
+					<div class="post-thumb-overlay-wrap">
+						<div class="post-thumb-overlay">
+							<span class="icon"></span>
+						</div>
+					</div>
+				</a>
+
+				<a href="https://portalcustomer.com.br/empresas-planejam-aumentar-os-investimentos-em-cx-em-ate-50/" rel="next">
+					<h3 class="post-title">Empresas planejam aumentar os investimentos em CX em até 50%</h3>
+				</a>
+			</div>
+
+			</div><!-- .prev-next-post-nav /-->
+	
+
+				<div id="related-posts" class="container-wrapper has-extra-post">
+
+					<div class="mag-box-title the-global-title">
+						<h3>Artigos relacionados</h3>
+					</div>
+
+					<div class="related-posts-list">
+
+					
+							<div class="related-item tie-standard">
+
+								
+			<a aria-label="Como o mercado de trabalho pode se adequar ao letramento digital" href="https://portalcustomer.com.br/como-o-mercado-de-trabalho-pode-se-adequar-ao-letramento-digital/" class="post-thumb"><img width="390" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20390%20220'%3E%3C/svg%3E" class="attachment-jannah-image-large size-jannah-image-large has-transparency wp-post-image" alt="Photo of Como o mercado de trabalho pode se adequar ao letramento digital" decoding="async" data-has-transparency="true" data-dominant-color="837c7c" style="--dominant-color: #837c7c;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2024/12/Euriale-Voidela-97-390x220.png" /><noscript><img width="390" height="220" src="https://portalcustomer.com.br/wp-content/uploads/2024/12/Euriale-Voidela-97-390x220.png" class="attachment-jannah-image-large size-jannah-image-large has-transparency wp-post-image" alt="Photo of Como o mercado de trabalho pode se adequar ao letramento digital" decoding="async" data-has-transparency="true" data-dominant-color="837c7c" style="--dominant-color: #837c7c;" /></noscript></a>
+								<h3 class="post-title"><a href="https://portalcustomer.com.br/como-o-mercado-de-trabalho-pode-se-adequar-ao-letramento-digital/">Como o mercado de trabalho pode se adequar ao letramento digital</a></h3>
+
+								<div class="post-meta clearfix"><span class="date meta-item fa-before">25 de fevereiro, 2025</span></div><!-- .post-meta -->							</div><!-- .related-item /-->
+
+						
+							<div class="related-item tie-standard">
+
+								
+			<a aria-label="Eu odeio meu trabalho: uma epidemia silenciosa" href="https://portalcustomer.com.br/eu-odeio-meu-trabalho-uma-epidemia-silenciosa/" class="post-thumb"><img width="390" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20390%20220'%3E%3C/svg%3E" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of Eu odeio meu trabalho: uma epidemia silenciosa" decoding="async" data-has-transparency="false" data-dominant-color="69676f" style="--dominant-color: #69676f;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Euriale-Voidela-48-390x220.png" /><noscript><img width="390" height="220" src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Euriale-Voidela-48-390x220.png" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of Eu odeio meu trabalho: uma epidemia silenciosa" decoding="async" data-has-transparency="false" data-dominant-color="69676f" style="--dominant-color: #69676f;" /></noscript></a>
+								<h3 class="post-title"><a href="https://portalcustomer.com.br/eu-odeio-meu-trabalho-uma-epidemia-silenciosa/">Eu odeio meu trabalho: uma epidemia silenciosa</a></h3>
+
+								<div class="post-meta clearfix"><span class="date meta-item fa-before">28 de novembro, 2024</span></div><!-- .post-meta -->							</div><!-- .related-item /-->
+
+						
+							<div class="related-item tie-standard">
+
+								
+			<a aria-label="Colaboradores desmotivados não entregam bons resultados" href="https://portalcustomer.com.br/colaboradores-desmotivados-nao-entregam-bons-resultados/" class="post-thumb"><img width="390" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20390%20220'%3E%3C/svg%3E" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of Colaboradores desmotivados não entregam bons resultados" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-390x220.webp 390w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-300x169.webp 300w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-1024x576.webp 1024w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-768x432.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-1536x864.webp 1536w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-jpg.webp 1920w" data-lazy-sizes="(max-width: 390px) 100vw, 390px" data-has-transparency="false" data-dominant-color="737667" style="--dominant-color: #737667;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-390x220.webp" /><noscript><img width="390" height="220" src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-390x220.webp" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of Colaboradores desmotivados não entregam bons resultados" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-390x220.webp 390w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-300x169.webp 300w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-1024x576.webp 1024w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-768x432.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-1536x864.webp 1536w, https://portalcustomer.com.br/wp-content/uploads/2024/11/Scene-5-2-jpg.webp 1920w" sizes="(max-width: 390px) 100vw, 390px" data-has-transparency="false" data-dominant-color="737667" style="--dominant-color: #737667;" /></noscript></a>
+								<h3 class="post-title"><a href="https://portalcustomer.com.br/colaboradores-desmotivados-nao-entregam-bons-resultados/">Colaboradores desmotivados não entregam bons resultados</a></h3>
+
+								<div class="post-meta clearfix"><span class="date meta-item fa-before">12 de novembro, 2024</span></div><!-- .post-meta -->							</div><!-- .related-item /-->
+
+						
+							<div class="related-item tie-standard">
+
+								
+			<a aria-label="A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas" href="https://portalcustomer.com.br/a-importancia-da-jornada-do-colaborador-e-seu-impacto-nos-resultados-das-empresas/" class="post-thumb"><img width="390" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20390%20220'%3E%3C/svg%3E" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas" decoding="async" data-has-transparency="false" data-dominant-color="a2a2a2" style="--dominant-color: #a2a2a2;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Euriale-Voidela-26-390x220.png" /><noscript><img width="390" height="220" src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Euriale-Voidela-26-390x220.png" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas" decoding="async" data-has-transparency="false" data-dominant-color="a2a2a2" style="--dominant-color: #a2a2a2;" /></noscript></a>
+								<h3 class="post-title"><a href="https://portalcustomer.com.br/a-importancia-da-jornada-do-colaborador-e-seu-impacto-nos-resultados-das-empresas/">A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas</a></h3>
+
+								<div class="post-meta clearfix"><span class="date meta-item fa-before">5 de novembro, 2024</span></div><!-- .post-meta -->							</div><!-- .related-item /-->
+
+						
+					</div><!-- .related-posts-list /-->
+				</div><!-- #related-posts /-->
+
+				<div id="comments" class="comments-area">
+
+		
+
+		<div id="add-comment-block" class="container-wrapper">	<div id="respond" class="comment-respond">
+		<h3 id="reply-title" class="comment-reply-title the-global-title">Deixe um comentário <small><a rel="nofollow" id="cancel-comment-reply-link" href="/a-cultura-organizacional-e-o-coracao-da-empresa/#respond" style="display:none;">Cancelar resposta</a></small></h3><form action="https://portalcustomer.com.br/wp-comments-post.php" method="post" id="commentform" class="comment-form"><p class="comment-notes"><span id="email-notes">O seu endereço de e-mail não será publicado.</span> <span class="required-field-message">Campos obrigatórios são marcados com <span class="required">*</span></span></p><p class="comment-form-comment"><label for="comment">Comentário <span class="required">*</span></label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required></textarea></p><p class="comment-form-author"><label for="author">Nome <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required /></p>
+<p class="comment-form-email"><label for="email">E-mail <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required /></p>
+<p class="comment-form-url"><label for="url">Site</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url" /></p>
+<p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes" /> <label for="wp-comment-cookies-consent">Salvar meus dados neste navegador para a próxima vez que eu comentar.</label></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Publicar comentário" /> <input type='hidden' name='comment_post_ID' value='12276' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+</p></form>	</div><!-- #respond -->
+	</div><!-- #add-comment-block /-->
+	</div><!-- .comments-area -->
+
+
+	</div><!-- .post-components /-->
+
+	
+</div><!-- .main-content -->
+
+
+	<div id="check-also-box" class="container-wrapper check-also-right">
+
+		<div class="widget-title the-global-title">
+			<div class="the-subtitle">Verifique também</div>
+
+			<a href="#" id="check-also-close" class="remove">
+				<span class="screen-reader-text">Fechar</span>
+			</a>
+		</div>
+
+		<div class="widget posts-list-big-first has-first-big-post">
+			<ul class="posts-list-items">
+
+			
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas" href="https://portalcustomer.com.br/a-importancia-da-jornada-do-colaborador-e-seu-impacto-nos-resultados-das-empresas/" class="post-thumb"><span class="post-cat-wrap"><span class="post-cat tie-cat-50">Experiência do Colaborador</span></span><img width="390" height="220" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20390%20220'%3E%3C/svg%3E" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas" decoding="async" data-has-transparency="false" data-dominant-color="a2a2a2" style="--dominant-color: #a2a2a2;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Euriale-Voidela-26-390x220.png" /><noscript><img width="390" height="220" src="https://portalcustomer.com.br/wp-content/uploads/2024/11/Euriale-Voidela-26-390x220.png" class="attachment-jannah-image-large size-jannah-image-large not-transparent wp-post-image" alt="Photo of A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas" decoding="async" data-has-transparency="false" data-dominant-color="a2a2a2" style="--dominant-color: #a2a2a2;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/a-importancia-da-jornada-do-colaborador-e-seu-impacto-nos-resultados-das-empresas/">A Importância da Jornada do Colaborador e Seu Impacto nos Resultados das Empresas</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">5 de novembro, 2024</span>		</div>
+	</div>
+</li>
+
+			</ul><!-- .related-posts-list /-->
+		</div>
+	</div><!-- #related-posts /-->
+
+	
+	<aside class="sidebar tie-col-md-4 tie-col-xs-12 normal-side is-sticky" aria-label="Sidebar Primária">
+		<div class="theiaStickySidebar">
+			<div id="social-6" class="container-wrapper widget social-icons-widget"><div class="widget-title the-global-title"><div class="the-subtitle">Nossas Redes Sociais<span class="widget-title-icon fa"></span></div></div><ul class="solid-social-icons"><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://web.facebook.com/Portal-Customer-100189255175969"><span class="fa fa-facebook"></span><span class="screen-reader-text">Facebook</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/PortalCustomer1"><span class="fa fa-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link linkedin-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.linkedin.com/company/portal-customer/about/?viewAsMember=true"><span class="fa fa-linkedin"></span><span class="screen-reader-text">Linkedin</span></a></li><li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.instagram.com/portalcustomer/"><span class="fa fa-instagram"></span><span class="screen-reader-text">Instagram</span></a></li></ul> 
+<div class="clearfix"></div><div class="clearfix"></div></div><!-- .widget /--><div id="media_image-11" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">Guia Profissional CX &#8211; AIESC<span class="widget-title-icon fa"></span></div></div><a href="https://heyzine.com/flip-book/90fd18e0c7.html"><img width="1920" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201920%201080'%3E%3C/svg%3E" class="image wp-image-20175  attachment-full size-full not-transparent" alt="" style="--dominant-color: #9f8e92;max-width: 100%; height: auto;" title="Agende uma reunião com a CX PRIME" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-jpg.webp 1920w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-300x169.webp 300w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-1024x576.webp 1024w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-768x432.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-1536x864.webp 1536w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-390x220.webp 390w" data-lazy-sizes="(max-width: 1920px) 100vw, 1920px" data-has-transparency="false" data-dominant-color="9f8e92" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-jpg.webp" /><noscript><img width="1920" height="1080" src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-jpg.webp" class="image wp-image-20175  attachment-full size-full not-transparent" alt="" style="--dominant-color: #9f8e92;max-width: 100%; height: auto;" title="Agende uma reunião com a CX PRIME" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-jpg.webp 1920w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-300x169.webp 300w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-1024x576.webp 1024w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-768x432.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-1536x864.webp 1536w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Apresentacao-AIESC-2511-390x220.webp 390w" sizes="(max-width: 1920px) 100vw, 1920px" data-has-transparency="false" data-dominant-color="9f8e92" /></noscript></a><div class="clearfix"></div></div><!-- .widget /--><div id="media_image-10" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">LIVRO CX &#038; CS: Criando Experiências que Geram Valor<span class="widget-title-icon fa"></span></div></div><a href="https://loja.literarebooks.com.br/negocios/cx-amp-cs-criando-experiencias-que-geram-valor-da-estrategia-a-acao?parceiro=11520"><img width="2000" height="1414" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%202000%201414'%3E%3C/svg%3E" class="image wp-image-20176  attachment-full size-full not-transparent" alt="" style="--dominant-color: #737079;max-width: 100%; height: auto;" title="Universo Consultivo CXPRIME - CX 6.0" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51.png 2000w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-300x212.png 300w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-1024x724.png 1024w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-768x543.png 768w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-1536x1086.png 1536w" data-lazy-sizes="(max-width: 2000px) 100vw, 2000px" data-has-transparency="false" data-dominant-color="737079" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51.png" /><noscript><img width="2000" height="1414" src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51.png" class="image wp-image-20176  attachment-full size-full not-transparent" alt="" style="--dominant-color: #737079;max-width: 100%; height: auto;" title="Universo Consultivo CXPRIME - CX 6.0" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51.png 2000w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-300x212.png 300w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-1024x724.png 1024w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-768x543.png 768w, https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-51-1536x1086.png 1536w" sizes="(max-width: 2000px) 100vw, 2000px" data-has-transparency="false" data-dominant-color="737079" /></noscript></a><div class="clearfix"></div></div><!-- .widget /--><div id="media_image-7" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">Compre Aqui: LIVRO CX &#038; CS: Criando Experiências que Geram Valor<span class="widget-title-icon fa"></span></div></div><figure style="width: 500px" class="wp-caption alignnone"><a href="https://loja.literarebooks.com.br/negocios/cx-amp-cs-criando-experiencias-que-geram-valor-da-estrategia-a-acao?parceiro=11520"><img width="500" height="727" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20727'%3E%3C/svg%3E" class="image wp-image-20177  attachment-full size-full not-transparent" alt="https://loja.literarebooks.com.br/negocios/cx-amp-cs-criando-experiencias-que-geram-valor-da-estrategia-a-acao?parceiro=11520" style="--dominant-color: #78a0b9;max-width: 100%; height: auto;" title="Compre Aqui: LIVRO CX &amp; CS: Criando Experiências que Geram Valor" decoding="async" data-has-transparency="false" data-dominant-color="78a0b9" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/12/1764592947977-jpg-e1765217639402.webp" /><noscript><img width="500" height="727" src="https://portalcustomer.com.br/wp-content/uploads/2025/12/1764592947977-jpg-e1765217639402.webp" class="image wp-image-20177  attachment-full size-full not-transparent" alt="https://loja.literarebooks.com.br/negocios/cx-amp-cs-criando-experiencias-que-geram-valor-da-estrategia-a-acao?parceiro=11520" style="--dominant-color: #78a0b9;max-width: 100%; height: auto;" title="Compre Aqui: LIVRO CX &amp; CS: Criando Experiências que Geram Valor" decoding="async" data-has-transparency="false" data-dominant-color="78a0b9" /></noscript></a><figcaption class="wp-caption-text">https://loja.literarebooks.com.br/negocios/cx-amp-cs-criando-experiencias-que-geram-valor-da-estrategia-a-acao?parceiro=11520</figcaption></figure><div class="clearfix"></div></div><!-- .widget /--><div id="media_image-2" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">CXPRIME &#8211; Soluções em CX<span class="widget-title-icon fa"></span></div></div><figure style="width: 1080px" class="wp-caption alignnone"><a href="https://wa.me/5511999583954"><img width="1080" height="1350" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201350'%3E%3C/svg%3E" class="image wp-image-20120  attachment-full size-full not-transparent" alt="Transforme a experiência em Inovação - CX PRIME - www.cxprime.com.br" style="--dominant-color: #d1c3d2;max-width: 100%; height: auto;" title="CXPRIME - Soluções em CX" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-jpeg.webp 1080w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-768x960.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-614x768.webp 614w" data-lazy-sizes="(max-width: 1080px) 100vw, 1080px" data-has-transparency="false" data-dominant-color="d1c3d2" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-jpeg.webp" /><noscript><img width="1080" height="1350" src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-jpeg.webp" class="image wp-image-20120  attachment-full size-full not-transparent" alt="Transforme a experiência em Inovação - CX PRIME - www.cxprime.com.br" style="--dominant-color: #d1c3d2;max-width: 100%; height: auto;" title="CXPRIME - Soluções em CX" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-jpeg.webp 1080w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-768x960.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.40-8-614x768.webp 614w" sizes="(max-width: 1080px) 100vw, 1080px" data-has-transparency="false" data-dominant-color="d1c3d2" /></noscript></a><figcaption class="wp-caption-text">Transforme a experiência em Inovação - CX PRIME - www.cxprime.com.br</figcaption></figure><div class="clearfix"></div></div><!-- .widget /--><div id="tie-weather-widget-2" class="widget tie-weather-widget"><div class="widget-title the-global-title"><div class="the-subtitle">Tempo<span class="widget-title-icon fa"></span></div></div>
+				<div id="tie-weather-sao-paulo" class="weather-wrap is-animated">
+
+					<div class="weather-icon-and-city">
+						
+					<div class="weather-icon">
+	          <div class="icon-cloud"></div>
+	          <div class="icon-cloud-behind"></div>
+	          <div class="icon-basecloud-bg"></div>
+	          <div class="icon-sun-animi"></div>
+	        </div>
+										<div class="weather-name">São Paulo</div>
+						<div class="weather-desc">Scattered Clouds</div>
+					</div>
+
+					<div class="weather-todays-stats">
+
+						<div class="weather-current-temp">
+							30							<sup>&#x2103;</sup>
+						</div>
+
+						<div class="weather-more-todays-stats">
+
+													<div class="weather_highlow">
+								<span aria-hidden="true" class="tie-icon-thermometer-half"></span> 31&ordm; - 29&ordm;
+							</div>
+						
+							<div class="weather_humidty">
+								<span aria-hidden="true" class="tie-icon-raindrop"></span>
+								<span class="screen-reader-text"></span> 52%
+							</div>
+
+							<div class="weather_wind">
+								<span aria-hidden="true" class="tie-icon-wind"></span>
+								<span class="screen-reader-text"></span> 4.63 km/h</div>
+						</div>
+					</div> <!-- /.weather-todays-stats -->
+
+											<div class="weather-forecast small-weather-icons weather_days_5">
+							
+					<div class="weather-forecast-day">
+						
+					<div class="weather-icon">
+	          <div class="basecloud"></div>
+	          <div class="icon-basecloud-bg"></div>
+	          <div class="animi-icons-wrap">
+	            <div class="icon-rainy-animi"></div>
+	            <div class="icon-rainy-animi-2"></div>
+	            <div class="icon-rainy-animi-4"></div>
+	            <div class="icon-rainy-animi-5"></div>
+	          </div>
+	          <div class="icon-sun-animi"></div>
+	        </div>
+				
+						<div class="weather-forecast-day-temp">30<sup>&#x2103;</sup></div>
+						<div class="weather-forecast-day-abbr">sáb</div>
+					</div>
+				
+					<div class="weather-forecast-day">
+						
+					<div class="weather-icon">
+	          <div class="basecloud"></div>
+	          <div class="icon-basecloud-bg"></div>
+	          <div class="animi-icons-wrap">
+	            <div class="icon-rainy-animi"></div>
+	            <div class="icon-rainy-animi-2"></div>
+	            <div class="icon-rainy-animi-4"></div>
+	            <div class="icon-rainy-animi-5"></div>
+	          </div>
+	          <div class="icon-moon-animi"></div>
+	        </div>
+				
+						<div class="weather-forecast-day-temp">29<sup>&#x2103;</sup></div>
+						<div class="weather-forecast-day-abbr">dom</div>
+					</div>
+				
+					<div class="weather-forecast-day">
+						
+					<div class="weather-icon">
+	          <div class="icon-cloud"></div>
+	          <div class="icon-cloud-behind"></div>
+	          <div class="icon-basecloud-bg"></div>
+	          <div class="icon-sun-animi"></div>
+	        </div>
+				
+						<div class="weather-forecast-day-temp">22<sup>&#x2103;</sup></div>
+						<div class="weather-forecast-day-abbr">seg</div>
+					</div>
+				
+					<div class="weather-forecast-day">
+						
+					<div class="weather-icon">
+	          <div class="icon-cloud"></div>
+	          <div class="icon-cloud-behind"></div>
+	          <div class="icon-basecloud-bg"></div>
+	          <div class="icon-sun-animi"></div>
+	        </div>
+				
+						<div class="weather-forecast-day-temp">26<sup>&#x2103;</sup></div>
+						<div class="weather-forecast-day-abbr">ter</div>
+					</div>
+				
+					<div class="weather-forecast-day">
+						
+					<div class="weather-icon">
+	          <div class="basecloud"></div>
+	          <div class="icon-basecloud-bg"></div>
+	          <div class="animi-icons-wrap">
+	            <div class="icon-rainy-animi"></div>
+	            <div class="icon-rainy-animi-2"></div>
+	            <div class="icon-rainy-animi-4"></div>
+	            <div class="icon-rainy-animi-5"></div>
+	          </div>
+	          <div class="icon-sun-animi"></div>
+	        </div>
+				
+						<div class="weather-forecast-day-temp">26<sup>&#x2103;</sup></div>
+						<div class="weather-forecast-day-abbr">qua</div>
+					</div>
+										</div><!-- /.weather-forecast -->
+					
+				</div> <!-- /.weather-wrap -->
+
+				<div class="clearfix"></div></div><!-- .widget /--><div id="posts-list-widget-6" class="container-wrapper widget posts-list"><div class="widget-title the-global-title"><div class="the-subtitle">Novas Postagens<span class="widget-title-icon fa"></span></div></div><div class="media-overlay posts-list-counter"><ul class="posts-list-items">
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="A nova era do atendimento ao cliente no Brasil: empatia e cultura como diferenciais" href="https://portalcustomer.com.br/a-nova-era-do-atendimento-ao-cliente-no-brasil-empatia-e-cultura-como-diferenciais/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of A nova era do atendimento ao cliente no Brasil: empatia e cultura como diferenciais" decoding="async" data-has-transparency="true" data-dominant-color="918390" style="--dominant-color: #918390;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/06/Euriale-Voidela-2025-06-01T113613.843-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2025/06/Euriale-Voidela-2025-06-01T113613.843-220x150.png" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of A nova era do atendimento ao cliente no Brasil: empatia e cultura como diferenciais" decoding="async" data-has-transparency="true" data-dominant-color="918390" style="--dominant-color: #918390;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/a-nova-era-do-atendimento-ao-cliente-no-brasil-empatia-e-cultura-como-diferenciais/">A nova era do atendimento ao cliente no Brasil: empatia e cultura como diferenciais</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">3 horas atrás</span>		</div>
+	</div>
+</li>
+
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="Além do Churn: O Customer Success como o Novo Pivot da Economia de Recorrência" href="https://portalcustomer.com.br/alem-do-churn-o-customer-success-como-o-novo-pivot-da-economia-de-recorrencia/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of Além do Churn: O Customer Success como o Novo Pivot da Economia de Recorrência" decoding="async" data-has-transparency="true" data-dominant-color="9a9798" style="--dominant-color: #9a9798;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2026/01/Portal-Customer-62-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2026/01/Portal-Customer-62-220x150.png" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of Além do Churn: O Customer Success como o Novo Pivot da Economia de Recorrência" decoding="async" data-has-transparency="true" data-dominant-color="9a9798" style="--dominant-color: #9a9798;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/alem-do-churn-o-customer-success-como-o-novo-pivot-da-economia-de-recorrencia/">Além do Churn: O Customer Success como o Novo Pivot da Economia de Recorrência</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">3 horas atrás</span>		</div>
+	</div>
+</li>
+
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="Como a inteligência artificial está reinventando a experiência do cliente no Brasil" href="https://portalcustomer.com.br/como-a-inteligencia-artificial-esta-reinventando-a-experiencia-do-cliente-no-brasil/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of Como a inteligência artificial está reinventando a experiência do cliente no Brasil" decoding="async" data-has-transparency="true" data-dominant-color="46494b" style="--dominant-color: #46494b;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/03/Captura-de-tela-2025-01-13-095549-Copia-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2025/03/Captura-de-tela-2025-01-13-095549-Copia-220x150.png" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of Como a inteligência artificial está reinventando a experiência do cliente no Brasil" decoding="async" data-has-transparency="true" data-dominant-color="46494b" style="--dominant-color: #46494b;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/como-a-inteligencia-artificial-esta-reinventando-a-experiencia-do-cliente-no-brasil/">Como a inteligência artificial está reinventando a experiência do cliente no Brasil</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">3 horas atrás</span>		</div>
+	</div>
+</li>
+
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="O Fim do Checklist: Por que a Qualidade agora é a alma do CX?" href="https://portalcustomer.com.br/o-fim-do-checklist-por-que-a-qualidade-agora-e-a-alma-do-cx/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of O Fim do Checklist: Por que a Qualidade agora é a alma do CX?" decoding="async" data-has-transparency="true" data-dominant-color="a8abb2" style="--dominant-color: #a8abb2;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2026/01/Portal-Customer-60-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2026/01/Portal-Customer-60-220x150.png" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of O Fim do Checklist: Por que a Qualidade agora é a alma do CX?" decoding="async" data-has-transparency="true" data-dominant-color="a8abb2" style="--dominant-color: #a8abb2;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/o-fim-do-checklist-por-que-a-qualidade-agora-e-a-alma-do-cx/">O Fim do Checklist: Por que a Qualidade agora é a alma do CX?</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">3 horas atrás</span>		</div>
+	</div>
+</li>
+
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="O que é um programa de embaixadores de cliente e como aplicar em sua empresa?" href="https://portalcustomer.com.br/o-que-e-um-programa-de-embaixadores-de-cliente-e-como-aplicar-em-sua-empresa/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of O que é um programa de embaixadores de cliente e como aplicar em sua empresa?" decoding="async" data-has-transparency="true" data-dominant-color="737373" style="--dominant-color: #737373;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/02/Euriale-Voidela-2025-02-07T161141.523-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2025/02/Euriale-Voidela-2025-02-07T161141.523-220x150.png" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of O que é um programa de embaixadores de cliente e como aplicar em sua empresa?" decoding="async" data-has-transparency="true" data-dominant-color="737373" style="--dominant-color: #737373;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/o-que-e-um-programa-de-embaixadores-de-cliente-e-como-aplicar-em-sua-empresa/">O que é um programa de embaixadores de cliente e como aplicar em sua empresa?</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">4 semanas atrás</span>		</div>
+	</div>
+</li>
+
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="Fernando Moulin assume como CEO da Polaris Group" href="https://portalcustomer.com.br/fernando-moulin-assume-como-ceo-da-polaris-group/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small not-transparent tie-small-image wp-post-image" alt="Photo of Fernando Moulin assume como CEO da Polaris Group" decoding="async" data-has-transparency="false" data-dominant-color="645346" style="--dominant-color: #645346;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-52-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2025/12/Portal-Customer-52-220x150.png" class="attachment-jannah-image-small size-jannah-image-small not-transparent tie-small-image wp-post-image" alt="Photo of Fernando Moulin assume como CEO da Polaris Group" decoding="async" data-has-transparency="false" data-dominant-color="645346" style="--dominant-color: #645346;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/fernando-moulin-assume-como-ceo-da-polaris-group/">Fernando Moulin assume como CEO da Polaris Group</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">4 semanas atrás</span>		</div>
+	</div>
+</li>
+
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="115 frases reais para transformar o atendimento ao cliente" href="https://portalcustomer.com.br/115-frases-reais-para-transformar-o-atendimento-ao-cliente/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of 115 frases reais para transformar o atendimento ao cliente" decoding="async" data-has-transparency="true" data-dominant-color="46494b" style="--dominant-color: #46494b;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/03/Captura-de-tela-2025-01-13-095549-Copia-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2025/03/Captura-de-tela-2025-01-13-095549-Copia-220x150.png" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of 115 frases reais para transformar o atendimento ao cliente" decoding="async" data-has-transparency="true" data-dominant-color="46494b" style="--dominant-color: #46494b;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/115-frases-reais-para-transformar-o-atendimento-ao-cliente/">115 frases reais para transformar o atendimento ao cliente</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">4 semanas atrás</span>		</div>
+	</div>
+</li>
+
+<li class="widget-post-list tie-standard">
+
+			<div class="post-widget-thumbnail">
+
+			
+			<a aria-label="LiveCast CX 2026: Tendências e Estratégias para uma Nova Era da Experiência do Cliente" href="https://portalcustomer.com.br/livecast-cx-2026-tendencias-e-estrategias-para-uma-nova-era-da-experiencia-do-cliente/" class="post-thumb"><img width="220" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20220%20150'%3E%3C/svg%3E" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of LiveCast CX 2026: Tendências e Estratégias para uma Nova Era da Experiência do Cliente" decoding="async" data-has-transparency="true" data-dominant-color="366041" style="--dominant-color: #366041;" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/10/Selbetti-220x150.png" /><noscript><img width="220" height="150" src="https://portalcustomer.com.br/wp-content/uploads/2025/10/Selbetti-220x150.png" class="attachment-jannah-image-small size-jannah-image-small has-transparency tie-small-image wp-post-image" alt="Photo of LiveCast CX 2026: Tendências e Estratégias para uma Nova Era da Experiência do Cliente" decoding="async" data-has-transparency="true" data-dominant-color="366041" style="--dominant-color: #366041;" /></noscript></a>		</div><!-- post-alignleft /-->
+	
+	<div class="post-widget-body ">
+		<h3 class="post-title"><a href="https://portalcustomer.com.br/livecast-cx-2026-tendencias-e-estrategias-para-uma-nova-era-da-experiencia-do-cliente/">LiveCast CX 2026: Tendências e Estratégias para uma Nova Era da Experiência do Cliente</a></h3>
+
+		<div class="post-meta">
+			<span class="date meta-item fa-before">27 de outubro, 2025</span>		</div>
+	</div>
+</li>
+</ul></div><div class="clearfix"></div></div><!-- .widget /--><div id="custom_html-2" class="widget_text container-wrapper widget widget_custom_html"><div class="textwidget custom-html-widget"><script type="rocketlazyloadscript">
+   const llPopupId="F4583F575C384A72B73D4F8838C2817C";
+   var llP = document.createElement("script");
+   llP.setAttribute("src", "https://pagina.group/scripts/capture/capture-popup.js");
+   document.addEventListener("DOMContentLoaded", function() {
+      document.body.appendChild(llP);
+   });
+</script></div><div class="clearfix"></div></div><!-- .widget /-->		</div><!-- .theiaStickySidebar /-->
+	</aside><!-- .sidebar /-->
+	
+				</div><!-- .main-content-row /-->
+			</div><!-- #content /-->
+		
+<footer id="footer" class="site-footer dark-skin dark-widgetized-area">
+
+	
+			<div id="footer-widgets-container">
+				<div class="container">
+					
+
+		<div class="footer-widget-area ">
+			<div class="tie-row">
+
+									<div class="tie-col-md-3 normal-side">
+						<div id="posts-list-widget-1" class="container-wrapper widget posts-list"><div class="widget-title the-global-title"><div class="the-subtitle">Postagens Recentes<span class="widget-title-icon fa"></span></div></div><div class="timeline-widget"><ul class="posts-list-items">					<li>
+						<a href="https://portalcustomer.com.br/a-nova-era-do-atendimento-ao-cliente-no-brasil-empatia-e-cultura-como-diferenciais/">
+							<span class="date meta-item fa-before">3 horas atrás</span>							<h3>A nova era do atendimento ao cliente no Brasil: empatia e cultura como diferenciais</h3>
+						</a>
+					</li>
+										<li>
+						<a href="https://portalcustomer.com.br/alem-do-churn-o-customer-success-como-o-novo-pivot-da-economia-de-recorrencia/">
+							<span class="date meta-item fa-before">3 horas atrás</span>							<h3>Além do Churn: O Customer Success como o Novo Pivot da Economia de Recorrência</h3>
+						</a>
+					</li>
+										<li>
+						<a href="https://portalcustomer.com.br/como-a-inteligencia-artificial-esta-reinventando-a-experiencia-do-cliente-no-brasil/">
+							<span class="date meta-item fa-before">3 horas atrás</span>							<h3>Como a inteligência artificial está reinventando a experiência do cliente no Brasil</h3>
+						</a>
+					</li>
+										<li>
+						<a href="https://portalcustomer.com.br/o-fim-do-checklist-por-que-a-qualidade-agora-e-a-alma-do-cx/">
+							<span class="date meta-item fa-before">3 horas atrás</span>							<h3>O Fim do Checklist: Por que a Qualidade agora é a alma do CX?</h3>
+						</a>
+					</li>
+					</ul></div><div class="clearfix"></div></div><!-- .widget /-->					</div><!-- .tie-col /-->
+				
+									<div class="tie-col-md-3 normal-side">
+						<div id="nav_menu-2" class="container-wrapper widget widget_nav_menu"><div class="menu-tielabs-secondry-menu-container"><ul id="menu-tielabs-secondry-menu" class="menu"><li id="menu-item-19470" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-19470"><a href="https://portalcustomer.com.br/">Home</a></li>
+<li id="menu-item-19508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19508"><a href="https://portalcustomer.com.br/colunistas/">Nossos Colunistas</a></li>
+<li id="menu-item-19512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19512"><a href="https://portalcustomer.com.br/enviar-release/">Envie seu Artigo</a></li>
+<li id="menu-item-19532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19532"><a href="https://portalcustomer.com.br/anuncie/">Anuncie</a></li>
+<li id="menu-item-19535" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19535"><a href="https://portalcustomer.com.br/quem-somos/">Quem somos</a></li>
+<li id="menu-item-19487" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19487"><a href="https://portalcustomer.com.br/termos-de-uso/">Termos de Uso</a></li>
+<li id="menu-item-19472" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-19472"><a href="http://be6fdd0.contato.site/b4fd631c0">Newsletter</a></li>
+<li id="menu-item-19511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19511"><a href="https://portalcustomer.com.br/politica-privacidade/">Política de privacidade</a></li>
+</ul></div><div class="clearfix"></div></div><!-- .widget /-->					</div><!-- .tie-col /-->
+				
+									<div class="tie-col-md-3 normal-side">
+						<div id="custom_html-3" class="widget_text container-wrapper widget widget_custom_html"><div class="textwidget custom-html-widget"></div><div class="clearfix"></div></div><!-- .widget /-->					</div><!-- .tie-col /-->
+				
+									<div class="tie-col-md-3 normal-side">
+						<div id="social-4" class="container-wrapper widget social-icons-widget"><div class="widget-title the-global-title"><div class="the-subtitle">Nossas Redes Sociais<span class="widget-title-icon fa"></span></div></div><ul class="solid-social-icons"><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://web.facebook.com/Portal-Customer-100189255175969"><span class="fa fa-facebook"></span><span class="screen-reader-text">Facebook</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/PortalCustomer1"><span class="fa fa-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link linkedin-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.linkedin.com/company/portal-customer/about/?viewAsMember=true"><span class="fa fa-linkedin"></span><span class="screen-reader-text">Linkedin</span></a></li><li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.instagram.com/portalcustomer/"><span class="fa fa-instagram"></span><span class="screen-reader-text">Instagram</span></a></li></ul> 
+<div class="clearfix"></div><div class="clearfix"></div></div><!-- .widget /-->					</div><!-- .tie-col /-->
+				
+			</div><!-- .tie-row /-->
+		</div><!-- .footer-widget-area /-->
+
+		
+
+		<div class="footer-widget-area ">
+			<div class="tie-row">
+
+									<div class="tie-col-sm-4 normal-side">
+						<div id="media_image-12" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">Solução de IA em Qualidade &#8211; CX PRIME<span class="widget-title-icon fa"></span></div></div><figure style="width: 1279px" class="wp-caption alignnone"><a href="https://wa.me/5511999583954"><img width="1279" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201279%201600'%3E%3C/svg%3E" class="image wp-image-20123  attachment-full size-full not-transparent" alt="Transforme a experiência em Inovação - CX PRIME - www.cxprime.com.br" style="--dominant-color: #482d46;max-width: 100%; height: auto;" title="Solução de IA em Qualidade - CX PRIME" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-jpeg.webp 1279w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-768x961.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-614x768.webp 614w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-1228x1536.webp 1228w" data-lazy-sizes="(max-width: 1279px) 100vw, 1279px" data-has-transparency="false" data-dominant-color="482d46" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-jpeg.webp" /><noscript><img width="1279" height="1600" src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-jpeg.webp" class="image wp-image-20123  attachment-full size-full not-transparent" alt="Transforme a experiência em Inovação - CX PRIME - www.cxprime.com.br" style="--dominant-color: #482d46;max-width: 100%; height: auto;" title="Solução de IA em Qualidade - CX PRIME" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-jpeg.webp 1279w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-768x961.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-614x768.webp 614w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1-1228x1536.webp 1228w" sizes="(max-width: 1279px) 100vw, 1279px" data-has-transparency="false" data-dominant-color="482d46" /></noscript></a><figcaption class="wp-caption-text">Transforme a experiência em Inovação - CX PRIME - www.cxprime.com.br</figcaption></figure><div class="clearfix"></div></div><!-- .widget /-->					</div><!-- .tie-col /-->
+				
+									<div class="tie-col-sm-4 normal-side">
+						<div id="media_image-13" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">URA Inteligente &#8211; CXPRIME<span class="widget-title-icon fa"></span></div></div><figure style="width: 1279px" class="wp-caption alignnone"><a href="https://wa.me/5511999583954"><img width="1279" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201279%201600'%3E%3C/svg%3E" class="image wp-image-20124  attachment-full size-full not-transparent" alt="URA Inteligente - CX PRIME" style="--dominant-color: #412e46;max-width: 100%; height: auto;" title="URA Inteligente - CXPRIME" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-jpeg.webp 1279w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-768x961.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-614x768.webp 614w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1228x1536.webp 1228w" data-lazy-sizes="(max-width: 1279px) 100vw, 1279px" data-has-transparency="false" data-dominant-color="412e46" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-jpeg.webp" /><noscript><img width="1279" height="1600" src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-jpeg.webp" class="image wp-image-20124  attachment-full size-full not-transparent" alt="URA Inteligente - CX PRIME" style="--dominant-color: #412e46;max-width: 100%; height: auto;" title="URA Inteligente - CXPRIME" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-jpeg.webp 1279w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-768x961.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-614x768.webp 614w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.41-1228x1536.webp 1228w" sizes="(max-width: 1279px) 100vw, 1279px" data-has-transparency="false" data-dominant-color="412e46" /></noscript></a><figcaption class="wp-caption-text">URA Inteligente - CX PRIME</figcaption></figure><div class="clearfix"></div></div><!-- .widget /-->					</div><!-- .tie-col /-->
+				
+									<div class="tie-col-sm-4 normal-side">
+						<div id="media_image-14" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">Módulo de VOZ &#8211; CXPRIME<span class="widget-title-icon fa"></span></div></div><figure style="width: 1279px" class="wp-caption alignnone"><a href="https://wa.me/5511999583954"><img width="1279" height="1600" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201279%201600'%3E%3C/svg%3E" class="image wp-image-20125  attachment-full size-full not-transparent" alt="CXPRIME" style="--dominant-color: #212e38;max-width: 100%; height: auto;" title="Módulo de VOZ - CXPRIME" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-jpeg.webp 1279w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-768x961.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-614x768.webp 614w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-1228x1536.webp 1228w" data-lazy-sizes="(max-width: 1279px) 100vw, 1279px" data-has-transparency="false" data-dominant-color="212e38" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-jpeg.webp" /><noscript><img width="1279" height="1600" src="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-jpeg.webp" class="image wp-image-20125  attachment-full size-full not-transparent" alt="CXPRIME" style="--dominant-color: #212e38;max-width: 100%; height: auto;" title="Módulo de VOZ - CXPRIME" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-jpeg.webp 1279w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-240x300.webp 240w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-819x1024.webp 819w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-768x961.webp 768w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-614x768.webp 614w, https://portalcustomer.com.br/wp-content/uploads/2025/08/WhatsApp-Image-2025-08-14-at-13.54.42-2-1228x1536.webp 1228w" sizes="(max-width: 1279px) 100vw, 1279px" data-has-transparency="false" data-dominant-color="212e38" /></noscript></a><figcaption class="wp-caption-text">CXPRIME</figcaption></figure><div class="clearfix"></div></div><!-- .widget /-->					</div><!-- .tie-col /-->
+				
+									<div class=" normal-side">
+											</div><!-- .tie-col /-->
+				
+			</div><!-- .tie-row /-->
+		</div><!-- .footer-widget-area /-->
+
+						</div><!-- .container /-->
+			</div><!-- #Footer-widgets-container /-->
+			
+			<div id="site-info" class="site-info site-info-layout-2">
+				<div class="container">
+					<div class="tie-row">
+						<div class="tie-col-md-12">
+
+							<div class="copyright-text copyright-text-first">© Copyright 2020, Todos os direitos reservados a Euriale Voidela </div><ul class="social-icons"><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://web.facebook.com/Portal-Customer-100189255175969"><span class="fa fa-facebook"></span><span class="screen-reader-text">Facebook</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/PortalCustomer1"><span class="fa fa-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link linkedin-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.linkedin.com/company/portal-customer/about/?viewAsMember=true"><span class="fa fa-linkedin"></span><span class="screen-reader-text">Linkedin</span></a></li><li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.instagram.com/portalcustomer/"><span class="fa fa-instagram"></span><span class="screen-reader-text">Instagram</span></a></li></ul> 
+
+						</div><!-- .tie-col /-->
+					</div><!-- .tie-row /-->
+				</div><!-- .container /-->
+			</div><!-- #site-info /-->
+			
+</footer><!-- #footer /-->
+
+
+		<div class="post-footer post-footer-on-mobile">
+			<div class="share-links  icons-only">
+				<a href="https://www.facebook.com/sharer.php?u=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="facebook-share-btn"><span class="fa fa-facebook"></span> <span class="screen-reader-text">Facebook</span></a><a href="https://twitter.com/intent/tweet?text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa&#038;url=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="twitter-share-btn"><span class="fa fa-twitter"></span> <span class="screen-reader-text">Twitter</span></a><a href="https://api.whatsapp.com/send?text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa%20https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="whatsapp-share-btn"><span class="fa fa-whatsapp"></span> <span class="screen-reader-text">WhatsApp</span></a><a href="https://telegram.me/share/url?url=https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/&text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa" rel="external noopener" target="_blank" class="telegram-share-btn"><span class="fa fa-paper-plane"></span> <span class="screen-reader-text">Telegram</span></a><a href="viber://forward?text=A%20cultura%20organizacional%20%C3%A9%20o%20cora%C3%A7%C3%A3o%20da%20empresa%20https://portalcustomer.com.br/a-cultura-organizacional-e-o-coracao-da-empresa/" rel="external noopener" target="_blank" class="viber-share-btn"><span class="fa fa-volume-control-phone"></span> <span class="screen-reader-text">Viber</span></a>			</div><!-- .share-links /-->
+		</div><!-- .post-footer-on-top /-->
+
+		<div class="mobile-share-buttons-spacer"></div>
+		<a id="go-to-top" class="go-to-top-button" href="#go-to-tie-body">
+			<span class="fa fa-angle-up"></span>
+			<span class="screen-reader-text">Botão Voltar ao topo</span>
+		</a>
+	
+		</div><!-- #tie-wrapper /-->
+
+		
+
+	<aside class="side-aside normal-side tie-aside-effect dark-skin dark-widgetized-area is-fullwidth" aria-label="Barra lateral secundária">
+		<div data-height="100%" class="side-aside-wrapper has-custom-scroll">
+
+			<a href="#" class="close-side-aside remove big-btn light-btn">
+				<span class="screen-reader-text">Fechar</span>
+			</a><!-- .close-side-aside /-->
+
+			<div id="mobile-container">
+
+				
+				<div id="mobile-menu" class="hide-menu-icons">
+
+					
+				</div><!-- #mobile-menu /-->
+
+				<div class="mobile-social-search">
+											<div id="mobile-social-icons" class="social-icons-widget solid-social-icons">
+							<ul><li class="social-icons-item"><a class="social-link facebook-social-icon" rel="external noopener nofollow" target="_blank" href="https://web.facebook.com/Portal-Customer-100189255175969"><span class="fa fa-facebook"></span><span class="screen-reader-text">Facebook</span></a></li><li class="social-icons-item"><a class="social-link twitter-social-icon" rel="external noopener nofollow" target="_blank" href="https://twitter.com/PortalCustomer1"><span class="fa fa-twitter"></span><span class="screen-reader-text">Twitter</span></a></li><li class="social-icons-item"><a class="social-link linkedin-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.linkedin.com/company/portal-customer/about/?viewAsMember=true"><span class="fa fa-linkedin"></span><span class="screen-reader-text">Linkedin</span></a></li><li class="social-icons-item"><a class="social-link instagram-social-icon" rel="external noopener nofollow" target="_blank" href="https://www.instagram.com/portalcustomer/"><span class="fa fa-instagram"></span><span class="screen-reader-text">Instagram</span></a></li></ul> 
+						</div><!-- #mobile-social-icons /-->
+												<div id="mobile-search">
+							<form role="search" method="get" class="search-form" action="https://portalcustomer.com.br/">
+				<label>
+					<span class="screen-reader-text">Pesquisar por:</span>
+					<input type="search" class="search-field" placeholder="Pesquisar &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Pesquisar" />
+			</form>						</div><!-- #mobile-search /-->
+										</div><!-- #mobile-social-search /-->
+
+			</div><!-- #mobile-container /-->
+
+
+			
+				<div id="slide-sidebar-widgets">
+					<div id="media_image-3" class="container-wrapper widget widget_media_image"><div class="widget-title the-global-title"><div class="the-subtitle">Glossário de Customer Experience e Customer Success<span class="widget-title-icon fa"></span></div></div><figure style="width: 300px" class="wp-caption alignnone"><a href="https://portalcustomer.com.br/glossario-de-cx-e-cs/"><img width="300" height="199" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20199'%3E%3C/svg%3E" class="image wp-image-1193  attachment-medium size-medium" alt="Glossário de Customer Success e Customer Experience - Euriale Voidela" style="max-width: 100%; height: auto;" decoding="async" data-lazy-srcset="https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-300x199.jpg 300w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-1024x681.jpg 1024w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-768x510.jpg 768w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-1536x1021.jpg 1536w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920.jpg 1920w" data-lazy-sizes="(max-width: 300px) 100vw, 300px" data-lazy-src="https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-300x199.jpg" /><noscript><img width="300" height="199" src="https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-300x199.jpg" class="image wp-image-1193  attachment-medium size-medium" alt="Glossário de Customer Success e Customer Experience - Euriale Voidela" style="max-width: 100%; height: auto;" decoding="async" srcset="https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-300x199.jpg 300w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-1024x681.jpg 1024w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-768x510.jpg 768w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920-1536x1021.jpg 1536w, https://portalcustomer.com.br/wp-content/uploads/2020/08/books-1204029_1920.jpg 1920w" sizes="(max-width: 300px) 100vw, 300px" /></noscript></a><figcaption class="wp-caption-text">#PraCegoVer: Estante de livros coloridos com a luz do sol.</figcaption></figure><div class="clearfix"></div></div><!-- .widget /-->				</div>
+			
+		</div><!-- .side-aside-wrapper /-->
+	</aside><!-- .side-aside /-->
+
+	
+	</div><!-- #tie-container /-->
+</div><!-- .background-overlay /-->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/jannah/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<div id="reading-position-indicator"></div><div id="is-scroller-outer"><div id="is-scroller"></div></div><div id="fb-root"></div>	<div id="tie-popup-search-wrap" class="tie-popup">
+
+		<a href="#" class="tie-btn-close remove big-btn light-btn">
+			<span class="screen-reader-text">Fechar</span>
+		</a>
+		<div class="container">
+			<div class="popup-search-wrap-inner">
+				<div class="tie-row">
+					<div id="pop-up-live-search" class="tie-col-md-12 live-search-parent" data-skin="live-search-popup" aria-label="Busca">
+						<form method="get" id="tie-popup-search-form" action="https://portalcustomer.com.br//">
+							<input id="tie-popup-search-input" type="text" name="s" title="Procurar por" autocomplete="off" placeholder="Digite e pressione Enter" />
+							<button id="tie-popup-search-submit" type="submit">
+								<span class="fa fa-search" aria-hidden="true"></span>
+								<span class="screen-reader-text">Procurar por</span>
+							</button>
+						</form>
+					</div><!-- .tie-col-md-12 /-->
+				</div><!-- .tie-row /-->
+			</div><!-- .popup-search-wrap-inner /-->
+		</div><!-- .container /-->
+	</div><!-- .tie-popup-search-wrap /-->
+		<div id="tie-popup-login" class="tie-popup">
+		<a href="#" class="tie-btn-close remove big-btn light-btn">
+			<span class="screen-reader-text">Fechar</span>
+		</a>
+		<div class="tie-popup-container">
+			<div class="container-wrapper">
+				<div class="widget login-widget">
+
+					<div class="widget-title the-global-title">
+						<div class="the-subtitle">Entrar <span class="widget-title-icon fa"></span></div>
+					</div>
+
+					<div class="widget-container">
+						
+	<div class="login-form">
+
+		<form name="registerform" action="https://portalcustomer.com.br/wp-login.php" method="post">
+			<input type="text" name="log" title="Nome de Usuário" placeholder="Nome de Usuário">
+			<div class="pass-container">
+				<input type="password" name="pwd" title="Senha" placeholder="Senha">
+				<a class="forget-text" href="https://portalcustomer.com.br/wp-login.php?action=lostpassword&redirect_to=https%3A%2F%2Fportalcustomer.com.br">Esqueceu?</a>
+			</div>
+
+			<input type="hidden" name="redirect_to" value="/a-cultura-organizacional-e-o-coracao-da-empresa/"/>
+			<label for="rememberme" class="rememberme">
+				<input id="rememberme" name="rememberme" type="checkbox" checked="checked" value="forever" /> Lembre-me			</label>
+
+			
+			
+			<button type="submit" class="button fullwidth login-submit">Entrar</button>
+
+					</form>
+
+		<p class="register-link"><a rel="nofollow" href="https://portalcustomer.com.br/wp-login.php?action=register">Não tem uma conta?</a></p>
+	</div>
+						</div><!-- .widget-container  /-->
+				</div><!-- .login-widget  /-->
+			</div><!-- .container-wrapper  /-->
+		</div><!-- .tie-popup-container /-->
+	</div><!-- .tie-popup /-->
+				<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+				const lazyloadRunObserver = () => {
+					const dataAttribute = 'data-e-bg-lazyload';
+					const lazyloadBackgrounds = document.querySelectorAll( `[${ dataAttribute }]:not(.lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+					entries.forEach( ( entry ) => {
+						if ( entry.isIntersecting ) {
+							let lazyloadBackground = entry.target;
+							const lazyloadSelector = lazyloadBackground.getAttribute( dataAttribute );
+							if ( lazyloadSelector ) {
+								lazyloadBackground = entry.target.querySelector( lazyloadSelector );
+							}
+							if( lazyloadBackground ) {
+								lazyloadBackground.classList.add( 'lazyloaded' );
+							}
+							lazyloadBackgroundObserver.unobserve( entry.target );
+						}
+					});
+					}, { rootMargin: '100px 0px 100px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/plugins/awsm-team/js/team.min.js?ver=1.3.3" id="awsm-team-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"/(.+/)?feed/?.+/?|/(?:.+/)?embed/|/(index\\.php/)?wp\\-json(/.*|$)|/wp-admin/|/logout/|/wp-login.php","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https://portalcustomer.com.br","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/cache/min/1/wp-content/plugins/advanced-ads/admin/assets/js/advertisement.js?ver=1753741852" id="advanced-ads-find-adblocker-js" defer></script>
+<script type="text/javascript" id="tie-scripts-js-extra">
+/* <![CDATA[ */
+var tie = {"is_rtl":"","ajaxurl":"https://portalcustomer.com.br/wp-admin/admin-ajax.php","is_taqyeem_active":"1","is_sticky_video":"1","mobile_menu_top":"1","mobile_menu_active":"true","mobile_menu_parent":"true","lightbox_all":"true","lightbox_gallery":"true","lightbox_skin":"dark","lightbox_thumb":"horizontal","lightbox_arrows":"true","is_singular":"1","reading_indicator":"true","lazyload":"","select_share":"true","select_share_twitter":"true","select_share_facebook":"true","select_share_linkedin":"true","select_share_email":"","facebook_app_id":"","twitter_username":"","responsive_tables":"true","ad_blocker_detector":"","sticky_behavior":"upwards","sticky_desktop":"true","sticky_mobile":"true","sticky_mobile_behavior":"upwards","ajax_loader":"\u003Cdiv class=\"loader-overlay\"\u003E\u003Cdiv class=\"spinner-circle\"\u003E\u003C/div\u003E\u003C/div\u003E","type_to_search":"1","lang_no_results":"Nada encontrado"};
+//# sourceURL=tie-scripts-js-extra
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/themes/jannah/assets/js/scripts.min.js?ver=4.7.2" id="tie-scripts-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/cache/min/1/wp-content/themes/jannah/assets/ilightbox/lightbox.js?ver=1696285283" id="tie-js-ilightbox-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/themes/jannah/assets/js/sliders.min.js?ver=4.7.2" id="tie-js-sliders-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/cache/min/1/wp-content/themes/jannah/assets/js/shortcodes.js?ver=1696285283" id="tie-js-shortcodes-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/themes/jannah/assets/js/desktop.min.js?ver=4.7.2" id="tie-js-desktop-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/themes/jannah/assets/js/single.min.js?ver=4.7.2" id="tie-js-single-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-includes/js/comment-reply.min.js?ver=df363cc392f6636b9e611c3967480512" id="comment-reply-js" async="async" data-wp-strategy="async" fetchpriority="low"></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" src="https://portalcustomer.com.br/wp-content/cache/min/1/wp-content/themes/jannah/assets/js/br-news.js?ver=1696285283" id="tie-js-breaking-js" defer></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://portalcustomer.com.br/wp-includes/js/wp-emoji-release.min.js?ver=df363cc392f6636b9e611c3967480512"}}
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://portalcustomer.com.br/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+			<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>
+				!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+
+				var c = document.body.className;
+				c = c.replace(/tie-no-js/, 'tie-js');
+				document.body.className = c;
+			</script>
+		<!--noptimize--><script type="rocketlazyloadscript">!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script><!--/noptimize--><script type="rocketlazyloadscript">
+				WebFontConfig ={
+					google:{
+						families: [ 'Poppins:600:latin&display=swap' ]
+					}
+				};
+
+				(function(){
+					var wf   = document.createElement('script');
+					wf.src   = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+					wf.type  = 'text/javascript';
+					wf.defer = 'true';
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(wf, s);
+				})();
+			</script><script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://portalcustomer.com.br/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script><script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script><script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1767470608 -->

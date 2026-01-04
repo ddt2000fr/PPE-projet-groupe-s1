@@ -1,0 +1,738 @@
+
+   Menu
+     *
+     * Brasil
+          + Lista alfabética de periódicos
+          + Lista temática de periódicos
+          + Busca
+          + Métricas
+          + Sobre o SciELO Brasil
+          + Contatos
+          + Reportar erro
+     * SciELO.org - Rede SciELO
+          + Coleções nacionais e temáticas
+          + Lista alfabética de periódicos
+          + Lista de periódicos por assunto
+          + Busca
+          + Métricas
+          + Acesso OAI e RSS
+          + Sobre a Rede SciELO
+          + Contatos
+     * Blog SciELO em Perspectiva
+
+   Brasil
+    Machado de Assis em Linha
+     * Logomarca do periódico: Machado de Assis em Linha
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+    language pt_BR Português
+     * English
+     * Español
+
+    Machado de Assis em Linha
+     * Logomarca do periódico: Machado de Assis em Linha
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+   home Sumário navigate_before Anterior Atual Seguinte navigate_next
+    Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+    Texto (PT)
+     * Texto (Português)
+
+    PDF
+     * Download PDF (Português)
+
+    article Conteúdo: Texto (PT)
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+     * Texto (Português)
+     * Download PDF (Português)
+
+    share
+     * Whatsapp
+     * BlueSky
+     * Mastodon
+     * Facebook
+     * Mais
+
+   home Sumário
+    share
+     * Facebook
+     * X
+     * Google+
+     * LinkedIn
+     * Reddit
+     * StambleUpon
+     * CiteULike
+     * Mendeley
+
+    Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+    Texto (PT)
+     * Texto (Português)
+
+    PDF
+     * Download PDF (Português)
+
+   Dossiê: Machado de Assis, a escravidão e a questão racial • Machado
+   linkcopiar
+
+Open-access UM MERGULHO NO “CORAÇÃO DAS TREVAS”: LEITURA DA CENA DO
+ENFORCAMENTO, EM QUINCAS BORBA
+
+A DIVE INTO THE “HEART OF DARKNESS”: READING THE HANGING SCENE IN QUINCAS
+BORBA
+
+   AutoriaSCIMAGO INSTITUTIONS RANKINGS
+
+Resumo:
+
+   O objetivo deste artigo é analisar o episódio do enforcamento de um
+   escravizado, em Quincas Borba (1891), e oferecer uma possível
+   interpretação de seu papel para a compreensão global do romance. A
+   conjunção de capitalismo e escravidão parece operar na passagem em
+   diversos níveis, tanto na subjetividade das personagens como nos tempos
+   e na voz narrativa.
+
+   Palavras-chave:
+   Machado de Assis; escravidão; Literatura e Sociedade; forma literária e
+   processo social
+
+Abstract:
+
+   The aim of this article is to analyze the hanging episode of a slave in
+   Quincas Borba (1891) and provide a possible interpretation of its role
+   in the overall understanding of the novel. The conjunction of
+   capitalism and slavery appears to operate in the passage on various
+   levels, both in the subjectivity of the characters and in the times and
+   narrative voice.
+
+   Keywords:
+   Machado de Assis ; slavery ; Literature and Society ; literary form and
+   social process
+
+   Segundo romance da trilogia realista de Machado de Assis, Quincas Borba
+   (1891) é geralmente entendido como um dos mais complexos da obra do
+   escritor, embora seja menos discutido e não tenha a mesma fama de
+   Memórias póstumas de Brás Cubas (1881) ou de Dom Casmurro (1899).
+   Machado começa a publicá-lo em folhetim na revista A Estação , em 1886,
+   e só vai encerrar as publicações quase seis anos depois, em 1891, no
+   fim do qual lança o romance em formato de livro. Ao longo desses anos,
+   ele interrompe a publicação em dois períodos – de maio a outubro de
+   1888 e de julho a novembro de 1889. Nessas ocasiões, o escritor
+   procurou resolver problemas com o foco narrativo, além de desbastar o
+   aspecto íntimo, de proximidade com o leitor, que caracteriza o
+   folhetim. Também buscou dar centralidade à figura de Rubião e enfatizar
+   o seu gradativo enlouquecimento (GLEDSON, 2011 , p. 42-46).
+
+   O enredo, que se passa de 1867 a 1871, é bem conhecido: Rubião, um
+   professor de Barbacena, recebe uma herança de seu amigo Quincas Borba e
+   muda-se para a Corte, no Rio de Janeiro. No caminho para a capital,
+   numa estação de trem, ele conhece Palha, um especulador aspirante a
+   banqueiro, e Sofia, filha de funcionário público. O casal vai se
+   aproveitar da herança de Rubião para enriquecer, inclusive se valendo
+   da paixão que o mineiro passa a nutrir por Sofia. Dividido entre os
+   negócios com Palha e o amor pela mulher dele, além de estar cercado por
+   toda sorte de aproveitadores no Rio de Janeiro, Rubião vai
+   enlouquecendo progressivamente.
+
+Um homem dividido
+
+   A nosso ver, um episódio decisivo para a compreensão do romance é o
+   capítulo 47, o do enforcamento do escravo. Nele, Rubião acaba de se
+   declarar a Sofia e perambula pela cidade imerso em seus pensamentos,
+   quando três cocheiros oferecem seus serviços. Já aturdido com a paixão
+   por Sofia, a indecisão na escolha do tílburi fará com que irrompa nele
+   uma lembrança de quando ainda era rapaz: a cena da execução de um
+   escravo.
+
+   Desde o início do romance, o protagonista mostra-se dividido: entre o
+   passado de professor e o presente de capitalista; entre o espírito que
+   acompanha uma canoa no mar e o coração que se alegra com a riqueza
+   herdada fortuitamente; entre a bandeja de prata e as figuras de bronze
+   na sala; entre os criados estrangeiros e os seus “crioulos de Minas”
+   (ASSIS, 2012 , p. 48).
+
+   Imediatamente antes do episódio do enforcamento, a cisão na
+   personalidade de Rubião vai, aos poucos, ganhando contornos dramáticos.
+   Ele perambula pelas ruas a rememorar a declaração de amor que acabara
+   de fazer a Sofia, ora se regozijando, ora se recriminando, ora se
+   justificando: “Fui um maluco!, dizia em voz alta” e o narrador
+   acrescenta “achava-se maluco, completamente maluco” (ASSIS, 2012 , p.
+   108).
+
+   Lembra, ainda, a estima que tem pelo marido dela, Palha, a quem
+   emprestou dinheiro. Diz para si mesmo que é um “homem honrado, que
+   trabalha muito”, mas volta a se lembrar de Sofia. “Confuso, incerto, ia
+   a cuidar na lealdade que devia ao amigo, mas a consciência partia-se em
+   duas, uma increpando a outra, a outra explicando-se, e ambas
+   desorientadas...” (ASSIS, 2012 , p. 109). Se a declaração de amor a
+   Sofia já colocava Rubião em dúvida, a lealdade ao amigo – lealdade
+   misturada aos negócios, bem entendido – entra como mais um elemento
+   para confundir sua cabeça. Rubião mostra-se dividido entre a paixão e
+   os negócios, entre o amor e os favores, entre a relação amorosa e a
+   monetária. Rubião decide, então, pegar um tílburi para ir a Botafogo.
+   Três cocheiros oferecem o serviço, cada um propagandeando seus cavalos.
+
+   O breve capítulo seguinte parece apenas mais uma anedota, um episódio
+   sem importância. No entanto, ele é esclarecedor na medida em que mostra
+   as relações entre as classes sociais. Nele, um mendigo acorda com o
+   rumor de vozes dos cocheiros, vê do que se trata e volta a se deitar,
+   mas permanece acordado olhando o céu. O narrador imagina, então, um céu
+   personificado, que também fita de volta o mendigo, e pontua o contraste
+   entre os dois: enquanto o mendigo tem “rugas”, “sapatos rotos” e está
+   vestido em “andrajos”, o céu é “claro, estrelado, sossegado, olímpico”
+   (ASSIS, 2012 , p. 109). E fantasia um diálogo entre o mendigo, que diz
+   que não há como o céu desabar sobre ele, e o céu, que responde que nem
+   o mendigo tem como escalá-lo. O narrador, ao dar voz ao céu, parece
+   assumir o ponto de vista do topo da escala social, das classes
+   proprietárias, que olham com desdém a condição do mendigo. Parece saber
+   que não é dado ao “pobre-diabo” (ASSIS, 2012 , p. 109) ascender
+   socialmente.
+
+   No entanto, no começo do capítulo seguinte, ficamos sabendo que também
+   Rubião vira o mendigo, inclusive se comparando a ele.
+   Retrospectivamente, portanto, pode-se inferir que aquele diálogo entre
+   o céu e o mendigo pode ter sido imaginado não apenas pelo narrador, mas
+   pelo próprio Rubião, cujo progressivo enlouquecimento vimos
+   acompanhando. Ele inveja o mendigo por este não precisar ter
+   responsabilidade, nem precisar se decidir entre o amor e os negócios.
+   “Aquele malandro não pensa em nada, disse ele consigo; daqui a pouco
+   está dormindo, enquanto eu...” (ASSIS, 2012 , p. 110). E surgem
+   novamente as vozes dos cocheiros, oferecendo os tílburis. A oferta dos
+   serviços, além de ser mais um elemento para confundir a já atribulada
+   cabeça de Rubião, dá indícios do patamar do desenvolvimento capitalista
+   no Brasil de então: já existe um mercado concorrencial, os cavalos são
+   mostrados como mercadorias, os cocheiros insistem na eficiência do
+   serviço e há certa equivalência ou padronização entre eles – os
+   cocheiros diziam a mesma coisa, “quase por iguais palavras” (ASSIS,
+   2012 , p. 110).
+
+   Rubião pega o mais próximo e lembra-se de uma cena que presenciara
+   quando jovem. “Ou foi o episódio que lhe deu inconscientemente a
+   solução” (ASSIS, 2012 , p. 111), como diz o narrador. Trata-se do
+   enforcamento de um escravizado que ocorrera muitos anos atrás, quando
+   Rubião era rapaz e pobre. Ele anda pela cidade, quando se depara com um
+   cortejo que acompanha dois homens: um, de cor parda, é levado por uma
+   corda no pescoço pelo outro, de cor fixa e retinta, o qual, além do
+   mais, se mostra orgulhoso diante do público. Não deve ter sido à toa
+   que Machado escolhe o negro de cor parda para ser a vítima e o de cor
+   retinta para ser o carrasco, este ainda demonstrando uma postura
+   orgulhosa aos olhos do público, o que reforça ainda mais a perversidade
+   da situação.
+
+   O narrador compara, então, a indecisão em prosseguir no cortejo com as
+   dúvidas quanto à escolha do tílburi. No entanto, ele não se decide e se
+   deixa levar ao acaso. Enquanto segue no cortejo, as dúvidas permanecem,
+   mas ele procede numa série de autojustificações: só seguiria na marcha,
+   veria as cerimônias, mas não a execução. Tenta se confortar com os
+   relatos sobre o réu, dado como “frio e feroz”, embora já não visse nele
+   “a cara do crime” (ASSIS, 2012 , p. 112), só o terror escondendo a
+   perversidade. Quando dá por si, Rubião já está no largo da execução.
+   Ainda assim, poderia fugir ou fechar os olhos. A divisão de Rubião
+   chega a seu ápice: sua hesitação é exteriorizada, descrita em termos
+   físicos. A indecisão é figurada numa passagem estranha e emblemática:
+   “Foi aqui que o pé direito de Rubião descreveu uma curva na direção
+   exterior, obedecendo a um sentimento de regresso; mas o esquerdo,
+   tomado de sentimento contrário, deixou-se estar; lutaram alguns
+   instantes…” (ASSIS, 2012 , p. 113).
+
+   Essa duplicação da personalidade pode ser vista em outras obras de
+   Machado. Com enredo muito parecido, o conto “Viagem à roda de mim
+   mesmo”, publicado na Gazeta de Notícias em 4 de outubro de 1885 (pouco
+   antes do início da publicação em folhetim de Quincas Borba , portanto),
+   trata da história de Plácido, morador da província que também resolve
+   se mudar para o Rio de Janeiro, tão logo se forma bacharel. Seus planos
+   incluíam passar um tempo na Corte e depois conseguir um cargo de
+   magistrado no interior. Mas ele se apaixona por Henriqueta, que acaba
+   de perder o marido e resolve não mais se casar. Por esse motivo, decide
+   permanecer na cidade e cortejar a viúva. Ao mesmo tempo, Plácido
+   contrai uma dívida que é paga pelo deputado Veiga, um seu conhecido.
+   Esse favor o deixa em obrigação com o político, que um dia se queda
+   doente e precisa de cuidados. A personagem ficará dividida entre a
+   retribuição do favor a Veiga e as investidas amorosas em Henriqueta. A
+   passagem seguinte é ilustrativa das semelhanças com certas passagens de
+   Quincas Borba: “Caí na poltrona; não me dividi fisicamente, como me
+   parecera em criança; mas moralmente desdobrei-me em dois, um que
+   imprecava, outro que gemia” (ASSIS, 2015a , p. 233).
+
+   Do mesmo modo, Rubião se desdobrará em dois, um que quer permanecer
+   para assistir ao enforcamento e outro que quer fugir da cena da
+   execução. A passagem lembra a figura do duplo, tão presente em obras da
+   literatura ocidental. José Pasta Jr. ( 2011 , p. 117) afirma que a
+   filosofia estética e a crítica literária alemãs vão reconhecer a origem
+   do duplo na desmedida da reflexão, movimento pelo qual o sujeito
+   individual, então recentemente isolado e liberado pela revolução
+   burguesa, procurava encontrar em si mesmo o seu fundamento: “No
+   movimento da reflexão, portanto, o eu saía de si mesmo em direção ao
+   outro unicamente para fletir de novo sobre si mesmo: ele re-fletia
+   então, e nesse retorno sobre si ele se reconhecia, tornando-se um ser
+   em si e para si”. A repetição exasperada desse movimento, no entanto,
+   vai provocar não uma síntese, mas uma cisão da personalidade, que vai
+   dar origem na literatura ao fenômeno do duplo.
+
+   No entanto, o crítico aponta a especificidade da questão no Brasil:
+   aqui, essa figura se formará não pela reflexão desmesurada, mas pela
+   conjunção de capitalismo e escravidão, que concebe o sujeito como
+   distinto e, ao mesmo tempo, indistinto do outro. “Em vez de realizar o
+   retorno sobre si, o eu se vê preso na má infinidade de um movimento
+   pendular em que ele bascula interminavelmente entre o mesmo e o outro –
+   condenado a repetir sem término e sem saída a mesma fórmula: o outro é
+   o mesmo, o mesmo é o outro, e assim indefinidamente” (PASTA JR., 2011 ,
+   p. 118-119). É por esse motivo que a figura do duplo ocorre em nossa
+   literatura com maior frequência e intensidade, afirma Pasta.
+
+   Com efeito, essa conjunção de capitalismo e escravidão pode ser a chave
+   para o entendimento não só da cena do enforcamento, mas da obra como um
+   todo. Como se sabe, Roberto Schwarz ( 2000 , p. 9-31) demonstrou à
+   exaustão como essa combinação aparentemente contraditória, embora bem
+   presente na realidade, permeia a obra machadiana. Em resumo, e grosso
+   modo , o ideário liberal importado da Europa, que pregava a
+   universalidade da lei, as liberdades individuais e a igualdade entre os
+   homens, era negado pela realidade local da escravidão. Eram ideias fora
+   de lugar, uma comédia ideológica em que liberalismo e escravidão se
+   negavam reciprocamente. Assim, nos primeiros romances, um narrador
+   distanciado conta a história de indivíduos livres e pobres que buscam a
+   ascensão social em meio a uma sociedade patriarcal e escravocrata,
+   sempre malogrando em suas tentativas. Já nos romances da maturidade,
+   Machado faz que ganhe a voz narrativa a elite proprietária, cujos
+   arbítrios assumem a forma literária da volubilidade. Assim é que o
+   narrador de Memórias póstumas vai e volta no enredo a seu bel-prazer,
+   destrata o leitor, apropria-se de ideias estrangeiras e faz uso
+   distorcido delas etc.
+
+   No entanto, José Pasta Jr. ( 2011 , p. 101) afirma que “esse traço de
+   movência contínua ultrapassa em muito o próprio Brás Cubas” e está
+   presente em muitas personagens das principais obras da literatura
+   brasileira, que pertencem a diferentes camadas sociais, como Macunaíma,
+   negro e filho de índia, e Riobaldo, um jagunço. Para o crítico, a
+   conjunção de capitalismo e escravidão tem efeito não somente na elite
+   proprietária, mas na formação da subjetividade em todos os níveis
+   sociais. Segundo ele,
+
+     [...] cada indivíduo vê-se em face de dois regimes da concepção de
+     si e de sua relação com o outro, dois regimes contraditórios, que
+     logicamente deveriam excluir um ao outro, mas que se encontram um e
+     outro bem presentes e bem atestados pela realidade da experiência.
+     Por um lado, um regime antes de tudo moderno que corresponde, grosso
+     modo , às relações capitalistas de produção, que prescreve a
+     separação ou a diferença entre o mesmo e o outro ; e, por outro
+     lado, um regime que não reconhece a diferença entre o mesmo e o
+     outro, no qual essa diferença é mesmo rigorosamente inconcebível,
+     isto é, um regime que, por sua vez, corresponde aos laços do
+     patriarcalismo escravista, nos quais o indivíduo não se reconhece
+     verdadeiramente como tal, ou dito de outra forma, como algo
+     realmente diferente de seu senhor, de seu grupo, de seu clã etc.
+     (PASTA JR., 2011 , p. 101-102).
+
+   Dessa maneira, nossa subjetividade, continua o crítico, vê-se submetida
+   a exigências contraditórias de dois regimes: a de que ela seja distinta
+   do outro e, simultaneamente, indistinta do outro. A saída desse
+   paradoxo é apontada numa pequena equação: o outro é o mesmo ou,
+   invertendo, o mesmo é o outro. A volubilidade de diversas personagens
+   da literatura brasileira, assim, adviria dessa contradição. O crítico
+   menciona justamente o caso de Machado de Assis, em cujos romances e
+   contos diversas personagens se tornam, por esse motivo, “frequentemente
+   doidas – e muitas vezes doidas varridas” (PASTA JR., 2011 , p. 102).
+
+   Assim ocorre com Rubião: indeciso desde o começo, tanto em episódios
+   mais comezinhos como em circunstâncias que podem decidir seu destino,
+   ele se depara com situações que, de um lado, exigem racionalidade (como
+   os negócios com Palha) e, de outro, reclamam afetividade (como sua
+   amizade com o próprio Palha e seu amor por Sofia). Do mesmo modo, por
+   exemplo, ele tem de decidir entre criados estrangeiros, uma postura
+   moderna para a época, ou seus “crioulos de Minas” (ASSIS, 2012 , p.
+   48), que já era visto como antiquado. Nos dois casos, a subjetividade
+   de Rubião vê-se frente a situações que exigem a separação do outro e o
+   exercício da autonomia individual (a racionalidade dos negócios e a
+   relação salarial do trabalho livre) ou a indistinção do outro e a
+   proximidade afetiva (a amizade com o casal Palha e com os escravos
+   domésticos). A cada impasse, o protagonista, incapaz de decidir, vai
+   enlouquecendo gradativamente.
+
+Tempos e vozes misturados
+
+   Além da cisão na personalidade de Rubião, também os tempos se misturam
+   em certas passagens do capítulo. Enquanto Rubião perambula pela cidade,
+   a oferta dos cavalos o põe em dúvida, no presente da narração. Já na
+   lembrança passada, é o enforcamento do escravo que o divide. O passado
+   invade o presente, ou permanece nele. Os tempos misturam-se,
+   tornando-se indiferentes. A escravidão, cuja extinção já começava a se
+   discutir, ainda se fazia sentir e continuava atuando no moderno
+   presente capitalista. Vejamos como isso ocorre numa das passagens do
+   capítulo: “Rubião naturalmente ficou impressionado. Durante alguns
+   segundos, esteve como agora à escolha de um tílburi. Forças íntimas
+   ofereciam-lhe o seu cavalo, umas que voltasse para trás ou descesse
+   para ir aos seus negócios, – outras que fosse ver enforcar o preto”
+   (ASSIS, 2012 , p. 112).
+
+   Nessa passagem, a dúvida do passado é ilustrada com uma imagem do
+   presente: é como se o impulso interior de Rubião para fugir ao cortejo
+   pudesse ser comparado aos apelos dos cocheiros oferecendo os cavalos.
+   No entanto, esse ímpeto também vai na direção contrária: a oferta dos
+   cavalos bem pode ser a atração para o ritual do enforcamento. O termo
+   “cavalo”, aqui, também pode ser entendido no contexto das religiões
+   afro-brasileiras, como incorporação de entidades durante um transe.
+
+   Esse tempo que se repete e não chega a um termo pode ser considerado
+   “uma transposição narrativa do ritmo peculiar da formação do Brasil,
+   que sob aspectos essenciais se desenvolve como uma história paradoxal,
+   que ao mesmo tempo conhece e não conhece a distinção entre o tempo
+   passado e o tempo presente” (PASTA JR., 2011 , p. 92). Ainda nas
+   palavras do crítico, Machado de Assis parece dar forma, assim, à nossa
+   modernização conservadora, em que “um período é diferente do período
+   que o precedeu, sendo entretanto ‘a mesma coisa’” (PASTA JR., 2011 , p.
+   92).
+
+   Além dessa indistinção entre passado e presente, o emprego do discurso
+   indireto livre também torna indistinguíveis as vozes de narrador e
+   personagens, além de pontuar a narração de ambiguidades. Veja-se a
+   seguinte passagem: “Era tão raro ver um enforcado! Senhor, em vinte
+   minutos está tudo findo! – Senhor, vamos tratar de outros negócios”
+   (ASSIS, 2012 , p. 112). [A primeira sentença parece ser a do narrador
+   assumindo um dos ímpetos de Rubião. A segunda, por sua vez, sinaliza o
+   narrador assumindo a voz de um cocheiro que oferece uma viagem rápida,
+   ou dessa voz ecoando em Rubião, ou ainda de uma terceira voz impelindo
+   Rubião para a cena da execução, apelando para a rapidez do ato. Já a
+   terceira é o narrador assumindo a voz provavelmente de um cocheiro, que
+   dissuade Rubião de ver a cena. Nessa última sentença, chama a atenção o
+   tratamento dado ao enforcamento, como se este fosse um negócio entre
+   outros.
+
+   Em outra passagem, em que Rubião já está no largo da execução, as vozes
+   dos cocheiros tornam a ecoar em sua mente: “Olhe o meu cavalo! – Veja,
+   é um rico animal! – Não seja mau! – Não seja medroso!” (ASSIS, 2012 ,
+   p. 113). Veja-se que as duas primeiras orações não deixam dúvidas
+   quanto a quem as profere: são os cocheiros oferecendo os serviços. Já
+   as duas últimas estão impregnadas de ambiguidade: são ainda os
+   cocheiros falando ou a consciência de Rubião? Ser “mau” e “medroso”
+   referem-se a aceitar a viagem ou a assistir à cena da execução?
+
+De homens e cavalos
+
+   Mas não são apenas as vozes que se misturam; opera no romance um certo
+   intercambiamento ou contaminação entre certos significantes,
+   principalmente numa metáfora que aparece ao longo de toda a obra e que
+   é central na cena do enforcamento: o cavalo. Parece haver, na cena, um
+   paralelismo operado pelo narrador: os cavalos de hoje são os escravos
+   da lembrança. A confirmação da equivalência entre cavalo e escravo se
+   dá no momento da execução, na descrição breve, mas incisiva, construída
+   por Machado: “O instante fatal foi realmente um instante; o réu
+   esperneou, contraiu-se, o algoz cavalgou-o de um modo airoso e destro ;
+   passou pela multidão um rumor grande, Rubião deu um grito, e não viu
+   mais nada” (ASSIS, 2012 , p. 113, grifos nossos).
+
+   À maneira de um montador, o algoz cavalga o condenado, e o faz ágil e
+   elegantemente. Os termos usados para qualificar o movimento (“airoso e
+   destro”), além de tudo, ainda remetem à montaria de cavalos. Essa
+   estratégia de subir sobre os ombros dos condenados à forca tinha, com
+   efeito, o nome de “cavalinho” (SCHERER JR., 2013 , p. 46) e seu
+   objetivo era acelerar a morte do réu. O pintor Jean-Baptiste Debret,
+   que retratou a vida na corte do Rio de Janeiro do século XIX, também
+   remete ao termo “cavalo” ao descrever um ritual de enforcamento, no
+   qual um dos carrascos “põe-se a cavalo sobre os ombros do condenado”,
+   permanecendo nessa posição “até que a elasticidade dos ombros da vítima
+   mostre que sucumbiu” ( apud RIBEIRO, 2005 , p. 13).
+
+   Nesse final de capítulo, portanto, ficamos sabendo o motivo pelo qual
+   Rubião escolheu determinado cocheiro ou por que o episódio do
+   enforcamento lhe forneceu a solução para a dúvida que o afligia: a
+   lembrança do algoz sobre os ombros do réu remetia justamente a cavalos.
+   Não se trata, no entanto, da primeira vez que um escravizado aparece
+   equiparado à figura do cavalo na obra de Machado. A cena evoca também a
+   personagem Prudêncio em Memórias póstumas , do qual um Brás Cubas ainda
+   criança costumava tripudiar:
+
+     Prudêncio, um moleque de casa, era o meu cavalo de todos os dias;
+     punha as mãos no chão, recebia um cordel nos queixos, à guisa de
+     freio, eu trepava-lhe ao dorso, com uma varinha na mão, fustigava-o,
+     dava mil voltas a um e outro lado, e ele obedecia – algumas vezes
+     gemendo – mas obedecia sem dizer palavra, ou, quando muito, um “ai,
+     nhonhô!”, ao que eu retorquia: “Cala a boca, besta!”
+     (ASSIS, 2015b , p. 612).
+
+   Numa crônica da série Bons Dias! , publicada entre abril de 1888 e
+   agosto de 1889 na Gazeta de Notícias , é mencionada a morte de um
+   carrasco de Minas Gerais, cuja notícia sublinhava o seu “desprezível”
+   ofício (ASSIS, 2008 , p. 212). O cronista fica perplexo com o adjetivo,
+   argumentando que o ofício fora “criado por lei” e que a “bela
+   sociedade” (ASSIS, 2008 , p. 212) é quem estabelecera a pena de morte.
+   E completa: “[…] se o carrasco sai a matar um homem, é porque o mandam”
+   (ASSIS, 2008 , p. 213). O trecho é importante porque ressalta a opinião
+   de Machado de Assis sobre as execuções da pena de morte então vigentes:
+   a culpa não deveria recair sobre os carrascos, mas sobre a sociedade
+   que a instituiu. Do mesmo modo, a equiparação dos escravizados a
+   cavalos na cena da forca não é feita pelo autor, mas pelo narrador, um
+   membro da “bela sociedade” de seu tempo.
+
+   Voltando a Quincas Borba , no capítulo seguinte ao do enforcamento há a
+   adição de mais um componente nesse nivelamento. Depois de cessar a
+   lembrança, Rubião volta a si e ouve um comentário do cocheiro que o
+   leva. Este diz que tem amizade pelo seu cavalo e que podia contar
+   coisas extraordinárias sobre ele, o cavalo, que outros dizem ser
+   mentiras. Em seguida, o cocheiro interpela o interlocutor a concordar
+   que cavalo e cachorro são os animais que mais gostam de pessoas. E
+   acrescenta: “Cachorro parece que inda gosta mais…” ([ASSIS, 2012 , p.
+   114). O narrador intervém e diz que a menção ao animal faz Rubião
+   lembrar de Quincas Borba, o cachorro.
+
+   Vê-se aqui uma operação sutil: depois de animalizar o escravo
+   condenado, agora o cavalo é humanizado. Depois, o cavalo é equiparado
+   ao cachorro, ou melhor, este é considerado superior, mais humano talvez
+   que o cavalo. Em seguida, a referência ao cachorro faz Rubião
+   recordar-se de Quincas Borba, o cachorro que tem o mesmo nome de seu
+   antigo dono, fechando o círculo em que tudo está nivelado. ^1
+
+   Parte da crítica já havia chamado a atenção para o episódio do
+   enforcamento. John Gledson ( 2003 , p. 94), por exemplo, afirma que a
+   cena mostra a “violência transferida” da escravidão, em nível mais
+   institucionalizado do que Machado já mostrara no episódio de Prudêncio,
+   em Brás Cubas . É um resumo do horror do regime, reforçado pela atitude
+   “galharda”, pelo modo “airoso e destro” (GLEDSON, 2003 , p. 94) do
+   carrasco, também ele um escravo. Para Gledson ( 2003 , p. 96), a
+   passagem abre “um reino raramente penetrado de maneira tão direta nos
+   romances de Machado – a escravidão e sua brutalidade”. Ele acrescenta
+   que Machado pretendia retratar, com essa cena, “os conflitos com os
+   quais estava aturdida a sociedade brasileira” (GLEDSON, 2003 , p. 96),
+   mesmo que em um nível inconsciente. No entanto, o crítico diz que o
+   episódio fica isolado do resto da trama e nada do tipo torna a
+   aparecer. Uma das razões apontadas seria porque a repetição de
+   episódios semelhantes tornaria o romance didático e sem o
+   distanciamento valorizado por Machado, e outra, ainda segundo Gledson,
+   porque tornaria a trama inverossímil.
+
+   Com efeito, José Antonio Pasta Jr. ( 2016 , on-line) considera a cena
+   do enforcamento o “coração das trevas” da obra, “a verdade do ponto de
+   vista narrativo de Quincas Borba ”. Para o crítico, Machado pretendeu
+   com o romance investigar as feições da barbárie brasileira num momento
+   de atualização mercantil e financeira do país, que entretanto ainda
+   mantinha tardiamente a escravidão, gerando um “copioso engendro de
+   formas de crueldade” (PASTA JR., 2016 , on-line), em que o trabalho
+   escravo e o cálculo capitalista se retroalimentavam.
+
+   De forma resumida, digamos que Rubião primeiro se debate entre o amor a
+   Sofia e os negócios com Palha. Depois, a indecisão na livre escolha
+   entre os tílburis é comparada à hesitação na cena do enforcamento. Os
+   apelos dos cocheiros no presente invadem as lembranças da execução. As
+   vozes do narrador, de Rubião e dos cocheiros, em certos momentos,
+   mesclam-se por meio do discurso indireto livre. O narrador também opera
+   uma associação livre entre cavalos, o carrasco e cachorros, que acabam
+   por se equiparar.
+
+   Essa indistinção entre passado e presente, entre narrador e personagens
+   e, no limite, entre humanos e animais é um dos efeitos que o sistema
+   escravista produziu e que Machado divisou na sociedade brasileira,
+   procurando transpô-la literariamente no capítulo do enforcamento. Nessa
+   breve cena, é como se Machado imaginasse que o capitalismo, iniciando
+   na época sua fase financeira, ainda conviveria por longo tempo com os
+   efeitos da escravidão, então recentemente abolida, e que essa
+   configuração moldaria a sociedade brasileira por anos afora.
+
+Referências
+
+     * ASSIS, Machado de. Bons Dias! Introdução e notas de John Gledson.
+       3. ed. Campinas: Editora da Unicamp, 2008.
+     * ASSIS, Machado de. Quincas Borba. São Paulo: Penguin Classics
+       Companhia das Letras, 2012.
+     * ASSIS, Machado de. Contos avulsos II. In: ASSIS, Machado de. Obra
+       completa. São Paulo: Nova Aguilar, 2015a. v. 3, p. 228-234.
+     * ASSIS, Machado de. Memórias póstumas de Brás Cubas. In: ASSIS,
+       Machado de. Obra completa. São Paulo: Nova Aguilar, 2015b. v. 1, p.
+       596-733.
+     * CANDIDO, Antonio. De cortiço a cortiço. O discurso e a cidade. 3.
+       ed. Rio de Janeiro: Ouro sobre Azul, 2004. p. 105-129.
+     * GLEDSON, John. Quincas Borba. In: GLEDSON, John. Machado de Assis:
+       ficção e história. 2. ed. São Paulo: Paz e Terra, 2003. p. 73-144.
+     * GLEDSON, John. Quincas Borba: um romance em crise - Dossiê duas
+       crises machadianas. Machado de Assis em Linha – Revista Eletrônica
+       de Estudos Machadianos, Rio de Janeiro, v. 4, n. 8, p. 32-55, dez.
+       2011.
+     * PASTA JR., José Antonio. Formação supressiva. 2011. 282 f. Tese
+       (Livre-docência em Literatura Brasileira) – Faculdade de Filosofia,
+       Letras e Ciências Humanas, Universidade de São Paulo, São Paulo,
+       2011.
+     * PASTA JR., José Antonio. Dialética do Alfenim. Teatrojornal: site
+       de crítica teatral, 16 set. 2016. Disponível em: .
+     * RIBEIRO, João Luiz. No meio das galinhas as baratas não têm razão:
+       a Lei de 10 de junho de 1835: os escravos e a pena de morte no
+       Império do Brasil, 1822-1889. Rio de Janeiro: Renovar, 2005.
+     * SCHERER JR., Cláudio Roberto Antunes. Corda branca em carne negra:
+       os escravos e a pena de morte por enforcamento no Brasil Império.
+       Analecta, Guarapuava, v. 14, n. 1, p. 37–54, 2013. Disponível em:
+       . Acesso em: 8 nov. 2021.
+       »
+     * SCHWARZ, Roberto. Ao vencedor, as batatas: forma literária e
+       processo social no romance brasileiro. São Paulo: Duas Cidades; Ed.
+       34, 2000.
+
+     * 1
+       O procedimento lembra o dispositivo usado por Antonio Candido ao
+       analisar O cortiço , de Aluísio Azevedo. Nesse ensaio, Candido
+       recupera um dito humorístico do final do século XIX para desvendar
+       a perspectiva do escritor ao construir o romance: “Para português,
+       negro e burro, três pês: pão para comer, pano para vestir, pau para
+       trabalhar”. O crítico diz que os termos refluem uns sobre os
+       outros, tanto no plano sonoro como no semântico, e que resulta
+       disso uma “contaminação ideológica”, em que tudo acaba se
+       equiparando. Assim, tanto o português imigrante, que constrói sua
+       riqueza por meio do trabalho, como o negro escravo, cujo trabalho é
+       forçado, são rebaixados à animalidade por meio desse dito, usado
+       por homens livre e pobres a fim de confirmar sua superioridade
+       (CANDIDO, 2004 , p. 109-114).
+
+Datas de Publicação
+
+     * Publicação nesta coleção
+       21 Out 2024
+     * Data do Fascículo
+       2024
+
+Histórico
+
+     * Recebido
+       31 Jan 2024
+     * Aceito
+       22 Abr 2024
+
+   Creative Common - by 4.0
+   Este é um artigo de acesso aberto distribuído sob os termos de uma
+   Licença Creative Commons
+
+Autoria
+
+   
+   person ANDRÉ TADAO KAMEDA
+   ANDRÉ TADAO KAMEDA é graduado em Jornalismo pela Faculdade Cásper
+   Líbero (2005) e mestre em Teoria Literária e Literatura Comparada pela
+   USP (2018). Atualmente, é doutorando na mesma área pela USP, com estudo
+   sobre o romance Quincas Borba (1891), de Machado de Assis, sob
+   orientação do Prof. Edu Teruki Otsuka. Seus interesses de pesquisa
+   incluem Machado de Assis, literatura brasileira e teoria crítica.
+   schoolUniversidade de São Paulo. São Paulo, São Paulo,
+   BrasilUniversidade de São PauloBrasilSão Paulo, SP, BrasilUniversidade
+   de São Paulo. São Paulo, São Paulo, Brasil
+   0009-0002-7296-934X
+   E-mail:
+
+SCIMAGO INSTITUTIONS RANKINGS
+
+   
+   Universidade de São Paulo. São Paulo, São Paulo, BrasilUniversidade de
+   São PauloBrasilSão Paulo, SP, BrasilUniversidade de São Paulo. São
+   Paulo, São Paulo, Brasil
+
+Como citar
+
+   
+
+   ____________________linkcopiar
+
+   vertical_align_top show_chart
+     * more_horiz close
+          + image
+          + translate
+          + link
+          + article
+          + vertical_align_top
+          + file_download
+          + show_chart
+          + image
+          + translate
+          + link
+          + article
+
+   location_on
+   Universidade de São Paulo - Faculdade de Filosofia, Letras e Ciências
+   Humanas Av. Prof. Luciano Gualberto, 403 sl 38, 05508-900 São Paulo, SP
+   Brasil - São Paulo - SP - Brazil
+   rss_feed Acompanhe os números deste periódico no seu leitor de RSS
+
+Versão para download de PDF
+
+   
+   PDF
+     * Português
+
+Artigos relacionados
+
+   
+     * Google
+     * Google Scholar
+
+Versões e tradução automática
+
+   
+   Versão original do texto
+     * Português
+
+   Tradução automática
+     * Google Translator
+     * Microsoft Translator
+
+Como citar
+
+   
+   RIS
+   BIBTEX
+   Outros formatos de citação e exportação:
+   [Enter references manager format or citation style (e.g., "APA", "AMA",
+    "MLA", "Vancouver")]
+
+   SciELO - Scientific Electronic Library Online
+
+   Rua Dr. Diogo de Faria, 1087 – 9º andar – Vila Clementino 04037-003 São
+   Paulo/SP - Brasil
+     *
+     *
+     *
+     *
+     *
+
+   Creative Common - by 4.0
+
+   CAPES CAPES CNPq CNPq FAPESP FAPESP BVS BVS BIREME BIREME FAP-UNIFESP
+   FAP-UNIFESP
+   CAPES CNPq FAPESP BVS BIREME FAP-UNIFESP
+
+   Open Access Leia a Declaração de Acesso Aberto
+
+Métricas
+
+   
+   SciELO Analytics
+   Dimensions
+   Altmetric
+   Scite_
+   UM MERGULHO NO “CORAÇÃO DAS TREVAS”: LEITURA DA CENA DO ENFORCAMENTO,
+   EM <i>QUINCAS BORBA</i>
+   PlumX
+
+    ×Close
+
+Mensagem
+
+    ×Close
+
+Mensagem
+
+   Reportar erro

@@ -149,7 +149,7 @@
 
   <p style="margin-bottom: 1rem;">
    et il accepte deux arguments (leur présence est vérifiée au début du scripte)&nbsp;:
-   le chemin vers le fichier avec une liste des URLs et le chemin vers le tebleau html des résultats.
+   le chemin vers le fichier avec une liste des URLs et le chemin vers le tableau html des résultats.
 
   </p>
 
@@ -188,6 +188,53 @@
   </p>
 
 </section>
+
+<section class="documentation">
+
+  <h2 style="margin-bottom: 1rem; border-bottom: 2px solid #444; padding-bottom: 0.3rem;">
+    UTILISATION DU PORTUGAIS
+  </h2>
+
+  <p style="margin-bottom: 1rem;">
+    Le script peut être exécuté à l’aide de la commande suivante&nbsp;:
+  </p>
+
+  <pre style="background-color: #f5f5f5; padding: 0.8rem; border-left: 4px solid #999; margin-bottom: 1.5rem;">
+<code>bash script_pt.sh ../URLs/urls-pt.txt ../tableaux/tableau-pt.html</code>
+  </pre>
+
+  <p style="margin-bottom: 1rem;">
+   Le script prend en compte les variations de « сoração » en utilisant une expression régulière (coração|coracao|corações|coracoes) 
+   qui capture toutes les formes possibles du mot, singulier et plurielle, qu'elles soient accentuées ou non. 
+   Cette approche permet de comptabiliser correctement les occurrences même dans les textes où l'encodage des caractères spéciaux pourrait poser problème.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Dans ce programme, la commande <code>curl</code> est utilisée pour télécharger la structure HTML des pages web sélectionnées pour le corpus. 
+    Après le téléchargement, l’encodage du texte est vérifiée et lorsqu’il est possible l'identifier, la page est convertie en UTF-8.
+    
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Pour la nettoyage du contenu, l'extraction du texte brut, on utilise la commande <code>lynx -dump</code>, suivi de plusieurs filtres <code>sed</code>,
+    a fin de supprimer les références, boutons, et contenus non-textuels (JSON, XML, oEmbed), qui ont été trouvées dans les textes et que sont inutiles pour la recherche.
+  </p>
+
+  <p style="margin-bottom: 1rem;">
+    Pour la recherche du mot et de ses variantes, la commande <code>egrep</code> est utilisée en combinaison de l'expression regulière. 
+    Pour isoler chaque occurrence individuelle et compter le nombre de lignes, on utilise la commande <code>wc -l</code>. 
+  </p>
+
+  <p style="margin-bottom: 2rem;">
+    Le script structure automatiquement les résultats dans les dossiers : aspirations/ (pages HTML brutes), dumps-text/ (versions texte nettoyées),
+    contextes/ (lignes contenant le mot-cible) et concordances/ (concordancier HTML). 
+    Il génère deux sorties HTML principales : un tableau de synthèse qui liste toutes les URLs analysées avec leurs métadonnées et statistiques, 
+    et un concordancier détaillé qui présente chaque occurrence du mot dans son contexte immédiat. 
+  </p>
+
+
+</section>
+
 
 
         <div class="footer heart-hero" >

@@ -1,0 +1,172 @@
+   #alternate
+
+   IFRAME:
+   /GabaritoVestibulares/Cabecalho?nome_atual=Quest%C3%A3o%204%20%20Biolog
+   ibulares%2FListarVestibulares&nome_pag_anterior=Gabaritos%20Comentados
+
+   Logo FUVEST
+
+Questão 4 Biologia
+
+   Carregar prova completa Compartilhe essa resolução
+     __________________________________________________________________
+
+   Questão 4
+   "Répteis" Circulação (Fisiologia comparada)
+
+   Os quatro esquemas representam cortes longitudinais de corações de
+   vertebrados.
+
+   [1AC58E26FD8AC441A2C58D916E2E7C3B.jpg]
+
+   a) Identifique os grupos de vertebrados cujos corações estão
+   representados pelos esquemas 1, 2, 3 e 4.
+
+   b) Descreva o sentido do fluxo sanguíneo no interior de cada um desses
+   corações e indique se neles ocorre mistura de sangue arterial e venoso.
+   Resolução
+
+   Para responder à questão, é importante que alguns termos sejam
+   explicados:
+
+   - circulação dupla: classificação decorrente do fato do sangue passar
+   pelo coração duas vezes a cada ciclo (uma vez no lado direito, na forma
+   de sangue venoso; e outra vez no lado esquerdo, na forma de sangue
+   arterial).
+
+   - circulação dupla completa: não há mistura de sangue arterial e
+   venoso.
+
+   - circulação dupla incompleta: há mistura de sangue arterial e venoso.
+
+   - circulação simples: classificação decorrente do fato do sangue (na
+   forma venosa) passar pelo coração apenas uma vez a cada ciclo.
+
+   De acordo com os desenhos fornecidos, são feitas as observações:
+
+   Coração 1: coração com quatro cavidades (dois átrios e dois
+   ventrículos) e divisão completa dos lados direito e esquerdo, impedindo
+   a mistura de sangue arterial e venoso. Este tipo de coração é típico
+   de aves e mamíferos, animais de circulação dupla e completa. Nestes
+   animais, o sangue venoso chega ao átrio direito pelas veias cavas, é
+   bombeado para o ventrículo direito e, em seguida, levado aos pulmões
+   por uma artéria. Nos pulmões, o sangue venoso é convertido em arterial,
+   que retorna ao átrio esquerdo pela veia pulmonar, sendo conduzido ao
+   ventrículo esquerdo e, em seguida, transferido para o corpo todo pela
+   artéria aorta.
+
+   [B41A97E7369A79E6B3081FF45A5DFEA3.jpg]
+
+   Azul: sangue venoso / Vermelho: sangue arterial
+
+
+   Coração 2: coração com três cavidades (dois átrios e um ventrículo),
+   que permite a mistura de sangue arterial e venoso no ventrículo. Este
+   tipo de coração é típico de anfíbios, animais de circulação dupla e
+   incompleta.
+
+   [354D74448706BDE41E1583476A0142F9.jpg]
+
+   Azul: sangue venoso / Vermelho: sangue arterial / Roxo: mistura de
+   sangue arterial e venoso
+
+    Coração 3: coração com duas cavidades (um átrio e um ventrículo), no
+   qual o sangue passa pelo coração apenas uma vez a cada ciclo. Este tipo
+   de coração é típico de peixes, animais de circulação simples.
+
+   [3FE9761BD52B9248D6FA97BDFABA8437.jpg]
+
+   Azul: sangue venoso
+
+    Coração 4: coração com quatro cavidades (dois átrios e dois
+   ventrículos) e divisão incompleta dos lados direito e esquerdo,
+   permitindo a mistura de sangue arterial e venoso nos ventrículos. Este
+   tipo de coração é típico de répteis não-crocodilianos, animais de
+   circulação dupla e incompleta.
+
+   [0BD5E64BD98ECDA67783DBBD6B59835D.jpg]
+
+   Azul: sangue venoso / Vermelho: sangue arterial / Roxo: mistura de
+   sangue arterial e venoso
+
+   a) Coração 1: aves e mamíferos
+
+   Coração 2: anfíbios
+
+   Coração 3: peixes
+
+   Coração 4: répteis não-crocodilianos
+
+
+   b) Coração 1:
+
+   corpo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    átrio direito
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    ventrículo direito
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    pulmões
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    átrio esquerdo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    ventrículo esquerdo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    corpo
+
+   Não há mistura de sangue arterial e venoso.
+
+   Coração 2:
+
+   Corpo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    átrio direito
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    ventrículo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    órgão de troca gasosa (brânquias, pele, ou pulmões)
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    átrio esquerdo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    ventrículo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    corpo
+
+   Há mistura de sangue arterial e venoso no ventrículo único sublinhado
+   no esquema acima.
+
+   Coração 3:
+
+   corpo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    átrio
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    ventrículo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    brânquias
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    corpo
+
+   Não há mistura de sangue arterial e venoso, uma vez que o sangue passa
+   apenas uma vez pelo coração a cada ciclo.
+
+   Coração 4:
+
+   corpo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    átrio direito
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    ventrículo direito
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    pulmões
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    átrio esquerdo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    ventrículo esquerdo
+   [MATH: <semantics> <mo>→</mo> </semantics> :MATH]
+    corpo
+
+   Há mistura de sangue arterial e venoso nos ventrículos (sublinhados
+   acima) parcialmente divididos pelo septo de Sabatier.
+
+   IFRAME: /GabaritoVestibulares/Rodape

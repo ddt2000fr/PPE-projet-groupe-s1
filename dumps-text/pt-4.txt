@@ -1,0 +1,1287 @@
+
+   Menu
+     *
+     * Brasil
+          + Lista alfabética de periódicos
+          + Lista temática de periódicos
+          + Busca
+          + Métricas
+          + Sobre o SciELO Brasil
+          + Contatos
+          + Reportar erro
+     * SciELO.org - Rede SciELO
+          + Coleções nacionais e temáticas
+          + Lista alfabética de periódicos
+          + Lista de periódicos por assunto
+          + Busca
+          + Métricas
+          + Acesso OAI e RSS
+          + Sobre a Rede SciELO
+          + Contatos
+     * Blog SciELO em Perspectiva
+
+   Brasil
+    Tempo Social
+     * Logomarca do periódico: Tempo Social
+     * launch Submissão de manuscritos
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+    language pt_BR Português
+     * English
+     * Español
+
+    Tempo Social
+     * Logomarca do periódico: Tempo Social
+     * launch Submissão de manuscritos
+     * info Sobre o periódico
+     * help_outline Política editorial
+     * people Corpo Editorial
+     * help_outline Instruções aos autores
+     * email Contato
+     * show_chart Métricas
+
+   home Sumário navigate_before Anterior Atual Seguinte navigate_next
+    Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+    Texto (PT)
+     * Texto (Português)
+
+    PDF
+     * Download PDF (Português)
+
+    article Conteúdo: Texto (PT)
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+     * Texto (Português)
+     * Download PDF (Português)
+
+    share
+     * Whatsapp
+     * BlueSky
+     * Mastodon
+     * Facebook
+     * Mais
+
+   home Sumário
+    share
+     * Facebook
+     * X
+     * Google+
+     * LinkedIn
+     * Reddit
+     * StambleUpon
+     * CiteULike
+     * Mendeley
+
+    Resumo
+     * Resumo (Português)
+     *
+     * Resumo (Inglês)
+     *
+
+    Texto (PT)
+     * Texto (Português)
+
+    PDF
+     * Download PDF (Português)
+
+   DOSSIÊ – NAS TRAMAS DA CIDADE: PRODUÇÃO DE TERRITÓRIOS, MERCADOS,
+   CONFLITOS • Tempo soc. 37 (1) • Jan-Apr 2025 •
+
+Open-access No coração da cidade: Jogos de poder nos mercados populares
+
+In the heart of the city: power games in popular markets
+
+   AutoriaSCIMAGO INSTITUTIONS RANKINGS
+
+Resumo
+
+   Os mercados populares são marcados por intensos jogos de poder e de
+   interesses. Aqui são conformadas e disputadas formas de controle,
+   coerção e vigilância, por vias legais e extralegais, acionando no mesmo
+   passo dispositivos agressivos de extração de renda por via da transação
+   de mercadorias políticas e seus avatares, e que também compõem, e se
+   compõem, com os circuitos das riquezas em disputa (Tilly, 1996). Este é
+   o cenário de conflitualidade latente ou aberta em que os trabalhadores
+   que resistem acionam redes de confiança e recursos de ação frente às
+   disputas travadas em torno da lógica de funcionamento dos mercados
+   populares e das formas de governo desses territórios, sobretudo sob o
+   impacto da gestão diferencial da pandemia.
+
+   Mercados populares; Ilegalismos; Cidade; Trabalho
+
+Abstract
+
+   Popular markets are distinguished by intense power struggles and games
+   of power. Here, forms of control, coercion, and surveillance are both
+   established and contested, by way of legal and extralegal means, while
+   simultaneously activating aggressive mechanisms for income extraction
+   along the transaction of political commodities and their avatars, which
+   also constitute, and are constituted, by the circuits of wealth in
+   contention (Tilly, 1996). This is the scenario of latent or overt
+   conflict in which workers, who resist these dynamics, activate networks
+   of trust and tactics in response to the disputes surrounding the
+   operational logic of popular markets and the governance of these
+   territories, especially under the impact of differentiated pandemic
+   management.
+
+   Popular markets; Illegalisms; City; Work
+
+Introdução
+
+   O mercado popular do Brás, no centro da capital paulistana, é um
+   território marcado pelo “universo das trocas” (Braudel, 1998) – trocas
+   de bens e mercadorias, de informações, trocas mercantis nas mais
+   diversas escalas. É um território em disputa, marcado por uma
+   conflitualidade aberta ou latente. Em cena, vários atores: empresários
+   locais e transnacionais, pequenos e médios lojistas, trabalhadores
+   ambulantes, agentes e operadores dos poderes públicos.
+
+   Este artigo tem por objetivo mostrar que no cerne dessas disputas estão
+   as formas de controle do espaço, de gestão de suas populações e os
+   modos de apropriação da riqueza circulante. Para tanto, será importante
+   considerar o campo político que se constitui na tensão entre as formas
+   de controle e o “universo das trocas” (Braudel, 1998), que afeta modos
+   de resistir e viver em meio ao conflito, sobretudo durante a gestão
+   diferencial da pandemia (Aguiar, 2024). Essa última, mobilizada para
+   justificar a implementação de políticas de limpeza urbana, de expulsão
+   de populações, do aprofundamento de políticas punitivas e das
+   desigualdades sociais; culpabilizando e responsabilizando os
+   trabalhadores por uma tragédia social. Trabalhadores lançados à própria
+   sorte, sem terem o direito ao regime de isolamento social diante de um
+   cenário de caos, prejudicados pela ilegibilidade do Estado (Das e
+   Polle, 2008) para a obtenção dos tardios e limitados auxílios sociais,
+   fundamentais para a manutenção das vidas e tendo que batalhar
+   cotidianamente com o Estado pela sobrevivência. Dessa forma,
+   aprofundou-se todo um campo de conflito em diversas escalas, fruto dos
+   próprios processos históricos e sociais marcados pela recente guinada à
+   direita conservadora punitiva (Telles, 2019), cujos efeitos de seu
+   caráter perduraram ao longo da pandemia e permanecem em várias esferas
+   da sociedade brasileira, principalmente nas estruturas de funcionamento
+   do Estado, e nas práticas de seus agentes que, muitas vezes, se dão por
+   vias extralegais.
+
+   Nesse sentido, trata-se aqui de mapear e analisar as relações
+   conflituosas entre agentes estatais e trabalhadores urbanos. Nesses
+   mercados se inscrevem distintas práticas de controle e coerção, as
+   quais, por entre tramas institucionais e o jogo oscilante de acordos e
+   mediações políticas, operam nas fronteiras porosas entre o legal e o
+   ilegal. Busco seguir as indicações de Charles Tilly (1996) a propósito
+   dos nexos entre dispositivos de coerção e formação dos mercados, ou,
+   para colocar em outros termos, dispositivos de poder engendrados por
+   meio de práticas de apropriação/expropriação da riqueza circulante nas
+   redes urbanas de acumulação de capital. Em meio a essas dinâmicas
+   urbanas, há um “fazer Estado” por via da construção ou redefinição de
+   instrumentos e instâncias da burocracia estatal que agilizam formas de
+   repressão e expropriação, acomodando projetos urbanísticos e suas
+   facilitações de implementação, ao mesmo tempo que criam privilégios e
+   poder.
+
+   Neste campo de conflito e disputas acirradas, os trabalhadores
+   ambulantes constroem suas redes de confiança (Tilly, 2010) e mobilizam
+   recursos de ação como formas de viver e resistir em meio a uma
+   geografia urbana desigual e formas excludentes de gestão do espaço e
+   territórios.
+
+O cenário
+
+   Bairro na região central da cidade, o Brás é historicamente marcado por
+   perfil comercial. Na década de 1970, a inauguração de linhas de metrô
+   (a chamada linha vermelha) e de trem da Companhia Paulista de Trens
+   Metropolitanos (CPTM) estabeleceu a ligação do centro da capital
+   paulista com os bairros mais afastados e os municípios da Grande São
+   Paulo. Este foi um marco na consolidação e expansão do caráter
+   comercial da região. A partir da década de 1980, essa marca foi
+   aprofundada com a concentração de trabalhadores ambulantes no largo da
+   Concórdia (Freire da Silva, 2014). No início dos anos 2000, a região
+   passou a abrigar a chamada “feira da madrugada”, atraindo comerciantes
+   e consumidores de vários bairros, de cidades vizinhas e de outros
+   estados e países (Aguiar, 2024; Freire da Silva, 2014; Hirata, 2015;
+   Rangel, 2021). A chegada da feira da madrugada ao Brás fez com que a
+   região passasse a conferir outra escala de importância no circuito das
+   trocas. Esse movimento em direção ao território tem muito a dizer sobre
+   a riqueza circulante em torno desses espaços. A dissipação da feira da
+   madrugada para o Brás está no epicentro das disputas e conflitos que se
+   desenvolveram no correr dos anos ao redor desse mercado popular.
+
+   Originalmente estabelecida na rua 25 de Março como uma iniciativa das
+   organizações dos próprios ambulantes, a feira tinha o objetivo de
+   abastecer os trabalhadores ambulantes, o comércio atacadista e ampliar
+   as vendas para além do “horário comercial”. Diante do seu imediato
+   sucesso, os trabalhadores já experimentavam inúmeras investidas contra
+   suas formas de atuação mediante conflitos, sobretudo com lojistas da
+   região e agentes públicos. Há várias análises sobre o surgimento da
+   feira, como as já bem elaboradas por Freire da Silva (2014), Hirata
+   (2015) e Rangel (2021), e não nos cabe remontar cada uma delas em
+   detalhes. No entanto, é importante entender que está presente em todas
+   elas o conflito, seja entre as próprias organizações de camelôs, seja
+   entre os trabalhadores, seja desses com o poder público, e também com
+   os lojistas e empresários locais e transnacionais. Mesmo transferida
+   para o Brás grande parte da estrutura da feira, ela permanece
+   coexistindo na rua 25 de Março. O que ocorreu na verdade foi o
+   aprofundamento da disputa pela apropriação e concentração da riqueza
+   circulante no local.
+
+   São inúmeros conflitos travados em torno do controle do mercado ao
+   longo das últimas décadas, tanto na tentativa de confinar os
+   trabalhadores em áreas fechadas ao funcionamento do comércio da
+   madrugada (Hirata, 2015) – como no caso do antigo Pátio do Pari^1, onde
+   ocorria a principal estrutura da feira; quanto no controle do comércio
+   nas ruas daqueles que não conseguiram se inserir nos acordos entre os
+   atores que faziam a administração da feira, diante da cobrança de
+   pontos, propinas, ameaças etc.
+
+   Além disso, as constantes intervenções do Estado – seja se beneficiando
+   dos acordos firmados de forma extralegal, seja fazendo parcerias com os
+   setores privados – acabaram por empurrar cada vez mais trabalhadores
+   para as inseguranças das ruas, onde constantemente são alvos das
+   políticas de gestão e controle do poder público, muito bem acompanhado
+   de todo um aparato de segurança urbana, ainda mais com as mudanças nas
+   formas de governo da cidade para um modelo “securitário-militar”
+   (Idem), como será visto adiante.
+
+   Com o rápido crescimento e popularidade, sobretudo pela diversidade do
+   comércio atacadista e varejista no Brás (principalmente na madrugada,
+   mas também durante o dia), suas facilidades e vantagens econômicas,
+   baixos valores etc., não é de se espantar que o sucesso comercial do
+   mercado tenha chamado a atenção de outros atores. A entrada de
+   empresários transnacionais em cena promoveu novas alianças com o poder
+   público, visando a outros programas de intervenção urbana. Foi armada
+   toda uma megaestrutura com pesado investimento econômico para abastecer
+   e manter todo o comércio.
+
+   Em 2018, com a demolição do Pátio para a construção de um novo
+   megaempreendimento chamado “Circuito de Compras Feira da Madrugada” em
+   parceria com setores privados, trabalhadores, que antes estavam no
+   interior do galpão, passaram a disputar espaços com aqueles demais que
+   sempre se mantiveram ali. Ocuparam-se mais ruas, com mais atores, e
+   assim foram se amplificando as disputas pelo controle do mercado e de
+   suas riquezas.
+
+Dinâmica do mercado popular
+
+   A partir da meia-noite, inicia-se um intenso movimento de milhares de
+   pessoas percorrendo as ruas da região, sobretudo na confluência das
+   ruas dos bairros do Pari e do Canindé, vizinhos às fronteiras
+   administrativas do Brás. Esse conurbado de ruas destinadas ao comércio
+   é o que tenho chamado de centro comercial territorial, contemplando a
+   expansão das zonas de comércio.
+
+   São inúmeros trabalhadores que chegam de diversos cantos da cidade e de
+   cidades vizinhas. Muitos vêm de carro, outros chegam a pé de suas
+   moradias próximas, outros ainda aproveitam os trajetos por transportes
+   públicos antes do encerramento das atividades no início da madrugada.
+   Muitos sacoleiros abordam ao Brás das centenas de ônibus que se
+   aproveitam nos novos estacionamentos. As bancas vão sendo montadas uma
+   ao lado da outra, expondo mercadorias diversas. Lâmpadas luminosas são
+   instaladas no alto das bancas, reforçando a iluminação pública. As
+   lojas começam a abrir nas primeiras horas da madrugada e, por volta das
+   duas horas da manhã, as ruas são tomadas por um mar de gente que,
+   transitando em um labirinto de bancas e suas mercadorias, operam
+   transações comerciais, fazem empréstimos financeiros, agenciam esquemas
+   comerciais, alimentam distintas práticas de trabalho (puxador,
+   carregador de pesado, cafezeiras etc.). É dessa forma que o comércio da
+   madrugada transcorre enquanto o resto da cidade ainda está adormecida.
+
+   Cada “pedaço” do centro comercial territorial é organizado e gerido por
+   agrupamentos diferentes, os quais têm origens diversas, que vão desde a
+   cooperativa de trabalhadores, entidades, associações e até grupo de
+   agiotas. Cada um desses atores possui dispositivos de atuação (com
+   práticas mais ou menos violentas) para se organizarem: valores de
+   compra e venda de ponto, aluguel de espaço, contribuições para o
+   pagamento da energia elétrica para a madrugada, negociações e acordos
+   com agentes do Estado feitas e refeitas a depender dos interesses de
+   momento.
+
+   Os pontos na rua são previamente demarcados por meio de contratos,
+   alguns informais, de compra ou locação estabelecidos pelos agrupamentos
+   responsáveis pela organização dos espaços. Não poucas vezes, os agiotas
+   atuam cobrando sua parte confiscando bancas, no caso de endividamento
+   não pago. Os preços de um ponto podem variar entre 50 mil reais e 200
+   mil reais, dependendo da sua localização e com quem se está negociando.
+   Ademais, os trabalhadores precisam pagar uma taxa de manutenção e
+   segurança da rua para os grupos que fazem a organização da feira,
+   evitando que outros ocupem seus espaços.
+
+   Em alguns casos, é necessário fazer o rateio da conta de energia, nos
+   lugares onde foi instalado um relógio de fornecimento de luz, em
+   resposta às inúmeras denúncias de instalação de “gatos”. Nas ruas em
+   que persiste o uso de “gatos”, o serviço também é cobrado. A depender
+   da fiscalização do dia, os trabalhadores pagam uma “caixinha” para
+   policiais e fiscais para evitar a apreensão de suas mercadorias e para
+   tocar os negócios com mais tranquilidade. Também convém pagar por
+   “informantes”, pessoas que compõem as equipes de fiscalização e que
+   fornecem informações sobre o “rapa” – quando, onde, em quais ruas. Esse
+   custo é dividido entre vários ambulantes, assim como o pagamento de
+   “olheiros” que, em pontos estratégicos da região, vigiam a movimentação
+   do policiamento e da fiscalização.
+
+   Com o sol querendo nascer, as bancas começando a ser desmontadas, há
+   outros atores parados nas esquinas das ruas, esperando um sinal. São
+   homens e mulheres portando grandes e pesadas sacolas, outros puxando
+   carrinhos abastecidos com as mercadorias que adquiriram horas antes.
+   Estão aguardando a sua vez de ocupar as ruas do comércio e vender o que
+   acabaram de comprar, retroalimentando o comércio da madrugada, durante
+   o horário comercial. Com as bancas desmontadas, soando as seis horas no
+   relógio, alguns homens dispostos nas esquinas e nas extremidades das
+   ruas anunciam com gestos de mão que, a partir daquele momento, já
+   poderiam tomar seus lugares e iniciar uma nova dinâmica do comércio
+   local. São os seguranças particulares da feira, contratados para
+   garantir a organização do local
+
+   Mal dado o sinal pelos seguranças, inicia-se a disputa pela ocupação do
+   solo. As lonas azuis e pretas tomam conta do espaço que minutos antes
+   eram ocupados por bancas. Formam-se fileiras de lonas com diversas
+   mercadorias. Os ambulantes ocupam pontos de comércio previamente
+   definidos, reservados, por via de acordos locais mediante o pagamento
+   de uma taxa semanal que pode chegar a 70 reais, outros conseguem
+   trabalhar sem pagar. No início da manhã, as ruas da região se modificam
+   e ganham outros contornos. Os trabalhadores da madrugada que persistem
+   no local além do horário buscam outros espaços para expor suas
+   mercadorias: aqueles que antes ficavam em pontos mais escondidos agora
+   buscam ganhar os pontos mais centrais das ruas, em especial os
+   cruzamentos de esquinas, muito visados pela circulação de consumidores.
+
+   Dependendo do dia, esse cenário ganha a presença da volante, uma van da
+   equipe de fiscalização da prefeitura, com seus homens portando coletes
+   laranjas (os chamados de laranjinhas), acompanhados de outras vans com
+   mais fiscais e de viaturas da Guarda Civil Metropolitana e da Polícia
+   Militar. É o “rapa” chegando. A van estaciona no meio da rua, descem os
+   laranjinhas, e inicia-se a apreensão das mercadorias, muitas vezes
+   acompanhada de práticas de violências e abusos de poder. Seja pela
+   madrugada ou durante o dia, os celulares dos trabalhadores avisam,
+   através de grupos de WhatsApp e Telegram, se haverá operação, por qual
+   caminho a volante está passando, os pontos de movimentação do
+   policiamento etc. É preciso escapar para não ter a mercadoria
+   apreendida. Os trabalhadores começam a percorrer as ruas em busca de um
+   local seguro, fora da mira da fiscalização, guiados pelas mensagens.
+
+   Por volta do início da tarde, os pontos de comércio começam a se
+   esvaziar. Algumas lojas, shoppings e galerias fecham suas portas,
+   grande parte dos sacoleiros e turistas já foram embora. No final da
+   tarde as ruas já estão adormecidas. Enquanto isso, do outro lado da
+   região, próximo ao largo da Concórdia, as calçadas em frente à estação
+   de trem e metrô Brás, a sequência da avenida Celso Garcia e arredores
+   estão repletos de um pujante comércio e venda ambulante até por volta
+   das 19h30 da noite. Em suas ruas, poucas bancas regularizadas pelo
+   poder público.
+
+   Neste mercado popular circula uma miríade de mercadorias. Em sua
+   maioria peças de vestuários, algumas importadas, sobretudo da China,
+   facilidades pelas rotas comerciais fortalecidas no período mais
+   recente, chegando cada vez mais por vias diretas através do aumento da
+   migração chinesa ao Brasil, destinando-se às galerias, lojas e às
+   comunidades (Freire da Silva, 2018). Outras tantas mercadorias são
+   produzidas no polo comercial da chamada Sulanca no agreste pernambucano
+   (Rangel, 2021), ou então peças costuradas em oficinas instaladas nos
+   arredores e regiões periféricas da cidade. Isto é, há toda uma cadeia
+   de valor que se conecta no mercado popular do Brás. Em outros termos, é
+   toda uma economia política das trocas que modela o mercado e as ações
+   dos atores, atravessados por desigualdades e hierarquias de poder, e
+   pelos mercados políticos de proteção, constitutivos de modos de
+   regulação dos mercados informais (Misse, 2006).
+
+   Os trabalhadores, por sua vez, para manter suas atividades face às
+   operações de controle e repressão dos poderes públicos, constroem
+   formas de astúcias (Certeau, 2009), recursos de ação para driblar a
+   fiscalização, evitar a apreensão de mercadorias e garantir o seu
+   comércio. Ambulantes sem licença e autorização legal para suas
+   atividades mobilizam diversos acordos entre eles e os demais atores na
+   rua. A depender de com quem se está negociando, as mediações podem
+   variar: mediações contratuais, como é o caso das associações e
+   cooperativas que possuem cadastro dos trabalhadores com posse do ponto
+   da rua; mediações feitas por meio de acordos verbais para os pagamentos
+   de locação de ponto. Há também formas de extorsão e ameaças em caso de
+   apropriação indevida do espaço – quem não “pagou” para estar na rua e a
+   depender do grupo com quem se negocia, ocorre forte utilização de
+   recursos de violência. Existe uma lógica de organização dos mercados
+   populares, articulada entre diversos atores e por meio de distintas
+   práticas de gestão de espaços, nas fronteiras incertas entre o informal
+   e o ilegal.
+
+   Nos anos da pandemia, conflitos, dinâmicas e formas de funcionamento do
+   território passaram por reconfigurações, sobretudo sob impacto de novos
+   projetos urbanísticos dos poderes públicos em parceria com o setor
+   privado, em especial do ramo imobiliário. A partir daí, caracteriza-se
+   um novo momento de disputas em torno do controle e da gestão do espaço
+   público urbano, marcado pelo escalonamento da violência.
+
+O comércio popular na pandemia
+
+   É o mês de junho do ano de 2020, o relógio marca 5 horas da manhã,
+   ainda não amanheceu totalmente. Estou entre a rua Tiers e a Alexandrino
+   Pedroso, região do centro comercial territorial. A maioria das lojas
+   estão fechadas. Ao meu redor, uma massa de trabalhadores ambulantes –
+   alguns mascarados, outros com as proteções apenas no queixo –
+   espalhados por todas as calçadas. Aos seus pés, as lonas esticadas no
+   chão com máscaras de tecido, moletons, blusas, camisetas, shorts e
+   roupas infantis à venda.
+
+   Com menos consumidores do que de costume, o comércio do Brás continuava
+   suas atividades na medida do possível, de forma não autorizada,
+   contrariando o regime de isolamento social provocado pelo vírus da
+   covid-19. Em questão de minutos, o cenário acima descrito se desfaz, a
+   dinâmica agora é outra. Os ambulantes levantam suas lonas, caminham de
+   um lado a outro com as mercadorias nas mãos. Vão para outro ponto,
+   conversam e esperam, como se alguma coisa fosse acontecer. Minutos
+   depois passam as vans da equipe de fiscalização, com seus muitos
+   laranjinhas; logo atrás, viaturas da Guarda Civil Metropolitana (GCM) e
+   da Polícia Militar. É essa a equipe responsável pelo controle e gestão
+   do espaço, pelas apreensões e repressão ao comércio ambulante na
+   região.
+
+   Mal o rapa passa, os que conseguiram se salvar das apreensões voltam
+   aos seus pontos. Momentos depois, a cena ganha um novo elemento. Agora,
+   por volta das 7 horas da manhã, um homem sai de dentro de um dos
+   shoppings. Mesmo com o edifício fechado, ele transita nas calçadas
+   pedindo aos ambulantes para saírem da frente das portas fechadas e se
+   afastarem dos muros. Com uma arma aparente presa no cós de sua calça,
+   sem portar máscara na face: ele faz a vigilância da calçada. É um
+   policial que, nas horas vagas, atua como segurança desse shopping. De
+   hora em hora a cena se repete. Se o ambulante se recusa a sair, minutos
+   depois as equipes da prefeitura chegam até ele.
+
+   Em março de 2020, declarada a pandemia de covid-19, prefeitura e
+   governo do Estado decretaram o fechamento de todo o comércio da cidade.
+   A prefeitura suspendeu os chamados “Termos de Permissão de Uso da rua”
+   e as licenças autorizadas nos quadros do programa “Tô Legal!”, ambos
+   destinados ao funcionamento do comércio ambulante na cidade. No
+   entanto, em abril de 2020, pouco mais de um mês depois de decretada a
+   quarentena, o centro comercial territorial do Brás era um dos
+   principais lugares com os maiores índices de registros de infecção e
+   mortes pela covid-19 (Rodrigues, 2020), segundo os registros oficiais.
+   Até o mês de dezembro do mesmo ano, a região liderava os rankings
+   oficiais de mortes pelo vírus: 257 vidas com nomes, famílias,
+   trabalhos, histórias, a cada 100 mil habitantes. Muito provavelmente,
+   dados subestimados.
+
+   Pouco tempo depois de decretado o regime de isolamento social, sem
+   saber se haveria ou não algum programa de assistência social para
+   garantir a sobrevivência, sem nenhuma certeza, a alternativa de
+   milhares de trabalhadores do comércio popular foi retornar ao trabalho,
+   mesmo com os riscos da infecção, sujeitos à repressão dos poderes
+   públicos em nome da “defesa da ordem pública”. A violência que recaiu
+   sobre eles não foi pequena. Foi fortalecido todo o aparato de guerra
+   para reprimir o comércio de rua. Viaturas e agentes da GCM, da PM,
+   muitas vezes acompanhados de cavalaria, do Bope, da Baep, da Rota, e
+   caminhões de guincho entravam em ação, dando reforço policial aos
+   agentes da fiscalização, contando ainda com o apoio de seguranças
+   privados e, por vezes, dos meios de comunicação que tratavam de alertar
+   o poder público sobre as atividades comerciais na região. Mercadorias e
+   equipamentos de trabalho eram apreendidos. A violência física, a marca
+   dessas operações: trabalhadores eram levados ao chão mesmo quando não
+   havia nenhuma resistência, ou mesmo apreensão de mercadorias que sequer
+   estavam expostas sob ameaça de desacato. A conhecida, de longa data,
+   criminalização do comércio de rua ganhava naqueles anos outra escala,
+   pois o que estava em jogo nessa operação repressiva, como iremos ver
+   mais adiante, era a economia política das trocas em uma região
+   disputada por pesados interesses econômicos e políticos.
+
+   Na pandemia, a rua foi a alternativa para muitos, não apenas aqueles
+   que estavam habituados ao comércio popular como vendedores ambulantes;
+   outros trabalhadores passaram a comprar mercadorias de ambulantes e
+   fornecedores para revenda, alguns pela internet. Nos períodos mais
+   agudos da pandemia era possível encontrar mais de 10 mil trabalhadores
+   no centro comercial territorial. Esses espaços do mercado popular se
+   reorganizaram em função das condições dadas naqueles anos. Sem a
+   estrutura da feira da madrugada, ônibus e vans de sacoleiros chegavam
+   às escondidas e estacionavam em locais próximos para não serem pegos
+   pela fiscalização. Os motoristas e guias de compras passaram a atuar
+   como intermediários entre os ambulantes e os clientes. Muitos deles
+   vinham sozinhos para fazer a retirada das mercadorias e entregá-las ao
+   consumidor final nas cidades abastecidas pelo comércio popular. Outros
+   sacoleiros, que antes compravam apenas dos shoppings, também tiveram
+   que buscar uma alternativa. Nos shoppings, agora semifechados, os
+   estacionamentos serviam para carga e descarga. Carros entravam um a um
+   para pegar mercadorias e depois davam lugar ao outro que prosseguia com
+   o movimento.
+
+   As mercadorias sofreram alterações seguindo a tendência do momento. A
+   principal mercadoria vendida eram as máscaras de proteção facial,
+   essenciais para evitar a disseminação da covid-19. Produzidas por
+   diversas pequenas oficinas espalhadas pela cidade, eram vendidas a
+   valores muito baixos, entre 2 e 5 reais. Para o ambulante, era
+   necessário vender um volume altíssimo delas para ter alguma recompensa
+   no seu negócio.
+
+   Nas galerias e shoppings da região, locatários de boxes deram descontos
+   nos aluguéis para que os comerciantes conseguissem manter o negócio até
+   o retorno das atividades comerciais; outros propuseram dividir o
+   aluguel em parcelas que acabavam se desdobrando em outras, e mais
+   outras, postergando e acumulando um endividamento sem fim. Muitos não
+   alcançaram quitar as dívidas e tiveram que entregar o ponto. Alguns
+   shoppings mantiveram o valor integral dos aluguéis de seus boxes, e
+   isso provocou o deslocamento de muitos desses pequenos comerciantes
+   para o comércio de rua, disputando espaços com os ambulantes.
+
+   Durante esse período, não havia mais ponto nem pagamento do ponto na
+   rua; quem chegava ocupava o espaço que encontrava. A dinâmica do
+   funcionamento da rua, descrita no tópico anterior, foi temporariamente
+   suspensa e refeita. O comércio de rua passou a ser praticado também por
+   atores que até então ocupavam outros espaços na dinâmica do comércio,
+   ou mesmo por aqueles que sequer trabalhavam ali. Todos esses atores
+   passaram a compartilhar o aumento da insegurança no exercício do
+   comércio, entre as possibilidades de apreensão de mercadorias e a
+   repressão das forças policiais. Tinham que lidar com essa espécie de
+   guerra urbana declarada contra o comércio de rua. Enquanto a cidade
+   dormia, a madrugada no Brás estava mergulhada em conflitos.
+
+   Está além dos objetivos deste artigo a discussão do que, em outra
+   ocasião, defini como a gestão diferencial da pandemia (Aguiar, 2024).
+   Entretanto, os elementos trazidos aqui nos ajudam a compreender os
+   desdobramentos atuais das políticas de gestão e controle do comércio
+   popular. Esses anos podem ser vistos como laboratório dos dispositivos
+   de controle e gestão desses territórios em disputa. Mas também foram
+   anos de experimentação, por parte dos ambulantes, de formas de
+   resistência que se desdobraram nos anos subsequentes.
+
+Formas de governo da cidade
+
+   Nas últimas duas décadas foram inúmeras as tentativas de retirada dos
+   trabalhadores da rua em nome do combate à pirataria e outros crimes
+   associados ao trabalho ambulante. Tentativas sem sucesso. Estes também
+   foram anos de crescimento expressivo do comércio de rua, acolhendo
+   trabalhadores que perderam seus empregos ou que sequer conseguiram
+   acesso ao mercado formal sob o impacto do desemprego, da precarização
+   do trabalho, do encolhimento do mercado formal de trabalho e da gestão
+   diferencial da pandemia. Grande parte dos recém-ingressantes no
+   comércio de rua passaram a engrossar as fileiras dos que não tinham
+   licença formal para o comércio de rua ou que tiveram suas licenças
+   suspensas em função de políticas cada vez mais restritivas e
+   excludentes de regulação dessas atividades. Parcelas mais precarizadas
+   do mercado popular constituem o contingente que mais cresceu nos
+   últimos anos. A falta de licenças para o exercício de suas atividades
+   os torna reféns de práticas extorsivas e abuso de poder de agentes
+   públicos.
+
+   Mas este é também o campo do conflito, alimentado por essas políticas
+   excludentes dos poderes públicos, as quais se processam no ambivalente
+   jogo entre proteção e extorsão, nas fronteiras mutantes entre os que
+   têm mais ou têm menos, ou nulas, chances de se manterem nas ruas. Os
+   aparatos de controle, coerção e violência são acompanhados por práticas
+   extralegais – cobrança de propina, extorsão, achaques, mercados de
+   proteção –, que vão se processando conforme as assinaturas do Estado
+   (Das e Polle, 2008) circulam, no modo como regras, normativas legais
+   “são agenciadas e negociadas, postas em ação nos contextos situados
+   desses territórios, redefinindo a distribuição do permitido, do
+   tolerado e do reprimido […]” (Telles, 2015 p. 525). Nessas disputas em
+   torno das fronteiras da lei, “fronteiras da lei como campo de disputa”,
+   vai se alterando toda “uma cartografia política, tanto quanto a
+   distribuição dos lugares, das posições, das hierarquias na ocupação dos
+   espaços” (Idem).
+
+   Os dispositivos de extração de valores por via dos mercados de
+   proteção, sempre no limiar da extorsão, são vários: cobrança de taxa de
+   segurança, ameaça de cassação de licenças, chantagem em torno da
+   ocupação de um ponto ou outro, além da extorsão aberta em troca da
+   preservação de mercadorias e equipamentos de trabalho. As “mercadorias
+   políticas” (Misse, 2006) circulam, configurando um mercado muito
+   rentável e que define, em boa medida, a dinâmica do comércio popular e
+   os modos de gestão de espaços por parte dos agentes públicos, em geral
+   implicados e muito interessados na apropriação/expropriação dessa
+   riqueza circulante. São instrumentos de coerção colocados em ação – de
+   um lado, o acionamento de proteção para garantir o próprio negócio; de
+   outro, formas de extorsão para expandir os meios de concentração da
+   riqueza circulante e que oscilam conforme o local, o tipo de riqueza e
+   os recursos de negociação do pequeno comerciante.
+
+   O fato é que se trata de uma região em disputa, colocando em cena um
+   jogo pesado de interesses: a prefeitura e seus ambiciosos projetos
+   urbanos para as áreas centrais da cidade; grupos empresariais
+   responsáveis pelo chamado “circuito de compras” dessa região, com suas
+   inúmeras galerias e os chamados shoppings populares, em conexão com os
+   circuitos financeiros de incorporadoras em um muito promissor mercado
+   imobiliário. Construir um “ambiente seguro para os negócios” é o lema a
+   justificar a virulência das formas de controle e repressão ao comércio
+   de rua. A “cidade livre da pirataria” é o mote dessas operações.
+
+   É dessa forma que se vai abrindo espaço para a presença dos
+   empreendimentos urbanos, como é o caso do Circuito de Compras.
+   Instalado no antigo local de funcionamento da feira da madrugada, seus
+   gestores inicialmente passaram a cobrar valores exorbitantes para a
+   locação de um box no local. Triplo processo de expulsão: de partida,
+   valores impagáveis para grande parte dos ambulantes no território;
+   outros foram retirados do local para a construção do prédio que haveria
+   de sediar o novo empreendimento comercial; quanto aos que se dispuseram
+   a arcar com o ônus dos altos valores cobrados pela locação, não
+   conseguiram manter seus negócios por muito tempo, dada a baixa
+   circulação de consumidores no prédio.
+
+   Outro importante empreendimento, na forma de parcerias entre a
+   prefeitura e grupos empresariais: a construção de onze shoppings,
+   inaugurados em 2018 por um grupo de empresários transnacionais, a
+   Federação dos Varejistas e Atacadistas do Brás (Fevabras). O fato é que
+   a região central do Brás, com seu entorno imediato, terminou por se
+   constituir em uma promissora frente de expansão de mercados. E é nesse
+   cenário, e por referência a esses jogos de interesses, que se deve
+   situar a agressividade das formas de controle e repressão ao comércio
+   de rua, acompanhada de um esforço sistemático de criminalização do
+   exercício do trabalho ambulante, associado ao crime de pirataria e
+   contrabando, também a supostas vinculações com organizações criminosas
+   e grupos milicianos.
+
+   Em trabalhos anteriores (Aguiar, 2013; Hirata, 2015; Freire da Silva,
+   2014), já era possível acompanhar o “endurecimento das formas de
+   controle na região, em que se conjugam interesses e escalas diversos de
+   poder, tudo isso temperado pela lógica securitária de gestão dos
+   espaços urbanos” (Telles e Freire apudTelles, 2015, p. 524),
+   “aproximando a ordem pública e segurança urbana com o uso da força
+   militar como instrumento governamental privilegiado de intervenção no
+   espaço público” (Hirata, 2012; Freire da Silva, 2014, p. 96).
+
+   A ordem era acabar com todos os ambulantes da rua, segundo o então
+   prefeito Gilberto Kassab (2012) em entrevista ao jornal Agora. É
+   importante lembrar que, nesse período (2006-2012), em primeiro lugar
+   houve um
+
+     […] novo design institucional a partir da criação de novas
+     secretarias que, através de suas atribuições próprias, reorganizaram
+     antigas coordenadorias, subsecretarias, autarquias, e outras
+     instituições relacionadas à construção da ordem pública. Em segundo,
+     e como consequência da criação dessas novas secretarias, as
+     prefeituras lançam mão de uma série de programas que de um lado
+     iluminam novas técnicas de aferição, mensuração e identificação de
+     questão da ordem pública, cuja instrumentalização se operacionaliza
+     através da ocupação do território urbano e a territorialização da
+     atuação das forças policiais. Foi assim que alguns anos depois da
+     criação da SMSU (Secretaria Municipal de Segurança Pública), a
+     chamada “Operação Delegada”^2, resultado de um convênio do governo
+     do estado de São Paulo por meio da Polícia Militar e da prefeitura
+     da cidade através da Secretaria de Coordenação das Subprefeituras,
+     alterou completamente o modo como o controle do comércio informal se
+     estrutura (Hirata, 2015, p. 96).
+
+   A presença de coronéis da PM ocupando os cargos de subprefeito e outras
+   funções do alto escalão da administração pública, como a Secretaria de
+   Segurança Pública, marcou o período. Estava se intensificando cada vez
+   mais um modelo de gestão de controle da cidade por fortes matizes
+   militares, sobretudo nos cargos administrativos e nas vias públicas.
+   Tendência essa que foi mobilizada pela prefeitura de Ricardo Nunes
+   (2021- até o presente) durante o período pandêmico e continuada até os
+   dias de hoje.
+
+   Além disso, com a perspectiva de limar o comércio ambulante, foram
+   promulgados decretos de cassação das licenças dos Termos de Permissão
+   de Uso (TPU)^3 durante a prefeitura de Kassab (2012-2016), mantidos nas
+   gestões municipais seguintes. Hoje, entre os poucos TPUs existentes,
+   cerca de 1500, 90% deles, estão assegurados mediante uma ação civil
+   pública, sob a justificada jurídica de irregularidades e
+   inconsistências desses decretos. Durante a pandemia, os trabalhadores
+   com licenças e autorizações foram os primeiros a terem seus documentos
+   suspensos como impedimento das atividades no período, e travou-se uma
+   verdadeira batalha com o poder público para retornarem, quando todo o
+   restante do comércio já estava em pleno exercício com perdão,
+   parcelamento e negociação de dívidas em razão dos meses fechados.
+   Enquanto isso, os ambulantes voltavam com dívidas pelo não pagamento
+   das taxas públicas, que continuaram sendo cobradas mesmo quando essas
+   estavam suspensas.
+
+   Entre histórias, fatos e rumores que circulam no comércio ambulante,
+   sabe-se da existência de um mercado extralegal em torno das licenças
+   existentes, como é o caso da venda e locação de “pontos de morto”,
+   permissionários falecidos cujas TPUs continuam ativas. O valor da banca
+   também circula como mercadoria política nas práticas de aluguel ou
+   concessão de licenças no nome de alguém que não existe mais, ou quando
+   se faz o reordenamento dos pontos para garantir melhor o benefício para
+   quem o faz.
+
+   Em resposta às reivindicações dos ambulantes por novas permissões
+   oficiais, a prefeitura implantou o programa “Tô Legal!” em 2019,
+   durante a gestão do prefeito Bruno Covas (2019-2021). Licença precária,
+   por prazo determinado, sem nenhuma garantia de renovação e que,
+   ademais, não contempla as áreas mais movimentadas de comércio.
+
+   A forma como o programa “Tô Legal!” foi implementado e sua lógica de
+   funcionamento sugerem que há todo um mercado de extração da riqueza
+   (extorsão) que se constitui. Tanto em torno das taxas a serem pagas,
+   quanto dos entraves burocráticos para o seu acesso. Armou-se, em torno
+   do programa também, todo um mercado de emissão de autorizações falsas
+   “vendidas” aos trabalhadores desavisados sobre o funcionamento do “Tô
+   Legal!”. Dessa forma, grupos responsáveis pelas falsas documentações
+   arrecadaram altos valores para emitir a documentação ao ambulante, que
+   logo é confiscada pela fiscalização, junto com toda a mercadoria e
+   equipamento de trabalho.
+
+   Para muitos, o pagamento das taxas é inviável, a depender de onde se
+   está trabalhando, o que pode gerar um ciclo de endividamento com o
+   poder público, impedindo o trabalhador de renovar ou emitir novas
+   autorizações, ainda mais quando os pontos estão espalhados em zonas
+   menos rentáveis da cidade. Ademais, a renovação não está garantida. Se
+   o ambulante se desloca para um local considerado mais lucrativo, é
+   necessário emitir uma nova autorização. Muitas vezes, para isso, é
+   necessário ter “boas relações internas” com agentes do poder público.
+   Com isso, alimentam-se dispositivos de coerção (expropriação, extração
+   da riqueza) que a formalização não elimina, pois isso passa por acertos
+   e negociações em torno de “mercadorias políticas” para acelerar ou
+   mesmo viabilizar o acesso ao documento oficial. E este é um mercado
+   altamente lucrativo.
+
+   São diversas as clivagens de status econômico nesses espaços, entre
+   aqueles que têm mais condições de investir ou alugar um ponto e outros
+   que apenas conseguem se manter no dia a dia nas ruas, contribuindo com
+   algumas “caixinhas”. E nessas clivagens também há variações de coerção
+   e extorsão, conforme o local e eventual situação de poder que o
+   ambulante ocupa no mercado popular. Tudo isso vai colocando em ação
+   atores locais poderosos, como é o caso de funcionários ligados ao poder
+   público vinculados às subprefeituras, que extorquem, ameaçam e propõem
+   saídas para quem “faz o jogo”. Em cada território se ouve falar de
+   alguém da prefeitura que “negocia” para ter uma banca ou para mudar de
+   ponto, acionando práticas clientelistas inscritas no poder público e
+   que operam nas fronteiras embaralhadas do legal e ilegal. São lógicas
+   estruturantes dessas formas de gestão desses espaços da cidade.
+
+   Segundo Hirata (2015, p. 114), são as interações decisivas entre atores
+   mercantis e agentes encarregados de seu controle que definem e
+   constituem formas de governo da cidade. São essas interações que também
+   alimentam redes de trocas, que fazem circular mercadorias de origens
+   variadas, muitas de origem duvidosa, pondo em ação agenciamentos locais
+   e territorializados que fazem a articulação entre o informal e os
+   circuitos ilegais das economias transnacionais (como contrabando,
+   pirataria, falsificação).
+
+   Os mercados de extorsão e proteção também se sustentam das políticas de
+   intervenção urbana contra os trabalhadores, estruturando uma extensa
+   rede de práticas extralegais. Fazem parte dos modos operatórios de
+   funcionamento do Estado, que, de um lado, mobilizam todo um aparato de
+   “guerra social” contra os ambulantes e, por outro, reforçam formas
+   centralizadas de coerção e extração (e apropriação) da riqueza
+   circulante. São esses campos de batalha urbana que conformam a gestão
+   política desses territórios. A gestão desses espaços e as políticas de
+   intervenção urbana passam também pelo terreno encoberto dos acordos em
+   torno de cobranças de propina, extorsão e achaques, alimentando
+   circuitos e processos de concentração da riqueza circulante pelo jogo
+   de atores envolvidos.
+
+   Estamos no coração do que Foucault (1986) define como gestão
+   diferencial dos ilegalismos, colocando em foco os modos como as leis
+   operam, não para coibir ou suprimir os ilegalismos, mas para
+   diferenciá-los, “riscar os limites de tolerância, dar terreno para
+   alguns, fazer pressão sobre outros, excluir uma parte, tornar útil
+   outra, neutralizar estes, tirar proveito daqueles” (Foucault, 1996, p.
+   226). Há diversos dispositivos acionados para movimentar os mercados de
+   proteção, seja cobrando taxas de segurança para evitar a apreensão de
+   mercadorias, seja ameaçando de cassação de TPU, alegando supostas
+   irregularidades. As mercadorias políticas circulam, configurando um
+   mercado muito rentável. É mais uma faceta da gestão diferencial dos
+   ilegalismos. São os instrumentos de coerção colocados em ação – de um
+   lado, o acionamento de proteção para garantir o negócio; de outro,
+   formas de extorsão para expandir os meios de concentração da riqueza
+   circulante, tanto nas formas violentas de expropriação, como pelas vias
+   nebulosas da negociação em torno de valores que variam conforme o local
+   e o tipo de mercadoria. É dessa forma que se vão constituindo
+   estruturas de manutenção e reforço de poderes locais.
+
+   No seu conjunto, as taxas pagas por cada um terminam por se compor e
+   somar um grande volume arrecadado; ao mesmo tempo, a apreensão de
+   mercadorias alimenta um outro mercado, algo como um mercado clandestino
+   no qual essas mercadorias são negociadas e revendidas em outros cantos.
+   Para “mostrar serviço” e justificar os pesados investimentos em
+   recursos de segurança da cidade, os fiscais tratam de aumentar ainda
+   mais o número de apreensões de mercadorias e equipamentos de trabalho,
+   alimentando ademais os cofres públicos com o pagamento das multas
+   cobradas dos ambulantes que tentam reaver seus produtos e objetos.
+
+   Podemos observar nas ruas esse jogo oscilante entre impedimentos e
+   permissões, os graus variados de controle, extorsão e coerção, que
+   penalizam as franjas mais precarizadas do comércio popular. Espalhados
+   em vários pontos de comércio de rua, são os ambulantes que não contam
+   com licenças oficiais para o exercício de suas atividades, que tampouco
+   têm recursos para negociar a aquisição informal/ilegal de um ponto.
+   Adquirem suas mercadorias na feira da madrugada para revendê-las no
+   correr do dia, um ganho no dia a dia, descontadas as taxas extralegais
+   para manterem o seu comércio – a caixinha da polícia, o pagamento de
+   seguranças privados, a propina dos fiscais.
+
+   Para além do que já foi analisado até este momento, é importante dizer
+   que a gestão diferencial da pandemia também acelerou os conflitos
+   urbanos postos desde outros tempos, momento em que a maquinaria estatal
+   operou regularmente em colocar em prática suas políticas urbanas de
+   limpeza, para conter os trabalhadores dos comércios informais, já havia
+   muito vistos como um problema. Essa maquinaria também operou para
+   proteger o empresariado, ao mesmo tempo que protegia um mercado de
+   extorsão produzido pelos próprios agentes públicos, conduzindo os
+   trabalhadores cada vez mais à precarização do trabalho e da vida e à
+   sujeição à gestão diferencial dos ilegalismos. Entretanto, diante do
+   mais assombroso contexto posto aos trabalhadores ambulantes, esses
+   buscaram repensar e articular formas de trabalhar, resistir e
+   sobreviver frente a um cenário de pobreza, violência e devastação.
+
+Astúcias do trabalho
+
+   No início da madrugada, em 1º de junho de 2020, o celular dos
+   ambulantes começa a soar. São mensagens chegando de um grupo do
+   aplicativo digital Telegram. Mensagens, vídeos e imagens chegam em
+   intensa velocidade, de diversos pontos, como frames de um filme que se
+   passa na região comercial do Brás. Os ambulantes são alertados:
+   “Pessoal, tem rapa”. As mensagens continuam informando “Rapa descendo
+   Miller. Bastante”, “Rapa na Rodrigues”. Os vídeos vão alimentando os
+   registros reafirmando as mensagens.
+
+   Ao longo do período pandêmico, o policiamento e os impedimentos
+   seletivos do comércio ambulante aumentavam as aflições dos
+   trabalhadores. Já circulava pelas ruas do Brás a informação de que a
+   partir daquele momento não poderiam mais armar suas bancas na
+   madrugada. Um ambulante chega a questionar: “O que será feito com o
+   pessoal que pagaram pontos caríssimos?”; outro responde: “Na verdade
+   eles já queriam acabar com a rua, só aproveitaram o momento!”.
+
+   Os ambulantes alertam uns aos outros que “todo cuidado é pouco”. “Todo
+   mundo da rua agora, tá descendo muita polícia, muita polícia mesmo”;
+   “Agora chegou os laranjinhas, tem um monte”; “SÓ A MULECADA DO RAPA TEM
+   MAIS DE OITENTA COLETES”;
+
+     Quem tá aí no Brás, sai, vem embora, tá de carro, vem embora, não
+     fica aí dando vacilo não, pra não perder mercadoria. E quem não foi
+     pro Brás não vai agora, aguarda, não vai rolar, eles vão ficar a
+     noite toda e amanhã de manhã outro plantão assume, então hoje não
+     vai dar. Pode esquecer um pouco hoje, não dá. Gente, vocês que tão
+     com carro na rua e vê camelô com carrinho de pé que está sem
+     automóvel, dá oportunidade deles saírem daí, ajuda eles a saírem
+     daí, por favor, chama, põe no carro, chega na frente solta, se der
+     pega outro de novo (Trabalhador 1).
+
+     Passou agora aqui os carros da prefeitura, os caminhão, os cara, a
+     polícia tá vindo, o cara passou até com guincho, mano, eita porra,
+     os cara passou até com guincho pra recolher o carro, caralho, porra,
+     mas passaram aqui na Tiers aqui ó, viraram a rua da Oriente, tão
+     aqui a GCM, duas viaturas da GCM. Os caras vieram preparado com
+     guincho e tudo, dois carros de laranjinha, o caminhãozinho e o
+     caminhão guincho atrás (Trabalhador 2).
+
+   A movimentação no grupo é intensa, os áudios e vídeos registram o forte
+   policiamento a postos para iniciar as operações. Alguns trabalhadores
+   circulam pelas ruas de carro fazendo as imagens, mostrando o
+   policiamento e a fiscalização em todo canto, impedindo o comércio.
+   Diante do desespero para a manutenção da vida já muito precária, mesmo
+   com intensa fiscalização, muitos se arriscam, mesmo com os alertas. Sem
+   as lonas no chão, apenas com as sacolinhas e mercadorias à mostra nas
+   mãos.
+
+   Em um dos vídeos compartilhados naquela madrugada de junho de 2020,
+   escuta-se ao fundo um homem narrando a cena: “Olha aí pessoal, polícia
+   aqui no Brás, na Rodrigues dos Santos, abrindo o carro do cara, pegando
+   toda a mercadoria do carro do cara. Pelo amor de Deus, isso não tem
+   condição, de fazer um negócio desse”.
+
+     Eu vi cachorro! Eu vi! O negócio tá fervendo de polícia aqui, rota,
+     tática, choque, Baep, todo mundo, tá todo mundo fazendo festa aqui
+     tomando geral. Trombei os meninos da fiscalização aqui, o pessoal
+     falou que vai até o meio-dia, meio-dia para e volta só três horas da
+     tarde (Trabalhador do Brás, via grupo do Telegram, 4/6/2020).
+
+   São inúmeros os registros feitos. Impossível comentar aqui todos eles.
+   Foi durante a pandemia que dois potentes grupos do Telegram foram
+   criados. Um deles buscava aglutinar ambulantes revendedores e
+   consumidores para a realização de vendas on-line. O outro grupo passou
+   a ser o principal responsável pelo monitoramento da fiscalização,
+   contribuindo com rotas de fugas dos ambulantes para não serem pegos
+   pelo aparato estatal. Esse último, quando comecei a acompanhar (em
+   junho de 2020), possuía cerca de 435 trabalhadoras(es) no Telegram. No
+   momento em que escrevo este artigo (outubro de 2024), o grupo possui
+   11303 membros. Esse rápido crescimento de trabalhadores organizados em
+   torno do grupo demonstra, além de sua potência, as necessidades
+   urgentes de construção de redes de confiança para fazer frente à
+   crescente violência dos agentes do Estado.
+
+   Diariamente, o grupo se movimenta com diversas informações. Com
+   trabalhadores espalhados pelos diversos pontos do centro comercial
+   territorial, o monitoramento da operação é atualizado em tempo real, o
+   que permite aos ambulantes saberem se é possível trabalhar naquele dia,
+   ou quais os caminhos para driblar a fiscalização.
+
+   Munidos das informações produzidas e compartilhadas nos grupos, os
+   ambulantes passam a mobilizar diversas formas de astúcias^4 (Certeau,
+   2009) para driblar a fiscalização e buscar alguma forma de praticar o
+   comércio popular.
+
+   No início do período pandêmico, foi criada uma espécie de drive-thru do
+   comércio popular. Carros de consumidores passavam pelas ruas, agora
+   esvaziadas de bancas e sem a aglomeração rotineira; era ali que atuavam
+   alguns poucos vendedores ambulantes expondo mercadorias nas mãos. E
+   assim foi por algumas semanas, até que o número de trabalhadores do
+   comércio popular foi aumentando; junto com eles, consumidores também
+   passaram a se arriscar nas ruas. Junto com esse movimento, a
+   fiscalização e as operações foram se intensificando.
+
+   Para não perder a mercadoria, os ambulantes passaram a trabalhar na
+   mão, andando no meio da rua puxando clientes, principalmente se não
+   encontrassem um canto para ficar. Trabalhavam com poucas mercadorias
+   que coubessem dentro de sacolas de supermercado, pois, se perdessem,
+   perderiam pouco. Eles também se concentravam em pontos circunscritos,
+   uma vez que as ruas estavam tomadas pelo policiamento; ficavam em
+   qualquer pedaço, mesmo se alguém chegasse para reivindicar o ponto: “É
+   só dar um passo pro lado, os camelôs se ajeitam”.
+
+   Os ambulantes mapeavam os dias dos “plantões sujos”, as equipes que se
+   revezavam nas operações; era uma forma de monitorar os horários
+   possíveis ao exercício do comércio. O horário mais seguro para
+   trabalhar seria entre 3 horas e 6 horas da madrugada, pois os horários
+   prioritários para apreensão se davam entre a meia-noite e as 3 horas.
+   Isso prejudicava os camelôs que dependiam de transporte público e que
+   tomavam o último trem da meia-noite. A recomendação era que esses
+   trabalhadores ficassem dentro do terminal Parque Dom Pedro até a rua
+   ficar mais segura: “Ir cedo pra rua é pra perder mercadoria”.
+
+   Ao longo da pandemia, sem poder armar a estrutura das bancas, as formas
+   de atuação eram improvisadas. Com o aviso da chegada do rapa pelos
+   canais digitais, os trabalhadores se antecipavam da chegada do
+   policiamento, buscando outros pontos mais tranquilos para atuar; outros
+   ainda se mantinham trabalhando “na mão”, puxando clientes; outros ainda
+   se aproveitaram e utilizaram os carros estacionados como esconderijos.
+   Quando não era possível escapar por completo, os ambulantes,
+   conhecedores de seus territórios de atuação, encontravam qualquer canto
+   para salvar, pelo menos, a mercadoria. Escondiam entre as frestas de
+   paredes entre uma loja e outra, chegavam até a esconder dentro das
+   lixeiras dispostas na rua, enquanto se disfarçavam de consumidores ou
+   se camuflavam no meio da multidão, até a passagem do rapa, para depois
+   recuperá-las.
+
+   Face ao recrudescimento da fiscalização, as bancas deram lugar aos
+   carros dos ambulantes, que se transformaram em ponto de venda, com
+   roupas dispostas em cabides pendurados nos vidros. Outros passaram a
+   utilizar carrinhos de supermercado. Entre os que tinham antes pontos
+   específicos de concentração para o trabalho, tiveram que se movimentar
+   a fim de despistar os representantes do Estado. Ambulantes que possuíam
+   clientes estabelecidos arriscavam ir à rua já com vendas garantidas.
+   Porém, nem sempre escapavam da fiscalização.
+
+   Por meio desses grupos digitais também foram organizadas redes de apoio
+   e solidariedade: aos companheiros de trabalho que perderam suas
+   mercadorias; campanhas de doações via pix aos parceiros “das antigas”
+   ou às suas famílias, que estariam passando necessidades; muitos
+   impossibilitados de trabalhar por doenças crônicas ou por fazerem parte
+   do grupo de risco de infecção da covid-19. Além disso, eram poderosas
+   ferramentas para mobilizar os trabalhadores em atos públicos contra a
+   violência e a repressão do comércio de rua e a iminência de retirada de
+   ambulantes em prol da construção de novos empreendimentos de parceria
+   público-privada.
+
+   O monitoramento do policiamento e fiscalização, e a construção de redes
+   de confiança (Tilly, 2010) por meio dos grupos digitais demonstraram a
+   importância dessas formas de articulação para lidar com as urgências do
+   cotidiano no comércio de rua. Todo um amplo universo de relações e
+   compartilhamentos ia sendo tecido, no dia a dia, nessa batalha nas
+   ruas. A cada troca de mensagens, também compartilhavam informações
+   atualizadas sobre o auxílio emergencial, receitas de chás e
+   medicamentos caseiros para a imunidade, pontos do “Bom Prato”^5, busca
+   de mercadorias, procura por oficinas de costura; e, sempre às 18 horas,
+   “orações ao Senhor Deus” e às vítimas da pandemia.
+
+   As cenas de violência vividas pelos trabalhadores, registradas e
+   compartilhadas nesses grupos, também se transformam em provas
+   (Weizmann, 2017) e denúncias dos modos operatórios de gestão e controle
+   da cidade. As tramas apresentadas nessas cenas digitais transformam-se
+   em ferramentas de lutas coletivas travadas também nos tribunais
+   públicos. Ao longo de todo esse período, diversos vídeos e imagens
+   foram captados e compartilhados para além de seus pares, registros que
+   também são mobilizados como materiais de defesa e denúncia através da
+   rede que se constituiu em torno do Fórum dos Ambulantes^6. Foram
+   diversas ações travadas pelo Fórum, informadas por esses materiais,
+   promovendo pressão política junto à prefeitura, à ouvidoria de polícia,
+   ao Ministério Público, em defesa do direito ao trabalho e à cidade.
+
+   Essas inúmeras astúcias foram possíveis graças às redes de confiança
+   construídas e fortalecidas ao longo desse período. Uma ferramenta
+   conectora de experiências, que aglutina as ruas do território e seus
+   atores concentrados em um único lugar, trocando mercadorias,
+   informações, rotas de fuga, registros das violências estatais sofridas
+   pelos trabalhadores urbanos, articulando atores e práticas políticas.
+
+Conclusão
+
+   Nos ancoradouros desse comércio, estão inscritas a dinâmica e uma
+   história urbana de longa duração. A novidade das últimas décadas está
+   na sua reconfiguração e inflexões que fizeram desse mercado alvo e
+   campo de disputa de pesados interesses corporativos, mobilizando
+   dispositivos de coerção e controle dos poderes municipais.
+
+   O período da pandemia da covid-19 impactou profundamente a forma de
+   funcionamento do território, acelerando outras reconfigurações no
+   funcionamento da rua, sobretudo mediante os projetos urbanísticos do
+   poder público em parceria com o setor privado, em especial do ramo
+   imobiliário. A partir daí marca-se um novo momento de disputas em torno
+   do controle e da gestão do espaço público urbano.
+
+   São inúmeros conflitos que marcam a história do mercado popular do Brás
+   e a da feira da madrugada, e não nos cabe remontá-las aqui. O
+   importante a compreender é que, nesse território, são travadas inúmeras
+   disputas em distintas escalas em torno do enorme volume de riqueza que
+   circula na região. Esse é fator que intensifica o acirramento das
+   disputas, pois o que está em jogo é a concentração da riqueza
+   circulante, extraída sob as mais distintas formas, tanto pelas vias
+   legais, quanto pelas vias extralegais.
+
+   Neste cenário, na contramão dessas formas de governo estão as astúcias
+   praticadas pelos trabalhadores ambulantes. Construção de redes de
+   confiança, potencializadas ou duplicadas no uso programático dos
+   recursos digitais, para se organizarem, protegerem e reagirem. Formas
+   de articulação que, ao promover ações de resistência, ancoradas nas
+   rotinas do comércio de rua, nos entregam também os registros da
+   cartografia do conflito constitutivo e estruturante do comercio
+   ambulante.
+
+Referências Bibliográficas
+
+     * AGUIAR, Ana Lídia (2013), Entre o comércio informal e as margens do
+       ilegal: Práticas de trabalho na rua 25 de Março. Guarulhos,
+       dissertação de mestrado, Escola de Filosofia, Letras e Ciências
+       Humanas da Universidade Federal de São Paulo, EFLCH-Unifesp.
+     * AGUIAR, Ana Lídia (2024), Nos caminhos do Brás: disputas, trocas e
+       resistências. São Paulo, tese de doutorado, Faculdade de Filosofia,
+       Letras e Ciências Humanas da Universidade de São Paulo, FFLCH-USP.
+     * BRAUDEL, Fernand. (1998), Civilização material, economia e
+       capitalismo: Séculos XV - XVIII. O jogo das trocas. São Paulo,
+       Martins Fontes.
+     * CERTEAU, Michel. (2009), A invenção do cotidiano. 1. Artes de
+       fazer. Petrópolis, Vozes.
+     * DAS, Veena & POOLE, Deborah. (2008), "El Estado y sus margenes.
+       Etnografias comparadas". Cuadernos de Antropogía Social, 27: 19-52.
+       Universidade de Buenos Aires - ISSN: 0327-3776.
+     * FOUCAULT, Michel. (1996), Vigiar e punir: Nascimento da prisão.
+       Petrópolis, Vozes, 1986.
+     * FREIRE DA SILVA, Carlos. (2014), Das calçadas às galreias: Mercados
+       populares do centro de São Paulo. São Paulo, tese de doutorado do
+       Programa de Pós-Graduação em Sociologia da Faculdade de Filosofia,
+       Letras e Ciências Humanas da Universidade de São Paulo, FFLCH-USP.
+     * FREIRE DA SILVA, Carlos. (jan./abr. 2018), "Conexões Brasil-China:
+       a migração chinesa no centro de São Paulo". Cad. Metrop ., São
+       Paulo, 20 (41): 223-243.
+     * HIRATA, Daniel. (2015), "Comércio ambulante no Rio de Janeiro e em
+       São Paulo: grupos de poder e instrumentos contemporâneos de
+       governo". In: BIRMAN et al. Dispositivos urbanos e trama dos
+       sobreviventes: ordens e resistências Rio de Janeiro, FGV Editora,
+       pp. 95-120.
+     * KASSAB, Gilberto. (11/05/2012), "Kassab cassa licenças para acabar
+       com todos os camelôs". [Entrevista cedida a] Morais, Simei. Jornal
+       Agora, São Paulo. Disponível em
+       consultado em 31/01/2025.
+     * MISSE, Michel. (2006), "As ligações perigosas: mercado informal,
+       ilegal e narcotráfico e violência no Rio de Janeiro". In: Crime e
+       violência no Brasil contemporâneo. Estudos de sociologia do crime e
+       da violência urbana Rio de Janeiro, Lumen Juris, pp. 179-210.
+     * RANGEL, Felipe. (2021), A empresarização dos mercados populares.
+       Trabalho e formalização excludente. Belo Horizonte, Fino Traço.
+     * RODRIGUES, Rodrigo. (27/04/2020), "Água Rasa e Pari, na Zona Leste,
+       têm maiores taxas de mortes confirmadas ou suspeitas por
+       coronavírus em SP". G1 SP, São Paulo. Disponível em:
+       ri-na-zona-leste-tem-maiores-taxas-de-mortes-confirmadas-ou-suspeit
+       as-por-coronavirus-em-sp.ghtml, consultado em 28/10/2023.
+       »
+       ri-na-zona-leste-tem-maiores-taxas-de-mortes-confirmadas-ou-suspeit
+       as-por-coronavirus-em-sp.ghtml
+     * TELLES, Vera da Silva. (2019), "Gestão dos ilegalismos, governo das
+       populações: redefinições sob a atual gramática da 'guerra e paz'".
+       III Simpósio de Antropologia Entre lo legal y lo ilegal Monterrey,
+       Mexico.
+     * TELLES, Vera da Silva. (2015), "As fronteiras da lei como campo de
+       disputa". In: PERALVA, Angelina & TELLES, Vera S. Ilegalismos na
+       globalização: migração, trabalho e mercados. Rio de Janeiro, UFRJ
+       Editora.
+     * TILLY, Charles. (1996), Coerção, capital e estados europeus São
+       Paulo, Edusp.
+     * TILLY, Charles. (jan.-jul. 2010), "Movimentos sociais como
+       política". Revista Brasileira de Ciência Política, Brasília, 3:
+       133-160.
+     * WEIZMAN, Eyal. (2017), Forensic architecture: Violence at the
+       threshold of detectability Nova York, Zone Books.
+
+     * 1
+       . O Pátio do Pari, inicialmente sob concessão da iniciativa
+       privada, servia como estacionamento aos ônibus. O terreno era
+       “administrado pela empresa ‘GSA Serviços Gerais e Transporte LTDA’,
+       por meio de um Termo de Permissão de Uso (TPU), desde 1997” (Freire
+       da Silva, 2014, p. 65), e depois destinado para a feira da
+       madrugada. Anos mais tarde, passou para a concessão privada do
+       Circuito de Compras por trinta anos. A história da Feirinha da
+       Madrugada ocorrida nesse espaço é marcada por inúmeros conflitos:
+       denúncias no Ministério Público, indiciamento em Comissão de
+       Inquérito Permanente (CPI) e ainda o assassinato de um dos seus
+       administradores em 2009.
+     * 2
+       . Não caberia nas páginas deste artigo refazer todo o debate, ainda
+       em aberto, acerca da Operação Delegada. Hirata (2015) e Freire da
+       Silva (2014) trazem importantes reflexões para entender o seu papel
+       tanto na fiscalização das regiões de grande comércio, quanto no
+       modelo de segurança pública adotado nas gestões municipais. O que
+       nos interessa aqui é compreender este convênio entre prefeitura e
+       polícia militar como um dos elementos das formas de governo do
+       Estado mobilizados na guerra social contra os trabalhadores.
+     * 3
+       . Desde meados da década de 2010, vários decretos foram emitidos
+       com fins de cassação de TPUs, confisco de mercadorias, remoção de
+       ambulantes etc., sobretudo os decretos n. 52.432, de 21 de junho de
+       2011, e o n. 53.154, de 18 de maio de 2018 – esse último revogava
+       todas os TPUs.
+     * 4
+       . “As astúcias utilizam, de forma vigilante, as falhas que as
+       conjunturas particulares vão abrindo na vigilância do poder
+       proprietário. […] cria ali surpresas. Consegue estar onde ninguém
+       espera.” (Certeau, 2009, p. 95). Isso porque, para Certeau, “as
+       forças são distribuídas, não se pode correr o risco de fingir com
+       elas. O poder se acha amarrado à sua visibilidade. Ao contrário, a
+       astúcia é possível ao fraco, e muitas vezes apenas ela, como
+       ‘último recurso’” (Idem).
+     * 5
+       . Programa de segurança alimentar do Estado de São Paulo que
+       oferece refeições a preços populares ou gratuitas, a depender da
+       vulnerabilidade da pessoa.
+     * 6
+       . O Fórum dos Ambulantes da cidade de São Paulo é uma iniciativa
+       dos próprios trabalhadores e do Centro Gaspar Garcia de Direitos
+       Humanos. Foi constituído em 2011 em face das políticas urbanas que
+       buscavam a retirada dos camelôs das ruas. É um espaço de
+       articulação de redes de apoio, em parcerias com a Defensoria
+       Pública, parlamentares, ouvidoria de polícia, além de entidades
+       nacionais e internacionais de defesa dos trabalhadores informais.
+
+     * Editora
+       Ana Paula Hey
+
+Datas de Publicação
+
+     * Publicação nesta coleção
+       08 Set 2025
+     * Data do Fascículo
+       Jan-Apr 2025
+
+Histórico
+
+     * Recebido
+       11 Out 2024
+     * Aceito
+       22 Jan 2025
+
+   Creative Common - by 4.0
+   This is an Open Access article distributed under the terms of the
+   Creative Commons Attribution Non-Commercial License, which permits
+   unrestricted non-commercial use, distribution, and reproduction in any
+   medium, provided the original work is properly cited.
+
+Autoria
+
+   
+   person Ana Lídia Aguiar
+   ANA LÍDIA AGUIAR é doutora em Sociologia pelo Programa de Pós-graduação
+   em Sociologia da Faculdade de Filosofia, Letras e Ciências Humanas da
+   Universidade de São Paulo, PPGS-USP. Pesquisadora colaboradora do
+   Projeto Extensão Fronteiras Cruzadas (Laps-USP) e professora da rede
+   pública estadual de educação.
+   school Universidade de São Paulo, São Paulo, Brasil. E-mail:
+   Brasil Universidade de São Paulo, São Paulo, Brasil. E-mail:
+   0009-0003-9906-9314
+
+   Editora
+
+   Ana Paula Hey
+
+SCIMAGO INSTITUTIONS RANKINGS
+
+   
+   Universidade de São Paulo, São Paulo, Brasil. E-mail:
+   Brasil Universidade de São Paulo, São Paulo, Brasil. E-mail:
+
+Como citar
+
+   
+
+   ____________________linkcopiar
+
+   vertical_align_top show_chart
+     * more_horiz close
+          + image
+          + translate
+          + link
+          + article
+          + vertical_align_top
+          + file_download
+          + show_chart
+          + image
+          + translate
+          + link
+          + article
+
+   location_on
+   Departamento de Sociologia da Faculdade de Filosofia, Letras e Ciências
+   Humanas da Universidade de São Paulo Av. Prof. Luciano Gualberto, 315,
+   05508-010, São Paulo - SP, Brasil - São Paulo - SP - Brazil
+   rss_feed Acompanhe os números deste periódico no seu leitor de RSS
+
+Versão para download de PDF
+
+   
+   PDF
+     * Português
+
+Artigos relacionados
+
+   
+     * Google
+     * Google Scholar
+
+Versões e tradução automática
+
+   
+   Versão original do texto
+     * Português
+
+   Tradução automática
+     * Google Translator
+     * Microsoft Translator
+
+Como citar
+
+   
+   RIS
+   BIBTEX
+   Outros formatos de citação e exportação:
+   [Enter references manager format or citation style (e.g., "APA", "AMA",
+    "MLA", "Vancouver")]
+
+   SciELO - Scientific Electronic Library Online
+
+   Rua Dr. Diogo de Faria, 1087 – 9º andar – Vila Clementino 04037-003 São
+   Paulo/SP - Brasil
+     *
+     *
+     *
+     *
+     *
+
+   Creative Common - by 4.0
+
+   CAPES CAPES CNPq CNPq FAPESP FAPESP BVS BVS BIREME BIREME FAP-UNIFESP
+   FAP-UNIFESP
+   CAPES CNPq FAPESP BVS BIREME FAP-UNIFESP
+
+   Open Access Leia a Declaração de Acesso Aberto
+
+Métricas
+
+   
+   SciELO Analytics
+   Dimensions
+   Altmetric
+   Scite_
+   No coração da cidade: Jogos de poder nos mercados populares
+   PlumX
+
+    ×Close
+
+Mensagem
+
+    ×Close
+
+Mensagem
+
+   Reportar erro
